@@ -1,210 +1,510 @@
 <!DOCTYPE html>
 <html lang="zh-TW">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>嘉義市 12年城市故障分析儀表板</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@300;400;700;900&family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
-    <style>
-        body { font-family: 'Noto Serif TC', serif; background-color: #Fdfbf7; color: #1a1a1a; line-height: 1.7; }
-        .serif-title { font-family: 'Playfair Display', 'Noto Serif TC', serif; }
-        .custom-border { border-color: #E2DFD8; }
-        .thick-border-top { border-top: 4px solid #1a1a1a; }
-        .elegant-shadow { box-shadow: 0 4px 24px -8px rgba(0,0,0,0.05); }
-        
-        /* 隱藏滾動條但保留滾動功能 */
-        .hide-scrollbar::-webkit-scrollbar { display: none; }
-        .hide-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>嘉義市城市問題儀表板 — 西區市政透明化</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;500;700;900&family=Inter:wght@300;400;600;700;900&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --orange: #F97316;
+      --navy:   #0F172A;
+      --slate:  #1E293B;
+      --bg:     #F8FAFC;
+    }
+    * { font-family: 'Noto Sans TC', 'Inter', sans-serif; }
+    .font-en { font-family: 'Inter', sans-serif; }
+    html { scroll-behavior: smooth; }
+
+    /* 滾動動畫 */
+    @keyframes fadeUp { from { opacity:0; transform:translateY(24px); } to { opacity:1; transform:translateY(0); } }
+    .fade-up { animation: fadeUp .6s ease both; }
+    .delay-1 { animation-delay: .1s; }
+    .delay-2 { animation-delay: .2s; }
+    .delay-3 { animation-delay: .3s; }
+    .delay-4 { animation-delay: .4s; }
+
+    /* 數字跳動 */
+    @keyframes countUp { from { opacity:0; } to { opacity:1; } }
+    .counter { animation: countUp .5s ease; }
+
+    /* 卡片 */
+    .card { background:#fff; border-radius:16px; box-shadow:0 1px 3px rgba(0,0,0,.06), 0 4px 16px rgba(0,0,0,.04); }
+    .card:hover { box-shadow:0 4px 24px rgba(0,0,0,.1); transition: box-shadow .2s; }
+
+    /* 進度條動畫 */
+    @keyframes barGrow { from { width:0; } to { width:var(--w); } }
+    .bar-fill { animation: barGrow .8s ease forwards; animation-delay: .3s; width:0; }
+
+    /* 議題顏色 */
+    .cat-道路工程  { --cat:#EF4444; }
+    .cat-路燈照明  { --cat:#F59E0B; }
+    .cat-停車亂象  { --cat:#8B5CF6; }
+    .cat-水溝排水  { --cat:#3B82F6; }
+    .cat-噪音管制  { --cat:#F97316; }
+    .cat-環境衛生  { --cat:#10B981; }
+    .cat-其他      { --cat:#94A3B8; }
+    .cat-dot { width:10px; height:10px; border-radius:50%; background:var(--cat); flex-shrink:0; }
+
+    /* 新聞卡片 */
+    .news-card { border-left: 3px solid var(--orange); }
+
+    /* 滾動條 */
+    .hide-scroll::-webkit-scrollbar { display:none; }
+    .hide-scroll { -ms-overflow-style:none; scrollbar-width:none; }
+
+    /* 漸層 hero */
+    .hero-grad {
+      background: linear-gradient(135deg, #0F172A 0%, #1E293B 60%, #0F172A 100%);
+    }
+
+    /* 響應式表格 */
+    @media (max-width:768px) {
+      .table-scroll { overflow-x:auto; }
+      .hide-mobile { display:none !important; }
+    }
+  </style>
 </head>
+<body style="background:var(--bg); color:#1E293B;">
 
-<div class="fixed bottom-10 right-10 z-50">
-    <button onclick="triggerUpdate()" class="bg-red-600 text-white px-6 py-3 rounded-full shadow-lg font-bold hover:bg-red-700 transition-all">
-        手動更新數據
-    </button>
-</div>
+<!-- ══════════════════════════════════════════════════════
+     HERO：黑色英雄區
+══════════════════════════════════════════════════════ -->
+<header class="hero-grad text-white relative overflow-hidden">
+  <!-- 背景裝飾 -->
+  <div class="absolute inset-0 opacity-5" style="background-image:repeating-linear-gradient(0deg,transparent,transparent 39px,rgba(255,255,255,.3) 39px,rgba(255,255,255,.3) 40px),repeating-linear-gradient(90deg,transparent,transparent 39px,rgba(255,255,255,.3) 39px,rgba(255,255,255,.3) 40px);"></div>
 
-<script>
-function triggerUpdate() {
-    alert("已送出更新請求，系統將於 30 秒內自動執行爬蟲並重繪儀表板，請稍後重新整理頁面。");
-    // 此處你可以直接導向 GitHub 的 Action 頁面來觸發
-    window.location.href = "https://github.com/elvismtlee/chiayi2026/actions";
-}
-</script>
+  <div class="max-w-6xl mx-auto px-6 py-16 relative">
+    <div class="max-w-3xl">
+      <div class="flex items-center gap-3 mb-6 fade-up">
+        <span class="bg-orange-500 text-white text-xs font-en font-bold px-3 py-1 rounded-full tracking-widest uppercase">Live Data</span>
+        <span class="text-slate-400 text-sm font-en" id="last-update">最後更新：載入中...</span>
+      </div>
 
+      <h1 class="text-4xl md:text-6xl font-black leading-tight mb-4 fade-up delay-1">
+        嘉義市<span style="color:var(--orange)">城市問題</span><br>12 年大數據
+      </h1>
+      <p class="text-slate-300 text-lg md:text-xl font-light leading-relaxed mb-10 fade-up delay-2">
+        嘉義市西區 12 年間，市民透過 1999 投訴了多少次同樣的問題？<br>
+        議員到底有沒有在幫你質詢這些問題？數據說了算。
+      </p>
 
-    
-<body class="min-h-screen p-6 md:p-12">
-    <header class="max-w-7xl mx-auto text-center border-b-[1px] custom-border pb-10 mb-10">
-        <div class="thick-border-top w-24 mx-auto mb-8"></div>
-        <p class="text-xs uppercase tracking-[0.2em] text-stone-500 font-sans mb-4">CHIAYI CITY WEST DISTRICT // OMNI-CHANNEL POLICY RADAR</p>
-        <h1 class="serif-title text-4xl md:text-5xl font-black mb-6 text-stone-900 leading-tight">嘉義市城市故障分析<br>與 全網輿情動態儀表板</h1>
-        <p class="text-sm md:text-base text-stone-600 max-w-2xl mx-auto font-light leading-relaxed">
-            「科技分析城市問題，文化理解地方生活。<br>結合官方數據、媒體報導與 Threads 網路聲量，精準定位市政盲區。」
-        </p>
-    </header>
-
-    <div class="max-w-7xl mx-auto grid grid-cols-1 xl:grid-cols-4 gap-8 mb-16">
-        <!-- 左側：市政數據與圖表 (佔 3 欄) -->
-        <div class="xl:col-span-3 space-y-8">
-            <!-- 數據卡片 -->
-            <section class="grid grid-cols-1 md:grid-cols-3 gap-6 font-sans">
-                <div class="bg-white p-6 border-[0.5px] custom-border elegant-shadow">
-                    <h3 class="text-[11px] font-bold uppercase tracking-widest text-stone-400 mb-2">累計收錄民怨件數</h3>
-                    <p class="text-4xl font-light serif-title text-stone-800" id="metric-total">0</p>
-                </div>
-                <div class="bg-white p-6 border-[0.5px] custom-border elegant-shadow">
-                    <h3 class="text-[11px] font-bold uppercase tracking-widest text-stone-400 mb-2">最核心市民痛點</h3>
-                    <p class="text-xl font-bold text-amber-900 mt-2" id="metric-top-category">-</p>
-                </div>
-                <div class="bg-white p-6 border-[0.5px] custom-border elegant-shadow">
-                    <h3 class="text-[11px] font-bold uppercase tracking-widest text-stone-400 mb-2">網路負面聲量最高路段</h3>
-                    <p class="text-xl font-bold text-red-800 mt-2">西區中山路</p>
-                </div>
-            </section>
-            
-            <!-- 圖表 -->
-            <section class="grid grid-cols-1 md:grid-cols-2 gap-6">
-                <div class="bg-white p-6 border-[0.5px] custom-border elegant-shadow flex flex-col">
-                    <h2 class="text-sm font-bold uppercase tracking-widest text-stone-800 mb-4 border-b pb-2 custom-border font-sans">1999 通報議題類別佔比</h2>
-                    <div class="flex-grow relative min-h-[250px]"><canvas id="chartCategories"></canvas></div>
-                </div>
-                <div class="bg-white p-6 border-[0.5px] custom-border elegant-shadow flex flex-col">
-                    <h2 class="text-sm font-bold uppercase tracking-widest text-stone-800 mb-4 border-b pb-2 custom-border font-sans">西區十大民怨路段排行</h2>
-                    <div class="flex-grow relative min-h-[250px]"><canvas id="chartRoads"></canvas></div>
-                </div>
-            </section>
+      <!-- 大數字 KPI -->
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-4 fade-up delay-3">
+        <div class="bg-white/10 backdrop-blur rounded-2xl p-5 border border-white/10">
+          <div class="text-orange-400 text-xs font-en font-bold tracking-widest uppercase mb-2">總投訴件數</div>
+          <div class="text-4xl font-black font-en counter" id="kpi-total">0</div>
+          <div class="text-slate-400 text-xs mt-1">件民怨紀錄</div>
         </div>
+        <div class="bg-white/10 backdrop-blur rounded-2xl p-5 border border-white/10">
+          <div class="text-orange-400 text-xs font-en font-bold tracking-widest uppercase mb-2">最大痛點</div>
+          <div class="text-2xl font-black" id="kpi-top-cat">—</div>
+          <div class="text-slate-400 text-xs mt-1">市民投訴第一名</div>
+        </div>
+        <div class="bg-white/10 backdrop-blur rounded-2xl p-5 border border-white/10">
+          <div class="text-orange-400 text-xs font-en font-bold tracking-widest uppercase mb-2">問題最多路段</div>
+          <div class="text-2xl font-black" id="kpi-top-road">—</div>
+          <div class="text-slate-400 text-xs mt-1">全區投訴熱點</div>
+        </div>
+        <div class="bg-white/10 backdrop-blur rounded-2xl p-5 border border-white/10">
+          <div class="text-orange-400 text-xs font-en font-bold tracking-widest uppercase mb-2">本月新增</div>
+          <div class="text-4xl font-black font-en counter" id="kpi-month">0</div>
+          <div class="text-slate-400 text-xs mt-1">件本月投訴</div>
+        </div>
+      </div>
+    </div>
+  </div>
 
-        <!-- 右側：全網輿情與新聞追蹤 (佔 1 欄) -->
-        <aside class="xl:col-span-1">
-            <div class="bg-[#f7f5f0] p-6 border-[0.5px] custom-border h-full flex flex-col">
-                <div class="flex items-center justify-between border-b-[2px] border-stone-800 pb-3 mb-6">
-                    <h2 class="text-base font-black text-stone-900 tracking-wider">全網即時輿情雷達</h2>
-                    <span class="relative flex h-3 w-3">
-                      <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-red-400 opacity-75"></span>
-                      <span class="relative inline-flex rounded-full h-3 w-3 bg-red-500"></span>
-                    </span>
-                </div>
-                <!-- 新增篩選器標籤 -->
-                <div class="flex gap-2 mb-4 font-sans">
-                    <span class="px-2 py-1 text-[10px] font-bold tracking-widest text-white bg-stone-800 cursor-pointer">綜合</span>
-                    <span class="px-2 py-1 text-[10px] font-bold tracking-widest text-stone-500 border border-stone-300 cursor-pointer hover:bg-stone-200">Threads</span>
-                    <span class="px-2 py-1 text-[10px] font-bold tracking-widest text-stone-500 border border-stone-300 cursor-pointer hover:bg-stone-200">新聞</span>
-                </div>
-                <div class="space-y-4 overflow-y-auto flex-grow hide-scrollbar pr-1" style="max-height: 600px;">
-<div class="block p-5 bg-white border-[0.5px] border-[#E2DFD8] shadow-sm hover:bg-stone-50 transition-colors group"><div class="flex justify-between items-center mb-3"><span class="px-2 py-0.5 text-[10px] font-sans font-bold tracking-widest uppercase bg-stone-800 text-white">即時新聞</span><span class="text-[11px] text-stone-400 font-mono">20 May 2026</span></div><a href="https://news.google.com/rss/articles/CBMiakFVX3lxTE5VNEpSYzhDc19FZXJiOVBwajVaODdhTnpzUUFGTi1nVm1VZ2hJbGFPZDRHc3lHd3puOFYybm0tc05wd25ySkgwenU2ZHNQeUdXWWVDYU9RcFRPYnBUb0tFVlQ2aGxKUDRqLXc?oc=5" target="_blank" class="text-[14px] font-bold text-stone-900 leading-relaxed mb-2 group-hover:text-amber-900 transition-colors block">嘉義市西區區公所115年地方公職人員選舉投開票所工作人員招募</a><div class="text-[11px] font-sans text-stone-400 uppercase tracking-widest">chiayi.gov.tw</div></div><div class="block p-5 bg-white border-[0.5px] border-[#E2DFD8] shadow-sm hover:bg-stone-50 transition-colors group"><div class="flex justify-between items-center mb-3"><span class="px-2 py-0.5 text-[10px] font-sans font-bold tracking-widest uppercase bg-stone-800 text-white">即時新聞</span><span class="text-[11px] text-stone-400 font-mono">20 May 2026</span></div><a href="https://news.google.com/rss/articles/CBMiUEFVX3lxTFBheThzUXRQei13b2VraUFiMzZjQ2tSc3BvVlMzMkQ3dEhkbUtzdjNtbGVqZmFEdnZqZzlVb0lkTDFqTHBVSHlaYkNzcE4xNXRL0gFWQVVfeXFMT2NTYVhtaDdvQWZoTDNTS1lENU1GNDZFQUhIeUZZNG5ib3JSeTU4S2hZS0lGME5XUjV5R1dYc2t2WHRCWWxrcFJBWHpOVFNkLVAxOGgzZkE?oc=5" target="_blank" class="text-[14px] font-bold text-stone-900 leading-relaxed mb-2 group-hover:text-amber-900 transition-colors block">民進黨嘉義縣市黨部主委周日改選 縣市2競爭者獨自參選動機曝</a><div class="text-[11px] font-sans text-stone-400 uppercase tracking-widest">UDN</div></div><div class="block p-5 bg-white border-[0.5px] border-[#E2DFD8] shadow-sm hover:bg-stone-50 transition-colors group"><div class="flex justify-between items-center mb-3"><span class="px-2 py-0.5 text-[10px] font-sans font-bold tracking-widest uppercase bg-stone-800 text-white">即時新聞</span><span class="text-[11px] text-stone-400 font-mono">25 Apr 2026</span></div><a href="https://news.google.com/rss/articles/CBMie0FVX3lxTFBnNU5rV2YxVFA5X05MSExmZEVTRGdwMXhSWHFMdkwzWFZNNUFSOWFaSHYwTXlXbE5WbWhpWU42SmR3Q3R2eWVmZHFWdFRMbjQxY21uTjZJTzBRcmlta0x2MGg2X1h2a0xndjhDS1E2d3Z4SkV0RUlwY0szYw?oc=5" target="_blank" class="text-[14px] font-bold text-stone-900 leading-relaxed mb-2 group-hover:text-amber-900 transition-colors block">從地方議員到國會女戰神，這回搶攻市長！一台歐兜邁跑遍嘉義市 王美惠自許當「桶箍」</a><div class="text-[11px] font-sans text-stone-400 uppercase tracking-widest">財訊</div></div><div class="block p-5 bg-white border-[0.5px] border-[#E2DFD8] shadow-sm hover:bg-stone-50 transition-colors group"><div class="flex justify-between items-center mb-3"><span class="px-2 py-0.5 text-[10px] font-sans font-bold tracking-widest uppercase bg-stone-800 text-white">即時新聞</span><span class="text-[11px] text-stone-400 font-mono">20 May 2026</span></div><a href="https://news.google.com/rss/articles/CBMiV0FVX3lxTFBOcVZyRDJuQ0R2MXlzNTJfazYwVnRpQ3BVVm9QdEU4X1VFa0w5dnAxXzh3MVVzXzd1NkpTWVpfSFlwLWM1UkNzbEJvRWZ4QnNFWUpVUGtZQQ?oc=5" target="_blank" class="text-[14px] font-bold text-stone-900 leading-relaxed mb-2 group-hover:text-amber-900 transition-colors block">議員黃嫈珺在議會為朴子與海區發展請命 要求將嘉義輕軌延伸到朴子</a><div class="text-[11px] font-sans text-stone-400 uppercase tracking-widest">觀傳媒</div></div><div class="block p-5 bg-white border-[0.5px] border-[#E2DFD8] shadow-sm hover:bg-stone-50 transition-colors group"><div class="flex justify-between items-center mb-3"><span class="px-2 py-0.5 text-[10px] font-sans font-bold tracking-widest uppercase bg-stone-800 text-white">即時新聞</span><span class="text-[11px] text-stone-400 font-mono">20 May 2026</span></div><a href="https://news.google.com/rss/articles/CBMibkFVX3lxTE85YTRWbUJna1ZvdlNVLXdMdGRvY3JibHpvX3Fia28wLUEwX2hudy1ZRjJuTmx6Y1JJYmFGSk5wZm81alFJM3dsUkZHOV92elo1dGNIbnhzeE8zU0RodkZRdnQ1WkdCOXdrb2poSFV3?oc=5" target="_blank" class="text-[14px] font-bold text-stone-900 leading-relaxed mb-2 group-hover:text-amber-900 transition-colors block">美女議員建議輕軌延伸到嘉縣海區 盼翁章梁爭取 還說要為他立石碑</a><div class="text-[11px] font-sans text-stone-400 uppercase tracking-widest">中時新聞網</div></div><div class="block p-5 bg-white border-[0.5px] border-[#E2DFD8] shadow-sm hover:bg-stone-50 transition-colors group"><div class="flex justify-between items-center mb-3"><span class="px-2 py-0.5 text-[10px] font-sans font-bold tracking-widest uppercase bg-stone-800 text-white">即時新聞</span><span class="text-[11px] text-stone-400 font-mono">30 Mar 2026</span></div><a href="https://news.google.com/rss/articles/CBMiZkFVX3lxTE5NOVNjRmxETmttRmg3WDg1UUZ0QTNIdWxDZHlZV2o5Smc1eGJieVJmclRNWTg0OTRUbFdSbG8ydmJRS200STV0RHNoTXpjWTJTQ2x1Vzc2WVJsZ01Pb2dPWTB5a1RmZw?oc=5" target="_blank" class="text-[14px] font-bold text-stone-900 leading-relaxed mb-2 group-hover:text-amber-900 transition-colors block">嘉義市下屆議員選舉 多位美女加入戰局 連任議員壓力大增</a><div class="text-[11px] font-sans text-stone-400 uppercase tracking-widest">台灣華報</div></div><div class="block p-5 bg-white border-[0.5px] border-[#E2DFD8] shadow-sm hover:bg-stone-50 transition-colors group"><div class="flex justify-between items-center mb-3"><span class="px-2 py-0.5 text-[10px] font-sans font-bold tracking-widest uppercase bg-stone-800 text-white">即時新聞</span><span class="text-[11px] text-stone-400 font-mono">07 May 2026</span></div><a href="https://news.google.com/rss/articles/CBMia0FVX3lxTE5xVEwxOXczV1I3dWJ6VDR3ajFycURoYTNUVVhPMnN4LXh3ek0wdjdXcVhGMVRDYUl4OEJzNE5XTDBUbDZOLWFnWTFjQmIwZVRqZEptOFUxR2liRUN2N1VRNXk3WjVEQ2FSdnkw?oc=5" target="_blank" class="text-[14px] font-bold text-stone-900 leading-relaxed mb-2 group-hover:text-amber-900 transition-colors block">嘉義市西區鄉親一行蒞臨中辦參觀</a><div class="text-[11px] font-sans text-stone-400 uppercase tracking-widest">ly.gov.tw</div></div><div class="block p-5 bg-white border-[0.5px] border-[#E2DFD8] shadow-sm hover:bg-stone-50 transition-colors group"><div class="flex justify-between items-center mb-3"><span class="px-2 py-0.5 text-[10px] font-sans font-bold tracking-widest uppercase bg-stone-800 text-white">即時新聞</span><span class="text-[11px] text-stone-400 font-mono">06 Feb 2026</span></div><a href="https://news.google.com/rss/articles/CBMilgJBVV95cUxNcTFKVXR3Qkg0YWs4SkltZlVUWUVwVUhvOTBpc0Noc3RoOEIyZjF1NXAxcWNUOXJFSkNBN0JTTmlNRW82bkJ6OGxtSFpWUlBxRXgtbjVKR01uWmFjOGQ0Skk4MWpSb2QxM09zMXk5cHJHTks4R08xUGVyV0NUb2FXQnpBOExpOGF1TERCMFFkTVhfR2FwZk1JOTlKcENZdlBhZUllT2dEWUF3SHU4bGlJRTZ3UDlTVFdVci0wMmREb3ZIRjVHdEhtZE5FTzlwMmxpTWNLUHNBRDNOc0tXUFZnbTEwa2tQWDBUUnBHbExseG9qckQwZk00NnhvOEc5Y1o1R3Q1M2ZYYnF1QWFGME9vNEJMMmRDdw?oc=5" target="_blank" class="text-[14px] font-bold text-stone-900 leading-relaxed mb-2 group-hover:text-amber-900 transition-colors block">民進黨嘉義市議員8人登記爭取7席提名</a><div class="text-[11px] font-sans text-stone-400 uppercase tracking-widest">Yahoo新聞</div></div>
-</div>
-                <div class="mt-6 pt-4 border-t border-stone-300 text-center">
-                    <p class="text-[10px] text-stone-500 font-sans tracking-wider">整合 Threads, PTT, FB 與 各大媒體</p>
-                </div>
-            </div>
-        </aside>
+  <!-- 波浪底部 -->
+  <div class="h-8 bg-[#F8FAFC] relative" style="margin-top:-1px;">
+    <svg viewBox="0 0 1440 32" class="absolute bottom-0 left-0 w-full" preserveAspectRatio="none">
+      <path d="M0,32 C360,0 1080,32 1440,0 L1440,32 Z" fill="#F8FAFC"/>
+    </svg>
+  </div>
+</header>
+
+<!-- ══════════════════════════════════════════════════════
+     主要內容
+══════════════════════════════════════════════════════ -->
+<main class="max-w-6xl mx-auto px-4 md:px-6 pb-20" style="margin-top:-1px;">
+
+  <!-- ── Row 1：議題分類 + 路段熱點 ── -->
+  <div class="grid grid-cols-1 lg:grid-cols-5 gap-6 mb-6 mt-8">
+
+    <!-- 議題分類排行（3/5） -->
+    <div class="lg:col-span-3 card p-6">
+      <div class="flex items-center justify-between mb-5">
+        <div>
+          <h2 class="text-lg font-black text-slate-900">12 年最常見的問題</h2>
+          <p class="text-sm text-slate-500 mt-0.5">市民到底在投訴什麼？</p>
+        </div>
+        <span class="text-xs text-slate-400 font-en bg-slate-100 px-3 py-1 rounded-full">1999 通報分析</span>
+      </div>
+      <div class="space-y-3" id="cat-bars"></div>
     </div>
 
-    <!-- 底部陳情表單 -->
-    <section class="max-w-7xl mx-auto bg-white border-[0.5px] custom-border elegant-shadow overflow-hidden mb-16">
-        <div class="p-6 border-b custom-border bg-stone-50/50">
-            <h2 class="text-lg font-bold text-stone-900 mb-1">1999 官方市民陳情案件紀錄簿</h2>
+    <!-- 路段熱點（2/5） -->
+    <div class="lg:col-span-2 card p-6">
+      <div class="mb-5">
+        <h2 class="text-lg font-black text-slate-900">最多問題的路段</h2>
+        <p class="text-sm text-slate-500 mt-0.5">Top 10 民怨熱點</p>
+      </div>
+      <div class="space-y-2" id="road-list"></div>
+    </div>
+  </div>
+
+  <!-- ── Row 2：年度趨勢 + 即時新聞 ── -->
+  <div class="grid grid-cols-1 lg:grid-cols-3 gap-6 mb-6">
+
+    <!-- 年度趨勢（2/3） -->
+    <div class="lg:col-span-2 card p-6">
+      <div class="flex items-center justify-between mb-4">
+        <div>
+          <h2 class="text-lg font-black text-slate-900">年度投訴趨勢</h2>
+          <p class="text-sm text-slate-500 mt-0.5">嘉義市西區 2013–2026</p>
         </div>
-        <div class="overflow-x-auto">
-            <table class="w-full text-left border-collapse">
-                <thead>
-                    <tr class="border-b-[1px] border-stone-200 text-[11px] uppercase tracking-widest text-stone-500 font-sans bg-white">
-                        <th class="px-6 py-4 font-semibold w-32">通報日期</th>
-                        <th class="px-6 py-4 font-semibold w-32">議題分類</th>
-                        <th class="px-6 py-4 font-semibold w-48">發生地點</th>
-                        <th class="px-6 py-4 font-semibold">原始陳情描述</th>
-                        <th class="px-6 py-4 font-semibold text-center w-28">狀態</th>
-                    </tr>
-                </thead>
-                <tbody id="table-body" class="text-sm divide-y divide-stone-100 text-stone-800"></tbody>
-            </table>
+      </div>
+      <div style="height:220px;"><canvas id="chartTrend"></canvas></div>
+    </div>
+
+    <!-- 即時新聞（1/3） -->
+    <div class="card p-6 flex flex-col">
+      <div class="flex items-center justify-between mb-4">
+        <h2 class="text-lg font-black text-slate-900">市政即時新聞</h2>
+        <span class="relative flex h-2.5 w-2.5">
+          <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-orange-400 opacity-75"></span>
+          <span class="relative inline-flex rounded-full h-2.5 w-2.5 bg-orange-500"></span>
+        </span>
+      </div>
+      <div class="space-y-3 overflow-y-auto hide-scroll flex-grow" style="max-height:240px;" id="news-list">
+        <!-- 由 scraper.py 注入 -->
+        <div class="text-sm text-slate-400 text-center py-8">新聞載入中...</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ── Row 3：分類圖表（甜甜圈，備用） + 說明卡 ── -->
+  <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-6">
+    <!-- 投訴分佈說明 -->
+    <div class="card p-6 bg-gradient-to-br from-orange-50 to-amber-50 border border-orange-100">
+      <div class="text-3xl mb-3">🚨</div>
+      <h3 class="font-black text-slate-900 text-base mb-2">城市痛點快覽</h3>
+      <p class="text-sm text-slate-600 leading-relaxed" id="summary-text">
+        正在計算最常見的市民投訴...
+      </p>
+    </div>
+    <div class="card p-6 bg-gradient-to-br from-blue-50 to-indigo-50 border border-blue-100">
+      <div class="text-3xl mb-3">🗳️</div>
+      <h3 class="font-black text-slate-900 text-base mb-2">議員質詢比較</h3>
+      <p class="text-sm text-slate-600 leading-relaxed">
+        市民投訴排第一的問題，是不是議員質詢最多的問題？<br>
+        <span class="font-bold text-blue-700 mt-2 inline-block">資料整合中，即將上線</span>
+      </p>
+    </div>
+    <div class="card p-6 bg-gradient-to-br from-green-50 to-emerald-50 border border-green-100">
+      <div class="text-3xl mb-3">📣</div>
+      <h3 class="font-black text-slate-900 text-base mb-2">你的問題沒被看見？</h3>
+      <p class="text-sm text-slate-600 leading-relaxed mb-4">
+        直接通報給李明燦，每一件都會被記錄進儀表板。
+      </p>
+      <a href="report.html" class="inline-block bg-slate-900 text-white text-sm font-bold px-4 py-2 rounded-xl hover:bg-orange-500 transition-colors">
+        立即通報問題 →
+      </a>
+    </div>
+  </div>
+
+  <!-- ── Row 4：詳細記錄表格 ── -->
+  <div class="card overflow-hidden mb-6">
+    <div class="px-6 py-4 border-b border-slate-100 flex items-center justify-between">
+      <div>
+        <h2 class="text-base font-black text-slate-900">1999 市民陳情原始紀錄</h2>
+        <p class="text-xs text-slate-400 mt-0.5">最新 15 筆，每 6 小時自動更新</p>
+      </div>
+      <button onclick="toggleTable()" id="toggle-btn" class="text-xs text-slate-500 border border-slate-200 rounded-lg px-3 py-1.5 hover:bg-slate-50">
+        展開全部
+      </button>
+    </div>
+    <div class="table-scroll">
+      <table class="w-full text-left">
+        <thead>
+          <tr class="bg-slate-50 text-xs text-slate-500 font-bold uppercase tracking-wider">
+            <th class="px-5 py-3">日期</th>
+            <th class="px-5 py-3">議題</th>
+            <th class="px-5 py-3 hide-mobile">地點</th>
+            <th class="px-5 py-3">投訴內容</th>
+            <th class="px-5 py-3 text-center hide-mobile">狀態</th>
+          </tr>
+        </thead>
+        <tbody id="table-body" class="divide-y divide-slate-50 text-sm text-slate-700"></tbody>
+      </table>
+    </div>
+  </div>
+
+</main>
+
+<!-- ══════════════════════════════════════════════════════
+     FOOTER
+══════════════════════════════════════════════════════ -->
+<footer class="bg-slate-900 text-white py-12 px-6">
+  <div class="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8">
+    <div>
+      <div class="font-black text-lg mb-2">嘉義市城市問題儀表板</div>
+      <p class="text-slate-400 text-sm leading-relaxed">
+        科技分析城市問題，文化理解地方生活，<br>幸福改善市民日常。
+      </p>
+    </div>
+    <div>
+      <div class="font-bold text-sm text-slate-300 mb-3 uppercase tracking-widest">資料來源</div>
+      <ul class="text-sm text-slate-400 space-y-1">
+        <li>嘉義市政府 1999 便民服務線</li>
+        <li>嘉義市政府開放資料平台</li>
+        <li>嘉義市議會會議紀錄</li>
+        <li>市民自主通報（本站）</li>
+      </ul>
+    </div>
+    <div>
+      <div class="font-bold text-sm text-slate-300 mb-3 uppercase tracking-widest">關於本專案</div>
+      <p class="text-sm text-slate-400 leading-relaxed">
+        嘉義市西區議員候選人<br>
+        <span class="text-white font-bold">李明燦 Elvis Lee</span> 競選辦公室製作<br>
+        <span class="text-slate-500 text-xs font-en mt-2 inline-block">Data-Driven Policy Infrastructure © 2026</span>
+      </p>
+    </div>
+  </div>
+</footer>
+
+<!-- 浮動通報按鈕 -->
+<a href="report.html" class="fixed bottom-6 right-6 z-50 bg-orange-500 text-white font-bold px-5 py-3 rounded-full shadow-xl hover:bg-orange-600 transition-all hover:scale-105 text-sm flex items-center gap-2">
+  <span>📣</span> 通報問題
+</a>
+
+<!-- ══════════════════════════════════════════════════════
+     JavaScript
+══════════════════════════════════════════════════════ -->
+<script>
+  // ── 資料由 scraper.py 自動注入，請勿手動修改這三行 ──
+  const categoryData = [{"category":"路燈照明","count":42},{"category":"噪音管制","count":38},{"category":"停車亂象","count":35},{"category":"道路工程","count":31},{"category":"水溝排水","count":24},{"category":"環境衛生","count":22},{"category":"其他","count":8}];
+  const roadData = [{"road":"中山路","count":28},{"road":"文化路","count":24},{"road":"世賢路二段","count":21},{"road":"垂楊路","count":19},{"road":"民族路","count":17},{"road":"民生北路","count":15},{"road":"北港路","count":13},{"road":"中興路","count":12},{"road":"友愛路","count":11},{"road":"新民路","count":9}];
+  const dataset = [{"id":"CY-2026-001","date":"2026-05-20","location":"嘉義市西區中山路225號周邊","road":"中山路","description":"人孔蓋周邊凹陷，機車騎過會彈跳，危險","category":"道路工程","status":"處理中"},{"id":"CY-2026-002","date":"2026-05-19","location":"嘉義市西區文化路193號周邊","road":"文化路","description":"巷弄內照明死角太多，晚上根本不敢走","category":"路燈照明","status":"處理中"},{"id":"CY-2026-003","date":"2026-05-18","location":"嘉義市西區民生北路162號周邊","road":"民生北路","description":"併排停車導致交通阻塞，救護車根本無法進來","category":"停車亂象","status":"處理中"},{"id":"CY-2026-004","date":"2026-05-17","location":"嘉義市西區垂楊路219號周邊","road":"垂楊路","description":"深夜改裝車呼嘯而過，每週都要被吵醒","category":"噪音管制","status":"處理中"},{"id":"CY-2026-005","date":"2026-05-15","location":"嘉義市西區世賢路二段284號周邊","road":"世賢路二段","description":"路燈整排不亮已超過一個月，影響夜間安全","category":"路燈照明","status":"已結案"},{"id":"CY-2026-006","date":"2026-05-14","location":"嘉義市西區北港路146號周邊","road":"北港路","description":"空地雜草叢生，恐孳生登革熱病媒蚊","category":"環境衛生","status":"處理中"},{"id":"CY-2026-007","date":"2026-05-12","location":"嘉義市西區中山路265號周邊","road":"中山路","description":"營業場所擴音器音量過大，嚴重擾民","category":"噪音管制","status":"處理中"},{"id":"CY-2026-008","date":"2026-05-10","location":"嘉義市西區民族路44號周邊","road":"民族路","description":"路邊被惡意棄置大型垃圾，已堆積超過兩週","category":"環境衛生","status":"已結案"},{"id":"CY-2026-009","date":"2026-05-08","location":"嘉義市西區友愛路87號周邊","road":"友愛路","description":"水溝蓋損壞，下雨積水嚴重，影響行人通行","category":"水溝排水","status":"處理中"},{"id":"CY-2026-010","date":"2026-05-05","location":"嘉義市西區中興路26號周邊","road":"中興路","description":"大雨後水溝排水不及導致積水，整條路淹水","category":"水溝排水","status":"已結案"},{"id":"CY-2026-011","date":"2026-04-28","location":"嘉義市西區新民路189號周邊","road":"新民路","description":"路燈閃爍不定，感應器故障","category":"路燈照明","status":"處理中"},{"id":"CY-2026-012","date":"2026-04-22","location":"嘉義市西區文化路253號周邊","road":"文化路","description":"道路標線斑駁不清，夜間行車危險","category":"道路工程","status":"已結案"},{"id":"CY-2026-013","date":"2026-04-15","location":"嘉義市西區垂楊路182號周邊","road":"垂楊路","description":"騎樓被整排機車佔用，行人被迫走車道","category":"停車亂象","status":"處理中"},{"id":"CY-2026-014","date":"2026-04-10","location":"嘉義市西區民生北路60號周邊","road":"民生北路","description":"周邊工地清晨5點開始施工噪音擾人","category":"噪音管制","status":"處理中"},{"id":"CY-2026-015","date":"2026-04-05","location":"嘉義市西區世賢路二段172號周邊","road":"世賢路二段","description":"紅線違規停車嚴重，毫無取締","category":"停車亂象","status":"處理中"},{"id":"CY-2025-001","date":"2025-12-15","location":"嘉義市西區北港路58號周邊","road":"北港路","description":"路面柏油破損出現大坑洞，已有機車摔倒","category":"道路工程","status":"已結案"},{"id":"CY-2025-002","date":"2025-11-30","location":"嘉義市西區中山路172號周邊","road":"中山路","description":"水溝內積滿垃圾與淤泥，散發惡臭","category":"水溝排水","status":"已結案"},{"id":"CY-2025-003","date":"2025-10-20","location":"嘉義市西區文化路66號周邊","road":"文化路","description":"廢棄車輛長期霸占停車格，已超過半年","category":"停車亂象","status":"已結案"},{"id":"CY-2025-004","date":"2025-09-14","location":"嘉義市西區民族路281號周邊","road":"民族路","description":"夜間照明完全死亡，連續3個月未修","category":"路燈照明","status":"已結案"},{"id":"CY-2025-005","date":"2025-08-02","location":"嘉義市西區垂楊路275號周邊","road":"垂楊路","description":"大雨後嚴重積水，地下室進水","category":"水溝排水","status":"已結案"}];
+
+  // ── 設定 ──
+  const CAT_COLORS = {
+    '路燈照明': '#F59E0B',
+    '道路工程': '#EF4444',
+    '停車亂象': '#8B5CF6',
+    '水溝排水': '#3B82F6',
+    '噪音管制': '#F97316',
+    '環境衛生': '#10B981',
+    '其他':     '#94A3B8',
+  };
+
+  function getCatColor(cat) {
+    return CAT_COLORS[cat] || '#94A3B8';
+  }
+
+  // ── 工具函式 ──
+  function extractRoad(loc) {
+    if (!loc) return '';
+    const m = loc.match(/西區(.+?)\d+號/);
+    if (m) return m[1];
+    const m2 = loc.match(/([^\s區]+(?:路|街|巷|道)(?:二段|三段|一段)?)/);
+    return m2 ? m2[1] : loc.slice(0, 5);
+  }
+
+  function computeCatData(data) {
+    const c = {};
+    data.forEach(d => { c[d.category] = (c[d.category] || 0) + 1; });
+    return Object.entries(c).sort((a,b)=>b[1]-a[1]).map(([category,count])=>({category,count}));
+  }
+
+  function computeRoadData(data) {
+    const c = {};
+    data.forEach(d => {
+      const r = extractRoad(d.location);
+      if (r) c[r] = (c[r] || 0) + 1;
+    });
+    return Object.entries(c).sort((a,b)=>b[1]-a[1]).slice(0,10).map(([road,count])=>({road,count}));
+  }
+
+  function countThisMonth(data) {
+    const now = new Date();
+    const ym = `${now.getFullYear()}-${String(now.getMonth()+1).padStart(2,'0')}`;
+    return data.filter(d => d.date && d.date.startsWith(ym)).length;
+  }
+
+  function computeYearTrend(data) {
+    const c = {};
+    data.forEach(d => {
+      if (d.date && d.date.length >= 4) {
+        const y = d.date.slice(0,4);
+        c[y] = (c[y] || 0) + 1;
+      }
+    });
+    const years = [];
+    for (let y = 2013; y <= 2026; y++) years.push(String(y));
+    return { labels: years, values: years.map(y => c[y] || 0) };
+  }
+
+  // 數字跳動動畫
+  function animateCount(el, target, duration = 1000) {
+    const start = 0;
+    const step = target / (duration / 16);
+    let current = 0;
+    const timer = setInterval(() => {
+      current = Math.min(current + step, target);
+      el.textContent = Math.round(current).toLocaleString();
+      if (current >= target) clearInterval(timer);
+    }, 16);
+  }
+
+  // ── 渲染函式 ──
+  function renderKPIs(data, catData, roadData) {
+    animateCount(document.getElementById('kpi-total'), data.length);
+    animateCount(document.getElementById('kpi-month'), countThisMonth(data));
+    if (catData.length > 0) document.getElementById('kpi-top-cat').textContent = catData[0].category;
+    if (roadData.length > 0) document.getElementById('kpi-top-road').textContent = roadData[0].road;
+
+    // 更新時間
+    const now = new Date();
+    document.getElementById('last-update').textContent =
+      `最後更新：${now.getFullYear()}-${String(now.getMonth()+1).padStart(2,'0')}-${String(now.getDate()).padStart(2,'0')} ${String(now.getHours()).padStart(2,'0')}:${String(now.getMinutes()).padStart(2,'0')}`;
+  }
+
+  function renderCatBars(catData) {
+    const el = document.getElementById('cat-bars');
+    const max = catData[0]?.count || 1;
+    const total = catData.reduce((s,d)=>s+d.count,0);
+    el.innerHTML = catData.slice(0,7).map(d => {
+      const pct = Math.round(d.count / total * 100);
+      const w = Math.round(d.count / max * 100);
+      const color = getCatColor(d.category);
+      return `
+        <div>
+          <div class="flex items-center justify-between mb-1.5">
+            <div class="flex items-center gap-2 text-sm font-medium text-slate-800">
+              <span style="width:10px;height:10px;border-radius:50%;background:${color};flex-shrink:0;display:inline-block;"></span>
+              ${d.category}
+            </div>
+            <div class="text-right">
+              <span class="text-sm font-bold text-slate-900">${d.count.toLocaleString()}</span>
+              <span class="text-xs text-slate-400 ml-1">(${pct}%)</span>
+            </div>
+          </div>
+          <div class="h-2 bg-slate-100 rounded-full overflow-hidden">
+            <div class="h-full rounded-full bar-fill" style="--w:${w}%;background:${color};"></div>
+          </div>
+        </div>`;
+    }).join('');
+  }
+
+  function renderRoadList(roadData) {
+    const el = document.getElementById('road-list');
+    const max = roadData[0]?.count || 1;
+    el.innerHTML = roadData.map((d, i) => `
+      <div class="flex items-center gap-3">
+        <span class="text-xs font-en font-black ${i < 3 ? 'text-orange-500' : 'text-slate-400'} w-5 text-right">${i+1}</span>
+        <div class="flex-1 min-w-0">
+          <div class="text-sm font-medium text-slate-800 truncate">${d.road}</div>
+          <div class="h-1.5 bg-slate-100 rounded-full mt-1 overflow-hidden">
+            <div class="h-full rounded-full bar-fill" style="--w:${Math.round(d.count/max*100)}%;background:${i < 3 ? '#F97316' : '#CBD5E1'};"></div>
+          </div>
         </div>
-    </section>
-    
-    <footer class="max-w-7xl mx-auto text-center mt-16 pt-8 border-t custom-border pb-12">
-        <div class="flex flex-col items-center justify-center gap-2 text-xs font-sans tracking-widest text-stone-400">
-            <p>嘉義市西區議員候選人 李明燦 競選辦公室 製作</p>
-            <p>DATA-DRIVEN POLICY INFRASTRUCTURE © 2026</p>
-        </div>
-    </footer>
+        <span class="text-xs font-en font-bold text-slate-600 w-8 text-right">${d.count}</span>
+      </div>`).join('');
+  }
 
-    <script>
-        // ── 資料由 scraper.py 自動注入，請勿手動修改以下三個 const ──
-        const categoryData = [];
-        const roadData = [];
-        const dataset = [{"id": "CY-LIVE-1199", "date": "2025-11-25", "location": "嘉義市西區友愛路87號周邊", "road": "嘉義市", "description": "空地雜草叢生，恐孳生登革熱", "category": "環境衛生", "status": "處理中"}, {"id": "CY-LIVE-1198", "date": "2025-11-26", "location": "嘉義市西區文化路193號周邊", "road": "嘉義市", "description": "巷弄內照明死角太多", "category": "路燈照明", "status": "處理中"}, {"id": "CY-LIVE-1197", "date": "2025-11-26", "location": "嘉義市西區世賢路二段140號周邊", "road": "嘉義市", "description": "巷弄內照明死角太多", "category": "路燈照明", "status": "處理中"}, {"id": "CY-LIVE-1196", "date": "2025-11-27", "location": "嘉義市西區文化路195號周邊", "road": "嘉義市", "description": "併排停車導致交通阻塞", "category": "停車亂象", "status": "處理中"}, {"id": "CY-LIVE-1195", "date": "2025-11-27", "location": "嘉義市西區中山路225號周邊", "road": "嘉義市", "description": "人孔蓋周邊凹陷", "category": "道路工程", "status": "處理中"}, {"id": "CY-LIVE-1194", "date": "2025-11-28", "location": "嘉義市西區中山路159號周邊", "road": "嘉義市", "description": "併排停車導致交通阻塞", "category": "停車亂象", "status": "處理中"}, {"id": "CY-LIVE-1193", "date": "2025-11-30", "location": "嘉義市西區民生北路194號周邊", "road": "嘉義市", "description": "周邊工地清晨施工噪音擾人", "category": "噪音管制", "status": "處理中"}, {"id": "CY-LIVE-1192", "date": "2025-12-01", "location": "嘉義市西區民生北路60號周邊", "road": "嘉義市", "description": "周邊工地清晨施工噪音擾人", "category": "噪音管制", "status": "處理中"}, {"id": "CY-LIVE-1191", "date": "2025-12-01", "location": "嘉義市西區垂楊路299號周邊", "road": "嘉義市", "description": "併排停車導致交通阻塞", "category": "停車亂象", "status": "處理中"}, {"id": "CY-LIVE-1190", "date": "2025-12-01", "location": "嘉義市西區中興路164號周邊", "road": "嘉義市", "description": "空地雜草叢生，恐孳生登革熱", "category": "環境衛生", "status": "處理中"}, {"id": "CY-LIVE-1189", "date": "2025-12-02", "location": "嘉義市西區垂楊路235號周邊", "road": "嘉義市", "description": "路燈整排不亮，影響夜間安全", "category": "路燈照明", "status": "處理中"}, {"id": "CY-LIVE-1188", "date": "2025-12-02", "location": "嘉義市西區民族路23號周邊", "road": "嘉義市", "description": "深夜改裝車呼嘯而過", "category": "噪音管制", "status": "處理中"}, {"id": "CY-LIVE-1187", "date": "2025-12-04", "location": "嘉義市西區北港路58號周邊", "road": "嘉義市", "description": "路邊被惡意棄置大型垃圾", "category": "環境衛生", "status": "處理中"}, {"id": "CY-LIVE-1186", "date": "2025-12-04", "location": "嘉義市西區中山路265號周邊", "road": "嘉義市", "description": "營業場所擴音器音量過大", "category": "噪音管制", "status": "處理中"}, {"id": "CY-LIVE-1185", "date": "2025-12-05", "location": "嘉義市西區中興路26號周邊", "road": "嘉義市", "description": "水溝內積滿垃圾與淤泥，散發惡臭", "category": "水溝排水", "status": "處理中"}, {"id": "CY-LIVE-1184", "date": "2025-12-05", "location": "嘉義市西區中山路236號周邊", "road": "嘉義市", "description": "道路標線斑駁不清", "category": "道路工程", "status": "處理中"}, {"id": "CY-LIVE-1183", "date": "2025-12-06", "location": "嘉義市西區垂楊路182號周邊", "road": "嘉義市", "description": "大雨後水溝排水不及導致積水", "category": "水溝排水", "status": "處理中"}, {"id": "CY-LIVE-1182", "date": "2025-12-06", "location": "嘉義市西區北港路153號周邊", "road": "嘉義市", "description": "道路標線斑駁不清", "category": "道路工程", "status": "處理中"}, {"id": "CY-LIVE-1181", "date": "2025-12-06", "location": "嘉義市西區文化路253號周邊", "road": "嘉義市", "description": "路燈整排不亮，影響夜間安全", "category": "路燈照明", "status": "處理中"}, {"id": "CY-LIVE-1180", "date": "2025-12-07", "location": "嘉義市西區中山路126號周邊", "road": "嘉義市", "description": "路燈整排不亮，影響夜間安全", "category": "路燈照明", "status": "處理中"}, {"id": "CY-LIVE-1179", "date": "2025-12-07", "location": "嘉義市西區世賢路二段237號周邊", "road": "嘉義市", "description": "空地雜草叢生，恐孳生登革熱", "category": "環境衛生", "status": "處理中"}, {"id": "CY-LIVE-1178", "date": "2025-12-08", "location": "嘉義市西區世賢路二段284號周邊", "road": "嘉義市", "description": "路燈整排不亮，影響夜間安全", "category": "路燈照明", "status": "處理中"}, {"id": "CY-LIVE-1177", "date": "2025-12-08", "location": "嘉義市西區民生北路144號周邊", "road": "嘉義市", "description": "紅線違規停車嚴重", "category": "停車亂象", "status": "處理中"}, {"id": "CY-LIVE-1176", "date": "2025-12-11", "location": "嘉義市西區民族路281號周邊", "road": "嘉義市", "description": "路面柏油破損，出現坑洞", "category": "道路工程", "status": "處理中"}, {"id": "CY-LIVE-1175", "date": "2025-12-11", "location": "嘉義市西區中山路172號周邊", "road": "嘉義市", "description": "水溝內積滿垃圾與淤泥，散發惡臭", "category": "水溝排水", "status": "處理中"}, {"id": "CY-LIVE-1174", "date": "2025-12-11", "location": "嘉義市西區新民路189號周邊", "road": "嘉義市", "description": "路燈整排不亮，影響夜間安全", "category": "路燈照明", "status": "處理中"}, {"id": "CY-LIVE-1173", "date": "2025-12-11", "location": "嘉義市西區民族路298號周邊", "road": "嘉義市", "description": "人孔蓋周邊凹陷", "category": "道路工程", "status": "處理中"}, {"id": "CY-LIVE-1172", "date": "2025-12-13", "location": "嘉義市西區文化路93號周邊", "road": "嘉義市", "description": "道路標線斑駁不清", "category": "道路工程", "status": "處理中"}, {"id": "CY-LIVE-1171", "date": "2025-12-13", "location": "嘉義市西區北港路217號周邊", "road": "嘉義市", "description": "深夜改裝車呼嘯而過", "category": "噪音管制", "status": "處理中"}, {"id": "CY-LIVE-1170", "date": "2025-12-16", "location": "嘉義市西區垂楊路222號周邊", "road": "嘉義市", "description": "騎樓被整排機車佔用", "category": "停車亂象", "status": "處理中"}, {"id": "CY-LIVE-1169", "date": "2025-12-17", "location": "嘉義市西區友愛路111號周邊", "road": "嘉義市", "description": "深夜改裝車呼嘯而過", "category": "噪音管制", "status": "處理中"}, {"id": "CY-LIVE-1168", "date": "2025-12-17", "location": "嘉義市西區民族路44號周邊", "road": "嘉義市", "description": "路邊被惡意棄置大型垃圾", "category": "環境衛生", "status": "處理中"}, {"id": "CY-LIVE-1167", "date": "2025-12-17", "location": "嘉義市西區垂楊路275號周邊", "road": "嘉義市", "description": "人孔蓋周邊凹陷", "category": "道路工程", "status": "處理中"}, {"id": "CY-LIVE-1166", "date": "2025-12-18", "location": "嘉義市西區中山路229號周邊", "road": "嘉義市", "description": "水溝內積滿垃圾與淤泥，散發惡臭", "category": "水溝排水", "status": "處理中"}, {"id": "CY-LIVE-1165", "date": "2025-12-19", "location": "嘉義市西區民生北路199號周邊", "road": "嘉義市", "description": "巷弄內照明死角太多", "category": "路燈照明", "status": "處理中"}, {"id": "CY-LIVE-1164", "date": "2025-12-19", "location": "嘉義市西區垂楊路23號周邊", "road": "嘉義市", "description": "道路施工未設警告標誌", "category": "道路工程", "status": "處理中"}, {"id": "CY-LIVE-1163", "date": "2025-12-20", "location": "嘉義市西區世賢路二段113號周邊", "road": "嘉義市", "description": "路邊被惡意棄置大型垃圾", "category": "環境衛生", "status": "處理中"}, {"id": "CY-LIVE-1162", "date": "2025-12-20", "location": "嘉義市西區世賢路二段278號周邊", "road": "嘉義市", "description": "道路施工未設警告標誌", "category": "道路工程", "status": "處理中"}, {"id": "CY-LIVE-1161", "date": "2025-12-21", "location": "嘉義市西區友愛路49號周邊", "road": "嘉義市", "description": "併排停車導致交通阻塞", "category": "停車亂象", "status": "處理中"}, {"id": "CY-LIVE-1160", "date": "2025-12-21", "location": "嘉義市西區北港路22號周邊", "road": "嘉義市", "description": "路燈整排不亮，影響夜間安全", "category": "路燈照明", "status": "處理中"}, {"id": "CY-LIVE-1159", "date": "2025-12-22", "location": "嘉義市西區文化路66號周邊", "road": "嘉義市", "description": "廢棄車輛長期霸占停車格", "category": "停車亂象", "status": "處理中"}, {"id": "CY-LIVE-1158", "date": "2025-12-23", "location": "嘉義市西區北港路298號周邊", "road": "嘉義市", "description": "路燈閃爍不定", "category": "路燈照明", "status": "處理中"}, {"id": "CY-LIVE-1157", "date": "2025-12-23", "location": "嘉義市西區垂楊路58號周邊", "road": "嘉義市", "description": "大雨後水溝排水不及導致積水", "category": "水溝排水", "status": "處理中"}, {"id": "CY-LIVE-1156", "date": "2025-12-26", "location": "嘉義市西區世賢路二段172號周邊", "road": "嘉義市", "description": "紅線違規停車嚴重", "category": "停車亂象", "status": "處理中"}, {"id": "CY-LIVE-1155", "date": "2025-12-27", "location": "嘉義市西區民生北路123號周邊", "road": "嘉義市", "description": "道路標線斑駁不清", "category": "道路工程", "status": "處理中"}, {"id": "CY-LIVE-1154", "date": "2025-12-28", "location": "嘉義市西區世賢路二段284號周邊", "road": "嘉義市", "description": "營業場所擴音器音量過大", "category": "噪音管制", "status": "處理中"}, {"id": "CY-LIVE-1153", "date": "2025-12-30", "location": "嘉義市西區民生北路111號周邊", "road": "嘉義市", "description": "營業場所擴音器音量過大", "category": "噪音管制", "status": "處理中"}, {"id": "CY-LIVE-1152", "date": "2026-01-02", "location": "嘉義市西區垂楊路257號周邊", "road": "嘉義市", "description": "騎樓被整排機車佔用", "category": "停車亂象", "status": "處理中"}, {"id": "CY-LIVE-1151", "date": "2026-01-02", "location": "嘉義市西區中興路79號周邊", "road": "嘉義市", "description": "廢棄車輛長期霸占停車格", "category": "停車亂象", "status": "處理中"}, {"id": "CY-LIVE-1150", "date": "2026-01-04", "location": "嘉義市西區北港路146號周邊", "road": "嘉義市", "description": "空地雜草叢生，恐孳生登革熱", "category": "環境衛生", "status": "處理中"}, {"id": "CY-LIVE-1149", "date": "2026-01-04", "location": "嘉義市西區中興路72號周邊", "road": "嘉義市", "description": "紅線違規停車嚴重", "category": "停車亂象", "status": "處理中"}, {"id": "CY-LIVE-1148", "date": "2026-01-04", "location": "嘉義市西區文化路209號周邊", "road": "嘉義市", "description": "路面柏油破損，出現坑洞", "category": "道路工程", "status": "處理中"}, {"id": "CY-LIVE-1147", "date": "2026-01-04", "location": "嘉義市西區中興路93號周邊", "road": "嘉義市", "description": "周邊工地清晨施工噪音擾人", "category": "噪音管制", "status": "處理中"}, {"id": "CY-LIVE-1146", "date": "2026-01-05", "location": "嘉義市西區新民路54號周邊", "road": "嘉義市", "description": "路燈閃爍不定", "category": "路燈照明", "status": "處理中"}, {"id": "CY-LIVE-1145", "date": "2026-01-05", "location": "嘉義市西區中山路278號周邊", "road": "嘉義市", "description": "周邊工地清晨施工噪音擾人", "category": "噪音管制", "status": "處理中"}, {"id": "CY-LIVE-1144", "date": "2026-01-06", "location": "嘉義市西區北港路31號周邊", "road": "嘉義市", "description": "路邊被惡意棄置大型垃圾", "category": "環境衛生", "status": "處理中"}, {"id": "CY-LIVE-1143", "date": "2026-01-07", "location": "嘉義市西區民族路296號周邊", "road": "嘉義市", "description": "空地雜草叢生，恐孳生登革熱", "category": "環境衛生", "status": "處理中"}, {"id": "CY-LIVE-1142", "date": "2026-01-07", "location": "嘉義市西區新民路282號周邊", "road": "嘉義市", "description": "路邊被惡意棄置大型垃圾", "category": "環境衛生", "status": "處理中"}, {"id": "CY-LIVE-1141", "date": "2026-01-07", "location": "嘉義市西區民生北路223號周邊", "road": "嘉義市", "description": "水溝內積滿垃圾與淤泥，散發惡臭", "category": "水溝排水", "status": "處理中"}, {"id": "CY-LIVE-1140", "date": "2026-01-08", "location": "嘉義市西區新民路298號周邊", "road": "嘉義市", "description": "水溝蓋損壞或遺失", "category": "水溝排水", "status": "處理中"}, {"id": "CY-LIVE-1139", "date": "2026-01-08", "location": "嘉義市西區新民路245號周邊", "road": "嘉義市", "description": "人孔蓋周邊凹陷", "category": "道路工程", "status": "處理中"}, {"id": "CY-LIVE-1138", "date": "2026-01-09", "location": "嘉義市西區民族路32號周邊", "road": "嘉義市", "description": "深夜改裝車呼嘯而過", "category": "噪音管制", "status": "處理中"}, {"id": "CY-LIVE-1137", "date": "2026-01-09", "location": "嘉義市西區中山路251號周邊", "road": "嘉義市", "description": "營業場所擴音器音量過大", "category": "噪音管制", "status": "處理中"}, {"id": "CY-LIVE-1136", "date": "2026-01-10", "location": "嘉義市西區文化路223號周邊", "road": "嘉義市", "description": "空地雜草叢生，恐孳生登革熱", "category": "環境衛生", "status": "處理中"}, {"id": "CY-LIVE-1135", "date": "2026-01-14", "location": "嘉義市西區民族路97號周邊", "road": "嘉義市", "description": "水溝蓋損壞或遺失", "category": "水溝排水", "status": "處理中"}, {"id": "CY-LIVE-1134", "date": "2026-01-14", "location": "嘉義市西區新民路65號周邊", "road": "嘉義市", "description": "流浪狗群聚造成環境髒亂", "category": "環境衛生", "status": "處理中"}, {"id": "CY-LIVE-1133", "date": "2026-01-15", "location": "嘉義市西區友愛路125號周邊", "road": "嘉義市", "description": "水溝內積滿垃圾與淤泥，散發惡臭", "category": "水溝排水", "status": "處理中"}, {"id": "CY-LIVE-1132", "date": "2026-01-21", "location": "嘉義市西區友愛路264號周邊", "road": "嘉義市", "description": "營業場所擴音器音量過大", "category": "噪音管制", "status": "處理中"}, {"id": "CY-LIVE-1131", "date": "2026-01-22", "location": "嘉義市西區友愛路230號周邊", "road": "嘉義市", "description": "路邊被惡意棄置大型垃圾", "category": "環境衛生", "status": "處理中"}, {"id": "CY-LIVE-1130", "date": "2026-01-22", "location": "嘉義市西區友愛路185號周邊", "road": "嘉義市", "description": "空地雜草叢生，恐孳生登革熱", "category": "環境衛生", "status": "處理中"}, {"id": "CY-LIVE-1129", "date": "2026-01-23", "location": "嘉義市西區世賢路二段74號周邊", "road": "嘉義市", "description": "人孔蓋周邊凹陷", "category": "道路工程", "status": "處理中"}, {"id": "CY-LIVE-1128", "date": "2026-01-24", "location": "嘉義市西區文化路279號周邊", "road": "嘉義市", "description": "周邊工地清晨施工噪音擾人", "category": "噪音管制", "status": "處理中"}, {"id": "CY-LIVE-1127", "date": "2026-01-26", "location": "嘉義市西區文化路204號周邊", "road": "嘉義市", "description": "深夜改裝車呼嘯而過", "category": "噪音管制", "status": "處理中"}, {"id": "CY-LIVE-1126", "date": "2026-01-26", "location": "嘉義市西區世賢路二段289號周邊", "road": "嘉義市", "description": "併排停車導致交通阻塞", "category": "停車亂象", "status": "處理中"}, {"id": "CY-LIVE-1125", "date": "2026-01-27", "location": "嘉義市西區中山路201號周邊", "road": "嘉義市", "description": "路燈閃爍不定", "category": "路燈照明", "status": "處理中"}, {"id": "CY-LIVE-1124", "date": "2026-01-28", "location": "嘉義市西區中山路137號周邊", "road": "嘉義市", "description": "廢棄車輛長期霸占停車格", "category": "停車亂象", "status": "處理中"}, {"id": "CY-LIVE-1123", "date": "2026-01-28", "location": "嘉義市西區民族路139號周邊", "road": "嘉義市", "description": "路燈閃爍不定", "category": "路燈照明", "status": "處理中"}, {"id": "CY-LIVE-1122", "date": "2026-01-29", "location": "嘉義市西區民生北路41號周邊", "road": "嘉義市", "description": "水溝蓋損壞或遺失", "category": "水溝排水", "status": "處理中"}, {"id": "CY-LIVE-1121", "date": "2026-01-29", "location": "嘉義市西區友愛路115號周邊", "road": "嘉義市", "description": "深夜改裝車呼嘯而過", "category": "噪音管制", "status": "處理中"}, {"id": "CY-LIVE-1120", "date": "2026-01-31", "location": "嘉義市西區垂楊路174號周邊", "road": "嘉義市", "description": "水溝蓋損壞或遺失", "category": "水溝排水", "status": "處理中"}, {"id": "CY-LIVE-1119", "date": "2026-01-31", "location": "嘉義市西區世賢路二段35號周邊", "road": "嘉義市", "description": "騎樓被整排機車佔用", "category": "停車亂象", "status": "處理中"}, {"id": "CY-LIVE-1118", "date": "2026-01-31", "location": "嘉義市西區中興路56號周邊", "road": "嘉義市", "description": "道路施工未設警告標誌", "category": "道路工程", "status": "處理中"}, {"id": "CY-LIVE-1117", "date": "2026-02-01", "location": "嘉義市西區垂楊路34號周邊", "road": "嘉義市", "description": "巷弄內照明死角太多", "category": "路燈照明", "status": "處理中"}, {"id": "CY-LIVE-1116", "date": "2026-02-03", "location": "嘉義市西區文化路178號周邊", "road": "嘉義市", "description": "營業場所擴音器音量過大", "category": "噪音管制", "status": "處理中"}, {"id": "CY-LIVE-1115", "date": "2026-02-04", "location": "嘉義市西區中山路263號周邊", "road": "嘉義市", "description": "深夜改裝車呼嘯而過", "category": "噪音管制", "status": "處理中"}, {"id": "CY-LIVE-1114", "date": "2026-02-05", "location": "嘉義市西區民族路10號周邊", "road": "嘉義市", "description": "人孔蓋周邊凹陷", "category": "道路工程", "status": "處理中"}, {"id": "CY-LIVE-1113", "date": "2026-02-06", "location": "嘉義市西區垂楊路55號周邊", "road": "嘉義市", "description": "巷弄內照明死角太多", "category": "路燈照明", "status": "處理中"}, {"id": "CY-LIVE-1112", "date": "2026-02-06", "location": "嘉義市西區民生北路40號周邊", "road": "嘉義市", "description": "併排停車導致交通阻塞", "category": "停車亂象", "status": "處理中"}, {"id": "CY-LIVE-1111", "date": "2026-02-08", "location": "嘉義市西區世賢路二段181號周邊", "road": "嘉義市", "description": "併排停車導致交通阻塞", "category": "停車亂象", "status": "處理中"}, {"id": "CY-LIVE-1110", "date": "2026-02-09", "location": "嘉義市西區民族路41號周邊", "road": "嘉義市", "description": "道路施工未設警告標誌", "category": "道路工程", "status": "處理中"}, {"id": "CY-LIVE-1109", "date": "2026-02-10", "location": "嘉義市西區世賢路二段300號周邊", "road": "嘉義市", "description": "道路施工未設警告標誌", "category": "道路工程", "status": "處理中"}, {"id": "CY-LIVE-1108", "date": "2026-02-12", "location": "嘉義市西區新民路14號周邊", "road": "嘉義市", "description": "路邊被惡意棄置大型垃圾", "category": "環境衛生", "status": "處理中"}, {"id": "CY-LIVE-1107", "date": "2026-02-13", "location": "嘉義市西區中山路100號周邊", "road": "嘉義市", "description": "巷弄內照明死角太多", "category": "路燈照明", "status": "處理中"}, {"id": "CY-LIVE-1106", "date": "2026-02-14", "location": "嘉義市西區北港路273號周邊", "road": "嘉義市", "description": "路邊被惡意棄置大型垃圾", "category": "環境衛生", "status": "處理中"}, {"id": "CY-LIVE-1105", "date": "2026-02-15", "location": "嘉義市西區文化路28號周邊", "road": "嘉義市", "description": "營業場所擴音器音量過大", "category": "噪音管制", "status": "處理中"}, {"id": "CY-LIVE-1104", "date": "2026-02-16", "location": "嘉義市西區友愛路92號周邊", "road": "嘉義市", "description": "水溝蓋損壞或遺失", "category": "水溝排水", "status": "處理中"}, {"id": "CY-LIVE-1103", "date": "2026-02-16", "location": "嘉義市西區北港路254號周邊", "road": "嘉義市", "description": "周邊工地清晨施工噪音擾人", "category": "噪音管制", "status": "處理中"}, {"id": "CY-LIVE-1102", "date": "2026-02-16", "location": "嘉義市西區民生北路255號周邊", "road": "嘉義市", "description": "路燈閃爍不定", "category": "路燈照明", "status": "處理中"}, {"id": "CY-LIVE-1101", "date": "2026-02-19", "location": "嘉義市西區文化路271號周邊", "road": "嘉義市", "description": "路燈閃爍不定", "category": "路燈照明", "status": "處理中"}, {"id": "CY-LIVE-1100", "date": "2026-02-20", "location": "嘉義市西區北港路101號周邊", "road": "嘉義市", "description": "巷弄內照明死角太多", "category": "路燈照明", "status": "處理中"}, {"id": "CY-LIVE-1099", "date": "2026-02-20", "location": "嘉義市西區民族路166號周邊", "road": "嘉義市", "description": "大雨後水溝排水不及導致積水", "category": "水溝排水", "status": "處理中"}, {"id": "CY-LIVE-1098", "date": "2026-02-21", "location": "嘉義市西區世賢路二段275號周邊", "road": "嘉義市", "description": "水溝蓋損壞或遺失", "category": "水溝排水", "status": "處理中"}, {"id": "CY-LIVE-1097", "date": "2026-02-21", "location": "嘉義市西區世賢路二段189號周邊", "road": "嘉義市", "description": "紅線違規停車嚴重", "category": "停車亂象", "status": "處理中"}, {"id": "CY-LIVE-1096", "date": "2026-02-23", "location": "嘉義市西區世賢路二段175號周邊", "road": "嘉義市", "description": "道路標線斑駁不清", "category": "道路工程", "status": "處理中"}, {"id": "CY-LIVE-1095", "date": "2026-02-23", "location": "嘉義市西區新民路254號周邊", "road": "嘉義市", "description": "紅線違規停車嚴重", "category": "停車亂象", "status": "處理中"}, {"id": "CY-LIVE-1094", "date": "2026-02-23", "location": "嘉義市西區中興路220號周邊", "road": "嘉義市", "description": "路燈閃爍不定", "category": "路燈照明", "status": "處理中"}, {"id": "CY-LIVE-1093", "date": "2026-02-26", "location": "嘉義市西區友愛路139號周邊", "road": "嘉義市", "description": "騎樓被整排機車佔用", "category": "停車亂象", "status": "處理中"}, {"id": "CY-LIVE-1092", "date": "2026-03-01", "location": "嘉義市西區中興路126號周邊", "road": "嘉義市", "description": "紅線違規停車嚴重", "category": "停車亂象", "status": "處理中"}, {"id": "CY-LIVE-1091", "date": "2026-03-01", "location": "嘉義市西區民生北路273號周邊", "road": "嘉義市", "description": "紅線違規停車嚴重", "category": "停車亂象", "status": "處理中"}, {"id": "CY-LIVE-1090", "date": "2026-03-02", "location": "嘉義市西區文化路47號周邊", "road": "嘉義市", "description": "水溝內積滿垃圾與淤泥，散發惡臭", "category": "水溝排水", "status": "處理中"}, {"id": "CY-LIVE-1089", "date": "2026-03-02", "location": "嘉義市西區中興路221號周邊", "road": "嘉義市", "description": "併排停車導致交通阻塞", "category": "停車亂象", "status": "處理中"}, {"id": "CY-LIVE-1088", "date": "2026-03-02", "location": "嘉義市西區民族路130號周邊", "road": "嘉義市", "description": "道路施工未設警告標誌", "category": "道路工程", "status": "處理中"}, {"id": "CY-LIVE-1087", "date": "2026-03-03", "location": "嘉義市西區中興路180號周邊", "road": "嘉義市", "description": "路燈閃爍不定", "category": "路燈照明", "status": "處理中"}, {"id": "CY-LIVE-1086", "date": "2026-03-03", "location": "嘉義市西區民生北路91號周邊", "road": "嘉義市", "description": "空地雜草叢生，恐孳生登革熱", "category": "環境衛生", "status": "處理中"}, {"id": "CY-LIVE-1085", "date": "2026-03-03", "location": "嘉義市西區垂楊路219號周邊", "road": "嘉義市", "description": "深夜改裝車呼嘯而過", "category": "噪音管制", "status": "處理中"}, {"id": "CY-LIVE-1084", "date": "2026-03-03", "location": "嘉義市西區北港路94號周邊", "road": "嘉義市", "description": "水溝蓋損壞或遺失", "category": "水溝排水", "status": "處理中"}, {"id": "CY-LIVE-1083", "date": "2026-03-04", "location": "嘉義市西區文化路229號周邊", "road": "嘉義市", "description": "周邊工地清晨施工噪音擾人", "category": "噪音管制", "status": "處理中"}, {"id": "CY-LIVE-1082", "date": "2026-03-05", "location": "嘉義市西區民生北路100號周邊", "road": "嘉義市", "description": "大雨後水溝排水不及導致積水", "category": "水溝排水", "status": "處理中"}, {"id": "CY-LIVE-1081", "date": "2026-03-06", "location": "嘉義市西區友愛路172號周邊", "road": "嘉義市", "description": "深夜改裝車呼嘯而過", "category": "噪音管制", "status": "處理中"}, {"id": "CY-LIVE-1080", "date": "2026-03-06", "location": "嘉義市西區北港路225號周邊", "road": "嘉義市", "description": "道路標線斑駁不清", "category": "道路工程", "status": "處理中"}, {"id": "CY-LIVE-1079", "date": "2026-03-06", "location": "嘉義市西區民族路55號周邊", "road": "嘉義市", "description": "水溝內積滿垃圾與淤泥，散發惡臭", "category": "水溝排水", "status": "處理中"}, {"id": "CY-LIVE-1078", "date": "2026-03-08", "location": "嘉義市西區世賢路二段118號周邊", "road": "嘉義市", "description": "水溝內積滿垃圾與淤泥，散發惡臭", "category": "水溝排水", "status": "處理中"}, {"id": "CY-LIVE-1077", "date": "2026-03-08", "location": "嘉義市西區世賢路二段200號周邊", "road": "嘉義市", "description": "水溝內積滿垃圾與淤泥，散發惡臭", "category": "水溝排水", "status": "處理中"}, {"id": "CY-LIVE-1076", "date": "2026-03-09", "location": "嘉義市西區新民路145號周邊", "road": "嘉義市", "description": "營業場所擴音器音量過大", "category": "噪音管制", "status": "處理中"}, {"id": "CY-LIVE-1075", "date": "2026-03-12", "location": "嘉義市西區世賢路二段23號周邊", "road": "嘉義市", "description": "道路施工未設警告標誌", "category": "道路工程", "status": "處理中"}, {"id": "CY-LIVE-1074", "date": "2026-03-13", "location": "嘉義市西區垂楊路96號周邊", "road": "嘉義市", "description": "流浪狗群聚造成環境髒亂", "category": "環境衛生", "status": "處理中"}, {"id": "CY-LIVE-1073", "date": "2026-03-13", "location": "嘉義市西區世賢路二段43號周邊", "road": "嘉義市", "description": "路燈閃爍不定", "category": "路燈照明", "status": "處理中"}, {"id": "CY-LIVE-1072", "date": "2026-03-14", "location": "嘉義市西區世賢路二段64號周邊", "road": "嘉義市", "description": "人孔蓋周邊凹陷", "category": "道路工程", "status": "處理中"}, {"id": "CY-LIVE-1071", "date": "2026-03-14", "location": "嘉義市西區民生北路59號周邊", "road": "嘉義市", "description": "深夜改裝車呼嘯而過", "category": "噪音管制", "status": "處理中"}, {"id": "CY-LIVE-1070", "date": "2026-03-14", "location": "嘉義市西區中興路276號周邊", "road": "嘉義市", "description": "周邊工地清晨施工噪音擾人", "category": "噪音管制", "status": "處理中"}, {"id": "CY-LIVE-1069", "date": "2026-03-15", "location": "嘉義市西區文化路279號周邊", "road": "嘉義市", "description": "路邊被惡意棄置大型垃圾", "category": "環境衛生", "status": "處理中"}, {"id": "CY-LIVE-1068", "date": "2026-03-17", "location": "嘉義市西區中興路142號周邊", "road": "嘉義市", "description": "併排停車導致交通阻塞", "category": "停車亂象", "status": "處理中"}, {"id": "CY-LIVE-1067", "date": "2026-03-18", "location": "嘉義市西區世賢路二段228號周邊", "road": "嘉義市", "description": "水溝蓋損壞或遺失", "category": "水溝排水", "status": "處理中"}, {"id": "CY-LIVE-1066", "date": "2026-03-19", "location": "嘉義市西區民生北路34號周邊", "road": "嘉義市", "description": "騎樓被整排機車佔用", "category": "停車亂象", "status": "處理中"}, {"id": "CY-LIVE-1065", "date": "2026-03-20", "location": "嘉義市西區友愛路185號周邊", "road": "嘉義市", "description": "路邊被惡意棄置大型垃圾", "category": "環境衛生", "status": "處理中"}, {"id": "CY-LIVE-1064", "date": "2026-03-21", "location": "嘉義市西區中興路104號周邊", "road": "嘉義市", "description": "併排停車導致交通阻塞", "category": "停車亂象", "status": "處理中"}, {"id": "CY-LIVE-1063", "date": "2026-03-23", "location": "嘉義市西區友愛路231號周邊", "road": "嘉義市", "description": "水溝蓋損壞或遺失", "category": "水溝排水", "status": "處理中"}, {"id": "CY-LIVE-1062", "date": "2026-03-25", "location": "嘉義市西區民族路216號周邊", "road": "嘉義市", "description": "深夜改裝車呼嘯而過", "category": "噪音管制", "status": "處理中"}, {"id": "CY-LIVE-1061", "date": "2026-03-26", "location": "嘉義市西區垂楊路165號周邊", "road": "嘉義市", "description": "深夜改裝車呼嘯而過", "category": "噪音管制", "status": "處理中"}, {"id": "CY-LIVE-1060", "date": "2026-03-26", "location": "嘉義市西區中山路149號周邊", "road": "嘉義市", "description": "道路標線斑駁不清", "category": "道路工程", "status": "處理中"}, {"id": "CY-LIVE-1059", "date": "2026-03-29", "location": "嘉義市西區友愛路195號周邊", "road": "嘉義市", "description": "流浪狗群聚造成環境髒亂", "category": "環境衛生", "status": "處理中"}, {"id": "CY-LIVE-1058", "date": "2026-03-29", "location": "嘉義市西區民族路89號周邊", "road": "嘉義市", "description": "紅線違規停車嚴重", "category": "停車亂象", "status": "處理中"}, {"id": "CY-LIVE-1057", "date": "2026-03-30", "location": "嘉義市西區北港路152號周邊", "road": "嘉義市", "description": "水溝蓋損壞或遺失", "category": "水溝排水", "status": "處理中"}, {"id": "CY-LIVE-1056", "date": "2026-04-01", "location": "嘉義市西區中興路111號周邊", "road": "嘉義市", "description": "營業場所擴音器音量過大", "category": "噪音管制", "status": "處理中"}, {"id": "CY-LIVE-1055", "date": "2026-04-01", "location": "嘉義市西區中山路11號周邊", "road": "嘉義市", "description": "深夜改裝車呼嘯而過", "category": "噪音管制", "status": "處理中"}, {"id": "CY-LIVE-1054", "date": "2026-04-05", "location": "嘉義市西區新民路87號周邊", "road": "嘉義市", "description": "路邊被惡意棄置大型垃圾", "category": "環境衛生", "status": "處理中"}, {"id": "CY-LIVE-1053", "date": "2026-04-05", "location": "嘉義市西區民族路173號周邊", "road": "嘉義市", "description": "周邊工地清晨施工噪音擾人", "category": "噪音管制", "status": "處理中"}, {"id": "CY-LIVE-1052", "date": "2026-04-06", "location": "嘉義市西區民生北路135號周邊", "road": "嘉義市", "description": "路燈整排不亮，影響夜間安全", "category": "路燈照明", "status": "處理中"}, {"id": "CY-LIVE-1051", "date": "2026-04-07", "location": "嘉義市西區民族路152號周邊", "road": "嘉義市", "description": "水溝蓋損壞或遺失", "category": "水溝排水", "status": "處理中"}, {"id": "CY-LIVE-1050", "date": "2026-04-07", "location": "嘉義市西區友愛路25號周邊", "road": "嘉義市", "description": "路燈閃爍不定", "category": "路燈照明", "status": "處理中"}, {"id": "CY-LIVE-1049", "date": "2026-04-07", "location": "嘉義市西區中山路64號周邊", "road": "嘉義市", "description": "巷弄內照明死角太多", "category": "路燈照明", "status": "處理中"}, {"id": "CY-LIVE-1048", "date": "2026-04-07", "location": "嘉義市西區中山路204號周邊", "road": "嘉義市", "description": "水溝內積滿垃圾與淤泥，散發惡臭", "category": "水溝排水", "status": "處理中"}, {"id": "CY-LIVE-1047", "date": "2026-04-07", "location": "嘉義市西區中興路202號周邊", "road": "嘉義市", "description": "水溝內積滿垃圾與淤泥，散發惡臭", "category": "水溝排水", "status": "處理中"}, {"id": "CY-LIVE-1046", "date": "2026-04-08", "location": "嘉義市西區世賢路二段21號周邊", "road": "嘉義市", "description": "路邊被惡意棄置大型垃圾", "category": "環境衛生", "status": "處理中"}, {"id": "CY-LIVE-1045", "date": "2026-04-08", "location": "嘉義市西區垂楊路152號周邊", "road": "嘉義市", "description": "流浪狗群聚造成環境髒亂", "category": "環境衛生", "status": "處理中"}, {"id": "CY-LIVE-1044", "date": "2026-04-09", "location": "嘉義市西區中興路72號周邊", "road": "嘉義市", "description": "大雨後水溝排水不及導致積水", "category": "水溝排水", "status": "處理中"}, {"id": "CY-LIVE-1043", "date": "2026-04-13", "location": "嘉義市西區友愛路164號周邊", "road": "嘉義市", "description": "空地雜草叢生，恐孳生登革熱", "category": "環境衛生", "status": "處理中"}, {"id": "CY-LIVE-1042", "date": "2026-04-13", "location": "嘉義市西區垂楊路182號周邊", "road": "嘉義市", "description": "道路標線斑駁不清", "category": "道路工程", "status": "處理中"}, {"id": "CY-LIVE-1041", "date": "2026-04-15", "location": "嘉義市西區中山路119號周邊", "road": "嘉義市", "description": "空地雜草叢生，恐孳生登革熱", "category": "環境衛生", "status": "處理中"}, {"id": "CY-LIVE-1040", "date": "2026-04-15", "location": "嘉義市西區垂楊路286號周邊", "road": "嘉義市", "description": "路面柏油破損，出現坑洞", "category": "道路工程", "status": "處理中"}, {"id": "CY-LIVE-1039", "date": "2026-04-16", "location": "嘉義市西區新民路131號周邊", "road": "嘉義市", "description": "水溝蓋損壞或遺失", "category": "水溝排水", "status": "處理中"}, {"id": "CY-LIVE-1038", "date": "2026-04-17", "location": "嘉義市西區友愛路129號周邊", "road": "嘉義市", "description": "路面柏油破損，出現坑洞", "category": "道路工程", "status": "處理中"}, {"id": "CY-LIVE-1037", "date": "2026-04-17", "location": "嘉義市西區中興路274號周邊", "road": "嘉義市", "description": "人孔蓋周邊凹陷", "category": "道路工程", "status": "處理中"}, {"id": "CY-LIVE-1036", "date": "2026-04-17", "location": "嘉義市西區世賢路二段276號周邊", "road": "嘉義市", "description": "路燈整排不亮，影響夜間安全", "category": "路燈照明", "status": "處理中"}, {"id": "CY-LIVE-1035", "date": "2026-04-18", "location": "嘉義市西區垂楊路270號周邊", "road": "嘉義市", "description": "騎樓被整排機車佔用", "category": "停車亂象", "status": "處理中"}, {"id": "CY-LIVE-1034", "date": "2026-04-22", "location": "嘉義市西區中山路181號周邊", "road": "嘉義市", "description": "騎樓被整排機車佔用", "category": "停車亂象", "status": "處理中"}, {"id": "CY-LIVE-1033", "date": "2026-04-23", "location": "嘉義市西區文化路298號周邊", "road": "嘉義市", "description": "大雨後水溝排水不及導致積水", "category": "水溝排水", "status": "處理中"}, {"id": "CY-LIVE-1032", "date": "2026-04-24", "location": "嘉義市西區垂楊路17號周邊", "road": "嘉義市", "description": "路邊被惡意棄置大型垃圾", "category": "環境衛生", "status": "處理中"}, {"id": "CY-LIVE-1031", "date": "2026-04-25", "location": "嘉義市西區友愛路124號周邊", "road": "嘉義市", "description": "大雨後水溝排水不及導致積水", "category": "水溝排水", "status": "處理中"}, {"id": "CY-LIVE-1030", "date": "2026-04-28", "location": "嘉義市西區垂楊路51號周邊", "road": "嘉義市", "description": "路燈整排不亮，影響夜間安全", "category": "路燈照明", "status": "處理中"}, {"id": "CY-LIVE-1029", "date": "2026-04-29", "location": "嘉義市西區世賢路二段75號周邊", "road": "嘉義市", "description": "水溝蓋損壞或遺失", "category": "水溝排水", "status": "處理中"}, {"id": "CY-LIVE-1028", "date": "2026-04-30", "location": "嘉義市西區北港路143號周邊", "road": "嘉義市", "description": "巷弄內照明死角太多", "category": "路燈照明", "status": "處理中"}, {"id": "CY-LIVE-1027", "date": "2026-05-02", "location": "嘉義市西區民族路210號周邊", "road": "嘉義市", "description": "路邊被惡意棄置大型垃圾", "category": "環境衛生", "status": "處理中"}, {"id": "CY-LIVE-1026", "date": "2026-05-03", "location": "嘉義市西區民族路115號周邊", "road": "嘉義市", "description": "騎樓被整排機車佔用", "category": "停車亂象", "status": "處理中"}, {"id": "CY-LIVE-1025", "date": "2026-05-03", "location": "嘉義市西區北港路276號周邊", "road": "嘉義市", "description": "水溝蓋損壞或遺失", "category": "水溝排水", "status": "處理中"}, {"id": "CY-LIVE-1024", "date": "2026-05-05", "location": "嘉義市西區民生北路267號周邊", "road": "嘉義市", "description": "路燈閃爍不定", "category": "路燈照明", "status": "處理中"}, {"id": "CY-LIVE-1023", "date": "2026-05-05", "location": "嘉義市西區文化路62號周邊", "road": "嘉義市", "description": "道路施工未設警告標誌", "category": "道路工程", "status": "處理中"}, {"id": "CY-LIVE-1022", "date": "2026-05-06", "location": "嘉義市西區民族路37號周邊", "road": "嘉義市", "description": "大雨後水溝排水不及導致積水", "category": "水溝排水", "status": "處理中"}, {"id": "CY-LIVE-1021", "date": "2026-05-07", "location": "嘉義市西區友愛路257號周邊", "road": "嘉義市", "description": "騎樓被整排機車佔用", "category": "停車亂象", "status": "處理中"}, {"id": "CY-LIVE-1020", "date": "2026-05-07", "location": "嘉義市西區文化路16號周邊", "road": "嘉義市", "description": "營業場所擴音器音量過大", "category": "噪音管制", "status": "處理中"}, {"id": "CY-LIVE-1019", "date": "2026-05-07", "location": "嘉義市西區文化路300號周邊", "road": "嘉義市", "description": "路燈閃爍不定", "category": "路燈照明", "status": "處理中"}, {"id": "CY-LIVE-1018", "date": "2026-05-07", "location": "嘉義市西區友愛路172號周邊", "road": "嘉義市", "description": "水溝蓋損壞或遺失", "category": "水溝排水", "status": "處理中"}, {"id": "CY-LIVE-1017", "date": "2026-05-09", "location": "嘉義市西區中興路113號周邊", "road": "嘉義市", "description": "路面柏油破損，出現坑洞", "category": "道路工程", "status": "處理中"}, {"id": "CY-LIVE-1016", "date": "2026-05-09", "location": "嘉義市西區民族路176號周邊", "road": "嘉義市", "description": "路燈閃爍不定", "category": "路燈照明", "status": "處理中"}, {"id": "CY-LIVE-1015", "date": "2026-05-11", "location": "嘉義市西區民族路220號周邊", "road": "嘉義市", "description": "水溝內積滿垃圾與淤泥，散發惡臭", "category": "水溝排水", "status": "處理中"}, {"id": "CY-LIVE-1014", "date": "2026-05-13", "location": "嘉義市西區中山路236號周邊", "road": "嘉義市", "description": "流浪狗群聚造成環境髒亂", "category": "環境衛生", "status": "處理中"}, {"id": "CY-LIVE-1013", "date": "2026-05-14", "location": "嘉義市西區垂楊路215號周邊", "road": "嘉義市", "description": "道路施工未設警告標誌", "category": "道路工程", "status": "處理中"}, {"id": "CY-LIVE-1012", "date": "2026-05-15", "location": "嘉義市西區文化路47號周邊", "road": "嘉義市", "description": "路燈閃爍不定", "category": "路燈照明", "status": "處理中"}, {"id": "CY-LIVE-1011", "date": "2026-05-15", "location": "嘉義市西區民族路136號周邊", "road": "嘉義市", "description": "巷弄內照明死角太多", "category": "路燈照明", "status": "處理中"}, {"id": "CY-LIVE-1010", "date": "2026-05-16", "location": "嘉義市西區文化路167號周邊", "road": "嘉義市", "description": "深夜改裝車呼嘯而過", "category": "噪音管制", "status": "處理中"}, {"id": "CY-LIVE-1009", "date": "2026-05-16", "location": "嘉義市西區中山路274號周邊", "road": "嘉義市", "description": "路燈閃爍不定", "category": "路燈照明", "status": "處理中"}, {"id": "CY-LIVE-1008", "date": "2026-05-17", "location": "嘉義市西區中興路251號周邊", "road": "嘉義市", "description": "深夜改裝車呼嘯而過", "category": "噪音管制", "status": "處理中"}, {"id": "CY-LIVE-1007", "date": "2026-05-17", "location": "嘉義市西區民生北路61號周邊", "road": "嘉義市", "description": "流浪狗群聚造成環境髒亂", "category": "環境衛生", "status": "處理中"}, {"id": "CY-LIVE-1006", "date": "2026-05-18", "location": "嘉義市西區民生北路162號周邊", "road": "嘉義市", "description": "併排停車導致交通阻塞", "category": "停車亂象", "status": "處理中"}, {"id": "CY-LIVE-1005", "date": "2026-05-19", "location": "嘉義市西區中興路91號周邊", "road": "嘉義市", "description": "深夜改裝車呼嘯而過", "category": "噪音管制", "status": "處理中"}, {"id": "CY-LIVE-1004", "date": "2026-05-20", "location": "嘉義市西區民生北路250號周邊", "road": "嘉義市", "description": "路燈閃爍不定", "category": "路燈照明", "status": "處理中"}, {"id": "CY-LIVE-1003", "date": "2026-05-21", "location": "嘉義市西區垂楊路43號周邊", "road": "嘉義市", "description": "大雨後水溝排水不及導致積水", "category": "水溝排水", "status": "處理中"}, {"id": "CY-LIVE-1002", "date": "2026-05-21", "location": "嘉義市西區民族路198號周邊", "road": "嘉義市", "description": "路燈整排不亮，影響夜間安全", "category": "路燈照明", "status": "處理中"}, {"id": "CY-LIVE-1001", "date": "2026-05-22", "location": "嘉義市西區民生北路11號周邊", "road": "嘉義市", "description": "周邊工地清晨施工噪音擾人", "category": "噪音管制", "status": "處理中"}, {"id": "CY-LIVE-1000", "date": "2026-05-22", "location": "嘉義市西區民生北路240號周邊", "road": "嘉義市", "description": "周邊工地清晨施工噪音擾人", "category": "噪音管制", "status": "處理中"}];
-
-        // 從 location 字串提取實際路名（如「中山路」「世賢路二段」）
-        function extractRoad(loc) {
-            if (!loc) return '';
-            const m = loc.match(/西區(.+?)\d+號/);
-            if (m) return m[1];
-            const m2 = loc.match(/([^\s區]+(?:路|街|巷|道)(?:二段|三段|一段)?)/);
-            return m2 ? m2[1] : loc.slice(0, 5);
+  function renderTrendChart(data) {
+    const trend = computeYearTrend(data);
+    const ctx = document.getElementById('chartTrend').getContext('2d');
+    new Chart(ctx, {
+      type: 'line',
+      data: {
+        labels: trend.labels,
+        datasets: [{
+          data: trend.values,
+          borderColor: '#F97316',
+          backgroundColor: 'rgba(249,115,22,.08)',
+          borderWidth: 2.5,
+          pointBackgroundColor: '#F97316',
+          pointRadius: 4,
+          pointHoverRadius: 6,
+          fill: true,
+          tension: 0.4,
+        }]
+      },
+      options: {
+        responsive: true,
+        maintainAspectRatio: false,
+        plugins: {
+          legend: { display: false },
+          tooltip: {
+            callbacks: {
+              label: ctx => ` ${ctx.parsed.y} 件投訴`,
+            }
+          }
+        },
+        scales: {
+          x: { grid: { display: false }, ticks: { font: { size: 11 } } },
+          y: { grid: { color: '#F1F5F9' }, ticks: { font: { size: 11 } }, beginAtZero: true }
         }
+      }
+    });
+  }
 
-        document.addEventListener("DOMContentLoaded", function() {
-            const effCat = (categoryData && categoryData.length > 0) ? categoryData : computeCatData(dataset);
-            const effRoad = (roadData && roadData.length > 0) ? roadData : computeRoadData(dataset);
-            initMetrics(dataset, effCat);
-            initCharts(effCat, effRoad);
-            renderTable(dataset);
-        });
+  function renderSummary(catData) {
+    const el = document.getElementById('summary-text');
+    if (catData.length < 3) { el.textContent = '資料計算中...'; return; }
+    const top3 = catData.slice(0,3).map(d => d.category).join('、');
+    const total = catData.reduce((s,d)=>s+d.count,0);
+    const topPct = Math.round(catData[0].count / total * 100);
+    el.innerHTML = `12 年間，市民最常投訴的是 <strong>${top3}</strong>。<br>
+      其中「${catData[0].category}」佔了全部投訴的 <strong>${topPct}%</strong>，是絕對第一大痛點。`;
+  }
 
-        function computeCatData(data) {
-            const c = {};
-            data.forEach(d => { c[d.category] = (c[d.category] || 0) + 1; });
-            return Object.entries(c).sort((a,b)=>b[1]-a[1]).map(([category,count])=>({category,count}));
-        }
-        function computeRoadData(data) {
-            const c = {};
-            data.forEach(d => { const r = extractRoad(d.location); if(r) c[r]=(c[r]||0)+1; });
-            return Object.entries(c).sort((a,b)=>b[1]-a[1]).slice(0,10).map(([road,count])=>({road,count}));
-        }
+  function renderTable(data) {
+    const tbody = document.getElementById('table-body');
+    tbody.innerHTML = '';
+    data.slice(0, tableExpanded ? 50 : 15).forEach(item => {
+      const color = getCatColor(item.category);
+      const sc = item.status === '已結案' ? 'bg-green-100 text-green-700' : 'bg-amber-100 text-amber-700';
+      tbody.insertAdjacentHTML('beforeend', `
+        <tr class="hover:bg-slate-50 transition-colors">
+          <td class="px-5 py-3.5 text-slate-500 text-xs font-en whitespace-nowrap">${item.date}</td>
+          <td class="px-5 py-3.5 whitespace-nowrap">
+            <span class="inline-flex items-center gap-1.5 text-xs font-bold px-2.5 py-1 rounded-full" style="background:${color}20;color:${color}">
+              ${item.category}
+            </span>
+          </td>
+          <td class="px-5 py-3.5 text-slate-700 text-xs hide-mobile">${item.location}</td>
+          <td class="px-5 py-3.5 text-slate-600 text-xs">${item.description}</td>
+          <td class="px-5 py-3.5 text-center hide-mobile">
+            <span class="text-xs font-bold px-2 py-1 rounded-full ${sc}">${item.status}</span>
+          </td>
+        </tr>`);
+    });
+  }
 
-        function initMetrics(data, catData) {
-            document.getElementById('metric-total').innerText = data.length.toLocaleString();
-            if (catData.length > 0) document.getElementById('metric-top-category').innerText = catData[0].category;
-        }
+  let tableExpanded = false;
+  function toggleTable() {
+    tableExpanded = !tableExpanded;
+    document.getElementById('toggle-btn').textContent = tableExpanded ? '收起' : '展開全部';
+    renderTable(dataset);
+  }
 
-        function initCharts(catData, roadData) {
-            Chart.defaults.font.family = "'Noto Serif TC', serif";
-            Chart.defaults.color = '#78716c';
-            new Chart(document.getElementById('chartCategories').getContext('2d'), {
-                type: 'doughnut',
-                data: {
-                    labels: catData.map(d=>d.category),
-                    datasets: [{ data: catData.map(d=>d.count), backgroundColor: ['#292524','#57534e','#78716c','#a8a29e','#d6d3d1','#f5f5f4','#c4b5a3','#a07850'], borderWidth: 2, borderColor: '#ffffff' }]
-                },
-                options: { responsive: true, maintainAspectRatio: false, cutout: '65%', plugins: { legend: { position: 'right', labels: { padding: 15, usePointStyle: true, pointStyle: 'circle' } } } }
-            });
-            new Chart(document.getElementById('chartRoads').getContext('2d'), {
-                type: 'bar',
-                data: {
-                    labels: roadData.map(d=>d.road),
-                    datasets: [{ data: roadData.map(d=>d.count), backgroundColor: '#44403c', borderRadius: 2 }]
-                },
-                options: { responsive: true, maintainAspectRatio: false, indexAxis: 'y', plugins: { legend: { display: false } }, scales: { x: { display: false }, y: { grid: { display: false }, border: { display: false } } } }
-            });
-        }
+  // ── 主程式 ──
+  document.addEventListener('DOMContentLoaded', () => {
+    const effCat  = (categoryData && categoryData.length > 0) ? categoryData : computeCatData(dataset);
+    const effRoad = (roadData && roadData.length > 0) ? roadData : computeRoadData(dataset);
 
-        function renderTable(data) {
-            const tbody = document.getElementById('table-body');
-            data.slice(0, 15).forEach(item => {
-                const sc = item.status === "已結案" ? "bg-stone-100 text-stone-600" : "bg-amber-50 text-amber-800";
-                tbody.insertAdjacentHTML('beforeend', `<tr class="hover:bg-stone-50 transition-colors">
-                    <td class="px-6 py-4 text-stone-500 font-sans text-xs">${item.date}</td>
-                    <td class="px-6 py-4"><span class="font-sans text-[11px] font-bold tracking-wider text-stone-600 uppercase">${item.category}</span></td>
-                    <td class="px-6 py-4 font-medium text-stone-900 text-sm">${item.location}</td>
-                    <td class="px-6 py-4 text-xs text-stone-600">${item.description}</td>
-                    <td class="px-6 py-4 text-center"><span class="px-3 py-1 text-[10px] font-sans font-bold tracking-widest rounded-full border ${sc}">${item.status}</span></td>
-                </tr>`);
-            });
-        }
-    </script>
+    renderKPIs(dataset, effCat, effRoad);
+    renderCatBars(effCat);
+    renderRoadList(effRoad);
+    renderTrendChart(dataset);
+    renderSummary(effCat);
+    renderTable(dataset);
+  });
+</script>
 </body>
 </html>

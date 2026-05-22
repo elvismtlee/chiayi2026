@@ -145,33 +145,32 @@ def build_dashboard(news, complaint_stats, council_data, citizen_stats):
         flags=re.DOTALL,
     )
 
-    # 注入即時新聞 HTML
+    # 注入即時新聞 HTML（配合新版 id="news-list"）
     if news:
         news_html_parts = []
-        for n in news[:10]:
+        for n in news[:12]:
             news_html_parts.append(
-                f'<div class="block p-5 bg-white border-[0.5px] border-[#E2DFD8] shadow-sm hover:bg-stone-50 transition-colors group">'
-                f'<div class="flex justify-between items-center mb-3">'
-                f'<span class="px-2 py-0.5 text-[10px] font-sans font-bold tracking-widest uppercase bg-stone-800 text-white">即時新聞</span>'
-                f'<span class="text-[11px] text-stone-400 font-mono">{n["date"]}</span>'
+                f'<div class="news-card bg-white rounded-xl p-4 border border-slate-100">'
+                f'<div class="flex justify-between items-center mb-2">'
+                f'<span class="text-xs font-bold text-orange-500">{n["source"]}</span>'
+                f'<span class="text-xs text-slate-400 font-en">{n["date"][:10]}</span>'
                 f'</div>'
                 f'<a href="{n["link"]}" target="_blank" rel="noopener" '
-                f'class="text-[14px] font-bold text-stone-900 leading-relaxed mb-2 group-hover:text-amber-900 transition-colors block">'
+                f'class="text-sm font-bold text-slate-800 leading-relaxed hover:text-orange-500 transition-colors block">'
                 f'{n["headline"]}</a>'
-                f'<div class="text-[11px] font-sans text-stone-400 uppercase tracking-widest">{n["source"]}</div>'
                 f'</div>'
             )
         news_html = "\n".join(news_html_parts)
         html = re.sub(
-            r'(<div class="space-y-4 overflow-y-auto flex-grow hide-scrollbar pr-1"[^>]*>).*?(</div>\s*<div class="mt-6 pt-4)',
-            rf"\1\n{news_html}\n\2",
+            r'(<div[^>]+id="news-list"[^>]*>).*?(</div>\s*</div>\s*</div>\s*<!-- ── Row 3)',
+            rf"\1\n{news_html}\n</div>\n<!-- ── Row 3",
             html,
             flags=re.DOTALL,
         )
 
-    # 注入更新時間
+    # 注入更新時間（JS 會自動顯示，此處備用靜態注入）
     now_str = datetime.now().strftime("%Y-%m-%d %H:%M")
-    html = re.sub(r"最後更新：[\d\-: ]+", f"最後更新：{now_str}", html)
+    html = html.replace("最後更新：載入中...", f"最後更新：{now_str}")
 
     index_path.write_text(html, encoding="utf-8")
     print(f"  [build] index.html 已更新（{len(all_records)} 筆記錄，{len(news)} 則新聞）")
