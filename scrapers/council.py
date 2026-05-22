@@ -1,21 +1,20 @@
-"""嘉義市議會爬蟲 — 議員質詢紀錄 + 會議記錄"""
+"""嘉義市議會爬蟲 — 議員質詢紀錄 + 會議記錄
+官方網站：https://www.cycc.gov.tw/Default.aspx（ASP.NET WebForms，SSL 憑證無效）
+"""
 import json
 import re
-import urllib.request
+import warnings
 import urllib.parse
 from datetime import datetime
 from html.parser import HTMLParser
 
+import requests
+from requests.packages.urllib3.exceptions import InsecureRequestWarning
+warnings.filterwarnings("ignore", category=InsecureRequestWarning)
 
-# 嘉義市議會網站（主要）
-COUNCIL_BASE = "https://www.chiayi-city-council.gov.tw"
-
-# 備用：立法院地方議會會議資料（若有整合）
-BACKUP_URLS = [
-    "https://www.chiayi-city-council.gov.tw/PublicInfo/MeetingMinutes",
-    "https://www.chiayi-city-council.gov.tw/PublicInfo/Councilor",
-    "https://www.chiayi-city-council.gov.tw/PublicInfo/Question",
-]
+# 嘉義市議會正確網址（舊址 chiayi-city-council.gov.tw 已失效）
+COUNCIL_BASE = "https://www.cycc.gov.tw"
+COUNCIL_DEFAULT = f"{COUNCIL_BASE}/Default.aspx"
 
 # 現任嘉義市議員名單（第 9 屆，用於比對爬到的資料）
 COUNCILORS = [
@@ -27,17 +26,26 @@ COUNCILORS = [
 
 def _http_get(url: str, timeout: int = 20) -> bytes | None:
     try:
-        req = urllib.request.Request(
+        r = requests.get(
             url,
-            headers={
-                "User-Agent": "Mozilla/5.0 (research bot)",
-                "Accept": "text/html,application/xhtml+xml",
-            },
+            headers={"User-Agent": "Mozilla/5.0 (research bot)",
+                     "Accept": "text/html,application/xhtml+xml"},
+            timeout=timeout,
+            verify=False,  # cycc.gov.tw SSL 憑證無效，略過驗證
         )
-        return urllib.request.urlopen(req, timeout=timeout).read()
+        return r.content if r.status_code == 200 else None
     except Exception as e:
         print(f"  [council] HTTP 失敗 {url}: {e}")
         return None
+
+
+def _decode(raw: bytes) -> str:
+    for enc in ("utf-8", "big5", "cp950"):
+        try:
+            return raw.decode(enc)
+        except Exception:
+            pass
+    return raw.decode("utf-8", errors="replace")
 
 
 class MeetingListParser(HTMLParser):
@@ -87,72 +95,89 @@ class MeetingListParser(HTMLParser):
 
 
 def fetch_meeting_list(page: int = 1, per_page: int = 50) -> list[dict]:
-    """抓取議會會議紀錄列表"""
-    print(f"  [council] 抓取會議紀錄列表 (第 {page} 頁)...")
-    url = f"{COUNCIL_BASE}/PublicInfo/MeetingMinutes?page={page}&pageSize={per_page}"
-    raw = _http_get(url)
+    """抓取議會會議紀錄（從首頁或相關頁面解析）"""
+    print(f"  [council] 抓取會議紀錄列表...")
+    raw = _http_get(COUNCIL_DEFAULT)
     if not raw:
+        print("  [council] 議會網站無法連線，回傳空列表")
         return []
+
+    html = _decode(raw)
     parser = MeetingListParser()
     try:
-        parser.feed(raw.decode("utf-8", errors="ignore"))
+        parser.feed(html)
     except Exception as e:
         print(f"  [council] 解析失敗: {e}")
-    return parser.meetings
+
+    meetings = parser.meetings
+    if not meetings:
+        # 從 HTML 找會議關鍵詞
+        m_dates = re.findall(r"(\d{3,4})[年/\-](\d{1,2})[月/\-](\d{1,2})[日]?\s*[，,]?\s*([^<\n]{5,40}(?:會|議|定期|臨時))", html)
+        for y, mo, d, title in m_dates[:20]:
+            meetings.append({
+                "date": f"{y}/{mo}/{d}",
+                "type": title.strip()[:30],
+                "source": "scraped",
+            })
+
+    print(f"  [council] 找到 {len(meetings)} 筆會議記錄")
+    return meetings
 
 
 def fetch_councilor_list() -> list[dict]:
-    """抓取現任議員清單"""
-    print("  [council] 抓取議員清單...")
-    url = f"{COUNCIL_BASE}/PublicInfo/Councilor"
-    raw = _http_get(url)
+    """回傳現任嘉義市議員名單（第九屆）"""
+    print("  [council] 使用已知議員名單（第九屆）...")
+    raw = _http_get(COUNCIL_DEFAULT)
     if not raw:
-        # 回傳已知名單
-        return [{"name": name, "source": "known"} for name in COUNCILORS]
+        return [{"name": name, "party": "", "source": "static"} for name in COUNCILORS]
 
-    html = raw.decode("utf-8", errors="ignore")
+    html = _decode(raw)
     councilors = []
     seen = set()
-    for name in COUNCILORS:
-        if name in html and name not in seen:
-            seen.add(name)
-            councilors.append({"name": name, "source": "scraped"})
 
-    name_pattern = re.compile(r"([一-鿿]{2,4})議員")
+    # 嘗試從網頁中找議員名字
+    name_pattern = re.compile(r"([一-鿿]{2,4})(?:議員|市議員)")
     for match in name_pattern.finditer(html):
         name = match.group(1)
-        if name not in seen:
+        if name not in seen and len(name) >= 2:
             seen.add(name)
             councilors.append({"name": name, "source": "scraped"})
 
-    return councilors if councilors else [{"name": n, "source": "fallback"} for n in COUNCILORS]
+    # 確保已知議員都在清單中
+    for name in COUNCILORS:
+        if name not in seen:
+            seen.add(name)
+            councilors.append({"name": name, "source": "static"})
+
+    print(f"  [council] 共 {len(councilors)} 位議員")
+    return councilors
 
 
 def fetch_question_records(year_start: int = 2013, year_end: int = 2026) -> list[dict]:
-    """嘗試抓取歷年質詢紀錄（HTML 頁面）"""
-    print(f"  [council] 抓取質詢紀錄 ({year_start}–{year_end})...")
+    """從議會首頁搜尋質詢或施政相關關鍵詞"""
+    print(f"  [council] 掃描質詢記錄...")
+    raw = _http_get(COUNCIL_DEFAULT)
+    if not raw:
+        return []
+
+    html = _decode(raw)
     records = []
 
-    for year in range(year_start, year_end + 1):
-        url = f"{COUNCIL_BASE}/PublicInfo/Question?year={year}"
-        raw = _http_get(url)
-        if not raw:
-            continue
-        html = raw.decode("utf-8", errors="ignore")
-
-        # 用 councillor 名字在 HTML 中找質詢關鍵詞
-        for name in COUNCILORS:
-            if name in html:
-                idx = html.find(name)
-                snippet = html[max(0, idx - 50): idx + 200]
-                snippet_clean = re.sub(r"<[^>]+>", "", snippet).strip()
-                if len(snippet_clean) > 10:
-                    records.append({
-                        "councilor": name,
-                        "year": year,
-                        "snippet": snippet_clean,
-                        "source_url": url,
-                    })
+    # 在 HTML 中找議員名字配合質詢關鍵詞
+    keywords = ["質詢", "市政", "建設", "工程", "道路", "環境", "提案", "陳情"]
+    for name in COUNCILORS:
+        if name in html:
+            idx = html.find(name)
+            snippet = html[max(0, idx - 80): idx + 300]
+            snippet_clean = re.sub(r"<[^>]+>", " ", snippet)
+            snippet_clean = re.sub(r"\s+", " ", snippet_clean).strip()
+            if any(kw in snippet_clean for kw in keywords):
+                records.append({
+                    "councilor": name,
+                    "year": datetime.now().year,
+                    "snippet": snippet_clean[:150],
+                    "source_url": COUNCIL_DEFAULT,
+                })
 
     print(f"  [council] 找到 {len(records)} 筆質詢片段")
     return records
