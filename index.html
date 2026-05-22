@@ -84,34 +84,34 @@
       </div>
 
       <h1 class="text-4xl md:text-6xl font-black leading-tight mb-4 fade-up delay-1">
-        嘉義市<span style="color:var(--orange)">城市問題</span><br>12 年大數據
+        嘉義市<span style="color:var(--orange)">城市問題</span><br>12 年真實數據
       </h1>
       <p class="text-slate-300 text-lg md:text-xl font-light leading-relaxed mb-10 fade-up delay-2">
-        嘉義市西區 12 年間，市民透過 1999 投訴了多少次同樣的問題？<br>
-        議員到底有沒有在幫你質詢這些問題？數據說了算。
+        道路交通事故、管線施工、路燈、橋梁、停車、噪音⋯⋯<br>
+        嘉義市 12 年基礎建設問題全面透明化，數字說了算。
       </p>
 
       <!-- 大數字 KPI -->
       <div class="grid grid-cols-2 md:grid-cols-4 gap-4 fade-up delay-3">
         <div class="bg-white/10 backdrop-blur rounded-2xl p-5 border border-white/10">
-          <div class="text-orange-400 text-xs font-en font-bold tracking-widest uppercase mb-2">總投訴件數</div>
+          <div class="text-orange-400 text-xs font-en font-bold tracking-widest uppercase mb-2">城市問題總計</div>
           <div class="text-4xl font-black font-en counter" id="kpi-total">0</div>
-          <div class="text-slate-400 text-xs mt-1">件民怨紀錄</div>
+          <div class="text-slate-400 text-xs mt-1">件城市基礎建設紀錄</div>
         </div>
         <div class="bg-white/10 backdrop-blur rounded-2xl p-5 border border-white/10">
-          <div class="text-orange-400 text-xs font-en font-bold tracking-widest uppercase mb-2">最大痛點</div>
+          <div class="text-orange-400 text-xs font-en font-bold tracking-widest uppercase mb-2">最大議題</div>
           <div class="text-2xl font-black" id="kpi-top-cat">—</div>
-          <div class="text-slate-400 text-xs mt-1">市民投訴第一名</div>
+          <div class="text-slate-400 text-xs mt-1">數據第一名類別</div>
         </div>
         <div class="bg-white/10 backdrop-blur rounded-2xl p-5 border border-white/10">
-          <div class="text-orange-400 text-xs font-en font-bold tracking-widest uppercase mb-2">問題最多路段</div>
-          <div class="text-2xl font-black" id="kpi-top-road">—</div>
-          <div class="text-slate-400 text-xs mt-1">全區投訴熱點</div>
+          <div class="text-orange-400 text-xs font-en font-bold tracking-widest uppercase mb-2">西區人口</div>
+          <div class="text-2xl font-black font-en" id="kpi-west-pop">145,077</div>
+          <div class="text-slate-400 text-xs mt-1">位西區市民</div>
         </div>
         <div class="bg-white/10 backdrop-blur rounded-2xl p-5 border border-white/10">
-          <div class="text-orange-400 text-xs font-en font-bold tracking-widest uppercase mb-2">本月新增</div>
+          <div class="text-orange-400 text-xs font-en font-bold tracking-widest uppercase mb-2">本月紀錄</div>
           <div class="text-4xl font-black font-en counter" id="kpi-month">0</div>
-          <div class="text-slate-400 text-xs mt-1">件本月投訴</div>
+          <div class="text-slate-400 text-xs mt-1">件本月城市事件</div>
         </div>
       </div>
     </div>
@@ -137,10 +137,10 @@
     <div class="lg:col-span-3 card p-6">
       <div class="flex items-center justify-between mb-5">
         <div>
-          <h2 class="text-lg font-black text-slate-900">12 年最常見的問題</h2>
-          <p class="text-sm text-slate-500 mt-0.5">市民到底在投訴什麼？</p>
+          <h2 class="text-lg font-black text-slate-900">嘉義市城市問題類別分析</h2>
+          <p class="text-sm text-slate-500 mt-0.5">開放資料：交通事故・施工・路燈・橋梁・公安</p>
         </div>
-        <span class="text-xs text-slate-400 font-en bg-slate-100 px-3 py-1 rounded-full">1999 通報分析</span>
+        <span class="text-xs font-bold text-blue-700 bg-blue-50 px-3 py-1 rounded-full">政府開放資料</span>
       </div>
       <div class="space-y-3" id="cat-bars"></div>
     </div>
@@ -148,8 +148,8 @@
     <!-- 路段熱點（2/5） -->
     <div class="lg:col-span-2 card p-6">
       <div class="mb-5">
-        <h2 class="text-lg font-black text-slate-900">最多問題的路段</h2>
-        <p class="text-sm text-slate-500 mt-0.5">Top 10 民怨熱點</p>
+        <h2 class="text-lg font-black text-slate-900">施工熱點路段</h2>
+        <p class="text-sm text-slate-500 mt-0.5">管線挖掘 Top 10 路段</p>
       </div>
       <div class="space-y-2" id="road-list"></div>
     </div>
@@ -231,11 +231,11 @@
       </p>
     </div>
     <div class="card p-6 bg-gradient-to-br from-blue-50 to-indigo-50 border border-blue-100">
-      <div class="text-3xl mb-3">🗳️</div>
-      <h3 class="font-black text-slate-900 text-base mb-2">議員質詢比較</h3>
+      <div class="text-3xl mb-3">🌉</div>
+      <h3 class="font-black text-slate-900 text-base mb-2">基礎建設一覽</h3>
       <p class="text-sm text-slate-600 leading-relaxed">
-        市民投訴排第一的問題，是不是議員質詢最多的問題？<br>
-        <span class="font-bold text-blue-700 mt-2 inline-block">資料整合中，即將上線</span>
+        嘉義市有 <strong>172 座橋梁</strong>、<strong>28,688 盞路燈</strong>、<strong>38 處公有停車場</strong>。<br>
+        <span class="font-bold text-blue-700 mt-2 inline-block">維護城市基礎，是議員的責任</span>
       </p>
     </div>
     <div class="card p-6 bg-gradient-to-br from-green-50 to-emerald-50 border border-green-100">
@@ -254,8 +254,8 @@
   <div class="card overflow-hidden mb-6">
     <div class="px-6 py-4 border-b border-slate-100 flex items-center justify-between">
       <div>
-        <h2 class="text-base font-black text-slate-900">1999 市民陳情原始紀錄</h2>
-        <p class="text-xs text-slate-400 mt-0.5">最新 15 筆，每 6 小時自動更新</p>
+        <h2 class="text-base font-black text-slate-900">嘉義市城市問題原始紀錄</h2>
+        <p class="text-xs text-slate-400 mt-0.5">交通事故・道路施工・路燈・橋梁・停車場，每 6 小時自動更新</p>
       </div>
       <button onclick="toggleTable()" id="toggle-btn" class="text-xs text-slate-500 border border-slate-200 rounded-lg px-3 py-1.5 hover:bg-slate-50">
         展開全部
@@ -407,7 +407,12 @@
     animateCount(document.getElementById('kpi-total'), data.reduce((s,d)=>s+(d.count||1),0));
     animateCount(document.getElementById('kpi-month'), countThisMonth(data));
     if (catData.length > 0) document.getElementById('kpi-top-cat').textContent = catData[0].category;
-    if (roadData.length > 0) document.getElementById('kpi-top-road').textContent = roadData[0].road;
+    // 西區人口
+    const westPop = westPopData.reduce((s, d) => s + (d.count || 0), 0);
+    if (westPop > 0) {
+      const el = document.getElementById('kpi-west-pop');
+      if (el) animateCount(el, westPop);
+    }
 
     // 更新時間
     const now = new Date();
@@ -543,12 +548,13 @@
 
   function renderSummary(catData) {
     const el = document.getElementById('summary-text');
-    if (catData.length < 3) { el.textContent = '資料計算中...'; return; }
+    if (catData.length < 2) { el.textContent = '資料計算中...'; return; }
     const top3 = catData.slice(0,3).map(d => d.category).join('、');
     const total = catData.reduce((s,d)=>s+d.count,0);
     const topPct = Math.round(catData[0].count / total * 100);
-    el.innerHTML = `嘉義市城市議題中，<strong>${top3}</strong> 是最主要的三大類別。<br>
-      其中「${catData[0].category}」佔整體數據的 <strong>${topPct}%</strong>，是市政最需關注的焦點。`;
+    const topCat = catData[0];
+    el.innerHTML = `嘉義市 12 年城市問題中，<strong>${top3}</strong> 是最主要的三大類別。<br>
+      「<strong>${topCat.category}</strong>」累計 <strong>${topCat.count.toLocaleString()}</strong> 件，佔整體 <strong>${topPct}%</strong>，是需要最多關注的市政焦點。`;
   }
 
   function renderTable(data) {
