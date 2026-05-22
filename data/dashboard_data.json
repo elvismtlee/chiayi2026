@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-22T17:07:29.230577",
+  "updated_at": "2026-05-22T17:20:28.810678",
   "news": [
     {
       "headline": "美女議員建議輕軌延伸到嘉縣海區 盼翁章梁爭取 還說要為他立石碑",
@@ -58,13 +58,6 @@
       "query": "嘉義市 1999 陳情"
     },
     {
-      "headline": "廢棄汽機車移置費時逾百日效率差挨批嘉市議員籲1999管考修法納管| 雲嘉南| 地方",
-      "source": "UDN",
-      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1QQ1lJV0tjUndOdlBsZTNhWFdJUXR1X24zNEtaWnBmZl8zZWp3Y000ZE5VeV9oWGh6OTVpTXpXLXhHLTZZc3pKTFQ0Z1pKdVRq?oc=5",
-      "date": "2026-04-30 15:00",
-      "query": "嘉義市 1999 陳情"
-    },
-    {
       "headline": "卓榮泰視察嘉義運動館　兩度喊話王美惠延續市政 | 政治 | CTWANT",
       "source": "CTWANT",
       "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBhRnJFUW1VTHlSSDctc2VGTllIMUxWNmdUVlhtWUJjZXVpaU1XVXpDMVZ2UlJXNERlTm9rbWJrUGJjN1gyZnc1UWgyc3BldVnSAVRBVV95cUxOWHA5aURUYW82aDFTbW9wdF9SR3lEZHl3bmxlc2JfS0ZOUmxTekl4QWVodmJoVnF2SENGMTc0aDZ5bHFRQTFUZXNVaFZQa0hjU3pkaVk?oc=5",
@@ -84,15 +77,21 @@
       "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE10ZzNZUlAxcUlYdFRmczJnZmd3YzFka3hvaFM3YWJHdVVsRHZnZC1qeUlfelNGRUNfTjBfWkZBa0VwZFJyMmZneUl2Tkd0Uk5hbWR0U2hjUVp3SUktWnl4S3BMcHJ1ZXRCbUHSAW9BVV95cUxPZGEzdU1GZkxXNXE1a1FzUEdCYzJ6WHFWUmJoZ0FVVFEycXc2UDhYdXBFZVBKeGZITnNZT2pIVk0tSVoxZmdMMHBjOHVBOVEzX3dzeGdWQS1WeEMxRFAwUm95cmJwUmFkU3ZRUlNFSVU?oc=5",
       "date": "2026-04-21 15:00",
       "query": "嘉義市議會 會議"
+    },
+    {
+      "headline": "黃敏惠出國缺席議會定期會惹議嘉市府：加強溝通| 地方",
+      "source": "中央社 CNA",
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1lSHRQOTA0c3JMT053ejJoVE1CTFhYUUEtc2VJa2RGMnRHdEk3N193VGpzbTRyT0VrX1VkXzZNWjdnZHZPek1aMDV0V19XamNrSjAteHlmc2NVcUVDa0Jn?oc=5",
+      "date": "2026-04-21 15:00",
+      "query": "嘉義市議會 會議"
     }
   ],
   "complaint_stats": {
-    "total": 71757,
+    "total": 71742,
     "category_counts": {
       "道路交通": 43529,
       "道路工程": 94,
       "路燈照明": 28113,
-      "其他": 15,
       "市政服務": 6
     },
     "top_roads": [
@@ -151,10 +150,6 @@
         "count": 94
       },
       {
-        "category": "其他",
-        "count": 15
-      },
-      {
         "category": "市政服務",
         "count": 6
       }
@@ -174,7 +169,7 @@
       "2025": 8877,
       "2026": 795
     },
-    "updated_at": "2026-05-22T17:07:21.345763",
+    "updated_at": "2026-05-22T17:20:15.082220",
     "source": "data.chiayi.gov.tw"
   },
   "council": {
