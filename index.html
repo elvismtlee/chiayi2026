@@ -19,6 +19,23 @@
         .hide-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
     </style>
 </head>
+
+<div class="fixed bottom-10 right-10 z-50">
+    <button onclick="triggerUpdate()" class="bg-red-600 text-white px-6 py-3 rounded-full shadow-lg font-bold hover:bg-red-700 transition-all">
+        手動更新數據
+    </button>
+</div>
+
+<script>
+function triggerUpdate() {
+    alert("已送出更新請求，系統將於 30 秒內自動執行爬蟲並重繪儀表板，請稍後重新整理頁面。");
+    // 此處你可以直接導向 GitHub 的 Action 頁面來觸發
+    window.location.href = "https://github.com/elvismtlee/chiayi2026/actions";
+}
+</script>
+
+
+    
 <body class="min-h-screen p-6 md:p-12">
     <header class="max-w-7xl mx-auto text-center border-b-[1px] custom-border pb-10 mb-10">
         <div class="thick-border-top w-24 mx-auto mb-8"></div>
