@@ -5,7 +5,7 @@ on:
     branches:
       - main
   schedule:
-    - cron: '0 16 * * *'
+    - cron: '0 * * * *' # 改為每小時自動爬取一次
 
 jobs:
   build-and-deploy:
@@ -15,62 +15,25 @@ jobs:
 
     steps:
     - uses: actions/checkout@v4
+    
     - uses: actions/setup-python@v4
       with:
         python-version: '3.10'
-    - run: pip install gspread oauth2client
+        
+    - name: 安裝爬蟲套件
+      run: pip install gspread oauth2client requests
 
     - name: 執行資料庫同步與網頁編譯
       env:
         GCP_SERVICE_ACCOUNT_KEY: ${{ secrets.GCP_SERVICE_ACCOUNT_KEY }}
         GOOGLE_SHEET_ID: ${{ secrets.GOOGLE_SHEET_ID }}
-      run: |
-        python -c '
-        import os, json, gspread, re
-        from oauth2client.service_account import ServiceAccountCredentials
-
-        try:
-            secret_key = os.environ.get("GCP_SERVICE_ACCOUNT_KEY")
-            sheet_id = os.environ.get("GOOGLE_SHEET_ID")
-            scope = ["https://spreadsheets.google.com/feeds", "https://www.googleapis.com/auth/drive"]
-            creds = ServiceAccountCredentials.from_json_keyfile_dict(json.loads(secret_key), scope)
-            client = gspread.authorize(creds)
-            sheet = client.open_by_key(sheet_id).worksheet("1999陳情案件表")
-            
-            records = sheet.get_all_records()
-            formatted_records = []
-            for i, row in enumerate(records):
-                formatted_records.append({
-                    "id": f"CY-LIVE-{1000+i}",
-                    "date": str(row.get("通報日期", "")),
-                    "location": str(row.get("發生地點", "")),
-                    "road": str(row.get("發生地點", ""))[:3],
-                    "description": str(row.get("原始描述", "")),
-                    "category": str(row.get("議題分類", "")),
-                    "status": "處理中"
-                })
-            sheet_data = formatted_records[::-1]
-            
-            with open("index.html", "r", encoding="utf-8") as f:
-                html = f.read()
-            
-            # 使用正則表達式精準替換 dataset 變數
-            json_str = json.dumps(sheet_data, ensure_ascii=False)
-            new_html = re.sub(r"const dataset = \[.*?\];", f"const dataset = {json_str};", html, flags=re.DOTALL)
-            
-            with open("index.html", "w", encoding="utf-8") as f:
-                f.write(new_html)
-            print("網頁數據注入成功！")
-        except Exception as e:
-            print(f"處理失敗: {e}")
-            exit(1)
-        '
+      run: python scraper.py
 
     - name: 自動發布最新儀表板
       run: |
         git config --global user.name "GitHub Actions Bot"
         git config --global user.email "actions@github.com"
         git add index.html
-        git commit -m "Auto-update from Live Citizen Data" || echo "No changes"
+        git commit -m "Auto-update dashboard with live crawled data" || echo "No changes"
         git pull --rebase
         git push
