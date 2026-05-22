@@ -1,8 +1,14 @@
-"""Google News RSS 爬蟲 — 嘉義市政、議員質詢相關新聞"""
+"""Google News RSS 爬蟲 + 嘉義市政府開放資料新聞 — 嘉義市政、議員質詢相關新聞"""
 import urllib.request
 import urllib.parse
 import xml.etree.ElementTree as ET
 from datetime import datetime, timedelta
+
+try:
+    import requests as _requests
+    _HAS_REQUESTS = True
+except ImportError:
+    _HAS_REQUESTS = False
 
 
 QUERIES = [
@@ -15,6 +21,48 @@ QUERIES = [
     "嘉義市 道路 施工",
     "嘉義市 市民 問題",
 ]
+
+# 嘉義市政府新聞開放資料
+CHIAYI_GOV_NEWS_URL = (
+    "https://data.chiayi.gov.tw/opendata/api/getResource/download"
+    "?oid=6dcaf207-e99b-4846-bd72-c334ce0d4b59"
+    "&rid=87d4b27c-07c3-4546-815d-1e733dfd9497"
+)
+
+
+def _fetch_chiayi_gov_news(max_items: int = 15) -> list[dict]:
+    """抓取嘉義市政府開放資料平台新聞（官方發布）"""
+    if not _HAS_REQUESTS:
+        return []
+    try:
+        r = _requests.get(CHIAYI_GOV_NEWS_URL,
+                          headers={"User-Agent": "Mozilla/5.0"},
+                          timeout=20)
+        if r.status_code != 200:
+            return []
+        items = r.json()
+        news = []
+        for item in items[:max_items]:
+            title = item.get("title", "").strip()
+            source_url = item.get("Source", "").strip()
+            post_unit = item.get("PostUnit", "").strip()
+            post_date = item.get("PostDate", "").strip()
+            if not title:
+                continue
+            # 日期格式 2026/05/22 → 標準化
+            date_str = post_date if post_date else ""
+            news.append({
+                "headline": title,
+                "source": f"嘉義市政府/{post_unit}" if post_unit else "嘉義市政府",
+                "link": source_url or "https://www.chiayi.gov.tw",
+                "date": date_str,
+                "query": "市府新聞",
+            })
+        print(f"  [news] 嘉義市政府新聞：{len(news)} 則")
+        return news
+    except Exception as e:
+        print(f"  [news] 市府新聞抓取失敗: {e}")
+        return []
 
 
 def _fetch_rss(query: str, max_items: int = 8) -> list[dict]:
@@ -50,14 +98,24 @@ def _fetch_rss(query: str, max_items: int = 8) -> list[dict]:
 
 
 def fetch_all_news(max_per_query: int = 6) -> list[dict]:
-    print("[news] 抓取 Google News RSS...")
+    print("[news] 抓取新聞...")
     seen_headlines = set()
     results = []
+
+    # 1. 嘉義市政府官方新聞（開放資料）
+    for item in _fetch_chiayi_gov_news(15):
+        if item["headline"] not in seen_headlines:
+            seen_headlines.add(item["headline"])
+            results.append(item)
+
+    # 2. Google News RSS
+    print("  [news] 抓取 Google News RSS...")
     for q in QUERIES:
         for item in _fetch_rss(q, max_per_query):
             if item["headline"] not in seen_headlines:
                 seen_headlines.add(item["headline"])
                 results.append(item)
+
     results.sort(key=lambda x: x["date"], reverse=True)
     print(f"  [news] 共取得 {len(results)} 則新聞")
     return results
