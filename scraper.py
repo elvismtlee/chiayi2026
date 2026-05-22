@@ -1,80 +1,77 @@
 import os
 import json
-from datetime import datetime
+import random
+from datetime import datetime, timedelta
 import pandas as pd
 import gspread
 from oauth2client.service_account import ServiceAccountCredentials
 
-def fetch_chiayi_1999_mock_data():
-    """
-    核心爬蟲模組：模擬抓取嘉義市公開陳情資訊
-    """
-    print("啟動嘉義市城市故障數據收集器...")
-    mock_data = [
-        {"date": "2026-05-20", "location": "嘉義市西區中山路與文化路口", "description": "路燈不亮，影響夜間行車安全"},
-        {"date": "2026-05-21", "location": "嘉義市東區林森東路", "description": "水溝嚴重堵塞散發惡臭"},
-        {"date": "2026-05-22", "location": "嘉義市西區中興路", "description": "違規停車嚴重，霸占人行道與騎樓"}
-    ]
+def generate_chiayi_west_district_data(num_records=200):
+    print("啟動嘉義市西區真實情境數據模擬引擎...")
+    
+    # 鎖定西區重點路段
+    locations = ["中山路", "文化路", "中興路", "友愛路", "北港路", "世賢路二段", "民族路", "民生北路", "新民路", "垂楊路"]
+    issue_types = {
+        "道路工程": ["路面柏油破損，出現坑洞", "道路施工未設警告標誌", "人孔蓋周邊凹陷", "道路標線斑駁不清"],
+        "停車亂象": ["紅線違規停車嚴重", "騎樓被整排機車佔用", "併排停車導致交通阻塞", "廢棄車輛長期霸占停車格"],
+        "路燈照明": ["路燈整排不亮，影響夜間安全", "路燈閃爍不定", "巷弄內照明死角太多"],
+        "水溝排水": ["水溝蓋損壞或遺失", "水溝內積滿垃圾與淤泥，散發惡臭", "大雨後水溝排水不及導致積水"],
+        "環境衛生": ["空地雜草叢生，恐孳生登革熱", "路邊被惡意棄置大型垃圾", "流浪狗群聚造成環境髒亂"],
+        "噪音管制": ["深夜改裝車呼嘯而過", "周邊工地清晨施工噪音擾人", "營業場所擴音器音量過大"]
+    }
+    
+    mock_data = []
+    end_date = datetime.now()
+    
+    for _ in range(num_records):
+        # 隨機產生過去半年的日期
+        random_days = random.randint(0, 180)
+        report_date = (end_date - timedelta(days=random_days)).strftime("%Y-%m-%d")
+        
+        road = random.choice(locations)
+        exact_location = f"嘉義市西區{road}{random.randint(10, 300)}號周邊"
+        
+        category = random.choice(list(issue_types.keys()))
+        description = random.choice(issue_types[category])
+        
+        mock_data.append([
+            report_date,
+            exact_location,
+            description,
+            category,
+            datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+        ])
+        
+    # 依照日期由新到舊排序
+    mock_data.sort(key=lambda x: x[0], reverse=True)
     return mock_data
 
-def classify_issue(description):
-    """
-    議題自動分類器：精準標籤化市民陳情痛點
-    """
-    issue_dict = {
-        "路燈照明": ["路燈", "太暗", "不亮", "照明"],
-        "水溝排水": ["水溝", "淹水", "惡臭", "排水", "清淤"],
-        "停車亂象": ["違規停車", "違停", "佔用", "併排", "車位"],
-        "道路工程": ["坑洞", "路面", "柏油", "凹陷"]
-    }
-    for category, keywords in issue_dict.items():
-        if any(keyword in description for keyword in keywords):
-            return category
-    return "其他"
-
 def main():
-    # 1. 讀取 GitHub Secrets 保險箱裡的憑證
     secret_key_json = os.environ.get("GCP_SERVICE_ACCOUNT_KEY")
     sheet_id = os.environ.get("GOOGLE_SHEET_ID")
     
     if not secret_key_json or not sheet_id:
-        print("[錯誤] 找不到 GitHub Secrets 設定，請檢查保險箱密鑰。")
+        print("[錯誤] 找不到 GitHub Secrets。")
         return
 
-    # 2. 抓取與清洗資料
-    raw_data = fetch_chiayi_1999_mock_data()
-    processed_data = []
-    for item in raw_data:
-        processed_data.append([
-            item["date"],
-            item["location"],
-            item["description"],
-            classify_issue(item["description"]),
-            datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-        ])
+    processed_data = generate_chiayi_west_district_data(200)
 
-    # 3. 透過 API 連線至 Google Sheet
     print("正在連線至 Google 試算表...")
     scope = ["https://spreadsheets.google.com/feeds", "https://www.googleapis.com/auth/drive"]
     creds_dict = json.loads(secret_key_json)
     creds = ServiceAccountCredentials.from_json_keyfile_dict(creds_dict, scope)
     client = gspread.authorize(creds)
     
-    # 打開指定試算表與工作表
     sheet = client.open_by_key(sheet_id).worksheet("1999陳情案件表")
     
-    # 4. 寫入資料（若工作表是完全空的，先寫入欄位名稱）
-    existing_records = sheet.get_all_values()
-    if len(existing_records) == 0:
-        headers = ["通報日期", "發生地點", "原始描述", "議題分類", "系統紀錄時間"]
-        sheet.append_row(headers)
-        print("已建立欄位標頭。")
+    # 霸氣重置：清空現有測試資料並寫入 200 筆最新數據
+    sheet.clear()
+    headers = ["通報日期", "發生地點", "原始描述", "議題分類", "系統紀錄時間"]
+    sheet.append_row(headers)
     
-    # 批次寫入新資料
-    for row in processed_data:
-        sheet.append_row(row)
-        
-    print(f"[成功] 已將 {len(processed_data)} 筆最新的故障數據自動灌入 Google Sheet！")
+    # 批次高速寫入
+    sheet.update(f"A2:E{len(processed_data)+1}", processed_data)
+    print(f"[成功] 已將 {len(processed_data)} 筆西區在地化數據自動灌入 Google Sheet！")
 
 if __name__ == "__main__":
     main()
