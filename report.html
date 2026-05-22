@@ -1,124 +1,387 @@
 <!DOCTYPE html>
 <html lang="zh-TW">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>西區市政抓漏 - 李明燦數位選服系統</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@300;400;700;900&family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
-    <style>
-        body { font-family: 'Noto Serif TC', serif; background-color: #Fdfbf7; color: #1a1a1a; }
-        .serif-title { font-family: 'Playfair Display', 'Noto Serif TC', serif; }
-        .custom-border { border-color: #E2DFD8; }
-        .thick-border-top { border-top: 4px solid #1a1a1a; }
-        .elegant-shadow { box-shadow: 0 4px 24px -8px rgba(0,0,0,0.05); }
-        
-        /* 表單元素美化 */
-        input, select, textarea {
-            background-color: transparent;
-            border: none;
-            border-bottom: 1px solid #d6d3d1;
-            border-radius: 0;
-            padding: 12px 0;
-            font-size: 16px;
-            width: 100%;
-            transition: border-color 0.3s;
-        }
-        input:focus, select:focus, textarea:focus {
-            outline: none;
-            border-bottom: 2px solid #1a1a1a;
-        }
-        label {
-            font-size: 11px;
-            text-transform: uppercase;
-            letter-spacing: 0.1em;
-            color: #78716c;
-            font-weight: bold;
-            font-family: sans-serif;
-            display: block;
-            margin-bottom: 4px;
-        }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>通報市政問題 — 嘉義市西區</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;700;900&family=Inter:wght@400;600;700;800;900&display=swap" rel="stylesheet">
+  <style>
+    :root { --orange: #F97316; }
+    body { font-family: 'Noto Sans TC', 'Inter', sans-serif; background: #0F172A; color: #f1f5f9; }
+    .font-en { font-family: 'Inter', sans-serif; }
+
+    /* Form inputs */
+    .field-group { position: relative; margin-bottom: 1.5rem; }
+    .field-label {
+      display: block; font-size: 11px; font-weight: 700;
+      text-transform: uppercase; letter-spacing: .1em;
+      color: #94a3b8; margin-bottom: 8px;
+    }
+    .field-input {
+      width: 100%; background: #1e293b; border: 1.5px solid #334155;
+      border-radius: 12px; padding: 14px 16px;
+      font-size: 15px; color: #f1f5f9;
+      transition: border-color .2s, box-shadow .2s;
+      outline: none; font-family: inherit;
+    }
+    .field-input::placeholder { color: #475569; }
+    .field-input:focus {
+      border-color: var(--orange);
+      box-shadow: 0 0 0 3px rgba(249,115,22,.15);
+    }
+    select.field-input option { background: #1e293b; }
+
+    /* Category cards */
+    .cat-grid { display: grid; grid-template-columns: repeat(3,1fr); gap: .625rem; }
+    @media(max-width:480px) { .cat-grid { grid-template-columns: repeat(2,1fr); } }
+    .cat-card {
+      display: flex; flex-direction: column; align-items: center; justify-content: center;
+      gap: 6px; padding: 14px 8px; border-radius: 12px;
+      border: 1.5px solid #334155; background: #1e293b;
+      cursor: pointer; transition: all .15s; text-align: center;
+      font-size: 12px; font-weight: 700; color: #94a3b8; line-height: 1.3;
+    }
+    .cat-card:hover { border-color: var(--orange); color: #f1f5f9; }
+    .cat-card.selected {
+      border-color: var(--orange); background: rgba(249,115,22,.12);
+      color: #f97316; box-shadow: 0 0 0 3px rgba(249,115,22,.15);
+    }
+    .cat-card .icon { font-size: 26px; line-height: 1; }
+
+    /* Submit button */
+    .btn-submit {
+      width: 100%; background: var(--orange); color: white;
+      font-weight: 900; font-size: 16px; padding: 16px;
+      border-radius: 14px; border: none; cursor: pointer;
+      transition: opacity .15s, transform .1s;
+      font-family: inherit; letter-spacing: .03em;
+    }
+    .btn-submit:hover { opacity: .92; transform: translateY(-1px); }
+    .btn-submit:active { transform: translateY(0); }
+    .btn-submit:disabled { opacity: .5; cursor: not-allowed; transform: none; }
+
+    /* Success */
+    .checkmark {
+      width: 72px; height: 72px; background: rgba(16,185,129,.15);
+      border-radius: 50%; display: flex; align-items: center; justify-content: center;
+      font-size: 36px; margin: 0 auto 1.5rem;
+      animation: pop .4s cubic-bezier(.175,.885,.32,1.275) both;
+    }
+    @keyframes pop { from{ transform:scale(0); opacity:0; } to{ transform:scale(1); opacity:1; } }
+
+    /* Progress bar */
+    .progress-bar { height: 4px; background: #1e293b; border-radius: 2px; overflow: hidden; }
+    .progress-fill { height: 100%; background: var(--orange); border-radius: 2px; transition: width .4s ease; }
+
+    /* Scrollbar */
+    ::-webkit-scrollbar { width: 6px; }
+    ::-webkit-scrollbar-track { background: #1e293b; }
+    ::-webkit-scrollbar-thumb { background: #475569; border-radius: 3px; }
+  </style>
 </head>
-<body class="min-h-screen p-6 md:py-12 flex flex-col items-center">
+<body class="min-h-screen">
 
-    <div class="w-full max-w-lg bg-white border-[0.5px] custom-border elegant-shadow p-8 md:p-12 relative overflow-hidden">
-        <div class="absolute top-0 left-0 w-full thick-border-top"></div>
-
-        <header class="text-center mb-10 mt-4">
-            <p class="text-[10px] uppercase tracking-[0.2em] text-stone-400 font-sans mb-3">CHIAYI CITY WEST DISTRICT // CITIZEN REPORT</p>
-            <h1 class="serif-title text-3xl font-black mb-4 text-stone-900 leading-tight">西區市政抓漏<br>數位通報站</h1>
-            <p class="text-sm text-stone-500 font-light leading-relaxed">
-                您的每一筆通報，都會即時同步至「城市故障分析儀表板」，並由李明燦團隊列入重點監督項目。
-            </p>
-        </header>
-
-        <form id="reportForm" class="space-y-8" onsubmit="submitForm(event)">
-            
-            <div>
-                <label for="location">發生路段 / 地點</label>
-                <input type="text" id="location" placeholder="例如：中山路與文化路交叉口" required>
-            </div>
-
-            <div>
-                <label for="category">市政議題分類</label>
-                <select id="category" required class="text-stone-700">
-                    <option value="" disabled selected>請選擇問題類型...</option>
-                    <option value="道路工程">道路工程 (坑洞、標線不清)</option>
-                    <option value="停車亂象">停車亂象 (違停、佔用騎樓)</option>
-                    <option value="路燈照明">路燈照明 (不亮、閃爍)</option>
-                    <option value="水溝排水">水溝排水 (積水、惡臭)</option>
-                    <option value="環境衛生">環境衛生 (髒亂、雜草)</option>
-                    <option value="噪音管制">噪音管制 (改裝車、施工)</option>
-                </select>
-            </div>
-
-            <div>
-                <label for="description">現場狀況描述</label>
-                <textarea id="description" rows="3" placeholder="請簡述您看到的狀況，越詳細越好..." required></textarea>
-            </div>
-            
-            <div>
-                <label for="contact">您的稱呼 (選填，方便團隊回報進度)</label>
-                <input type="text" id="contact" placeholder="例如：王先生 / 0912-345-678">
-            </div>
-
-            <div class="pt-4">
-                <button type="submit" id="submitBtn" class="w-full bg-stone-900 text-white font-sans text-sm font-bold tracking-widest uppercase py-4 hover:bg-stone-800 transition-colors">
-                    送出通報 (Submit)
-                </button>
-            </div>
-        </form>
-
-        <div id="successMessage" class="hidden text-center py-12">
-            <div class="text-4xl mb-4">✓</div>
-            <h2 class="serif-title text-2xl font-bold text-stone-900 mb-2">通報已成功送出</h2>
-            <p class="text-sm text-stone-500 mb-8">感謝您的熱心，資料已同步至數位總部。<br>我們一起讓西區變得更好。</p>
-            <button onclick="window.location.reload()" class="border border-stone-300 text-stone-600 font-sans text-xs font-bold tracking-widest uppercase py-2 px-6 hover:bg-stone-50">
-                返回繼續通報
-            </button>
+  <!-- ── Hero ── -->
+  <div style="background: linear-gradient(135deg,#0F172A 0%,#1E293B 100%); border-bottom: 1px solid #1e293b;">
+    <div class="max-w-lg mx-auto px-6 py-8">
+      <a href="index.html" class="inline-flex items-center gap-2 text-slate-400 hover:text-orange-400 text-sm font-bold transition-colors mb-6 group">
+        <span class="group-hover:-translate-x-1 transition-transform">←</span> 返回儀表板
+      </a>
+      <div class="flex items-start gap-4">
+        <div class="w-12 h-12 rounded-2xl flex items-center justify-center flex-shrink-0" style="background:rgba(249,115,22,.15)">
+          <span style="font-size:22px">📣</span>
         </div>
+        <div>
+          <p class="text-xs font-black text-orange-500 tracking-widest uppercase font-en mb-1">CITIZEN REPORT · 西區市政通報</p>
+          <h1 class="text-2xl font-black text-white leading-tight">你看到的問題<br><span class="text-orange-400">我來幫你記下來</span></h1>
+          <p class="text-sm text-slate-400 mt-2 leading-relaxed">
+            每一筆通報都會同步進入儀表板，成為督促市政改善的證據。
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ── Form card ── -->
+  <div class="max-w-lg mx-auto px-4 py-8">
+
+    <!-- 步驟進度 -->
+    <div class="flex items-center gap-3 mb-6" id="step-indicator">
+      <div class="step-dot flex items-center gap-2 text-xs font-bold" data-step="1">
+        <span class="w-6 h-6 rounded-full bg-orange-500 text-white flex items-center justify-center font-en text-xs">1</span>
+        <span class="text-orange-400">問題類別</span>
+      </div>
+      <div class="flex-1 h-px bg-slate-700"></div>
+      <div class="step-dot flex items-center gap-2 text-xs font-bold" data-step="2">
+        <span class="w-6 h-6 rounded-full bg-slate-700 text-slate-400 flex items-center justify-center font-en text-xs" id="dot2">2</span>
+        <span class="text-slate-500" id="label2">地點說明</span>
+      </div>
+      <div class="flex-1 h-px bg-slate-700"></div>
+      <div class="step-dot flex items-center gap-2 text-xs font-bold" data-step="3">
+        <span class="w-6 h-6 rounded-full bg-slate-700 text-slate-400 flex items-center justify-center font-en text-xs" id="dot3">3</span>
+        <span class="text-slate-500" id="label3">確認送出</span>
+      </div>
+    </div>
+    <div class="progress-bar mb-6">
+      <div class="progress-fill" id="progress-fill" style="width:33%"></div>
     </div>
 
-    <footer class="mt-12 text-center text-[10px] font-sans tracking-widest text-stone-400">
-        嘉義市西區議員候選人 李明燦 競選辦公室 製作
-    </footer>
+    <form id="reportForm" onsubmit="submitForm(event)">
 
-    <script>
-        // 模擬表單送出動畫與邏輯
-        function submitForm(event) {
-            event.preventDefault();
-            const btn = document.getElementById('submitBtn');
-            btn.innerText = "傳送中...";
-            btn.classList.add('opacity-75', 'cursor-not-allowed');
-            
-            // 實務上這裡會將資料 POST 到 Google Form 或 API
-            // 為了展示流暢度，這裡用 1.5 秒模擬雲端傳輸過程
-            setTimeout(() => {
-                document.getElementById('reportForm').classList.add('hidden');
-                document.getElementById('successMessage').classList.remove('hidden');
-            }, 1500);
+      <!-- Step 1: 類別 -->
+      <div id="step1" class="bg-slate-800 rounded-2xl p-6 border border-slate-700">
+        <h2 class="font-black text-base text-white mb-4">遇到什麼問題？</h2>
+        <div class="cat-grid" id="catGrid">
+          <div class="cat-card" data-value="道路工程" onclick="selectCat(this)">
+            <span class="icon">🚧</span>道路工程<br><span style="font-size:10px;color:#64748b">坑洞、路面</span>
+          </div>
+          <div class="cat-card" data-value="停車亂象" onclick="selectCat(this)">
+            <span class="icon">🚗</span>停車亂象<br><span style="font-size:10px;color:#64748b">違停、佔騎樓</span>
+          </div>
+          <div class="cat-card" data-value="路燈照明" onclick="selectCat(this)">
+            <span class="icon">💡</span>路燈照明<br><span style="font-size:10px;color:#64748b">不亮、閃爍</span>
+          </div>
+          <div class="cat-card" data-value="水溝排水" onclick="selectCat(this)">
+            <span class="icon">🌊</span>水溝排水<br><span style="font-size:10px;color:#64748b">積水、惡臭</span>
+          </div>
+          <div class="cat-card" data-value="環境衛生" onclick="selectCat(this)">
+            <span class="icon">🗑️</span>環境衛生<br><span style="font-size:10px;color:#64748b">髒亂、雜草</span>
+          </div>
+          <div class="cat-card" data-value="噪音管制" onclick="selectCat(this)">
+            <span class="icon">🔊</span>噪音管制<br><span style="font-size:10px;color:#64748b">改裝車、施工</span>
+          </div>
+          <div class="cat-card" data-value="綠化景觀" onclick="selectCat(this)">
+            <span class="icon">🌳</span>綠化景觀<br><span style="font-size:10px;color:#64748b">公園、樹木</span>
+          </div>
+          <div class="cat-card" data-value="其他" onclick="selectCat(this)">
+            <span class="icon">📝</span>其他問題<br><span style="font-size:10px;color:#64748b">自由描述</span>
+          </div>
+        </div>
+        <p class="text-xs text-slate-500 mt-3">* 請選擇最符合的問題類型</p>
+        <input type="hidden" id="category" name="category" required>
+        <div class="mt-5">
+          <button type="button" onclick="goStep(2)"
+            class="btn-submit" id="btn-step1" disabled>下一步：填寫地點 →</button>
+        </div>
+      </div>
+
+      <!-- Step 2: 地點 + 描述 (hidden initially) -->
+      <div id="step2" class="hidden bg-slate-800 rounded-2xl p-6 border border-slate-700 mt-4">
+        <h2 class="font-black text-base text-white mb-5">在哪裡？發生什麼事？</h2>
+
+        <div class="field-group">
+          <label class="field-label" for="location">發生地點</label>
+          <input class="field-input" type="text" id="location" name="location"
+            placeholder="例：中山路與文化路口、文化公園旁" required>
+        </div>
+
+        <div class="field-group">
+          <label class="field-label" for="description">詳細說明</label>
+          <textarea class="field-input" id="description" name="description"
+            rows="4" placeholder="請描述您看到的狀況。越詳細，我們越有力道要求市府處理。" required
+            style="resize:vertical"></textarea>
+        </div>
+
+        <div class="field-group" style="margin-bottom:0">
+          <label class="field-label" for="contact">您的稱呼或聯絡方式 <span class="normal-case font-normal text-slate-500">（選填，方便回報進度）</span></label>
+          <input class="field-input" type="text" id="contact" name="contact"
+            placeholder="例：王先生 / 0912-345-678">
+        </div>
+
+        <div class="flex gap-3 mt-5">
+          <button type="button" onclick="goStep(1)"
+            class="px-4 py-3 rounded-xl text-sm font-bold text-slate-400 border border-slate-600 hover:border-slate-400 transition-colors">
+            ← 返回
+          </button>
+          <button type="button" onclick="goStep(3)"
+            class="btn-submit flex-1">下一步：確認送出 →</button>
+        </div>
+      </div>
+
+      <!-- Step 3: 確認 (hidden initially) -->
+      <div id="step3" class="hidden bg-slate-800 rounded-2xl p-6 border border-slate-700 mt-4">
+        <h2 class="font-black text-base text-white mb-5">確認通報內容</h2>
+
+        <div class="space-y-3 mb-6" id="confirmSummary"></div>
+
+        <!-- 重要聲明 -->
+        <div class="bg-orange-500/10 border border-orange-500/30 rounded-xl p-4 mb-5">
+          <p class="text-xs text-orange-300 leading-relaxed">
+            📌 送出後，您的通報將同步至城市故障分析儀表板，並由<strong class="text-orange-400">李明燦服務團隊</strong>列入優先追蹤清單。
+          </p>
+        </div>
+
+        <div class="flex gap-3">
+          <button type="button" onclick="goStep(2)"
+            class="px-4 py-3 rounded-xl text-sm font-bold text-slate-400 border border-slate-600 hover:border-slate-400 transition-colors">
+            ← 修改
+          </button>
+          <button type="submit" class="btn-submit flex-1" id="submitBtn">
+            確認送出通報 ✓
+          </button>
+        </div>
+      </div>
+
+    </form>
+
+    <!-- 成功訊息 -->
+    <div id="successMessage" class="hidden bg-slate-800 rounded-2xl p-8 border border-emerald-500/30 text-center mt-4">
+      <div class="checkmark">✓</div>
+      <h2 class="text-xl font-black text-white mb-2">通報已成功送出！</h2>
+      <p class="text-sm text-slate-400 leading-relaxed mb-2">
+        感謝您的熱心，資料已同步至數位總部。<br>
+        我們一起讓西區變得更好。
+      </p>
+      <p class="text-xs text-emerald-400 font-bold mb-6">🗂 您的通報將出現在儀表板統計中</p>
+      <div class="flex gap-3 justify-center flex-wrap">
+        <button onclick="resetForm()"
+          class="px-5 py-3 rounded-xl text-sm font-bold text-white bg-slate-700 hover:bg-slate-600 transition-colors">
+          繼續通報其他問題
+        </button>
+        <a href="index.html"
+          class="px-5 py-3 rounded-xl text-sm font-bold text-orange-400 border border-orange-500/40 hover:border-orange-400 transition-colors">
+          查看儀表板 →
+        </a>
+      </div>
+    </div>
+
+    <!-- 統計小卡 -->
+    <div class="mt-6 bg-slate-800/50 rounded-xl p-4 border border-slate-700/50 flex items-center gap-4">
+      <div class="text-2xl">📊</div>
+      <div>
+        <p class="text-xs text-slate-400">已有市民通報</p>
+        <p class="text-lg font-black text-orange-400 font-en" id="reportCount">—</p>
+      </div>
+      <div class="ml-auto text-right">
+        <p class="text-xs text-slate-400">最新通報</p>
+        <p class="text-sm font-bold text-slate-300" id="latestReport">—</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- ── Footer ── -->
+  <footer class="text-center py-8 text-xs text-slate-600 font-bold tracking-widest uppercase font-en">
+    嘉義市西區議員候選人 李明燦 競選辦公室
+  </footer>
+
+  <script>
+    // ── 步驟管理 ──
+    let currentStep = 1;
+
+    function goStep(n) {
+      if (n === 2) {
+        const loc = document.getElementById('location').value.trim();
+        const desc = document.getElementById('description').value.trim();
+        // 若從 step1 → step2，先確認已選類別
+        if (currentStep === 1 && !document.getElementById('category').value) return;
+      }
+      if (n === 3) {
+        // 驗證 step2 欄位
+        if (!document.getElementById('location').value.trim()) {
+          document.getElementById('location').focus(); return;
         }
-    </script>
+        if (!document.getElementById('description').value.trim()) {
+          document.getElementById('description').focus(); return;
+        }
+        buildConfirmSummary();
+      }
+
+      document.getElementById(`step${currentStep}`).classList.add('hidden');
+      document.getElementById(`step${n}`).classList.remove('hidden');
+      currentStep = n;
+      updateProgress(n);
+    }
+
+    function updateProgress(step) {
+      const pct = step === 1 ? 33 : step === 2 ? 66 : 100;
+      document.getElementById('progress-fill').style.width = pct + '%';
+
+      // dot 顏色
+      [1,2,3].forEach(i => {
+        const dot = document.getElementById(i === 1 ? null : `dot${i}`);
+        const lbl = document.getElementById(i === 1 ? null : `label${i}`);
+        if (!dot) return;
+        if (i <= step) {
+          dot.className = 'w-6 h-6 rounded-full bg-orange-500 text-white flex items-center justify-center font-en text-xs';
+          lbl.className = 'text-orange-400';
+        } else {
+          dot.className = 'w-6 h-6 rounded-full bg-slate-700 text-slate-400 flex items-center justify-center font-en text-xs';
+          lbl.className = 'text-slate-500';
+        }
+      });
+    }
+
+    // ── 類別選擇 ──
+    function selectCat(el) {
+      document.querySelectorAll('.cat-card').forEach(c => c.classList.remove('selected'));
+      el.classList.add('selected');
+      document.getElementById('category').value = el.dataset.value;
+      document.getElementById('btn-step1').disabled = false;
+    }
+
+    // ── 確認頁摘要 ──
+    function buildConfirmSummary() {
+      const items = [
+        { label: '問題類別', val: document.getElementById('category').value },
+        { label: '發生地點', val: document.getElementById('location').value },
+        { label: '狀況說明', val: document.getElementById('description').value },
+        { label: '聯絡方式', val: document.getElementById('contact').value || '（未填寫）' },
+      ];
+      const html = items.map(i => `
+        <div class="flex gap-3 items-start">
+          <span class="text-xs text-slate-500 font-bold w-16 flex-shrink-0 pt-0.5">${i.label}</span>
+          <span class="text-sm text-slate-200 leading-relaxed">${i.val}</span>
+        </div>
+      `).join('<div class="border-t border-slate-700 my-1"></div>');
+      document.getElementById('confirmSummary').innerHTML = html;
+    }
+
+    // ── 送出 ──
+    async function submitForm(e) {
+      e.preventDefault();
+      const btn = document.getElementById('submitBtn');
+      btn.disabled = true;
+      btn.textContent = '傳送中...';
+
+      // 模擬送出（實際可改接 Google Form hidden endpoint）
+      await new Promise(r => setTimeout(r, 1200));
+
+      document.getElementById('step3').classList.add('hidden');
+      document.getElementById('reportForm').classList.add('hidden');
+      document.getElementById('successMessage').classList.remove('hidden');
+    }
+
+    function resetForm() {
+      document.getElementById('reportForm').reset();
+      document.getElementById('category').value = '';
+      document.querySelectorAll('.cat-card').forEach(c => c.classList.remove('selected'));
+      document.getElementById('btn-step1').disabled = true;
+
+      ['step2','step3'].forEach(id => document.getElementById(id).classList.add('hidden'));
+      document.getElementById('successMessage').classList.add('hidden');
+      document.getElementById('reportForm').classList.remove('hidden');
+      document.getElementById('step1').classList.remove('hidden');
+      currentStep = 1;
+      updateProgress(1);
+    }
+
+    // ── 載入統計數字 ──
+    fetch('data/citizen_stats.json')
+      .then(r => r.json())
+      .then(d => {
+        document.getElementById('reportCount').textContent = (d.total || 0).toLocaleString() + ' 件';
+      }).catch(() => {});
+
+    fetch('data/citizen_reports.json')
+      .then(r => r.json())
+      .then(data => {
+        if (data && data.length) {
+          const last = data[data.length - 1];
+          document.getElementById('latestReport').textContent =
+            (last.location || '').slice(0, 10) || '—';
+        }
+      }).catch(() => {});
+  </script>
 </body>
 </html>
