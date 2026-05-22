@@ -40,24 +40,32 @@ def run_news():
 def run_opendata():
     print("\n=== 開放資料爬蟲（嘉義市真實 API）===")
     from scrapers.opendata import (
-        fetch_opendata_datasets, fetch_all_opendata_records, build_complaint_stats
+        fetch_opendata_datasets, fetch_all_opendata_records, build_complaint_stats,
+        fetch_west_district_population,
     )
 
     # 1. 儲存資料集清單（中繼資料）
     datasets = fetch_opendata_datasets()
     save_json("opendata_datasets.json", datasets)
 
-    # 2. 下載所有已知資料集的真實資料（交通事故、管線挖掘、路燈、噪音等）
+    # 2. 下載所有已知資料集的真實資料（交通事故、管線挖掘、路燈、橋梁、停車場等）
     all_records = fetch_all_opendata_records()
 
     if all_records:
         save_json("opendata_records.json", all_records)
-        stats = build_complaint_stats(all_records)
+        # 統計時排除人口類別（人口不是「投訴」，不計入市政問題統計）
+        infra_only = [r for r in all_records if r.get("category") not in ("西區人口",)]
+        stats = build_complaint_stats(infra_only)
         save_json("complaint_stats.json", stats)
-        return stats
     else:
-        # 讀快取
-        return load_json("complaint_stats.json", {})
+        stats = load_json("complaint_stats.json", {})
+
+    # 3. 單獨儲存西區各里人口資料（選戰分析用）
+    west_pop = fetch_west_district_population()
+    if west_pop:
+        save_json("west_population.json", west_pop)
+
+    return stats
 
 
 def run_council():
@@ -131,12 +139,35 @@ def build_dashboard(news, complaint_stats, council_data, citizen_stats, social_p
 
     html = index_path.read_text(encoding="utf-8")
 
+    # 注入西區各里人口資料
+    west_pop = load_json("west_population.json", [])
+    if west_pop:
+        west_pop_json = json.dumps(west_pop, ensure_ascii=False)
+        html = re.sub(
+            r"const westPopData = \[.*?\];",
+            f"const westPopData = {west_pop_json};",
+            html,
+            flags=re.DOTALL,
+        )
+
     # 注入 dataset (market complaint data)
     complaint_records = load_json("opendata_records.json", [])
     citizen_records = load_json("citizen_reports.json", [])
-    all_records = complaint_records + citizen_records
+    # 過濾掉人口類別（不需要顯示在主表格）
+    infra_records = [r for r in complaint_records if r.get("category") not in ("西區人口",)]
+    all_records = infra_records + citizen_records
 
-    dataset_json = json.dumps(all_records[:200], ensure_ascii=False)
+    def clean_str(v):
+        """清理字串中的控制字符，避免 JSON 注入到 HTML 時出錯"""
+        if isinstance(v, str):
+            return v.replace("\r\n", " ").replace("\r", " ").replace("\n", " ").strip()
+        return v
+
+    def clean_record(r):
+        return {k: clean_str(v) for k, v in r.items()}
+
+    all_records_clean = [clean_record(r) for r in all_records[:500]]
+    dataset_json = json.dumps(all_records_clean, ensure_ascii=False)
     html = re.sub(
         r"const dataset = \[.*?\];",
         f"const dataset = {dataset_json};",
@@ -144,10 +175,12 @@ def build_dashboard(news, complaint_stats, council_data, citizen_stats, social_p
         flags=re.DOTALL,
     )
 
-    # 注入議題類別統計
+    # 注入議題類別統計（排除人口類別）
     cat_data = complaint_stats.get("top_categories", []) or citizen_stats.get("category_counts", {})
     if isinstance(cat_data, dict):
         cat_data = [{"category": k, "count": v} for k, v in cat_data.items()]
+    # 過濾掉人口類別
+    cat_data = [d for d in cat_data if d.get("category") not in ("西區人口",)]
     cat_json = json.dumps(cat_data, ensure_ascii=False)
     html = re.sub(
         r"const categoryData = \[.*?\];",

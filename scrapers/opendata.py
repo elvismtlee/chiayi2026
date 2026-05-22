@@ -59,6 +59,37 @@ DATASETS = {
         "title": "嘉義市政府暨所屬機關陳情管道",
         "category": "市政服務",
     },
+    # ── 新增：西區選民資料 + 基礎建設 ─────────────────────────────────────
+    "west_population_2026": {
+        "oid": "0837b8c6-39ea-4bac-955d-3b661040fdf9",
+        "rid": "9ab9cdb9-c83d-4d85-855d-ffeee023ef3b",
+        "title": "嘉義市西區115年各里人口統計",
+        "category": "西區人口",
+    },
+    "west_population_2025": {
+        "oid": "65172716-1265-4744-87bb-4c859241ab7a",
+        "rid": "8df6956a-5f1b-490d-940c-114db73d166c",
+        "title": "嘉義市西區114年各里人口統計",
+        "category": "西區人口",
+    },
+    "bridge_info": {
+        "oid": "ab402b9d-5cc8-476c-bc16-8b21d77a9695",
+        "rid": "b4d1ef31-bc22-4b97-ba6d-9c0773d430df",
+        "title": "嘉義市政府橋梁資訊",
+        "category": "橋梁設施",
+    },
+    "drowning_cases": {
+        "oid": "e36659bb-b7aa-4a53-8c08-b2c97f580ae7",
+        "rid": "e7c9aa48-3c64-44a5-8930-27a850eab3e8",
+        "title": "嘉義市歷年溺水案件",
+        "category": "公共安全",
+    },
+    "public_parking": {
+        "oid": "d206db33-3ae7-489e-b709-5555222fb767",
+        "rid": "4e0c8e01-9844-4da6-991b-a3382b51b71b",
+        "title": "嘉義市公有路外停車場",
+        "category": "停車設施",
+    },
 }
 
 # ── 搜尋關鍵字（用於動態發現新資料集）──────────────────────────────────────
@@ -231,6 +262,51 @@ def _parse_streetlight_csv(content: bytes) -> list[dict]:
             for k, v in sorted(area_counts.items(), key=lambda x: -x[1])[:20]]
 
 
+def _parse_noise_monitor_csv(content: bytes) -> list[dict]:
+    """解析環境及交通噪音監測 CSV
+    欄位：監測站名, 監測站編號, 緊鄰道路寬度, 管制區, 年(民國), 月, 日, 0-1時...23-24時(dB)
+    """
+    text = _decode_csv(content)
+    reader = csv.DictReader(io.StringIO(text))
+    records = []
+    hour_cols = [f"{h}-{h+1}時" for h in range(24)]
+    for row in reader:
+        station = row.get("監測站名", "").strip()
+        roc_year = row.get("年", "").strip()
+        month = row.get("月", "").strip()
+        day = row.get("日", "").strip()
+        zone = row.get("管制區", "").strip()
+        if not station or not roc_year:
+            continue
+        # 民國年轉西元
+        try:
+            ce_year = str(int(roc_year) + 1911)
+        except Exception:
+            ce_year = roc_year
+        # 計算當日平均噪音分貝
+        vals = []
+        for col in hour_cols:
+            v = row.get(col, "").strip()
+            try:
+                vals.append(float(v))
+            except Exception:
+                pass
+        avg_db = round(sum(vals) / len(vals), 1) if vals else 0
+        records.append({
+            "date": f"{ce_year}/{month.zfill(2)}/{day.zfill(2)}" if month and day else ce_year,
+            "year": ce_year,
+            "category": "噪音管制",
+            "location": station,
+            "title": f"{station}噪音監測",
+            "description": f"管制區{zone}，日均{avg_db}dB",
+            "count": 1,
+            "avg_db": avg_db,
+            "source": "data.chiayi.gov.tw",
+        })
+    print(f"  [opendata] 噪音監測：{len(records)} 筆")
+    return records
+
+
 def _parse_complaint_channels_csv(content: bytes) -> list[dict]:
     """解析陳情管道 CSV，回傳各機關陳情資訊"""
     text = _decode_csv(content)
@@ -253,6 +329,137 @@ def _parse_complaint_channels_csv(content: bytes) -> list[dict]:
     return records
 
 
+def _parse_population_csv(content: bytes, year: str = "") -> list[dict]:
+    """解析西區各里人口統計 CSV
+    欄位：區域別, 鄰數, 戶數, 男, 女, 合計
+    """
+    text = _decode_csv(content)
+    reader = csv.DictReader(io.StringIO(text))
+    records = []
+    for row in reader:
+        keys = list(row.keys())
+        area = row.get(keys[0], "").strip() if keys else ""
+        neighbors = row.get(keys[1], "0").strip() if len(keys) > 1 else "0"
+        households = row.get(keys[2], "0").strip() if len(keys) > 2 else "0"
+        male = row.get(keys[3], "0").strip() if len(keys) > 3 else "0"
+        female = row.get(keys[4], "0").strip() if len(keys) > 4 else "0"
+        total = row.get(keys[5], "0").strip() if len(keys) > 5 else "0"
+
+        if area and area not in ("合計", "小計", "總計", "區域別"):
+            try:
+                total_int = int(total.replace(",", ""))
+            except Exception:
+                total_int = 0
+            records.append({
+                "date": f"{year}/04" if year else "",
+                "year": year,
+                "category": "西區人口",
+                "location": f"嘉義市西區{area}",
+                "title": f"{area}人口",
+                "count": total_int,
+                "male": int(male.replace(",", "")) if male.replace(",", "").isdigit() else 0,
+                "female": int(female.replace(",", "")) if female.replace(",", "").isdigit() else 0,
+                "households": int(households.replace(",", "")) if households.replace(",", "").isdigit() else 0,
+                "neighbors": int(neighbors.replace(",", "")) if neighbors.replace(",", "").isdigit() else 0,
+                "source": "data.chiayi.gov.tw",
+            })
+    return records
+
+
+def _parse_bridge_csv(content: bytes) -> list[dict]:
+    """解析橋梁資訊 CSV
+    欄位：橋梁名稱, 英譯橋名, 管理機關, 道路等級, 橋梁總長
+    """
+    text = _decode_csv(content)
+    reader = csv.DictReader(io.StringIO(text))
+    records = []
+    for row in reader:
+        keys = list(row.keys())
+        name = row.get(keys[0], "").strip() if keys else ""
+        agency = row.get(keys[2], "").strip() if len(keys) > 2 else ""
+        road_class = row.get(keys[3], "").strip() if len(keys) > 3 else ""
+        length = row.get(keys[4], "0").strip() if len(keys) > 4 else "0"
+        if name:
+            try:
+                length_f = float(length) if length else 0
+            except Exception:
+                length_f = 0
+            records.append({
+                "category": "橋梁設施",
+                "location": "嘉義市",
+                "title": name,
+                "description": f"{road_class}，管理：{agency}",
+                "count": 1,
+                "length_m": length_f,
+                "source": "data.chiayi.gov.tw",
+            })
+    print(f"  [opendata] 橋梁資訊：{len(records)} 座橋梁")
+    return records
+
+
+def _parse_drowning_csv(content: bytes) -> list[dict]:
+    """解析歷年溺水案件 CSV
+    欄位：編號, 縣市別, 年, 月, 日, 時, 分, 溺水地點, 水域種類, 溺水原因, 溺水結果, 性別, 年齡, ...
+    """
+    text = _decode_csv(content)
+    reader = csv.DictReader(io.StringIO(text))
+    records = []
+    for row in reader:
+        keys = list(row.keys())
+        year = row.get(keys[2], "").strip() if len(keys) > 2 else ""
+        month = row.get(keys[3], "").strip() if len(keys) > 3 else ""
+        location = row.get(keys[7], "").strip() if len(keys) > 7 else ""
+        water_type = row.get(keys[8], "").strip() if len(keys) > 8 else ""
+        cause = row.get(keys[9], "").strip() if len(keys) > 9 else ""
+        result = row.get(keys[10], "").strip() if len(keys) > 10 else ""
+
+        if year and year.isdigit():
+            records.append({
+                "date": f"{year}/{month.zfill(2)}" if month else year,
+                "year": year,
+                "category": "公共安全",
+                "location": location[:20] if location else "嘉義市",
+                "title": f"溺水事故（{water_type}）",
+                "description": f"原因：{cause}，結果：{result}",
+                "count": 1,
+                "source": "data.chiayi.gov.tw",
+            })
+    print(f"  [opendata] 歷年溺水案件：{len(records)} 件")
+    return records
+
+
+def _parse_parking_csv(content: bytes) -> list[dict]:
+    """解析公有路外停車場 CSV
+    欄位：項次, 停車場名稱, 收費方式, 月租費用, 型式, 大型車, 小型車, 身障, 婦幼, 機車, ...
+    """
+    text = _decode_csv(content)
+    reader = csv.DictReader(io.StringIO(text))
+    records = []
+    for row in reader:
+        keys = list(row.keys())
+        name = row.get(keys[1], "").strip() if len(keys) > 1 else ""
+        parking_type = row.get(keys[4], "").strip() if len(keys) > 4 else ""
+        small_car = row.get(keys[6], "0").strip() if len(keys) > 6 else "0"
+        address = row.get("地址", row.get(keys[-2] if len(keys) > 2 else keys[0], "")).strip()
+        if name:
+            try:
+                capacity = int(small_car) if small_car.isdigit() else 0
+            except Exception:
+                capacity = 0
+            # 清理多行文字中的控制字符
+            clean_addr = address.replace("\r\n", " ").replace("\r", " ").replace("\n", " ").strip()
+            records.append({
+                "category": "停車設施",
+                "location": clean_addr[:20] if clean_addr else "嘉義市",
+                "title": name.replace("\r\n", " ").replace("\r", " ").strip(),
+                "description": f"{parking_type}停車場，小型車 {capacity} 格",
+                "count": capacity or 1,
+                "source": "data.chiayi.gov.tw",
+            })
+    print(f"  [opendata] 公有停車場：{len(records)} 處")
+    return records
+
+
 # ── 對外介面 ─────────────────────────────────────────────────────────────────
 
 def fetch_opendata_datasets() -> list[dict]:
@@ -272,6 +479,24 @@ def fetch_opendata_datasets() -> list[dict]:
         })
     print(f"  [opendata] {len(result)} 個已知資料集")
     return result
+
+
+def fetch_west_district_population() -> list[dict]:
+    """專門抓取西區各里人口資料（最新年度），回傳里別人口清單"""
+    print("  [opendata] 抓取西區各里人口統計...")
+    ds = DATASETS["west_population_2026"]
+    content = download_resource(ds["oid"], ds["rid"])
+    if not content:
+        # 嘗試2025年資料
+        ds = DATASETS["west_population_2025"]
+        content = download_resource(ds["oid"], ds["rid"])
+    if not content:
+        return []
+    records = _parse_population_csv(content, year="2026")
+    # 過濾掉合計列，只保留里別
+    records = [r for r in records if "里" in r.get("title", "")]
+    print(f"  [opendata] 西區共 {len(records)} 個里")
+    return records
 
 
 def fetch_opendata_records(resource_url: str) -> list[dict]:
@@ -318,8 +543,20 @@ def fetch_all_opendata_records() -> list[dict]:
             records = _parse_traffic_accident_csv(content)
         elif key == "streetlight":
             records = _parse_streetlight_csv(content)
+        elif key == "noise_monitor":
+            records = _parse_noise_monitor_csv(content)
         elif key == "complaint_channels":
             records = _parse_complaint_channels_csv(content)
+        elif key == "west_population_2026":
+            records = _parse_population_csv(content, year="2026")
+        elif key == "west_population_2025":
+            records = _parse_population_csv(content, year="2025")
+        elif key == "bridge_info":
+            records = _parse_bridge_csv(content)
+        elif key == "drowning_cases":
+            records = _parse_drowning_csv(content)
+        elif key == "public_parking":
+            records = _parse_parking_csv(content)
         else:
             # 通用 CSV 解析
             text = _decode_csv(content)

@@ -68,5 +68,75 @@
         "url": "https://data.chiayi.gov.tw/opendata/api/getResource/download?oid=d03a1418-f3e1-4e58-bbc1-c6a7361d470a&rid=ca826f03-9fcf-43b5-b781-8cdf3a3b7772"
       }
     ]
+  },
+  {
+    "title": "嘉義市西區115年各里人口統計",
+    "oid": "0837b8c6-39ea-4bac-955d-3b661040fdf9",
+    "rid": "9ab9cdb9-c83d-4d85-855d-ffeee023ef3b",
+    "category": "西區人口",
+    "format": "CSV",
+    "source": "data.chiayi.gov.tw",
+    "resources": [
+      {
+        "format": "CSV",
+        "url": "https://data.chiayi.gov.tw/opendata/api/getResource/download?oid=0837b8c6-39ea-4bac-955d-3b661040fdf9&rid=9ab9cdb9-c83d-4d85-855d-ffeee023ef3b"
+      }
+    ]
+  },
+  {
+    "title": "嘉義市西區114年各里人口統計",
+    "oid": "65172716-1265-4744-87bb-4c859241ab7a",
+    "rid": "8df6956a-5f1b-490d-940c-114db73d166c",
+    "category": "西區人口",
+    "format": "CSV",
+    "source": "data.chiayi.gov.tw",
+    "resources": [
+      {
+        "format": "CSV",
+        "url": "https://data.chiayi.gov.tw/opendata/api/getResource/download?oid=65172716-1265-4744-87bb-4c859241ab7a&rid=8df6956a-5f1b-490d-940c-114db73d166c"
+      }
+    ]
+  },
+  {
+    "title": "嘉義市政府橋梁資訊",
+    "oid": "ab402b9d-5cc8-476c-bc16-8b21d77a9695",
+    "rid": "b4d1ef31-bc22-4b97-ba6d-9c0773d430df",
+    "category": "橋梁設施",
+    "format": "CSV",
+    "source": "data.chiayi.gov.tw",
+    "resources": [
+      {
+        "format": "CSV",
+        "url": "https://data.chiayi.gov.tw/opendata/api/getResource/download?oid=ab402b9d-5cc8-476c-bc16-8b21d77a9695&rid=b4d1ef31-bc22-4b97-ba6d-9c0773d430df"
+      }
+    ]
+  },
+  {
+    "title": "嘉義市歷年溺水案件",
+    "oid": "e36659bb-b7aa-4a53-8c08-b2c97f580ae7",
+    "rid": "e7c9aa48-3c64-44a5-8930-27a850eab3e8",
+    "category": "公共安全",
+    "format": "CSV",
+    "source": "data.chiayi.gov.tw",
+    "resources": [
+      {
+        "format": "CSV",
+        "url": "https://data.chiayi.gov.tw/opendata/api/getResource/download?oid=e36659bb-b7aa-4a53-8c08-b2c97f580ae7&rid=e7c9aa48-3c64-44a5-8930-27a850eab3e8"
+      }
+    ]
+  },
+  {
+    "title": "嘉義市公有路外停車場",
+    "oid": "d206db33-3ae7-489e-b709-5555222fb767",
+    "rid": "4e0c8e01-9844-4da6-991b-a3382b51b71b",
+    "category": "停車設施",
+    "format": "CSV",
+    "source": "data.chiayi.gov.tw",
+    "resources": [
+      {
+        "format": "CSV",
+        "url": "https://data.chiayi.gov.tw/opendata/api/getResource/download?oid=d206db33-3ae7-489e-b709-5555222fb767&rid=4e0c8e01-9844-4da6-991b-a3382b51b71b"
+      }
+    ]
   }
 ]
