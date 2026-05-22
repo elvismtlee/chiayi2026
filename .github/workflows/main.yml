@@ -13,7 +13,7 @@ jobs:
 
     steps:
     - name: 檢查並載入專案程式碼
-      uses: actions/checkout@v3
+      uses: actions/checkout@v4  # 升級到最新版 v4
 
     - name: 初始化 Python 環境
       uses: actions/setup-python@v4
@@ -29,7 +29,7 @@ jobs:
       run: python scraper.py
 
     - name: 將處理完的 CSV 存為雲端存檔
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v4  # 升級到最新版 v4
       with:
         name: chiayi-clean-data
         path: chiayi_dashboard_latest.csv
