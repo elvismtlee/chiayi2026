@@ -26,7 +26,7 @@ jobs:
         GOOGLE_SHEET_ID: ${{ secrets.GOOGLE_SHEET_ID }}
       run: |
         python -c '
-        import os, json, gspread
+        import os, json, gspread, re
         from oauth2client.service_account import ServiceAccountCredentials
 
         try:
@@ -54,9 +54,9 @@ jobs:
             with open("index.html", "r", encoding="utf-8") as f:
                 html = f.read()
             
-            parts1 = html.split("const dataset =")
-            parts2 = parts1[1].split("document.addEventListener")
-            new_html = parts1[0] + "const dataset = " + json.dumps(sheet_data, ensure_ascii=False) + ";\n        document.addEventListener" + parts2[1]
+            # 使用正則表達式精準替換 dataset 變數
+            json_str = json.dumps(sheet_data, ensure_ascii=False)
+            new_html = re.sub(r"const dataset = \[.*?\];", f"const dataset = {json_str};", html, flags=re.DOTALL)
             
             with open("index.html", "w", encoding="utf-8") as f:
                 f.write(new_html)
