@@ -1,77 +1,92 @@
 import os
 import json
-import random
-from datetime import datetime, timedelta
-import pandas as pd
+import re
+import urllib.request
+import urllib.parse
+import xml.etree.ElementTree as ET
 import gspread
 from oauth2client.service_account import ServiceAccountCredentials
 
-def generate_chiayi_west_district_data(num_records=200):
-    print("啟動嘉義市西區真實情境數據模擬引擎...")
-    
-    # 鎖定西區重點路段
-    locations = ["中山路", "文化路", "中興路", "友愛路", "北港路", "世賢路二段", "民族路", "民生北路", "新民路", "垂楊路"]
-    issue_types = {
-        "道路工程": ["路面柏油破損，出現坑洞", "道路施工未設警告標誌", "人孔蓋周邊凹陷", "道路標線斑駁不清"],
-        "停車亂象": ["紅線違規停車嚴重", "騎樓被整排機車佔用", "併排停車導致交通阻塞", "廢棄車輛長期霸占停車格"],
-        "路燈照明": ["路燈整排不亮，影響夜間安全", "路燈閃爍不定", "巷弄內照明死角太多"],
-        "水溝排水": ["水溝蓋損壞或遺失", "水溝內積滿垃圾與淤泥，散發惡臭", "大雨後水溝排水不及導致積水"],
-        "環境衛生": ["空地雜草叢生，恐孳生登革熱", "路邊被惡意棄置大型垃圾", "流浪狗群聚造成環境髒亂"],
-        "噪音管制": ["深夜改裝車呼嘯而過", "周邊工地清晨施工噪音擾人", "營業場所擴音器音量過大"]
-    }
-    
-    mock_data = []
-    end_date = datetime.now()
-    
-    for _ in range(num_records):
-        # 隨機產生過去半年的日期
-        random_days = random.randint(0, 180)
-        report_date = (end_date - timedelta(days=random_days)).strftime("%Y-%m-%d")
-        
-        road = random.choice(locations)
-        exact_location = f"嘉義市西區{road}{random.randint(10, 300)}號周邊"
-        
-        category = random.choice(list(issue_types.keys()))
-        description = random.choice(issue_types[category])
-        
-        mock_data.append([
-            report_date,
-            exact_location,
-            description,
-            category,
-            datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-        ])
-        
-    # 依照日期由新到舊排序
-    mock_data.sort(key=lambda x: x[0], reverse=True)
-    return mock_data
+def fetch_real_news():
+    print("啟動新聞爬蟲：抓取嘉義市最新市政與議事新聞...")
+    query = urllib.parse.quote("嘉義市 (議員 OR 質詢 OR 西區)")
+    url = f"https://news.google.com/rss/search?q={query}&hl=zh-TW&gl=TW&ceid=TW:zh-Hant"
+    news_list = []
+    try:
+        req = urllib.request.Request(url, headers={'User-Agent': 'Mozilla/5.0'})
+        xml_data = urllib.request.urlopen(req).read()
+        root = ET.fromstring(xml_data)
+        for item in root.findall('./channel/item')[:8]:
+            title = item.find('title').text
+            headline, source = title.rsplit(" - ", 1) if " - " in title else (title, "新聞")
+            news_list.append({
+                "headline": headline,
+                "source": source,
+                "link": item.find('link').text,
+                "date": item.find('pubDate').text[5:16]
+            })
+    except Exception as e:
+        print("新聞爬蟲失敗:", e)
+    return news_list
 
-def main():
-    secret_key_json = os.environ.get("GCP_SERVICE_ACCOUNT_KEY")
+def fetch_citizen_reports():
+    print("啟動資料庫爬蟲：同步 1999 通報數據...")
+    secret = os.environ.get("GCP_SERVICE_ACCOUNT_KEY")
     sheet_id = os.environ.get("GOOGLE_SHEET_ID")
+    if not secret or not sheet_id:
+        print("缺乏保險箱憑證，無法抓取 Google Sheet")
+        return []
     
-    if not secret_key_json or not sheet_id:
-        print("[錯誤] 找不到 GitHub Secrets。")
-        return
+    try:
+        scope = ["https://spreadsheets.google.com/feeds", "https://www.googleapis.com/auth/drive"]
+        creds = ServiceAccountCredentials.from_json_keyfile_dict(json.loads(secret), scope)
+        sheet = gspread.authorize(creds).open_by_key(sheet_id).worksheet("1999陳情案件表")
+        records = sheet.get_all_records()
+        data = []
+        for i, r in enumerate(records):
+            data.append({
+                "id": f"CY-LIVE-{1000+i}",
+                "date": str(r.get("通報日期", "")),
+                "location": str(r.get("發生地點", "")),
+                "road": str(r.get("發生地點", ""))[:3],
+                "description": str(r.get("原始描述", "")),
+                "category": str(r.get("議題分類", "")),
+                "status": "處理中"
+            })
+        return data[::-1]
+    except Exception as e:
+        print("Sheet 爬蟲失敗:", e)
+        return []
 
-    processed_data = generate_chiayi_west_district_data(200)
+def update_dashboard():
+    news_data = fetch_real_news()
+    sheet_data = fetch_citizen_reports()
+    
+    print("啟動可視化統計引擎：更新儀表板圖表與數據...")
+    with open("index.html", "r", encoding="utf-8") as f:
+        html = f.read()
 
-    print("正在連線至 Google 試算表...")
-    scope = ["https://spreadsheets.google.com/feeds", "https://www.googleapis.com/auth/drive"]
-    creds_dict = json.loads(secret_key_json)
-    creds = ServiceAccountCredentials.from_json_keyfile_dict(creds_dict, scope)
-    client = gspread.authorize(creds)
-    
-    sheet = client.open_by_key(sheet_id).worksheet("1999陳情案件表")
-    
-    # 霸氣重置：清空現有測試資料並寫入 200 筆最新數據
-    sheet.clear()
-    headers = ["通報日期", "發生地點", "原始描述", "議題分類", "系統紀錄時間"]
-    sheet.append_row(headers)
-    
-    # 批次高速寫入
-    sheet.update(f"A2:E{len(processed_data)+1}", processed_data)
-    print(f"[成功] 已將 {len(processed_data)} 筆西區在地化數據自動灌入 Google Sheet！")
+    # 1. 精準替換 Chart.js 統計圖表所需的 dataset (JSON 格式)
+    json_str = json.dumps(sheet_data, ensure_ascii=False)
+    html = re.sub(r"const dataset = \[.*?\];", f"const dataset = {json_str};", html, flags=re.DOTALL)
+
+    # 2. 動態生成並替換右側即時新聞的 HTML 區塊
+    if news_data:
+        news_html = ""
+        for n in news_data:
+            news_html += f'''<div class="block p-5 bg-white border-[0.5px] border-[#E2DFD8] shadow-sm hover:bg-stone-50 transition-colors group"><div class="flex justify-between items-center mb-3"><span class="px-2 py-0.5 text-[10px] font-sans font-bold tracking-widest uppercase bg-stone-800 text-white">即時新聞</span><span class="text-[11px] text-stone-400 font-mono">{n['date']}</span></div><a href="{n['link']}" target="_blank" class="text-[14px] font-bold text-stone-900 leading-relaxed mb-2 group-hover:text-amber-900 transition-colors block">{n['headline']}</a><div class="text-[11px] font-sans text-stone-400 uppercase tracking-widest">{n['source']}</div></div>'''
+        
+        # 利用正則表達式鎖定輿情面板區塊進行替換
+        html = re.sub(
+            r'(<div class="space-y-4 overflow-y-auto flex-grow hide-scrollbar pr-1" style="max-height: 600px;">).*?(</div>\s*<div class="mt-6 pt-4)',
+            rf'\1\n{news_html}\n\2',
+            html,
+            flags=re.DOTALL
+        )
+
+    with open("index.html", "w", encoding="utf-8") as f:
+        f.write(html)
+    print("✅ 數據爬取與可視化更新大功告成！")
 
 if __name__ == "__main__":
-    main()
+    update_dashboard()
