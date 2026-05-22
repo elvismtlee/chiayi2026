@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>西區市政抓漏 - 李明燦數位選服系統</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@300;400;700;900&family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Noto Serif TC', serif; background-color: #Fdfbf7; color: #1a1a1a; }
+        .serif-title { font-family: 'Playfair Display', 'Noto Serif TC', serif; }
+        .custom-border { border-color: #E2DFD8; }
+        .thick-border-top { border-top: 4px solid #1a1a1a; }
+        .elegant-shadow { box-shadow: 0 4px 24px -8px rgba(0,0,0,0.05); }
+        
+        /* 表單元素美化 */
+        input, select, textarea {
+            background-color: transparent;
+            border: none;
+            border-bottom: 1px solid #d6d3d1;
+            border-radius: 0;
+            padding: 12px 0;
+            font-size: 16px;
+            width: 100%;
+            transition: border-color 0.3s;
+        }
+        input:focus, select:focus, textarea:focus {
+            outline: none;
+            border-bottom: 2px solid #1a1a1a;
+        }
+        label {
+            font-size: 11px;
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+            color: #78716c;
+            font-weight: bold;
+            font-family: sans-serif;
+            display: block;
+            margin-bottom: 4px;
+        }
+    </style>
+</head>
+<body class="min-h-screen p-6 md:py-12 flex flex-col items-center">
+
+    <div class="w-full max-w-lg bg-white border-[0.5px] custom-border elegant-shadow p-8 md:p-12 relative overflow-hidden">
+        <div class="absolute top-0 left-0 w-full thick-border-top"></div>
+
+        <header class="text-center mb-10 mt-4">
+            <p class="text-[10px] uppercase tracking-[0.2em] text-stone-400 font-sans mb-3">CHIAYI CITY WEST DISTRICT // CITIZEN REPORT</p>
+            <h1 class="serif-title text-3xl font-black mb-4 text-stone-900 leading-tight">西區市政抓漏<br>數位通報站</h1>
+            <p class="text-sm text-stone-500 font-light leading-relaxed">
+                您的每一筆通報，都會即時同步至「城市故障分析儀表板」，並由李明燦團隊列入重點監督項目。
+            </p>
+        </header>
+
+        <form id="reportForm" class="space-y-8" onsubmit="submitForm(event)">
+            
+            <div>
+                <label for="location">發生路段 / 地點</label>
+                <input type="text" id="location" placeholder="例如：中山路與文化路交叉口" required>
+            </div>
+
+            <div>
+                <label for="category">市政議題分類</label>
+                <select id="category" required class="text-stone-700">
+                    <option value="" disabled selected>請選擇問題類型...</option>
+                    <option value="道路工程">道路工程 (坑洞、標線不清)</option>
+                    <option value="停車亂象">停車亂象 (違停、佔用騎樓)</option>
+                    <option value="路燈照明">路燈照明 (不亮、閃爍)</option>
+                    <option value="水溝排水">水溝排水 (積水、惡臭)</option>
+                    <option value="環境衛生">環境衛生 (髒亂、雜草)</option>
+                    <option value="噪音管制">噪音管制 (改裝車、施工)</option>
+                </select>
+            </div>
+
+            <div>
+                <label for="description">現場狀況描述</label>
+                <textarea id="description" rows="3" placeholder="請簡述您看到的狀況，越詳細越好..." required></textarea>
+            </div>
+            
+            <div>
+                <label for="contact">您的稱呼 (選填，方便團隊回報進度)</label>
+                <input type="text" id="contact" placeholder="例如：王先生 / 0912-345-678">
+            </div>
+
+            <div class="pt-4">
+                <button type="submit" id="submitBtn" class="w-full bg-stone-900 text-white font-sans text-sm font-bold tracking-widest uppercase py-4 hover:bg-stone-800 transition-colors">
+                    送出通報 (Submit)
+                </button>
+            </div>
+        </form>
+
+        <div id="successMessage" class="hidden text-center py-12">
+            <div class="text-4xl mb-4">✓</div>
+            <h2 class="serif-title text-2xl font-bold text-stone-900 mb-2">通報已成功送出</h2>
+            <p class="text-sm text-stone-500 mb-8">感謝您的熱心，資料已同步至數位總部。<br>我們一起讓西區變得更好。</p>
+            <button onclick="window.location.reload()" class="border border-stone-300 text-stone-600 font-sans text-xs font-bold tracking-widest uppercase py-2 px-6 hover:bg-stone-50">
+                返回繼續通報
+            </button>
+        </div>
+    </div>
+
+    <footer class="mt-12 text-center text-[10px] font-sans tracking-widest text-stone-400">
+        嘉義市西區議員候選人 李明燦 競選辦公室 製作
+    </footer>
+
+    <script>
+        // 模擬表單送出動畫與邏輯
+        function submitForm(event) {
+            event.preventDefault();
+            const btn = document.getElementById('submitBtn');
+            btn.innerText = "傳送中...";
+            btn.classList.add('opacity-75', 'cursor-not-allowed');
+            
+            // 實務上這裡會將資料 POST 到 Google Form 或 API
+            // 為了展示流暢度，這裡用 1.5 秒模擬雲端傳輸過程
+            setTimeout(() => {
+                document.getElementById('reportForm').classList.add('hidden');
+                document.getElementById('successMessage').classList.remove('hidden');
+            }, 1500);
+        }
+    </script>
+</body>
+</html>
