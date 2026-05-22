@@ -1,1 +1,72 @@
-[]
+[
+  {
+    "title": "嘉義市道路交通事故統計",
+    "oid": "1829dd8c-33cc-45bb-a3f1-89d3b2e2f453",
+    "rid": "cc1bdee9-a253-4c7d-b6c4-4858328f95aa",
+    "category": "道路交通",
+    "format": "CSV",
+    "source": "data.chiayi.gov.tw",
+    "resources": [
+      {
+        "format": "CSV",
+        "url": "https://data.chiayi.gov.tw/opendata/api/getResource/download?oid=1829dd8c-33cc-45bb-a3f1-89d3b2e2f453&rid=cc1bdee9-a253-4c7d-b6c4-4858328f95aa"
+      }
+    ]
+  },
+  {
+    "title": "嘉義市管線挖掘資訊",
+    "oid": "2cf1aa4f-3cdd-46a0-be84-b6f161cd892d",
+    "rid": "ca4c025d-1856-4200-81b7-a401aa653da3",
+    "category": "道路工程",
+    "format": "XML",
+    "source": "data.chiayi.gov.tw",
+    "resources": [
+      {
+        "format": "XML",
+        "url": "https://data.chiayi.gov.tw/opendata/api/getResource/download?oid=2cf1aa4f-3cdd-46a0-be84-b6f161cd892d&rid=ca4c025d-1856-4200-81b7-a401aa653da3"
+      }
+    ]
+  },
+  {
+    "title": "嘉義市路燈清冊",
+    "oid": "672349d8-cb63-4e26-b077-d4c35d6eef23",
+    "rid": "665d755b-f35e-4c0d-9b86-05ee4a6f5bfe",
+    "category": "路燈照明",
+    "format": "CSV",
+    "source": "data.chiayi.gov.tw",
+    "resources": [
+      {
+        "format": "CSV",
+        "url": "https://data.chiayi.gov.tw/opendata/api/getResource/download?oid=672349d8-cb63-4e26-b077-d4c35d6eef23&rid=665d755b-f35e-4c0d-9b86-05ee4a6f5bfe"
+      }
+    ]
+  },
+  {
+    "title": "嘉義市環境及交通噪音監測",
+    "oid": "0f0f0e47-6ebe-41b5-9363-fcb787c3e01c",
+    "rid": "93e40c00-b975-4d1b-965a-dcae2d278557",
+    "category": "噪音管制",
+    "format": "CSV",
+    "source": "data.chiayi.gov.tw",
+    "resources": [
+      {
+        "format": "CSV",
+        "url": "https://data.chiayi.gov.tw/opendata/api/getResource/download?oid=0f0f0e47-6ebe-41b5-9363-fcb787c3e01c&rid=93e40c00-b975-4d1b-965a-dcae2d278557"
+      }
+    ]
+  },
+  {
+    "title": "嘉義市政府暨所屬機關陳情管道",
+    "oid": "d03a1418-f3e1-4e58-bbc1-c6a7361d470a",
+    "rid": "ca826f03-9fcf-43b5-b781-8cdf3a3b7772",
+    "category": "市政服務",
+    "format": "CSV",
+    "source": "data.chiayi.gov.tw",
+    "resources": [
+      {
+        "format": "CSV",
+        "url": "https://data.chiayi.gov.tw/opendata/api/getResource/download?oid=d03a1418-f3e1-4e58-bbc1-c6a7361d470a&rid=ca826f03-9fcf-43b5-b781-8cdf3a3b7772"
+      }
+    ]
+  }
+]
