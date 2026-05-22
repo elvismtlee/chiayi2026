@@ -73,11 +73,14 @@ PTT_COOKIES = {"over18": "1"}
 # PTT 官方 Atom Feed，不需登入，無 anti-bot
 PTT_FEEDS = [
     ("Gossiping", f"{PTT_BASE}/atom/Gossiping.xml"),
+    ("Chiayi", f"{PTT_BASE}/atom/Chiayi.xml"),        # 嘉義地方版
+    ("PublicIssue", f"{PTT_BASE}/atom/PublicIssue.xml"),  # 公共議題
 ]
 # 若 Atom 沒結果，再嘗試 web search
 PTT_SEARCH_BOARDS_QUERIES = [
     ("Gossiping", "嘉義市"),
     ("Gossiping", "嘉義 市政"),
+    ("Chiayi", "嘉義"),
 ]
 
 
@@ -88,6 +91,8 @@ def _parse_ptt_atom(board: str, xml_text: str) -> list[dict]:
     except ET.ParseError:
         return posts
     ns = {"atom": "http://www.w3.org/2005/Atom"}
+    # 嘉義地方版所有貼文都相關，其他版需過濾
+    local_boards = {"Chiayi", "ChiayiCity"}
     for entry in root.findall("atom:entry", ns):
         title_el = entry.find("atom:title", ns)
         link_el = entry.find("atom:link", ns)
@@ -95,7 +100,7 @@ def _parse_ptt_atom(board: str, xml_text: str) -> list[dict]:
         if title_el is None or link_el is None:
             continue
         title = title_el.text or ""
-        if not _is_relevant(title):
+        if board not in local_boards and not _is_relevant(title):
             continue
         href = link_el.get("href", "")
         date_str = ""
@@ -187,13 +192,15 @@ def fetch_ptt(max_items: int = 12) -> list[dict]:
     for board, feed_url in PTT_FEEDS:
         try:
             resp = requests.get(feed_url, headers=HEADERS, cookies=PTT_COOKIES, timeout=TIMEOUT)
+            if resp.status_code == 404:
+                continue  # 版面不存在，跳過
             resp.raise_for_status()
             for p in _parse_ptt_atom(board, resp.text):
                 if p["id"] not in seen:
                     seen.add(p["id"])
                     all_posts.append(p)
         except Exception as e:
-            print(f"  [ptt] Atom feed 失敗: {str(e)[:60]}")
+            print(f"  [ptt] {board} Atom feed 失敗: {str(e)[:60]}")
 
     # 若 Atom 結果不足，補充 web search
     if len(all_posts) < 5:
