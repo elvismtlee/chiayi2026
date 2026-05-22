@@ -175,12 +175,37 @@ def build_dashboard(news, complaint_stats, council_data, citizen_stats, social_p
         flags=re.DOTALL,
     )
 
-    # 注入議題類別統計（排除人口類別）
+    # 注入議題類別統計（13 大類別，合併政府開放資料 + 社群媒體分類）
     cat_data = complaint_stats.get("top_categories", []) or citizen_stats.get("category_counts", {})
     if isinstance(cat_data, dict):
         cat_data = [{"category": k, "count": v} for k, v in cat_data.items()]
     # 過濾掉人口類別
-    cat_data = [d for d in cat_data if d.get("category") not in ("西區人口",)]
+    EXCLUDE_CATS = {"西區人口", "道路交通", "路燈照明", "道路工程", "市政服務",
+                    "停車設施", "橋梁設施", "噪音管制"}
+    cat_data = [d for d in cat_data if d.get("category") not in EXCLUDE_CATS]
+
+    # 合併社群貼文的類別計數（讓 13 類別都有資料）
+    VALID_CATS = {"交通停車", "道路路平", "人行步道", "環境衛生", "排水水利",
+                  "公共安全", "市場商圈", "公園綠地", "通學安全", "社福高齡",
+                  "文化觀光", "行政服務", "其他"}
+    cat_map = {d["category"]: d["count"] for d in cat_data}
+    for post in all_social:
+        pcat = post.get("category", "其他")
+        if pcat in VALID_CATS:
+            cat_map[pcat] = cat_map.get(pcat, 0) + 1
+
+    # 確保所有 13 類別都出現（即使 count=0，也顯示在 UI 供使用者了解監測範圍）
+    for c in VALID_CATS - {"其他"}:
+        if c not in cat_map:
+            cat_map[c] = 0
+
+    cat_data = sorted([{"category": k, "count": v} for k, v in cat_map.items()
+                        if k != "其他"],
+                       key=lambda x: -x["count"])
+    # 附加「其他」到最後
+    if "其他" in cat_map and cat_map["其他"] > 0:
+        cat_data.append({"category": "其他", "count": cat_map["其他"]})
+
     cat_json = json.dumps(cat_data, ensure_ascii=False)
     html = re.sub(
         r"const categoryData = \[.*?\];",

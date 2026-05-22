@@ -32,32 +32,32 @@ DATASETS = {
         "oid": "1829dd8c-33cc-45bb-a3f1-89d3b2e2f453",
         "rid": "cc1bdee9-a253-4c7d-b6c4-4858328f95aa",
         "title": "嘉義市道路交通事故統計",
-        "category": "道路交通",
+        "category": "交通停車",
     },
     "pipeline_dig": {
         "oid": "2cf1aa4f-3cdd-46a0-be84-b6f161cd892d",
         "rid": "ca4c025d-1856-4200-81b7-a401aa653da3",
         "title": "嘉義市管線挖掘資訊",
-        "category": "道路工程",
+        "category": "道路路平",
         "fmt": "xml",
     },
     "streetlight": {
         "oid": "672349d8-cb63-4e26-b077-d4c35d6eef23",
         "rid": "665d755b-f35e-4c0d-9b86-05ee4a6f5bfe",
         "title": "嘉義市路燈清冊",
-        "category": "路燈照明",
+        "category": "公共安全",
     },
     "noise_monitor": {
         "oid": "0f0f0e47-6ebe-41b5-9363-fcb787c3e01c",
         "rid": "93e40c00-b975-4d1b-965a-dcae2d278557",
         "title": "嘉義市環境及交通噪音監測",
-        "category": "噪音管制",
+        "category": "環境衛生",
     },
     "complaint_channels": {
         "oid": "d03a1418-f3e1-4e58-bbc1-c6a7361d470a",
         "rid": "ca826f03-9fcf-43b5-b781-8cdf3a3b7772",
         "title": "嘉義市政府暨所屬機關陳情管道",
-        "category": "市政服務",
+        "category": "行政服務",
     },
     # ── 新增：西區選民資料 + 基礎建設 ─────────────────────────────────────
     "west_population_2026": {
@@ -76,7 +76,7 @@ DATASETS = {
         "oid": "ab402b9d-5cc8-476c-bc16-8b21d77a9695",
         "rid": "b4d1ef31-bc22-4b97-ba6d-9c0773d430df",
         "title": "嘉義市政府橋梁資訊",
-        "category": "橋梁設施",
+        "category": "道路路平",
     },
     "drowning_cases": {
         "oid": "e36659bb-b7aa-4a53-8c08-b2c97f580ae7",
@@ -88,7 +88,7 @@ DATASETS = {
         "oid": "d206db33-3ae7-489e-b709-5555222fb767",
         "rid": "4e0c8e01-9844-4da6-991b-a3382b51b71b",
         "title": "嘉義市公有路外停車場",
-        "category": "停車設施",
+        "category": "交通停車",
     },
 }
 
@@ -184,17 +184,22 @@ def _parse_traffic_accident_csv(content: bytes) -> list[dict]:
         if len(ym_val) == 6 and ym_val.isdigit():
             year = ym_val[:4]
             month = ym_val[4:]
+            death_n = int(dead) if dead.isdigit() else 0
+            injury_n = int(injured) if injured.isdigit() else 0
+            # 細分：有死亡 → 公共安全；純傷亡 → 交通停車
+            sub_cat = "公共安全" if death_n > 0 else "交通停車"
             records.append({
                 "date": f"{year}/{month}",
                 "year": year,
                 "month": month,
-                "category": "道路交通",
+                "category": sub_cat,
+                "subcategory": "交通事故",
                 "location": "嘉義市",
                 "count": int(count) if count.isdigit() else 0,
-                "deaths": int(dead) if dead.isdigit() else 0,
-                "injuries": int(injured) if injured.isdigit() else 0,
+                "deaths": death_n,
+                "injuries": injury_n,
                 "source": "data.chiayi.gov.tw",
-                "title": "道路交通事故",
+                "title": f"道路交通事故（{year}/{month}）",
             })
     return records
 
@@ -224,10 +229,25 @@ def _parse_pipeline_xml(content: bytes) -> list[dict]:
         # 判斷狀態
         status_txt = {"0": "申請中", "1": "施工中", "2": "已完工"}.get(status, "未知")
 
+        # 申請單位細分 subcategory
+        sub = "道路施工"
+        if un_na:
+            if "電力" in un_na or "台電" in un_na:
+                sub = "電力管線"
+            elif "電信" in un_na or "中華" in un_na or "台灣大" in un_na or "遠傳" in un_na:
+                sub = "電信管線"
+            elif "自來水" in un_na:
+                sub = "自來水管線"
+            elif "瓦斯" in un_na or "天然氣" in un_na:
+                sub = "瓦斯管線"
+            elif "市政府" in un_na or "嘉義市" in un_na:
+                sub = "市府工程"
+
         records.append({
             "date": start[:7].replace("-", "/") if start else "",
             "year": start[:4] if start else "",
-            "category": "道路工程",
+            "category": "道路路平",
+            "subcategory": sub,
             "location": f"{town}{location}" if town else location,
             "title": const_name or "管線挖掘",
             "end_date": end,
@@ -258,17 +278,22 @@ def _parse_streetlight_csv(content: bytes) -> list[dict]:
             total += 1
 
     print(f"  [opendata] 路燈清冊：共 {total} 盞路燈")
-    return [{"category": "路燈照明", "location": k, "count": v, "source": "data.chiayi.gov.tw"}
+    return [{"category": "公共安全", "subcategory": "路燈照明",
+             "location": k, "count": v, "title": f"{k}路燈",
+             "source": "data.chiayi.gov.tw"}
             for k, v in sorted(area_counts.items(), key=lambda x: -x[1])[:20]]
 
 
 def _parse_noise_monitor_csv(content: bytes) -> list[dict]:
     """解析環境及交通噪音監測 CSV
     欄位：監測站名, 監測站編號, 緊鄰道路寬度, 管制區, 年(民國), 月, 日, 0-1時...23-24時(dB)
+    聚合為月平均，避免逐日資料量過大（每站×每日 → 每站×每月）
     """
     text = _decode_csv(content)
     reader = csv.DictReader(io.StringIO(text))
-    records = []
+    # 聚合：(station, ce_year, month) → list of avg_db
+    monthly: dict[tuple, list] = {}
+    station_zone: dict[str, str] = {}
     hour_cols = [f"{h}-{h+1}時" for h in range(24)]
     for row in reader:
         station = row.get("監測站名", "").strip()
@@ -283,6 +308,7 @@ def _parse_noise_monitor_csv(content: bytes) -> list[dict]:
             ce_year = str(int(roc_year) + 1911)
         except Exception:
             ce_year = roc_year
+        station_zone[station] = zone
         # 計算當日平均噪音分貝
         vals = []
         for col in hour_cols:
@@ -292,18 +318,30 @@ def _parse_noise_monitor_csv(content: bytes) -> list[dict]:
             except Exception:
                 pass
         avg_db = round(sum(vals) / len(vals), 1) if vals else 0
+        key = (station, ce_year, month.zfill(2) if month else "00")
+        if key not in monthly:
+            monthly[key] = []
+        if avg_db > 0:
+            monthly[key].append(avg_db)
+
+    # 轉換為月平均記錄（每站每月一筆）
+    records = []
+    for (station, ce_year, month), db_list in sorted(monthly.items()):
+        avg_db = round(sum(db_list) / len(db_list), 1) if db_list else 0
+        zone = station_zone.get(station, "")
         records.append({
-            "date": f"{ce_year}/{month.zfill(2)}/{day.zfill(2)}" if month and day else ce_year,
+            "date": f"{ce_year}/{month}",
             "year": ce_year,
-            "category": "噪音管制",
+            "category": "環境衛生",
+            "subcategory": "噪音管制",
             "location": station,
             "title": f"{station}噪音監測",
-            "description": f"管制區{zone}，日均{avg_db}dB",
+            "description": f"管制區{zone}，月均{avg_db}dB",
             "count": 1,
             "avg_db": avg_db,
             "source": "data.chiayi.gov.tw",
         })
-    print(f"  [opendata] 噪音監測：{len(records)} 筆")
+    print(f"  [opendata] 噪音監測：{len(records)} 筆（月平均）")
     return records
 
 
@@ -319,7 +357,8 @@ def _parse_complaint_channels_csv(content: bytes) -> list[dict]:
         phone = row.get(keys[2], "").strip() if len(keys) > 2 else ""
         if name:
             records.append({
-                "category": "市政服務",
+                "category": "行政服務",
+                "subcategory": "陳情管道",
                 "title": name,
                 "url": url,
                 "phone": phone,
@@ -385,7 +424,8 @@ def _parse_bridge_csv(content: bytes) -> list[dict]:
             except Exception:
                 length_f = 0
             records.append({
-                "category": "橋梁設施",
+                "category": "道路路平",
+                "subcategory": "橋梁設施",
                 "location": "嘉義市",
                 "title": name,
                 "description": f"{road_class}，管理：{agency}",
@@ -418,6 +458,7 @@ def _parse_drowning_csv(content: bytes) -> list[dict]:
                 "date": f"{year}/{month.zfill(2)}" if month else year,
                 "year": year,
                 "category": "公共安全",
+                "subcategory": "水域安全",
                 "location": location[:20] if location else "嘉義市",
                 "title": f"溺水事故（{water_type}）",
                 "description": f"原因：{cause}，結果：{result}",
@@ -449,7 +490,8 @@ def _parse_parking_csv(content: bytes) -> list[dict]:
             # 清理多行文字中的控制字符
             clean_addr = address.replace("\r\n", " ").replace("\r", " ").replace("\n", " ").strip()
             records.append({
-                "category": "停車設施",
+                "category": "交通停車",
+                "subcategory": "公有停車場",
                 "location": clean_addr[:20] if clean_addr else "嘉義市",
                 "title": name.replace("\r\n", " ").replace("\r", " ").strip(),
                 "description": f"{parking_type}停車場，小型車 {capacity} 格",
@@ -575,25 +617,38 @@ def fetch_all_opendata_records() -> list[dict]:
 
 
 def build_complaint_stats(records: list[dict]) -> dict:
-    """從原始記錄建立統計摘要，供儀表板圖表使用"""
+    """從原始記錄建立統計摘要，供儀表板圖表使用。
+    分類統計使用「筆數」（每筆資料 = 1）而非 count 加總，
+    避免月度交通事故總計或路燈清冊壓縮其他類別的比例。
+    """
     category_counts: dict[str, int] = {}
+    subcategory_counts: dict[str, dict] = {}  # {category: {sub: count}}
     road_counts: dict[str, int] = {}
     year_counts: dict[str, int] = {}
 
     for r in records:
         cat = r.get("category") or r.get("議題分類") or r.get("類別") or "其他"
-        category_counts[cat] = category_counts.get(cat, 0) + r.get("count", 1)
+        # 每筆記錄計 1（不用 count 欄位），讓 13 個類別分布均衡
+        category_counts[cat] = category_counts.get(cat, 0) + 1
+
+        # 子類別統計（供工具提示/詳細展開用）
+        sub = r.get("subcategory", "")
+        if sub:
+            if cat not in subcategory_counts:
+                subcategory_counts[cat] = {}
+            subcategory_counts[cat][sub] = subcategory_counts[cat].get(sub, 0) + 1
 
         loc = r.get("location") or r.get("發生路段") or r.get("地點") or ""
-        if loc and len(loc) > 2:
-            key = loc[:8]
-            road_counts[key] = road_counts.get(key, 0) + r.get("count", 1)
+        if loc and len(loc) > 2 and loc not in ("嘉義市",):
+            key = loc[:10]
+            road_counts[key] = road_counts.get(key, 0) + 1
 
         year = r.get("year") or ""
         if not year:
             date_str = r.get("date") or r.get("通報日期") or ""
             year = date_str[:4] if len(date_str) >= 4 else ""
         if year and year.isdigit() and 2010 <= int(year) <= 2030:
+            # 年度用 count 加總（反映實際事故量趨勢）
             year_counts[year] = year_counts.get(year, 0) + r.get("count", 1)
 
     top_roads = sorted(road_counts.items(), key=lambda x: x[1], reverse=True)[:10]
@@ -601,7 +656,9 @@ def build_complaint_stats(records: list[dict]) -> dict:
 
     return {
         "total": sum(r.get("count", 1) for r in records),
+        "record_count": len(records),
         "category_counts": category_counts,
+        "subcategory_counts": subcategory_counts,
         "top_roads": [{"road": r, "count": c} for r, c in top_roads],
         "top_categories": [{"category": c, "count": n} for c, n in top_cats],
         "year_counts": year_counts,
