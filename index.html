@@ -316,10 +316,12 @@
   const CAT_COLORS = {
     '路燈照明': '#F59E0B',
     '道路工程': '#EF4444',
+    '道路交通': '#EF4444',
     '停車亂象': '#8B5CF6',
     '水溝排水': '#3B82F6',
     '噪音管制': '#F97316',
     '環境衛生': '#10B981',
+    '市政服務': '#6366F1',
     '其他':     '#94A3B8',
   };
 
@@ -338,7 +340,7 @@
 
   function computeCatData(data) {
     const c = {};
-    data.forEach(d => { c[d.category] = (c[d.category] || 0) + 1; });
+    data.forEach(d => { c[d.category] = (c[d.category] || 0) + (d.count || 1); });
     return Object.entries(c).sort((a,b)=>b[1]-a[1]).map(([category,count])=>({category,count}));
   }
 
@@ -346,7 +348,7 @@
     const c = {};
     data.forEach(d => {
       const r = extractRoad(d.location);
-      if (r) c[r] = (c[r] || 0) + 1;
+      if (r) c[r] = (c[r] || 0) + (d.count || 1);
     });
     return Object.entries(c).sort((a,b)=>b[1]-a[1]).slice(0,10).map(([road,count])=>({road,count}));
   }
@@ -354,7 +356,8 @@
   function countThisMonth(data) {
     const now = new Date();
     const ym = `${now.getFullYear()}-${String(now.getMonth()+1).padStart(2,'0')}`;
-    return data.filter(d => d.date && d.date.startsWith(ym)).length;
+    return data.filter(d => d.date && d.date.startsWith(ym))
+               .reduce((s,d) => s + (d.count || 1), 0);
   }
 
   function computeYearTrend(data) {
@@ -362,7 +365,7 @@
     data.forEach(d => {
       if (d.date && d.date.length >= 4) {
         const y = d.date.slice(0,4);
-        c[y] = (c[y] || 0) + 1;
+        c[y] = (c[y] || 0) + (d.count || 1);
       }
     });
     const years = [];
@@ -384,7 +387,7 @@
 
   // ── 渲染函式 ──
   function renderKPIs(data, catData, roadData) {
-    animateCount(document.getElementById('kpi-total'), data.length);
+    animateCount(document.getElementById('kpi-total'), data.reduce((s,d)=>s+(d.count||1),0));
     animateCount(document.getElementById('kpi-month'), countThisMonth(data));
     if (catData.length > 0) document.getElementById('kpi-top-cat').textContent = catData[0].category;
     if (roadData.length > 0) document.getElementById('kpi-top-road').textContent = roadData[0].road;
@@ -482,8 +485,8 @@
     const top3 = catData.slice(0,3).map(d => d.category).join('、');
     const total = catData.reduce((s,d)=>s+d.count,0);
     const topPct = Math.round(catData[0].count / total * 100);
-    el.innerHTML = `12 年間，市民最常投訴的是 <strong>${top3}</strong>。<br>
-      其中「${catData[0].category}」佔了全部投訴的 <strong>${topPct}%</strong>，是絕對第一大痛點。`;
+    el.innerHTML = `嘉義市城市議題中，<strong>${top3}</strong> 是最主要的三大類別。<br>
+      其中「${catData[0].category}」佔整體數據的 <strong>${topPct}%</strong>，是市政最需關注的焦點。`;
   }
 
   function renderTable(data) {
@@ -491,7 +494,11 @@
     tbody.innerHTML = '';
     data.slice(0, tableExpanded ? 50 : 15).forEach(item => {
       const color = getCatColor(item.category);
-      const sc = item.status === '已結案' ? 'bg-green-100 text-green-700' : 'bg-amber-100 text-amber-700';
+      const statusTxt = item.status || (item.count > 0 ? '記錄中' : '');
+      const sc = statusTxt === '已完工' || statusTxt === '已結案'
+        ? 'bg-green-100 text-green-700' : 'bg-amber-100 text-amber-700';
+      const desc = item.description || item.title || '';
+      const countBadge = item.count > 1 ? `<span class="ml-1 text-slate-400">(${item.count.toLocaleString()}件)</span>` : '';
       tbody.insertAdjacentHTML('beforeend', `
         <tr class="hover:bg-slate-50 transition-colors">
           <td class="px-5 py-3.5 text-slate-500 text-xs font-en whitespace-nowrap">${item.date}</td>
@@ -500,10 +507,10 @@
               ${item.category}
             </span>
           </td>
-          <td class="px-5 py-3.5 text-slate-700 text-xs hide-mobile">${item.location}</td>
-          <td class="px-5 py-3.5 text-slate-600 text-xs">${item.description}</td>
+          <td class="px-5 py-3.5 text-slate-700 text-xs hide-mobile">${item.location || ''}</td>
+          <td class="px-5 py-3.5 text-slate-600 text-xs">${desc}${countBadge}</td>
           <td class="px-5 py-3.5 text-center hide-mobile">
-            <span class="text-xs font-bold px-2 py-1 rounded-full ${sc}">${item.status}</span>
+            ${statusTxt ? `<span class="text-xs font-bold px-2 py-1 rounded-full ${sc}">${statusTxt}</span>` : ''}
           </td>
         </tr>`);
     });
