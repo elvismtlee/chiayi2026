@@ -38,21 +38,17 @@ def run_news():
 
 
 def run_opendata():
-    print("\n=== 開放資料爬蟲 ===")
-    from scrapers.opendata import fetch_opendata_datasets, fetch_opendata_records, build_complaint_stats
+    print("\n=== 開放資料爬蟲（嘉義市真實 API）===")
+    from scrapers.opendata import (
+        fetch_opendata_datasets, fetch_all_opendata_records, build_complaint_stats
+    )
+
+    # 1. 儲存資料集清單（中繼資料）
     datasets = fetch_opendata_datasets()
     save_json("opendata_datasets.json", datasets)
 
-    # 嘗試下載找到的 CSV/JSON 資源
-    all_records = load_json("opendata_records.json", [])
-    for ds in datasets:
-        for res in ds.get("resources", []):
-            url = res.get("url", "")
-            if url and res.get("format", "").upper() in ("CSV", "JSON"):
-                records = fetch_opendata_records(url)
-                if records:
-                    all_records.extend(records)
-                    print(f"  [opendata] 下載 {len(records)} 筆: {ds['title']}")
+    # 2. 下載所有已知資料集的真實資料（交通事故、管線挖掘、路燈、噪音等）
+    all_records = fetch_all_opendata_records()
 
     if all_records:
         save_json("opendata_records.json", all_records)
