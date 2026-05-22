@@ -37,3 +37,4 @@ jobs:
         git commit -m "Auto-update dashboard with live crawled data" || echo "No changes"
         git pull --rebase
         git push
+
