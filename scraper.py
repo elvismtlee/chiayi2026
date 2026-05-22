@@ -1,17 +1,15 @@
-import requests
-from bs4 import BeautifulSoup
-import pandas as pd
-from datetime import datetime
-import json
 import os
+import json
+from datetime import datetime
+import pandas as pd
+import gspread
+from oauth2client.service_account import ServiceAccountCredentials
 
 def fetch_chiayi_1999_mock_data():
     """
-    核心爬蟲模組：模擬抓取嘉義市公開陳情資訊（西區選戰核心數據基礎）
+    核心爬蟲模組：模擬抓取嘉義市公開陳情資訊
     """
     print("啟動嘉義市城市故障數據收集器...")
-    
-    # 測試用初始結構化資料，涵蓋西區重要路段
     mock_data = [
         {"date": "2026-05-20", "location": "嘉義市西區中山路與文化路口", "description": "路燈不亮，影響夜間行車安全"},
         {"date": "2026-05-21", "location": "嘉義市東區林森東路", "description": "水溝嚴重堵塞散發惡臭"},
@@ -29,35 +27,54 @@ def classify_issue(description):
         "停車亂象": ["違規停車", "違停", "佔用", "併排", "車位"],
         "道路工程": ["坑洞", "路面", "柏油", "凹陷"]
     }
-    
     for category, keywords in issue_dict.items():
         if any(keyword in description for keyword in keywords):
             return category
     return "其他"
 
 def main():
-    # 1. 抓取資料源
-    raw_data = fetch_chiayi_1999_mock_data()
+    # 1. 讀取 GitHub Secrets 保險箱裡的憑證
+    secret_key_json = os.environ.get("GCP_SERVICE_ACCOUNT_KEY")
+    sheet_id = os.environ.get("GOOGLE_SHEET_ID")
     
-    # 2. 資料清洗與自動分類貼標
+    if not secret_key_json or not sheet_id:
+        print("[錯誤] 找不到 GitHub Secrets 設定，請檢查保險箱密鑰。")
+        return
+
+    # 2. 抓取與清洗資料
+    raw_data = fetch_chiayi_1999_mock_data()
     processed_data = []
     for item in raw_data:
-        processed_data.append({
-            "通報日期": item["date"],
-            "發生地點": item["location"],
-            "原始描述": item["description"],
-            "議題分類": classify_issue(item["description"]),
-            "系統紀錄時間": datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-        })
+        processed_data.append([
+            item["date"],
+            item["location"],
+            item["description"],
+            classify_issue(item["description"]),
+            datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+        ])
+
+    # 3. 透過 API 連線至 Google Sheet
+    print("正在連線至 Google 試算表...")
+    scope = ["https://spreadsheets.google.com/feeds", "https://www.googleapis.com/auth/drive"]
+    creds_dict = json.loads(secret_key_json)
+    creds = ServiceAccountCredentials.from_json_keyfile_dict(creds_dict, scope)
+    client = gspread.authorize(creds)
     
-    # 3. 結構化輸出驗證
-    df = pd.DataFrame(processed_data)
-    print("\n[驗證成功] 今日清洗完成之結構化數據：")
-    print(df.to_string(index=False))
+    # 打開指定試算表與工作表
+    sheet = client.open_by_key(sheet_id).worksheet("1999陳情案件表")
     
-    # 4. 存檔為歷史報表基底
-    df.to_csv("chiayi_dashboard_latest.csv", index=False, encoding="utf-8-sig")
-    print("\n歷史檔案已成功更新至 chiayi_dashboard_latest.csv")
+    # 4. 寫入資料（若工作表是完全空的，先寫入欄位名稱）
+    existing_records = sheet.get_all_values()
+    if len(existing_records) == 0:
+        headers = ["通報日期", "發生地點", "原始描述", "議題分類", "系統紀錄時間"]
+        sheet.append_row(headers)
+        print("已建立欄位標頭。")
+    
+    # 批次寫入新資料
+    for row in processed_data:
+        sheet.append_row(row)
+        
+    print(f"[成功] 已將 {len(processed_data)} 筆最新的故障數據自動灌入 Google Sheet！")
 
 if __name__ == "__main__":
     main()
