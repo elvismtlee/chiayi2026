@@ -185,6 +185,25 @@
     </div>
   </div>
 
+  <!-- ── Row 2.5：市民社群聲音 ── -->
+  <div class="card p-6 mb-6">
+    <div class="flex items-center justify-between mb-4">
+      <div>
+        <h2 class="text-lg font-black text-slate-900">市民社群聲音</h2>
+        <p class="text-sm text-slate-500 mt-0.5">PTT ＆ Dcard 嘉義市相關討論，即時同步</p>
+      </div>
+      <div class="flex items-center gap-2">
+        <span class="text-xs font-black px-2 py-1 rounded-full text-white bg-green-600">PTT</span>
+        <span class="text-xs font-black px-2 py-1 rounded-full text-white bg-red-400">Dcard</span>
+      </div>
+    </div>
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3" id="social-feed">
+      <!-- 由 scraper.py 注入 -->
+      <div class="text-sm text-slate-400 col-span-full text-center py-8">社群聲音載入中...</div>
+    </div>
+    <!-- ── social-end -->
+  </div>
+
   <!-- ── Row 3：分類圖表（甜甜圈，備用） + 說明卡 ── -->
   <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-6">
     <!-- 投訴分佈說明 -->

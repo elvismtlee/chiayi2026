@@ -85,10 +85,22 @@ def run_citizen_reports():
         return load_json("citizen_stats.json", {})
 
 
-def build_dashboard(news, complaint_stats, council_data, citizen_stats):
+def run_social():
+    print("\n=== 社群聲音爬蟲（PTT + Dcard）===")
+    from scrapers.social import fetch_all_social
+    posts = fetch_all_social()
+    if posts:
+        save_json("social_posts.json", posts)
+    else:
+        posts = load_json("social_posts.json", [])
+    return posts
+
+
+def build_dashboard(news, complaint_stats, council_data, citizen_stats, social_posts=None):
     print("\n=== 更新儀表板 ===")
     import re
 
+    social_posts = social_posts or []
     dashboard_data = {
         "updated_at": datetime.now().isoformat(),
         "news": news[:12],
@@ -99,6 +111,7 @@ def build_dashboard(news, complaint_stats, council_data, citizen_stats):
             "question_count": len(council_data.get("question_records", [])),
         },
         "citizen_stats": citizen_stats,
+        "social_posts": social_posts[:30],
     }
     save_json("dashboard_data.json", dashboard_data)
 
@@ -145,6 +158,44 @@ def build_dashboard(news, complaint_stats, council_data, citizen_stats):
         flags=re.DOTALL,
     )
 
+    # 注入社群聲音 HTML（id="social-feed"）
+    all_social = load_json("social_posts.json", [])
+    if all_social:
+        social_parts = []
+        for p in all_social[:20]:
+            color = p.get("platform_color", "#666")
+            platform = p.get("platform", "")
+            board = p.get("board", "")
+            board_tag = f' · {board}' if board else ''
+            reactions = p.get("reactions", 0)
+            comments = p.get("comments", 0)
+            excerpt = p.get("excerpt", "")
+            excerpt_html = f'<p class="text-xs text-slate-500 mt-1 leading-relaxed line-clamp-2">{excerpt}</p>' if excerpt else ''
+            social_parts.append(
+                f'<div class="social-card bg-white rounded-xl p-4 border border-slate-100 hover:border-slate-300 transition-colors">'
+                f'<div class="flex items-center gap-2 mb-2">'
+                f'<span class="text-xs font-black px-2 py-0.5 rounded-full text-white" style="background:{color}">{platform}</span>'
+                f'<span class="text-xs text-slate-400">{board_tag}</span>'
+                f'<span class="text-xs text-slate-400 ml-auto">{p.get("date","")}</span>'
+                f'</div>'
+                f'<a href="{p["url"]}" target="_blank" rel="noopener" '
+                f'class="text-sm font-bold text-slate-800 leading-snug hover:text-orange-500 transition-colors block">'
+                f'{p["title"]}</a>'
+                f'{excerpt_html}'
+                f'<div class="flex items-center gap-3 mt-2 text-xs text-slate-400">'
+                f'<span>👍 {reactions}</span><span>💬 {comments}</span>'
+                f'<span class="ml-auto text-xs px-2 py-0.5 bg-slate-100 rounded-full">{p.get("category","")}</span>'
+                f'</div>'
+                f'</div>'
+            )
+        social_html = "\n".join(social_parts)
+        html = re.sub(
+            r'(<div[^>]+id="social-feed"[^>]*>).*?(</div>\s*</div>\s*<!-- ── social-end)',
+            rf"\1\n{social_html}\n</div>\n<!-- ── social-end",
+            html,
+            flags=re.DOTALL,
+        )
+
     # 注入即時新聞 HTML（配合新版 id="news-list"）
     if news:
         news_html_parts = []
@@ -173,7 +224,7 @@ def build_dashboard(news, complaint_stats, council_data, citizen_stats):
     html = html.replace("最後更新：載入中...", f"最後更新：{now_str}")
 
     index_path.write_text(html, encoding="utf-8")
-    print(f"  [build] index.html 已更新（{len(all_records)} 筆記錄，{len(news)} 則新聞）")
+    print(f"  [build] index.html 已更新（{len(all_records)} 筆記錄，{len(news)} 則新聞，{len(all_social)} 則社群聲音）")
 
 
 if __name__ == "__main__":
@@ -183,7 +234,8 @@ if __name__ == "__main__":
     complaint_stats = run_opendata()
     council_data = run_council()
     citizen_stats = run_citizen_reports()
+    social_posts = run_social()
 
-    build_dashboard(news, complaint_stats, council_data, citizen_stats)
+    build_dashboard(news, complaint_stats, council_data, citizen_stats, social_posts)
 
     print(f"\n[done] 完成 ✓")
