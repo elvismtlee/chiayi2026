@@ -86,14 +86,26 @@ def run_citizen_reports():
 
 
 def run_social():
-    print("\n=== 社群聲音爬蟲（PTT + Dcard）===")
+    print("\n=== 社群聲音爬蟲（PTT + Dcard + Meta）===")
     from scrapers.social import fetch_all_social
-    posts = fetch_all_social()
-    if posts:
-        save_json("social_posts.json", posts)
+    from scrapers.meta_social import fetch_all_meta
+
+    ptt_dcard = fetch_all_social()
+    meta = fetch_all_meta()
+
+    # 合併去重（以 id 為 key）
+    seen: set[str] = set()
+    merged: list[dict] = []
+    for p in ptt_dcard + meta:
+        if p["id"] not in seen:
+            seen.add(p["id"])
+            merged.append(p)
+
+    if merged:
+        save_json("social_posts.json", merged)
     else:
-        posts = load_json("social_posts.json", [])
-    return posts
+        merged = load_json("social_posts.json", [])
+    return merged
 
 
 def build_dashboard(news, complaint_stats, council_data, citizen_stats, social_posts=None):
