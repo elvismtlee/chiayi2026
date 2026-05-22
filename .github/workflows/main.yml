@@ -3,9 +3,9 @@ name: Chiayi City Data Scraper
 on:
   push:
     branches:
-      - main  # 每次有程式更新時觸發執行
+      - main
   schedule:
-    - cron: '0 16 * * *'  # 每天台灣時間凌晨 12:00 自動執行 (UTC 16:00)
+    - cron: '0 16 * * *'
 
 jobs:
   scrape-and-process:
@@ -13,7 +13,7 @@ jobs:
 
     steps:
     - name: 檢查並載入專案程式碼
-      uses: actions/checkout@v4  # 升級到最新版 v4
+      uses: actions/checkout@v4
 
     - name: 初始化 Python 環境
       uses: actions/setup-python@v4
@@ -25,11 +25,8 @@ jobs:
         python -m pip install --upgrade pip
         pip install -r requirements.txt
         
-    - name: 執行嘉義市故障數據分析引擎
+    - name: 執行嘉義市故障數據分析引擎並串接雲端資料庫
+      env:
+        GCP_SERVICE_ACCOUNT_KEY: ${{ secrets.GCP_SERVICE_ACCOUNT_KEY }}
+        GOOGLE_SHEET_ID: ${{ secrets.GOOGLE_SHEET_ID }}
       run: python scraper.py
-
-    - name: 將處理完的 CSV 存為雲端存檔
-      uses: actions/upload-artifact@v4  # 升級到最新版 v4
-      with:
-        name: chiayi-clean-data
-        path: chiayi_dashboard_latest.csv
