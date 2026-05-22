@@ -5,31 +5,72 @@ on:
     branches:
       - main
   schedule:
-    - cron: '0 16 * * *' # 每天凌晨自動更新
+    - cron: '0 16 * * *'
 
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
     permissions:
-      contents: write # 允許機器人更新網頁檔案
+      contents: write
 
     steps:
     - uses: actions/checkout@v4
     - uses: actions/setup-python@v4
       with:
         python-version: '3.10'
-    - run: pip install requests beautifulsoup4 pandas gspread oauth2client
-    
+    - run: pip install gspread oauth2client
+
     - name: 執行資料庫同步與網頁編譯
       env:
         GCP_SERVICE_ACCOUNT_KEY: ${{ secrets.GCP_SERVICE_ACCOUNT_KEY }}
         GOOGLE_SHEET_ID: ${{ secrets.GOOGLE_SHEET_ID }}
-      run: python build_dashboard.py
-      
-    - name: 自動將最新儀表板上線
+      run: |
+        python -c '
+        import os, json, gspread
+        from oauth2client.service_account import ServiceAccountCredentials
+
+        try:
+            secret_key = os.environ.get("GCP_SERVICE_ACCOUNT_KEY")
+            sheet_id = os.environ.get("GOOGLE_SHEET_ID")
+            scope = ["https://spreadsheets.google.com/feeds", "https://www.googleapis.com/auth/drive"]
+            creds = ServiceAccountCredentials.from_json_keyfile_dict(json.loads(secret_key), scope)
+            client = gspread.authorize(creds)
+            sheet = client.open_by_key(sheet_id).worksheet("1999陳情案件表")
+            
+            records = sheet.get_all_records()
+            formatted_records = []
+            for i, row in enumerate(records):
+                formatted_records.append({
+                    "id": f"CY-LIVE-{1000+i}",
+                    "date": str(row.get("通報日期", "")),
+                    "location": str(row.get("發生地點", "")),
+                    "road": str(row.get("發生地點", ""))[:3],
+                    "description": str(row.get("原始描述", "")),
+                    "category": str(row.get("議題分類", "")),
+                    "status": "處理中"
+                })
+            sheet_data = formatted_records[::-1]
+            
+            with open("index.html", "r", encoding="utf-8") as f:
+                html = f.read()
+            
+            parts1 = html.split("const dataset =")
+            parts2 = parts1[1].split("document.addEventListener")
+            new_html = parts1[0] + "const dataset = " + json.dumps(sheet_data, ensure_ascii=False) + ";\n        document.addEventListener" + parts2[1]
+            
+            with open("index.html", "w", encoding="utf-8") as f:
+                f.write(new_html)
+            print("網頁數據注入成功！")
+        except Exception as e:
+            print(f"處理失敗: {e}")
+            exit(1)
+        '
+
+    - name: 自動發布最新儀表板
       run: |
         git config --global user.name "GitHub Actions Bot"
         git config --global user.email "actions@github.com"
         git add index.html
-        git commit -m "Auto-update dashboard with latest live data" || echo "No changes to commit"
+        git commit -m "Auto-update from Live Citizen Data" || echo "No changes"
+        git pull --rebase
         git push
