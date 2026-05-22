@@ -1,179 +1,74 @@
 {
   "meetings": [
     {
-      "term": "年月日",
-      "session": "星期",
-      "type": "會次",
-      "date": "九時三十分〜十二時"
+      "date": "2026/03/23",
+      "type": "嘉義市議會第11屆第6次定期會暨114年第4、5、6次臨時會",
+      "source": "council_announce"
     },
     {
-      "term": "115.4.20",
-      "session": "一",
-      "date": "三、預備會議"
+      "date": "2025/08/01",
+      "type": "嘉義市議會第11屆第5次定期會暨114年第1、2、3次臨時會",
+      "source": "council_announce"
     },
     {
-      "term": "115.4.21",
-      "session": "二",
-      "type": "2",
-      "date": "民政處、社會處、勞青處、交通處工作報告"
+      "date": "2025/03/24",
+      "type": "嘉義市議會第11屆第4次定期會暨113年第4、5、6次臨時會",
+      "source": "council_announce"
     },
     {
-      "term": "115.4.22",
-      "session": "三",
-      "type": "3",
-      "date": "行政處、人事處、觀新處、教育處工作報告"
+      "date": "2024/09/30",
+      "type": "嘉義市議會第11屆第3次定期會暨113年第1、2、3次臨時會",
+      "source": "council_announce"
     },
     {
-      "term": "115.4.23",
-      "session": "四",
-      "type": "4",
-      "date": "主計處、政風處、企劃處、工務處工作報告"
+      "date": "2024/04/17",
+      "type": "嘉義市議會第11屆第2次定期會暨112年第4、5、6次臨時會",
+      "source": "council_announce"
     },
     {
-      "term": "115.4.24",
-      "session": "五",
-      "type": "5",
-      "date": "衛生局、環保局、警察局工作報告"
+      "date": "2024/04/17",
+      "type": "嘉義市議會第11屆第1次定期會暨112年第1、2、3次臨時會",
+      "source": "council_announce"
     },
     {
-      "term": "115.4.25",
-      "session": "六",
-      "date": "例假日"
+      "date": "2026/04/20",
+      "type": "議員報到",
+      "source": "council_schedule"
     },
     {
-      "term": "115.4.26",
-      "session": "日",
-      "date": "例假日"
+      "date": "2026/04/21",
+      "type": "交通處工作報告",
+      "source": "council_schedule"
     },
     {
-      "term": "115.4.27",
-      "session": "一",
-      "type": "6",
-      "date": "地政處、建設處、都發處工作報告"
+      "date": "2026/04/22",
+      "type": "教育處工作報告",
+      "source": "council_schedule"
     },
     {
-      "term": "115.4.28",
-      "session": "二",
-      "type": "7",
-      "date": "市長施政報告"
+      "date": "2026/04/23",
+      "type": "工務處工作報告",
+      "source": "council_schedule"
     },
     {
-      "term": "115.4.29",
-      "session": "三",
-      "type": "8",
-      "date": "財稅局、消防局、文化局工作報告"
+      "date": "2026/04/24",
+      "type": "警察局工作報告",
+      "source": "council_schedule"
     },
     {
-      "term": "115.4.30",
-      "session": "四",
-      "type": "9",
-      "date": "市政總質詢"
+      "date": "2026/04/27",
+      "type": "都發處工作報告",
+      "source": "council_schedule"
     },
     {
-      "term": "115.5.01",
-      "session": "五",
-      "date": "勞動節放假"
+      "date": "2026/04/28",
+      "type": "市長施政報告",
+      "source": "council_schedule"
     },
     {
-      "term": "115.5.02",
-      "session": "六",
-      "date": "例假日"
-    },
-    {
-      "term": "115.5.03",
-      "session": "日",
-      "date": "例假日"
-    },
-    {
-      "term": "115.5.04",
-      "session": "一",
-      "type": "10",
-      "date": "市政總質詢"
-    },
-    {
-      "term": "115.5.05",
-      "session": "二",
-      "type": "11",
-      "date": "市政總質詢"
-    },
-    {
-      "term": "115.5.06",
-      "session": "三",
-      "type": "12",
-      "date": "市政總質詢"
-    },
-    {
-      "term": "115.5.07",
-      "session": "四",
-      "type": "13",
-      "date": "市政總質詢"
-    },
-    {
-      "term": "115.5.08",
-      "session": "五",
-      "type": "14",
-      "date": "市政總質詢"
-    },
-    {
-      "term": "115.5.09",
-      "session": "六",
-      "date": "例假日"
-    },
-    {
-      "term": "115.5.10",
-      "session": "日",
-      "date": "例假日"
-    },
-    {
-      "term": "115.5.11",
-      "session": "一",
-      "type": "15",
-      "date": "市政總質詢"
-    },
-    {
-      "term": "115.5.12",
-      "session": "二",
-      "type": "16",
-      "date": "市政總質詢"
-    },
-    {
-      "term": "115.5.13",
-      "session": "三",
-      "type": "17",
-      "date": "市政總質詢"
-    },
-    {
-      "term": "115.5.14",
-      "session": "四",
-      "type": "18",
-      "date": "市政總質詢"
-    },
-    {
-      "term": "115.5.15",
-      "session": "五",
-      "type": "19",
-      "date": "市政總質詢"
-    },
-    {
-      "term": "115.5.16",
-      "session": "六",
-      "date": "例假日"
-    },
-    {
-      "term": "115.5.17",
-      "session": "日",
-      "date": "例假日"
-    },
-    {
-      "term": "115.5.18",
-      "session": "一",
-      "date": "二、蒐集及整理議事資料"
-    },
-    {
-      "term": "115.5.19",
-      "session": "二",
-      "type": "20",
-      "date": "三、臨時動議"
+      "date": "2026/04/29",
+      "type": "文化局工作報告",
+      "source": "council_schedule"
     }
   ],
   "councilors": [
@@ -278,5 +173,5 @@
     "陳靜思",
     "唐美玲"
   ],
-  "updated_at": "2026-05-22T19:01:58.004097"
+  "updated_at": "2026-05-23T03:06:58.349161"
 }
