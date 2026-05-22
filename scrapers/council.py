@@ -94,33 +94,71 @@ class MeetingListParser(HTMLParser):
             self._col = 0
 
 
+COUNCIL_ANNOUNCE_URL = f"{COUNCIL_BASE}/web/AnnF/listAnnounce.aspx?c0=4769"
+COUNCIL_SCHEDULE_URL = f"{COUNCIL_BASE}/web/schedule/listschedule.aspx?c0=3673"
+
+
 def fetch_meeting_list(page: int = 1, per_page: int = 50) -> list[dict]:
-    """抓取議會會議紀錄（從首頁或相關頁面解析）"""
+    """抓取議會會議紀錄（從公報公告頁面解析）"""
     print(f"  [council] 抓取會議紀錄列表...")
-    raw = _http_get(COUNCIL_DEFAULT)
-    if not raw:
-        print("  [council] 議會網站無法連線，回傳空列表")
-        return []
+    meetings = []
 
-    html = _decode(raw)
-    parser = MeetingListParser()
-    try:
-        parser.feed(html)
-    except Exception as e:
-        print(f"  [council] 解析失敗: {e}")
+    # 1. 首先嘗試公報公告頁面（效果最好）
+    raw = _http_get(COUNCIL_ANNOUNCE_URL)
+    if raw:
+        html = _decode(raw)
+        # 解析表格行：「嘉義市議會第11屆第6次定期會」格式
+        rows = re.findall(r"<tr[^>]*>(.*?)</tr>", html, re.DOTALL)
+        for row in rows:
+            text = re.sub(r"<[^>]+>", " ", row)
+            text = re.sub(r"\s+", " ", text).strip()
+            # 找「嘉義市議會第XX屆第X次」格式
+            m = re.search(r"(嘉義市議會第\d+屆第\d+次[^，\s<]{2,20})", text)
+            date_m = re.search(r"(\d{4})\.(\d{2})\.(\d{2})", text)
+            if m and date_m:
+                y, mo, d = date_m.groups()
+                meetings.append({
+                    "date": f"{y}/{mo}/{d}",
+                    "type": m.group(1).strip(),
+                    "source": "council_announce",
+                })
 
-    meetings = parser.meetings
+    if meetings:
+        print(f"  [council] 從公報頁面找到 {len(meetings)} 筆會議記錄")
+
+    # 2. 補充：嘗試行程頁面
+    raw2 = _http_get(COUNCIL_SCHEDULE_URL)
+    if raw2:
+        html2 = _decode(raw2)
+        rows2 = re.findall(r"<tr[^>]*>(.*?)</tr>", html2, re.DOTALL)
+        for row in rows2:
+            text = re.sub(r"<[^>]+>", " ", row)
+            text = re.sub(r"\s+", " ", text).strip()
+            date_m = re.search(r"(\d{4})\.(\d{2})\.(\d{2})", text)
+            if date_m:
+                y, mo, d = date_m.groups()
+                title_parts = re.findall(r"[一-鿿]{4,}", text)
+                if title_parts:
+                    meetings.append({
+                        "date": f"{y}/{mo}/{d}",
+                        "type": title_parts[0][:20],
+                        "source": "council_schedule",
+                    })
+
+    # 3. 若仍空，嘗試首頁
     if not meetings:
-        # 從 HTML 找會議關鍵詞
-        m_dates = re.findall(r"(\d{3,4})[年/\-](\d{1,2})[月/\-](\d{1,2})[日]?\s*[，,]?\s*([^<\n]{5,40}(?:會|議|定期|臨時))", html)
-        for y, mo, d, title in m_dates[:20]:
-            meetings.append({
-                "date": f"{y}/{mo}/{d}",
-                "type": title.strip()[:30],
-                "source": "scraped",
-            })
+        raw3 = _http_get(COUNCIL_DEFAULT)
+        if raw3:
+            html3 = _decode(raw3)
+            m_dates = re.findall(r"(\d{3,4})[年/\-](\d{1,2})[月/\-](\d{1,2})[日]?\s*[，,]?\s*([^<\n]{5,40}(?:會|議|定期|臨時))", html3)
+            for y, mo, d, title in m_dates[:20]:
+                meetings.append({
+                    "date": f"{y}/{mo}/{d}",
+                    "type": title.strip()[:30],
+                    "source": "scraped",
+                })
 
-    print(f"  [council] 找到 {len(meetings)} 筆會議記錄")
+    print(f"  [council] 共找到 {len(meetings)} 筆會議記錄")
     return meetings
 
 
