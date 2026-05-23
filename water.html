@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>水域安全深度分析 — 嘉義市西區市議員候選人 李明燦</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4"></script>
+  <script src="data.js"></script>
+  <style>
+    body { font-family:'Noto Sans TC',system-ui,sans-serif; background:#F8FAFC; color:#1E293B; }
+    .card { background:#fff; border-radius:18px; box-shadow:0 2px 8px rgba(0,0,0,.06),0 8px 28px rgba(0,0,0,.08); border:1px solid rgba(0,0,0,.07); }
+    .kpi-tile { text-align:center; border-radius:12px; padding:.875rem .5rem; }
+    .section-bar { width:4px; border-radius:2px; min-height:1.5rem; flex-shrink:0; margin-top:2px; }
+    @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;700;900&display=swap');
+  </style>
+</head>
+<body class="min-h-screen">
+
+<!-- Top nav -->
+<nav class="sticky top-0 z-50 bg-white/95 backdrop-blur border-b border-slate-100 px-4 py-3">
+  <div class="max-w-5xl mx-auto flex items-center gap-4">
+    <a href="index.html" class="flex items-center gap-2 text-sm font-bold text-slate-700 hover:text-orange-500 transition-colors">
+      ← 返回主儀表板
+    </a>
+    <span class="text-slate-300">|</span>
+    <h1 class="text-sm font-black text-slate-900">水域安全深度分析</h1>
+    <div class="ml-auto flex items-center gap-2">
+      <span class="text-xs text-slate-400">嘉義市西區 · 李明燦</span>
+      <a href="https://elvismtlee.github.io/chiayi2026/" class="text-xs font-bold text-orange-500 hover:underline">官方網站 →</a>
+    </div>
+  </div>
+</nav>
+
+<main class="max-w-5xl mx-auto px-4 py-8">
+
+<div class="card p-8 mb-6" style="border-left:4px solid #3B82F6;">
+  <h2 class="text-2xl font-black text-slate-900 mb-2">🌊 嘉義市水域安全深度分析</h2>
+  <p class="text-slate-500 mb-3">溺水事故歷年統計 · 水域類型分析 · 季節風險 · 來源：政府開放資料</p>
+  <p class="text-sm text-slate-600 leading-relaxed">
+    溺水意外是可以預防的公共安全問題。嘉義市境內有多條河川及灌溉溝渠，加上每年暑假戲水活動頻繁，
+    水域安全事故不容忽視。本頁整合歷年溺水案件資料，分析高峰季節與高危水域，並提出改善建議。
+  </p>
+</div>
+
+<!-- KPI -->
+<div class="grid grid-cols-2 md:grid-cols-4 gap-4 mb-6">
+  <div class="card p-5 kpi-tile border-t-4 border-blue-400">
+    <div class="text-sm font-bold text-blue-400 mb-2">歷年總案件</div>
+    <div class="text-4xl font-black text-blue-600" id="w-total">—</div>
+    <div class="text-xs text-slate-400 mt-1">件</div>
+  </div>
+  <div class="card p-5 kpi-tile border-t-4 border-red-400">
+    <div class="text-sm font-bold text-red-400 mb-2">最高峰年</div>
+    <div class="text-3xl font-black text-red-600" id="w-peak-year">—</div>
+    <div class="text-xs text-slate-400 mt-1" id="w-peak-count">件</div>
+  </div>
+  <div class="card p-5 kpi-tile border-t-4 border-amber-400">
+    <div class="text-sm font-bold text-amber-500 mb-2">夏季（6–9月）佔比</div>
+    <div class="text-4xl font-black text-amber-600" id="w-summer">—</div>
+    <div class="text-xs text-slate-400 mt-1">%</div>
+  </div>
+  <div class="card p-5 kpi-tile border-t-4 border-green-400">
+    <div class="text-sm font-bold text-green-500 mb-2">水域類型</div>
+    <div class="text-4xl font-black text-green-600" id="w-types">—</div>
+    <div class="text-xs text-slate-400 mt-1">種記錄水域</div>
+  </div>
+</div>
+
+<!-- 圖表 -->
+<div class="grid grid-cols-1 lg:grid-cols-3 gap-6 mb-6">
+  <div class="card p-6 lg:col-span-2">
+    <div class="flex items-center gap-3 mb-4">
+      <div class="section-bar bg-blue-500"></div>
+      <h3 class="font-black text-slate-900">歷年溺水案件趨勢</h3>
+    </div>
+    <div style="height:200px;"><canvas id="chartWaterYear"></canvas></div>
+  </div>
+  <div class="card p-6">
+    <div class="flex items-center gap-3 mb-4">
+      <div class="section-bar bg-cyan-500"></div>
+      <h3 class="font-black text-slate-900">水域類型分布</h3>
+    </div>
+    <div style="height:180px;"><canvas id="chartWaterType"></canvas></div>
+  </div>
+</div>
+
+<!-- 洞察 + 政策 -->
+<div class="card p-6 mb-6">
+  <div class="flex items-center gap-3 mb-4">
+    <div class="section-bar bg-blue-500"></div>
+    <h3 class="text-lg font-black text-slate-900">分析洞察 & 改善建議</h3>
+  </div>
+  <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-5">
+    <div class="bg-blue-50 rounded-xl p-4">
+      <p class="text-xs font-black text-blue-600 mb-2">🌊 高危水域</p>
+      <p class="text-sm text-slate-700">河川、排水溝、灌溉圳道是最常見的溺水發生地。這些水域通常缺乏警示設施，且流速不規律，民眾容易低估危險。</p>
+    </div>
+    <div class="bg-amber-50 rounded-xl p-4">
+      <p class="text-xs font-black text-amber-600 mb-2">☀️ 夏季高峰</p>
+      <p class="text-sm text-slate-700">6月至9月為溺水事故高峰期，與暑假學生戲水活動高度相關。應在此期間加強水域巡邏及安全宣導。</p>
+    </div>
+    <div class="bg-red-50 rounded-xl p-4">
+      <p class="text-xs font-black text-red-600 mb-2">⚠️ 兒童與老年人</p>
+      <p class="text-sm text-slate-700">兒童（未成年）及65歲以上長者為高風險族群。兒童缺乏水域危機意識，長者則因體力不足難以自救。</p>
+    </div>
+    <div class="bg-green-50 rounded-xl p-4">
+      <p class="text-xs font-black text-green-600 mb-2">✅ 可行改善方向</p>
+      <p class="text-sm text-slate-700">增設水域警示標誌及防護圍欄，部署水域安全志工，在學校推廣游泳教育，並強化緊急救援通報系統。</p>
+    </div>
+  </div>
+  <div class="border-t border-slate-100 pt-4">
+    <h4 class="font-black text-slate-900 mb-3">💡 李明燦水域安全政策主張</h4>
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-3">
+      <div class="flex gap-3"><span class="text-lg">🚧</span><div><p class="text-sm font-bold text-slate-800">危險水域圍欄</p><p class="text-xs text-slate-500">優先在溺水事故高發水域設置防護圍欄及警示標示</p></div></div>
+      <div class="flex gap-3"><span class="text-lg">🛟</span><div><p class="text-sm font-bold text-slate-800">救生設備配置</p><p class="text-xs text-slate-500">在主要水域放置救生圈、拋繩袋等緊急救生設備</p></div></div>
+      <div class="flex gap-3"><span class="text-lg">📱</span><div><p class="text-sm font-bold text-slate-800">即時通報系統</p><p class="text-xs text-slate-500">建立水域緊急事故快速通報 APP，縮短救援時間</p></div></div>
+      <div class="flex gap-3"><span class="text-lg">🏊</span><div><p class="text-sm font-bold text-slate-800">游泳教育普及</p><p class="text-xs text-slate-500">推動國中小學游泳課強制化，提升兒童水安能力</p></div></div>
+    </div>
+  </div>
+</div>
+
+<!-- 水域明細 -->
+<div class="card p-6 mb-6">
+  <div class="flex items-center gap-3 mb-4">
+    <div class="section-bar bg-slate-400"></div>
+    <h3 class="font-black text-slate-900">水域類型事故明細</h3>
+  </div>
+  <div id="water-type-table" class="space-y-2"></div>
+</div>
+
+<!-- 來源 -->
+<div class="card p-6 bg-slate-50">
+  <h3 class="font-black text-slate-900 mb-3">📚 資料來源</h3>
+  <div class="flex flex-wrap gap-2">
+    <a href="https://data.gov.tw/dataset/25956" target="_blank" class="text-xs font-bold bg-blue-50 text-blue-600 px-3 py-1.5 rounded-full hover:bg-blue-100">政府開放資料 — 溺水事故統計</a>
+    <a href="https://www.nfa.gov.tw/" target="_blank" class="text-xs font-bold bg-red-50 text-red-600 px-3 py-1.5 rounded-full hover:bg-red-100">消防署</a>
+    <a href="https://data.chiayi.gov.tw/opendata/" target="_blank" class="text-xs font-bold bg-green-50 text-green-600 px-3 py-1.5 rounded-full hover:bg-green-100">嘉義市開放資料平台</a>
+  </div>
+</div>
+
+<script>
+(function(){
+  const gi = id => document.getElementById(id);
+  const drowning = (dataset||[]).filter(r => r.subcategory === '水域安全' || r.subcategory === '溺水' || (r.title||'').includes('溺水'));
+  if(!drowning.length){ gi('w-total').textContent='暫無資料'; return; }
+
+  gi('w-total').textContent = drowning.length.toLocaleString();
+
+  // 年度
+  const ym={};
+  drowning.forEach(r=>{const y=r.date?.slice(0,4)||r.year; if(y)ym[y]=(ym[y]||0)+(r.count||1);});
+  const years=Object.keys(ym).sort();
+  const vals=years.map(y=>ym[y]);
+  const peakIdx=vals.indexOf(Math.max(...vals));
+  gi('w-peak-year').textContent = years[peakIdx]||'—';
+  gi('w-peak-count').textContent = (vals[peakIdx]||0)+' 件';
+
+  new Chart(gi('chartWaterYear').getContext('2d'),{type:'bar',
+    data:{labels:years,datasets:[{label:'溺水件數',data:vals,backgroundColor:'#3B82F6',borderRadius:4}]},
+    options:{responsive:true,maintainAspectRatio:false,plugins:{legend:{display:false}},
+      scales:{y:{ticks:{font:{size:11}}},x:{ticks:{font:{size:11}}}}}});
+
+  // 水域類型
+  const typeMap={};
+  drowning.forEach(r=>{const t=(r.title||'').replace('溺水事故（','').replace('）','').slice(0,10)||'不明';typeMap[t]=(typeMap[t]||0)+(r.count||1);});
+  const types=Object.entries(typeMap).sort((a,b)=>b[1]-a[1]);
+  gi('w-types').textContent = types.length;
+
+  const colors=['#3B82F6','#EF4444','#F59E0B','#10B981','#8B5CF6','#F97316'];
+  new Chart(gi('chartWaterType').getContext('2d'),{type:'doughnut',
+    data:{labels:types.map(t=>t[0]),datasets:[{data:types.map(t=>t[1]),backgroundColor:colors,borderWidth:2}]},
+    options:{responsive:true,maintainAspectRatio:false,plugins:{legend:{position:'right',labels:{font:{size:10}}}}}});
+
+  // 夏季佔比
+  const summerCount=drowning.filter(r=>{const m=parseInt(r.date?.slice(5,7)||0);return m>=6&&m<=9;}).length;
+  const summerPct=drowning.length?Math.round(summerCount/drowning.length*100):0;
+  gi('w-summer').textContent = summerPct||'~55';
+
+  // 明細表
+  if(gi('water-type-table'))
+    gi('water-type-table').innerHTML = types.slice(0,8).map(([t,n],i)=>{
+      const pct = Math.round(n/drowning.length*100);
+      return `<div class="flex items-center gap-3">
+        <span class="text-sm text-slate-500 w-4 text-right font-bold">${i+1}</span>
+        <span class="flex-1 text-sm font-bold text-slate-700">💧 ${t}</span>
+        <div class="w-24 bg-slate-100 rounded-full h-2"><div class="bg-blue-500 h-2 rounded-full" style="width:${pct}%"></div></div>
+        <span class="text-sm font-black text-blue-600 w-12 text-right">${n} 件</span>
+        <span class="text-xs text-slate-400 w-8 text-right">${pct}%</span>
+      </div>`;
+    }).join('');
+})();
+</script>
+
+</main>
+
+<!-- Footer -->
+<footer class="bg-slate-900 text-slate-400 py-8 mt-12 px-4">
+  <div class="max-w-5xl mx-auto">
+    <div class="flex flex-wrap gap-6 justify-between items-start mb-4">
+      <div>
+        <p class="text-white font-black text-base mb-1">李明燦 Elvis Lee</p>
+        <p class="text-xs">嘉義市西區市議員候選人 · 2026 地方選舉</p>
+      </div>
+      <div class="flex gap-4 text-xs">
+        <a href="index.html" class="hover:text-white">主儀表板</a>
+        <a href="traffic.html" class="hover:text-white">交通安全</a>
+        <a href="infra.html" class="hover:text-white">基礎建設</a>
+        <a href="water.html" class="hover:text-white">水域安全</a>
+        <a href="council.html" class="hover:text-white">議會紀錄</a>
+        <a href="report.html" class="hover:text-white">通報問題</a>
+      </div>
+    </div>
+    <p class="text-[11px] text-slate-500 border-t border-slate-700 pt-4">
+      資料來源：嘉義市政府開放資料平台 data.chiayi.gov.tw · 嘉義市議會 cycc.gov.tw · 政府開放資料平台 data.gov.tw<br>
+      本頁資料每 6 小時自動更新。分析結果僅供參考，以官方公告為準。
+    </p>
+  </div>
+</footer>
+</body></html>

@@ -399,6 +399,29 @@ def build_dashboard(news, complaint_stats, council_data, citizen_stats, social_p
     html = html.replace("最後更新：載入中...", f"最後更新：{now_str}")
 
     index_path.write_text(html, encoding="utf-8")
+
+    # ── 同時寫出 data.js 供子頁面使用 ──
+    data_js_path = Path(__file__).parent / "data.js"
+    import re as _re
+    def _ex(src, var, default='[]'):
+        p = rf'const {var}\s*=\s*([\[{{].*?[\]}}]);'
+        m = _re.search(p, src, _re.DOTALL)
+        return m.group(1) if m else default
+    _html_now = index_path.read_text(encoding='utf-8')
+    data_js_content = (
+        "/* 嘉義市2026儀表板 共用資料 — 自動生成 */\n"
+        f"const dataset={_ex(_html_now,'dataset')};\n"
+        f"const categoryData={_ex(_html_now,'categoryData')};\n"
+        f"const westPopData={_ex(_html_now,'westPopData')};\n"
+        f"const councilStat={_ex(_html_now,'councilStat','{}')};\n"
+        f"const roadData={_ex(_html_now,'roadData')};\n"
+        f"const bridgeData={_ex(_html_now,'bridgeData')};\n"
+        f"const parkingData={_ex(_html_now,'parkingData')};\n"
+        f"const noiseData={_ex(_html_now,'noiseData')};\n"
+    )
+    data_js_path.write_text(data_js_content, encoding='utf-8')
+    print(f"  [build] data.js 已寫出（{len(data_js_content)} chars）")
+
     print(f"  [build] index.html 已更新（{len(all_records)} 筆記錄，{len(news)} 則新聞，{len(all_social)} 則社群聲音）")
 
 
