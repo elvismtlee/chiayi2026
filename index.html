@@ -86,96 +86,84 @@
       </div>
 
       <h1 class="text-4xl md:text-6xl font-black leading-tight mb-4 fade-up delay-1">
-        嘉義市<span style="color:var(--orange)">城市問題</span><br>12 年真實數據
+        嘉義市<span style="color:var(--orange)">城市問題</span><br>近12年真實數據
       </h1>
       <p class="text-slate-300 text-lg md:text-xl font-light leading-relaxed mb-10 fade-up delay-2">
         道路交通事故、管線施工、路燈、橋梁、停車、噪音⋯⋯<br>
-        嘉義市 12 年基礎建設問題全面透明化，數字說了算。
+        嘉義市近12年基礎建設問題全面透明化，數字說了算。
       </p>
 
-      <!-- 大數字 KPI (6格) Clean Glass 版 -->
-      <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-3 fade-up delay-3">
+      <!-- 大數字 KPI (6格) — Absolute Accent Bar 版（不裁切） -->
+      <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4 fade-up delay-3">
 
         <a href="#sec-traffic" class="block group">
-          <div class="overflow-hidden rounded-2xl bg-white/[0.08] backdrop-blur border border-white/20 shadow-md hover:-translate-y-1 hover:bg-white/[0.13] transition-all duration-200">
-            <div class="h-[3px] bg-orange-400"></div>
-            <div class="p-4">
-              <div class="text-[11px] font-bold text-slate-300 mb-2.5">🚨 近12年事故</div>
-              <div class="text-4xl font-black font-en counter text-white leading-none" id="kpi-total">0</div>
-              <div class="text-slate-400 text-[10px] mt-1.5">件・2014–2025</div>
-              <div class="mt-3 pt-2 border-t border-white/10">
-                <span class="text-orange-400 text-[10px] font-bold group-hover:underline">查看完整分析 →</span>
-              </div>
+          <div class="relative rounded-2xl bg-white/[0.09] backdrop-blur border border-white/20 shadow-lg hover:-translate-y-1.5 hover:bg-white/[0.14] transition-all duration-200 p-5 pt-7">
+            <div class="absolute top-0 left-0 right-0 h-[4px] bg-orange-400 rounded-t-2xl"></div>
+            <div class="text-xs font-bold text-slate-300 mb-3">🚨 近12年交通事故</div>
+            <div class="text-3xl font-black font-en counter text-white leading-none mb-2" id="kpi-total">0</div>
+            <div class="text-slate-400 text-xs">件・2014–2025</div>
+            <div class="mt-3 pt-2.5 border-t border-white/10">
+              <span class="text-orange-400 text-xs font-bold group-hover:underline">查看完整分析 →</span>
             </div>
           </div>
         </a>
 
         <a href="#sec-traffic" class="block group">
-          <div class="overflow-hidden rounded-2xl bg-white/[0.08] backdrop-blur border border-white/20 shadow-md hover:-translate-y-1 hover:bg-white/[0.13] transition-all duration-200">
-            <div class="h-[3px] bg-red-400"></div>
-            <div class="p-4">
-              <div class="text-[11px] font-bold text-slate-300 mb-2.5">⚠️ 事故死亡</div>
-              <div class="text-4xl font-black font-en text-white leading-none" id="kpi-deaths">—</div>
-              <div class="text-slate-400 text-[10px] mt-1.5">人・近12年累計</div>
-              <div class="mt-3 pt-2 border-t border-white/10">
-                <span class="text-red-400 text-[10px] font-bold group-hover:underline">查看事故分析 →</span>
-              </div>
+          <div class="relative rounded-2xl bg-white/[0.09] backdrop-blur border border-white/20 shadow-lg hover:-translate-y-1.5 hover:bg-white/[0.14] transition-all duration-200 p-5 pt-7">
+            <div class="absolute top-0 left-0 right-0 h-[4px] bg-red-400 rounded-t-2xl"></div>
+            <div class="text-xs font-bold text-slate-300 mb-3">⚠️ 近12年事故死亡</div>
+            <div class="text-3xl font-black font-en text-white leading-none mb-2" id="kpi-deaths">—</div>
+            <div class="text-slate-400 text-xs">人・累計死亡人數</div>
+            <div class="mt-3 pt-2.5 border-t border-white/10">
+              <span class="text-red-400 text-xs font-bold group-hover:underline">查看事故分析 →</span>
             </div>
           </div>
         </a>
 
         <a href="#sec-traffic" class="block group">
-          <div class="overflow-hidden rounded-2xl bg-white/[0.08] backdrop-blur border border-white/20 shadow-md hover:-translate-y-1 hover:bg-white/[0.13] transition-all duration-200">
-            <div class="h-[3px] bg-yellow-400"></div>
-            <div class="p-4">
-              <div class="text-[11px] font-bold text-slate-300 mb-2.5">🏥 事故受傷</div>
-              <div class="text-4xl font-black font-en text-white leading-none" id="kpi-injuries">—</div>
-              <div class="text-slate-400 text-[10px] mt-1.5">人・近12年累計</div>
-              <div class="mt-3 pt-2 border-t border-white/10">
-                <span class="text-yellow-400 text-[10px] font-bold group-hover:underline">查看傷亡趨勢 →</span>
-              </div>
+          <div class="relative rounded-2xl bg-white/[0.09] backdrop-blur border border-white/20 shadow-lg hover:-translate-y-1.5 hover:bg-white/[0.14] transition-all duration-200 p-5 pt-7">
+            <div class="absolute top-0 left-0 right-0 h-[4px] bg-yellow-400 rounded-t-2xl"></div>
+            <div class="text-xs font-bold text-slate-300 mb-3">🏥 近12年事故受傷</div>
+            <div class="text-3xl font-black font-en text-white leading-none mb-2" id="kpi-injuries">—</div>
+            <div class="text-slate-400 text-xs">人・累計受傷人數</div>
+            <div class="mt-3 pt-2.5 border-t border-white/10">
+              <span class="text-yellow-400 text-xs font-bold group-hover:underline">查看傷亡趨勢 →</span>
             </div>
           </div>
         </a>
 
         <a href="#sec-cat" class="block group">
-          <div class="overflow-hidden rounded-2xl bg-white/[0.08] backdrop-blur border border-white/20 shadow-md hover:-translate-y-1 hover:bg-white/[0.13] transition-all duration-200">
-            <div class="h-[3px] bg-violet-400"></div>
-            <div class="p-4">
-              <div class="text-[11px] font-bold text-slate-300 mb-2.5">📊 最大議題</div>
-              <div class="text-xl font-black text-white leading-snug" id="kpi-top-cat">—</div>
-              <div class="text-slate-400 text-[10px] mt-1.5">13大市政議題第一</div>
-              <div class="mt-3 pt-2 border-t border-white/10">
-                <span class="text-violet-400 text-[10px] font-bold group-hover:underline">查看議題分析 →</span>
-              </div>
+          <div class="relative rounded-2xl bg-white/[0.09] backdrop-blur border border-white/20 shadow-lg hover:-translate-y-1.5 hover:bg-white/[0.14] transition-all duration-200 p-5 pt-7">
+            <div class="absolute top-0 left-0 right-0 h-[4px] bg-violet-400 rounded-t-2xl"></div>
+            <div class="text-xs font-bold text-slate-300 mb-3">📊 最大市政議題</div>
+            <div class="text-xl font-black text-white leading-snug mb-2" id="kpi-top-cat">—</div>
+            <div class="text-slate-400 text-xs">13大議題 排名第一</div>
+            <div class="mt-3 pt-2.5 border-t border-white/10">
+              <span class="text-violet-400 text-xs font-bold group-hover:underline">查看議題分析 →</span>
             </div>
           </div>
         </a>
 
         <a href="#sec-pop" class="block group">
-          <div class="overflow-hidden rounded-2xl bg-white/[0.08] backdrop-blur border border-white/20 shadow-md hover:-translate-y-1 hover:bg-white/[0.13] transition-all duration-200">
-            <div class="h-[3px] bg-emerald-400"></div>
-            <div class="p-4">
-              <div class="text-[11px] font-bold text-slate-300 mb-2.5">👥 西區人口</div>
-              <div class="text-3xl font-black font-en text-white leading-none" id="kpi-west-pop">145,077</div>
-              <div class="text-slate-400 text-[10px] mt-1.5">位市民・45 里</div>
-              <div class="mt-3 pt-2 border-t border-white/10">
-                <span class="text-emerald-400 text-[10px] font-bold group-hover:underline">查看人口分布 →</span>
-              </div>
+          <div class="relative rounded-2xl bg-white/[0.09] backdrop-blur border border-white/20 shadow-lg hover:-translate-y-1.5 hover:bg-white/[0.14] transition-all duration-200 p-5 pt-7">
+            <div class="absolute top-0 left-0 right-0 h-[4px] bg-emerald-400 rounded-t-2xl"></div>
+            <div class="text-xs font-bold text-slate-300 mb-3">👥 西區人口</div>
+            <div class="text-3xl font-black font-en text-white leading-none mb-2" id="kpi-west-pop">145,077</div>
+            <div class="text-slate-400 text-xs">位市民・45 里</div>
+            <div class="mt-3 pt-2.5 border-t border-white/10">
+              <span class="text-emerald-400 text-xs font-bold group-hover:underline">查看人口分布 →</span>
             </div>
           </div>
         </a>
 
         <a href="#sec-trend" class="block group">
-          <div class="overflow-hidden rounded-2xl bg-white/[0.08] backdrop-blur border border-white/20 shadow-md hover:-translate-y-1 hover:bg-white/[0.13] transition-all duration-200">
-            <div class="h-[3px] bg-sky-400"></div>
-            <div class="p-4">
-              <div class="text-[11px] font-bold text-slate-300 mb-2.5">📅 本月事件</div>
-              <div class="text-4xl font-black font-en counter text-white leading-none" id="kpi-month">0</div>
-              <div class="text-slate-400 text-[10px] mt-1.5">件・每6小時更新</div>
-              <div class="mt-3 pt-2 border-t border-white/10">
-                <span class="text-sky-400 text-[10px] font-bold group-hover:underline">查看投訴趨勢 →</span>
-              </div>
+          <div class="relative rounded-2xl bg-white/[0.09] backdrop-blur border border-white/20 shadow-lg hover:-translate-y-1.5 hover:bg-white/[0.14] transition-all duration-200 p-5 pt-7">
+            <div class="absolute top-0 left-0 right-0 h-[4px] bg-sky-400 rounded-t-2xl"></div>
+            <div class="text-xs font-bold text-slate-300 mb-3">📅 本月事件</div>
+            <div class="text-3xl font-black font-en counter text-white leading-none mb-2" id="kpi-month">0</div>
+            <div class="text-slate-400 text-xs">件・每6小時自動更新</div>
+            <div class="mt-3 pt-2.5 border-t border-white/10">
+              <span class="text-sky-400 text-xs font-bold group-hover:underline">查看投訴趨勢 →</span>
             </div>
           </div>
         </a>
@@ -459,7 +447,7 @@
         <span class="ml-auto text-[10px] font-bold bg-orange-100 text-orange-600 px-2 py-0.5 rounded-full">即時更新</span>
       </div>
       <!-- 摘要文字 -->
-      <p class="text-xs text-slate-600 leading-relaxed mb-3" id="summary-text">
+      <p class="text-sm text-slate-600 leading-relaxed mb-3" id="summary-text">
         正在計算最常見的市民投訴...
       </p>
       <!-- Top-3 痛點 -->
@@ -467,17 +455,17 @@
       <div class="space-y-1.5 mb-3" id="top3-issues">
         <div class="flex items-center gap-2 bg-orange-50 rounded-lg px-2.5 py-1.5">
           <span class="text-orange-500 font-black text-xs w-4 text-center">1</span>
-          <span class="text-xs text-slate-700 font-bold flex-1" id="top3-1">—</span>
-          <span class="text-xs text-orange-500 font-bold" id="top3-1-n"></span>
+          <span class="text-sm text-slate-700 font-bold flex-1" id="top3-1">—</span>
+          <span class="text-sm text-orange-500 font-bold" id="top3-1-n"></span>
         </div>
         <div class="flex items-center gap-2 bg-amber-50 rounded-lg px-2.5 py-1.5">
           <span class="text-amber-500 font-black text-xs w-4 text-center">2</span>
-          <span class="text-xs text-slate-700 font-bold flex-1" id="top3-2">—</span>
-          <span class="text-xs text-amber-500 font-bold" id="top3-2-n"></span>
+          <span class="text-sm text-slate-700 font-bold flex-1" id="top3-2">—</span>
+          <span class="text-sm text-amber-500 font-bold" id="top3-2-n"></span>
         </div>
         <div class="flex items-center gap-2 bg-yellow-50 rounded-lg px-2.5 py-1.5">
           <span class="text-yellow-600 font-black text-xs w-4 text-center">3</span>
-          <span class="text-xs text-slate-700 font-bold flex-1" id="top3-3">—</span>
+          <span class="text-sm text-slate-700 font-bold flex-1" id="top3-3">—</span>
           <span class="text-[10px] text-yellow-600 font-bold" id="top3-3-n"></span>
         </div>
       </div>
@@ -585,24 +573,24 @@
     <!-- 橋梁設施明細 -->
     <div class="card p-5" style="border-top:3px solid #3B82F6;">
       <div class="flex items-center justify-between mb-3 pb-2 border-b border-slate-100">
-        <h2 class="text-sm font-black text-slate-900">🌉 橋梁設施全面分析</h2>
+        <h2 class="text-base font-black text-slate-900">🌉 橋梁設施全面分析</h2>
         <span class="text-[10px] font-bold bg-blue-100 text-blue-700 px-2 py-0.5 rounded-full" id="bridge-count-tag">— 座</span>
       </div>
       <!-- 補充 KPI 磚 -->
       <div class="grid grid-cols-3 gap-1.5 mb-3">
         <div class="bg-blue-50 rounded-lg p-1.5 text-center">
           <div class="text-[11px] text-blue-400 font-bold">總橋梁數</div>
-          <div class="text-base font-black text-blue-700" id="bridge-total-kpi">172</div>
+          <div class="text-xl font-black text-blue-700" id="bridge-total-kpi">172</div>
           <div class="text-[11px] text-slate-400">座</div>
         </div>
         <div class="bg-orange-50 rounded-lg p-1.5 text-center">
           <div class="text-[11px] text-orange-400 font-bold">省道橋梁</div>
-          <div class="text-base font-black text-orange-600" id="bridge-prov-kpi">—</div>
+          <div class="text-xl font-black text-orange-600" id="bridge-prov-kpi">—</div>
           <div class="text-[11px] text-slate-400">座</div>
         </div>
         <div class="bg-green-50 rounded-lg p-1.5 text-center">
           <div class="text-[11px] text-green-400 font-bold">市道橋梁</div>
-          <div class="text-base font-black text-green-600" id="bridge-city-kpi">—</div>
+          <div class="text-xl font-black text-green-600" id="bridge-city-kpi">—</div>
           <div class="text-[11px] text-slate-400">座</div>
         </div>
       </div>
@@ -634,7 +622,7 @@
     <!-- 公有停車場容量分析 -->
     <div class="card p-5" style="border-top:3px solid #10B981;">
       <div class="flex items-center justify-between mb-2 pb-2 border-b border-slate-100">
-        <h2 class="text-sm font-black text-slate-900">🅿️ 停車場容量分析</h2>
+        <h2 class="text-base font-black text-slate-900">🅿️ 停車場容量分析</h2>
         <span class="text-[10px] font-bold bg-green-100 text-green-700 px-2 py-0.5 rounded-full" id="parking-count-tag">— 處</span>
       </div>
       <!-- KPI 三欄 -->
@@ -675,7 +663,7 @@
     <!-- 噪音污染分析 -->
     <div class="card p-5" style="border-top:3px solid #EF4444;">
       <div class="flex items-center justify-between mb-2 pb-2 border-b border-slate-100">
-        <h2 class="text-sm font-black text-slate-900">🔊 噪音污染分析</h2>
+        <h2 class="text-base font-black text-slate-900">🔊 噪音污染分析</h2>
         <span class="text-[10px] font-bold px-2 py-0.5 rounded-full" id="noise-alert-tag"
               style="background:#FEE2E2;color:#DC2626">—站超標</span>
       </div>
@@ -2166,6 +2154,15 @@ function renderAccidentStats() {
 
 
   // ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  //  Chart.js 全域預設（字體升大）
+  // ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  if (typeof Chart !== 'undefined') {
+    Chart.defaults.font.size   = 12;
+    Chart.defaults.font.family = "'Noto Sans TC', system-ui, sans-serif";
+    Chart.defaults.color       = '#64748B';
+  }
+
+  // ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
   //  市政即時新聞 — 初始化（來源統計 + 焦點 + 篩選）
   // ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
   function initNewsSection() {
@@ -2260,27 +2257,29 @@ function renderAccidentStats() {
   // ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
   function renderCatKPIs(data) {
     const gi = id => document.getElementById(id);
-    const cats = computeCatData(data);
-    const sorted = Object.entries(cats).sort((a,b) => b[1]-a[1]);
+    // computeCatData 回傳 [{category, count}] 陣列
+    const sorted = (typeof categoryData !== 'undefined' && categoryData.length > 0)
+      ? categoryData
+      : computeCatData(data);
     if (!sorted.length) return;
-    const [topName, topCount] = sorted[0];
-    if (gi('cat-top-name'))    gi('cat-top-name').textContent    = topName;
-    if (gi('cat-top-count'))   gi('cat-top-count').textContent   = topCount + ' 件';
+    const topName  = sorted[0].category;
+    const topCount = sorted[0].count;
+    if (gi('cat-top-name'))      gi('cat-top-name').textContent      = topName;
+    if (gi('cat-top-count'))     gi('cat-top-count').textContent     = Number(topCount).toLocaleString() + ' 件';
     if (gi('cat-total-records')) gi('cat-total-records').textContent = data.length.toLocaleString();
     const thisYear = data.filter(r => (r.date||'').startsWith('2026')).length;
-    if (gi('cat-this-year')) gi('cat-this-year').textContent = thisYear.toLocaleString();
-    const activeCats = Object.keys(cats).filter(k => cats[k] > 0).length;
-    if (gi('cat-active-cats')) gi('cat-active-cats').textContent = activeCats;
+    if (gi('cat-this-year'))  gi('cat-this-year').textContent  = thisYear.toLocaleString();
+    if (gi('cat-active-cats')) gi('cat-active-cats').textContent = sorted.filter(d => d.count > 0).length;
     // 洞察文字
     if (gi('cat-insight-1'))
-      gi('cat-insight-1').textContent = `${topName} 累計 ${topCount} 件，是所有議題中最多的，需優先改善`;
+      gi('cat-insight-1').textContent = `${topName} 累計 ${Number(topCount).toLocaleString()} 件，是所有議題中最多的，需優先改善`;
     if (sorted.length >= 2) {
       const recentYear = data.filter(r => (r.date||'').startsWith('2025') || (r.date||'').startsWith('2026'));
       const recentCats = {};
       recentYear.forEach(r => { const c = r.category||r.subcategory||'其他'; recentCats[c]=(recentCats[c]||0)+1; });
       const topRecent = Object.entries(recentCats).sort((a,b)=>b[1]-a[1])[0];
       if (gi('cat-insight-2') && topRecent)
-        gi('cat-insight-2').textContent = `${topRecent[0]} 近一年新增 ${topRecent[1]} 件，成長最快`;
+        gi('cat-insight-2').textContent = `${topRecent[0]} 近一年新增 ${topRecent[1].toLocaleString()} 件，成長最快`;
     }
   }
 
@@ -2365,15 +2364,19 @@ function renderAccidentStats() {
   //  城市痛點 Top-3 + 停車場平均 + 噪音監測站數
   // ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
   function renderTop3Issues(data) {
-    const cats = computeCatData(data);
-    const sorted = Object.entries(cats).sort((a,b) => b[1]-a[1]);
+    // computeCatData 回傳 [{category, count}] 陣列，直接使用
+    const sorted = (typeof categoryData !== 'undefined' && categoryData.length > 0)
+      ? categoryData
+      : computeCatData(data);
     const ids = [['top3-1','top3-1-n'],['top3-2','top3-2-n'],['top3-3','top3-3-n']];
-    sorted.slice(0,3).forEach(([cat,n], i) => {
+    sorted.slice(0, 3).forEach((item, i) => {
       const [nId, cId] = ids[i];
       const el = document.getElementById(nId);
       const cn = document.getElementById(cId);
+      const cat = typeof item === 'object' ? (item.category || '—') : item;
+      const n   = typeof item === 'object' ? (item.count   || 0)   : 0;
       if (el) el.textContent = cat;
-      if (cn) cn.textContent = n + ' 件';
+      if (cn) cn.textContent = Number(n).toLocaleString() + ' 件';
     });
   }
 
