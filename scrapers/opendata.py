@@ -609,8 +609,8 @@ def fetch_all_opendata_records() -> list[dict]:
                 print(f"  [opendata] {title} CSV 解析失敗: {e}")
                 records = []
 
-        # 在每筆記錄注入 source_url（連回開放資料頁面）
-        dataset_url = f"https://data.chiayi.gov.tw/opendata/dataset/detail?oid={oid}"
+        # 在每筆記錄注入 source_url（連回開放資料主頁；平台為 JS SPA 無深層 URL）
+        dataset_url = "https://data.chiayi.gov.tw/opendata/"
         for rec in records:
             if not rec.get("source_url"):
                 rec["source_url"] = dataset_url
