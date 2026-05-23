@@ -79,21 +79,18 @@ def fetch_aqi_history():
         return []
 
 
-# ── 2. 即時 AQI 讀值（環境部）─────────────────────────────────────────────
+# ── 2. 即時 AQI 讀值（環境部優先，Open-Meteo 備援）────────────────────────
 def fetch_aqi_realtime():
-    """即時嘉義市各測站 AQI（嘗試多個 API endpoint）"""
-    # 環境部提供多個版本的 AQI API，依序嘗試
-    ENDPOINTS = [
-        # 新版 v2（全台即時）
+    """即時嘉義市 AQI（環境部 API 優先，失敗時用 Open-Meteo）"""
+
+    # 方法 1: 環境部 API（若恢復即可取得精確測站數據）
+    MOENV_ENDPOINTS = [
         "https://data.moenv.gov.tw/api/v2/aqx_p_02?api_key=e8dd42e6-9b8b-43f8-991e-b3dee723a52d&limit=100&format=json",
-        # aqx_p_432（若伺服器恢復）
         "https://data.moenv.gov.tw/api/v2/aqx_p_432?api_key=e8dd42e6-9b8b-43f8-991e-b3dee723a52d&limit=100&format=json",
-        # EPA opendata 備援（data.gov.tw 鏡像）
-        "https://data.gov.tw/api/v1/rest/dataset/aqx_p_432?format=json",
     ]
-    for url in ENDPOINTS:
+    for url in MOENV_ENDPOINTS:
         try:
-            data = _get_json(url, timeout=15)
+            data = _get_json(url, timeout=12)
             records = data.get("records", [])
             if not records:
                 continue
@@ -113,54 +110,54 @@ def fetch_aqi_realtime():
                     "status": r.get("status", r.get("Status", "")),
                     "pollutant": r.get("pollutant", r.get("Pollutant", "")),
                     "time": r.get("datacreationdate", r.get("DataCreationDate", "")),
+                    "source": "環境部",
                 })
             if stations:
-                print(f"  [aqi_realtime] {url[:50]}... 取得 {len(stations)} 個嘉義測站")
+                print(f"  [aqi_realtime] 環境部 取得 {len(stations)} 個嘉義測站")
                 return sorted(stations, key=lambda x: x["aqi"], reverse=True)
         except Exception as e:
-            print(f"  [aqi_realtime] {url[:50]}... 失敗: {e}")
+            print(f"  [aqi_realtime] 環境部 {url[:50]}... 失敗: {e}")
 
-    # 方法 2: AQICN 世界空氣品質指數（搜尋嘉義站）
+    # 方法 2: Open-Meteo 空氣品質 API（免費，無需 key，根據坐標計算）
     try:
-        # 先用 search API 找嘉義站代碼
-        search_url = "https://api.waqi.info/search/?token=demo&keyword=chiayi"
-        sdata = _get_json(search_url, timeout=10)
-        station_uid = None
-        if sdata.get("status") == "ok":
-            for s in sdata.get("data", []):
-                name = str(s.get("station", {}).get("name", "") or "")
-                if "Chiayi" in name or "嘉義" in name or "chiayi" in name.lower():
-                    uid = s.get("uid", "")
-                    if uid:
-                        station_uid = f"@{uid}"
-                        break
-        for station_id in [station_uid, "chiayi", "@8285"] if station_uid else ["chiayi", "@8285"]:
-            if not station_id:
-                continue
-            aqicn_url = f"https://api.waqi.info/feed/{station_id}/?token=demo"
-            d = _get_json(aqicn_url, timeout=10)
-            if d.get("status") == "ok":
-                ddata = d.get("data", {})
-                iaqi = ddata.get("iaqi", {})
-                city_info = ddata.get("city", {})
-                city_name = city_info.get("name", "嘉義站") if isinstance(city_info, dict) else "嘉義站"
-                aqi_v = int(ddata.get("aqi", 0) or 0)
-                stations = [{
-                    "station": city_name,
-                    "aqi": aqi_v,
-                    "pm25": float((iaqi.get("pm25") or {}).get("v", 0) or 0),
-                    "pm10": float((iaqi.get("pm10") or {}).get("v", 0) or 0),
-                    "o3": float((iaqi.get("o3") or {}).get("v", 0) or 0),
-                    "no2": float((iaqi.get("no2") or {}).get("v", 0) or 0),
-                    "status": _aqi_status(aqi_v),
-                    "pollutant": "",
-                    "time": str((ddata.get("time") or {}).get("s", "")),
-                    "source": "AQICN",
-                }]
-                print(f"  [aqi_aqicn] 取得 {station_id}({city_name}) AQI={aqi_v}")
-                return stations
+        url = (
+            "https://air-quality-api.open-meteo.com/v1/air-quality"
+            "?latitude=23.48&longitude=120.45"
+            "&current=pm10,pm2_5,nitrogen_dioxide,ozone"
+            "&timezone=Asia%2FTaipei"
+        )
+        data = _get_json(url, timeout=12)
+        current = data.get("current", {})
+        pm25 = float(current.get("pm2_5", 0) or 0)
+        pm10 = float(current.get("pm10", 0) or 0)
+        no2 = float(current.get("nitrogen_dioxide", 0) or 0)
+        o3 = float(current.get("ozone", 0) or 0)
+        # 用 PM2.5 換算 AQI（台灣標準：0-35=良好, 36-53=普通, 54-70=不敏感, 71-150=不健康, 151+=非常不健康）
+        if pm25 <= 35.4:
+            aqi = int(pm25 * 50 / 35.4)
+        elif pm25 <= 53.4:
+            aqi = 50 + int((pm25 - 35.4) * 50 / 18)
+        elif pm25 <= 70.4:
+            aqi = 100 + int((pm25 - 53.4) * 50 / 17)
+        else:
+            aqi = 150 + int((pm25 - 70.4) * 50 / 79.6)
+        aqi = min(aqi, 300)
+        station = [{
+            "station": "嘉義市（Open-Meteo 模型）",
+            "aqi": aqi,
+            "pm25": round(pm25, 1),
+            "pm10": round(pm10, 1),
+            "o3": round(o3, 1),
+            "no2": round(no2, 1),
+            "status": _aqi_status(aqi),
+            "pollutant": "PM2.5",
+            "time": current.get("time", ""),
+            "source": "Open-Meteo",
+        }]
+        print(f"  [aqi_openmeteo] PM2.5={pm25}μg/m³ → AQI≈{aqi} ({_aqi_status(aqi)})")
+        return station
     except Exception as e:
-        print(f"  [aqi_aqicn] 失敗: {e}")
+        print(f"  [aqi_openmeteo] 失敗: {e}")
 
     print("  [aqi_realtime] 所有端點失敗，回傳空清單")
     return []
@@ -189,21 +186,32 @@ def fetch_earthquake():
             props = f.get("properties", {})
             place = props.get("place", "")
             mag = props.get("mag", 0) or 0
-            # 篩選台灣 / 嘉義 / 附近地震
-            if "Taiwan" in place or "嘉義" in place or mag >= 5.0:
-                ts = props.get("time", 0)
-                dt = datetime.utcfromtimestamp(ts / 1000).strftime("%Y-%m-%d %H:%M") if ts else ""
-                tw_quakes.append({
-                    "title": f"規模 {mag:.1f}・{place}",
-                    "desc": f"深度 {(f.get('geometry') or {}).get('coordinates', [0,0,0])[-1]:.0f} km",
-                    "date": dt,
-                    "link": props.get("url", ""),
-                    "mag": mag,
-                })
-        # 排序：嘉義優先，再依規模
-        tw_quakes.sort(key=lambda x: (0 if "嘉義" in x["title"] else 1, -x["mag"]))
+            coords = (f.get("geometry") or {}).get("coordinates", [0, 0, 0])
+            lat = coords[1] if len(coords) > 1 else 0
+            lng = coords[0] if len(coords) > 0 else 0
+            depth = coords[2] if len(coords) > 2 else 0
+            # 嚴格篩選台灣地區：地名含 Taiwan/嘉義，或座標落在台灣範圍內（21-26N, 119-123E）
+            is_taiwan = (
+                "Taiwan" in place
+                or "嘉義" in place
+                or (21.0 <= lat <= 26.0 and 119.0 <= lng <= 123.5)
+            )
+            if not is_taiwan:
+                continue
+            ts = props.get("time", 0)
+            dt = datetime.utcfromtimestamp(ts / 1000).strftime("%Y-%m-%d %H:%M") if ts else ""
+            tw_quakes.append({
+                "title": f"規模 {mag:.1f}・{place}",
+                "desc": f"深度 {depth:.0f} km",
+                "date": dt,
+                "link": props.get("url", ""),
+                "mag": mag,
+            })
+        # 排序：嘉義優先，再依時間（最新優先）
+        tw_quakes.sort(key=lambda x: (0 if "嘉義" in x["title"] else 1, x["date"]), reverse=True)
+        tw_quakes.sort(key=lambda x: 0 if "嘉義" in x["title"] else 1)
         result = tw_quakes[:8]
-        print(f"  [earthquake] USGS 取得 {len(result)} 筆台灣地震")
+        print(f"  [earthquake] USGS 取得 {len(result)} 筆台灣地震（篩選自 {len(features)} 筆全球）")
         if result:
             return result
     except Exception as e:

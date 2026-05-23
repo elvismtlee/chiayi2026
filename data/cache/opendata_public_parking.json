@@ -1,0 +1,382 @@
+[
+  {
+    "category": "交通停車",
+    "subcategory": "公有停車場",
+    "location": "嘉義市上海路350號前 (垂楊國小B1)",
+    "title": "垂楊國小地下停車場",
+    "description": "立體停車場，小型車 201 格",
+    "count": 201,
+    "source": "data.chiayi.gov.tw",
+    "source_url": "https://data.chiayi.gov.tw/opendata/"
+  },
+  {
+    "category": "交通停車",
+    "subcategory": "公有停車場",
+    "location": "嘉義市民族路189號",
+    "title": "民族國小地下停車場",
+    "description": "立體停車場，小型車 199 格",
+    "count": 199,
+    "source": "data.chiayi.gov.tw",
+    "source_url": "https://data.chiayi.gov.tw/opendata/"
+  },
+  {
+    "category": "交通停車",
+    "subcategory": "公有停車場",
+    "location": "嘉義市民權路415號B1",
+    "title": "中正公園地下停車場",
+    "description": "立體停車場，小型車 129 格",
+    "count": 129,
+    "source": "data.chiayi.gov.tw",
+    "source_url": "https://data.chiayi.gov.tw/opendata/"
+  },
+  {
+    "category": "交通停車",
+    "subcategory": "公有停車場",
+    "location": "嘉義市大雅路一段866號",
+    "title": "崇仁(停12)停車場",
+    "description": "平面停車場，小型車 52 格",
+    "count": 52,
+    "source": "data.chiayi.gov.tw",
+    "source_url": "https://data.chiayi.gov.tw/opendata/"
+  },
+  {
+    "category": "交通停車",
+    "subcategory": "公有停車場",
+    "location": "嘉義市國華街245號",
+    "title": "西市場大樓停車場",
+    "description": "立體停車場，小型車 201 格",
+    "count": 201,
+    "source": "data.chiayi.gov.tw",
+    "source_url": "https://data.chiayi.gov.tw/opendata/"
+  },
+  {
+    "category": "交通停車",
+    "subcategory": "公有停車場",
+    "location": "嘉義市小雅路339號前",
+    "title": "停15停車場",
+    "description": "平面停車場，小型車 35 格",
+    "count": 35,
+    "source": "data.chiayi.gov.tw",
+    "source_url": "https://data.chiayi.gov.tw/opendata/"
+  },
+  {
+    "category": "交通停車",
+    "subcategory": "公有停車場",
+    "location": "嘉義市西區林森西路526號",
+    "title": "火車站前停車場",
+    "description": "平面停車場，小型車 98 格",
+    "count": 98,
+    "source": "data.chiayi.gov.tw",
+    "source_url": "https://data.chiayi.gov.tw/opendata/"
+  },
+  {
+    "category": "交通停車",
+    "subcategory": "公有停車場",
+    "location": "嘉義市友愛路與興達路口",
+    "title": "友愛路停車場",
+    "description": "平面停車場，小型車 90 格",
+    "count": 90,
+    "source": "data.chiayi.gov.tw",
+    "source_url": "https://data.chiayi.gov.tw/opendata/"
+  },
+  {
+    "category": "交通停車",
+    "subcategory": "公有停車場",
+    "location": "嘉義市大雅路361號旁",
+    "title": "大雅路(停11)停車場",
+    "description": "平面停車場，小型車 37 格",
+    "count": 37,
+    "source": "data.chiayi.gov.tw",
+    "source_url": "https://data.chiayi.gov.tw/opendata/"
+  },
+  {
+    "category": "交通停車",
+    "subcategory": "公有停車場",
+    "location": "嘉義市北港路-友忠路口",
+    "title": "北港路(停9)停車場",
+    "description": "平面停車場，小型車 40 格",
+    "count": 40,
+    "source": "data.chiayi.gov.tw",
+    "source_url": "https://data.chiayi.gov.tw/opendata/"
+  },
+  {
+    "category": "交通停車",
+    "subcategory": "公有停車場",
+    "location": "嘉義市大雅路二段 495巷7號對側",
+    "title": "山仔頂(停10)停車場",
+    "description": "平面停車場，小型車 36 格",
+    "count": 36,
+    "source": "data.chiayi.gov.tw",
+    "source_url": "https://data.chiayi.gov.tw/opendata/"
+  },
+  {
+    "category": "交通停車",
+    "subcategory": "公有停車場",
+    "location": "嘉義市雅竹路76號旁",
+    "title": "蘭潭國小(停14)停車場",
+    "description": "平面停車場，小型車 45 格",
+    "count": 45,
+    "source": "data.chiayi.gov.tw",
+    "source_url": "https://data.chiayi.gov.tw/opendata/"
+  },
+  {
+    "category": "交通停車",
+    "subcategory": "公有停車場",
+    "location": "嘉義市民權路371號B1",
+    "title": "中央廣場地下停車場",
+    "description": "立體停車場，小型車 130 格",
+    "count": 130,
+    "source": "data.chiayi.gov.tw",
+    "source_url": "https://data.chiayi.gov.tw/opendata/"
+  },
+  {
+    "category": "交通停車",
+    "subcategory": "公有停車場",
+    "location": "嘉義市中山路199號對面",
+    "title": "市府前廣場停車場",
+    "description": "平面停車場，小型車 261 格",
+    "count": 261,
+    "source": "data.chiayi.gov.tw",
+    "source_url": "https://data.chiayi.gov.tw/opendata/"
+  },
+  {
+    "category": "交通停車",
+    "subcategory": "公有停車場",
+    "location": "嘉義市中山路199號",
+    "title": "市府地下地下停車場",
+    "description": "立體停車場，小型車 261 格",
+    "count": 261,
+    "source": "data.chiayi.gov.tw",
+    "source_url": "https://data.chiayi.gov.tw/opendata/"
+  },
+  {
+    "category": "交通停車",
+    "subcategory": "公有停車場",
+    "location": "嘉義市東區林森西路11號",
+    "title": "博物館地下停車場",
+    "description": "立體停車場，小型車 71 格",
+    "count": 71,
+    "source": "data.chiayi.gov.tw",
+    "source_url": "https://data.chiayi.gov.tw/opendata/"
+  },
+  {
+    "category": "交通停車",
+    "subcategory": "公有停車場",
+    "location": "河濱公園(西側)興仁街50號",
+    "title": "嘉義河濱公園",
+    "description": "平面停車場，小型車 54 格",
+    "count": 54,
+    "source": "data.chiayi.gov.tw",
+    "source_url": "https://data.chiayi.gov.tw/opendata/"
+  },
+  {
+    "category": "交通停車",
+    "subcategory": "公有停車場",
+    "location": "河濱公園(東側)親水路",
+    "title": "嘉義河濱公園二",
+    "description": "平面停車場，小型車 22 格",
+    "count": 22,
+    "source": "data.chiayi.gov.tw",
+    "source_url": "https://data.chiayi.gov.tw/opendata/"
+  },
+  {
+    "category": "交通停車",
+    "subcategory": "公有停車場",
+    "location": "嘉義市彌陀路381號(外圍)",
+    "title": "體育館停車場",
+    "description": "平面停車場，小型車 30 格",
+    "count": 30,
+    "source": "data.chiayi.gov.tw",
+    "source_url": "https://data.chiayi.gov.tw/opendata/"
+  },
+  {
+    "category": "交通停車",
+    "subcategory": "公有停車場",
+    "location": "嘉義市大同路320號",
+    "title": "港坪運動公園停車場",
+    "description": "平面停車場，小型車 133 格",
+    "count": 133,
+    "source": "data.chiayi.gov.tw",
+    "source_url": "https://data.chiayi.gov.tw/opendata/"
+  },
+  {
+    "category": "交通停車",
+    "subcategory": "公有停車場",
+    "location": "嘉義市西區新民路604-608號",
+    "title": "慢速壘球場停車場",
+    "description": "平面停車場，小型車 86 格",
+    "count": 86,
+    "source": "data.chiayi.gov.tw",
+    "source_url": "https://data.chiayi.gov.tw/opendata/"
+  },
+  {
+    "category": "交通停車",
+    "subcategory": "公有停車場",
+    "location": "嘉義市山仔頂249-1號",
+    "title": "棒球場停車場E區",
+    "description": "平面停車場，小型車 0 格",
+    "count": 1,
+    "source": "data.chiayi.gov.tw",
+    "source_url": "https://data.chiayi.gov.tw/opendata/"
+  },
+  {
+    "category": "交通停車",
+    "subcategory": "公有停車場",
+    "location": "嘉義市山仔頂249-1號",
+    "title": "棒球場停車場ABCD區",
+    "description": "平面停車場，小型車 600 格",
+    "count": 600,
+    "source": "data.chiayi.gov.tw",
+    "source_url": "https://data.chiayi.gov.tw/opendata/"
+  },
+  {
+    "category": "交通停車",
+    "subcategory": "公有停車場",
+    "location": "體育路2號",
+    "title": "體育場停車場",
+    "description": "平面停車場，小型車 131 格",
+    "count": 131,
+    "source": "data.chiayi.gov.tw",
+    "source_url": "https://data.chiayi.gov.tw/opendata/"
+  },
+  {
+    "category": "交通停車",
+    "subcategory": "公有停車場",
+    "location": "垂楊路410號旁(與國華街口)",
+    "title": "文化公園(停6)停車場",
+    "description": "平面停車場，小型車 151 格",
+    "count": 151,
+    "source": "data.chiayi.gov.tw",
+    "source_url": "https://data.chiayi.gov.tw/opendata/"
+  },
+  {
+    "category": "交通停車",
+    "subcategory": "公有停車場",
+    "location": "西榮街14號對面",
+    "title": "大同國小停車場",
+    "description": "平面停車場，小型車 20 格",
+    "count": 20,
+    "source": "data.chiayi.gov.tw",
+    "source_url": "https://data.chiayi.gov.tw/opendata/"
+  },
+  {
+    "category": "交通停車",
+    "subcategory": "公有停車場",
+    "location": "忠孝路340巷 (博愛路家樂福後門)",
+    "title": "機六停車場",
+    "description": "平面停車場，小型車 120 格",
+    "count": 120,
+    "source": "data.chiayi.gov.tw",
+    "source_url": "https://data.chiayi.gov.tw/opendata/"
+  },
+  {
+    "category": "交通停車",
+    "subcategory": "公有停車場",
+    "location": "嘉義市中興路1號",
+    "title": "轉運中心停車場",
+    "description": "立體停車場，小型車 70 格",
+    "count": 70,
+    "source": "data.chiayi.gov.tw",
+    "source_url": "https://data.chiayi.gov.tw/opendata/"
+  },
+  {
+    "category": "交通停車",
+    "subcategory": "公有停車場",
+    "location": "垂楊大橋下",
+    "title": "垂楊大橋下停車場",
+    "description": "平面停車場，小型車 44 格",
+    "count": 44,
+    "source": "data.chiayi.gov.tw",
+    "source_url": "https://data.chiayi.gov.tw/opendata/"
+  },
+  {
+    "category": "交通停車",
+    "subcategory": "公有停車場",
+    "location": "民生北路與垂楊路轉角",
+    "title": "舊市公所停車場",
+    "description": "平面停車場，小型車 34 格",
+    "count": 34,
+    "source": "data.chiayi.gov.tw",
+    "source_url": "https://data.chiayi.gov.tw/opendata/"
+  },
+  {
+    "category": "交通停車",
+    "subcategory": "公有停車場",
+    "location": "嘉義市彌陀路327巷15號",
+    "title": "嘉義市田徑場",
+    "description": "平面停車場，小型車 240 格",
+    "count": 240,
+    "source": "data.chiayi.gov.tw",
+    "source_url": "https://data.chiayi.gov.tw/opendata/"
+  },
+  {
+    "category": "交通停車",
+    "subcategory": "公有停車場",
+    "location": "民族路進出",
+    "title": "新生路停車場(建國D站)",
+    "description": "平面停車場，小型車 139 格",
+    "count": 139,
+    "source": "data.chiayi.gov.tw",
+    "source_url": "https://data.chiayi.gov.tw/opendata/"
+  },
+  {
+    "category": "交通停車",
+    "subcategory": "公有停車場",
+    "location": "民國路進出",
+    "title": "新生路停車場(建國C站)",
+    "description": "平面停車場，小型車 411 格",
+    "count": 411,
+    "source": "data.chiayi.gov.tw",
+    "source_url": "https://data.chiayi.gov.tw/opendata/"
+  },
+  {
+    "category": "交通停車",
+    "subcategory": "公有停車場",
+    "location": "中正路進出",
+    "title": "新生路停車場(建國A區)",
+    "description": "平面停車場，小型車 203 格",
+    "count": 203,
+    "source": "data.chiayi.gov.tw",
+    "source_url": "https://data.chiayi.gov.tw/opendata/"
+  },
+  {
+    "category": "交通停車",
+    "subcategory": "公有停車場",
+    "location": "公明路進出",
+    "title": "新生路停車場(建國E區)",
+    "description": "平面停車場，小型車 70 格",
+    "count": 70,
+    "source": "data.chiayi.gov.tw",
+    "source_url": "https://data.chiayi.gov.tw/opendata/"
+  },
+  {
+    "category": "交通停車",
+    "subcategory": "公有停車場",
+    "location": "吳鳳北路184號",
+    "title": "東市場停車場",
+    "description": "平面停車場，小型車 48 格",
+    "count": 48,
+    "source": "data.chiayi.gov.tw",
+    "source_url": "https://data.chiayi.gov.tw/opendata/"
+  },
+  {
+    "category": "交通停車",
+    "subcategory": "公有停車場",
+    "location": "香湖公園後側",
+    "title": "香湖公園停車場",
+    "description": "平面停車場，小型車 200 格",
+    "count": 200,
+    "source": "data.chiayi.gov.tw",
+    "source_url": "https://data.chiayi.gov.tw/opendata/"
+  },
+  {
+    "category": "交通停車",
+    "subcategory": "公有停車場",
+    "location": "精忠一村",
+    "title": "精忠停車場",
+    "description": "平面停車場，小型車 62 格",
+    "count": 62,
+    "source": "data.chiayi.gov.tw",
+    "source_url": "https://data.chiayi.gov.tw/opendata/"
+  }
+]

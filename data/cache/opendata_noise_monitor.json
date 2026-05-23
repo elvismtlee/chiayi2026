@@ -1,0 +1,67 @@
+[
+  {
+    "date": "2022/12",
+    "year": "2022",
+    "category": "環境衛生",
+    "subcategory": "噪音管制",
+    "location": "中油煉研所",
+    "title": "中油煉研所噪音監測",
+    "description": "管制區4，月均59.1dB",
+    "count": 1,
+    "avg_db": 59.1,
+    "source": "data.chiayi.gov.tw",
+    "source_url": "https://data.chiayi.gov.tw/opendata/"
+  },
+  {
+    "date": "2022/12",
+    "year": "2022",
+    "category": "環境衛生",
+    "subcategory": "噪音管制",
+    "location": "嘉大蘭潭學院",
+    "title": "嘉大蘭潭學院噪音監測",
+    "description": "管制區2，月均47.4dB",
+    "count": 1,
+    "avg_db": 47.4,
+    "source": "data.chiayi.gov.tw",
+    "source_url": "https://data.chiayi.gov.tw/opendata/"
+  },
+  {
+    "date": "2022/12",
+    "year": "2022",
+    "category": "環境衛生",
+    "subcategory": "噪音管制",
+    "location": "嘉義酒廠",
+    "title": "嘉義酒廠噪音監測",
+    "description": "管制區3，月均62.8dB",
+    "count": 1,
+    "avg_db": 62.8,
+    "source": "data.chiayi.gov.tw",
+    "source_url": "https://data.chiayi.gov.tw/opendata/"
+  },
+  {
+    "date": "2022/11",
+    "year": "2022",
+    "category": "環境衛生",
+    "subcategory": "噪音管制",
+    "location": "蘭潭家福之家",
+    "title": "蘭潭家福之家噪音監測",
+    "description": "管制區2，月均50.2dB",
+    "count": 1,
+    "avg_db": 50.2,
+    "source": "data.chiayi.gov.tw",
+    "source_url": "https://data.chiayi.gov.tw/opendata/"
+  },
+  {
+    "date": "2022/12",
+    "year": "2022",
+    "category": "環境衛生",
+    "subcategory": "噪音管制",
+    "location": "西區衛生所",
+    "title": "西區衛生所噪音監測",
+    "description": "管制區3，月均56.9dB",
+    "count": 1,
+    "avg_db": 56.9,
+    "source": "data.chiayi.gov.tw",
+    "source_url": "https://data.chiayi.gov.tw/opendata/"
+  }
+]

@@ -562,9 +562,33 @@ def fetch_opendata_records(resource_url: str) -> list[dict]:
         return []
 
 
+def _cache_path(key: str):
+    """各資料集獨立快取檔案路徑"""
+    from pathlib import Path
+    cache_dir = Path(__file__).parent.parent / "data" / "cache"
+    cache_dir.mkdir(exist_ok=True)
+    return cache_dir / f"opendata_{key}.json"
+
+
+def _load_cache(key: str) -> list[dict]:
+    p = _cache_path(key)
+    if p.exists():
+        try:
+            return json.loads(p.read_text(encoding="utf-8"))
+        except Exception:
+            pass
+    return []
+
+
+def _save_cache(key: str, records: list[dict]):
+    p = _cache_path(key)
+    p.write_text(json.dumps(records, ensure_ascii=False, indent=2), encoding="utf-8")
+
+
 def fetch_all_opendata_records() -> list[dict]:
-    """主入口：下載所有已知資料集，回傳合併記錄列表"""
+    """主入口：下載所有已知資料集，失敗時自動使用上次快取，回傳合併記錄列表"""
     all_records: list[dict] = []
+    dataset_url = "https://data.chiayi.gov.tw/opendata/"
 
     for key, ds in DATASETS.items():
         oid = ds["oid"]
@@ -574,11 +598,19 @@ def fetch_all_opendata_records() -> list[dict]:
 
         print(f"  [opendata] 下載 {title} ...")
         content = download_resource(oid, rid)
+
         if not content:
-            print(f"  [opendata] {title} 下載失敗，跳過")
+            # ── 下載失敗：使用快取 ────────────────────────────
+            cached = _load_cache(key)
+            if cached:
+                print(f"  [opendata] {title} 下載失敗，使用快取（{len(cached)} 筆）")
+                all_records.extend(cached)
+            else:
+                print(f"  [opendata] {title} 下載失敗，無快取，跳過")
             time.sleep(1)
             continue
 
+        # ── 解析 ────────────────────────────────────────────
         if fmt == "xml":
             records = _parse_pipeline_xml(content)
         elif key == "traffic_accident":
@@ -600,7 +632,6 @@ def fetch_all_opendata_records() -> list[dict]:
         elif key == "public_parking":
             records = _parse_parking_csv(content)
         else:
-            # 通用 CSV 解析
             text = _decode_csv(content)
             try:
                 reader = csv.DictReader(io.StringIO(text))
@@ -609,13 +640,23 @@ def fetch_all_opendata_records() -> list[dict]:
                 print(f"  [opendata] {title} CSV 解析失敗: {e}")
                 records = []
 
-        # 在每筆記錄注入 source_url（連回開放資料主頁；平台為 JS SPA 無深層 URL）
-        dataset_url = "https://data.chiayi.gov.tw/opendata/"
+        if not records:
+            # 解析失敗也回退快取
+            cached = _load_cache(key)
+            if cached:
+                print(f"  [opendata] {title} 解析為空，使用快取（{len(cached)} 筆）")
+                all_records.extend(cached)
+            time.sleep(0.5)
+            continue
+
+        # 注入 source_url
         for rec in records:
             if not rec.get("source_url"):
                 rec["source_url"] = dataset_url
 
-        print(f"  [opendata] {title}: {len(records)} 筆")
+        # ── 下載成功：更新快取 ────────────────────────────────
+        _save_cache(key, records)
+        print(f"  [opendata] {title}: {len(records)} 筆 ✓（快取已更新）")
         all_records.extend(records)
         time.sleep(0.5)
 

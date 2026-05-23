@@ -1,90 +1,55 @@
 {
-  "updated_at": "2026-05-23T15:27:16.418186",
+  "updated_at": "2026-05-24T00:05:56.265832",
   "aqi_realtime": [
     {
-      "station": "Shanghai (上海)",
-      "aqi": 87,
-      "pm25": 87.0,
-      "pm10": 29.0,
-      "o3": 41.9,
-      "no2": 8.7,
-      "status": "普通",
-      "pollutant": "",
-      "time": "2026-05-23 23:00:00",
-      "source": "AQICN"
+      "station": "嘉義市（Open-Meteo 模型）",
+      "aqi": 29,
+      "pm25": 20.7,
+      "pm10": 23.4,
+      "o3": 1.0,
+      "no2": 65.6,
+      "status": "良好",
+      "pollutant": "PM2.5",
+      "time": "2026-05-24T00:00",
+      "source": "Open-Meteo"
     }
   ],
   "aqi_history": [],
   "earthquake": [
     {
-      "title": "規模 6.6・southern East Pacific Rise",
+      "title": "規模 4.9・82 km S of Hualien City, Taiwan",
+      "desc": "深度 25 km",
+      "date": "2026-05-20 12:25",
+      "link": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000syy7",
+      "mag": 4.9
+    },
+    {
+      "title": "規模 4.3・75 km SSW of Hualien City, Taiwan",
+      "desc": "深度 25 km",
+      "date": "2026-05-20 01:11",
+      "link": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000syvs",
+      "mag": 4.3
+    },
+    {
+      "title": "規模 4.4・6 km NNW of Puli, Taiwan",
       "desc": "深度 10 km",
-      "date": "2026-05-20 17:43",
-      "link": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000sz1d",
-      "mag": 6.6
-    },
-    {
-      "title": "規模 6.0・13 km S of Honaunau-Napoopoo, Hawaii",
-      "desc": "深度 23 km",
-      "date": "2026-05-23 07:46",
-      "link": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74966427",
-      "mag": 5.96
-    },
-    {
-      "title": "規模 5.9・113 km ESE of Bitung, Indonesia",
-      "desc": "深度 35 km",
-      "date": "2026-05-22 01:05",
-      "link": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000szdy",
-      "mag": 5.9
-    },
-    {
-      "title": "規模 5.9・8 km E of Wadomari, Japan",
-      "desc": "深度 42 km",
-      "date": "2026-05-20 02:46",
-      "link": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000syw4",
-      "mag": 5.9
-    },
-    {
-      "title": "規模 5.8・20 km ESE of Pampa de Tate, Peru",
-      "desc": "深度 57 km",
-      "date": "2026-05-19 17:57",
-      "link": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000syt5",
-      "mag": 5.8
-    },
-    {
-      "title": "規模 5.7・southeast Indian Ridge",
-      "desc": "深度 10 km",
-      "date": "2026-05-23 05:41",
-      "link": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000szmu",
-      "mag": 5.7
-    },
-    {
-      "title": "規模 5.7・103 km SSE of Lorengau, Papua New Guinea",
-      "desc": "深度 10 km",
-      "date": "2026-05-22 10:08",
-      "link": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000szgb",
-      "mag": 5.7
-    },
-    {
-      "title": "規模 5.7・South Sandwich Islands region",
-      "desc": "深度 137 km",
-      "date": "2026-05-20 23:01",
-      "link": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000sz3x",
-      "mag": 5.7
+      "date": "2026-05-17 00:46",
+      "link": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000syaw",
+      "mag": 4.4
     }
   ],
   "weather": [
     {
       "station": "嘉義市（Open-Meteo）",
-      "temp": "26.4",
-      "apparent_temp": "30.0",
-      "humidity": "73",
+      "temp": "25.8",
+      "apparent_temp": "29.2",
+      "humidity": "74",
       "rainfall": "0.0",
-      "wind_speed": "6.0",
-      "wind_dir": "155",
+      "wind_speed": "6.3",
+      "wind_dir": "143",
       "cloud": "65",
       "weather": "多雲",
-      "time": "2026-05-23 23:15",
+      "time": "2026-05-24 00:00",
       "source": "Open-Meteo"
     }
   ],
@@ -100,6 +65,13 @@
       "title": "嘉義市政府第1253次市務會議紀錄 - chiayi.gov.tw",
       "date": "Thu, 21 May 2026",
       "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE45aGM3ZmRzZVh0NlQtTUJWUWY4Q2VBSWU5TU1aMnE5bGo3eW11TlY4YjRDNGJQeVpNNlExSkFacVVlQkJKenNydzFBWGlwUUVJd3Jiek92UEs4cjlFMWxQQ3lFU0pGNE1kTWc?oc=5",
+      "desc": "",
+      "source": "Google新聞"
+    },
+    {
+      "title": "近千萬補助助攻嘉市產業創新！黃敏惠市長宣布115年SBIR計劃開跑！ - chiayi.gov.tw",
+      "date": "Fri, 22 May 2026",
+      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9XdVk2RGwzdUx1b1R3QTRoZWFBVGZMU0tXRXRrZXM3WVJqaXY2NmMtVkxIVUVIRFBmM3lBTXRDelVQRHV3bzlkMXAyZVdqTVNfYVd4b0lfdFlrUXpNVFBPQ0FRQ1JhSjdrY01DM0tOcmZLelJYTHc?oc=5",
       "desc": "",
       "source": "Google新聞"
     },
@@ -121,13 +93,6 @@
       "title": "嘉市青少年福利服務中心全新升級 羽球、匹克球共融球場嶄新亮相 - 中央社 CNA",
       "date": "Sat, 23 May 2026",
       "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5ZUFlxWWxEZnFhWHh6Y0E3dllFVmxfTExaWjdFdzhoeEpGYUdfMlJYd1otVkFLcThpblZvVFR6WVR2RW44UVhrY09TOERwY2NIYVZtVVVR?oc=5",
-      "desc": "",
-      "source": "Google新聞"
-    },
-    {
-      "title": "第12屆財神盃國中小音樂暨民俗技藝競賽展開 千名嘉義學子同台競藝 - 中央社 CNA",
-      "date": "Sat, 23 May 2026",
-      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5FS0lJaFBhcGlsRGs0TlRqTFpxMWdhSDNDX1g2a1FlTmQ4TlJVRkd0YV9ralJ0ZHNGSGhCcEp1U0RXcmdLSEd3eDUxTmVic0Y3ODFyQU93?oc=5",
       "desc": "",
       "source": "Google新聞"
     }
@@ -183,9 +148,9 @@
       "source": "Google新聞"
     },
     {
-      "title": "嘉義市舊市公所地下停車場動土 斥資4.8億元活化歷史場域強化交通機能 - 台灣華報",
-      "date": "Wed, 15 Apr 2026",
-      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5LYl9MdUFOS3luYXp4TnJYblptWllKQnRfVzY0YkpZQjVpNnI2WFhVQjJPa21FYWM4NHlkVkVKZkpLdzFTcDU2cUthOV9GeFYxWU9tWW82SDdpcndEQ2pLTmo3X29JcjBMVUhN?oc=5",
+      "title": "嘉義市西區全民運動館工程進度破7成5 黃敏惠視察啟用營運期曝 - UDN",
+      "date": "Wed, 28 Jan 2026",
+      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBXM3hhN1djdmdRZXNYNUN3Tmk5SjZ4djkzb3ZWSUNET2ZkSVVSV3lrYy1OQ2t1ZHhjLUJ2djBtbk1NZVBqdVl1eUJDRDFXd1FD0gFWQVVfeXFMTmhtNFppRHZxUDhKTlBYNHlXbTR0RXVZckRjZGM0bmtnV0pJaVROdHUwN1FhX0pGWFFEd3NmcHhzUTJHS2NFU1VjUWxPRXVhaXNUUHJ6T1E?oc=5",
       "org": "新聞資訊",
       "source": "Google新聞"
     }
@@ -193,9 +158,32 @@
   "disease": {
     "dengue": [],
     "enterovirus": [],
-    "updated": "2026-05-23"
+    "updated": "2026-05-24"
   },
-  "fire": {},
+  "fire": {
+    "chiayi_datasets": [
+      {
+        "title": "",
+        "date": ""
+      },
+      {
+        "title": "",
+        "date": ""
+      },
+      {
+        "title": "",
+        "date": ""
+      },
+      {
+        "title": "",
+        "date": ""
+      },
+      {
+        "title": "",
+        "date": ""
+      }
+    ]
+  },
   "population": [],
   "bus": [
     {
@@ -317,7 +305,7 @@
       "lat": 23.4798596,
       "lng": 120.4488291,
       "total": 20,
-      "available": 3,
+      "available": 0,
       "addr": "中山路306號"
     },
     {
@@ -326,7 +314,7 @@
       "lat": 23.47963,
       "lng": 120.44583,
       "total": 20,
-      "available": 20,
+      "available": 2,
       "addr": "中山路386號"
     },
     {
@@ -335,7 +323,7 @@
       "lat": 23.47917,
       "lng": 120.44186,
       "total": 99,
-      "available": 38,
+      "available": 59,
       "addr": "中山路524號"
     },
     {
@@ -344,7 +332,7 @@
       "lat": 23.47877,
       "lng": 120.44089,
       "total": 42,
-      "available": 20,
+      "available": 15,
       "addr": "中山路528號"
     },
     {
@@ -353,7 +341,7 @@
       "lat": 23.47283,
       "lng": 120.44029,
       "total": 5,
-      "available": 2,
+      "available": 3,
       "addr": "垂楊路575號"
     },
     {
@@ -371,7 +359,7 @@
       "lat": 23.4738724,
       "lng": 120.4493073,
       "total": 20,
-      "available": 9,
+      "available": 7,
       "addr": "垂楊路434號"
     },
     {
@@ -398,7 +386,7 @@
       "lat": 23.48091,
       "lng": 120.43012,
       "total": 20,
-      "available": 6,
+      "available": 10,
       "addr": "北港路312號東側"
     },
     {
@@ -407,7 +395,7 @@
       "lat": 23.48465,
       "lng": 120.43354,
       "total": 14,
-      "available": 4,
+      "available": 5,
       "addr": "友愛興達路口"
     },
     {
@@ -425,7 +413,7 @@
       "lat": 23.49265,
       "lng": 120.43191,
       "total": 15,
-      "available": 12,
+      "available": 11,
       "addr": "自由路492號"
     },
     {
@@ -434,7 +422,7 @@
       "lat": 23.478941,
       "lng": 120.437805,
       "total": 23,
-      "available": 2,
+      "available": 4,
       "addr": "博愛路二段281號"
     },
     {
@@ -448,5 +436,5 @@
     }
   ],
   "water": [],
-  "fetch_seconds": 62.8
+  "fetch_seconds": 86.6
 }

@@ -1,0 +1,56 @@
+[
+  {
+    "category": "行政服務",
+    "subcategory": "陳情管道",
+    "title": "嘉義市政府智慧科技處",
+    "url": "https://callcenter.chiayi.gov.tw/",
+    "phone": "(05)2251999",
+    "source": "data.chiayi.gov.tw",
+    "source_url": "https://data.chiayi.gov.tw/opendata/"
+  },
+  {
+    "category": "行政服務",
+    "subcategory": "陳情管道",
+    "title": "嘉義市政府環境保護局",
+    "url": "https://cleaner.web.cycepb.gov.tw/application.html",
+    "phone": "(05)2251775",
+    "source": "data.chiayi.gov.tw",
+    "source_url": "https://data.chiayi.gov.tw/opendata/"
+  },
+  {
+    "category": "行政服務",
+    "subcategory": "陳情管道",
+    "title": "嘉義市政府警察局",
+    "url": "https://www.ccpb.gov.tw/content/?parent_id=11059&type_id=11059",
+    "phone": "(05)2220671",
+    "source": "data.chiayi.gov.tw",
+    "source_url": "https://data.chiayi.gov.tw/opendata/"
+  },
+  {
+    "category": "行政服務",
+    "subcategory": "陳情管道",
+    "title": "嘉義市政府財政稅務局",
+    "url": "https://www.citax.gov.tw/Folder/OnlinePetition",
+    "phone": "(05)2224371",
+    "source": "data.chiayi.gov.tw",
+    "source_url": "https://data.chiayi.gov.tw/opendata/"
+  },
+  {
+    "category": "行政服務",
+    "subcategory": "陳情管道",
+    "title": "嘉義市政府衛生局",
+    "url": "https://health.chiayi.gov.tw/cp.aspx?n=4599",
+    "phone": "(05)2338066",
+    "source": "data.chiayi.gov.tw",
+    "source_url": "https://data.chiayi.gov.tw/opendata/"
+  },
+  {
+    "category": "行政服務",
+    "subcategory": "陳情管道",
+    "title": "嘉義市政府消防局",
+    "url": "https://www.cyfd.gov.tw/director",
+    "phone": "(05)2716660",
+    "source": "data.chiayi.gov.tw",
+    "source_url": "https://data.chiayi.gov.tw/opendata/"
+  }
+]
