@@ -175,27 +175,72 @@ def build_dashboard(news, complaint_stats, council_data, citizen_stats, social_p
         flags=re.DOTALL,
     )
 
-    # 注入議題類別統計（13 大類別，合併政府開放資料 + 社群媒體分類）
+    # ── 注入議題類別統計（13 大類別：開放資料 + 社群 + 新聞 + 議會）──────────
     cat_data = complaint_stats.get("top_categories", []) or citizen_stats.get("category_counts", {})
     if isinstance(cat_data, dict):
         cat_data = [{"category": k, "count": v} for k, v in cat_data.items()]
-    # 過濾掉人口類別
+    # 過濾掉舊分類名稱 / 人口
     EXCLUDE_CATS = {"西區人口", "道路交通", "路燈照明", "道路工程", "市政服務",
                     "停車設施", "橋梁設施", "噪音管制"}
     cat_data = [d for d in cat_data if d.get("category") not in EXCLUDE_CATS]
 
-    # 合併社群貼文的類別計數（讓 13 類別都有資料）
-    # 使用已傳入的 social_posts 參數（不再重讀 JSON，all_social 在後面才載入）
     VALID_CATS = {"交通停車", "道路路平", "人行步道", "環境衛生", "排水水利",
                   "公共安全", "市場商圈", "公園綠地", "通學安全", "社福高齡",
                   "文化觀光", "行政服務", "其他"}
-    cat_map = {d["category"]: d["count"] for d in cat_data}
+
+    # 來源分解計數器：{cat: {opendata, social, news, council}}
+    def _src_add(src_map, cat, src, n=1):
+        if cat not in src_map:
+            src_map[cat] = {"opendata": 0, "social": 0, "news": 0, "council": 0}
+        src_map[cat][src] = src_map[cat].get(src, 0) + n
+
+    cat_sources: dict[str, dict] = {}
+
+    # 1. 開放資料 → cat_map（count 加總）
+    cat_map: dict[str, int] = {}
+    for d in cat_data:
+        cat_map[d["category"]] = d["count"]
+        _src_add(cat_sources, d["category"], "opendata", d["count"])
+
+    # 2. 社群貼文
     for post in (social_posts or []):
         pcat = post.get("category", "其他")
         if pcat in VALID_CATS:
             cat_map[pcat] = cat_map.get(pcat, 0) + 1
+            _src_add(cat_sources, pcat, "social")
 
-    # 確保所有 13 類別都出現（即使 count=0，也顯示在 UI 供使用者了解監測範圍）
+    # 3. 新聞文章（依標題分類，計入類別並建立 newsByCat）
+    news_by_cat: dict[str, list] = {}
+    for article in (news or []):
+        txt = article.get("headline", "") + " " + article.get("query", "")
+        cat = classify_text(txt)
+        # 收錄到 newsByCat（所有類別含「其他」）
+        if cat not in news_by_cat:
+            news_by_cat[cat] = []
+        if len(news_by_cat[cat]) < 5:   # 每類最多 5 則
+            news_by_cat[cat].append({
+                "title": article.get("headline", "")[:80],
+                "source": article.get("source", ""),
+                "date": article.get("date", "")[:10],
+                "url": article.get("link", ""),
+            })
+        # 計入類別
+        if cat in VALID_CATS:
+            cat_map[cat] = cat_map.get(cat, 0) + 1
+            _src_add(cat_sources, cat, "news")
+
+    # 4. 議員質詢 / 議會會議紀錄（分類後計入 行政服務 + 對應類別）
+    council_items = council_data.get("meetings", []) + council_data.get("question_records", [])
+    for item in council_items:
+        txt = item.get("type", "") + " " + item.get("snippet", "")
+        cat = classify_text(txt)
+        if cat == "其他":
+            cat = "行政服務"   # 議會事務預設歸 行政服務
+        if cat in VALID_CATS:
+            cat_map[cat] = cat_map.get(cat, 0) + 1
+            _src_add(cat_sources, cat, "council")
+
+    # 確保所有 12 非「其他」類別都出現
     for c in VALID_CATS - {"其他"}:
         if c not in cat_map:
             cat_map[c] = 0
@@ -203,7 +248,6 @@ def build_dashboard(news, complaint_stats, council_data, citizen_stats, social_p
     cat_data = sorted([{"category": k, "count": v} for k, v in cat_map.items()
                         if k != "其他"],
                        key=lambda x: -x["count"])
-    # 附加「其他」到最後
     if "其他" in cat_map and cat_map["其他"] > 0:
         cat_data.append({"category": "其他", "count": cat_map["其他"]})
 
@@ -211,6 +255,37 @@ def build_dashboard(news, complaint_stats, council_data, citizen_stats, social_p
     html = re.sub(
         r"const categoryData = \[.*?\];",
         f"const categoryData = {cat_json};",
+        html,
+        flags=re.DOTALL,
+    )
+
+    # 注入 newsByCat（各類別相關新聞）
+    news_by_cat_json = json.dumps(news_by_cat, ensure_ascii=False)
+    html = re.sub(
+        r"const newsByCat = \{.*?\};",
+        f"const newsByCat = {news_by_cat_json};",
+        html,
+        flags=re.DOTALL,
+    )
+
+    # 注入 catSources（各類別資料來源分解）
+    cat_sources_json = json.dumps(cat_sources, ensure_ascii=False)
+    html = re.sub(
+        r"const catSources = \{.*?\};",
+        f"const catSources = {cat_sources_json};",
+        html,
+        flags=re.DOTALL,
+    )
+
+    # 注入議會統計（會議場次、議員質詢等）
+    council_stat = {
+        "meetings_count": len(council_data.get("meetings", [])),
+        "question_count": len(council_data.get("question_records", [])),
+        "councilors": len(council_data.get("councilor_names", [])),
+    }
+    html = re.sub(
+        r"const councilStat = \{.*?\};",
+        f"const councilStat = {json.dumps(council_stat, ensure_ascii=False)};",
         html,
         flags=re.DOTALL,
     )
@@ -292,6 +367,40 @@ def build_dashboard(news, complaint_stats, council_data, citizen_stats, social_p
 
     index_path.write_text(html, encoding="utf-8")
     print(f"  [build] index.html 已更新（{len(all_records)} 筆記錄，{len(news)} 則新聞，{len(all_social)} 則社群聲音）")
+
+
+
+# ── 共用：依關鍵詞將文字分類至 13 大議題 ─────────────────────────────────────
+_CAT_KEYWORDS = {
+    "交通停車": ["交通事故", "違規停車", "停車場", "車禍", "機車", "闖紅燈",
+                 "行人穿越", "交通壅塞", "交通", "停車"],
+    "道路路平": ["路面坑洞", "管線挖掘", "道路施工", "橋梁", "路坑", "路平",
+                 "道路破損", "道路", "路面", "鋪路", "施工挖掘"],
+    "人行步道": ["人行道", "步道", "騎樓", "無障礙", "行人空間"],
+    "環境衛生": ["垃圾", "清潔", "噪音", "廢水", "環境衛生", "污染",
+                 "臭味", "蚊蟲", "病媒", "環保", "資源回收"],
+    "排水水利": ["排水", "積水", "淹水", "水溝", "颱風", "暴雨",
+                 "下水道", "水患", "雨水"],
+    "公共安全": ["路燈", "消防", "路燈不亮", "溺水", "事故傷亡", "死亡",
+                 "危險建物", "公共安全", "意外"],
+    "市場商圈": ["市場", "夜市", "攤販", "商圈", "小吃", "傳統市場", "逢甲"],
+    "公園綠地": ["公園", "綠地", "行道樹", "廣場", "休閒設施", "樹木", "遊樂"],
+    "通學安全": ["通學", "上學", "放學", "學生", "校園周邊", "學童", "接送"],
+    "社福高齡": ["長照", "老人", "社福", "弱勢", "身障", "社會福利",
+                 "獨居", "高齡", "照護", "托育"],
+    "文化觀光": ["文化", "觀光", "旅遊", "古蹟", "藝術", "節慶",
+                 "博物館", "嘉年華", "活動"],
+    "行政服務": ["市政", "陳情", "市民服務", "1999", "申請", "質詢",
+                 "施政", "議會", "議員", "預算"],
+}
+
+
+def classify_text(text: str) -> str:
+    """依關鍵詞將文字分類至 13 大市政議題"""
+    for cat, kws in _CAT_KEYWORDS.items():
+        if any(kw in text for kw in kws):
+            return cat
+    return "其他"
 
 
 if __name__ == "__main__":
