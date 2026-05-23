@@ -1,0 +1,475 @@
+{
+  "updated_at": "2026-05-23T20:55:37.101553",
+  "aqi_realtime": [
+    {
+      "station": "Shanghai (上海)",
+      "aqi": 129,
+      "pm25": 129.0,
+      "pm10": 50.0,
+      "o3": 46.8,
+      "no2": 13.3,
+      "status": "對敏感族群不健康",
+      "pollutant": "",
+      "time": "2026-05-23 20:00:00",
+      "source": "AQICN"
+    }
+  ],
+  "aqi_history": [],
+  "earthquake": [
+    {
+      "title": "規模 6.6・southern East Pacific Rise",
+      "desc": "深度 10 km",
+      "date": "2026-05-20 17:43",
+      "link": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000sz1d",
+      "mag": 6.6
+    },
+    {
+      "title": "規模 6.0・60 km ESE of Codrington, Antigua and Barbuda",
+      "desc": "深度 51 km",
+      "date": "2026-05-16 14:50",
+      "link": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000sy84",
+      "mag": 6
+    },
+    {
+      "title": "規模 6.0・13 km S of Honaunau-Napoopoo, Hawaii",
+      "desc": "深度 23 km",
+      "date": "2026-05-23 07:46",
+      "link": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74966427",
+      "mag": 5.96
+    },
+    {
+      "title": "規模 5.9・113 km ESE of Bitung, Indonesia",
+      "desc": "深度 35 km",
+      "date": "2026-05-22 01:05",
+      "link": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000szdy",
+      "mag": 5.9
+    },
+    {
+      "title": "規模 5.9・8 km E of Wadomari, Japan",
+      "desc": "深度 42 km",
+      "date": "2026-05-20 02:46",
+      "link": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000syw4",
+      "mag": 5.9
+    },
+    {
+      "title": "規模 5.8・20 km ESE of Pampa de Tate, Peru",
+      "desc": "深度 57 km",
+      "date": "2026-05-19 17:57",
+      "link": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000syt5",
+      "mag": 5.8
+    },
+    {
+      "title": "規模 5.7・southeast Indian Ridge",
+      "desc": "深度 10 km",
+      "date": "2026-05-23 05:41",
+      "link": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000szmu",
+      "mag": 5.7
+    },
+    {
+      "title": "規模 5.7・103 km SSE of Lorengau, Papua New Guinea",
+      "desc": "深度 10 km",
+      "date": "2026-05-22 10:08",
+      "link": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000szgb",
+      "mag": 5.7
+    }
+  ],
+  "weather": [
+    {
+      "station": "嘉義市（Open-Meteo）",
+      "temp": "27.6",
+      "apparent_temp": "32.1",
+      "humidity": "70",
+      "rainfall": "0.0",
+      "wind_speed": "1.7",
+      "wind_dir": "193",
+      "cloud": "100",
+      "weather": "陰天",
+      "time": "2026-05-23 20:45",
+      "source": "Open-Meteo"
+    }
+  ],
+  "announcements": [
+    {
+      "title": "嘉市「振興商圈夜市券」收券店家突破900間、百貨超商都能用 - chiayi.gov.tw",
+      "date": "Fri, 22 May 2026",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBNOTVPbHpRUXdvMW5lVkw3Yll6LUdOaHVRX0pUZ21NaW9wdkd2MF9XTGJUZXN0cFVhNWoyTzJJcGp3R0VlVmROdjN5ZmxmLTVqWWU0NUhyMXc4SVFkZFVTa2VuV1I5NWl3MkE?oc=5",
+      "desc": "",
+      "source": "Google新聞"
+    },
+    {
+      "title": "嘉義市政府第1253次市務會議紀錄 - chiayi.gov.tw",
+      "date": "Thu, 21 May 2026",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE45aGM3ZmRzZVh0NlQtTUJWUWY4Q2VBSWU5TU1aMnE5bGo3eW11TlY4YjRDNGJQeVpNNlExSkFacVVlQkJKenNydzFBWGlwUUVJd3Jiek92UEs4cjlFMWxQQ3lFU0pGNE1kTWc?oc=5",
+      "desc": "",
+      "source": "Google新聞"
+    },
+    {
+      "title": "嘉義青少年福利中心再升級 羽球、匹克球共融球場嶄新亮相 - 台灣好新聞",
+      "date": "Sat, 23 May 2026",
+      "link": "https://news.google.com/rss/articles/CBMiigNBVV95cUxNdk1CanpIamFZc2w3cnZfZVA3U2ZMWkVwQTV5NklGNlg2RnREQTEwb2x4RUNIcXhSXzZtaXdqWEtDdnN4bWx5Z1ZaMFI1ZENPcU90U1A3LWpOSmdFZ183c21IMTRxenRVVW0xZllhSzJxdFhXRlNKZ00xOUlqVWpwQTBrZDNCWFV3OXlCNDIzTFpEanBodElPNF90dDNqOFZLM2M1NEVFWVAtd0t3WUwxTlhGS3ZSMkwxUnZoYlVOWnlpd3BXM3VHZ2ljVU1fWFdmbG9jcXhCcS02ME5vMXFOUnRXMnRyRjJjbkJ6NDU4SlN2T0dpMVlsNldwYW02TW5WWE5FSmpYS21WdGtRWldsYTNScjlCUVhlXzlpeDJjbkFHeS14ZUo2YXF1cm9iOUwwS2c4aXRKQVBpYi1teFRTWlFnd3pIcy1xa0RXRnB6Yk1LY3BycUY5azA5bHN5enlHSTdXMFdrZjM1ekVsVFRzdVIwNW0wd3lSaWpIcXpkS29XUkxYSkU1NmtB?oc=5",
+      "desc": "",
+      "source": "Google新聞"
+    },
+    {
+      "title": "嘉義市政府歡迎臺中榮民總醫院傅雲慶總院長親自率隊駐診嘉義市 - 嘉義市政府衛生局",
+      "date": "Fri, 22 May 2026",
+      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBFRzh3SlFhZUthcjRoTTNLbkdady1jUjlMQl9PbWRBOGZCUnVNeVo3cGo5U3VvTnZhWF9YeWpWY3Z6alcteUpTZG56dTA3dkdlUThFWmktcmpNU3BwU1RISHY5VUItTWpQWjZrM05oSQ?oc=5",
+      "desc": "",
+      "source": "Google新聞"
+    },
+    {
+      "title": "第12屆財神盃國中小音樂暨民俗技藝競賽展開 千名嘉義學子同台競藝 - 中央社 CNA",
+      "date": "Sat, 23 May 2026",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5FS0lJaFBhcGlsRGs0TlRqTFpxMWdhSDNDX1g2a1FlTmQ4TlJVRkd0YV9ralJ0ZHNGSGhCcEp1U0RXcmdLSEd3eDUxTmVic0Y3ODFyQU93?oc=5",
+      "desc": "",
+      "source": "Google新聞"
+    },
+    {
+      "title": "嘉義市普發6000加碼活動把你的現金變大了消費6000元送600元振興商圈夜市劵總額2500萬兌完為止 - chiayi.gov.tw",
+      "date": "Sun, 25 Jan 2026",
+      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1IbUFDbzRETnBEck1sUW1YbzJUTHFPeHJIUi1Bdk1PM0d1VTZ5Q0o0TEIxZ2ltR2hZbS13SjlGbnprSHRwQ2Z6c2huQUM0Mkpqc1c5QUFpZk5zX2UtaGdGWW1Na3o1SjFTTWlvRVZ4eDh5VTEyQ2c?oc=5",
+      "desc": "",
+      "source": "Google新聞"
+    }
+  ],
+  "procurement": [
+    {
+      "title": "民進黨政府執政嘉義市建設狂「跳票」 張啓楷籲勿把嘉市當政治鬥爭犧牲品 - 蕃新聞",
+      "date": "Tue, 19 May 2026",
+      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFA3Y2NmU2JPRkxEUjZmemo1N25uLWxfM0hHVGdmZzhDajBIMkJ2YjYydFd6R1ZGdUVwaFozVlJmalMtbzNaQ2pnOXFBUUpWclU1RUE?oc=5",
+      "org": "新聞資訊",
+      "source": "Google新聞"
+    },
+    {
+      "title": "王美惠立委邀國土署官員實勘 強化嘉義市整體防洪韌性 - 觀傳媒",
+      "date": "Tue, 12 May 2026",
+      "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE01VnVDLUt3bG9yLUdyckxHakc1UUJ5MDEwVnZoU20tLXBCNUFkZXJic21xV1JKS2FzTHVxYUhFUUdMREZTVV81MnJTYk5ma1V1LWJZMUluZw?oc=5",
+      "org": "新聞資訊",
+      "source": "Google新聞"
+    },
+    {
+      "title": "嘉義鐵路高架化將讓都市縫合共融 推動交通新路網建設 帶動東西區發展 - 自由時報",
+      "date": "Thu, 30 Apr 2026",
+      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9ORzltT2hJU0E0OVgtX0ZhS0JVYjZjOUgwT3hWVXQzbW5XVWdqMkI5d0lHeG9nS1RNYTM5Z21TeDBBa3NIb3RnSk8zNmJOZzB5?oc=5",
+      "org": "新聞資訊",
+      "source": "Google新聞"
+    },
+    {
+      "title": "賴清德總統就職兩週年嘉義市建設狂「跳票」 張啓楷：民進黨勿把嘉市當政治鬥爭犧牲品 - 蕃新聞",
+      "date": "Tue, 19 May 2026",
+      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9sYWdoVjIydGVKUzVwbnFIal8tODh4TFFJRElkcld2T0RiOTBjWVU5Q3lZQmhKdWVzMndseGhKVVFUWURrNTEwVHJNcEJsek9CQnc?oc=5",
+      "org": "新聞資訊",
+      "source": "Google新聞"
+    },
+    {
+      "title": "嘉義市污水下水道系統第一期建設完工中央挹注污水下水道經費達39億元讓接管普及率躍升南台灣第三|內政 - 僑務電子報",
+      "date": "Fri, 23 Jan 2026",
+      "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE1yOWZHS2FHS01jSUZoUzZvOFQzd19qaDhHR24xQ0VyZmdpdC1JTE5nbmczb2NNRlpyMHFRY1EtTXBfeDM3RUY1R19vQQ?oc=5",
+      "org": "新聞資訊",
+      "source": "Google新聞"
+    },
+    {
+      "title": "城市隱形建設 嘉義市污水系統第一期工程完工 - 台灣好新聞",
+      "date": "Thu, 22 Jan 2026",
+      "link": "https://news.google.com/rss/articles/CBMiwgJBVV95cUxPZkdJd1U3WDVqZHlwZDBITW5wb1I3M3hscWJxZDgydW5QNy10clNzdnNsS3FKRWFfd214aUxFNzJWdWJXbnd5V2doQm56UENaQ3g3dHRWSzJBVGVtd0kxTGZuazhHUzBhend1bEJabXlvZ0NYTXBGWG8wS1VBc08yRnNxVS1oU2c5dm1ETTloVG1fNjdVQjBtT1FjaUFnb3BiN0RtdU5IMnpOVnd1YXFBV0lYV0dQc2Q3R3YtTldPekpQSFozMmsxci0tMmxpd3JydnFaVEpadDJFbXd4b2I1ZDFJOHRXekRYVkpZSmN5enp4Rl96Zi1xSTdJWjRWVW5kRlR1M3BoS1o5d1RnbHpkajJudGpwVGxVOF8zUS1xeHZOclVqbHRCSUI1TDVhNl8wNXRvQVB4Y2NDRXhNaVplQm1R?oc=5",
+      "org": "新聞資訊",
+      "source": "Google新聞"
+    },
+    {
+      "title": "「嘉義市污水系統第一期-分支網及用戶接管第8、9標工程」竣工典禮黃敏惠市長：城市欸靠山抵嘉 - chiayi.gov.tw",
+      "date": "Wed, 21 Jan 2026",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5raFM0MEJraHdKNlJPMTZUVkM2Z2ZvZ3hsREtKRjVRSWVZLWhXUkp6dlZWSWc3YWdvbTl3MFB3dlFVNmN1YVN3dGN1b2FXQ2R2TEw5ZjE1ZEppWEM2QnhuQWJYdk5HazFIZlE?oc=5",
+      "org": "新聞資訊",
+      "source": "Google新聞"
+    },
+    {
+      "title": "嘉義市推動友善人行環境 「2026馬路好行」現地評比展現建設成果 - 中央社 CNA",
+      "date": "Mon, 16 Mar 2026",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE12cnY4Q3NhZWFKS0FvSEFIa0pXMmVEX3E3VUk2Z0h5QkI0VXJKc3MtLVlFSTRhOXNGQmV4OS1zc3h4ME9ON3pjRWpNWW51MjVzS3hxcV93?oc=5",
+      "org": "新聞資訊",
+      "source": "Google新聞"
+    }
+  ],
+  "disease": {
+    "dengue": [],
+    "enterovirus": [],
+    "updated": "2026-05-23"
+  },
+  "fire": {
+    "chiayi_datasets": [
+      {
+        "title": "",
+        "date": ""
+      },
+      {
+        "title": "",
+        "date": ""
+      },
+      {
+        "title": "",
+        "date": ""
+      },
+      {
+        "title": "",
+        "date": ""
+      },
+      {
+        "title": "",
+        "date": ""
+      }
+    ]
+  },
+  "population": [],
+  "bus": [
+    {
+      "id": "CYI0119",
+      "name": "樂活3路",
+      "from": "許氏宗祠(預約站)",
+      "to": "許厝庄福德宮(預約站)"
+    },
+    {
+      "id": "CYI0123",
+      "name": "樂活1路",
+      "from": "濟美仁愛之家",
+      "to": "榮民醫院長照點"
+    },
+    {
+      "id": "CYI0124",
+      "name": "樂活2路",
+      "from": "竹村里活動中心",
+      "to": "市政府(中山路)"
+    },
+    {
+      "id": "CYI0128",
+      "name": "樂活5路",
+      "from": "轉運中心",
+      "to": "轉運中心"
+    },
+    {
+      "id": "CYI0129",
+      "name": "樂活6路",
+      "from": "紅瓦里(1)全家超商",
+      "to": "嘉義基督教醫院"
+    },
+    {
+      "id": "CYI0130",
+      "name": "樂活7路",
+      "from": "五港宮(預約站)",
+      "to": "五港宮(預約站)"
+    },
+    {
+      "id": "CYI0138",
+      "name": "樂活8路",
+      "from": "泰勒瓦莊園(預約站位)",
+      "to": "轉運中心"
+    },
+    {
+      "id": "CYI0139",
+      "name": "樂活9路",
+      "from": "泰勒瓦莊園(預約站位)",
+      "to": "榮民醫院長照點"
+    },
+    {
+      "id": "CYI0714",
+      "name": "中山幹線(綠線)",
+      "from": "大富路",
+      "to": "嘉義大學校區內"
+    },
+    {
+      "id": "CYI0715",
+      "name": "台灣好行光林我嘉線(黃線)",
+      "from": "港坪運動公園",
+      "to": "蘭潭"
+    },
+    {
+      "id": "CYI0716",
+      "name": "忠孝新民幹線(紅線)",
+      "from": "勞工育樂中心",
+      "to": "忠孝北街"
+    }
+  ],
+  "youbike": [
+    {
+      "id": "CYI501001001",
+      "name": "嘉義市政府",
+      "lat": 23.481634,
+      "lng": 120.453745,
+      "total": 45,
+      "available": 6,
+      "addr": "中山路199號(對面)"
+    },
+    {
+      "id": "CYI501001002",
+      "name": "行政執行署",
+      "lat": 23.482012,
+      "lng": 120.457342,
+      "total": 22,
+      "available": 11,
+      "addr": "中山路98號(前)"
+    },
+    {
+      "id": "CYI501001003",
+      "name": "嘉義高商(公園派出所)",
+      "lat": 23.482663,
+      "lng": 120.462988,
+      "total": 25,
+      "available": 5,
+      "addr": "中山路2號(前)"
+    },
+    {
+      "id": "CYI501001004",
+      "name": "嘉義高中(志航街)",
+      "lat": 23.478707,
+      "lng": 120.462594,
+      "total": 38,
+      "available": 3,
+      "addr": "啟明路122號(前)"
+    },
+    {
+      "id": "CYI501001005",
+      "name": "嘉義高中(大雅路)",
+      "lat": 23.477031,
+      "lng": 120.465573,
+      "total": 34,
+      "available": 3,
+      "addr": "大雅路二段738號(前)"
+    },
+    {
+      "id": "CYI501001006",
+      "name": "臺灣銀行嘉義分行",
+      "lat": 23.4798596,
+      "lng": 120.4488291,
+      "total": 20,
+      "available": 10,
+      "addr": "中山路306號"
+    },
+    {
+      "id": "CYI501001007",
+      "name": "彰化銀行嘉義分行",
+      "lat": 23.47963,
+      "lng": 120.44583,
+      "total": 20,
+      "available": 18,
+      "addr": "中山路386號"
+    },
+    {
+      "id": "CYI501001008",
+      "name": "嘉義火車站(願景館)",
+      "lat": 23.47917,
+      "lng": 120.44186,
+      "total": 99,
+      "available": 47,
+      "addr": "中山路524號"
+    },
+    {
+      "id": "CYI501001009",
+      "name": "嘉義火車站(出口)",
+      "lat": 23.47877,
+      "lng": 120.44089,
+      "total": 42,
+      "available": 27,
+      "addr": "中山路528號"
+    },
+    {
+      "id": "CYI501001010",
+      "name": "新光三越遠東站(永和街口)",
+      "lat": 23.47283,
+      "lng": 120.44029,
+      "total": 5,
+      "available": 1,
+      "addr": "垂楊路575號"
+    },
+    {
+      "id": "CYI501001012",
+      "name": "嘉義舊市府(西榮街口)",
+      "lat": 23.47336,
+      "lng": 120.44604,
+      "total": 14,
+      "available": 1,
+      "addr": "垂楊路351號"
+    },
+    {
+      "id": "CYI501001013",
+      "name": "文化公園停車場",
+      "lat": 23.4738724,
+      "lng": 120.4493073,
+      "total": 20,
+      "available": 7,
+      "addr": "垂楊路434號"
+    },
+    {
+      "id": "CYI501001014",
+      "name": "嘉義市議會",
+      "lat": 23.47918,
+      "lng": 120.43182,
+      "total": 15,
+      "available": 2,
+      "addr": "北港路278號"
+    },
+    {
+      "id": "CYI501001015",
+      "name": "檜意森活村",
+      "lat": 23.486138,
+      "lng": 120.453829,
+      "total": 20,
+      "available": 3,
+      "addr": "忠孝路284號(旁)"
+    },
+    {
+      "id": "CYI501001016",
+      "name": "嘉義醫院(中興路)",
+      "lat": 23.48091,
+      "lng": 120.43012,
+      "total": 20,
+      "available": 0,
+      "addr": "北港路312號東側"
+    },
+    {
+      "id": "CYI501001017",
+      "name": "友愛興達路口(德安停車場)",
+      "lat": 23.48465,
+      "lng": 120.43354,
+      "total": 14,
+      "available": 7,
+      "addr": "友愛興達路口"
+    },
+    {
+      "id": "CYI501001018",
+      "name": "自由友愛站",
+      "lat": 23.48931,
+      "lng": 120.4361,
+      "total": 15,
+      "available": 4,
+      "addr": "自由路298號"
+    },
+    {
+      "id": "CYI501001019",
+      "name": "世賢八德站(自由路)",
+      "lat": 23.49265,
+      "lng": 120.43191,
+      "total": 15,
+      "available": 7,
+      "addr": "自由路492號"
+    },
+    {
+      "id": "CYI501001020",
+      "name": "博愛後驛街口",
+      "lat": 23.478941,
+      "lng": 120.437805,
+      "total": 23,
+      "available": 2,
+      "addr": "博愛路二段281號"
+    },
+    {
+      "id": "CYI501001021",
+      "name": "嘉樂福觀光夜市",
+      "lat": 23.47165,
+      "lng": 120.43119,
+      "total": 15,
+      "available": 8,
+      "addr": "博愛路二段461號"
+    }
+  ],
+  "water": [],
+  "fetch_seconds": 38.8
+}

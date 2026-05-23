@@ -89,6 +89,14 @@ def run_citizen_reports():
         return load_json("citizen_stats.json", {})
 
 
+def run_citydata():
+    print("\n=== 城市綜合數據（AQI・地震・氣象・採購・疾病・消防・公車…）===")
+    from scrapers.citydata import fetch_all_citydata
+    data = fetch_all_citydata()
+    save_json("citydata.json", data)
+    return data
+
+
 def run_social():
     print("\n=== 社群聲音爬蟲（PTT + Dcard + Meta）===")
     from scrapers.social import fetch_all_social
@@ -112,7 +120,7 @@ def run_social():
     return merged
 
 
-def build_dashboard(news, complaint_stats, council_data, citizen_stats, social_posts=None):
+def build_dashboard(news, complaint_stats, council_data, citizen_stats, social_posts=None, city_data=None):
     print("\n=== 更新儀表板 ===")
     import re
 
@@ -300,6 +308,38 @@ def build_dashboard(news, complaint_stats, council_data, citizen_stats, social_p
         flags=re.DOTALL,
     )
 
+    # ── 注入城市綜合數據（cityData） ──────────────────────────────────────────
+    city_data = city_data or load_json("citydata.json", {})
+    if city_data:
+        # 只注入輕量化版本（避免 HTML 過大）
+        city_data_lite = {
+            "updated_at": city_data.get("updated_at", ""),
+            "aqi_realtime": city_data.get("aqi_realtime", [])[:5],
+            "aqi_history": city_data.get("aqi_history", [])[:12],
+            "earthquake": city_data.get("earthquake", [])[:5],
+            "weather": city_data.get("weather", [])[:3],
+            "announcements": city_data.get("announcements", [])[:8],
+            "procurement": city_data.get("procurement", [])[:8],
+            "disease": {
+                "dengue": city_data.get("disease", {}).get("dengue", [])[:6],
+                "enterovirus": city_data.get("disease", {}).get("enterovirus", [])[:6],
+            },
+            "fire": {
+                "datasets": city_data.get("fire", {}).get("datasets", [])[:4],
+            },
+            "bus": city_data.get("bus", [])[:15],
+            "youbike": city_data.get("youbike", [])[:10],
+            "water": city_data.get("water", [])[:6],
+            "fetch_seconds": city_data.get("fetch_seconds", 0),
+        }
+        city_json = json.dumps(city_data_lite, ensure_ascii=False)
+        html = re.sub(
+            r"const cityData\s*=\s*\{.*?\};",
+            f"const cityData = {city_json};",
+            html,
+            flags=re.DOTALL,
+        )
+
     # 注入社群聲音 HTML（id="social-feed"）
     all_social = load_json("social_posts.json", [])
     if all_social:
@@ -415,9 +455,10 @@ def build_dashboard(news, complaint_stats, council_data, citizen_stats, social_p
         f"const westPopData={_ex(_html_now,'westPopData')};\n"
         f"const councilStat={_ex(_html_now,'councilStat','{}')};\n"
         f"const roadData={_ex(_html_now,'roadData')};\n"
-        f"const bridgeData={_ex(_html_now,'bridgeData')};\n"
-        f"const parkingData={_ex(_html_now,'parkingData')};\n"
-        f"const noiseData={_ex(_html_now,'noiseData')};\n"
+        f"const bridgeData={_ex(_html_now,'bridgeData','[]')};\n"
+        f"const parkingData={_ex(_html_now,'parkingData','[]')};\n"
+        f"const noiseData={_ex(_html_now,'noiseData','[]')};\n"
+        f"const cityData={_ex(_html_now,'cityData','{}')};\n"
     )
     data_js_path.write_text(data_js_content, encoding='utf-8')
     print(f"  [build] data.js 已寫出（{len(data_js_content)} chars）")
@@ -467,7 +508,8 @@ if __name__ == "__main__":
     council_data = run_council()
     citizen_stats = run_citizen_reports()
     social_posts = run_social()
+    city_data = run_citydata()
 
-    build_dashboard(news, complaint_stats, council_data, citizen_stats, social_posts)
+    build_dashboard(news, complaint_stats, council_data, citizen_stats, social_posts, city_data)
 
     print(f"\n[done] 完成 ✓")
