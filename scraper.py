@@ -144,7 +144,7 @@ def build_dashboard(news, complaint_stats, council_data, citizen_stats, social_p
     if west_pop:
         west_pop_json = json.dumps(west_pop, ensure_ascii=False)
         html = re.sub(
-            r"const westPopData = \[.*?\];",
+            r"const westPopData\s*=\s*\[.*?\];",
             f"const westPopData = {west_pop_json};",
             html,
             flags=re.DOTALL,
@@ -169,7 +169,7 @@ def build_dashboard(news, complaint_stats, council_data, citizen_stats, social_p
     all_records_clean = [clean_record(r) for r in all_records[:500]]
     dataset_json = json.dumps(all_records_clean, ensure_ascii=False)
     html = re.sub(
-        r"const dataset = \[.*?\];",
+        r"const dataset\s*=\s*\[.*?\];",
         f"const dataset = {dataset_json};",
         html,
         flags=re.DOTALL,
@@ -253,7 +253,7 @@ def build_dashboard(news, complaint_stats, council_data, citizen_stats, social_p
 
     cat_json = json.dumps(cat_data, ensure_ascii=False)
     html = re.sub(
-        r"const categoryData = \[.*?\];",
+        r"const categoryData\s*=\s*\[.*?\];",
         f"const categoryData = {cat_json};",
         html,
         flags=re.DOTALL,
@@ -262,7 +262,7 @@ def build_dashboard(news, complaint_stats, council_data, citizen_stats, social_p
     # 注入 newsByCat（各類別相關新聞）
     news_by_cat_json = json.dumps(news_by_cat, ensure_ascii=False)
     html = re.sub(
-        r"const newsByCat = \{.*?\};",
+        r"const newsByCat\s*=\s*\{.*?\};",
         f"const newsByCat = {news_by_cat_json};",
         html,
         flags=re.DOTALL,
@@ -271,7 +271,7 @@ def build_dashboard(news, complaint_stats, council_data, citizen_stats, social_p
     # 注入 catSources（各類別資料來源分解）
     cat_sources_json = json.dumps(cat_sources, ensure_ascii=False)
     html = re.sub(
-        r"const catSources = \{.*?\};",
+        r"const catSources\s*=\s*\{.*?\};",
         f"const catSources = {cat_sources_json};",
         html,
         flags=re.DOTALL,
@@ -284,7 +284,7 @@ def build_dashboard(news, complaint_stats, council_data, citizen_stats, social_p
         "councilors": len(council_data.get("councilor_names", [])),
     }
     html = re.sub(
-        r"const councilStat = \{.*?\};",
+        r"const councilStat\s*=\s*\{.*?\};",
         f"const councilStat = {json.dumps(council_stat, ensure_ascii=False)};",
         html,
         flags=re.DOTALL,
@@ -294,7 +294,7 @@ def build_dashboard(news, complaint_stats, council_data, citizen_stats, social_p
     road_data = complaint_stats.get("top_roads", []) or citizen_stats.get("top_roads", [])
     road_json = json.dumps(road_data[:10], ensure_ascii=False)
     html = re.sub(
-        r"const roadData = \[.*?\];",
+        r"const roadData\s*=\s*\[.*?\];",
         f"const roadData = {road_json};",
         html,
         flags=re.DOTALL,
