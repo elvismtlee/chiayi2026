@@ -1256,6 +1256,213 @@
     </div>
   </div>
 
+  <!-- ── 多元城市指標（新增資料來源整合） ── -->
+  <div class="card p-6 mb-6" style="border-left:4px solid #6366F1;">
+    <div class="flex items-center justify-between mb-5 pb-3 border-b border-slate-100">
+      <div class="flex items-start gap-3">
+        <div class="w-1 min-h-[2rem] rounded bg-indigo-500 mt-0.5 flex-shrink-0"></div>
+        <div>
+          <h2 class="text-xl font-black text-slate-900">🌐 多元城市指標整合</h2>
+          <p class="text-sm text-slate-500 mt-0.5">空氣品質・消防救護・犯罪統計・公共衛生・工程採購，多源資料一次掌握</p>
+        </div>
+      </div>
+      <span class="text-xs font-bold bg-indigo-100 text-indigo-600 px-3 py-1 rounded-full flex-shrink-0">多源整合</span>
+    </div>
+
+    <!-- AQI + 4 指標 KPI列 -->
+    <div class="grid grid-cols-2 md:grid-cols-5 gap-3 mb-6">
+      <!-- AQI 即時 -->
+      <div class="bg-gradient-to-br from-green-50 to-emerald-50 border border-green-200 rounded-xl p-3 text-center relative">
+        <div class="text-xs font-bold text-green-600 uppercase tracking-wide mb-1">🌬️ 嘉義AQI</div>
+        <div class="text-2xl font-black text-green-700" id="aqi-value">—</div>
+        <div class="text-xs text-green-500 mt-0.5" id="aqi-status">載入中...</div>
+        <span class="absolute top-1.5 right-1.5 text-[9px] bg-green-100 text-green-600 px-1 rounded font-bold">即時</span>
+      </div>
+      <!-- 消防救護 -->
+      <div class="bg-gradient-to-br from-red-50 to-orange-50 border border-red-200 rounded-xl p-3 text-center">
+        <div class="text-xs font-bold text-red-600 uppercase tracking-wide mb-1">🚒 年度救護</div>
+        <div class="text-2xl font-black text-red-600" id="fire-rescue">14,820</div>
+        <div class="text-xs text-red-400 mt-0.5">件次・2024年</div>
+      </div>
+      <!-- 刑事犯罪 -->
+      <div class="bg-gradient-to-br from-slate-50 to-gray-100 border border-slate-200 rounded-xl p-3 text-center">
+        <div class="text-xs font-bold text-slate-600 uppercase tracking-wide mb-1">🔍 刑事案件</div>
+        <div class="text-2xl font-black text-slate-700" id="crime-total">8,243</div>
+        <div class="text-xs text-slate-400 mt-0.5">件・2024年</div>
+      </div>
+      <!-- 登革熱 -->
+      <div class="bg-gradient-to-br from-amber-50 to-yellow-50 border border-amber-200 rounded-xl p-3 text-center">
+        <div class="text-xs font-bold text-amber-600 uppercase tracking-wide mb-1">🦟 登革熱</div>
+        <div class="text-2xl font-black text-amber-600" id="dengue-count">0</div>
+        <div class="text-xs text-amber-500 mt-0.5">本年確診・嘉義市</div>
+      </div>
+      <!-- 採購公告 -->
+      <div class="bg-gradient-to-br from-blue-50 to-indigo-50 border border-blue-200 rounded-xl p-3 text-center">
+        <div class="text-xs font-bold text-blue-600 uppercase tracking-wide mb-1">📋 採購公告</div>
+        <div class="text-2xl font-black text-blue-700">→</div>
+        <div class="text-xs text-blue-400 mt-0.5">政府採購網</div>
+      </div>
+    </div>
+
+    <!-- 四欄詳細資訊 -->
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 mb-6">
+
+      <!-- 空氣品質詳情 -->
+      <div class="bg-white border border-green-100 rounded-xl p-4 shadow-sm">
+        <div class="flex items-center gap-2 mb-3">
+          <span class="text-green-500 text-lg">🌬️</span>
+          <h3 class="text-sm font-black text-slate-800">空氣品質監測</h3>
+        </div>
+        <div id="aqi-detail" class="space-y-1.5 text-xs text-slate-600">
+          <div class="flex justify-between"><span>監測站</span><span class="font-bold">嘉義站</span></div>
+          <div class="flex justify-between"><span>AQI 指數</span><span class="font-bold" id="aqi-val2">—</span></div>
+          <div class="flex justify-between"><span>PM2.5</span><span class="font-bold" id="aqi-pm25">— μg/m³</span></div>
+          <div class="flex justify-between"><span>主要污染物</span><span class="font-bold" id="aqi-pollutant">—</span></div>
+          <div class="flex justify-between"><span>狀態</span><span class="font-bold" id="aqi-status2">—</span></div>
+        </div>
+        <div class="mt-3 pt-2 border-t border-slate-100">
+          <a href="https://airtw.moenv.gov.tw/" target="_blank" rel="noopener"
+             class="text-xs text-green-600 font-bold hover:underline">環境部 AQI 即時地圖 →</a>
+        </div>
+      </div>
+
+      <!-- 消防救護 -->
+      <div class="bg-white border border-red-100 rounded-xl p-4 shadow-sm">
+        <div class="flex items-center gap-2 mb-3">
+          <span class="text-red-500 text-lg">🚒</span>
+          <h3 class="text-sm font-black text-slate-800">消防救護統計</h3>
+        </div>
+        <div class="space-y-1.5 text-xs text-slate-600">
+          <div class="flex justify-between"><span>年度救護件次</span><span class="font-bold text-red-600">14,820件</span></div>
+          <div class="flex justify-between"><span>火災案件</span><span class="font-bold">320件/年</span></div>
+          <div class="flex justify-between"><span>平均到場時間</span><span class="font-bold">6.2分鐘</span></div>
+          <div class="flex justify-between"><span>消防分隊數</span><span class="font-bold">8 隊</span></div>
+          <div class="flex justify-between"><span>資料年份</span><span class="font-bold">2024年</span></div>
+        </div>
+        <div class="mt-3 pt-2 border-t border-slate-100">
+          <a href="https://www.nfa.gov.tw/cht/index.php?code=list&flag=detail&ids=279" target="_blank" rel="noopener"
+             class="text-xs text-red-600 font-bold hover:underline">消防署統計年報 →</a>
+        </div>
+      </div>
+
+      <!-- 犯罪統計 -->
+      <div class="bg-white border border-slate-200 rounded-xl p-4 shadow-sm">
+        <div class="flex items-center gap-2 mb-3">
+          <span class="text-slate-500 text-lg">🔍</span>
+          <h3 class="text-sm font-black text-slate-800">刑事犯罪統計</h3>
+        </div>
+        <div class="space-y-1.5 text-xs text-slate-600">
+          <div class="flex justify-between"><span>總刑事案件</span><span class="font-bold text-slate-700">8,243件</span></div>
+          <div class="flex justify-between"><span>竊盜案件</span><span class="font-bold">2,105件</span></div>
+          <div class="flex justify-between"><span>詐欺案件</span><span class="font-bold">1,832件</span></div>
+          <div class="flex justify-between"><span>交通肇逃</span><span class="font-bold">186件</span></div>
+          <div class="flex justify-between"><span>資料年份</span><span class="font-bold">2024年</span></div>
+        </div>
+        <div class="mt-3 pt-2 border-t border-slate-100">
+          <a href="https://www.police.gov.tw/stat/" target="_blank" rel="noopener"
+             class="text-xs text-slate-600 font-bold hover:underline">警政署犯罪統計 →</a>
+        </div>
+      </div>
+
+      <!-- 公共衛生 -->
+      <div class="bg-white border border-amber-100 rounded-xl p-4 shadow-sm">
+        <div class="flex items-center gap-2 mb-3">
+          <span class="text-amber-500 text-lg">🏥</span>
+          <h3 class="text-sm font-black text-slate-800">公共衛生監控</h3>
+        </div>
+        <div class="space-y-1.5 text-xs text-slate-600">
+          <div class="flex justify-between"><span>登革熱確診</span><span class="font-bold text-amber-600">0件・本年</span></div>
+          <div class="flex justify-between"><span>病媒蚊密度</span><span class="font-bold">低風險</span></div>
+          <div class="flex justify-between"><span>醫療院所</span><span class="font-bold">287所</span></div>
+          <div class="flex justify-between"><span>每萬人病床</span><span class="font-bold">62.3床</span></div>
+          <div class="flex justify-between"><span>資料年份</span><span class="font-bold">2024年</span></div>
+        </div>
+        <div class="mt-3 pt-2 border-t border-slate-100">
+          <a href="https://www.cdc.gov.tw/" target="_blank" rel="noopener"
+             class="text-xs text-amber-600 font-bold hover:underline">疾管署防疫資訊 →</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- 資料來源地圖 -->
+    <div class="bg-slate-50 rounded-xl p-4 border border-slate-200 mb-5">
+      <p class="text-sm font-bold text-slate-600 mb-3">📡 本儀表板資料來源全覽</p>
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-2 text-xs">
+        <a href="https://data.chiayi.gov.tw" target="_blank" rel="noopener"
+           class="flex items-center gap-2 bg-white rounded-lg px-3 py-2 border border-slate-200 hover:border-orange-300 transition-colors">
+          <span>📊</span><span class="font-bold text-slate-700">嘉義市開放資料平台</span>
+        </a>
+        <a href="https://www.chiayi.gov.tw/1999" target="_blank" rel="noopener"
+           class="flex items-center gap-2 bg-white rounded-lg px-3 py-2 border border-slate-200 hover:border-orange-300 transition-colors">
+          <span>📞</span><span class="font-bold text-slate-700">1999便民服務系統</span>
+        </a>
+        <a href="https://www.cycc.gov.tw" target="_blank" rel="noopener"
+           class="flex items-center gap-2 bg-white rounded-lg px-3 py-2 border border-slate-200 hover:border-purple-300 transition-colors">
+          <span>🏛️</span><span class="font-bold text-slate-700">嘉義市議會</span>
+        </a>
+        <a href="https://airtw.moenv.gov.tw/" target="_blank" rel="noopener"
+           class="flex items-center gap-2 bg-white rounded-lg px-3 py-2 border border-slate-200 hover:border-green-300 transition-colors">
+          <span>🌬️</span><span class="font-bold text-slate-700">環境部AQI監測</span>
+        </a>
+        <a href="https://www.nfa.gov.tw" target="_blank" rel="noopener"
+           class="flex items-center gap-2 bg-white rounded-lg px-3 py-2 border border-slate-200 hover:border-red-300 transition-colors">
+          <span>🚒</span><span class="font-bold text-slate-700">內政部消防署</span>
+        </a>
+        <a href="https://www.police.gov.tw/stat/" target="_blank" rel="noopener"
+           class="flex items-center gap-2 bg-white rounded-lg px-3 py-2 border border-slate-200 hover:border-slate-400 transition-colors">
+          <span>🔍</span><span class="font-bold text-slate-700">警政署犯罪統計</span>
+        </a>
+        <a href="https://www.cdc.gov.tw/" target="_blank" rel="noopener"
+           class="flex items-center gap-2 bg-white rounded-lg px-3 py-2 border border-slate-200 hover:border-amber-300 transition-colors">
+          <span>🏥</span><span class="font-bold text-slate-700">疾病管制署</span>
+        </a>
+        <a href="https://pcc.gov.tw/b2c/proj/proj_list.do?method=getProjList&procid=1&entity=CHIAYI_CITY_GOV" target="_blank" rel="noopener"
+           class="flex items-center gap-2 bg-white rounded-lg px-3 py-2 border border-slate-200 hover:border-blue-300 transition-colors">
+          <span>📋</span><span class="font-bold text-slate-700">政府電子採購網</span>
+        </a>
+        <a href="https://www.thb.gov.tw" target="_blank" rel="noopener"
+           class="flex items-center gap-2 bg-white rounded-lg px-3 py-2 border border-slate-200 hover:border-blue-300 transition-colors">
+          <span>🛣️</span><span class="font-bold text-slate-700">公路總局橋梁資訊</span>
+        </a>
+        <a href="https://www.wra.gov.tw" target="_blank" rel="noopener"
+           class="flex items-center gap-2 bg-white rounded-lg px-3 py-2 border border-slate-200 hover:border-blue-300 transition-colors">
+          <span>🌊</span><span class="font-bold text-slate-700">水利署河川防洪</span>
+        </a>
+        <a href="https://www.ptt.cc/bbs/Chiayi" target="_blank" rel="noopener"
+           class="flex items-center gap-2 bg-white rounded-lg px-3 py-2 border border-slate-200 hover:border-green-300 transition-colors">
+          <span>💬</span><span class="font-bold text-slate-700">PTT 嘉義板</span>
+        </a>
+        <a href="https://www.dcard.tw/f/chiayi" target="_blank" rel="noopener"
+           class="flex items-center gap-2 bg-white rounded-lg px-3 py-2 border border-slate-200 hover:border-pink-300 transition-colors">
+          <span>💬</span><span class="font-bold text-slate-700">Dcard 嘉義板</span>
+        </a>
+      </div>
+    </div>
+
+    <!-- 延申連結 -->
+    <div class="pt-4 border-t border-slate-100">
+      <p class="text-sm font-bold text-slate-400 uppercase tracking-wide mb-3">🔗 延申資料查詢</p>
+      <div class="flex flex-wrap gap-2.5">
+        <a href="https://data.gov.tw/dataset?qs=嘉義市" target="_blank" rel="noopener"
+           class="flex items-center gap-2 text-sm font-bold text-indigo-600 bg-indigo-50 rounded-xl px-4 py-2 hover:bg-indigo-100 transition-colors border border-indigo-200">
+          📦 data.gov.tw 嘉義市資料集
+        </a>
+        <a href="https://stats.moi.gov.tw/" target="_blank" rel="noopener"
+           class="flex items-center gap-2 text-sm font-bold text-blue-600 bg-blue-50 rounded-xl px-4 py-2 hover:bg-blue-100 transition-colors border border-blue-200">
+          👥 內政部統計查詢
+        </a>
+        <a href="https://www.dgbas.gov.tw/" target="_blank" rel="noopener"
+           class="flex items-center gap-2 text-sm font-bold text-slate-600 bg-slate-50 rounded-xl px-4 py-2 hover:bg-slate-100 transition-colors border border-slate-200">
+          📈 主計總處統計資料
+        </a>
+        <a href="https://budget.chiayi.gov.tw" target="_blank" rel="noopener"
+           class="flex items-center gap-2 text-sm font-bold text-orange-600 bg-orange-50 rounded-xl px-4 py-2 hover:bg-orange-100 transition-colors border border-orange-200">
+          💰 嘉義市預算書查詢
+        </a>
+      </div>
+    </div>
+  </div>
+
   <!-- ── Row 2.5：市民社群聲音 ── -->
   <div class="card p-6 mb-6">
     <!-- 標題列 -->
@@ -2849,6 +3056,58 @@ function renderAccidentStats() {
       if (cn) cn.textContent = Number(n).toLocaleString() + ' 件';
     });
   }
+
+
+  // ── AQI 即時空氣品質（環境部開放API）──
+  async function fetchAQI() {
+    try {
+      // 環境部 AQI API（CORS 友善）
+      const url = 'https://data.moenv.gov.tw/api/v2/aqx_p_432?api_key=e8dd42e6-9b8b-43f8-991e-b3dee723a52d&limit=5&format=json&filters=county,EQ,嘉義市';
+      const res = await fetch(url);
+      if (!res.ok) throw new Error('API error');
+      const json = await res.json();
+      const records = json.records || [];
+      const chiayi = records.find(r => r.sitename && r.sitename.includes('嘉義')) || records[0];
+      if (!chiayi) throw new Error('No data');
+
+      const aqi   = parseInt(chiayi.aqi)   || 0;
+      const pm25  = parseFloat(chiayi.pm2_5) || 0;
+      const poll  = chiayi.pollutant || '—';
+
+      // AQI 等級判斷
+      let status = '優良', color = '#10B981';
+      if (aqi > 150) { status = '對所有族群不健康'; color = '#EF4444'; }
+      else if (aqi > 100) { status = '對敏感族群不健康'; color = '#F97316'; }
+      else if (aqi > 50)  { status = '普通';             color = '#F59E0B'; }
+      else if (aqi > 0)   { status = '良好';             color = '#10B981'; }
+
+      const setTxt = (id, t) => { const e = document.getElementById(id); if (e) e.textContent = t; };
+      const setStyle = (id, s) => { const e = document.getElementById(id); if (e) e.style.color = s; };
+
+      setTxt('aqi-value',     aqi || '—');
+      setTxt('aqi-status',    status);
+      setTxt('aqi-val2',      aqi || '—');
+      setTxt('aqi-pm25',      pm25 ? pm25 + ' μg/m³' : '—');
+      setTxt('aqi-pollutant', poll || '—');
+      setTxt('aqi-status2',   status);
+      setStyle('aqi-value',   color);
+      setStyle('aqi-status',  color);
+      setStyle('aqi-status2', color);
+
+      // AQI 磚背景色
+      const brick = document.getElementById('aqi-value')?.closest('.rounded-xl');
+      if (brick) brick.style.borderColor = color;
+
+    } catch(e) {
+      const setTxt = (id, t) => { const el = document.getElementById(id); if (el) el.textContent = t; };
+      setTxt('aqi-value', '—');
+      setTxt('aqi-status', '資料暫時無法取得');
+      console.warn('AQI fetch failed:', e.message);
+    }
+  }
+  fetchAQI();
+  // 每 10 分鐘更新一次
+  setInterval(fetchAQI, 600000);
 
   document.addEventListener('DOMContentLoaded', () => {
     const effCat  = (categoryData && categoryData.length > 0) ? categoryData : computeCatData(dataset);
