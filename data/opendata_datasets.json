@@ -3,7 +3,7 @@
     "title": "嘉義市道路交通事故統計",
     "oid": "1829dd8c-33cc-45bb-a3f1-89d3b2e2f453",
     "rid": "cc1bdee9-a253-4c7d-b6c4-4858328f95aa",
-    "category": "道路交通",
+    "category": "交通停車",
     "format": "CSV",
     "source": "data.chiayi.gov.tw",
     "resources": [
@@ -17,7 +17,7 @@
     "title": "嘉義市管線挖掘資訊",
     "oid": "2cf1aa4f-3cdd-46a0-be84-b6f161cd892d",
     "rid": "ca4c025d-1856-4200-81b7-a401aa653da3",
-    "category": "道路工程",
+    "category": "道路路平",
     "format": "XML",
     "source": "data.chiayi.gov.tw",
     "resources": [
@@ -31,7 +31,7 @@
     "title": "嘉義市路燈清冊",
     "oid": "672349d8-cb63-4e26-b077-d4c35d6eef23",
     "rid": "665d755b-f35e-4c0d-9b86-05ee4a6f5bfe",
-    "category": "路燈照明",
+    "category": "公共安全",
     "format": "CSV",
     "source": "data.chiayi.gov.tw",
     "resources": [
@@ -45,7 +45,7 @@
     "title": "嘉義市環境及交通噪音監測",
     "oid": "0f0f0e47-6ebe-41b5-9363-fcb787c3e01c",
     "rid": "93e40c00-b975-4d1b-965a-dcae2d278557",
-    "category": "噪音管制",
+    "category": "環境衛生",
     "format": "CSV",
     "source": "data.chiayi.gov.tw",
     "resources": [
@@ -59,7 +59,7 @@
     "title": "嘉義市政府暨所屬機關陳情管道",
     "oid": "d03a1418-f3e1-4e58-bbc1-c6a7361d470a",
     "rid": "ca826f03-9fcf-43b5-b781-8cdf3a3b7772",
-    "category": "市政服務",
+    "category": "行政服務",
     "format": "CSV",
     "source": "data.chiayi.gov.tw",
     "resources": [
@@ -101,7 +101,7 @@
     "title": "嘉義市政府橋梁資訊",
     "oid": "ab402b9d-5cc8-476c-bc16-8b21d77a9695",
     "rid": "b4d1ef31-bc22-4b97-ba6d-9c0773d430df",
-    "category": "橋梁設施",
+    "category": "道路路平",
     "format": "CSV",
     "source": "data.chiayi.gov.tw",
     "resources": [
@@ -129,7 +129,7 @@
     "title": "嘉義市公有路外停車場",
     "oid": "d206db33-3ae7-489e-b709-5555222fb767",
     "rid": "4e0c8e01-9844-4da6-991b-a3382b51b71b",
-    "category": "停車設施",
+    "category": "交通停車",
     "format": "CSV",
     "source": "data.chiayi.gov.tw",
     "resources": [

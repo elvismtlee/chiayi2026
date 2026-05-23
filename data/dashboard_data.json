@@ -1,6 +1,13 @@
 {
-  "updated_at": "2026-05-22T19:29:57.110550",
+  "updated_at": "2026-05-23T03:02:32.936654",
   "news": [
+    {
+      "headline": "入伍時程自己掌握！役男優先入營快申請",
+      "source": "嘉義市政府/西區公所",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=938372",
+      "date": "2026/05/23",
+      "query": "市府新聞"
+    },
     {
       "headline": "全臺首創！嘉義市「火雞肉飯安衛家族」正式成立26家業者攜手守護職場安全",
       "source": "嘉義市政府/勞工及青年發展處/觀光新聞處",
@@ -77,101 +84,103 @@
       "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=938237",
       "date": "2026/05/21",
       "query": "市府新聞"
-    },
-    {
-      "headline": "美秀集團十週年回嘉開唱嘉義市府啟動跨局處整備迎接樂迷潮",
-      "source": "嘉義市政府/文化局/觀光新聞處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=938225",
-      "date": "2026/05/21",
-      "query": "市府新聞"
     }
   ],
   "complaint_stats": {
-    "total": 76714,
+    "total": 48419,
+    "record_count": 318,
     "category_counts": {
-      "道路交通": 43529,
-      "道路工程": 86,
-      "路燈照明": 28113,
-      "噪音管制": 15,
-      "市政服務": 6,
-      "橋梁設施": 172,
-      "公共安全": 38,
-      "停車設施": 4755
+      "公共安全": 153,
+      "交通停車": 68,
+      "道路路平": 86,
+      "環境衛生": 5,
+      "行政服務": 6
+    },
+    "subcategory_counts": {
+      "公共安全": {
+        "交通事故": 115,
+        "水域安全": 38
+      },
+      "交通停車": {
+        "交通事故": 30,
+        "公有停車場": 38
+      },
+      "道路路平": {
+        "電信管線": 35,
+        "市府工程": 3,
+        "電力管線": 28,
+        "自來水管線": 16,
+        "道路施工": 4
+      },
+      "環境衛生": {
+        "噪音管制": 5
+      },
+      "行政服務": {
+        "陳情管道": 6
+      }
     },
     "top_roads": [
       {
-        "road": "嘉義市",
-        "count": 43701
+        "road": "蘭潭水庫",
+        "count": 12
       },
       {
-        "road": "600台灣嘉",
-        "count": 27685
+        "road": "東區嘉義",
+        "count": 11
       },
       {
-        "road": "嘉義市山仔頂24",
-        "count": 601
+        "road": "西區重興村里博愛路一",
+        "count": 2
       },
       {
-        "road": "嘉義市中山路19",
-        "count": 522
+        "road": "西區湖內村里新民路1",
+        "count": 2
       },
       {
-        "road": "民國路進出",
-        "count": 411
+        "road": "西區福全村里中興路1",
+        "count": 2
       },
       {
-        "road": "嘉義市彌陀路32",
-        "count": 240
+        "road": "親水公園",
+        "count": 2
       },
       {
-        "road": "中正路進出",
-        "count": 203
+        "road": "蘭潭水庫三信亭附近",
+        "count": 2
       },
       {
-        "road": "嘉義市上海路35",
-        "count": 201
+        "road": "嘉義市中山路199號",
+        "count": 2
       },
       {
-        "road": "嘉義市國華街24",
-        "count": 201
+        "road": "嘉義市山仔頂249-",
+        "count": 2
       },
       {
-        "road": "香湖公園後側",
-        "count": 200
+        "road": "西區福民村里上海路1",
+        "count": 1
       }
     ],
     "top_categories": [
       {
-        "category": "道路交通",
-        "count": 43529
+        "category": "公共安全",
+        "count": 153
       },
       {
-        "category": "路燈照明",
-        "count": 28113
-      },
-      {
-        "category": "停車設施",
-        "count": 4755
-      },
-      {
-        "category": "橋梁設施",
-        "count": 172
-      },
-      {
-        "category": "道路工程",
+        "category": "道路路平",
         "count": 86
       },
       {
-        "category": "公共安全",
-        "count": 38
+        "category": "交通停車",
+        "count": 68
       },
       {
-        "category": "噪音管制",
-        "count": 15
-      },
-      {
-        "category": "市政服務",
+        "category": "行政服務",
         "count": 6
+      },
+      {
+        "category": "環境衛生",
+        "count": 5
       }
     ],
     "year_counts": {
@@ -183,7 +192,7 @@
       "2019": 3007,
       "2020": 3286,
       "2021": 3035,
-      "2022": 3122,
+      "2022": 3112,
       "2023": 3318,
       "2024": 3271,
       "2025": 8890,
@@ -191,7 +200,7 @@
       "2012": 1,
       "2013": 1
     },
-    "updated_at": "2026-05-22T19:29:43.923341",
+    "updated_at": "2026-05-23T03:01:34.677065",
     "source": "data.chiayi.gov.tw"
   },
   "council": {
@@ -219,6 +228,34 @@
   },
   "citizen_stats": {},
   "social_posts": [
+    {
+      "id": "ptt-httpswwwpttccbbsChiayiM1779497416AB61html",
+      "platform": "PTT",
+      "platform_color": "#00b300",
+      "board": "Chiayi",
+      "date": "05/23",
+      "author": "PTT 鄉民",
+      "title": "Re: [徵求] 幫忙在中正大學找一篇論文並影印",
+      "url": "https://www.ptt.cc/bbs/Chiayi/M.1779497416.A.B61.html",
+      "reactions": 0,
+      "comments": 0,
+      "category": "市政議題",
+      "source": "ptt"
+    },
+    {
+      "id": "ptt-httpswwwpttccbbsChiayiM1779493926A775html",
+      "platform": "PTT",
+      "platform_color": "#00b300",
+      "board": "Chiayi",
+      "date": "05/23",
+      "author": "PTT 鄉民",
+      "title": "[轉讓] 澎湖風沙月民宿5/30-5/31雙人床一晚",
+      "url": "https://www.ptt.cc/bbs/Chiayi/M.1779493926.A.775.html",
+      "reactions": 0,
+      "comments": 0,
+      "category": "市政議題",
+      "source": "ptt"
+    },
     {
       "id": "ptt-httpswwwpttccbbsChiayiM1779462067AFEDhtml",
       "platform": "PTT",
@@ -252,7 +289,7 @@
       "platform": "PTT",
       "platform_color": "#00b300",
       "board": "Chiayi",
-      "date": "05/22",
+      "date": "05/23",
       "author": "PTT 鄉民",
       "title": "[新聞] 嘉市羅大德診所X光室偵煙器藏密錄器 ",
       "url": "https://www.ptt.cc/bbs/Chiayi/M.1779430009.A.485.html",
@@ -308,13 +345,13 @@
       "platform": "PTT",
       "platform_color": "#00b300",
       "board": "Chiayi",
-      "date": "05/22",
+      "date": "05/23",
       "author": "PTT 鄉民",
       "title": "[問題] 請問嘉義人如何前往綠島旅遊",
       "url": "https://www.ptt.cc/bbs/Chiayi/M.1779382456.A.C53.html",
       "reactions": 0,
       "comments": 0,
-      "category": "市政議題",
+      "category": "文化觀光",
       "source": "ptt"
     },
     {
@@ -357,34 +394,6 @@
       "reactions": 0,
       "comments": 0,
       "category": "市政議題",
-      "source": "ptt"
-    },
-    {
-      "id": "ptt-httpswwwpttccbbsChiayiM1779279581A6BBhtml",
-      "platform": "PTT",
-      "platform_color": "#00b300",
-      "board": "Chiayi",
-      "date": "05/20",
-      "author": "PTT 鄉民",
-      "title": "[共乘] 7/12搭乘長榮航空BR237上午9點前往雅加達",
-      "url": "https://www.ptt.cc/bbs/Chiayi/M.1779279581.A.6BB.html",
-      "reactions": 0,
-      "comments": 0,
-      "category": "市政議題",
-      "source": "ptt"
-    },
-    {
-      "id": "ptt-httpswwwpttccbbsChiayiM1779274083AF6Ehtml",
-      "platform": "PTT",
-      "platform_color": "#00b300",
-      "board": "Chiayi",
-      "date": "05/21",
-      "author": "PTT 鄉民",
-      "title": "[新聞] 嘉義火化場道路卡關！縣市互槓「誰不做",
-      "url": "https://www.ptt.cc/bbs/Chiayi/M.1779274083.A.F6E.html",
-      "reactions": 0,
-      "comments": 0,
-      "category": "道路工程",
       "source": "ptt"
     }
   ]
