@@ -91,38 +91,75 @@
         嘉義市 12 年基礎建設問題全面透明化，數字說了算。
       </p>
 
-      <!-- 大數字 KPI (6格) -->
+      <!-- 大數字 KPI (6格) 升級版 -->
       <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-3 fade-up delay-3">
-        <div class="bg-white/10 backdrop-blur rounded-2xl p-4 border border-white/10">
-          <div class="text-orange-400 text-xs font-bold tracking-widest uppercase mb-1">12年事故件數</div>
-          <div class="text-3xl font-black font-en counter" id="kpi-total">0</div>
-          <div class="text-slate-400 text-xs mt-0.5">件城市資料</div>
-        </div>
-        <div class="bg-white/10 backdrop-blur rounded-2xl p-4 border border-white/10">
-          <div class="text-red-300 text-xs font-bold tracking-widest uppercase mb-1">事故死亡</div>
-          <div class="text-3xl font-black font-en" id="kpi-deaths">—</div>
-          <div class="text-slate-400 text-xs mt-0.5">累計死亡人數</div>
-        </div>
-        <div class="bg-white/10 backdrop-blur rounded-2xl p-4 border border-white/10">
-          <div class="text-yellow-300 text-xs font-bold tracking-widest uppercase mb-1">事故受傷</div>
-          <div class="text-3xl font-black font-en" id="kpi-injuries">—</div>
-          <div class="text-slate-400 text-xs mt-0.5">累計受傷人數</div>
-        </div>
-        <div class="bg-white/10 backdrop-blur rounded-2xl p-4 border border-white/10">
-          <div class="text-orange-400 text-xs font-bold tracking-widest uppercase mb-1">最大議題</div>
-          <div class="text-xl font-black" id="kpi-top-cat">—</div>
-          <div class="text-slate-400 text-xs mt-0.5">資料第一名類別</div>
-        </div>
-        <div class="bg-white/10 backdrop-blur rounded-2xl p-4 border border-white/10">
-          <div class="text-orange-400 text-xs font-bold tracking-widest uppercase mb-1">西區人口</div>
-          <div class="text-2xl font-black font-en" id="kpi-west-pop">145,077</div>
-          <div class="text-slate-400 text-xs mt-0.5">位西區市民</div>
-        </div>
-        <div class="bg-white/10 backdrop-blur rounded-2xl p-4 border border-white/10">
-          <div class="text-orange-400 text-xs font-bold tracking-widest uppercase mb-1">本月事件</div>
-          <div class="text-3xl font-black font-en counter" id="kpi-month">0</div>
-          <div class="text-slate-400 text-xs mt-0.5">件本月城市事件</div>
-        </div>
+
+        <!-- 12年事故 -->
+        <a href="#sec-traffic" class="block group">
+          <div class="rounded-2xl p-5 border border-orange-400/30 ring-1 ring-orange-400/20 shadow-lg shadow-black/40 hover:-translate-y-1.5 hover:shadow-orange-500/30 hover:shadow-xl transition-all duration-200"
+               style="background:linear-gradient(135deg,rgba(249,115,22,.25)0%,rgba(239,68,68,.15)100%)">
+            <div class="text-[10px] font-bold tracking-widest uppercase text-orange-300 mb-1">🚨 12年交通事故</div>
+            <div class="text-4xl font-black font-en counter text-white" id="kpi-total">0</div>
+            <div class="text-orange-200 text-[10px] mt-1">件・嘉義市2014–2025</div>
+            <div class="text-orange-400 text-[10px] mt-2 font-bold group-hover:underline">查看完整分析 →</div>
+          </div>
+        </a>
+
+        <!-- 事故死亡 -->
+        <a href="#sec-traffic" class="block group">
+          <div class="rounded-2xl p-5 border border-red-500/30 ring-1 ring-red-500/20 shadow-lg shadow-black/40 hover:-translate-y-1.5 hover:shadow-red-500/30 hover:shadow-xl transition-all duration-200"
+               style="background:linear-gradient(135deg,rgba(239,68,68,.25)0%,rgba(185,28,28,.15)100%)">
+            <div class="text-[10px] font-bold tracking-widest uppercase text-red-300 mb-1">⚠️ 事故死亡</div>
+            <div class="text-4xl font-black font-en text-white" id="kpi-deaths">—</div>
+            <div class="text-red-200 text-[10px] mt-1">12年累計死亡人數</div>
+            <div class="text-red-400 text-[10px] mt-2 font-bold group-hover:underline">查看事故分析 →</div>
+          </div>
+        </a>
+
+        <!-- 事故受傷 -->
+        <a href="#sec-traffic" class="block group">
+          <div class="rounded-2xl p-5 border border-yellow-400/30 ring-1 ring-yellow-400/20 shadow-lg shadow-black/40 hover:-translate-y-1.5 hover:shadow-yellow-500/30 hover:shadow-xl transition-all duration-200"
+               style="background:linear-gradient(135deg,rgba(234,179,8,.25)0%,rgba(245,158,11,.15)100%)">
+            <div class="text-[10px] font-bold tracking-widest uppercase text-yellow-300 mb-1">🏥 事故受傷</div>
+            <div class="text-4xl font-black font-en text-white" id="kpi-injuries">—</div>
+            <div class="text-yellow-200 text-[10px] mt-1">12年累計受傷人數</div>
+            <div class="text-yellow-400 text-[10px] mt-2 font-bold group-hover:underline">查看傷亡趨勢 →</div>
+          </div>
+        </a>
+
+        <!-- 最大議題 -->
+        <a href="#sec-cat" class="block group">
+          <div class="rounded-2xl p-5 border border-violet-400/30 ring-1 ring-violet-400/20 shadow-lg shadow-black/40 hover:-translate-y-1.5 hover:shadow-violet-500/30 hover:shadow-xl transition-all duration-200"
+               style="background:linear-gradient(135deg,rgba(139,92,246,.25)0%,rgba(109,40,217,.15)100%)">
+            <div class="text-[10px] font-bold tracking-widest uppercase text-violet-300 mb-1">📊 最大議題</div>
+            <div class="text-xl font-black text-white leading-tight" id="kpi-top-cat">—</div>
+            <div class="text-violet-200 text-[10px] mt-1">13大市政議題 排名第一</div>
+            <div class="text-violet-400 text-[10px] mt-2 font-bold group-hover:underline">查看議題分析 →</div>
+          </div>
+        </a>
+
+        <!-- 西區人口 -->
+        <a href="#sec-pop" class="block group">
+          <div class="rounded-2xl p-5 border border-emerald-400/30 ring-1 ring-emerald-400/20 shadow-lg shadow-black/40 hover:-translate-y-1.5 hover:shadow-emerald-500/30 hover:shadow-xl transition-all duration-200"
+               style="background:linear-gradient(135deg,rgba(16,185,129,.25)0%,rgba(5,150,105,.15)100%)">
+            <div class="text-[10px] font-bold tracking-widest uppercase text-emerald-300 mb-1">👥 西區人口</div>
+            <div class="text-3xl font-black font-en text-white" id="kpi-west-pop">145,077</div>
+            <div class="text-emerald-200 text-[10px] mt-1">位西區市民・45 里</div>
+            <div class="text-emerald-400 text-[10px] mt-2 font-bold group-hover:underline">查看人口分布 →</div>
+          </div>
+        </a>
+
+        <!-- 本月事件 -->
+        <a href="#sec-trend" class="block group">
+          <div class="rounded-2xl p-5 border border-sky-400/30 ring-1 ring-sky-400/20 shadow-lg shadow-black/40 hover:-translate-y-1.5 hover:shadow-sky-500/30 hover:shadow-xl transition-all duration-200"
+               style="background:linear-gradient(135deg,rgba(14,165,233,.25)0%,rgba(2,132,199,.15)100%)">
+            <div class="text-[10px] font-bold tracking-widest uppercase text-sky-300 mb-1">📅 本月事件</div>
+            <div class="text-4xl font-black font-en counter text-white" id="kpi-month">0</div>
+            <div class="text-sky-200 text-[10px] mt-1">件・每6小時自動更新</div>
+            <div class="text-sky-400 text-[10px] mt-2 font-bold group-hover:underline">查看投訴趨勢 →</div>
+          </div>
+        </a>
+
       </div>
     </div>
   </div>
@@ -141,7 +178,7 @@
 <main class="max-w-6xl mx-auto px-4 md:px-6 pb-20" style="margin-top:-1px;">
 
   <!-- ── Row 1：議題分類 + 路段熱點 ── -->
-  <div class="grid grid-cols-1 lg:grid-cols-5 gap-6 mb-6 mt-8">
+  <div class="grid grid-cols-1 lg:grid-cols-5 gap-6 mb-6 mt-8" id="sec-cat">
 
     <!-- 13 大議題分類（3/5） -->
     <div class="lg:col-span-3 card p-6">
@@ -184,7 +221,7 @@
 
 
   <!-- ── 交通安全12年全面分析 ─────────────────────────────────────────────── -->
-  <div class="card p-6 mb-6">
+  <div class="card p-6 mb-6" id="sec-traffic">
     <div class="flex items-center justify-between mb-4">
       <div>
         <h2 class="text-lg font-black text-slate-900">🚨 交通安全12年全面分析</h2>
@@ -234,7 +271,7 @@
 
   <!-- ── Row 2：年度趨勢（全幅）+ 即時新聞 ── -->
   <!-- 年度投訴趨勢全面分析（獨立全幅） -->
-  <div class="card p-6 mb-6">
+  <div class="card p-6 mb-6" id="sec-trend">
     <div class="flex items-center justify-between mb-4">
       <div>
         <h2 class="text-lg font-black text-slate-900">📊 年度投訴趨勢全面分析</h2>
@@ -674,7 +711,7 @@
   </div>
 
   <!-- ── 西區各里人口全面分析 ── -->
-  <div class="card p-6 mb-6">
+  <div class="card p-6 mb-6" id="sec-pop">
     <div class="flex items-center justify-between mb-3">
       <div>
         <h2 class="text-lg font-black text-slate-900">👥 西區各里人口全面分析</h2>
@@ -1278,8 +1315,11 @@ function renderAccidentStats() {
   function renderTable(data) {
     const tbody = document.getElementById('table-body');
     tbody.innerHTML = '';
-    const filteredData = tableFilter ? data.filter(r => r.category === tableFilter || r.subcategory === tableFilter) : data;
-    filteredData.slice(0, tableExpanded ? 100 : 20).forEach(item => {
+    const filteredData = (tableFilter
+      ? data.filter(r => r.category === tableFilter || r.subcategory === tableFilter)
+      : data
+    ).slice().sort((a, b) => (b.date || '').localeCompare(a.date || ''));
+    filteredData.slice(0, tableExpanded ? 200 : 20).forEach(item => {
       const color = getCatColor(item.category);
       const statusTxt = item.status || (item.count > 0 ? '記錄中' : '');
       const sc = statusTxt === '已完工' || statusTxt === '已結案'
