@@ -1,16 +1,16 @@
 {
-  "updated_at": "2026-05-23T14:49:44.936711",
+  "updated_at": "2026-05-23T15:27:16.418186",
   "aqi_realtime": [
     {
       "station": "Shanghai (上海)",
       "aqi": 87,
       "pm25": 87.0,
-      "pm10": 30.0,
+      "pm10": 29.0,
       "o3": 41.9,
-      "no2": 10.1,
+      "no2": 8.7,
       "status": "普通",
       "pollutant": "",
-      "time": "2026-05-23 22:00:00",
+      "time": "2026-05-23 23:00:00",
       "source": "AQICN"
     }
   ],
@@ -22,13 +22,6 @@
       "date": "2026-05-20 17:43",
       "link": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000sz1d",
       "mag": 6.6
-    },
-    {
-      "title": "規模 6.0・60 km ESE of Codrington, Antigua and Barbuda",
-      "desc": "深度 51 km",
-      "date": "2026-05-16 14:50",
-      "link": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000sy84",
-      "mag": 6
     },
     {
       "title": "規模 6.0・13 km S of Honaunau-Napoopoo, Hawaii",
@@ -71,20 +64,27 @@
       "date": "2026-05-22 10:08",
       "link": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000szgb",
       "mag": 5.7
+    },
+    {
+      "title": "規模 5.7・South Sandwich Islands region",
+      "desc": "深度 137 km",
+      "date": "2026-05-20 23:01",
+      "link": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000sz3x",
+      "mag": 5.7
     }
   ],
   "weather": [
     {
       "station": "嘉義市（Open-Meteo）",
-      "temp": "26.8",
-      "apparent_temp": "30.5",
-      "humidity": "72",
+      "temp": "26.4",
+      "apparent_temp": "30.0",
+      "humidity": "73",
       "rainfall": "0.0",
-      "wind_speed": "5.7",
-      "wind_dir": "162",
-      "cloud": "71",
+      "wind_speed": "6.0",
+      "wind_dir": "155",
+      "cloud": "65",
       "weather": "多雲",
-      "time": "2026-05-23 22:45",
+      "time": "2026-05-23 23:15",
       "source": "Open-Meteo"
     }
   ],
@@ -118,16 +118,16 @@
       "source": "Google新聞"
     },
     {
-      "title": "第12屆財神盃國中小音樂暨民俗技藝競賽展開 千名嘉義學子同台競藝 - 中央社 CNA",
+      "title": "嘉市青少年福利服務中心全新升級 羽球、匹克球共融球場嶄新亮相 - 中央社 CNA",
       "date": "Sat, 23 May 2026",
-      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5FS0lJaFBhcGlsRGs0TlRqTFpxMWdhSDNDX1g2a1FlTmQ4TlJVRkd0YV9ralJ0ZHNGSGhCcEp1U0RXcmdLSEd3eDUxTmVic0Y3ODFyQU93?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5ZUFlxWWxEZnFhWHh6Y0E3dllFVmxfTExaWjdFdzhoeEpGYUdfMlJYd1otVkFLcThpblZvVFR6WVR2RW44UVhrY09TOERwY2NIYVZtVVVR?oc=5",
       "desc": "",
       "source": "Google新聞"
     },
     {
-      "title": "嘉義市普發6000加碼活動把你的現金變大了消費6000元送600元振興商圈夜市劵總額2500萬兌完為止 - chiayi.gov.tw",
-      "date": "Sun, 25 Jan 2026",
-      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1IbUFDbzRETnBEck1sUW1YbzJUTHFPeHJIUi1Bdk1PM0d1VTZ5Q0o0TEIxZ2ltR2hZbS13SjlGbnprSHRwQ2Z6c2huQUM0Mkpqc1c5QUFpZk5zX2UtaGdGWW1Na3o1SjFTTWlvRVZ4eDh5VTEyQ2c?oc=5",
+      "title": "第12屆財神盃國中小音樂暨民俗技藝競賽展開 千名嘉義學子同台競藝 - 中央社 CNA",
+      "date": "Sat, 23 May 2026",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5FS0lJaFBhcGlsRGs0TlRqTFpxMWdhSDNDX1g2a1FlTmQ4TlJVRkd0YV9ralJ0ZHNGSGhCcEp1U0RXcmdLSEd3eDUxTmVic0Y3ODFyQU93?oc=5",
       "desc": "",
       "source": "Google新聞"
     }
@@ -183,9 +183,9 @@
       "source": "Google新聞"
     },
     {
-      "title": "嘉義市西區全民運動館工程進度破7成5 黃敏惠視察啟用營運期曝 - UDN",
-      "date": "Wed, 28 Jan 2026",
-      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBXM3hhN1djdmdRZXNYNUN3Tmk5SjZ4djkzb3ZWSUNET2ZkSVVSV3lrYy1OQ2t1ZHhjLUJ2djBtbk1NZVBqdVl1eUJDRDFXd1FD0gFWQVVfeXFMTmhtNFppRHZxUDhKTlBYNHlXbTR0RXVZckRjZGM0bmtnV0pJaVROdHUwN1FhX0pGWFFEd3NmcHhzUTJHS2NFU1VjUWxPRXVhaXNUUHJ6T1E?oc=5",
+      "title": "嘉義市舊市公所地下停車場動土 斥資4.8億元活化歷史場域強化交通機能 - 台灣華報",
+      "date": "Wed, 15 Apr 2026",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5LYl9MdUFOS3luYXp4TnJYblptWllKQnRfVzY0YkpZQjVpNnI2WFhVQjJPa21FYWM4NHlkVkVKZkpLdzFTcDU2cUthOV9GeFYxWU9tWW82SDdpcndEQ2pLTmo3X29JcjBMVUhN?oc=5",
       "org": "新聞資訊",
       "source": "Google新聞"
     }
@@ -272,7 +272,7 @@
       "lat": 23.481634,
       "lng": 120.453745,
       "total": 45,
-      "available": 2,
+      "available": 4,
       "addr": "中山路199號(對面)"
     },
     {
@@ -281,7 +281,7 @@
       "lat": 23.482012,
       "lng": 120.457342,
       "total": 22,
-      "available": 8,
+      "available": 9,
       "addr": "中山路98號(前)"
     },
     {
@@ -299,7 +299,7 @@
       "lat": 23.478707,
       "lng": 120.462594,
       "total": 38,
-      "available": 3,
+      "available": 0,
       "addr": "啟明路122號(前)"
     },
     {
@@ -317,7 +317,7 @@
       "lat": 23.4798596,
       "lng": 120.4488291,
       "total": 20,
-      "available": 7,
+      "available": 3,
       "addr": "中山路306號"
     },
     {
@@ -326,7 +326,7 @@
       "lat": 23.47963,
       "lng": 120.44583,
       "total": 20,
-      "available": 19,
+      "available": 20,
       "addr": "中山路386號"
     },
     {
@@ -335,7 +335,7 @@
       "lat": 23.47917,
       "lng": 120.44186,
       "total": 99,
-      "available": 85,
+      "available": 38,
       "addr": "中山路524號"
     },
     {
@@ -344,7 +344,7 @@
       "lat": 23.47877,
       "lng": 120.44089,
       "total": 42,
-      "available": 21,
+      "available": 20,
       "addr": "中山路528號"
     },
     {
@@ -353,7 +353,7 @@
       "lat": 23.47283,
       "lng": 120.44029,
       "total": 5,
-      "available": 4,
+      "available": 2,
       "addr": "垂楊路575號"
     },
     {
@@ -362,7 +362,7 @@
       "lat": 23.47336,
       "lng": 120.44604,
       "total": 14,
-      "available": 6,
+      "available": 2,
       "addr": "垂楊路351號"
     },
     {
@@ -371,7 +371,7 @@
       "lat": 23.4738724,
       "lng": 120.4493073,
       "total": 20,
-      "available": 7,
+      "available": 9,
       "addr": "垂楊路434號"
     },
     {
@@ -380,7 +380,7 @@
       "lat": 23.47918,
       "lng": 120.43182,
       "total": 15,
-      "available": 0,
+      "available": 1,
       "addr": "北港路278號"
     },
     {
@@ -398,7 +398,7 @@
       "lat": 23.48091,
       "lng": 120.43012,
       "total": 20,
-      "available": 0,
+      "available": 6,
       "addr": "北港路312號東側"
     },
     {
@@ -416,7 +416,7 @@
       "lat": 23.48931,
       "lng": 120.4361,
       "total": 15,
-      "available": 7,
+      "available": 10,
       "addr": "自由路298號"
     },
     {
@@ -425,7 +425,7 @@
       "lat": 23.49265,
       "lng": 120.43191,
       "total": 15,
-      "available": 11,
+      "available": 12,
       "addr": "自由路492號"
     },
     {
@@ -448,5 +448,5 @@
     }
   ],
   "water": [],
-  "fetch_seconds": 71.8
+  "fetch_seconds": 62.8
 }
