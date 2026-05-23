@@ -618,8 +618,8 @@ def fetch_all_opendata_records() -> list[dict]:
 
 def build_complaint_stats(records: list[dict]) -> dict:
     """從原始記錄建立統計摘要，供儀表板圖表使用。
-    分類統計使用「筆數」（每筆資料 = 1）而非 count 加總，
-    避免月度交通事故總計或路燈清冊壓縮其他類別的比例。
+    分類統計使用 count 欄位加總（反映實際件數/數量），
+    例如交通事故每月有件數欄位，加總後顯示12年真實事故總數。
     """
     category_counts: dict[str, int] = {}
     subcategory_counts: dict[str, dict] = {}  # {category: {sub: count}}
@@ -628,15 +628,18 @@ def build_complaint_stats(records: list[dict]) -> dict:
 
     for r in records:
         cat = r.get("category") or r.get("議題分類") or r.get("類別") or "其他"
-        # 每筆記錄計 1（不用 count 欄位），讓 13 個類別分布均衡
-        category_counts[cat] = category_counts.get(cat, 0) + 1
+        # 使用 count 欄位加總（交通事故為月度件數，路燈為該區燈數，橋梁/管線為1）
+        n = r.get("count", 1)
+        if not isinstance(n, (int, float)) or n <= 0:
+            n = 1
+        category_counts[cat] = category_counts.get(cat, 0) + int(n)
 
-        # 子類別統計（供工具提示/詳細展開用）
+        # 子類別統計（同樣用 count 加總）
         sub = r.get("subcategory", "")
         if sub:
             if cat not in subcategory_counts:
                 subcategory_counts[cat] = {}
-            subcategory_counts[cat][sub] = subcategory_counts[cat].get(sub, 0) + 1
+            subcategory_counts[cat][sub] = subcategory_counts[cat].get(sub, 0) + int(n)
 
         loc = r.get("location") or r.get("發生路段") or r.get("地點") or ""
         if loc and len(loc) > 2 and loc not in ("嘉義市",):
