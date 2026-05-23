@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-23T22:12:39.270415",
+  "updated_at": "2026-05-23T14:50:56.768499",
   "news": [
     {
       "headline": "嘉義市青少年福利服務中心全新升級羽球、匹克球共融球場嶄新亮相",
@@ -87,25 +87,14 @@
     }
   ],
   "complaint_stats": {
-    "total": 76704,
-    "record_count": 510,
+    "total": 5018,
+    "record_count": 301,
     "category_counts": {
-      "公共安全": 63975,
-      "交通停車": 12460,
       "道路路平": 258,
       "環境衛生": 5,
-      "行政服務": 6
+      "交通停車": 4755
     },
     "subcategory_counts": {
-      "公共安全": {
-        "交通事故": 35824,
-        "路燈照明": 28113,
-        "水域安全": 38
-      },
-      "交通停車": {
-        "交通事故": 7705,
-        "公有停車場": 4755
-      },
       "道路路平": {
         "電信管線": 35,
         "市府工程": 3,
@@ -117,15 +106,11 @@
       "環境衛生": {
         "噪音管制": 5
       },
-      "行政服務": {
-        "陳情管道": 6
+      "交通停車": {
+        "公有停車場": 4755
       }
     },
     "top_roads": [
-      {
-        "road": "蘭潭水庫",
-        "count": 12
-      },
       {
         "road": "東區嘉義",
         "count": 11
@@ -143,14 +128,6 @@
         "count": 2
       },
       {
-        "road": "親水公園",
-        "count": 2
-      },
-      {
-        "road": "蘭潭水庫三信亭附近",
-        "count": 2
-      },
-      {
         "road": "嘉義市中山路199號",
         "count": 2
       },
@@ -161,24 +138,28 @@
       {
         "road": "西區福民村里上海路1",
         "count": 1
+      },
+      {
+        "road": "西區番社村里民權路",
+        "count": 1
+      },
+      {
+        "road": "西區竹圍村里友愛路3",
+        "count": 1
+      },
+      {
+        "road": "西區書院村里仁愛路4",
+        "count": 1
       }
     ],
     "top_categories": [
       {
-        "category": "公共安全",
-        "count": 63975
-      },
-      {
         "category": "交通停車",
-        "count": 12460
+        "count": 4755
       },
       {
         "category": "道路路平",
         "count": 258
-      },
-      {
-        "category": "行政服務",
-        "count": 6
       },
       {
         "category": "環境衛生",
@@ -186,23 +167,12 @@
       }
     ],
     "year_counts": {
-      "2014": 2988,
-      "2015": 2986,
-      "2016": 2991,
-      "2017": 2990,
-      "2018": 2992,
-      "2019": 3007,
-      "2020": 3286,
-      "2021": 3035,
-      "2022": 3112,
-      "2023": 3318,
-      "2024": 3271,
-      "2025": 8890,
-      "2026": 790,
-      "2012": 1,
-      "2013": 1
+      "2026": 69,
+      "2024": 1,
+      "2025": 16,
+      "2022": 5
     },
-    "updated_at": "2026-05-23T10:14:09.286468",
+    "updated_at": "2026-05-23T14:48:45.464566",
     "source": "data.chiayi.gov.tw"
   },
   "council": {
@@ -230,6 +200,20 @@
   },
   "citizen_stats": {},
   "social_posts": [
+    {
+      "id": "ptt-httpswwwpttccbbsChiayiM1779543426A711html",
+      "platform": "PTT",
+      "platform_color": "#00b300",
+      "board": "Chiayi",
+      "date": "05/23",
+      "author": "PTT 鄉民",
+      "title": "贈送兒童用品及玩具",
+      "url": "https://www.ptt.cc/bbs/Chiayi/M.1779543426.A.711.html",
+      "reactions": 0,
+      "comments": 0,
+      "category": "通學安全",
+      "source": "ptt"
+    },
     {
       "id": "ptt-httpswwwpttccbbsChiayiM1779497416AB61html",
       "platform": "PTT",
@@ -379,20 +363,6 @@
       "author": "PTT 鄉民",
       "title": "[合購] 好事多磁吸式充電線 ",
       "url": "https://www.ptt.cc/bbs/Chiayi/M.1779327312.A.8E8.html",
-      "reactions": 0,
-      "comments": 0,
-      "category": "市政議題",
-      "source": "ptt"
-    },
-    {
-      "id": "ptt-httpswwwpttccbbsChiayiM1779321944A85Fhtml",
-      "platform": "PTT",
-      "platform_color": "#00b300",
-      "board": "Chiayi",
-      "date": "05/23",
-      "author": "PTT 鄉民",
-      "title": "[新聞] 駁黃敏惠沒幫忙一說！ 張啓楷：藍白合",
-      "url": "https://www.ptt.cc/bbs/Chiayi/M.1779321944.A.85F.html",
       "reactions": 0,
       "comments": 0,
       "category": "市政議題",
