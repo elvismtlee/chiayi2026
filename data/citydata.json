@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-23T16:57:04.102652",
+  "updated_at": "2026-05-23T17:43:44.131253",
   "aqi_realtime": [
     {
       "station": "",
@@ -10,7 +10,7 @@
       "no2": 0.0,
       "status": "",
       "pollutant": "",
-      "time": "2026-05-24 00:00",
+      "time": "2026-05-24 01:00",
       "source": "環境部"
     },
     {
@@ -22,7 +22,7 @@
       "no2": 0.0,
       "status": "",
       "pollutant": "",
-      "time": "2026-05-24 00:00",
+      "time": "2026-05-24 01:00",
       "source": "環境部"
     },
     {
@@ -34,7 +34,7 @@
       "no2": 0.0,
       "status": "",
       "pollutant": "",
-      "time": "2026-05-24 00:00",
+      "time": "2026-05-24 01:00",
       "source": "環境部"
     }
   ],
@@ -72,15 +72,15 @@
   "weather": [
     {
       "station": "嘉義市（Open-Meteo）",
-      "temp": "25.4",
-      "apparent_temp": "28.4",
-      "humidity": "74",
+      "temp": "25.0",
+      "apparent_temp": "27.7",
+      "humidity": "75",
       "rainfall": "0.0",
-      "wind_speed": "7.9",
-      "wind_dir": "139",
-      "cloud": "27",
-      "weather": "多雲",
-      "time": "2026-05-24 00:45",
+      "wind_speed": "8.2",
+      "wind_dir": "144",
+      "cloud": "4",
+      "weather": "晴",
+      "time": "2026-05-24 01:30",
       "source": "Open-Meteo"
     }
   ],
@@ -114,16 +114,16 @@
       "source": "Google新聞"
     },
     {
-      "title": "嘉市青少年福利服務中心全新升級 羽球、匹克球共融球場嶄新亮相 - 中央社 CNA",
-      "date": "Sat, 23 May 2026",
-      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5ZUFlxWWxEZnFhWHh6Y0E3dllFVmxfTExaWjdFdzhoeEpGYUdfMlJYd1otVkFLcThpblZvVFR6WVR2RW44UVhrY09TOERwY2NIYVZtVVVR?oc=5",
+      "title": "嘉義市太陽光電補助與模組回收，深入社區巡迴宣導 - 嘉義市政府環境保護局",
+      "date": "Thu, 21 May 2026",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE50RndWTzdkWnZyM3dCaVRaTGVwUkZUY2NXQmF4VS1tLXlYdXoyVG1Uc0ptQkJrUUQ1Q2sxU3g2MGpMTmhBenFSU1FXVEMzQXlnZlZTeDh4YkdpbFE4T0VzNmUzTnJwcE55dzN3?oc=5",
       "desc": "",
       "source": "Google新聞"
     },
     {
-      "title": "嘉義市太陽光電補助與模組回收，深入社區巡迴宣導 - 嘉義市政府環境保護局",
-      "date": "Thu, 21 May 2026",
-      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE50RndWTzdkWnZyM3dCaVRaTGVwUkZUY2NXQmF4VS1tLXlYdXoyVG1Uc0ptQkJrUUQ1Q2sxU3g2MGpMTmhBenFSU1FXVEMzQXlnZlZTeDh4YkdpbFE4T0VzNmUzTnJwcE55dzN3?oc=5",
+      "title": "嘉市青少年福利服務中心全新升級 羽球、匹克球共融球場嶄新亮相 - 中央社 CNA",
+      "date": "Sat, 23 May 2026",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5ZUFlxWWxEZnFhWHh6Y0E3dllFVmxfTExaWjdFdzhoeEpGYUdfMlJYd1otVkFLcThpblZvVFR6WVR2RW44UVhrY09TOERwY2NIYVZtVVVR?oc=5",
       "desc": "",
       "source": "Google新聞"
     }
@@ -191,30 +191,7 @@
     "enterovirus": [],
     "updated": "2026-05-23"
   },
-  "fire": {
-    "chiayi_datasets": [
-      {
-        "title": "",
-        "date": ""
-      },
-      {
-        "title": "",
-        "date": ""
-      },
-      {
-        "title": "",
-        "date": ""
-      },
-      {
-        "title": "",
-        "date": ""
-      },
-      {
-        "title": "",
-        "date": ""
-      }
-    ]
-  },
+  "fire": {},
   "population": [],
   "bus": [
     {
@@ -300,7 +277,7 @@
       "lat": 23.482012,
       "lng": 120.457342,
       "total": 22,
-      "available": 8,
+      "available": 9,
       "addr": "中山路98號(前)"
     },
     {
@@ -309,7 +286,7 @@
       "lat": 23.482663,
       "lng": 120.462988,
       "total": 25,
-      "available": 1,
+      "available": 3,
       "addr": "中山路2號(前)"
     },
     {
@@ -336,7 +313,7 @@
       "lat": 23.4798596,
       "lng": 120.4488291,
       "total": 20,
-      "available": 0,
+      "available": 1,
       "addr": "中山路306號"
     },
     {
@@ -345,7 +322,7 @@
       "lat": 23.47963,
       "lng": 120.44583,
       "total": 20,
-      "available": 3,
+      "available": 6,
       "addr": "中山路386號"
     },
     {
@@ -354,7 +331,7 @@
       "lat": 23.47917,
       "lng": 120.44186,
       "total": 99,
-      "available": 58,
+      "available": 72,
       "addr": "中山路524號"
     },
     {
@@ -363,7 +340,7 @@
       "lat": 23.47877,
       "lng": 120.44089,
       "total": 42,
-      "available": 25,
+      "available": 24,
       "addr": "中山路528號"
     },
     {
@@ -408,7 +385,7 @@
       "lat": 23.486138,
       "lng": 120.453829,
       "total": 20,
-      "available": 6,
+      "available": 7,
       "addr": "忠孝路284號(旁)"
     },
     {
@@ -426,7 +403,7 @@
       "lat": 23.48465,
       "lng": 120.43354,
       "total": 14,
-      "available": 3,
+      "available": 2,
       "addr": "友愛興達路口"
     },
     {
@@ -467,5 +444,5 @@
     }
   ],
   "water": [],
-  "fetch_seconds": 50.7
+  "fetch_seconds": 66.0
 }
