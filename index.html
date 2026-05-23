@@ -160,9 +160,9 @@
         <a href="#sec-trend" class="block group">
           <div class="relative rounded-2xl bg-white/[0.09] backdrop-blur border border-white/20 shadow-lg hover:-translate-y-1.5 hover:bg-white/[0.14] transition-all duration-200 p-5 pt-7">
             <div class="absolute top-0 left-0 right-0 h-[4px] bg-sky-400 rounded-t-2xl"></div>
-            <div class="text-xs font-bold text-slate-300 mb-3">📅 本月事件</div>
+            <div class="text-xs font-bold text-slate-300 mb-3">📅 今年新增</div>
             <div class="text-3xl font-black font-en counter text-white leading-none mb-2" id="kpi-month">0</div>
-            <div class="text-slate-400 text-xs">件・每6小時自動更新</div>
+            <div class="text-slate-400 text-xs">件・2026年累計</div>
             <div class="mt-3 pt-2.5 border-t border-white/10">
               <span class="text-sky-400 text-xs font-bold group-hover:underline">查看投訴趨勢 →</span>
             </div>
@@ -1417,8 +1417,13 @@
 
   function countThisMonth(data) {
     const now = new Date();
-    const ym = `${now.getFullYear()}-${String(now.getMonth()+1).padStart(2,'0')}`;
-    return data.filter(d => d.date && d.date.startsWith(ym))
+    const yr  = String(now.getFullYear());
+    const ym  = `${yr}-${String(now.getMonth()+1).padStart(2,'0')}`;
+    // 嘗試精確月份匹配（YYYY-MM-DD 格式）
+    const monthly = data.filter(d => d.date && d.date.startsWith(ym));
+    if (monthly.length > 0) return monthly.reduce((s,d) => s + (d.count || 1), 0);
+    // 回退：當年度所有紀錄（資料為 YYYY 或 YYYY-MM 格式）
+    return data.filter(d => d.date && String(d.date).startsWith(yr))
                .reduce((s,d) => s + (d.count || 1), 0);
   }
 
@@ -1482,7 +1487,8 @@
     catData.forEach(d => { catMap[d.category] = d.count; });
     CAT_ORDER.forEach(c => { if (!(c in catMap)) catMap[c] = 0; });
 
-    const nonZero  = CAT_ORDER.map(c => ({ category: c, count: catMap[c]||0 })).filter(d=>d.count>0);
+    // 按數量大到小排序，確保第一名在最上方
+    const nonZero  = CAT_ORDER.map(c => ({ category: c, count: catMap[c]||0 })).filter(d=>d.count>0).sort((a,b)=>b.count-a.count);
     const zeroList = CAT_ORDER.map(c => ({ category: c, count: catMap[c]||0 })).filter(d=>d.count===0);
     const maxVal   = nonZero[0]?.count || 1;
     const total    = nonZero.reduce((s,d)=>s+d.count,0) || 1;
