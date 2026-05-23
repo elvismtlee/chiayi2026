@@ -1418,12 +1418,17 @@
   function countThisMonth(data) {
     const now = new Date();
     const yr  = String(now.getFullYear());
-    const ym  = `${yr}-${String(now.getMonth()+1).padStart(2,'0')}`;
-    // 嘗試精確月份匹配（YYYY-MM-DD 格式）
-    const monthly = data.filter(d => d.date && d.date.startsWith(ym));
+    const mm  = String(now.getMonth()+1).padStart(2,'0');
+    // 支援 YYYY-MM、YYYY/MM、YYYY-MM-DD、YYYY/MM/DD 等格式
+    const ymDash  = `${yr}-${mm}`;
+    const ymSlash = `${yr}/${mm}`;
+    const monthly = data.filter(d => {
+      const ds = String(d.date || '');
+      return ds.startsWith(ymDash) || ds.startsWith(ymSlash);
+    });
     if (monthly.length > 0) return monthly.reduce((s,d) => s + (d.count || 1), 0);
-    // 回退：當年度所有紀錄（資料為 YYYY 或 YYYY-MM 格式）
-    return data.filter(d => d.date && String(d.date).startsWith(yr))
+    // 回退：當年度所有紀錄
+    return data.filter(d => String(d.date || '').startsWith(yr))
                .reduce((s,d) => s + (d.count || 1), 0);
   }
 
@@ -1578,7 +1583,7 @@
     const totalBanner = grandTotal > 0
       ? '<div class="mb-3 flex items-center gap-2 text-xs text-slate-500 bg-slate-50 rounded-lg px-3 py-2">' +
           '<span>📊</span>' +
-          '<span>12 年累計 <strong class="text-slate-800">' + grandTotal.toLocaleString() + '</strong> 件次' +
+          '<span>近12年累計 <strong class="text-slate-800">' + grandTotal.toLocaleString() + '</strong> 件次' +
           (srcSummary ? ' <span class="text-slate-400 ml-1">＋' + srcSummary + '</span>' : '') + '</span>' +
         '</div>' : '';
 
@@ -1683,7 +1688,7 @@
       ['總資料筆數', total.toLocaleString(), '筆', '#FED7AA', '#C2410C'],
       ['最高記錄年', peakYear, `${peakVal.toLocaleString()} 件`, '#DBEAFE', '#1D4ED8'],
       [`${nowYear}年累計`, thisYear.toLocaleString(), '件（截至今日）', '#D1FAE5', '#065F46'],
-      ['年均', avgPerYear.toLocaleString(), `件／年（${nonZero.length}年資料）`, '#F3E8FF', '#7E22CE'],
+      ['年均', avgPerYear.toLocaleString(), `件／年（近${nonZero.length}年）`, '#F3E8FF', '#7E22CE'],
     ].map(([label, val, sub, bg, color]) =>
       `<div class="rounded-xl p-3 text-center" style="background:${bg}">
         <div class="text-[10px] font-bold mb-0.5" style="color:${color}">${label}</div>
@@ -1694,7 +1699,7 @@
 
     // 更新標籤
     const tag = gi('trend-update-tag');
-    if (tag) tag.textContent = `${nonZero.length} 年資料`;
+    if (tag) tag.textContent = `近${nonZero.length}年`;
 
     // ── 歷年趨勢折線圖 ───────────────────────────────────────────────────
     const ctx = gi('chartTrend')?.getContext('2d');
