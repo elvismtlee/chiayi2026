@@ -157,12 +157,24 @@
 
     <!-- 路段熱點（2/5） -->
     <div class="lg:col-span-2 card p-6">
-      <div class="mb-4">
-        <h2 class="text-lg font-black text-slate-900">施工熱點路段</h2>
-        <p class="text-sm text-slate-500 mt-0.5">道路挖掘・管線施工 Top 10 路段</p>
+      <div class="flex items-center justify-between mb-3">
+        <div>
+          <h2 class="text-base font-black text-slate-900">🚧 道路施工全面分析</h2>
+          <p class="text-xs text-slate-500 mt-0.5">管線挖掘・市府工程即時施工數據</p>
+        </div>
+        <span class="text-xs font-bold bg-orange-100 text-orange-600 px-2 py-0.5 rounded-full" id="pipeline-status-tag">更新中</span>
       </div>
-      <div class="space-y-1.5" id="road-list"></div>
-      <div class="mt-3 pt-2 border-t border-slate-100">
+      <!-- KPI 磚 -->
+      <div class="grid grid-cols-4 gap-1.5 mb-3" id="pipeline-kpis"></div>
+      <!-- 施工類型分布圖 -->
+      <div class="mb-3">
+        <p class="text-[11px] font-bold text-slate-400 uppercase tracking-wide mb-1.5">施工類型分布</p>
+        <div style="height:90px;"><canvas id="chartPipelineCat"></canvas></div>
+      </div>
+      <!-- 熱點路段 -->
+      <p class="text-[11px] font-bold text-slate-400 uppercase tracking-wide mb-1.5">熱點路段 Top 8</p>
+      <div class="space-y-1" id="road-list"></div>
+      <div class="mt-2 pt-2 border-t border-slate-100">
         <a href="https://data.chiayi.gov.tw/opendata/"
            target="_blank" rel="noopener"
            class="text-xs text-blue-500 font-bold hover:underline">📋 查閱完整施工清單 →</a>
@@ -308,14 +320,16 @@
 </div>
 <!-- ── Row 3：西區各里人口分析 ── -->
   <div class="card p-6 mb-6">
-    <div class="flex items-center justify-between mb-4">
+    <div class="flex items-center justify-between mb-3">
       <div>
-        <h2 class="text-lg font-black text-slate-900">西區各里人口分析</h2>
-        <p class="text-sm text-slate-500 mt-0.5">嘉義市西區各里人口分布（全 45 里依人口排序，資料來源：市府開放資料）</p>
+        <h2 class="text-lg font-black text-slate-900">👥 西區各里人口全面分析</h2>
+        <p class="text-sm text-slate-500 mt-0.5">嘉義市西區全 45 里人口分布，2026年最新統計</p>
       </div>
       <span class="text-xs text-slate-400 font-en bg-green-100 text-green-700 px-3 py-1 rounded-full font-bold">西區選民地圖</span>
     </div>
-    <div id="westPopContainer" style="height:520px;"><canvas id="chartWestPop"></canvas></div>
+    <!-- 人口 KPI 磚 -->
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-3 mb-4" id="pop-kpis"></div>
+    <div id="westPopContainer" style="height:480px;"><canvas id="chartWestPop"></canvas></div>
   </div>
 
   <!-- ── Row 3.5：分類圖表（甜甜圈，備用） + 說明卡 ── -->
@@ -395,16 +409,127 @@
   </div>
 
 
+  <!-- ── 基礎建設詳細分析：橋梁 + 停車 + 噪音 ──────────────────────────────── -->
+  <div class="grid grid-cols-1 lg:grid-cols-3 gap-6 mb-6">
+
+    <!-- 橋梁設施明細 -->
+    <div class="card p-5">
+      <div class="flex items-center justify-between mb-3">
+        <h2 class="text-sm font-black text-slate-900">🌉 橋梁設施全面分析</h2>
+        <span class="text-[10px] font-bold bg-blue-100 text-blue-700 px-2 py-0.5 rounded-full" id="bridge-count-tag">— 座</span>
+      </div>
+      <!-- 道路等級 pill 列 -->
+      <div class="flex gap-1.5 flex-wrap mb-2" id="bridge-class-stats"></div>
+      <!-- 道路等級分布圖 -->
+      <div class="mb-2">
+        <p class="text-[11px] font-bold text-slate-400 uppercase tracking-wide mb-1">道路等級分布</p>
+        <div style="height:80px;"><canvas id="chartBridgeClass"></canvas></div>
+      </div>
+      <!-- 橋梁列表 -->
+      <p class="text-[11px] font-bold text-slate-400 uppercase tracking-wide mb-1">橋梁明細</p>
+      <div class="overflow-y-auto space-y-1" style="max-height:160px;" id="bridge-list-detail">
+        <div class="text-sm text-slate-400 text-center py-4">橋梁資料載入中...</div>
+      </div>
+      <div class="mt-2 pt-2 border-t border-slate-100">
+        <a href="https://data.chiayi.gov.tw/opendata/" target="_blank" rel="noopener"
+           class="text-xs text-blue-500 font-bold hover:underline">📋 查閱橋梁完整資料 →</a>
+      </div>
+    </div>
+
+    <!-- 公有停車場容量分析 -->
+    <div class="card p-5">
+      <div class="flex items-center justify-between mb-2">
+        <h2 class="text-sm font-black text-slate-900">🅿️ 停車場容量分析</h2>
+        <span class="text-[10px] font-bold bg-green-100 text-green-700 px-2 py-0.5 rounded-full" id="parking-count-tag">— 處</span>
+      </div>
+      <!-- KPI -->
+      <div class="grid grid-cols-2 gap-1.5 mb-2">
+        <div class="bg-green-50 rounded-lg p-1.5 text-center">
+          <div class="text-[10px] text-green-500 font-bold">總車格</div>
+          <div class="text-base font-black text-green-700" id="parking-total-cap2">—</div>
+        </div>
+        <div class="bg-blue-50 rounded-lg p-1.5 text-center">
+          <div class="text-[10px] text-blue-500 font-bold">最大停車場</div>
+          <div class="text-sm font-black text-blue-700 truncate" id="parking-top-name">—</div>
+        </div>
+      </div>
+      <!-- 容量排行圖 -->
+      <div style="height:120px;"><canvas id="chartParking"></canvas></div>
+      <!-- 停車場明細列表 -->
+      <div class="overflow-y-auto space-y-1 mt-2" style="max-height:100px;" id="parking-list-detail">
+        <div class="text-sm text-slate-400 text-center py-2">停車場資料載入中...</div>
+      </div>
+      <div class="mt-1 pt-1 border-t border-slate-100 flex justify-between text-[10px]">
+        <span class="text-slate-400">停車場總數</span>
+        <span class="font-black text-slate-700" id="parking-total-cap">— 處</span>
+      </div>
+    </div>
+
+    <!-- 噪音污染分析 -->
+    <div class="card p-5">
+      <div class="flex items-center justify-between mb-2">
+        <h2 class="text-sm font-black text-slate-900">🔊 噪音污染分析</h2>
+        <span class="text-[10px] font-bold px-2 py-0.5 rounded-full" id="noise-alert-tag"
+              style="background:#FEE2E2;color:#DC2626">—站超標</span>
+      </div>
+      <!-- KPI -->
+      <div class="grid grid-cols-3 gap-1 mb-2">
+        <div class="bg-red-50 rounded-lg p-1 text-center">
+          <div class="text-[9px] text-red-400 font-bold">最高</div>
+          <div class="text-sm font-black text-red-600" id="noise-max-db">—</div>
+          <div class="text-[9px] text-red-300">dB</div>
+        </div>
+        <div class="bg-amber-50 rounded-lg p-1 text-center">
+          <div class="text-[9px] text-amber-500 font-bold">平均</div>
+          <div class="text-sm font-black text-amber-600" id="noise-avg-db">—</div>
+          <div class="text-[9px] text-amber-300">dB</div>
+        </div>
+        <div class="bg-green-50 rounded-lg p-1 text-center">
+          <div class="text-[9px] text-green-500 font-bold">標準值</div>
+          <div class="text-sm font-black text-green-600">65</div>
+          <div class="text-[9px] text-green-300">dB</div>
+        </div>
+      </div>
+      <!-- 各站分貝比較圖 -->
+      <div style="height:100px;"><canvas id="chartNoise"></canvas></div>
+      <!-- 監測站明細 -->
+      <div class="space-y-1 mt-2" id="noise-list-detail">
+        <div class="text-sm text-slate-400 text-center py-2">監測資料載入中...</div>
+      </div>
+    </div>
+
+  </div>
+
   <!-- ── 水域安全 + 議會資料 ──────────────────────────────────────────────── -->
   <div class="grid grid-cols-1 lg:grid-cols-3 gap-6 mb-6">
 
     <!-- 溺水安全統計 -->
     <div class="card p-6">
-      <h2 class="text-base font-black text-slate-900 mb-3">🌊 水域溺水安全</h2>
-      <div class="text-4xl font-black text-blue-600 mb-1" id="drowning-total">—</div>
-      <p class="text-xs text-slate-400 mb-3">件歷年溺水案件</p>
-      <div class="space-y-1.5" id="drowning-type-list"></div>
-      <p class="text-xs text-blue-600 font-bold mt-3">⚠️ 水域安全需全面提升，溺水高峰在夏季</p>
+      <div class="flex items-center justify-between mb-3">
+        <h2 class="text-base font-black text-slate-900">🌊 水域安全全面分析</h2>
+        <span class="text-xs font-bold bg-blue-100 text-blue-700 px-2 py-0.5 rounded-full">歷年資料</span>
+      </div>
+      <!-- KPI 磚 -->
+      <div class="grid grid-cols-2 gap-2 mb-3">
+        <div class="bg-blue-50 rounded-xl p-2 text-center">
+          <div class="text-[10px] text-blue-400 font-bold">歷年總案件</div>
+          <div class="text-2xl font-black text-blue-600" id="drowning-total">—</div>
+          <div class="text-[9px] text-blue-300">件</div>
+        </div>
+        <div class="bg-red-50 rounded-xl p-2 text-center">
+          <div class="text-[10px] text-red-400 font-bold">最高年份</div>
+          <div class="text-lg font-black text-red-600" id="drowning-peak-year">—</div>
+          <div class="text-[9px] text-red-300" id="drowning-peak-count"></div>
+        </div>
+      </div>
+      <!-- 年度趨勢圖 -->
+      <div class="mb-2">
+        <p class="text-[11px] font-bold text-slate-400 uppercase tracking-wide mb-1">歷年趨勢</p>
+        <div style="height:90px;"><canvas id="chartDrowningYear"></canvas></div>
+      </div>
+      <!-- 水域類型 -->
+      <div class="space-y-1" id="drowning-type-list"></div>
+      <p class="text-[11px] text-blue-600 font-bold mt-2">⚠️ 水域安全需加強，溺水高峰在夏季</p>
     </div>
 
     <!-- 議員質詢記錄 -->
@@ -414,7 +539,7 @@
         <a href="https://www.cycc.gov.tw" target="_blank" rel="noopener"
            class="text-xs text-blue-600 font-bold hover:underline">→ 議會官網</a>
       </div>
-      <div class="grid grid-cols-3 gap-2 mb-3">
+      <div class="grid grid-cols-4 gap-2 mb-3">
         <div class="bg-purple-50 rounded-lg p-2 text-center">
           <div class="text-xs text-purple-400 font-bold">會議場次</div>
           <div class="text-xl font-black text-purple-700" id="council-meetings">—</div>
@@ -427,9 +552,19 @@
           <div class="text-xs text-slate-400 font-bold">現任議員</div>
           <div class="text-xl font-black text-slate-700" id="council-members">17</div>
         </div>
+        <div class="bg-orange-50 rounded-lg p-2 text-center">
+          <div class="text-xs text-orange-400 font-bold">資料年份</div>
+          <div class="text-xl font-black text-orange-600">11屆</div>
+        </div>
       </div>
-      <div class="overflow-y-auto space-y-1.5" style="max-height:130px;" id="council-meeting-list">
+      <!-- 最新議事紀錄 -->
+      <div class="overflow-y-auto space-y-1.5" style="max-height:90px;" id="council-meeting-list">
         <div class="text-sm text-slate-400 text-center py-4">議會資料載入中...</div>
+      </div>
+      <!-- 議事分析 -->
+      <div class="mt-2 mb-1">
+        <p class="text-[11px] font-bold text-slate-400 uppercase tracking-wide mb-1">議題分類分析</p>
+        <div id="council-cat-analysis" class="grid grid-cols-3 gap-1.5"></div>
       </div>
       <div class="mt-3 pt-3 border-t border-slate-100">
         <p class="text-xs text-slate-400 mb-1.5 font-bold">議員名單（第 11 屆）</p>
@@ -1128,6 +1263,9 @@ function renderAccidentStats() {
   function renderBridgeDetail() {
     const bridges = dataset.filter(r => r.subcategory === '橋梁設施');
     if (!bridges.length) return;
+    // 橋梁數量標籤
+    const ctag = document.getElementById('bridge-count-tag');
+    if (ctag) ctag.textContent = bridges.length + ' 座';
     // 道路等級統計
     const classMap = {};
     bridges.forEach(b => { const c = b.description?.match(/([^，]+)，/)?.[1] || '其他'; classMap[c] = (classMap[c]||0)+1; });
@@ -1252,6 +1390,312 @@ function renderAccidentStats() {
   // Override after original definition
 
   // ── 主程式 ──
+
+  // ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  //  施工路段全面分析
+  // ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  function renderPipelineAnalytics() {
+    const pipe = dataset.filter(r => r.category === '道路路平');
+    if (!pipe.length) return;
+
+    // KPI 計算
+    const active   = pipe.filter(r => r.status === '施工中').length;
+    const pending  = pipe.filter(r => r.status === '申請中').length;
+    const done     = pipe.filter(r => r.status === '已完工').length;
+    const applicants = new Set(pipe.map(r => r.applicant).filter(Boolean)).size;
+
+    // KPI 磚
+    const kEl = document.getElementById('pipeline-kpis');
+    if (kEl) kEl.innerHTML = [
+      ['施工中', active,    '#FED7AA', '#C2410C'],
+      ['申請中', pending,   '#FEF3C7', '#92400E'],
+      ['已完工', done,      '#D1FAE5', '#065F46'],
+      ['申請單位', applicants, '#E0E7FF', '#3730A3'],
+    ].map(([label, val, bg, color]) =>
+      `<div class="rounded-xl p-2 text-center" style="background:${bg}">
+        <div class="text-[10px] font-bold" style="color:${color}">${label}</div>
+        <div class="text-xl font-black" style="color:${color}">${val}</div>
+      </div>`
+    ).join('');
+
+    // 狀態標籤
+    const tag = document.getElementById('pipeline-status-tag');
+    if (tag) { tag.textContent = `共 ${pipe.length} 路段`; }
+
+    // 施工類型分布橫條圖
+    const catMap = {};
+    pipe.forEach(r => {
+      const s = r.subcategory || '道路施工';
+      catMap[s] = (catMap[s] || 0) + 1;
+    });
+    const sorted = Object.entries(catMap).sort((a,b) => b[1]-a[1]);
+    const catLabels = sorted.map(([k]) => k);
+    const catVals   = sorted.map(([,v]) => v);
+    const catColors = ['#F97316','#EF4444','#3B82F6','#8B5CF6','#10B981','#F59E0B','#EC4899','#06B6D4'];
+
+    const ctx = document.getElementById('chartPipelineCat')?.getContext('2d');
+    if (ctx && catLabels.length > 0) {
+      new Chart(ctx, {
+        type: 'bar',
+        data: {
+          labels: catLabels,
+          datasets: [{ data: catVals, backgroundColor: catColors.slice(0, catVals.length), borderRadius: 4, borderSkipped: false }]
+        },
+        options: {
+          indexAxis: 'y',
+          responsive: true, maintainAspectRatio: false,
+          plugins: { legend: { display: false },
+            tooltip: { callbacks: { label: c => ` ${c.parsed.x} 路段` } } },
+          scales: {
+            x: { grid: { display: false }, ticks: { font: { size: 10 } }, beginAtZero: true },
+            y: { grid: { display: false }, ticks: { font: { size: 10 } } }
+          }
+        }
+      });
+    }
+  }
+
+  // ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  //  橋梁道路等級分布圖
+  // ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  function renderBridgeChart() {
+    const bridges = dataset.filter(r => r.subcategory === '橋梁設施' || r.category === '道路路平' && r.title && r.title.includes('橋'));
+    if (!bridges.length) return;
+    // 等級計算（從 title 或 description 解析等級資訊）
+    const classMap = {};
+    bridges.forEach(r => {
+      // 從 location/title 推斷道路等級
+      const loc = (r.location || '') + (r.title || '');
+      let cls = '一般道路';
+      if (/國道|台\d+線/.test(loc))         cls = '國道/省道';
+      else if (/縣道|市道/.test(loc))        cls = '縣市道路';
+      else if (/鄉道|里道/.test(loc))        cls = '鄉里道路';
+      else if (/人行橋|步道/.test(loc))      cls = '人行橋梁';
+      else if (/排水|灌溉/.test(loc))        cls = '水利橋梁';
+      classMap[cls] = (classMap[cls] || 0) + 1;
+    });
+    const entries = Object.entries(classMap).sort((a,b) => b[1]-a[1]);
+    const ctx = document.getElementById('chartBridgeClass')?.getContext('2d');
+    if (!ctx || !entries.length) return;
+    new Chart(ctx, {
+      type: 'bar',
+      data: {
+        labels: entries.map(([k]) => k),
+        datasets: [{ data: entries.map(([,v]) => v),
+          backgroundColor: ['#3B82F6','#F97316','#10B981','#8B5CF6','#F59E0B','#EF4444'],
+          borderRadius: 4, borderSkipped: false }]
+      },
+      options: {
+        responsive: true, maintainAspectRatio: false,
+        plugins: { legend: { display: false },
+          tooltip: { callbacks: { label: c => ` ${c.parsed.y} 座橋梁` } } },
+        scales: {
+          x: { grid: { display: false }, ticks: { font: { size: 10 } } },
+          y: { grid: { color: '#F1F5F9' }, ticks: { font: { size: 10 } }, beginAtZero: true }
+        }
+      }
+    });
+  }
+
+  // ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  //  停車場容量排行圖
+  // ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  function renderParkingChart() {
+    const lots = dataset.filter(r => r.subcategory === '公有停車場' && r.count > 0);
+    if (!lots.length) return;
+    const sorted = [...lots].sort((a,b) => b.count - a.count).slice(0, 10);
+    const total  = lots.reduce((s,r) => s+r.count, 0);
+    const top    = sorted[0];
+
+    // KPI 更新
+    const gi = id => document.getElementById(id);
+    if (gi('parking-total-cap2')) gi('parking-total-cap2').textContent = total.toLocaleString();
+    if (gi('parking-top-name'))   gi('parking-top-name').textContent   = (top?.title || '').slice(0,8);
+    if (gi('parking-count-tag'))  gi('parking-count-tag').textContent  = `${lots.length} 處`;
+    if (gi('parking-total-cap'))  gi('parking-total-cap').textContent  = `${lots.length} 處・${total.toLocaleString()} 格`;
+
+    const ctx = gi('chartParking')?.getContext('2d');
+    if (!ctx) return;
+    new Chart(ctx, {
+      type: 'bar',
+      data: {
+        labels: sorted.map(r => (r.title||'').replace('嘉義市','').replace('公有','').slice(0,8)),
+        datasets: [{ data: sorted.map(r=>r.count),
+          backgroundColor: sorted.map((_,i) => i === 0 ? '#10B981' : i < 3 ? '#34D399' : '#A7F3D0'),
+          borderRadius: 3, borderSkipped: false }]
+      },
+      options: {
+        indexAxis: 'y',
+        responsive: true, maintainAspectRatio: false,
+        plugins: { legend: { display: false },
+          tooltip: { callbacks: { label: c => ` ${c.parsed.x} 格` } } },
+        scales: {
+          x: { grid: { color: '#F1F5F9' }, ticks: { font: { size: 9 } }, beginAtZero: true },
+          y: { grid: { display: false }, ticks: { font: { size: 9 } } }
+        }
+      }
+    });
+  }
+
+  // ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  //  噪音監測分析圖
+  // ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  function renderNoiseChart() {
+    const noise = dataset.filter(r => r.subcategory === '噪音監測' || r.subcategory === '噪音管制');
+    if (!noise.length) return;
+    // 彙整各站資料（每站取最新平均值）
+    const stMap = {};
+    noise.forEach(r => {
+      const st = r.location || r.title || '未知站';
+      if (!stMap[st] || (r.date || '') > (stMap[st].date || '')) {
+        stMap[st] = { db: r.count || 0, date: r.date || '' };
+      }
+    });
+    const stList = Object.entries(stMap).map(([st, d]) => ({ st, db: d.db }))
+                         .filter(s => s.db > 0)
+                         .sort((a,b) => b.db - a.db)
+                         .slice(0, 8);
+    if (!stList.length) return;
+
+    const limit = 65;
+    const overCount = stList.filter(s => s.db > limit).length;
+    const avgDb = Math.round(stList.reduce((s,x)=>s+x.db,0)/stList.length);
+
+    const gi = id => document.getElementById(id);
+    if (gi('noise-max-db'))    gi('noise-max-db').textContent    = stList[0].db;
+    if (gi('noise-avg-db'))    gi('noise-avg-db').textContent    = avgDb;
+    if (gi('noise-alert-tag')) {
+      gi('noise-alert-tag').textContent = `${overCount} 站超標`;
+      gi('noise-alert-tag').style.background = overCount > 0 ? '#FEE2E2' : '#D1FAE5';
+      gi('noise-alert-tag').style.color      = overCount > 0 ? '#DC2626' : '#065F46';
+    }
+
+    const ctx = gi('chartNoise')?.getContext('2d');
+    if (!ctx) return;
+    new Chart(ctx, {
+      type: 'bar',
+      data: {
+        labels: stList.map(s => s.st.replace('嘉義市','').slice(0,6)),
+        datasets: [{ data: stList.map(s=>s.db),
+          backgroundColor: stList.map(s => s.db > limit ? '#EF4444' : '#F59E0B'),
+          borderRadius: 3, borderSkipped: false }]
+      },
+      options: {
+        indexAxis: 'y',
+        responsive: true, maintainAspectRatio: false,
+        plugins: {
+          legend: { display: false },
+          annotation: {},
+          tooltip: { callbacks: { label: c => ` ${c.parsed.x} dB${c.parsed.x > limit ? ' ⚠️超標' : ''}` } }
+        },
+        scales: {
+          x: { min: 40, grid: { color: '#F1F5F9' }, ticks: { font: { size: 9 } } },
+          y: { grid: { display: false }, ticks: { font: { size: 9 } } }
+        }
+      }
+    });
+  }
+
+  // ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  //  溺水安全年度趨勢圖
+  // ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  function renderDrowningChart() {
+    const dr = dataset.filter(r => r.subcategory === '水域安全');
+    if (!dr.length) return;
+    // 年度統計
+    const yearMap = {};
+    dr.forEach(r => {
+      const y = r.year || (r.date||'').slice(0,4);
+      if (y) yearMap[y] = (yearMap[y]||0) + 1;
+    });
+    const years  = Object.keys(yearMap).sort();
+    const vals   = years.map(y => yearMap[y]);
+    const maxY   = years[vals.indexOf(Math.max(...vals))];
+    const maxV   = Math.max(...vals);
+
+    const gi = id => document.getElementById(id);
+    if (gi('drowning-peak-year'))  gi('drowning-peak-year').textContent  = maxY || '—';
+    if (gi('drowning-peak-count')) gi('drowning-peak-count').textContent = maxV ? `${maxV} 件` : '';
+
+    const ctx = gi('chartDrowningYear')?.getContext('2d');
+    if (!ctx || !years.length) return;
+    new Chart(ctx, {
+      type: 'bar',
+      data: {
+        labels: years,
+        datasets: [{ data: vals,
+          backgroundColor: vals.map(v => v === maxV ? '#3B82F6' : '#BFDBFE'),
+          borderRadius: 3, borderSkipped: false }]
+      },
+      options: {
+        responsive: true, maintainAspectRatio: false,
+        plugins: { legend: { display: false },
+          tooltip: { callbacks: { label: c => ` ${c.parsed.y} 件溺水` } } },
+        scales: {
+          x: { grid: { display: false }, ticks: { font: { size: 9 } } },
+          y: { grid: { color: '#F1F5F9' }, ticks: { font: { size: 9 } }, beginAtZero: true }
+        }
+      }
+    });
+  }
+
+  // ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  //  西區人口 KPI 磚
+  // ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  function renderPopKPIs() {
+    const pop = westPopData.filter(d => d.count > 0 && d.title && d.title.includes('里'));
+    if (!pop.length) return;
+    const total   = pop.reduce((s,d)=>s+d.count, 0);
+    const sorted  = [...pop].sort((a,b) => b.count-a.count);
+    const topVil  = sorted[0];
+    const btmVil  = sorted[sorted.length-1];
+    const avgPop  = Math.round(total / pop.length);
+    const gi = id => document.getElementById(id);
+    const el = gi('pop-kpis');
+    if (!el) return;
+    el.innerHTML = [
+      ['總人口', total.toLocaleString(), '人', '#FED7AA', '#C2410C'],
+      ['里數', pop.length, '里', '#D1FAE5', '#065F46'],
+      ['最大里（'+topVil.title.replace('嘉義市西區','').replace('人口','')+'）', topVil.count.toLocaleString(), '人', '#DBEAFE', '#1D4ED8'],
+      ['里平均人口', avgPop.toLocaleString(), '人', '#F3E8FF', '#7E22CE'],
+    ].map(([label, val, unit, bg, color]) =>
+      `<div class="rounded-xl p-3 text-center" style="background:${bg}">
+        <div class="text-[10px] font-bold mb-0.5" style="color:${color}">${label}</div>
+        <div class="text-lg font-black" style="color:${color}">${val}</div>
+        <div class="text-[9px]" style="color:${color}">${unit}</div>
+      </div>`
+    ).join('');
+  }
+
+  // ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  //  議會議題分類分析
+  // ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  function renderCouncilCatAnalysis() {
+    const cs = typeof councilStat !== 'undefined' ? councilStat : {};
+    const el = document.getElementById('council-cat-analysis');
+    if (!el) return;
+    // 從 dataset 中找出跟議會相關的資料做分析
+    const catCount = {};
+    categoryData.forEach(d => { catCount[d.category] = d.count; });
+    // 顯示前 3 大議題與進度
+    const total = categoryData.reduce((s,d)=>s+d.count, 0) || 1;
+    const top3  = categoryData.slice(0,3);
+    el.innerHTML = top3.map(d => {
+      const pct = Math.round(d.count/total*100);
+      const color = getCatColor(d.category);
+      return `<div class="bg-slate-50 rounded-lg p-2">
+        <div class="flex justify-between text-[10px] mb-1">
+          <span class="font-bold text-slate-700">${getCatIcon(d.category)}${d.category}</span>
+          <span class="font-black" style="color:${color}">${pct}%</span>
+        </div>
+        <div class="h-1 bg-slate-200 rounded-full overflow-hidden">
+          <div class="h-full rounded-full" style="width:${pct}%;background:${color}"></div>
+        </div>
+        <div class="text-[9px] text-slate-400 mt-0.5">${d.count.toLocaleString()} 件</div>
+      </div>`;
+    }).join('');
+  }
+
   document.addEventListener('DOMContentLoaded', () => {
     const effCat  = (categoryData && categoryData.length > 0) ? categoryData : computeCatData(dataset);
     const effRoad = (roadData && roadData.length > 0) ? roadData : computeRoadData(dataset);
@@ -1278,6 +1722,13 @@ function renderAccidentStats() {
     renderNoiseDetail();
     renderDrowningStats();
     renderCouncilSection();
+    renderPipelineAnalytics();
+    renderBridgeChart();
+    renderParkingChart();
+    renderNoiseChart();
+    renderDrowningChart();
+    renderPopKPIs();
+    renderCouncilCatAnalysis();
     renderSummary(effCat);
     renderTable(dataset);
   });
