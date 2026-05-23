@@ -185,11 +185,12 @@ def build_dashboard(news, complaint_stats, council_data, citizen_stats, social_p
     cat_data = [d for d in cat_data if d.get("category") not in EXCLUDE_CATS]
 
     # 合併社群貼文的類別計數（讓 13 類別都有資料）
+    # 使用已傳入的 social_posts 參數（不再重讀 JSON，all_social 在後面才載入）
     VALID_CATS = {"交通停車", "道路路平", "人行步道", "環境衛生", "排水水利",
                   "公共安全", "市場商圈", "公園綠地", "通學安全", "社福高齡",
                   "文化觀光", "行政服務", "其他"}
     cat_map = {d["category"]: d["count"] for d in cat_data}
-    for post in all_social:
+    for post in (social_posts or []):
         pcat = post.get("category", "其他")
         if pcat in VALID_CATS:
             cat_map[pcat] = cat_map.get(pcat, 0) + 1
