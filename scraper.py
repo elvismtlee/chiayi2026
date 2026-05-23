@@ -434,9 +434,14 @@ def build_dashboard(news, complaint_stats, council_data, citizen_stats, social_p
             flags=re.DOTALL,
         )
 
-    # 注入更新時間（使用 regex 確保每次都能更新，無論目前值為何）
+    # 注入更新時間（只替換 HTML 元素內的靜態時間戳，不觸碰 JS 模板字串）
+    # 精準匹配 id="last-update"> 後面的內容直到 </span>
     now_str = datetime.now().strftime("%Y-%m-%d %H:%M")
-    html = re.sub(r"最後更新：[^<\"]*", f"最後更新：{now_str}", html)
+    html = re.sub(
+        r'(id="last-update"[^>]*>)最後更新：[^<]*',
+        rf'\g<1>最後更新：{now_str}',
+        html
+    )
 
     index_path.write_text(html, encoding="utf-8")
 
