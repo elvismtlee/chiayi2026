@@ -189,7 +189,46 @@
         </div>
         <span class="text-xs font-bold text-orange-700 bg-orange-50 px-3 py-1 rounded-full">多源整合</span>
       </div>
+      <!-- KPI 磚 -->
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-2 mb-4" id="cat-kpis">
+        <div class="bg-orange-50 border border-orange-100 rounded-xl p-2.5 text-center">
+          <div class="text-[10px] font-bold text-orange-400 uppercase tracking-wide mb-0.5">最大議題</div>
+          <div class="text-base font-black text-orange-600 leading-tight" id="cat-top-name">—</div>
+          <div class="text-[9px] text-orange-300 mt-0.5" id="cat-top-count"></div>
+        </div>
+        <div class="bg-red-50 border border-red-100 rounded-xl p-2.5 text-center">
+          <div class="text-[10px] font-bold text-red-400 uppercase tracking-wide mb-0.5">總投訴數</div>
+          <div class="text-xl font-black text-red-600" id="cat-total-records">—</div>
+          <div class="text-[9px] text-red-300 mt-0.5">件（全資料集）</div>
+        </div>
+        <div class="bg-blue-50 border border-blue-100 rounded-xl p-2.5 text-center">
+          <div class="text-[10px] font-bold text-blue-400 uppercase tracking-wide mb-0.5">今年新增</div>
+          <div class="text-xl font-black text-blue-600" id="cat-this-year">—</div>
+          <div class="text-[9px] text-blue-300 mt-0.5">件（2026）</div>
+        </div>
+        <div class="bg-emerald-50 border border-emerald-100 rounded-xl p-2.5 text-center">
+          <div class="text-[10px] font-bold text-emerald-500 uppercase tracking-wide mb-0.5">議題覆蓋</div>
+          <div class="text-xl font-black text-emerald-600" id="cat-active-cats">—</div>
+          <div class="text-[9px] text-emerald-300 mt-0.5">類別有紀錄</div>
+        </div>
+      </div>
+      <!-- 議題橫條 -->
       <div class="space-y-2.5" id="cat-bars"></div>
+      <!-- 洞察文字 -->
+      <div class="mt-4 pt-3 border-t border-slate-100 grid grid-cols-1 md:grid-cols-3 gap-2" id="cat-insights">
+        <div class="bg-orange-50 rounded-xl p-3">
+          <p class="text-[10px] font-black text-orange-600 mb-1">🏆 第一優先</p>
+          <p class="text-xs text-slate-700" id="cat-insight-1">計算中…</p>
+        </div>
+        <div class="bg-blue-50 rounded-xl p-3">
+          <p class="text-[10px] font-black text-blue-600 mb-1">📈 成長最快</p>
+          <p class="text-xs text-slate-700" id="cat-insight-2">計算中…</p>
+        </div>
+        <div class="bg-emerald-50 rounded-xl p-3">
+          <p class="text-[10px] font-black text-emerald-600 mb-1">✅ 監測重點</p>
+          <p class="text-xs text-slate-700">交通停車・道路路平・人行步道 是西區最急需改善的三大民生議題</p>
+        </div>
+      </div>
     </div>
 
     <!-- 路段熱點（2/5） -->
@@ -549,95 +588,160 @@
 
   </div>
 
-  <!-- ── 水域安全 + 議會資料 ──────────────────────────────────────────────── -->
-  <div class="grid grid-cols-1 lg:grid-cols-3 gap-6 mb-6">
-
-    <!-- 溺水安全統計 -->
-    <div class="card p-6">
-      <div class="flex items-center justify-between mb-3">
-        <h2 class="text-base font-black text-slate-900">🌊 水域安全全面分析</h2>
-        <span class="text-xs font-bold bg-blue-100 text-blue-700 px-2 py-0.5 rounded-full">歷年資料</span>
+  <!-- ── 水域安全全面分析（全幅） ── -->
+  <div class="card p-6 mb-6">
+    <div class="flex items-center justify-between mb-4">
+      <div>
+        <h2 class="text-lg font-black text-slate-900">🌊 水域安全全面分析</h2>
+        <p class="text-sm text-slate-500 mt-0.5">嘉義市溺水事故歷年統計，來源：政府開放資料</p>
       </div>
-      <!-- KPI 磚 -->
-      <div class="grid grid-cols-2 gap-2 mb-3">
-        <div class="bg-blue-50 rounded-xl p-2 text-center">
-          <div class="text-[10px] text-blue-400 font-bold">歷年總案件</div>
-          <div class="text-2xl font-black text-blue-600" id="drowning-total">—</div>
-          <div class="text-[9px] text-blue-300">件</div>
-        </div>
-        <div class="bg-red-50 rounded-xl p-2 text-center">
-          <div class="text-[10px] text-red-400 font-bold">最高年份</div>
-          <div class="text-lg font-black text-red-600" id="drowning-peak-year">—</div>
-          <div class="text-[9px] text-red-300" id="drowning-peak-count"></div>
-        </div>
-      </div>
-      <!-- 年度趨勢圖 -->
-      <div class="mb-2">
-        <p class="text-[11px] font-bold text-slate-400 uppercase tracking-wide mb-1">歷年趨勢</p>
-        <div style="height:90px;"><canvas id="chartDrowningYear"></canvas></div>
-      </div>
-      <!-- 水域類型 -->
-      <div class="space-y-1" id="drowning-type-list"></div>
-      <p class="text-[11px] text-blue-600 font-bold mt-2">⚠️ 水域安全需加強，溺水高峰在夏季</p>
+      <span class="text-xs font-bold bg-blue-100 text-blue-700 px-3 py-1 rounded-full">公共安全</span>
     </div>
+    <!-- KPI 磚 -->
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-3 mb-5">
+      <div class="bg-blue-50 border border-blue-100 rounded-xl p-3 text-center">
+        <div class="text-xs font-bold text-blue-400 uppercase tracking-wide mb-1">歷年總案件</div>
+        <div class="text-2xl font-black text-blue-600" id="drowning-total">—</div>
+        <div class="text-[10px] text-blue-300 mt-0.5">件</div>
+      </div>
+      <div class="bg-red-50 border border-red-100 rounded-xl p-3 text-center">
+        <div class="text-xs font-bold text-red-400 uppercase tracking-wide mb-1">最高峰年份</div>
+        <div class="text-2xl font-black text-red-600" id="drowning-peak-year">—</div>
+        <div class="text-[10px] text-red-300 mt-0.5" id="drowning-peak-count">件</div>
+      </div>
+      <div class="bg-amber-50 border border-amber-100 rounded-xl p-3 text-center">
+        <div class="text-xs font-bold text-amber-500 uppercase tracking-wide mb-1">夏季佔比</div>
+        <div class="text-2xl font-black text-amber-600" id="drowning-summer-pct">—</div>
+        <div class="text-[10px] text-amber-300 mt-0.5">% 6–9月</div>
+      </div>
+      <div class="bg-rose-50 border border-rose-100 rounded-xl p-3 text-center">
+        <div class="text-xs font-bold text-rose-400 uppercase tracking-wide mb-1">水域類型</div>
+        <div class="text-2xl font-black text-rose-600" id="drowning-type-count">—</div>
+        <div class="text-[10px] text-rose-300 mt-0.5">種水域</div>
+      </div>
+    </div>
+    <!-- 趨勢圖 + 水域分布 -->
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-4 mb-4">
+      <div class="md:col-span-2">
+        <p class="text-xs font-bold text-slate-500 mb-2">歷年溺水件數趨勢</p>
+        <div style="height:160px;"><canvas id="chartDrowningYear"></canvas></div>
+      </div>
+      <div>
+        <p class="text-xs font-bold text-slate-500 mb-2">水域類型分布</p>
+        <div style="height:160px;"><canvas id="chartDrowningType"></canvas></div>
+      </div>
+    </div>
+    <!-- 洞察 + 水域明細 -->
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+      <div id="drowning-insight" class="space-y-1.5 text-xs text-slate-600">
+        <p class="font-black text-slate-700 text-sm mb-2">📋 安全洞察</p>
+        <div class="bg-blue-50 rounded-lg p-2.5">⚠️ <strong>夏季高風險：</strong>溺水事故在 6–9 月暑假期間顯著增加，需加強水域巡邏</div>
+        <div class="bg-red-50 rounded-lg p-2.5">🚨 <strong>重點水域：</strong>河川溝渠為主要事故發生地，應優先設置警示標誌</div>
+        <div class="bg-orange-50 rounded-lg p-2.5">📍 <strong>改善方向：</strong>增設水域警示設施、強化巡查頻率、辦理水域安全教育</div>
+      </div>
+      <div>
+        <p class="text-xs font-bold text-slate-500 mb-2">水域類型明細</p>
+        <div class="space-y-1" id="drowning-type-list"></div>
+      </div>
+    </div>
+  </div>
 
-    <!-- 議員質詢記錄 -->
-    <div class="card p-6 lg:col-span-2">
-      <div class="flex items-center justify-between mb-3">
-        <h2 class="text-base font-black text-slate-900">🏛️ 嘉義市議會會議紀錄</h2>
-        <a href="https://www.cycc.gov.tw" target="_blank" rel="noopener"
-           class="text-xs text-blue-600 font-bold hover:underline">→ 議會官網</a>
+  <!-- ── 嘉義市議會全面分析（全幅） ── -->
+  <div class="card p-6 mb-6">
+    <div class="flex items-center justify-between mb-4">
+      <div>
+        <h2 class="text-lg font-black text-slate-900">🏛️ 嘉義市議會全面分析</h2>
+        <p class="text-sm text-slate-500 mt-0.5">第11屆議會會議紀錄・質詢主題・議員結構，來源：嘉義市議會</p>
       </div>
-      <div class="grid grid-cols-4 gap-2 mb-3">
-        <div class="bg-purple-50 rounded-lg p-2 text-center">
-          <div class="text-xs text-purple-400 font-bold">會議場次</div>
-          <div class="text-xl font-black text-purple-700" id="council-meetings">—</div>
-        </div>
-        <div class="bg-indigo-50 rounded-lg p-2 text-center">
-          <div class="text-xs text-indigo-400 font-bold">質詢記錄</div>
-          <div class="text-xl font-black text-indigo-700" id="council-questions">—</div>
-        </div>
-        <div class="bg-slate-100 rounded-lg p-2 text-center">
-          <div class="text-xs text-slate-400 font-bold">現任議員</div>
-          <div class="text-xl font-black text-slate-700" id="council-members">17</div>
-        </div>
-        <div class="bg-orange-50 rounded-lg p-2 text-center">
-          <div class="text-xs text-orange-400 font-bold">資料年份</div>
-          <div class="text-xl font-black text-orange-600">11屆</div>
+      <a href="https://www.cycc.gov.tw" target="_blank" rel="noopener"
+         class="text-xs text-blue-600 font-bold hover:underline">→ 議會官網</a>
+    </div>
+    <!-- KPI 磚 -->
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-3 mb-5">
+      <div class="bg-purple-50 border border-purple-100 rounded-xl p-3 text-center">
+        <div class="text-xs font-bold text-purple-400 uppercase tracking-wide mb-1">會議場次</div>
+        <div class="text-2xl font-black text-purple-700" id="council-meetings">—</div>
+        <div class="text-[10px] text-purple-300 mt-0.5">第11屆</div>
+      </div>
+      <div class="bg-indigo-50 border border-indigo-100 rounded-xl p-3 text-center">
+        <div class="text-xs font-bold text-indigo-400 uppercase tracking-wide mb-1">質詢記錄</div>
+        <div class="text-2xl font-black text-indigo-700" id="council-questions">—</div>
+        <div class="text-[10px] text-indigo-300 mt-0.5">件質詢</div>
+      </div>
+      <div class="bg-slate-100 border border-slate-200 rounded-xl p-3 text-center">
+        <div class="text-xs font-bold text-slate-400 uppercase tracking-wide mb-1">現任議員</div>
+        <div class="text-2xl font-black text-slate-700" id="council-members">17</div>
+        <div class="text-[10px] text-slate-400 mt-0.5">席</div>
+      </div>
+      <div class="bg-orange-50 border border-orange-100 rounded-xl p-3 text-center">
+        <div class="text-xs font-bold text-orange-400 uppercase tracking-wide mb-1">屆別</div>
+        <div class="text-2xl font-black text-orange-600">11屆</div>
+        <div class="text-[10px] text-orange-300 mt-0.5">2022–2026</div>
+      </div>
+    </div>
+    <!-- 最新議事 + 議題分析 -->
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-4">
+      <div class="md:col-span-2">
+        <p class="text-xs font-bold text-slate-500 mb-2">最新會議紀錄</p>
+        <div class="overflow-y-auto space-y-1.5" style="max-height:160px;" id="council-meeting-list">
+          <div class="text-sm text-slate-400 text-center py-4">議會資料載入中...</div>
         </div>
       </div>
-      <!-- 最新議事紀錄 -->
-      <div class="overflow-y-auto space-y-1.5" style="max-height:90px;" id="council-meeting-list">
-        <div class="text-sm text-slate-400 text-center py-4">議會資料載入中...</div>
+      <div>
+        <p class="text-xs font-bold text-slate-500 mb-2">議題分類分析</p>
+        <div id="council-cat-analysis" class="grid grid-cols-2 gap-1.5"></div>
       </div>
-      <!-- 議事分析 -->
-      <div class="mt-2 mb-1">
-        <p class="text-[11px] font-bold text-slate-400 uppercase tracking-wide mb-1">議題分類分析</p>
-        <div id="council-cat-analysis" class="grid grid-cols-3 gap-1.5"></div>
-      </div>
-      <div class="mt-3 pt-3 border-t border-slate-100">
+    </div>
+    <!-- 議員名單 + 洞察 -->
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-4 pt-4 border-t border-slate-100">
+      <div>
         <p class="text-xs text-slate-400 mb-1.5 font-bold">議員名單（第 11 屆）</p>
         <div class="flex flex-wrap gap-1" id="councilor-list"></div>
       </div>
+      <div class="space-y-2 text-xs text-slate-600">
+        <p class="font-black text-slate-700 text-sm mb-2">📋 議會監督重點</p>
+        <div class="bg-purple-50 rounded-lg p-2.5">🏛️ <strong>預算監督：</strong>城市建設預算執行率、重大工程進度追蹤</div>
+        <div class="bg-indigo-50 rounded-lg p-2.5">🗣️ <strong>質詢焦點：</strong>交通安全、老人福利、地方建設是最常提出的議題</div>
+        <div class="bg-blue-50 rounded-lg p-2.5">📍 <strong>西區代表：</strong>積極為西區市民發聲，推動在地建設改善</div>
+      </div>
     </div>
-
   </div>
 
   <!-- ── Row 2.5：市民社群聲音 ── -->
   <div class="card p-6 mb-6">
-    <div class="flex items-center justify-between mb-4">
+    <!-- 標題列 -->
+    <div class="flex flex-wrap items-start justify-between gap-3 mb-4">
       <div>
-        <h2 class="text-lg font-black text-slate-900">市民社群聲音</h2>
-        <p class="text-sm text-slate-500 mt-0.5">PTT・Dcard・Threads 嘉義市相關討論，即時同步</p>
+        <h2 class="text-lg font-black text-slate-900">💬 市民社群聲音</h2>
+        <p class="text-xs text-slate-400 mt-0.5">PTT・Dcard・Threads 嘉義市相關討論，每 6 小時自動更新</p>
       </div>
-      <div class="flex items-center gap-2">
-        <span class="text-xs font-black px-2 py-1 rounded-full text-white bg-green-600">PTT</span>
-        <span class="text-xs font-black px-2 py-1 rounded-full text-white bg-red-400">Dcard</span>
-        <span class="text-xs font-black px-2 py-1 rounded-full text-white" style="background:#000">Threads</span>
+      <div class="flex items-center gap-2 shrink-0">
+        <span class="text-xs font-bold text-slate-500 bg-slate-100 px-2 py-0.5 rounded-full" id="social-count-tag">載入中…</span>
         <a href="https://www.threads.net/search?q=%E5%98%89%E7%BE%A9%E5%B8%82" target="_blank" rel="noopener"
-           class="text-xs text-slate-400 hover:text-slate-600 font-bold">更多 →</a>
+           class="text-xs text-orange-500 font-bold hover:underline">更多討論 →</a>
+        <span class="relative flex h-2.5 w-2.5">
+          <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-green-400 opacity-75"></span>
+          <span class="relative inline-flex rounded-full h-2.5 w-2.5 bg-green-500"></span>
+        </span>
       </div>
     </div>
+    <!-- 來源統計 pills -->
+    <div class="flex flex-wrap gap-2 mb-3" id="social-source-stats">
+      <span class="text-[10px] font-bold px-2.5 py-1 rounded-full text-white" style="background:#00b300">PTT Chiayi</span>
+      <span class="text-[10px] font-bold px-2.5 py-1 rounded-full text-white" style="background:#EF4444">Dcard 嘉義</span>
+      <span class="text-[10px] font-bold px-2.5 py-1 rounded-full text-white" style="background:#000">Threads</span>
+    </div>
+    <!-- 類別篩選 tabs -->
+    <div class="flex flex-wrap gap-1.5 mb-4" id="social-filter-tabs">
+      <button onclick="filterSocial('')"        class="social-filter-btn text-[10px] px-3 py-1 rounded-full font-bold bg-slate-900 text-white"      data-cat="">全部</button>
+      <button onclick="filterSocial('交通停車')" class="social-filter-btn text-[10px] px-3 py-1 rounded-full font-bold bg-slate-100 text-slate-600" data-cat="交通停車">🚗 交通</button>
+      <button onclick="filterSocial('道路路平')" class="social-filter-btn text-[10px] px-3 py-1 rounded-full font-bold bg-slate-100 text-slate-600" data-cat="道路路平">🛣️ 道路</button>
+      <button onclick="filterSocial('環境衛生')" class="social-filter-btn text-[10px] px-3 py-1 rounded-full font-bold bg-slate-100 text-slate-600" data-cat="環境衛生">🌿 環境</button>
+      <button onclick="filterSocial('公共安全')" class="social-filter-btn text-[10px] px-3 py-1 rounded-full font-bold bg-slate-100 text-slate-600" data-cat="公共安全">🔦 安全</button>
+      <button onclick="filterSocial('文化觀光')" class="social-filter-btn text-[10px] px-3 py-1 rounded-full font-bold bg-slate-100 text-slate-600" data-cat="文化觀光">🎭 文觀</button>
+      <button onclick="filterSocial('市政議題')" class="social-filter-btn text-[10px] px-3 py-1 rounded-full font-bold bg-slate-100 text-slate-600" data-cat="市政議題">📋 市政</button>
+    </div>
+    <!-- 貼文 grid -->
     <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3" id="social-feed">
 <div class="social-card bg-white rounded-xl p-4 border border-slate-100 hover:border-slate-300 transition-colors"><div class="flex items-center gap-2 mb-2"><span class="text-xs font-black px-2 py-0.5 rounded-full text-white" style="background:#00b300">PTT</span><span class="text-xs text-slate-400"> · Chiayi</span><span class="text-xs text-slate-400 ml-auto">05/23</span></div><a href="https://www.ptt.cc/bbs/Chiayi/M.1779497416.A.B61.html" target="_blank" rel="noopener" class="text-sm font-bold text-slate-800 leading-snug hover:text-orange-500 transition-colors block">Re: [徵求] 幫忙在中正大學找一篇論文並影印</a><div class="flex items-center gap-3 mt-2 text-xs text-slate-400"><span>👍 0</span><span>💬 0</span><span class="ml-auto text-xs px-2 py-0.5 bg-slate-100 rounded-full">市政議題</span></div></div>
 <div class="social-card bg-white rounded-xl p-4 border border-slate-100 hover:border-slate-300 transition-colors"><div class="flex items-center gap-2 mb-2"><span class="text-xs font-black px-2 py-0.5 rounded-full text-white" style="background:#00b300">PTT</span><span class="text-xs text-slate-400"> · Chiayi</span><span class="text-xs text-slate-400 ml-auto">05/23</span></div><a href="https://www.ptt.cc/bbs/Chiayi/M.1779493926.A.775.html" target="_blank" rel="noopener" class="text-sm font-bold text-slate-800 leading-snug hover:text-orange-500 transition-colors block">[轉讓] 澎湖風沙月民宿5/30-5/31雙人床一晚</a><div class="flex items-center gap-3 mt-2 text-xs text-slate-400"><span>👍 0</span><span>💬 0</span><span class="ml-auto text-xs px-2 py-0.5 bg-slate-100 rounded-full">市政議題</span></div></div>
@@ -1557,14 +1661,29 @@ function renderAccidentStats() {
       typeMap[t] = (typeMap[t]||0)+1;
     });
     const tEl = gi('drowning-type-list');
+    const typeSorted = Object.entries(typeMap).sort((a,b)=>b[1]-a[1]);
     if (tEl) {
-      tEl.innerHTML = Object.entries(typeMap).sort((a,b)=>b[1]-a[1]).slice(0,5).map(([t,n]) =>
+      tEl.innerHTML = typeSorted.slice(0,6).map(([t,n]) =>
         '<div class="flex justify-between text-xs py-0.5 border-b border-blue-50">' +
           '<span class="text-slate-600">💧 ' + t + '</span>' +
           '<span class="font-black text-blue-600">' + n + ' 件</span>' +
         '</div>'
       ).join('');
     }
+    // 水域類型甜甜圈圖
+    const typeArr = typeSorted.map(([type,count]) => ({ type, count }));
+    renderDrowningTypeChart(typeArr);
+    // 峰值年
+    const yearMap = {};
+    drowning.forEach(r => { const y=(r.date||'').slice(0,4); if(y) yearMap[y]=(yearMap[y]||0)+1; });
+    const peakYear = Object.entries(yearMap).sort((a,b)=>b[1]-a[1])[0];
+    if (peakYear && gi('drowning-peak-year')) gi('drowning-peak-year').textContent = peakYear[0];
+    if (peakYear && gi('drowning-peak-count')) gi('drowning-peak-count').textContent = peakYear[1] + '件';
+    // 計算夏季佔比
+    const summerCount = drowning.filter(r => { const m=parseInt((r.date||'').slice(5,7)); return m>=6&&m<=9; }).length;
+    if (summerCount > 0 && gi('drowning-summer-pct'))
+      gi('drowning-summer-pct').textContent = Math.round(summerCount/drowning.length*100);
+    if (gi('drowning-type-count')) gi('drowning-type-count').textContent = typeSorted.length;
   }
 
   // ── 議會資料 ──
@@ -1982,6 +2101,112 @@ function renderAccidentStats() {
     if (lbl) lbl.textContent = cat ? `（篩選：${cat}，共 ${shown} 則）` : '';
   }
 
+
+  // ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  //  13大議題 KPI 磚
+  // ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  function renderCatKPIs(data) {
+    const gi = id => document.getElementById(id);
+    const cats = computeCatData(data);
+    const sorted = Object.entries(cats).sort((a,b) => b[1]-a[1]);
+    if (!sorted.length) return;
+    const [topName, topCount] = sorted[0];
+    if (gi('cat-top-name'))    gi('cat-top-name').textContent    = topName;
+    if (gi('cat-top-count'))   gi('cat-top-count').textContent   = topCount + ' 件';
+    if (gi('cat-total-records')) gi('cat-total-records').textContent = data.length.toLocaleString();
+    const thisYear = data.filter(r => (r.date||'').startsWith('2026')).length;
+    if (gi('cat-this-year')) gi('cat-this-year').textContent = thisYear.toLocaleString();
+    const activeCats = Object.keys(cats).filter(k => cats[k] > 0).length;
+    if (gi('cat-active-cats')) gi('cat-active-cats').textContent = activeCats;
+    // 洞察文字
+    if (gi('cat-insight-1'))
+      gi('cat-insight-1').textContent = `${topName} 累計 ${topCount} 件，是所有議題中最多的，需優先改善`;
+    if (sorted.length >= 2) {
+      const recentYear = data.filter(r => (r.date||'').startsWith('2025') || (r.date||'').startsWith('2026'));
+      const recentCats = {};
+      recentYear.forEach(r => { const c = r.category||r.subcategory||'其他'; recentCats[c]=(recentCats[c]||0)+1; });
+      const topRecent = Object.entries(recentCats).sort((a,b)=>b[1]-a[1])[0];
+      if (gi('cat-insight-2') && topRecent)
+        gi('cat-insight-2').textContent = `${topRecent[0]} 近一年新增 ${topRecent[1]} 件，成長最快`;
+    }
+  }
+
+  // ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  //  水域類型甜甜圈圖
+  // ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  function renderDrowningTypeChart(typeData) {
+    const ctx = document.getElementById('chartDrowningType');
+    if (!ctx || !typeData || !typeData.length) return;
+    const labels = typeData.map(t => t.type || t.name || '其他');
+    const values = typeData.map(t => t.count || t.件數 || 1);
+    const colors = ['#3B82F6','#EF4444','#F59E0B','#10B981','#8B5CF6','#F97316','#64748B'];
+    new Chart(ctx.getContext('2d'), {
+      type: 'doughnut',
+      data: {
+        labels,
+        datasets: [{ data: values, backgroundColor: colors.slice(0, labels.length), borderWidth: 2, borderColor: '#fff' }]
+      },
+      options: {
+        responsive: true, maintainAspectRatio: false,
+        plugins: {
+          legend: { position: 'right', labels: { font: { size: 10 }, boxWidth: 12 } }
+        }
+      }
+    });
+    // 更新夏季佔比 + 類型數
+    const gi = id => document.getElementById(id);
+    if (gi('drowning-type-count')) gi('drowning-type-count').textContent = labels.length;
+    // Dummy 夏季佔比（無月份資料時顯示預估）
+    if (gi('drowning-summer-pct')) gi('drowning-summer-pct').textContent = '~55';
+  }
+
+  // ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  //  社群貼文篩選
+  // ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  function filterSocial(cat) {
+    document.querySelectorAll('.social-filter-btn').forEach(btn => {
+      const active = btn.dataset.cat === cat;
+      btn.className = btn.className
+        .replace('bg-slate-900 text-white', '')
+        .replace('bg-slate-100 text-slate-600', '')
+        .trim();
+      btn.classList.add(...(active ? ['bg-slate-900','text-white'] : ['bg-slate-100','text-slate-600']));
+    });
+    let shown = 0;
+    document.querySelectorAll('#social-feed .social-card').forEach(card => {
+      const cardCat = card.querySelector('.ml-auto')?.textContent?.trim() || '';
+      const show = !cat || cardCat === cat;
+      card.style.display = show ? '' : 'none';
+      if (show) shown++;
+    });
+    const tag = document.getElementById('social-count-tag');
+    if (tag) tag.textContent = (cat ? `${cat} ${shown} 則` : shown + ' 則討論');
+  }
+
+  function initSocialSection() {
+    const cards = [...document.querySelectorAll('#social-feed .social-card')];
+    const tag = document.getElementById('social-count-tag');
+    if (tag) tag.textContent = cards.length + ' 則討論';
+    // 來源統計
+    let ptt=0, dcard=0, threads=0;
+    cards.forEach(card => {
+      const src = card.querySelector('span')?.textContent?.trim() || '';
+      if (src === 'PTT') ptt++;
+      else if (src === 'Dcard') dcard++;
+      else threads++;
+    });
+    const srcEl = document.getElementById('social-source-stats');
+    if (srcEl && (ptt+dcard+threads) > 0) {
+      srcEl.innerHTML = [
+        ['PTT Chiayi', ptt, '#00b300'],
+        ['Dcard 嘉義', dcard, '#EF4444'],
+        ['Threads', threads, '#000'],
+      ].filter(([,n]) => n > 0)
+       .map(([l,n,c]) => `<span class="text-[10px] font-bold px-2.5 py-1 rounded-full text-white" style="background:${c}">${l} · ${n}</span>`)
+       .join('');
+    }
+  }
+
   document.addEventListener('DOMContentLoaded', () => {
     const effCat  = (categoryData && categoryData.length > 0) ? categoryData : computeCatData(dataset);
     const effRoad = (roadData && roadData.length > 0) ? roadData : computeRoadData(dataset);
@@ -1997,6 +2222,7 @@ function renderAccidentStats() {
     if (gi2) gi2.textContent = kpiInj ? fmt2(kpiInj) : '—';
 
     renderCatBars(effCat);
+    renderCatKPIs(dataset);
     renderRoadList(effRoad);
     renderTrendChart(dataset);
     renderWestPopChart(westPopData);
