@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-23T16:18:41.648082",
+  "updated_at": "2026-05-23T16:57:04.102652",
   "aqi_realtime": [
     {
       "station": "",
@@ -72,19 +72,26 @@
   "weather": [
     {
       "station": "嘉義市（Open-Meteo）",
-      "temp": "25.6",
-      "apparent_temp": "28.9",
-      "humidity": "75",
+      "temp": "25.4",
+      "apparent_temp": "28.4",
+      "humidity": "74",
       "rainfall": "0.0",
-      "wind_speed": "6.8",
-      "wind_dir": "140",
-      "cloud": "55",
+      "wind_speed": "7.9",
+      "wind_dir": "139",
+      "cloud": "27",
       "weather": "多雲",
-      "time": "2026-05-24 00:15",
+      "time": "2026-05-24 00:45",
       "source": "Open-Meteo"
     }
   ],
   "announcements": [
+    {
+      "title": "嘉義市政府歡迎臺中榮民總醫院傅雲慶總院長親自率隊駐診嘉義市 - chiayi.gov.tw",
+      "date": "Sat, 23 May 2026",
+      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1BNnYwMXdsVTAwZ0VKNHVTU1E0aXM0WnBsaGdGTE43b3dxV0JtYTdrTjdRT0ZZNUptY3BjQWJUUGtSTy1nTnFocFppOExmaUNWQVg3bnJTRkhJYXFYODhwcEtZcGpxZFVxNW4wRTRzU2FsWFduSmc?oc=5",
+      "desc": "",
+      "source": "Google新聞"
+    },
     {
       "title": "嘉市「振興商圈夜市券」收券店家突破900間、百貨超商都能用 - chiayi.gov.tw",
       "date": "Fri, 22 May 2026",
@@ -103,13 +110,6 @@
       "title": "嘉義青少年福利中心再升級 羽球、匹克球共融球場嶄新亮相 - 台灣好新聞",
       "date": "Sat, 23 May 2026",
       "link": "https://news.google.com/rss/articles/CBMiigNBVV95cUxNdk1CanpIamFZc2w3cnZfZVA3U2ZMWkVwQTV5NklGNlg2RnREQTEwb2x4RUNIcXhSXzZtaXdqWEtDdnN4bWx5Z1ZaMFI1ZENPcU90U1A3LWpOSmdFZ183c21IMTRxenRVVW0xZllhSzJxdFhXRlNKZ00xOUlqVWpwQTBrZDNCWFV3OXlCNDIzTFpEanBodElPNF90dDNqOFZLM2M1NEVFWVAtd0t3WUwxTlhGS3ZSMkwxUnZoYlVOWnlpd3BXM3VHZ2ljVU1fWFdmbG9jcXhCcS02ME5vMXFOUnRXMnRyRjJjbkJ6NDU4SlN2T0dpMVlsNldwYW02TW5WWE5FSmpYS21WdGtRWldsYTNScjlCUVhlXzlpeDJjbkFHeS14ZUo2YXF1cm9iOUwwS2c4aXRKQVBpYi1teFRTWlFnd3pIcy1xa0RXRnB6Yk1LY3BycUY5azA5bHN5enlHSTdXMFdrZjM1ekVsVFRzdVIwNW0wd3lSaWpIcXpkS29XUkxYSkU1NmtB?oc=5",
-      "desc": "",
-      "source": "Google新聞"
-    },
-    {
-      "title": "嘉義市政府歡迎臺中榮民總醫院傅雲慶總院長親自率隊駐診嘉義市 - 嘉義市政府衛生局",
-      "date": "Fri, 22 May 2026",
-      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBFRzh3SlFhZUthcjRoTTNLbkdady1jUjlMQl9PbWRBOGZCUnVNeVo3cGo5U3VvTnZhWF9YeWpWY3Z6alcteUpTZG56dTA3dkdlUThFWmktcmpNU3BwU1RISHY5VUItTWpQWjZrM05oSQ?oc=5",
       "desc": "",
       "source": "Google新聞"
     },
@@ -300,7 +300,7 @@
       "lat": 23.482012,
       "lng": 120.457342,
       "total": 22,
-      "available": 9,
+      "available": 8,
       "addr": "中山路98號(前)"
     },
     {
@@ -309,7 +309,7 @@
       "lat": 23.482663,
       "lng": 120.462988,
       "total": 25,
-      "available": 3,
+      "available": 1,
       "addr": "中山路2號(前)"
     },
     {
@@ -318,7 +318,7 @@
       "lat": 23.478707,
       "lng": 120.462594,
       "total": 38,
-      "available": 0,
+      "available": 4,
       "addr": "啟明路122號(前)"
     },
     {
@@ -336,7 +336,7 @@
       "lat": 23.4798596,
       "lng": 120.4488291,
       "total": 20,
-      "available": 2,
+      "available": 0,
       "addr": "中山路306號"
     },
     {
@@ -345,7 +345,7 @@
       "lat": 23.47963,
       "lng": 120.44583,
       "total": 20,
-      "available": 2,
+      "available": 3,
       "addr": "中山路386號"
     },
     {
@@ -354,7 +354,7 @@
       "lat": 23.47917,
       "lng": 120.44186,
       "total": 99,
-      "available": 59,
+      "available": 58,
       "addr": "中山路524號"
     },
     {
@@ -363,7 +363,7 @@
       "lat": 23.47877,
       "lng": 120.44089,
       "total": 42,
-      "available": 9,
+      "available": 25,
       "addr": "中山路528號"
     },
     {
@@ -390,7 +390,7 @@
       "lat": 23.4738724,
       "lng": 120.4493073,
       "total": 20,
-      "available": 6,
+      "available": 2,
       "addr": "垂楊路434號"
     },
     {
@@ -426,7 +426,7 @@
       "lat": 23.48465,
       "lng": 120.43354,
       "total": 14,
-      "available": 5,
+      "available": 3,
       "addr": "友愛興達路口"
     },
     {
@@ -435,7 +435,7 @@
       "lat": 23.48931,
       "lng": 120.4361,
       "total": 15,
-      "available": 9,
+      "available": 10,
       "addr": "自由路298號"
     },
     {
@@ -467,5 +467,5 @@
     }
   ],
   "water": [],
-  "fetch_seconds": 94.6
+  "fetch_seconds": 50.7
 }
