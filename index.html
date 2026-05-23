@@ -2985,17 +2985,17 @@ function renderAccidentStats() {
       {topic:'環境衛生', pct:10, color:'#10B981', desc:'垃圾・水溝・噪音'},
       {topic:'財政預算', pct:8,  color:'#6366F1', desc:'預算執行・工程採購'},
     ];
-    el.innerHTML = councilTopics.map(d =>
-      `<div class="bg-slate-50 rounded-xl p-3 border border-slate-100">
-        <div class="flex justify-between text-xs mb-1.5">
-          <span class="font-bold text-slate-700">${d.topic}</span>
-          <span class="font-black" style="color:${d.color}">${d.pct}%</span>
-        </div>
-        <div class="h-1.5 bg-slate-200 rounded-full overflow-hidden mb-1">
-          <div class="h-full rounded-full transition-all" style="width:${d.pct}%;background:${d.color}"></div>
-        </div>
-        <div class="text-[11px] text-slate-400">${d.desc}</div>
-      </div>`
+    el.innerHTML = councilTopics.map(function(d) {
+      return '<div class="bg-slate-50 rounded-xl p-3 border border-slate-100">' +
+        '<div class="flex justify-between text-xs mb-1.5">' +
+        '<span class="font-bold text-slate-700">' + d.topic + '</span>' +
+        '<span class="font-black" style="color:' + d.color + '">' + d.pct + '%</span>' +
+        '</div>' +
+        '<div class="h-1.5 bg-slate-200 rounded-full overflow-hidden mb-1">' +
+        '<div class="h-full rounded-full transition-all" style="width:' + d.pct + '%;background:' + d.color + '"></div>' +
+        '</div>' +
+        '<div class="text-xs text-slate-400">' + d.desc + '</div>' +
+        '</div>';
     }).join('');
   }
 
