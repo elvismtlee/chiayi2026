@@ -273,23 +273,52 @@
   </div>
 
   <!-- 即時新聞 -->
-  <div class="card p-6 flex flex-col mb-6">
-      <div class="flex items-center justify-between mb-3">
-        <div>
-          <h2 class="text-lg font-black text-slate-900">市政即時新聞</h2>
-          <p class="text-xs text-slate-400 mt-0.5">市府公告・Google News・PTT 整合</p>
-        </div>
-        <div class="flex items-center gap-2">
-          <a href="https://news.google.com/search?q=%E5%98%89%E7%BE%A9%E5%B8%82%E5%B8%82%E6%94%BF&hl=zh-TW"
-             target="_blank" rel="noopener"
-             class="text-xs text-orange-500 font-bold hover:underline">更多 →</a>
-          <span class="relative flex h-2.5 w-2.5">
-            <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-orange-400 opacity-75"></span>
-            <span class="relative inline-flex rounded-full h-2.5 w-2.5 bg-orange-500"></span>
-          </span>
-        </div>
+  <div class="card p-6 mb-6">
+    <!-- Header -->
+    <div class="flex flex-wrap items-start justify-between gap-3 mb-4">
+      <div>
+        <h2 class="text-lg font-black text-slate-900">📰 市政即時新聞</h2>
+        <p class="text-xs text-slate-400 mt-0.5">市府公告・Google News・多媒體即時整合，每 6 小時自動更新</p>
       </div>
-      <div class="space-y-2 overflow-y-auto hide-scroll flex-grow" style="max-height:280px;" id="news-list">
+      <div class="flex items-center gap-3 shrink-0">
+        <span class="text-xs font-bold text-slate-500 bg-slate-100 px-2 py-0.5 rounded-full" id="news-count-tag">載入中…</span>
+        <a href="https://news.google.com/search?q=%E5%98%89%E7%BE%A9%E5%B8%82%E5%B8%82%E6%94%BF&hl=zh-TW"
+           target="_blank" rel="noopener"
+           class="text-xs text-orange-500 font-bold hover:underline">更多新聞 →</a>
+        <span class="relative flex h-2.5 w-2.5">
+          <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-orange-400 opacity-75"></span>
+          <span class="relative inline-flex rounded-full h-2.5 w-2.5 bg-orange-500"></span>
+        </span>
+      </div>
+    </div>
+
+    <!-- 來源統計 pills (JS 填入) -->
+    <div class="flex flex-wrap gap-2 mb-3" id="news-source-stats"></div>
+
+    <!-- 類別篩選 tabs -->
+    <div class="flex flex-wrap gap-1.5 mb-5" id="news-filter-tabs">
+      <button onclick="filterNews('')"          class="news-filter-btn text-[10px] px-3 py-1 rounded-full font-bold bg-slate-900 text-white"        data-cat="">全部</button>
+      <button onclick="filterNews('交通停車')"  class="news-filter-btn text-[10px] px-3 py-1 rounded-full font-bold bg-slate-100 text-slate-600"   data-cat="交通停車">🚗 交通停車</button>
+      <button onclick="filterNews('道路路平')"  class="news-filter-btn text-[10px] px-3 py-1 rounded-full font-bold bg-slate-100 text-slate-600"   data-cat="道路路平">🛣️ 道路路平</button>
+      <button onclick="filterNews('環境衛生')"  class="news-filter-btn text-[10px] px-3 py-1 rounded-full font-bold bg-slate-100 text-slate-600"   data-cat="環境衛生">🌿 環境衛生</button>
+      <button onclick="filterNews('公共安全')"  class="news-filter-btn text-[10px] px-3 py-1 rounded-full font-bold bg-slate-100 text-slate-600"   data-cat="公共安全">🔦 公共安全</button>
+      <button onclick="filterNews('社福高齡')"  class="news-filter-btn text-[10px] px-3 py-1 rounded-full font-bold bg-slate-100 text-slate-600"   data-cat="社福高齡">🧓 社福高齡</button>
+      <button onclick="filterNews('行政服務')"  class="news-filter-btn text-[10px] px-3 py-1 rounded-full font-bold bg-slate-100 text-slate-600"   data-cat="行政服務">📋 行政服務</button>
+      <button onclick="filterNews('排水水利')"  class="news-filter-btn text-[10px] px-3 py-1 rounded-full font-bold bg-slate-100 text-slate-600"   data-cat="排水水利">🌊 排水水利</button>
+    </div>
+
+    <!-- 市府要聞焦點 (JS 填入) -->
+    <div class="mb-5">
+      <p class="text-xs font-bold text-slate-500 mb-2">🏛️ 市府要聞焦點</p>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-3" id="news-spotlight">
+        <div class="text-xs text-slate-400 col-span-3 py-2">載入中…</div>
+      </div>
+    </div>
+
+    <!-- 全部新聞 — 3欄 grid -->
+    <div>
+      <p class="text-xs font-bold text-slate-500 mb-3">📋 全部新聞 <span class="text-slate-400 font-normal ml-1" id="news-filter-label"></span></p>
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3" id="news-list">
 <div class="news-card bg-white rounded-xl p-3 border border-slate-100"><div class="flex items-center gap-1.5 mb-1.5"><span class="text-[10px] font-bold px-1.5 py-0.5 rounded-full text-white" style="background:#7C3AED">嘉義市政府/社會處/觀光新聞處</span><span class="text-[10px] font-bold px-1.5 py-0.5 rounded-full text-white" style="background:#94A3B8">其他</span><span class="text-[10px] text-slate-400 ml-auto font-en">2026/05/23</span></div><a href="https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=938425" target="_blank" rel="noopener" class="text-xs font-bold text-slate-800 leading-relaxed hover:text-orange-500 transition-colors block line-clamp-2">嘉義市青少年福利服務中心全新升級羽球、匹克球共融球場嶄新亮相</a></div>
 <div class="news-card bg-white rounded-xl p-3 border border-slate-100"><div class="flex items-center gap-1.5 mb-1.5"><span class="text-[10px] font-bold px-1.5 py-0.5 rounded-full text-white" style="background:#7C3AED">嘉義市政府/教育處/觀光新聞處</span><span class="text-[10px] font-bold px-1.5 py-0.5 rounded-full text-white" style="background:#94A3B8">其他</span><span class="text-[10px] text-slate-400 ml-auto font-en">2026/05/23</span></div><a href="https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=938424" target="_blank" rel="noopener" class="text-xs font-bold text-slate-800 leading-relaxed hover:text-orange-500 transition-colors block line-clamp-2">第十二屆財神盃國中小音樂暨民俗技藝競賽展開千名嘉義學子同台競藝</a></div>
 <div class="news-card bg-white rounded-xl p-3 border border-slate-100"><div class="flex items-center gap-1.5 mb-1.5"><span class="text-[10px] font-bold px-1.5 py-0.5 rounded-full text-white" style="background:#7C3AED">嘉義市政府/西區公所</span><span class="text-[10px] font-bold px-1.5 py-0.5 rounded-full text-white" style="background:#64748B">行政服務</span><span class="text-[10px] text-slate-400 ml-auto font-en">2026/05/23</span></div><a href="https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=938372" target="_blank" rel="noopener" class="text-xs font-bold text-slate-800 leading-relaxed hover:text-orange-500 transition-colors block line-clamp-2">入伍時程自己掌握！役男優先入營快申請</a></div>
@@ -311,38 +340,11 @@
 <div class="news-card bg-white rounded-xl p-3 border border-slate-100"><div class="flex items-center gap-1.5 mb-1.5"><span class="text-[10px] font-bold px-1.5 py-0.5 rounded-full text-white" style="background:#F97316">遠見雜誌</span><span class="text-[10px] font-bold px-1.5 py-0.5 rounded-full text-white" style="background:#EC4899">市場商圈</span><span class="text-[10px] text-slate-400 ml-auto font-en">2026-05-12</span></div><a href="https://news.google.com/rss/articles/CBMiTkFVX3lxTE5WbWpyZW9Wdy1majdVTkd3Yi1wVmtVamtPQktYTFBOTHhIZmtraXhab1l5dFlGQWhXZTRfck1BX2Rtb0RlV0JsbU9tVG9zZw?oc=5" target="_blank" rel="noopener" class="text-xs font-bold text-slate-800 leading-relaxed hover:text-orange-500 transition-colors block line-clamp-2">18縣市200元換「400元消費券」！全台94個夜市、市場都能用，領取方式一次看</a></div>
 <div class="news-card bg-white rounded-xl p-3 border border-slate-100"><div class="flex items-center gap-1.5 mb-1.5"><span class="text-[10px] font-bold px-1.5 py-0.5 rounded-full text-white" style="background:#F97316">食尚玩家</span><span class="text-[10px] font-bold px-1.5 py-0.5 rounded-full text-white" style="background:#EC4899">市場商圈</span><span class="text-[10px] text-slate-400 ml-auto font-en">2026-05-11</span></div><a href="https://news.google.com/rss/articles/CBMiU0FVX3lxTFBPMmoxMGxEeUZqOGxlbEw4cVBHMVh5TEhoYl9GejlGVGRkcUZCUkpnZi1fYWNPRXp5QUJzZ0pQWkEyVklnWDgwQkVabVMxOFl2dnRn0gFYQVVfeXFMTzhucmU1VnB0UV8taHlUb0VLQ1NhVThDQlF2LS1sWXBsUFpzTDJnWGg1M0NyTXMwMnNKWTczMjF1Qmx3RGtJVlVMZ3JoOGhWRjZQbV9MNFN1Wg?oc=5" target="_blank" rel="noopener" class="text-xs font-bold text-slate-800 leading-relaxed hover:text-orange-500 transition-colors block line-clamp-2">全台18縣市發錢了！200元換400元消費券，94個市場、夜市兌換地點一次看</a></div>
 </div>
+</div>
       <!-- ── news-end -->
   </div>
+  </div>
 
-  <!-- ── Row 2.5：市民社群聲音 ── -->
-  <div class="card p-6 mb-6">
-    <div class="flex items-center justify-between mb-4">
-      <div>
-        <h2 class="text-lg font-black text-slate-900">市民社群聲音</h2>
-        <p class="text-sm text-slate-500 mt-0.5">PTT・Dcard・Threads 嘉義市相關討論，即時同步</p>
-      </div>
-      <div class="flex items-center gap-2">
-        <span class="text-xs font-black px-2 py-1 rounded-full text-white bg-green-600">PTT</span>
-        <span class="text-xs font-black px-2 py-1 rounded-full text-white bg-red-400">Dcard</span>
-        <span class="text-xs font-black px-2 py-1 rounded-full text-white" style="background:#000">Threads</span>
-        <a href="https://www.threads.net/search?q=%E5%98%89%E7%BE%A9%E5%B8%82" target="_blank" rel="noopener"
-           class="text-xs text-slate-400 hover:text-slate-600 font-bold">更多 →</a>
-      </div>
-    </div>
-    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3" id="social-feed">
-<div class="social-card bg-white rounded-xl p-4 border border-slate-100 hover:border-slate-300 transition-colors"><div class="flex items-center gap-2 mb-2"><span class="text-xs font-black px-2 py-0.5 rounded-full text-white" style="background:#00b300">PTT</span><span class="text-xs text-slate-400"> · Chiayi</span><span class="text-xs text-slate-400 ml-auto">05/23</span></div><a href="https://www.ptt.cc/bbs/Chiayi/M.1779497416.A.B61.html" target="_blank" rel="noopener" class="text-sm font-bold text-slate-800 leading-snug hover:text-orange-500 transition-colors block">Re: [徵求] 幫忙在中正大學找一篇論文並影印</a><div class="flex items-center gap-3 mt-2 text-xs text-slate-400"><span>👍 0</span><span>💬 0</span><span class="ml-auto text-xs px-2 py-0.5 bg-slate-100 rounded-full">市政議題</span></div></div>
-<div class="social-card bg-white rounded-xl p-4 border border-slate-100 hover:border-slate-300 transition-colors"><div class="flex items-center gap-2 mb-2"><span class="text-xs font-black px-2 py-0.5 rounded-full text-white" style="background:#00b300">PTT</span><span class="text-xs text-slate-400"> · Chiayi</span><span class="text-xs text-slate-400 ml-auto">05/23</span></div><a href="https://www.ptt.cc/bbs/Chiayi/M.1779493926.A.775.html" target="_blank" rel="noopener" class="text-sm font-bold text-slate-800 leading-snug hover:text-orange-500 transition-colors block">[轉讓] 澎湖風沙月民宿5/30-5/31雙人床一晚</a><div class="flex items-center gap-3 mt-2 text-xs text-slate-400"><span>👍 0</span><span>💬 0</span><span class="ml-auto text-xs px-2 py-0.5 bg-slate-100 rounded-full">市政議題</span></div></div>
-<div class="social-card bg-white rounded-xl p-4 border border-slate-100 hover:border-slate-300 transition-colors"><div class="flex items-center gap-2 mb-2"><span class="text-xs font-black px-2 py-0.5 rounded-full text-white" style="background:#00b300">PTT</span><span class="text-xs text-slate-400"> · Chiayi</span><span class="text-xs text-slate-400 ml-auto">05/22</span></div><a href="https://www.ptt.cc/bbs/Chiayi/M.1779462067.A.FED.html" target="_blank" rel="noopener" class="text-sm font-bold text-slate-800 leading-snug hover:text-orange-500 transition-colors block">[買賣] 全家林鳳營衛生紙飲料麵包/統一數位禮券/7-11開心卡安心取</a><div class="flex items-center gap-3 mt-2 text-xs text-slate-400"><span>👍 0</span><span>💬 0</span><span class="ml-auto text-xs px-2 py-0.5 bg-slate-100 rounded-full">市政議題</span></div></div>
-<div class="social-card bg-white rounded-xl p-4 border border-slate-100 hover:border-slate-300 transition-colors"><div class="flex items-center gap-2 mb-2"><span class="text-xs font-black px-2 py-0.5 rounded-full text-white" style="background:#00b300">PTT</span><span class="text-xs text-slate-400"> · Chiayi</span><span class="text-xs text-slate-400 ml-auto">05/23</span></div><a href="https://www.ptt.cc/bbs/Chiayi/M.1779455759.A.985.html" target="_blank" rel="noopener" class="text-sm font-bold text-slate-800 leading-snug hover:text-orange-500 transition-colors block">[徵求] 幫忙在中正大學找一篇論文並影印</a><div class="flex items-center gap-3 mt-2 text-xs text-slate-400"><span>👍 0</span><span>💬 0</span><span class="ml-auto text-xs px-2 py-0.5 bg-slate-100 rounded-full">市政議題</span></div></div>
-<div class="social-card bg-white rounded-xl p-4 border border-slate-100 hover:border-slate-300 transition-colors"><div class="flex items-center gap-2 mb-2"><span class="text-xs font-black px-2 py-0.5 rounded-full text-white" style="background:#00b300">PTT</span><span class="text-xs text-slate-400"> · Chiayi</span><span class="text-xs text-slate-400 ml-auto">05/23</span></div><a href="https://www.ptt.cc/bbs/Chiayi/M.1779430009.A.485.html" target="_blank" rel="noopener" class="text-sm font-bold text-slate-800 leading-snug hover:text-orange-500 transition-colors block">[新聞] 嘉市羅大德診所X光室偵煙器藏密錄器 </a><div class="flex items-center gap-3 mt-2 text-xs text-slate-400"><span>👍 0</span><span>💬 0</span><span class="ml-auto text-xs px-2 py-0.5 bg-slate-100 rounded-full">市政議題</span></div></div>
-<div class="social-card bg-white rounded-xl p-4 border border-slate-100 hover:border-slate-300 transition-colors"><div class="flex items-center gap-2 mb-2"><span class="text-xs font-black px-2 py-0.5 rounded-full text-white" style="background:#00b300">PTT</span><span class="text-xs text-slate-400"> · Chiayi</span><span class="text-xs text-slate-400 ml-auto">05/22</span></div><a href="https://www.ptt.cc/bbs/Chiayi/M.1779418633.A.7A4.html" target="_blank" rel="noopener" class="text-sm font-bold text-slate-800 leading-snug hover:text-orange-500 transition-colors block">贈送三人座沙發 西區</a><div class="flex items-center gap-3 mt-2 text-xs text-slate-400"><span>👍 0</span><span>💬 0</span><span class="ml-auto text-xs px-2 py-0.5 bg-slate-100 rounded-full">市政議題</span></div></div>
-<div class="social-card bg-white rounded-xl p-4 border border-slate-100 hover:border-slate-300 transition-colors"><div class="flex items-center gap-2 mb-2"><span class="text-xs font-black px-2 py-0.5 rounded-full text-white" style="background:#00b300">PTT</span><span class="text-xs text-slate-400"> · Chiayi</span><span class="text-xs text-slate-400 ml-auto">05/22</span></div><a href="https://www.ptt.cc/bbs/Chiayi/M.1779417929.A.978.html" target="_blank" rel="noopener" class="text-sm font-bold text-slate-800 leading-snug hover:text-orange-500 transition-colors block">[亂入] (11屆)市議會 第七次定期會(1-20會)</a><div class="flex items-center gap-3 mt-2 text-xs text-slate-400"><span>👍 0</span><span>💬 0</span><span class="ml-auto text-xs px-2 py-0.5 bg-slate-100 rounded-full">市政議題</span></div></div>
-<div class="social-card bg-white rounded-xl p-4 border border-slate-100 hover:border-slate-300 transition-colors"><div class="flex items-center gap-2 mb-2"><span class="text-xs font-black px-2 py-0.5 rounded-full text-white" style="background:#00b300">PTT</span><span class="text-xs text-slate-400"> · Chiayi</span><span class="text-xs text-slate-400 ml-auto">05/23</span></div><a href="https://www.ptt.cc/bbs/Chiayi/M.1779417435.A.F6D.html" target="_blank" rel="noopener" class="text-sm font-bold text-slate-800 leading-snug hover:text-orange-500 transition-colors block">[新聞] 嘉義台積宅虛漲泡沫要破？專家點名2區恐</a><div class="flex items-center gap-3 mt-2 text-xs text-slate-400"><span>👍 0</span><span>💬 0</span><span class="ml-auto text-xs px-2 py-0.5 bg-slate-100 rounded-full">市政議題</span></div></div>
-<div class="social-card bg-white rounded-xl p-4 border border-slate-100 hover:border-slate-300 transition-colors"><div class="flex items-center gap-2 mb-2"><span class="text-xs font-black px-2 py-0.5 rounded-full text-white" style="background:#00b300">PTT</span><span class="text-xs text-slate-400"> · Chiayi</span><span class="text-xs text-slate-400 ml-auto">05/23</span></div><a href="https://www.ptt.cc/bbs/Chiayi/M.1779382456.A.C53.html" target="_blank" rel="noopener" class="text-sm font-bold text-slate-800 leading-snug hover:text-orange-500 transition-colors block">[問題] 請問嘉義人如何前往綠島旅遊</a><div class="flex items-center gap-3 mt-2 text-xs text-slate-400"><span>👍 0</span><span>💬 0</span><span class="ml-auto text-xs px-2 py-0.5 bg-slate-100 rounded-full">文化觀光</span></div></div>
-<div class="social-card bg-white rounded-xl p-4 border border-slate-100 hover:border-slate-300 transition-colors"><div class="flex items-center gap-2 mb-2"><span class="text-xs font-black px-2 py-0.5 rounded-full text-white" style="background:#00b300">PTT</span><span class="text-xs text-slate-400"> · Chiayi</span><span class="text-xs text-slate-400 ml-auto">05/22</span></div><a href="https://www.ptt.cc/bbs/Chiayi/M.1779377229.A.7C3.html" target="_blank" rel="noopener" class="text-sm font-bold text-slate-800 leading-snug hover:text-orange-500 transition-colors block">[問題] 請問後庄里這邊有人有同樣的狀況嗎?</a><div class="flex items-center gap-3 mt-2 text-xs text-slate-400"><span>👍 0</span><span>💬 0</span><span class="ml-auto text-xs px-2 py-0.5 bg-slate-100 rounded-full">市政議題</span></div></div>
-<div class="social-card bg-white rounded-xl p-4 border border-slate-100 hover:border-slate-300 transition-colors"><div class="flex items-center gap-2 mb-2"><span class="text-xs font-black px-2 py-0.5 rounded-full text-white" style="background:#00b300">PTT</span><span class="text-xs text-slate-400"> · Chiayi</span><span class="text-xs text-slate-400 ml-auto">05/21</span></div><a href="https://www.ptt.cc/bbs/Chiayi/M.1779327312.A.8E8.html" target="_blank" rel="noopener" class="text-sm font-bold text-slate-800 leading-snug hover:text-orange-500 transition-colors block">[合購] 好事多磁吸式充電線 </a><div class="flex items-center gap-3 mt-2 text-xs text-slate-400"><span>👍 0</span><span>💬 0</span><span class="ml-auto text-xs px-2 py-0.5 bg-slate-100 rounded-full">市政議題</span></div></div>
-<div class="social-card bg-white rounded-xl p-4 border border-slate-100 hover:border-slate-300 transition-colors"><div class="flex items-center gap-2 mb-2"><span class="text-xs font-black px-2 py-0.5 rounded-full text-white" style="background:#00b300">PTT</span><span class="text-xs text-slate-400"> · Chiayi</span><span class="text-xs text-slate-400 ml-auto">05/22</span></div><a href="https://www.ptt.cc/bbs/Chiayi/M.1779321944.A.85F.html" target="_blank" rel="noopener" class="text-sm font-bold text-slate-800 leading-snug hover:text-orange-500 transition-colors block">[新聞] 駁黃敏惠沒幫忙一說！ 張啓楷：藍白合</a><div class="flex items-center gap-3 mt-2 text-xs text-slate-400"><span>👍 0</span><span>💬 0</span><span class="ml-auto text-xs px-2 py-0.5 bg-slate-100 rounded-full">市政議題</span></div></div>
-</div>
   <!-- ── Row 3.5：分類圖表（甜甜圈，備用） + 說明卡 ── -->
   <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-6">
     <!-- 投訴分佈說明 -->
@@ -584,6 +586,36 @@
     </div>
 
   </div>
+
+  <!-- ── Row 2.5：市民社群聲音 ── -->
+  <div class="card p-6 mb-6">
+    <div class="flex items-center justify-between mb-4">
+      <div>
+        <h2 class="text-lg font-black text-slate-900">市民社群聲音</h2>
+        <p class="text-sm text-slate-500 mt-0.5">PTT・Dcard・Threads 嘉義市相關討論，即時同步</p>
+      </div>
+      <div class="flex items-center gap-2">
+        <span class="text-xs font-black px-2 py-1 rounded-full text-white bg-green-600">PTT</span>
+        <span class="text-xs font-black px-2 py-1 rounded-full text-white bg-red-400">Dcard</span>
+        <span class="text-xs font-black px-2 py-1 rounded-full text-white" style="background:#000">Threads</span>
+        <a href="https://www.threads.net/search?q=%E5%98%89%E7%BE%A9%E5%B8%82" target="_blank" rel="noopener"
+           class="text-xs text-slate-400 hover:text-slate-600 font-bold">更多 →</a>
+      </div>
+    </div>
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3" id="social-feed">
+<div class="social-card bg-white rounded-xl p-4 border border-slate-100 hover:border-slate-300 transition-colors"><div class="flex items-center gap-2 mb-2"><span class="text-xs font-black px-2 py-0.5 rounded-full text-white" style="background:#00b300">PTT</span><span class="text-xs text-slate-400"> · Chiayi</span><span class="text-xs text-slate-400 ml-auto">05/23</span></div><a href="https://www.ptt.cc/bbs/Chiayi/M.1779497416.A.B61.html" target="_blank" rel="noopener" class="text-sm font-bold text-slate-800 leading-snug hover:text-orange-500 transition-colors block">Re: [徵求] 幫忙在中正大學找一篇論文並影印</a><div class="flex items-center gap-3 mt-2 text-xs text-slate-400"><span>👍 0</span><span>💬 0</span><span class="ml-auto text-xs px-2 py-0.5 bg-slate-100 rounded-full">市政議題</span></div></div>
+<div class="social-card bg-white rounded-xl p-4 border border-slate-100 hover:border-slate-300 transition-colors"><div class="flex items-center gap-2 mb-2"><span class="text-xs font-black px-2 py-0.5 rounded-full text-white" style="background:#00b300">PTT</span><span class="text-xs text-slate-400"> · Chiayi</span><span class="text-xs text-slate-400 ml-auto">05/23</span></div><a href="https://www.ptt.cc/bbs/Chiayi/M.1779493926.A.775.html" target="_blank" rel="noopener" class="text-sm font-bold text-slate-800 leading-snug hover:text-orange-500 transition-colors block">[轉讓] 澎湖風沙月民宿5/30-5/31雙人床一晚</a><div class="flex items-center gap-3 mt-2 text-xs text-slate-400"><span>👍 0</span><span>💬 0</span><span class="ml-auto text-xs px-2 py-0.5 bg-slate-100 rounded-full">市政議題</span></div></div>
+<div class="social-card bg-white rounded-xl p-4 border border-slate-100 hover:border-slate-300 transition-colors"><div class="flex items-center gap-2 mb-2"><span class="text-xs font-black px-2 py-0.5 rounded-full text-white" style="background:#00b300">PTT</span><span class="text-xs text-slate-400"> · Chiayi</span><span class="text-xs text-slate-400 ml-auto">05/22</span></div><a href="https://www.ptt.cc/bbs/Chiayi/M.1779462067.A.FED.html" target="_blank" rel="noopener" class="text-sm font-bold text-slate-800 leading-snug hover:text-orange-500 transition-colors block">[買賣] 全家林鳳營衛生紙飲料麵包/統一數位禮券/7-11開心卡安心取</a><div class="flex items-center gap-3 mt-2 text-xs text-slate-400"><span>👍 0</span><span>💬 0</span><span class="ml-auto text-xs px-2 py-0.5 bg-slate-100 rounded-full">市政議題</span></div></div>
+<div class="social-card bg-white rounded-xl p-4 border border-slate-100 hover:border-slate-300 transition-colors"><div class="flex items-center gap-2 mb-2"><span class="text-xs font-black px-2 py-0.5 rounded-full text-white" style="background:#00b300">PTT</span><span class="text-xs text-slate-400"> · Chiayi</span><span class="text-xs text-slate-400 ml-auto">05/23</span></div><a href="https://www.ptt.cc/bbs/Chiayi/M.1779455759.A.985.html" target="_blank" rel="noopener" class="text-sm font-bold text-slate-800 leading-snug hover:text-orange-500 transition-colors block">[徵求] 幫忙在中正大學找一篇論文並影印</a><div class="flex items-center gap-3 mt-2 text-xs text-slate-400"><span>👍 0</span><span>💬 0</span><span class="ml-auto text-xs px-2 py-0.5 bg-slate-100 rounded-full">市政議題</span></div></div>
+<div class="social-card bg-white rounded-xl p-4 border border-slate-100 hover:border-slate-300 transition-colors"><div class="flex items-center gap-2 mb-2"><span class="text-xs font-black px-2 py-0.5 rounded-full text-white" style="background:#00b300">PTT</span><span class="text-xs text-slate-400"> · Chiayi</span><span class="text-xs text-slate-400 ml-auto">05/23</span></div><a href="https://www.ptt.cc/bbs/Chiayi/M.1779430009.A.485.html" target="_blank" rel="noopener" class="text-sm font-bold text-slate-800 leading-snug hover:text-orange-500 transition-colors block">[新聞] 嘉市羅大德診所X光室偵煙器藏密錄器 </a><div class="flex items-center gap-3 mt-2 text-xs text-slate-400"><span>👍 0</span><span>💬 0</span><span class="ml-auto text-xs px-2 py-0.5 bg-slate-100 rounded-full">市政議題</span></div></div>
+<div class="social-card bg-white rounded-xl p-4 border border-slate-100 hover:border-slate-300 transition-colors"><div class="flex items-center gap-2 mb-2"><span class="text-xs font-black px-2 py-0.5 rounded-full text-white" style="background:#00b300">PTT</span><span class="text-xs text-slate-400"> · Chiayi</span><span class="text-xs text-slate-400 ml-auto">05/22</span></div><a href="https://www.ptt.cc/bbs/Chiayi/M.1779418633.A.7A4.html" target="_blank" rel="noopener" class="text-sm font-bold text-slate-800 leading-snug hover:text-orange-500 transition-colors block">贈送三人座沙發 西區</a><div class="flex items-center gap-3 mt-2 text-xs text-slate-400"><span>👍 0</span><span>💬 0</span><span class="ml-auto text-xs px-2 py-0.5 bg-slate-100 rounded-full">市政議題</span></div></div>
+<div class="social-card bg-white rounded-xl p-4 border border-slate-100 hover:border-slate-300 transition-colors"><div class="flex items-center gap-2 mb-2"><span class="text-xs font-black px-2 py-0.5 rounded-full text-white" style="background:#00b300">PTT</span><span class="text-xs text-slate-400"> · Chiayi</span><span class="text-xs text-slate-400 ml-auto">05/22</span></div><a href="https://www.ptt.cc/bbs/Chiayi/M.1779417929.A.978.html" target="_blank" rel="noopener" class="text-sm font-bold text-slate-800 leading-snug hover:text-orange-500 transition-colors block">[亂入] (11屆)市議會 第七次定期會(1-20會)</a><div class="flex items-center gap-3 mt-2 text-xs text-slate-400"><span>👍 0</span><span>💬 0</span><span class="ml-auto text-xs px-2 py-0.5 bg-slate-100 rounded-full">市政議題</span></div></div>
+<div class="social-card bg-white rounded-xl p-4 border border-slate-100 hover:border-slate-300 transition-colors"><div class="flex items-center gap-2 mb-2"><span class="text-xs font-black px-2 py-0.5 rounded-full text-white" style="background:#00b300">PTT</span><span class="text-xs text-slate-400"> · Chiayi</span><span class="text-xs text-slate-400 ml-auto">05/23</span></div><a href="https://www.ptt.cc/bbs/Chiayi/M.1779417435.A.F6D.html" target="_blank" rel="noopener" class="text-sm font-bold text-slate-800 leading-snug hover:text-orange-500 transition-colors block">[新聞] 嘉義台積宅虛漲泡沫要破？專家點名2區恐</a><div class="flex items-center gap-3 mt-2 text-xs text-slate-400"><span>👍 0</span><span>💬 0</span><span class="ml-auto text-xs px-2 py-0.5 bg-slate-100 rounded-full">市政議題</span></div></div>
+<div class="social-card bg-white rounded-xl p-4 border border-slate-100 hover:border-slate-300 transition-colors"><div class="flex items-center gap-2 mb-2"><span class="text-xs font-black px-2 py-0.5 rounded-full text-white" style="background:#00b300">PTT</span><span class="text-xs text-slate-400"> · Chiayi</span><span class="text-xs text-slate-400 ml-auto">05/23</span></div><a href="https://www.ptt.cc/bbs/Chiayi/M.1779382456.A.C53.html" target="_blank" rel="noopener" class="text-sm font-bold text-slate-800 leading-snug hover:text-orange-500 transition-colors block">[問題] 請問嘉義人如何前往綠島旅遊</a><div class="flex items-center gap-3 mt-2 text-xs text-slate-400"><span>👍 0</span><span>💬 0</span><span class="ml-auto text-xs px-2 py-0.5 bg-slate-100 rounded-full">文化觀光</span></div></div>
+<div class="social-card bg-white rounded-xl p-4 border border-slate-100 hover:border-slate-300 transition-colors"><div class="flex items-center gap-2 mb-2"><span class="text-xs font-black px-2 py-0.5 rounded-full text-white" style="background:#00b300">PTT</span><span class="text-xs text-slate-400"> · Chiayi</span><span class="text-xs text-slate-400 ml-auto">05/22</span></div><a href="https://www.ptt.cc/bbs/Chiayi/M.1779377229.A.7C3.html" target="_blank" rel="noopener" class="text-sm font-bold text-slate-800 leading-snug hover:text-orange-500 transition-colors block">[問題] 請問後庄里這邊有人有同樣的狀況嗎?</a><div class="flex items-center gap-3 mt-2 text-xs text-slate-400"><span>👍 0</span><span>💬 0</span><span class="ml-auto text-xs px-2 py-0.5 bg-slate-100 rounded-full">市政議題</span></div></div>
+<div class="social-card bg-white rounded-xl p-4 border border-slate-100 hover:border-slate-300 transition-colors"><div class="flex items-center gap-2 mb-2"><span class="text-xs font-black px-2 py-0.5 rounded-full text-white" style="background:#00b300">PTT</span><span class="text-xs text-slate-400"> · Chiayi</span><span class="text-xs text-slate-400 ml-auto">05/21</span></div><a href="https://www.ptt.cc/bbs/Chiayi/M.1779327312.A.8E8.html" target="_blank" rel="noopener" class="text-sm font-bold text-slate-800 leading-snug hover:text-orange-500 transition-colors block">[合購] 好事多磁吸式充電線 </a><div class="flex items-center gap-3 mt-2 text-xs text-slate-400"><span>👍 0</span><span>💬 0</span><span class="ml-auto text-xs px-2 py-0.5 bg-slate-100 rounded-full">市政議題</span></div></div>
+<div class="social-card bg-white rounded-xl p-4 border border-slate-100 hover:border-slate-300 transition-colors"><div class="flex items-center gap-2 mb-2"><span class="text-xs font-black px-2 py-0.5 rounded-full text-white" style="background:#00b300">PTT</span><span class="text-xs text-slate-400"> · Chiayi</span><span class="text-xs text-slate-400 ml-auto">05/22</span></div><a href="https://www.ptt.cc/bbs/Chiayi/M.1779321944.A.85F.html" target="_blank" rel="noopener" class="text-sm font-bold text-slate-800 leading-snug hover:text-orange-500 transition-colors block">[新聞] 駁黃敏惠沒幫忙一說！ 張啓楷：藍白合</a><div class="flex items-center gap-3 mt-2 text-xs text-slate-400"><span>👍 0</span><span>💬 0</span><span class="ml-auto text-xs px-2 py-0.5 bg-slate-100 rounded-full">市政議題</span></div></div>
+</div>
 
   <!-- ── Row 4：詳細記錄表格 ── -->
   <div class="card overflow-hidden mb-6">
@@ -1819,6 +1851,96 @@ function renderAccidentStats() {
         <div class="text-[9px] text-slate-400 mt-0.5">${d.count.toLocaleString()} 件</div>
       </div>`;
     }).join('');
+  }
+
+
+  // ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  //  市政即時新聞 — 初始化（來源統計 + 焦點 + 篩選）
+  // ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  function initNewsSection() {
+    const cards = [...document.querySelectorAll('#news-list .news-card')];
+    const gi    = id => document.getElementById(id);
+
+    // 更新則數標籤
+    if (gi('news-count-tag')) gi('news-count-tag').textContent = cards.length + ' 則新聞';
+
+    // 解析每張卡片：來源色 + 類別
+    let govCount = 0, mediaCount = 0, socialCount = 0;
+    const spotCards = [];   // 市府新聞（前 3 張）
+
+    cards.forEach(card => {
+      const spans   = card.querySelectorAll('div:first-child > span');
+      const srcSpan = spans[0];
+      const catSpan = spans[1];
+      const bg      = srcSpan ? (srcSpan.style.background || '') : '';
+      const catText = catSpan ? catSpan.textContent.trim() : '其他';
+
+      // 標記 data-category 供篩選
+      card.dataset.category = catText;
+
+      // 計數
+      if (bg.includes('7C3AED')) { govCount++;   if (spotCards.length < 3) spotCards.push({ card, catText }); }
+      else if (bg.includes('F97316')) mediaCount++;
+      else socialCount++;
+    });
+
+    // 來源統計 pills
+    const srcEl = gi('news-source-stats');
+    if (srcEl) {
+      srcEl.innerHTML = [
+        ['🏛️ 市府公告', govCount,    '#7C3AED'],
+        ['📰 媒體報導', mediaCount,  '#F97316'],
+        ['💬 社群討論', socialCount, '#64748B'],
+      ].filter(([,n]) => n > 0)
+       .map(([label, n, color]) =>
+         `<span class="text-[10px] font-bold px-2.5 py-1 rounded-full text-white" style="background:${color}">${label} · ${n}</span>`
+       ).join('');
+    }
+
+    // 市府要聞焦點
+    const spotEl = gi('news-spotlight');
+    if (spotEl && spotCards.length > 0) {
+      spotEl.innerHTML = spotCards.map(({ card }) => {
+        const a       = card.querySelector('a');
+        const dateEl  = card.querySelector('.ml-auto');
+        const catEl   = card.querySelectorAll('div:first-child > span')[1];
+        const cat     = catEl?.textContent.trim() || '';
+        const catColor = cat ? getCatColor(cat) : '#94A3B8';
+        return `<a href="${a?.href || '#'}" target="_blank" rel="noopener"
+          class="block bg-purple-50 border border-purple-100 rounded-xl p-4 hover:bg-purple-100 transition-colors group">
+          <div class="flex items-center gap-1.5 mb-2">
+            <span class="text-[10px] font-bold text-purple-500">🏛️ 市府公告</span>
+            <span class="text-[10px] font-bold px-1.5 py-0.5 rounded-full text-white ml-auto" style="background:${catColor}">${cat}</span>
+            <span class="text-[10px] text-slate-400">${dateEl?.textContent.trim() || ''}</span>
+          </div>
+          <p class="text-sm font-bold text-slate-800 leading-snug line-clamp-3 group-hover:text-orange-600 transition-colors">${a?.textContent?.trim() || ''}</p>
+        </a>`;
+      }).join('');
+    } else if (spotEl) {
+      spotEl.innerHTML = '<p class="text-xs text-slate-400 col-span-3">暫無市府公告</p>';
+    }
+  }
+
+  function filterNews(cat) {
+    // 更新 tab 樣式
+    document.querySelectorAll('.news-filter-btn').forEach(btn => {
+      const active = btn.dataset.cat === cat;
+      btn.className = btn.className
+        .replace('bg-slate-900 text-white', '')
+        .replace('bg-slate-100 text-slate-600', '')
+        .trim();
+      btn.classList.add(...(active ? ['bg-slate-900','text-white'] : ['bg-slate-100','text-slate-600']));
+    });
+    // 過濾卡片
+    let shown = 0;
+    document.querySelectorAll('#news-list .news-card').forEach(card => {
+      const show = !cat || card.dataset.category === cat;
+      card.style.display = show ? '' : 'none';
+      if (show) shown++;
+    });
+    // 更新篩選標籤
+    const lbl = document.getElementById('news-filter-label');
+    if (lbl) lbl.textContent = cat ? `（篩選：${cat}，共 ${shown} 則）` : '';
   }
 
   document.addEventListener('DOMContentLoaded', () => {
