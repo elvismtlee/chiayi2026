@@ -157,11 +157,16 @@
 
     <!-- 路段熱點（2/5） -->
     <div class="lg:col-span-2 card p-6">
-      <div class="mb-5">
+      <div class="mb-4">
         <h2 class="text-lg font-black text-slate-900">施工熱點路段</h2>
-        <p class="text-sm text-slate-500 mt-0.5">管線挖掘 Top 10 路段</p>
+        <p class="text-sm text-slate-500 mt-0.5">道路挖掘・管線施工 Top 10 路段</p>
       </div>
-      <div class="space-y-2" id="road-list"></div>
+      <div class="space-y-1.5" id="road-list"></div>
+      <div class="mt-3 pt-2 border-t border-slate-100">
+        <a href="https://data.chiayi.gov.tw/opendata/datasetList?name=%E9%81%93%E8%B7%AF%E6%8C%96%E6%8E%98"
+           target="_blank" rel="noopener"
+           class="text-xs text-blue-500 font-bold hover:underline">📋 查閱完整施工清單 →</a>
+      </div>
     </div>
   </div>
 
@@ -231,17 +236,26 @@
 
     <!-- 即時新聞（1/3） -->
     <div class="card p-6 flex flex-col">
-      <div class="flex items-center justify-between mb-4">
-        <h2 class="text-lg font-black text-slate-900">市政即時新聞</h2>
-        <span class="relative flex h-2.5 w-2.5">
-          <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-orange-400 opacity-75"></span>
-          <span class="relative inline-flex rounded-full h-2.5 w-2.5 bg-orange-500"></span>
-        </span>
+      <div class="flex items-center justify-between mb-3">
+        <div>
+          <h2 class="text-lg font-black text-slate-900">市政即時新聞</h2>
+          <p class="text-xs text-slate-400 mt-0.5">市府公告・Google News・PTT 整合</p>
+        </div>
+        <div class="flex items-center gap-2">
+          <a href="https://news.google.com/search?q=%E5%98%89%E7%BE%A9%E5%B8%82%E5%B8%82%E6%94%BF&hl=zh-TW"
+             target="_blank" rel="noopener"
+             class="text-xs text-orange-500 font-bold hover:underline">更多 →</a>
+          <span class="relative flex h-2.5 w-2.5">
+            <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-orange-400 opacity-75"></span>
+            <span class="relative inline-flex rounded-full h-2.5 w-2.5 bg-orange-500"></span>
+          </span>
+        </div>
       </div>
-      <div class="space-y-3 overflow-y-auto hide-scroll flex-grow" style="max-height:240px;" id="news-list">
+      <div class="space-y-2 overflow-y-auto hide-scroll flex-grow" style="max-height:280px;" id="news-list">
         <!-- 由 scraper.py 注入 -->
         <div class="text-sm text-slate-400 text-center py-8">新聞載入中...</div>
       </div>
+      <!-- ── news-end -->
     </div>
   </div>
 
@@ -250,11 +264,14 @@
     <div class="flex items-center justify-between mb-4">
       <div>
         <h2 class="text-lg font-black text-slate-900">市民社群聲音</h2>
-        <p class="text-sm text-slate-500 mt-0.5">PTT ＆ Dcard 嘉義市相關討論，即時同步</p>
+        <p class="text-sm text-slate-500 mt-0.5">PTT・Dcard・Threads 嘉義市相關討論，即時同步</p>
       </div>
       <div class="flex items-center gap-2">
         <span class="text-xs font-black px-2 py-1 rounded-full text-white bg-green-600">PTT</span>
         <span class="text-xs font-black px-2 py-1 rounded-full text-white bg-red-400">Dcard</span>
+        <span class="text-xs font-black px-2 py-1 rounded-full text-white" style="background:#000">Threads</span>
+        <a href="https://www.threads.net/search?q=%E5%98%89%E7%BE%A9%E5%B8%82" target="_blank" rel="noopener"
+           class="text-xs text-slate-400 hover:text-slate-600 font-bold">更多 →</a>
       </div>
     </div>
     <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3" id="social-feed">
@@ -335,12 +352,27 @@
   <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-6">
     <!-- 投訴分佈說明 -->
     <div class="card p-6 bg-gradient-to-br from-orange-50 to-amber-50 border border-orange-100">
-      <div class="text-3xl mb-3">🚨</div>
+      <div class="text-2xl mb-2">🚨</div>
       <h3 class="font-black text-slate-900 text-base mb-2">城市痛點快覽</h3>
-      <p class="text-sm text-slate-600 leading-relaxed" id="summary-text">
+      <p class="text-xs text-slate-600 leading-relaxed mb-2" id="summary-text">
         正在計算最常見的市民投訴...
       </p>
-      <div class="mt-3 grid grid-cols-3 gap-2" id="accident-stats"></div>
+      <div class="grid grid-cols-3 gap-1.5 mb-3" id="accident-stats"></div>
+      <!-- 快速連結 -->
+      <div class="space-y-1.5">
+        <a href="https://1999.chiayi.gov.tw" target="_blank" rel="noopener"
+           class="flex items-center gap-2 text-xs font-bold text-orange-600 hover:text-orange-700 bg-orange-50 rounded-lg px-3 py-1.5 hover:bg-orange-100 transition-colors">
+          <span>📞</span><span>1999 市民服務通報中心</span><span class="ml-auto">→</span>
+        </a>
+        <a href="https://data.chiayi.gov.tw" target="_blank" rel="noopener"
+           class="flex items-center gap-2 text-xs font-bold text-blue-600 hover:text-blue-700 bg-blue-50 rounded-lg px-3 py-1.5 hover:bg-blue-100 transition-colors">
+          <span>📊</span><span>嘉義市開放資料平台</span><span class="ml-auto">→</span>
+        </a>
+        <a href="https://www.cycc.gov.tw" target="_blank" rel="noopener"
+           class="flex items-center gap-2 text-xs font-bold text-purple-600 hover:text-purple-700 bg-purple-50 rounded-lg px-3 py-1.5 hover:bg-purple-100 transition-colors">
+          <span>🏛️</span><span>嘉義市議會官網</span><span class="ml-auto">→</span>
+        </a>
+      </div>
     </div>
     <div class="card p-6 bg-gradient-to-br from-blue-50 to-indigo-50 border border-blue-100">
       <div class="text-2xl mb-2">🌉</div>
@@ -370,7 +402,15 @@
       </div>
       <!-- 動態細節（JS 填入） -->
       <div id="ib-detail" class="space-y-1 text-xs text-slate-600 mb-2"></div>
-      <p class="text-[11px] font-bold text-blue-700">維護城市基礎建設，是議員的責任</p>
+      <p class="text-[11px] font-bold text-blue-700 mb-2">維護城市基礎建設，是議員的責任</p>
+      <div class="flex gap-1.5 flex-wrap">
+        <a href="https://data.chiayi.gov.tw/opendata/datasetList?name=%E6%A9%8B%E6%A2%81" target="_blank" rel="noopener"
+           class="text-[10px] font-bold text-blue-500 bg-blue-50 px-2 py-0.5 rounded-full hover:bg-blue-100">橋梁資料 →</a>
+        <a href="https://data.chiayi.gov.tw/opendata/datasetList?name=%E5%81%9C%E8%BB%8A%E5%A0%B4" target="_blank" rel="noopener"
+           class="text-[10px] font-bold text-green-500 bg-green-50 px-2 py-0.5 rounded-full hover:bg-green-100">停車場 →</a>
+        <a href="https://data.chiayi.gov.tw/opendata/datasetList?name=%E8%B7%AF%E7%87%88" target="_blank" rel="noopener"
+           class="text-[10px] font-bold text-yellow-600 bg-yellow-50 px-2 py-0.5 rounded-full hover:bg-yellow-100">路燈 →</a>
+      </div>
     </div>
     <div class="card p-6 bg-gradient-to-br from-green-50 to-emerald-50 border border-green-100">
       <div class="text-3xl mb-3">📣</div>
@@ -478,6 +518,7 @@
             <th class="px-5 py-3 hide-mobile">地點</th>
             <th class="px-5 py-3">投訴內容</th>
             <th class="px-5 py-3 text-center hide-mobile">狀態</th>
+            <th class="px-5 py-3 text-center hide-mobile">資料來源</th>
           </tr>
         </thead>
         <tbody id="table-body" class="divide-y divide-slate-50 text-sm text-slate-700"></tbody>
@@ -813,18 +854,34 @@
 
   function renderRoadList(roadData) {
     const el = document.getElementById('road-list');
+    if (!roadData || roadData.length === 0) {
+      el.innerHTML = '<div class="text-xs text-slate-400 text-center py-4">路段資料更新中...</div>';
+      return;
+    }
     const max = roadData[0]?.count || 1;
-    el.innerHTML = roadData.map((d, i) => `
-      <div class="flex items-center gap-3">
-        <span class="text-xs font-en font-black ${i < 3 ? 'text-orange-500' : 'text-slate-400'} w-5 text-right">${i+1}</span>
+    el.innerHTML = roadData.map((d, i) => {
+      const mapsUrl = `https://www.google.com/maps/search/${encodeURIComponent((d.road||'') + ' 嘉義市')}`;
+      const catBadge = d.subcategory ? `<span class="text-[9px] font-bold text-slate-400 bg-slate-100 rounded px-1 ml-1">${d.subcategory}</span>` : '';
+      const countFmt = d.count >= 1000 ? (d.count/1000).toFixed(1)+'K' : d.count;
+      return `
+      <div class="flex items-center gap-2 group">
+        <span class="text-xs font-en font-black ${i < 3 ? 'text-orange-500' : 'text-slate-400'} w-5 text-right shrink-0">${i+1}</span>
         <div class="flex-1 min-w-0">
-          <div class="text-sm font-medium text-slate-800 truncate">${d.road}</div>
-          <div class="h-1.5 bg-slate-100 rounded-full mt-1 overflow-hidden">
+          <div class="flex items-center gap-1">
+            <a href="${mapsUrl}" target="_blank" rel="noopener"
+               class="text-xs font-bold text-slate-800 truncate hover:text-orange-500 transition-colors">${d.road||'未知路段'}</a>
+            ${catBadge}
+          </div>
+          <div class="h-1 bg-slate-100 rounded-full mt-1 overflow-hidden">
             <div class="h-full rounded-full bar-fill" style="--w:${Math.round(d.count/max*100)}%;background:${i < 3 ? '#F97316' : '#CBD5E1'};"></div>
           </div>
         </div>
-        <span class="text-xs font-en font-bold text-slate-600 w-8 text-right">${d.count}</span>
-      </div>`).join('');
+        <div class="text-right shrink-0">
+          <div class="text-xs font-en font-black text-slate-700">${countFmt}</div>
+          <div class="text-[9px] text-slate-400">路段</div>
+        </div>
+      </div>`;
+    }).join('');
   }
 
   function renderTrendChart(data) {
@@ -980,6 +1037,9 @@ function renderAccidentStats() {
           <td class="px-5 py-3.5 text-slate-600 text-xs">${desc}${countBadge}</td>
           <td class="px-5 py-3.5 text-center hide-mobile">
             ${statusTxt ? `<span class="text-xs font-bold px-2 py-1 rounded-full ${sc}">${statusTxt}</span>` : ''}
+          </td>
+          <td class="px-5 py-3.5 text-center hide-mobile">
+            ${item.source_url ? `<a href="${item.source_url}" target="_blank" rel="noopener" class="text-[10px] font-bold text-blue-500 hover:underline">資料 →</a>` : '<span class="text-[10px] text-slate-300">—</span>'}
           </td>
         </tr>`);
     });

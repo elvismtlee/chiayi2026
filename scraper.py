@@ -338,25 +338,58 @@ def build_dashboard(news, complaint_stats, council_data, citizen_stats, social_p
             flags=re.DOTALL,
         )
 
-    # 注入即時新聞 HTML（配合新版 id="news-list"）
+    # 注入即時新聞 HTML（配合新版 id="news-list" + <!-- ── news-end --> 標記）
     if news:
+        # 依來源決定顏色
+        def _news_color(src):
+            s = src or ''
+            if '市政府' in s or '嘉義市' in s: return '#7C3AED'
+            if 'PTT' in s: return '#00b300'
+            if 'Dcard' in s: return '#ef4444'
+            return '#F97316'
+
+        # 依標題決定議題分類
+        def _news_cat(n):
+            return classify_text(n.get('headline','') + ' ' + n.get('query',''))
+
+        # 分類顏色
+        _cat_colors = {
+            '交通停車':'#EF4444','道路路平':'#F97316','人行步道':'#F59E0B',
+            '環境衛生':'#10B981','排水水利':'#3B82F6','公共安全':'#8B5CF6',
+            '市場商圈':'#EC4899','公園綠地':'#22C55E','通學安全':'#06B6D4',
+            '社福高齡':'#6366F1','文化觀光':'#A78BFA','行政服務':'#64748B','其他':'#94A3B8'
+        }
+
         news_html_parts = []
-        for n in news[:12]:
+        # 先放市府官方新聞（最多 3 則）
+        gov_news = [n for n in news if '市政府' in (n.get('source',''))][:3]
+        rss_news = [n for n in news if '市政府' not in (n.get('source',''))][:17]
+        ordered_news = gov_news + rss_news
+
+        for n in ordered_news[:20]:
+            color = _news_color(n.get('source',''))
+            cat = _news_cat(n)
+            cat_color = _cat_colors.get(cat, '#94A3B8')
+            src_label = (n.get('source','') or '新聞')[:20]
+            date_str = (n.get('date','') or '')[:10]
+            headline = (n.get('headline','') or '').replace('<','&lt;').replace('>','&gt;')[:90]
+            url = n.get('link','') or '#'
             news_html_parts.append(
-                f'<div class="news-card bg-white rounded-xl p-4 border border-slate-100">'
-                f'<div class="flex justify-between items-center mb-2">'
-                f'<span class="text-xs font-bold text-orange-500">{n["source"]}</span>'
-                f'<span class="text-xs text-slate-400 font-en">{n["date"][:10]}</span>'
+                f'<div class="news-card bg-white rounded-xl p-3 border border-slate-100">'
+                f'<div class="flex items-center gap-1.5 mb-1.5">'
+                f'<span class="text-[10px] font-bold px-1.5 py-0.5 rounded-full text-white" style="background:{color}">{src_label}</span>'
+                f'<span class="text-[10px] font-bold px-1.5 py-0.5 rounded-full text-white" style="background:{cat_color}">{cat}</span>'
+                f'<span class="text-[10px] text-slate-400 ml-auto font-en">{date_str}</span>'
                 f'</div>'
-                f'<a href="{n["link"]}" target="_blank" rel="noopener" '
-                f'class="text-sm font-bold text-slate-800 leading-relaxed hover:text-orange-500 transition-colors block">'
-                f'{n["headline"]}</a>'
+                f'<a href="{url}" target="_blank" rel="noopener" '
+                f'class="text-xs font-bold text-slate-800 leading-relaxed hover:text-orange-500 transition-colors block line-clamp-2">'
+                f'{headline}</a>'
                 f'</div>'
             )
         news_html = "\n".join(news_html_parts)
         html = re.sub(
-            r'(<div[^>]+id="news-list"[^>]*>).*?(</div>\s*</div>\s*</div>\s*<!-- ── Row 3)',
-            rf"\1\n{news_html}\n</div>\n<!-- ── Row 3",
+            r'(<div[^>]+id="news-list"[^>]*>).*?(<!-- ── news-end)',
+            rf"\1\n{news_html}\n</div>\n      <!-- ── news-end",
             html,
             flags=re.DOTALL,
         )
