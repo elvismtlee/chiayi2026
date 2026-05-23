@@ -318,20 +318,6 @@
 <div class="social-card bg-white rounded-xl p-4 border border-slate-100 hover:border-slate-300 transition-colors"><div class="flex items-center gap-2 mb-2"><span class="text-xs font-black px-2 py-0.5 rounded-full text-white" style="background:#00b300">PTT</span><span class="text-xs text-slate-400"> · Chiayi</span><span class="text-xs text-slate-400 ml-auto">05/21</span></div><a href="https://www.ptt.cc/bbs/Chiayi/M.1779327312.A.8E8.html" target="_blank" rel="noopener" class="text-sm font-bold text-slate-800 leading-snug hover:text-orange-500 transition-colors block">[合購] 好事多磁吸式充電線 </a><div class="flex items-center gap-3 mt-2 text-xs text-slate-400"><span>👍 0</span><span>💬 0</span><span class="ml-auto text-xs px-2 py-0.5 bg-slate-100 rounded-full">市政議題</span></div></div>
 <div class="social-card bg-white rounded-xl p-4 border border-slate-100 hover:border-slate-300 transition-colors"><div class="flex items-center gap-2 mb-2"><span class="text-xs font-black px-2 py-0.5 rounded-full text-white" style="background:#00b300">PTT</span><span class="text-xs text-slate-400"> · Chiayi</span><span class="text-xs text-slate-400 ml-auto">05/22</span></div><a href="https://www.ptt.cc/bbs/Chiayi/M.1779321944.A.85F.html" target="_blank" rel="noopener" class="text-sm font-bold text-slate-800 leading-snug hover:text-orange-500 transition-colors block">[新聞] 駁黃敏惠沒幫忙一說！ 張啓楷：藍白合</a><div class="flex items-center gap-3 mt-2 text-xs text-slate-400"><span>👍 0</span><span>💬 0</span><span class="ml-auto text-xs px-2 py-0.5 bg-slate-100 rounded-full">市政議題</span></div></div>
 </div>
-<!-- ── Row 3：西區各里人口分析 ── -->
-  <div class="card p-6 mb-6">
-    <div class="flex items-center justify-between mb-3">
-      <div>
-        <h2 class="text-lg font-black text-slate-900">👥 西區各里人口全面分析</h2>
-        <p class="text-sm text-slate-500 mt-0.5">嘉義市西區全 45 里人口分布，2026年最新統計</p>
-      </div>
-      <span class="text-xs text-slate-400 font-en bg-green-100 text-green-700 px-3 py-1 rounded-full font-bold">西區選民地圖</span>
-    </div>
-    <!-- 人口 KPI 磚 -->
-    <div class="grid grid-cols-2 md:grid-cols-4 gap-3 mb-4" id="pop-kpis"></div>
-    <div id="westPopContainer" style="height:480px;"><canvas id="chartWestPop"></canvas></div>
-  </div>
-
   <!-- ── Row 3.5：分類圖表（甜甜圈，備用） + 說明卡 ── -->
   <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-6">
     <!-- 投訴分佈說明 -->
@@ -629,6 +615,20 @@
         <tbody id="table-body" class="divide-y divide-slate-50 text-sm text-slate-700"></tbody>
       </table>
     </div>
+  </div>
+
+  <!-- ── 西區各里人口全面分析 ── -->
+  <div class="card p-6 mb-6">
+    <div class="flex items-center justify-between mb-3">
+      <div>
+        <h2 class="text-lg font-black text-slate-900">👥 西區各里人口全面分析</h2>
+        <p class="text-sm text-slate-500 mt-0.5">嘉義市西區全 45 里人口分布，2026年最新統計</p>
+      </div>
+      <span class="text-xs text-slate-400 font-en bg-green-100 text-green-700 px-3 py-1 rounded-full font-bold">西區選民地圖</span>
+    </div>
+    <!-- 人口 KPI 磚 -->
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-3 mb-4" id="pop-kpis"></div>
+    <div id="westPopContainer" style="height:480px;"><canvas id="chartWestPop"></canvas></div>
   </div>
 
 </main>
