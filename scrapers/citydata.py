@@ -59,9 +59,11 @@ def fetch_aqi_history():
     )
     try:
         data = _get_json(url)
-        records = data.get("records", [])
+        records = data if isinstance(data, list) else data.get("records", [])
         monthly = []
         for r in records:
+            if not isinstance(r, dict):
+                continue
             site = r.get("sitename", "") or ""
             if "嘉義" not in site:
                 continue
@@ -91,7 +93,8 @@ def fetch_aqi_realtime():
     for url in MOENV_ENDPOINTS:
         try:
             data = _get_json(url, timeout=12)
-            records = data.get("records", [])
+            # API 可能回傳 {"records": [...]} 或直接是 [...]
+            records = data if isinstance(data, list) else data.get("records", [])
             if not records:
                 continue
             stations = []
