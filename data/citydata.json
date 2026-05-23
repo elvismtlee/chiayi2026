@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-24T00:05:56.265832",
+  "updated_at": "2026-05-23T16:12:50.281612",
   "aqi_realtime": [
     {
       "station": "嘉義市（Open-Meteo 模型）",
@@ -69,13 +69,6 @@
       "source": "Google新聞"
     },
     {
-      "title": "近千萬補助助攻嘉市產業創新！黃敏惠市長宣布115年SBIR計劃開跑！ - chiayi.gov.tw",
-      "date": "Fri, 22 May 2026",
-      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9XdVk2RGwzdUx1b1R3QTRoZWFBVGZMU0tXRXRrZXM3WVJqaXY2NmMtVkxIVUVIRFBmM3lBTXRDelVQRHV3bzlkMXAyZVdqTVNfYVd4b0lfdFlrUXpNVFBPQ0FRQ1JhSjdrY01DM0tOcmZLelJYTHc?oc=5",
-      "desc": "",
-      "source": "Google新聞"
-    },
-    {
       "title": "嘉義青少年福利中心再升級 羽球、匹克球共融球場嶄新亮相 - 台灣好新聞",
       "date": "Sat, 23 May 2026",
       "link": "https://news.google.com/rss/articles/CBMiigNBVV95cUxNdk1CanpIamFZc2w3cnZfZVA3U2ZMWkVwQTV5NklGNlg2RnREQTEwb2x4RUNIcXhSXzZtaXdqWEtDdnN4bWx5Z1ZaMFI1ZENPcU90U1A3LWpOSmdFZ183c21IMTRxenRVVW0xZllhSzJxdFhXRlNKZ00xOUlqVWpwQTBrZDNCWFV3OXlCNDIzTFpEanBodElPNF90dDNqOFZLM2M1NEVFWVAtd0t3WUwxTlhGS3ZSMkwxUnZoYlVOWnlpd3BXM3VHZ2ljVU1fWFdmbG9jcXhCcS02ME5vMXFOUnRXMnRyRjJjbkJ6NDU4SlN2T0dpMVlsNldwYW02TW5WWE5FSmpYS21WdGtRWldsYTNScjlCUVhlXzlpeDJjbkFHeS14ZUo2YXF1cm9iOUwwS2c4aXRKQVBpYi1teFRTWlFnd3pIcy1xa0RXRnB6Yk1LY3BycUY5azA5bHN5enlHSTdXMFdrZjM1ekVsVFRzdVIwNW0wd3lSaWpIcXpkS29XUkxYSkU1NmtB?oc=5",
@@ -93,6 +86,13 @@
       "title": "嘉市青少年福利服務中心全新升級 羽球、匹克球共融球場嶄新亮相 - 中央社 CNA",
       "date": "Sat, 23 May 2026",
       "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5ZUFlxWWxEZnFhWHh6Y0E3dllFVmxfTExaWjdFdzhoeEpGYUdfMlJYd1otVkFLcThpblZvVFR6WVR2RW44UVhrY09TOERwY2NIYVZtVVVR?oc=5",
+      "desc": "",
+      "source": "Google新聞"
+    },
+    {
+      "title": "嘉義市太陽光電補助與模組回收，深入社區巡迴宣導 - 嘉義市政府環境保護局",
+      "date": "Thu, 21 May 2026",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE50RndWTzdkWnZyM3dCaVRaTGVwUkZUY2NXQmF4VS1tLXlYdXoyVG1Uc0ptQkJrUUQ1Q2sxU3g2MGpMTmhBenFSU1FXVEMzQXlnZlZTeDh4YkdpbFE4T0VzNmUzTnJwcE55dzN3?oc=5",
       "desc": "",
       "source": "Google新聞"
     }
@@ -158,7 +158,7 @@
   "disease": {
     "dengue": [],
     "enterovirus": [],
-    "updated": "2026-05-24"
+    "updated": "2026-05-23"
   },
   "fire": {
     "chiayi_datasets": [
@@ -332,7 +332,7 @@
       "lat": 23.47877,
       "lng": 120.44089,
       "total": 42,
-      "available": 15,
+      "available": 11,
       "addr": "中山路528號"
     },
     {
@@ -359,7 +359,7 @@
       "lat": 23.4738724,
       "lng": 120.4493073,
       "total": 20,
-      "available": 7,
+      "available": 6,
       "addr": "垂楊路434號"
     },
     {
@@ -404,7 +404,7 @@
       "lat": 23.48931,
       "lng": 120.4361,
       "total": 15,
-      "available": 10,
+      "available": 9,
       "addr": "自由路298號"
     },
     {
@@ -436,5 +436,5 @@
     }
   ],
   "water": [],
-  "fetch_seconds": 86.6
+  "fetch_seconds": 93.9
 }
