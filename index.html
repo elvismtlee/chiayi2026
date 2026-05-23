@@ -437,275 +437,542 @@
   </div>
   </div>
 
-  <!-- ── Row 3.5：分類圖表（甜甜圈，備用） + 說明卡 ── -->
-  <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-6">
-    <!-- 投訴分佈說明 -->
-    <div class="card p-6" style="border-left:4px solid #F97316;">
-      <div class="flex items-center gap-2 mb-3">
-        <span class="text-xl">🚨</span>
-        <h3 class="font-black text-slate-900 text-base">城市痛點快覽</h3>
-        <span class="ml-auto text-[10px] font-bold bg-orange-100 text-orange-600 px-2 py-0.5 rounded-full">即時更新</span>
-      </div>
-      <!-- 摘要文字 -->
-      <p class="text-sm text-slate-600 leading-relaxed mb-3" id="summary-text">
-        正在計算最常見的市民投訴...
-      </p>
-      <!-- Top-3 痛點 -->
-      <p class="text-[10px] font-bold text-slate-400 uppercase tracking-wide mb-1.5">🔥 最迫切議題 Top 3</p>
-      <div class="space-y-1.5 mb-3" id="top3-issues">
-        <div class="flex items-center gap-2 bg-orange-50 rounded-lg px-2.5 py-1.5">
-          <span class="text-orange-500 font-black text-xs w-4 text-center">1</span>
-          <span class="text-sm text-slate-700 font-bold flex-1" id="top3-1">—</span>
-          <span class="text-sm text-orange-500 font-bold" id="top3-1-n"></span>
-        </div>
-        <div class="flex items-center gap-2 bg-amber-50 rounded-lg px-2.5 py-1.5">
-          <span class="text-amber-500 font-black text-xs w-4 text-center">2</span>
-          <span class="text-sm text-slate-700 font-bold flex-1" id="top3-2">—</span>
-          <span class="text-sm text-amber-500 font-bold" id="top3-2-n"></span>
-        </div>
-        <div class="flex items-center gap-2 bg-yellow-50 rounded-lg px-2.5 py-1.5">
-          <span class="text-yellow-600 font-black text-xs w-4 text-center">3</span>
-          <span class="text-sm text-slate-700 font-bold flex-1" id="top3-3">—</span>
-          <span class="text-[10px] text-yellow-600 font-bold" id="top3-3-n"></span>
+  <!-- ── 城市痛點快覽（全幅） ── -->
+  <div class="card p-6 mb-6" style="border-left:4px solid #F97316;">
+    <div class="flex items-center justify-between mb-5 pb-3 border-b border-slate-100">
+      <div class="flex items-start gap-3">
+        <div class="w-1 min-h-[2rem] rounded bg-orange-500 mt-0.5 flex-shrink-0"></div>
+        <div>
+          <h2 class="text-xl font-black text-slate-900">🚨 城市痛點快覽</h2>
+          <p class="text-sm text-slate-500 mt-0.5">嘉義市近12年 1999 市民投訴分類統計・西區痛點全面透明化</p>
         </div>
       </div>
-      <!-- 統計磚 -->
-      <div class="grid grid-cols-3 gap-1.5 mb-3" id="accident-stats"></div>
-      <!-- 快速連結 -->
-      <div class="space-y-1.5 pt-3 border-t border-slate-100">
-        <p class="text-[10px] font-bold text-slate-400 uppercase tracking-wide mb-1">🔗 快速連結</p>
+      <div class="flex items-center gap-2 flex-shrink-0">
+        <span class="text-xs font-bold bg-orange-100 text-orange-600 px-3 py-1 rounded-full">即時更新</span>
+        <a href="report.html" class="text-sm font-bold bg-orange-500 text-white px-4 py-1.5 rounded-full hover:bg-orange-600 transition-colors">直接通報 →</a>
+      </div>
+    </div>
+
+    <!-- 摘要文字 -->
+    <p class="text-base text-slate-600 leading-relaxed mb-5 bg-orange-50 rounded-xl px-4 py-3 border border-orange-100" id="summary-text">
+      正在計算最常見的市民投訴...
+    </p>
+
+    <!-- Top-3 + 分類統計磚 -->
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
+      <div>
+        <p class="text-sm font-bold text-slate-500 uppercase tracking-wide mb-3">🔥 最迫切議題 Top 3</p>
+        <div class="space-y-2.5" id="top3-issues">
+          <div class="flex items-center gap-3 bg-orange-50 rounded-xl px-4 py-3 border border-orange-100">
+            <span class="text-orange-500 font-black text-lg w-7 text-center flex-shrink-0">1</span>
+            <span class="text-base text-slate-700 font-bold flex-1" id="top3-1">—</span>
+            <span class="text-base text-orange-500 font-black" id="top3-1-n"></span>
+          </div>
+          <div class="flex items-center gap-3 bg-amber-50 rounded-xl px-4 py-3 border border-amber-100">
+            <span class="text-amber-500 font-black text-lg w-7 text-center flex-shrink-0">2</span>
+            <span class="text-base text-slate-700 font-bold flex-1" id="top3-2">—</span>
+            <span class="text-base text-amber-500 font-black" id="top3-2-n"></span>
+          </div>
+          <div class="flex items-center gap-3 bg-yellow-50 rounded-xl px-4 py-3 border border-yellow-100">
+            <span class="text-yellow-600 font-black text-lg w-7 text-center flex-shrink-0">3</span>
+            <span class="text-base text-slate-700 font-bold flex-1" id="top3-3">—</span>
+            <span class="text-base text-yellow-600 font-black" id="top3-3-n"></span>
+          </div>
+        </div>
+      </div>
+      <div>
+        <p class="text-sm font-bold text-slate-500 uppercase tracking-wide mb-3">📊 13大議題分類統計</p>
+        <div class="grid grid-cols-3 gap-2" id="accident-stats"></div>
+      </div>
+    </div>
+
+    <!-- 深度洞察 3欄 -->
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-4 mb-5">
+      <div class="bg-orange-50 rounded-xl p-4 border border-orange-100">
+        <p class="text-base font-bold text-orange-700 mb-2">🚗 交通停車居首</p>
+        <p class="text-sm text-slate-600 leading-relaxed">近12年交通停車類投訴長期位居第一，涵蓋違規停車、事故通報、人行道占用。西區重要路口如中山路、文化路交叉口情況尤為嚴峻，亟需系統性改善。</p>
+      </div>
+      <div class="bg-blue-50 rounded-xl p-4 border border-blue-100">
+        <p class="text-base font-bold text-blue-700 mb-2">🛣️ 道路路平持續惡化</p>
+        <p class="text-sm text-slate-600 leading-relaxed">道路破損、管線開挖後復原不完整是市民反映第二多的問題。嘉義市每年數百件道路施工申請，部分路段反覆開挖導致路面凹凸不平，需要建立管線整合機制。</p>
+      </div>
+      <div class="bg-green-50 rounded-xl p-4 border border-green-100">
+        <p class="text-base font-bold text-green-700 mb-2">🌿 環境衛生需系統改善</p>
+        <p class="text-sm text-slate-600 leading-relaxed">垃圾清運不定時、蚊蟲孳生、水溝堵塞等環境衛生問題每年穩定出現，且高度集中在人口密集的西區里。需要長期穩定的社區環境管理機制，而非臨時應急處理。</p>
+      </div>
+    </div>
+
+    <!-- 延申資料與通報管道 -->
+    <div class="pt-4 border-t border-slate-100">
+      <p class="text-sm font-bold text-slate-400 uppercase tracking-wide mb-3">🔗 延申資料・通報管道・深度分析</p>
+      <div class="flex flex-wrap gap-2.5">
         <a href="https://www.chiayi.gov.tw/1999" target="_blank" rel="noopener"
-           class="flex items-center gap-2 text-xs font-bold text-orange-600 hover:text-orange-700 bg-orange-50 rounded-lg px-3 py-1.5 hover:bg-orange-100 transition-colors">
-          <span>📞</span><span>1999 市民服務通報中心</span><span class="ml-auto">→</span>
+           class="flex items-center gap-2 text-sm font-bold text-orange-600 bg-orange-50 rounded-xl px-4 py-2 hover:bg-orange-100 transition-colors border border-orange-200">
+          📞 1999 市民服務通報中心
         </a>
         <a href="https://data.chiayi.gov.tw" target="_blank" rel="noopener"
-           class="flex items-center gap-2 text-xs font-bold text-blue-600 hover:text-blue-700 bg-blue-50 rounded-lg px-3 py-1.5 hover:bg-blue-100 transition-colors">
-          <span>📊</span><span>嘉義市開放資料平台</span><span class="ml-auto">→</span>
+           class="flex items-center gap-2 text-sm font-bold text-blue-600 bg-blue-50 rounded-xl px-4 py-2 hover:bg-blue-100 transition-colors border border-blue-200">
+          📊 嘉義市開放資料平台
         </a>
         <a href="https://www.cycc.gov.tw" target="_blank" rel="noopener"
-           class="flex items-center gap-2 text-xs font-bold text-purple-600 hover:text-purple-700 bg-purple-50 rounded-lg px-3 py-1.5 hover:bg-purple-100 transition-colors">
-          <span>🏛️</span><span>嘉義市議會官網</span><span class="ml-auto">→</span>
+           class="flex items-center gap-2 text-sm font-bold text-purple-600 bg-purple-50 rounded-xl px-4 py-2 hover:bg-purple-100 transition-colors border border-purple-200">
+          🏛️ 嘉義市議會官網
+        </a>
+        <a href="traffic.html"
+           class="flex items-center gap-2 text-sm font-bold text-white bg-slate-800 rounded-xl px-4 py-2 hover:bg-orange-600 transition-colors">
+          📈 交通事故深度分析
         </a>
         <a href="report.html"
-           class="flex items-center gap-2 text-xs font-bold text-white bg-orange-500 rounded-lg px-3 py-1.5 hover:bg-orange-600 transition-colors">
-          <span>✉️</span><span>直接通報李明燦</span><span class="ml-auto">→</span>
+           class="flex items-center gap-2 text-sm font-bold text-white bg-orange-500 rounded-xl px-4 py-2 hover:bg-orange-600 transition-colors">
+          ✉️ 直接向李明燦通報問題
         </a>
       </div>
     </div>
-    <div class="card p-6" style="border-left:4px solid #3B82F6;">
-      <div class="flex items-center gap-2 mb-3">
-        <span class="text-xl">🏗️</span>
-        <h3 class="font-black text-slate-900 text-base">基礎建設資產盤點</h3>
-        <span class="ml-auto text-[10px] font-bold bg-blue-100 text-blue-600 px-2 py-0.5 rounded-full">開放資料</span>
-      </div>
-      <!-- 4 格統計磚 -->
-      <div class="grid grid-cols-2 gap-2 mb-3">
-        <div class="bg-blue-50 rounded-xl p-2.5 text-center border border-blue-100">
-          <div class="text-[10px] font-bold text-blue-500 uppercase tracking-wide">橋梁</div>
-          <div class="text-xl font-black text-blue-700" id="ib-bridges">172</div>
-          <div class="text-[11px] text-slate-400">座</div>
-        </div>
-        <div class="bg-yellow-50 rounded-xl p-2.5 text-center border border-yellow-100">
-          <div class="text-[10px] font-bold text-yellow-500 uppercase tracking-wide">路燈</div>
-          <div class="text-xl font-black text-yellow-600" id="ib-lights">28,688</div>
-          <div class="text-[11px] text-slate-400">盞</div>
-        </div>
-        <div class="bg-green-50 rounded-xl p-2.5 text-center border border-green-100">
-          <div class="text-[10px] font-bold text-green-500 uppercase tracking-wide">公有停車場</div>
-          <div class="text-xl font-black text-green-600" id="ib-parking">38</div>
-          <div class="text-[11px] text-slate-400">處</div>
-        </div>
-        <div class="bg-orange-50 rounded-xl p-2.5 text-center border border-orange-100">
-          <div class="text-[10px] font-bold text-orange-500 uppercase tracking-wide">管線施工</div>
-          <div class="text-xl font-black text-orange-600" id="ib-pipes">—</div>
-          <div class="text-[11px] text-slate-400">現有路段</div>
+  </div>
+
+  <!-- ── 基礎建設資產盤點（全幅） ── -->
+  <div class="card p-6 mb-6" style="border-left:4px solid #3B82F6;">
+    <div class="flex items-center justify-between mb-5 pb-3 border-b border-slate-100">
+      <div class="flex items-start gap-3">
+        <div class="w-1 min-h-[2rem] rounded bg-blue-500 mt-0.5 flex-shrink-0"></div>
+        <div>
+          <h2 class="text-xl font-black text-slate-900">🏗️ 基礎建設資產盤點</h2>
+          <p class="text-sm text-slate-500 mt-0.5">嘉義市橋梁・路燈・停車場・管線全面清查，來源：嘉義市政府開放資料</p>
         </div>
       </div>
-      <!-- 動態細節 -->
-      <div id="ib-detail" class="space-y-1 text-xs text-slate-600 mb-3"></div>
-      <!-- 維護路線圖 -->
-      <div class="bg-slate-50 rounded-xl p-3 mb-3 border border-slate-100">
-        <p class="text-[10px] font-bold text-slate-500 uppercase tracking-wide mb-2">📋 議員推動改善項目</p>
-        <div class="space-y-1.5">
-          <div class="flex items-center gap-2 text-xs">
-            <span class="w-2 h-2 rounded-full bg-green-500 flex-shrink-0"></span>
-            <span class="text-slate-600">路燈汰換 LED 節能計畫（28,688 盞）</span>
-          </div>
-          <div class="flex items-center gap-2 text-xs">
-            <span class="w-2 h-2 rounded-full bg-blue-500 flex-shrink-0"></span>
-            <span class="text-slate-600">老舊橋梁安全檢測與補強</span>
-          </div>
-          <div class="flex items-center gap-2 text-xs">
-            <span class="w-2 h-2 rounded-full bg-orange-400 flex-shrink-0"></span>
-            <span class="text-slate-600">停車場容量擴充・智慧停車導入</span>
-          </div>
-          <div class="flex items-center gap-2 text-xs">
-            <span class="w-2 h-2 rounded-full bg-purple-400 flex-shrink-0"></span>
-            <span class="text-slate-600">地下管線整合・減少道路反覆開挖</span>
-          </div>
-        </div>
-      </div>
-      <div class="flex gap-1.5 flex-wrap pt-2 border-t border-slate-100">
-        <a href="https://data.chiayi.gov.tw/opendata/" target="_blank" rel="noopener"
-           class="text-[10px] font-bold text-blue-500 bg-blue-50 px-2 py-0.5 rounded-full hover:bg-blue-100">橋梁開放資料 →</a>
-        <a href="https://data.chiayi.gov.tw/opendata/" target="_blank" rel="noopener"
-           class="text-[10px] font-bold text-green-500 bg-green-50 px-2 py-0.5 rounded-full hover:bg-green-100">停車場 →</a>
-        <a href="https://data.chiayi.gov.tw/opendata/" target="_blank" rel="noopener"
-           class="text-[10px] font-bold text-yellow-600 bg-yellow-50 px-2 py-0.5 rounded-full hover:bg-yellow-100">路燈 →</a>
+      <div class="flex items-center gap-2 flex-shrink-0">
+        <span class="text-xs font-bold bg-blue-100 text-blue-600 px-3 py-1 rounded-full">開放資料</span>
+        <a href="infra.html" class="text-sm font-bold bg-blue-500 text-white px-4 py-1.5 rounded-full hover:bg-blue-600 transition-colors">深度分析 →</a>
       </div>
     </div>
-    <div class="card p-6 bg-gradient-to-br from-green-50 to-emerald-50 border border-green-100">
-      <div class="text-3xl mb-3">📣</div>
-      <h3 class="font-black text-slate-900 text-base mb-2">你的問題沒被看見？</h3>
-      <p class="text-sm text-slate-600 leading-relaxed mb-4">
-        直接通報給李明燦，每一件都會被記錄進儀表板。
-      </p>
-      <a href="report.html" class="inline-block bg-slate-900 text-white text-sm font-bold px-4 py-2 rounded-xl hover:bg-orange-500 transition-colors">
-        立即通報問題 →
-      </a>
+
+    <!-- 6 KPI 磚 -->
+    <div class="grid grid-cols-2 md:grid-cols-6 gap-3 mb-6">
+      <div class="bg-blue-50 border border-blue-100 rounded-xl p-3 text-center">
+        <div class="text-xs font-bold text-blue-500 uppercase tracking-wide mb-1">🌉 橋梁</div>
+        <div class="text-2xl font-black text-blue-700" id="ib-bridges">172</div>
+        <div class="text-xs text-slate-400">座</div>
+      </div>
+      <div class="bg-yellow-50 border border-yellow-100 rounded-xl p-3 text-center">
+        <div class="text-xs font-bold text-yellow-600 uppercase tracking-wide mb-1">💡 路燈</div>
+        <div class="text-2xl font-black text-yellow-600" id="ib-lights">28,688</div>
+        <div class="text-xs text-slate-400">盞</div>
+      </div>
+      <div class="bg-green-50 border border-green-100 rounded-xl p-3 text-center">
+        <div class="text-xs font-bold text-green-500 uppercase tracking-wide mb-1">🅿️ 停車場</div>
+        <div class="text-2xl font-black text-green-600" id="ib-parking">38</div>
+        <div class="text-xs text-slate-400">處</div>
+      </div>
+      <div class="bg-orange-50 border border-orange-100 rounded-xl p-3 text-center">
+        <div class="text-xs font-bold text-orange-500 uppercase tracking-wide mb-1">🔧 管線施工</div>
+        <div class="text-2xl font-black text-orange-600" id="ib-pipes">—</div>
+        <div class="text-xs text-slate-400">現有路段</div>
+      </div>
+      <div class="bg-red-50 border border-red-100 rounded-xl p-3 text-center">
+        <div class="text-xs font-bold text-red-500 uppercase tracking-wide mb-1">🔊 噪音站</div>
+        <div class="text-2xl font-black text-red-600">3</div>
+        <div class="text-xs text-slate-400">監測站</div>
+      </div>
+      <div class="bg-purple-50 border border-purple-100 rounded-xl p-3 text-center">
+        <div class="text-xs font-bold text-purple-500 uppercase tracking-wide mb-1">🌊 水域</div>
+        <div class="text-2xl font-black text-purple-600">5+</div>
+        <div class="text-xs text-slate-400">主要水域</div>
+      </div>
+    </div>
+
+    <!-- 動態細節 + 推動計畫 -->
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-5">
+      <div>
+        <p class="text-sm font-bold text-slate-500 uppercase tracking-wide mb-3">📋 基礎建設明細</p>
+        <div id="ib-detail" class="space-y-1.5 text-sm text-slate-600 mb-3"></div>
+        <div class="bg-slate-50 rounded-xl p-4 border border-slate-100">
+          <p class="text-sm font-bold text-slate-600 mb-2">嘉義市基礎建設現況說明</p>
+          <ul class="space-y-1.5 text-sm text-slate-600">
+            <li class="flex gap-2"><span>🌉</span><span><strong>172 座橋梁</strong>：涵蓋省道、市道、縣道，部分橋梁已使用超過30年，需優先檢測</span></li>
+            <li class="flex gap-2"><span>💡</span><span><strong>28,688 盞路燈</strong>：全市路燈密度高，但老舊燈具能耗高、維修成本大</span></li>
+            <li class="flex gap-2"><span>🅿️</span><span><strong>38 處停車場</strong>：總車格數嚴重不足，西區主要商圈停車需求缺口達 40%+</span></li>
+            <li class="flex gap-2"><span>🔧</span><span><strong>管線施工</strong>：自來水、電信、瓦斯管線老化，每年多次道路開挖影響民眾生活</span></li>
+          </ul>
+        </div>
+      </div>
+      <div>
+        <p class="text-sm font-bold text-slate-500 uppercase tracking-wide mb-3">🎯 議員推動改善路線圖</p>
+        <div class="space-y-3">
+          <div class="flex gap-3 items-start bg-blue-50 rounded-xl p-3.5 border border-blue-100">
+            <span class="text-blue-500 text-xl flex-shrink-0 mt-0.5">🌉</span>
+            <div>
+              <p class="text-sm font-bold text-slate-800">老舊橋梁安全檢測與補強</p>
+              <p class="text-xs text-slate-500 mt-0.5">優先針對使用年限超過 30 年橋梁進行結構檢測，制定補強計畫，保障市民通行安全</p>
+            </div>
+          </div>
+          <div class="flex gap-3 items-start bg-yellow-50 rounded-xl p-3.5 border border-yellow-100">
+            <span class="text-yellow-500 text-xl flex-shrink-0 mt-0.5">💡</span>
+            <div>
+              <p class="text-sm font-bold text-slate-800">路燈全面汰換 LED 節能計畫</p>
+              <p class="text-xs text-slate-500 mt-0.5">28,688 盞路燈全面升級 LED，預估可節省電費 40%，並改善老舊路段照明死角</p>
+            </div>
+          </div>
+          <div class="flex gap-3 items-start bg-green-50 rounded-xl p-3.5 border border-green-100">
+            <span class="text-green-500 text-xl flex-shrink-0 mt-0.5">🅿️</span>
+            <div>
+              <p class="text-sm font-bold text-slate-800">智慧停車場導入・夜間免費開放</p>
+              <p class="text-xs text-slate-500 mt-0.5">推動公有停車場智慧化管理系統、夜間免費開放政策，紓解西區商圈停車壓力</p>
+            </div>
+          </div>
+          <div class="flex gap-3 items-start bg-purple-50 rounded-xl p-3.5 border border-purple-100">
+            <span class="text-purple-500 text-xl flex-shrink-0 mt-0.5">🔧</span>
+            <div>
+              <p class="text-sm font-bold text-slate-800">地下管線整合・減少反覆開挖</p>
+              <p class="text-xs text-slate-500 mt-0.5">建立各管線機構統一施工窗口，一次開挖整合各類管線，大幅降低道路破壞頻率</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 延申資料 -->
+    <div class="pt-4 border-t border-slate-100">
+      <p class="text-sm font-bold text-slate-400 uppercase tracking-wide mb-3">🔗 延申資料・深度分析</p>
+      <div class="flex flex-wrap gap-2.5">
+        <a href="https://data.chiayi.gov.tw/opendata/" target="_blank" rel="noopener"
+           class="flex items-center gap-2 text-sm font-bold text-blue-600 bg-blue-50 rounded-xl px-4 py-2 hover:bg-blue-100 transition-colors border border-blue-200">
+          🌉 橋梁開放資料
+        </a>
+        <a href="https://data.chiayi.gov.tw/opendata/" target="_blank" rel="noopener"
+           class="flex items-center gap-2 text-sm font-bold text-green-600 bg-green-50 rounded-xl px-4 py-2 hover:bg-green-100 transition-colors border border-green-200">
+          🅿️ 停車場開放資料
+        </a>
+        <a href="https://data.chiayi.gov.tw/opendata/" target="_blank" rel="noopener"
+           class="flex items-center gap-2 text-sm font-bold text-yellow-700 bg-yellow-50 rounded-xl px-4 py-2 hover:bg-yellow-100 transition-colors border border-yellow-200">
+          💡 路燈開放資料
+        </a>
+        <a href="https://e-service.epa.gov.tw/noiseService/" target="_blank" rel="noopener"
+           class="flex items-center gap-2 text-sm font-bold text-red-600 bg-red-50 rounded-xl px-4 py-2 hover:bg-red-100 transition-colors border border-red-200">
+          🔊 環保署噪音監測
+        </a>
+        <a href="infra.html"
+           class="flex items-center gap-2 text-sm font-bold text-white bg-blue-500 rounded-xl px-4 py-2 hover:bg-blue-600 transition-colors">
+          📈 基礎建設深度分析
+        </a>
+      </div>
     </div>
   </div>
 
 
-  <!-- ── 基礎建設詳細分析：橋梁 + 停車 + 噪音 ──────────────────────────────── -->
-  <div class="grid grid-cols-1 lg:grid-cols-3 gap-6 mb-6">
+  <!-- ── 橋梁設施全面分析（全幅） ── -->
+  <div class="card p-6 mb-6" style="border-left:4px solid #3B82F6;">
+    <div class="flex items-center justify-between mb-5 pb-3 border-b border-slate-100">
+      <div class="flex items-start gap-3">
+        <div class="w-1 min-h-[2rem] rounded bg-blue-500 mt-0.5 flex-shrink-0"></div>
+        <div>
+          <h2 class="text-xl font-black text-slate-900">🌉 橋梁設施全面分析</h2>
+          <p class="text-sm text-slate-500 mt-0.5">嘉義市橋梁數量・道路等級・安全狀況全面透明化，來源：嘉義市政府開放資料</p>
+        </div>
+      </div>
+      <div class="flex items-center gap-2 flex-shrink-0">
+        <span class="text-xs font-bold bg-blue-100 text-blue-700 px-3 py-1 rounded-full" id="bridge-count-tag">— 座</span>
+        <a href="infra.html" class="text-sm font-bold bg-blue-500 text-white px-4 py-1.5 rounded-full hover:bg-blue-600 transition-colors">深度分析 →</a>
+      </div>
+    </div>
 
-    <!-- 橋梁設施明細 -->
-    <div class="card p-5" style="border-top:3px solid #3B82F6;">
-      <div class="flex items-center justify-between mb-3 pb-2 border-b border-slate-100">
-        <h2 class="text-base font-black text-slate-900">🌉 橋梁設施全面分析</h2>
-        <span class="text-[10px] font-bold bg-blue-100 text-blue-700 px-2 py-0.5 rounded-full" id="bridge-count-tag">— 座</span>
+    <!-- 4 KPI 磚 -->
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-3 mb-6">
+      <div class="bg-blue-50 border border-blue-100 rounded-xl p-3 text-center">
+        <div class="text-xs font-bold text-blue-400 uppercase tracking-wide mb-1">總橋梁數</div>
+        <div class="text-2xl font-black text-blue-700" id="bridge-total-kpi">172</div>
+        <div class="text-xs text-slate-400">座</div>
       </div>
-      <!-- 補充 KPI 磚 -->
-      <div class="grid grid-cols-3 gap-1.5 mb-3">
-        <div class="bg-blue-50 rounded-lg p-1.5 text-center">
-          <div class="text-[11px] text-blue-400 font-bold">總橋梁數</div>
-          <div class="text-xl font-black text-blue-700" id="bridge-total-kpi">172</div>
-          <div class="text-[11px] text-slate-400">座</div>
-        </div>
-        <div class="bg-orange-50 rounded-lg p-1.5 text-center">
-          <div class="text-[11px] text-orange-400 font-bold">省道橋梁</div>
-          <div class="text-xl font-black text-orange-600" id="bridge-prov-kpi">—</div>
-          <div class="text-[11px] text-slate-400">座</div>
-        </div>
-        <div class="bg-green-50 rounded-lg p-1.5 text-center">
-          <div class="text-[11px] text-green-400 font-bold">市道橋梁</div>
-          <div class="text-xl font-black text-green-600" id="bridge-city-kpi">—</div>
-          <div class="text-[11px] text-slate-400">座</div>
-        </div>
+      <div class="bg-orange-50 border border-orange-100 rounded-xl p-3 text-center">
+        <div class="text-xs font-bold text-orange-400 uppercase tracking-wide mb-1">省道橋梁</div>
+        <div class="text-2xl font-black text-orange-600" id="bridge-prov-kpi">—</div>
+        <div class="text-xs text-slate-400">座</div>
       </div>
-      <!-- 道路等級 pill 列 -->
-      <div class="flex gap-1.5 flex-wrap mb-2" id="bridge-class-stats"></div>
-      <!-- 道路等級分布圖 -->
-      <div class="mb-2">
-        <p class="text-[11px] font-bold text-slate-400 uppercase tracking-wide mb-1">道路等級分布</p>
-        <div style="height:80px;"><canvas id="chartBridgeClass"></canvas></div>
+      <div class="bg-green-50 border border-green-100 rounded-xl p-3 text-center">
+        <div class="text-xs font-bold text-green-400 uppercase tracking-wide mb-1">市道橋梁</div>
+        <div class="text-2xl font-black text-green-600" id="bridge-city-kpi">—</div>
+        <div class="text-xs text-slate-400">座</div>
       </div>
-      <!-- 橋梁列表 -->
-      <p class="text-[11px] font-bold text-slate-400 uppercase tracking-wide mb-1">橋梁明細（可捲動）</p>
-      <div class="overflow-y-auto space-y-1" style="max-height:160px;" id="bridge-list-detail">
-        <div class="text-sm text-slate-400 text-center py-4">橋梁資料載入中...</div>
+      <div class="bg-amber-50 border border-amber-100 rounded-xl p-3 text-center">
+        <div class="text-xs font-bold text-amber-500 uppercase tracking-wide mb-1">道路等級</div>
+        <div class="text-2xl font-black text-amber-600">5+</div>
+        <div class="text-xs text-slate-400">種等級</div>
       </div>
-      <!-- 議員關注重點 -->
-      <div class="mt-2 bg-blue-50 rounded-lg p-2">
-        <p class="text-[10px] font-bold text-blue-700">⚡ 議員關注：老舊橋梁安全檢測、排水改善、人行步道加設</p>
+    </div>
+
+    <!-- 等級分布 + 橋梁列表 -->
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-5">
+      <div>
+        <div class="flex gap-1.5 flex-wrap mb-3" id="bridge-class-stats"></div>
+        <p class="text-sm font-bold text-slate-500 mb-2">道路等級分布</p>
+        <div style="height:140px;"><canvas id="chartBridgeClass"></canvas></div>
       </div>
-      <div class="mt-2 pt-2 border-t border-slate-100">
-        <div class="flex gap-3 flex-wrap">
-          <a href="https://data.chiayi.gov.tw/opendata/" target="_blank" rel="noopener"
-             class="text-xs text-blue-500 font-bold hover:underline">📋 橋梁開放資料 →</a>
-          <a href="infra.html" class="text-xs text-white bg-blue-500 px-2.5 py-1 rounded-full font-bold hover:bg-blue-600 transition-colors">深度分析 →</a>
+      <div>
+        <p class="text-sm font-bold text-slate-500 mb-2">橋梁明細（可捲動）</p>
+        <div class="overflow-y-auto space-y-1.5" style="max-height:200px;" id="bridge-list-detail">
+          <div class="text-sm text-slate-400 text-center py-4">橋梁資料載入中...</div>
         </div>
       </div>
     </div>
 
-    <!-- 公有停車場容量分析 -->
-    <div class="card p-5" style="border-top:3px solid #10B981;">
-      <div class="flex items-center justify-between mb-2 pb-2 border-b border-slate-100">
-        <h2 class="text-base font-black text-slate-900">🅿️ 停車場容量分析</h2>
-        <span class="text-[10px] font-bold bg-green-100 text-green-700 px-2 py-0.5 rounded-full" id="parking-count-tag">— 處</span>
+    <!-- 安全洞察 3欄 -->
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-4 mb-5">
+      <div class="bg-blue-50 rounded-xl p-4 border border-blue-100">
+        <p class="text-base font-bold text-blue-700 mb-2">🔍 老舊橋梁風險</p>
+        <p class="text-sm text-slate-600 leading-relaxed">嘉義市部分橋梁興建於 1970–1990 年代，使用年限已超過 30–50 年。依公路總局規定，應每 5 年進行定期安全檢測，老舊橋梁需優先排程補強。</p>
       </div>
-      <!-- KPI 三欄 -->
-      <div class="grid grid-cols-3 gap-1.5 mb-2">
-        <div class="bg-green-50 rounded-lg p-1.5 text-center">
-          <div class="text-[11px] text-green-500 font-bold">總車格</div>
-          <div class="text-base font-black text-green-700" id="parking-total-cap2">—</div>
-          <div class="text-[11px] text-slate-400">格</div>
-        </div>
-        <div class="bg-blue-50 rounded-lg p-1.5 text-center">
-          <div class="text-[11px] text-blue-500 font-bold">停車場數</div>
-          <div class="text-base font-black text-blue-700" id="parking-total-cap">—</div>
-          <div class="text-[11px] text-slate-400">處</div>
-        </div>
-        <div class="bg-amber-50 rounded-lg p-1.5 text-center">
-          <div class="text-[11px] text-amber-500 font-bold">平均車格</div>
-          <div class="text-base font-black text-amber-600" id="parking-avg-cap">—</div>
-          <div class="text-[11px] text-slate-400">格/處</div>
-        </div>
+      <div class="bg-orange-50 rounded-xl p-4 border border-orange-100">
+        <p class="text-base font-bold text-orange-700 mb-2">🌧️ 排水與防洪問題</p>
+        <p class="text-sm text-slate-600 leading-relaxed">嘉義市河川密布，橋梁下方排水設計老舊，每逢颱風豪雨易發生水患。橋墩基礎沖刷是主要安全隱患，需定期監測與疏濬。</p>
       </div>
-      <!-- 最大停車場 -->
-      <div class="bg-slate-50 rounded-lg px-2 py-1.5 mb-2 flex justify-between items-center">
-        <span class="text-xs text-slate-500 font-bold">🏆 最大停車場</span>
-        <span class="text-[10px] font-black text-slate-700 truncate max-w-[120px]" id="parking-top-name">—</span>
-      </div>
-      <!-- 容量排行圖 -->
-      <div style="height:110px;"><canvas id="chartParking"></canvas></div>
-      <!-- 停車場明細列表 -->
-      <div class="overflow-y-auto space-y-1 mt-2" style="max-height:90px;" id="parking-list-detail">
-        <div class="text-sm text-slate-400 text-center py-2">停車場資料載入中...</div>
-      </div>
-      <!-- 議員關注 -->
-      <div class="mt-2 bg-green-50 rounded-lg p-2">
-        <p class="text-[10px] font-bold text-green-700">⚡ 議員推動：智慧停車導入、夜間免費開放、路外停車整合</p>
+      <div class="bg-green-50 rounded-xl p-4 border border-green-100">
+        <p class="text-base font-bold text-green-700 mb-2">🚶 人行步道加設</p>
+        <p class="text-sm text-slate-600 leading-relaxed">多數橋梁缺乏完善人行設施，行人過橋安全堪慮。推動橋梁人行步道加設與護欄改善，可有效提升通行安全性，並改善無障礙動線。</p>
       </div>
     </div>
 
-    <!-- 噪音污染分析 -->
-    <div class="card p-5" style="border-top:3px solid #EF4444;">
-      <div class="flex items-center justify-between mb-2 pb-2 border-b border-slate-100">
-        <h2 class="text-base font-black text-slate-900">🔊 噪音污染分析</h2>
-        <span class="text-[10px] font-bold px-2 py-0.5 rounded-full" id="noise-alert-tag"
+    <!-- 議員關注 + 來源連結 -->
+    <div class="bg-blue-50 rounded-xl p-4 mb-4 border border-blue-100">
+      <p class="text-sm font-bold text-blue-700 mb-2">⚡ 李明燦議員推動重點</p>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-2 text-sm text-slate-700">
+        <div class="flex gap-2"><span>✅</span><span>老舊橋梁 5 年一次安全檢測制度化</span></div>
+        <div class="flex gap-2"><span>✅</span><span>橋下排水疏濬・防洪改善工程</span></div>
+        <div class="flex gap-2"><span>✅</span><span>橋梁人行步道與無障礙設施補強</span></div>
+      </div>
+    </div>
+
+    <div class="pt-4 border-t border-slate-100">
+      <p class="text-sm font-bold text-slate-400 uppercase tracking-wide mb-3">🔗 延申資料</p>
+      <div class="flex flex-wrap gap-2.5">
+        <a href="https://data.chiayi.gov.tw/opendata/" target="_blank" rel="noopener"
+           class="flex items-center gap-2 text-sm font-bold text-blue-600 bg-blue-50 rounded-xl px-4 py-2 hover:bg-blue-100 transition-colors border border-blue-200">
+          📋 嘉義市橋梁開放資料
+        </a>
+        <a href="https://www.thb.gov.tw/" target="_blank" rel="noopener"
+           class="flex items-center gap-2 text-sm font-bold text-slate-600 bg-slate-50 rounded-xl px-4 py-2 hover:bg-slate-100 transition-colors border border-slate-200">
+          🏗️ 公路總局橋梁資訊
+        </a>
+        <a href="https://www.wra.gov.tw/" target="_blank" rel="noopener"
+           class="flex items-center gap-2 text-sm font-bold text-blue-600 bg-blue-50 rounded-xl px-4 py-2 hover:bg-blue-100 transition-colors border border-blue-200">
+          🌊 水利署河川防洪資料
+        </a>
+        <a href="infra.html"
+           class="flex items-center gap-2 text-sm font-bold text-white bg-blue-500 rounded-xl px-4 py-2 hover:bg-blue-600 transition-colors">
+          📈 基礎建設深度分析頁
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- ── 停車場容量分析（全幅） ── -->
+  <div class="card p-6 mb-6" style="border-left:4px solid #10B981;">
+    <div class="flex items-center justify-between mb-5 pb-3 border-b border-slate-100">
+      <div class="flex items-start gap-3">
+        <div class="w-1 min-h-[2rem] rounded bg-emerald-500 mt-0.5 flex-shrink-0"></div>
+        <div>
+          <h2 class="text-xl font-black text-slate-900">🅿️ 停車場容量分析</h2>
+          <p class="text-sm text-slate-500 mt-0.5">嘉義市公有停車場清查・容量分布・西區停車需求缺口分析</p>
+        </div>
+      </div>
+      <div class="flex items-center gap-2 flex-shrink-0">
+        <span class="text-xs font-bold bg-green-100 text-green-700 px-3 py-1 rounded-full" id="parking-count-tag">— 處</span>
+        <a href="infra.html" class="text-sm font-bold bg-emerald-500 text-white px-4 py-1.5 rounded-full hover:bg-emerald-600 transition-colors">深度分析 →</a>
+      </div>
+    </div>
+
+    <!-- 4 KPI 磚 -->
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-3 mb-6">
+      <div class="bg-green-50 border border-green-100 rounded-xl p-3 text-center">
+        <div class="text-xs font-bold text-green-500 uppercase tracking-wide mb-1">總車格</div>
+        <div class="text-2xl font-black text-green-700" id="parking-total-cap2">—</div>
+        <div class="text-xs text-slate-400">格</div>
+      </div>
+      <div class="bg-blue-50 border border-blue-100 rounded-xl p-3 text-center">
+        <div class="text-xs font-bold text-blue-500 uppercase tracking-wide mb-1">停車場數</div>
+        <div class="text-2xl font-black text-blue-700" id="parking-total-cap">—</div>
+        <div class="text-xs text-slate-400">處</div>
+      </div>
+      <div class="bg-amber-50 border border-amber-100 rounded-xl p-3 text-center">
+        <div class="text-xs font-bold text-amber-500 uppercase tracking-wide mb-1">平均車格</div>
+        <div class="text-2xl font-black text-amber-600" id="parking-avg-cap">—</div>
+        <div class="text-xs text-slate-400">格/處</div>
+      </div>
+      <div class="bg-slate-50 border border-slate-200 rounded-xl p-3 text-center">
+        <div class="text-xs font-bold text-slate-400 uppercase tracking-wide mb-1">🏆 最大停車場</div>
+        <div class="text-base font-black text-slate-700 truncate" id="parking-top-name">—</div>
+        <div class="text-xs text-slate-400">格數最多</div>
+      </div>
+    </div>
+
+    <!-- 容量圖 + 明細列表 -->
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-5">
+      <div>
+        <p class="text-sm font-bold text-slate-500 mb-2">容量排行</p>
+        <div style="height:200px;"><canvas id="chartParking"></canvas></div>
+      </div>
+      <div>
+        <p class="text-sm font-bold text-slate-500 mb-2">停車場明細（可捲動）</p>
+        <div class="overflow-y-auto space-y-1.5" style="max-height:200px;" id="parking-list-detail">
+          <div class="text-sm text-slate-400 text-center py-4">停車場資料載入中...</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 問題洞察 3欄 -->
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-4 mb-5">
+      <div class="bg-green-50 rounded-xl p-4 border border-green-100">
+        <p class="text-base font-bold text-green-700 mb-2">📉 供需嚴重失衡</p>
+        <p class="text-sm text-slate-600 leading-relaxed">嘉義市西區商圈（文化路夜市、中山公園周邊）停車需求高峰時段嚴重不足，現有公有車格僅能滿足約 60% 需求，假日缺口更達 40% 以上。</p>
+      </div>
+      <div class="bg-blue-50 rounded-xl p-4 border border-blue-100">
+        <p class="text-base font-bold text-blue-700 mb-2">⏰ 夜間閒置浪費</p>
+        <p class="text-sm text-slate-600 leading-relaxed">部分公有停車場白天利用率不足、夜間空置，但周邊居民夜間停車無位可停。推動分時段費率與夜間免費政策，可大幅提升使用效率。</p>
+      </div>
+      <div class="bg-amber-50 rounded-xl p-4 border border-amber-100">
+        <p class="text-base font-bold text-amber-700 mb-2">📱 智慧停車待升級</p>
+        <p class="text-sm text-slate-600 leading-relaxed">嘉義市智慧停車導入尚不普及，缺乏即時車位資訊系統。推動 App 顯示空位、電子繳費、智慧管理，可減少繞圈尋位造成的交通壅塞。</p>
+      </div>
+    </div>
+
+    <!-- 議員推動 + 來源連結 -->
+    <div class="bg-green-50 rounded-xl p-4 mb-4 border border-green-100">
+      <p class="text-sm font-bold text-green-700 mb-2">⚡ 李明燦議員推動重點</p>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-2 text-sm text-slate-700">
+        <div class="flex gap-2"><span>✅</span><span>公有停車場智慧管理系統導入</span></div>
+        <div class="flex gap-2"><span>✅</span><span>夜間停車免費・分時段費率優化</span></div>
+        <div class="flex gap-2"><span>✅</span><span>西區商圈新增停車空間規劃</span></div>
+      </div>
+    </div>
+
+    <div class="pt-4 border-t border-slate-100">
+      <p class="text-sm font-bold text-slate-400 uppercase tracking-wide mb-3">🔗 延申資料</p>
+      <div class="flex flex-wrap gap-2.5">
+        <a href="https://data.chiayi.gov.tw/opendata/" target="_blank" rel="noopener"
+           class="flex items-center gap-2 text-sm font-bold text-green-600 bg-green-50 rounded-xl px-4 py-2 hover:bg-green-100 transition-colors border border-green-200">
+          📊 嘉義市停車場開放資料
+        </a>
+        <a href="https://parking.chiayi.gov.tw" target="_blank" rel="noopener"
+           class="flex items-center gap-2 text-sm font-bold text-blue-600 bg-blue-50 rounded-xl px-4 py-2 hover:bg-blue-100 transition-colors border border-blue-200">
+          🅿️ 嘉義市停車場資訊系統
+        </a>
+        <a href="https://www.motc.gov.tw" target="_blank" rel="noopener"
+           class="flex items-center gap-2 text-sm font-bold text-slate-600 bg-slate-50 rounded-xl px-4 py-2 hover:bg-slate-100 transition-colors border border-slate-200">
+          🚌 交通部停車政策
+        </a>
+        <a href="infra.html"
+           class="flex items-center gap-2 text-sm font-bold text-white bg-emerald-500 rounded-xl px-4 py-2 hover:bg-emerald-600 transition-colors">
+          📈 基礎建設深度分析頁
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- ── 噪音污染分析（全幅） ── -->
+  <div class="card p-6 mb-6" style="border-left:4px solid #EF4444;">
+    <div class="flex items-center justify-between mb-5 pb-3 border-b border-slate-100">
+      <div class="flex items-start gap-3">
+        <div class="w-1 min-h-[2rem] rounded bg-red-500 mt-0.5 flex-shrink-0"></div>
+        <div>
+          <h2 class="text-xl font-black text-slate-900">🔊 噪音污染分析</h2>
+          <p class="text-sm text-slate-500 mt-0.5">嘉義市噪音監測站數值分析・超標情況・居住品質影響評估</p>
+        </div>
+      </div>
+      <div class="flex items-center gap-2 flex-shrink-0">
+        <span class="text-xs font-bold px-3 py-1 rounded-full" id="noise-alert-tag"
               style="background:#FEE2E2;color:#DC2626">—站超標</span>
-      </div>
-      <!-- KPI 四欄 -->
-      <div class="grid grid-cols-4 gap-1 mb-2">
-        <div class="bg-red-50 rounded-lg p-1 text-center">
-          <div class="text-[11px] text-red-400 font-bold">最高</div>
-          <div class="text-sm font-black text-red-600" id="noise-max-db">—</div>
-          <div class="text-[11px] text-red-300">dB</div>
-        </div>
-        <div class="bg-amber-50 rounded-lg p-1 text-center">
-          <div class="text-[11px] text-amber-500 font-bold">平均</div>
-          <div class="text-sm font-black text-amber-600" id="noise-avg-db">—</div>
-          <div class="text-[11px] text-amber-300">dB</div>
-        </div>
-        <div class="bg-green-50 rounded-lg p-1 text-center">
-          <div class="text-[11px] text-green-500 font-bold">標準值</div>
-          <div class="text-sm font-black text-green-600">65</div>
-          <div class="text-[11px] text-green-300">dB</div>
-        </div>
-        <div class="bg-slate-50 rounded-lg p-1 text-center">
-          <div class="text-[11px] text-slate-400 font-bold">監測站</div>
-          <div class="text-sm font-black text-slate-600" id="noise-station-count">—</div>
-          <div class="text-[11px] text-slate-300">站</div>
-        </div>
-      </div>
-      <!-- dB 超標說明 -->
-      <div class="bg-red-50 rounded-lg px-2.5 py-1.5 mb-2 text-[10px] text-red-700 font-bold">
-        ⚠️ 法規標準：日間 65 dB / 夜間 55 dB（環境音量管制標準）
-      </div>
-      <!-- 各站分貝比較圖 -->
-      <div style="height:90px;"><canvas id="chartNoise"></canvas></div>
-      <!-- 監測站明細 -->
-      <div class="space-y-1 mt-2" id="noise-list-detail">
-        <div class="text-sm text-slate-400 text-center py-2">監測資料載入中...</div>
-      </div>
-      <!-- 議員關注 -->
-      <div class="mt-2 bg-orange-50 rounded-lg p-2">
-        <p class="text-[10px] font-bold text-orange-700">⚡ 推動：夜間施工管制、工廠噪音巡查、居民申訴快速通道</p>
+        <a href="infra.html" class="text-sm font-bold bg-red-500 text-white px-4 py-1.5 rounded-full hover:bg-red-600 transition-colors">深度分析 →</a>
       </div>
     </div>
 
+    <!-- 4 KPI 磚 -->
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-3 mb-6">
+      <div class="bg-red-50 border border-red-100 rounded-xl p-3 text-center">
+        <div class="text-xs font-bold text-red-400 uppercase tracking-wide mb-1">最高分貝</div>
+        <div class="text-2xl font-black text-red-600" id="noise-max-db">—</div>
+        <div class="text-xs text-red-300">dB</div>
+      </div>
+      <div class="bg-amber-50 border border-amber-100 rounded-xl p-3 text-center">
+        <div class="text-xs font-bold text-amber-500 uppercase tracking-wide mb-1">平均分貝</div>
+        <div class="text-2xl font-black text-amber-600" id="noise-avg-db">—</div>
+        <div class="text-xs text-amber-300">dB</div>
+      </div>
+      <div class="bg-green-50 border border-green-100 rounded-xl p-3 text-center">
+        <div class="text-xs font-bold text-green-500 uppercase tracking-wide mb-1">法規標準值</div>
+        <div class="text-2xl font-black text-green-600">65</div>
+        <div class="text-xs text-green-300">dB 日間</div>
+      </div>
+      <div class="bg-slate-50 border border-slate-200 rounded-xl p-3 text-center">
+        <div class="text-xs font-bold text-slate-400 uppercase tracking-wide mb-1">監測站數</div>
+        <div class="text-2xl font-black text-slate-600" id="noise-station-count">—</div>
+        <div class="text-xs text-slate-400">站</div>
+      </div>
+    </div>
+
+    <!-- 超標說明 -->
+    <div class="bg-red-50 rounded-xl px-4 py-3 mb-5 border border-red-200">
+      <p class="text-sm font-bold text-red-700">⚠️ 法規說明：依據《噪音管制標準》，第三類管制區（一般住商混合）日間標準 65 dB，夜間 55 dB。超標即可申請稽查，對違規來源可開罰 3,000–30,000 元。</p>
+    </div>
+
+    <!-- 圖表 + 監測站明細 -->
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-5">
+      <div>
+        <p class="text-sm font-bold text-slate-500 mb-2">各監測站分貝比較（紅線 = 65 dB 標準）</p>
+        <div style="height:200px;"><canvas id="chartNoise"></canvas></div>
+      </div>
+      <div>
+        <p class="text-sm font-bold text-slate-500 mb-2">監測站明細</p>
+        <div class="space-y-2" id="noise-list-detail">
+          <div class="text-sm text-slate-400 text-center py-4">監測資料載入中...</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 問題洞察 3欄 -->
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-4 mb-5">
+      <div class="bg-red-50 rounded-xl p-4 border border-red-100">
+        <p class="text-base font-bold text-red-700 mb-2">🌙 夜間施工問題</p>
+        <p class="text-sm text-slate-600 leading-relaxed">嘉義市西區因基礎建設施工頻繁，夜間施工噪音是居民投訴最大來源。應強制執行《夜間施工管制辦法》，超過 22:00 施工需申請特許，違者即時停工。</p>
+      </div>
+      <div class="bg-orange-50 rounded-xl p-4 border border-orange-100">
+        <p class="text-base font-bold text-orange-700 mb-2">🏭 工廠鄰近住宅區</p>
+        <p class="text-sm text-slate-600 leading-relaxed">部分工廠或商業設施緊鄰住宅區，運作噪音長期影響居民生活品質。需加強環保局定期稽查頻率，建立快速投訴通報與現場採樣機制。</p>
+      </div>
+      <div class="bg-amber-50 rounded-xl p-4 border border-amber-100">
+        <p class="text-base font-bold text-amber-700 mb-2">🎵 商圈娛樂噪音</p>
+        <p class="text-sm text-slate-600 leading-relaxed">文化路夜市周邊夜間噪音來源複雜，餐廳、卡拉OK、路邊攤等多重來源疊加。推動噪音地圖建立，讓居民能主動查詢所在地噪音歷史數值，強化問責機制。</p>
+      </div>
+    </div>
+
+    <!-- 議員推動 + 來源連結 -->
+    <div class="bg-orange-50 rounded-xl p-4 mb-4 border border-orange-100">
+      <p class="text-sm font-bold text-orange-700 mb-2">⚡ 李明燦議員推動重點</p>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-2 text-sm text-slate-700">
+        <div class="flex gap-2"><span>✅</span><span>夜間施工管制・違規即時停工機制</span></div>
+        <div class="flex gap-2"><span>✅</span><span>工廠噪音定期稽查・居民申訴快速通道</span></div>
+        <div class="flex gap-2"><span>✅</span><span>嘉義市噪音地圖公開・監測站增設</span></div>
+      </div>
+    </div>
+
+    <div class="pt-4 border-t border-slate-100">
+      <p class="text-sm font-bold text-slate-400 uppercase tracking-wide mb-3">🔗 延申資料</p>
+      <div class="flex flex-wrap gap-2.5">
+        <a href="https://e-service.epa.gov.tw/noiseService/" target="_blank" rel="noopener"
+           class="flex items-center gap-2 text-sm font-bold text-red-600 bg-red-50 rounded-xl px-4 py-2 hover:bg-red-100 transition-colors border border-red-200">
+          🔊 環保署噪音陳情系統
+        </a>
+        <a href="https://noise.epa.gov.tw/" target="_blank" rel="noopener"
+           class="flex items-center gap-2 text-sm font-bold text-blue-600 bg-blue-50 rounded-xl px-4 py-2 hover:bg-blue-100 transition-colors border border-blue-200">
+          📊 環保署噪音監測資料
+        </a>
+        <a href="https://data.gov.tw/dataset/8781" target="_blank" rel="noopener"
+           class="flex items-center gap-2 text-sm font-bold text-slate-600 bg-slate-50 rounded-xl px-4 py-2 hover:bg-slate-100 transition-colors border border-slate-200">
+          📋 全國噪音管制區劃定
+        </a>
+        <a href="infra.html"
+           class="flex items-center gap-2 text-sm font-bold text-white bg-red-500 rounded-xl px-4 py-2 hover:bg-red-600 transition-colors">
+          📈 基礎建設深度分析頁
+        </a>
+      </div>
+    </div>
   </div>
 
   <!-- ── 水域安全全面分析（全幅） ── -->
@@ -759,15 +1026,47 @@
     </div>
     <!-- 洞察 + 水域明細 -->
     <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
-      <div id="drowning-insight" class="space-y-1.5 text-xs text-slate-600">
-        <p class="font-black text-slate-700 text-sm mb-2">📋 安全洞察</p>
-        <div class="bg-blue-50 rounded-lg p-2.5">⚠️ <strong>夏季高風險：</strong>溺水事故在 6–9 月暑假期間顯著增加，需加強水域巡邏</div>
-        <div class="bg-red-50 rounded-lg p-2.5">🚨 <strong>重點水域：</strong>河川溝渠為主要事故發生地，應優先設置警示標誌</div>
-        <div class="bg-orange-50 rounded-lg p-2.5">📍 <strong>改善方向：</strong>增設水域警示設施、強化巡查頻率、辦理水域安全教育</div>
+      <div id="drowning-insight" class="space-y-2 text-sm text-slate-600">
+        <p class="font-black text-slate-700 text-base mb-2">📋 安全洞察與改善方向</p>
+        <div class="bg-blue-50 rounded-xl p-3 border border-blue-100">⚠️ <strong class="text-blue-700">夏季高風險：</strong>溺水事故在 6–9 月暑假期間顯著增加，尤其 7–8 月最為集中，應提前加強水域巡邏與警示。</div>
+        <div class="bg-red-50 rounded-xl p-3 border border-red-100">🚨 <strong class="text-red-700">重點水域：</strong>河川、灌渠、排水溝為主要事故發生地，應優先設置防落水護欄、警示標誌及救生設備。</div>
+        <div class="bg-orange-50 rounded-xl p-3 border border-orange-100">👦 <strong class="text-orange-700">兒童溺水高危：</strong>未成年溺水比例不低，應在學校及社區推動水域安全教育，並規劃親水教育活動替代危險戲水行為。</div>
+        <div class="bg-green-50 rounded-xl p-3 border border-green-100">📍 <strong class="text-green-700">改善方向：</strong>增設水域警示設施、強化消防局水域巡查頻率、建立溺水事故快報制度，並與里長協力推動社區守望。</div>
       </div>
       <div>
         <p class="text-xs font-bold text-slate-500 mb-2">水域類型明細</p>
         <div class="space-y-1" id="drowning-type-list"></div>
+      </div>
+    </div>
+
+    <!-- 議員推動 + 延申資料 -->
+    <div class="mt-5 pt-4 border-t border-slate-100">
+      <div class="bg-blue-50 rounded-xl p-4 mb-4 border border-blue-100">
+        <p class="text-sm font-bold text-blue-700 mb-2">⚡ 李明燦議員推動重點</p>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-2 text-sm text-slate-700">
+          <div class="flex gap-2"><span>✅</span><span>水域護欄・警示標誌全面盤點補設</span></div>
+          <div class="flex gap-2"><span>✅</span><span>溺水高峰季節加強消防局巡查頻率</span></div>
+          <div class="flex gap-2"><span>✅</span><span>社區水域安全教育・學校游泳課推廣</span></div>
+        </div>
+      </div>
+      <p class="text-sm font-bold text-slate-400 uppercase tracking-wide mb-3">🔗 延申資料</p>
+      <div class="flex flex-wrap gap-2.5">
+        <a href="https://data.gov.tw/dataset/6982" target="_blank" rel="noopener"
+           class="flex items-center gap-2 text-sm font-bold text-blue-600 bg-blue-50 rounded-xl px-4 py-2 hover:bg-blue-100 transition-colors border border-blue-200">
+          🌊 政府開放資料・溺水統計
+        </a>
+        <a href="https://www.nfa.gov.tw" target="_blank" rel="noopener"
+           class="flex items-center gap-2 text-sm font-bold text-red-600 bg-red-50 rounded-xl px-4 py-2 hover:bg-red-100 transition-colors border border-red-200">
+          🚒 消防署水域安全政策
+        </a>
+        <a href="https://www.water.gov.tw" target="_blank" rel="noopener"
+           class="flex items-center gap-2 text-sm font-bold text-slate-600 bg-slate-50 rounded-xl px-4 py-2 hover:bg-slate-100 transition-colors border border-slate-200">
+          💧 水利署河川管理
+        </a>
+        <a href="water.html"
+           class="flex items-center gap-2 text-sm font-bold text-white bg-blue-500 rounded-xl px-4 py-2 hover:bg-blue-600 transition-colors">
+          📈 水域安全深度分析頁
+        </a>
       </div>
     </div>
   </div>
@@ -830,11 +1129,47 @@
         <p class="text-xs text-slate-400 mb-1.5 font-bold">議員名單（第 11 屆）</p>
         <div class="flex flex-wrap gap-1" id="councilor-list"></div>
       </div>
-      <div class="space-y-2 text-xs text-slate-600">
-        <p class="font-black text-slate-700 text-sm mb-2">📋 議會監督重點</p>
-        <div class="bg-purple-50 rounded-lg p-2.5">🏛️ <strong>預算監督：</strong>城市建設預算執行率、重大工程進度追蹤</div>
-        <div class="bg-indigo-50 rounded-lg p-2.5">🗣️ <strong>質詢焦點：</strong>交通安全、老人福利、地方建設是最常提出的議題</div>
-        <div class="bg-blue-50 rounded-lg p-2.5">📍 <strong>西區代表：</strong>積極為西區市民發聲，推動在地建設改善</div>
+      <div class="space-y-2 text-sm text-slate-600">
+        <p class="font-black text-slate-700 text-base mb-2">📋 議會監督重點</p>
+        <div class="bg-purple-50 rounded-xl p-3 border border-purple-100">🏛️ <strong class="text-purple-700">預算監督：</strong>城市建設預算執行率、重大工程進度追蹤，防止預算浮報或執行率低落。</div>
+        <div class="bg-indigo-50 rounded-xl p-3 border border-indigo-100">🗣️ <strong class="text-indigo-700">質詢焦點：</strong>交通安全、老人福利、地方建設是最常提出的議題，反映市民最迫切需求。</div>
+        <div class="bg-blue-50 rounded-xl p-3 border border-blue-100">📍 <strong class="text-blue-700">西區代表：</strong>積極為西區市民發聲，推動西區道路改善、停車擴充、社區安全等在地建設。</div>
+        <div class="bg-rose-50 rounded-xl p-3 border border-rose-100">📣 <strong class="text-rose-700">公民監督：</strong>議會議事公開透明，市民可透過官網查詢質詢紀錄，對民意代表的承諾進行追蹤與問責。</div>
+      </div>
+    </div>
+
+    <!-- 議員推動 + 延申資料 -->
+    <div class="mt-5 pt-4 border-t border-slate-100">
+      <div class="bg-purple-50 rounded-xl p-4 mb-4 border border-purple-100">
+        <p class="text-sm font-bold text-purple-700 mb-2">⚡ 李明燦議員推動重點</p>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-2 text-sm text-slate-700">
+          <div class="flex gap-2"><span>✅</span><span>預算執行率公開透明・工程進度月報</span></div>
+          <div class="flex gap-2"><span>✅</span><span>西區建設優先排序・施政承諾追蹤機制</span></div>
+          <div class="flex gap-2"><span>✅</span><span>市民參與議事・公民監督平台推廣</span></div>
+        </div>
+      </div>
+      <p class="text-sm font-bold text-slate-400 uppercase tracking-wide mb-3">🔗 延申資料・議會公開資訊</p>
+      <div class="flex flex-wrap gap-2.5">
+        <a href="https://www.cycc.gov.tw" target="_blank" rel="noopener"
+           class="flex items-center gap-2 text-sm font-bold text-purple-600 bg-purple-50 rounded-xl px-4 py-2 hover:bg-purple-100 transition-colors border border-purple-200">
+          🏛️ 嘉義市議會官方網站
+        </a>
+        <a href="https://www.cycc.gov.tw/meeting" target="_blank" rel="noopener"
+           class="flex items-center gap-2 text-sm font-bold text-indigo-600 bg-indigo-50 rounded-xl px-4 py-2 hover:bg-indigo-100 transition-colors border border-indigo-200">
+          📋 議會會議紀錄查詢
+        </a>
+        <a href="https://www.cycc.gov.tw/video" target="_blank" rel="noopener"
+           class="flex items-center gap-2 text-sm font-bold text-blue-600 bg-blue-50 rounded-xl px-4 py-2 hover:bg-blue-100 transition-colors border border-blue-200">
+          📹 議事直播・影音記錄
+        </a>
+        <a href="https://budget.chiayi.gov.tw" target="_blank" rel="noopener"
+           class="flex items-center gap-2 text-sm font-bold text-slate-600 bg-slate-50 rounded-xl px-4 py-2 hover:bg-slate-100 transition-colors border border-slate-200">
+          💰 嘉義市預算書查詢
+        </a>
+        <a href="council.html"
+           class="flex items-center gap-2 text-sm font-bold text-white bg-purple-500 rounded-xl px-4 py-2 hover:bg-purple-600 transition-colors">
+          📈 議會深度分析頁
+        </a>
       </div>
     </div>
   </div>
