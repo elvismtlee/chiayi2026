@@ -232,22 +232,48 @@
     </div>
   </div>
 
-  <!-- ── Row 2：年度趨勢 + 即時新聞 ── -->
-  <div class="grid grid-cols-1 lg:grid-cols-3 gap-6 mb-6">
-
-    <!-- 年度趨勢（2/3） -->
-    <div class="lg:col-span-2 card p-6">
-      <div class="flex items-center justify-between mb-4">
-        <div>
-          <h2 class="text-lg font-black text-slate-900">年度投訴趨勢</h2>
-          <p class="text-sm text-slate-500 mt-0.5">嘉義市西區 2013–2026</p>
-        </div>
+  <!-- ── Row 2：年度趨勢（全幅）+ 即時新聞 ── -->
+  <!-- 年度投訴趨勢全面分析（獨立全幅） -->
+  <div class="card p-6 mb-6">
+    <div class="flex items-center justify-between mb-4">
+      <div>
+        <h2 class="text-lg font-black text-slate-900">📊 年度投訴趨勢全面分析</h2>
+        <p class="text-sm text-slate-500 mt-0.5">嘉義市西區 2013–2026，多源資料整合・每 6 小時更新</p>
       </div>
-      <div style="height:220px;"><canvas id="chartTrend"></canvas></div>
+      <span class="text-xs font-bold bg-orange-100 text-orange-600 px-3 py-1 rounded-full" id="trend-update-tag">資料更新中</span>
     </div>
+    <!-- KPI 磚 -->
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-3 mb-4" id="trend-kpis"></div>
+    <!-- 主圖 + 細分 -->
+    <div class="grid grid-cols-1 lg:grid-cols-3 gap-4 mb-4">
+      <!-- 歷年趨勢折線圖 (2/3) -->
+      <div class="lg:col-span-2">
+        <p class="text-xs font-bold text-slate-500 mb-2">歷年件數（2013–2026）</p>
+        <div style="height:200px;"><canvas id="chartTrend"></canvas></div>
+      </div>
+      <!-- 議題分類佔比 (1/3) -->
+      <div>
+        <p class="text-xs font-bold text-slate-500 mb-2">議題分類佔比</p>
+        <div style="height:200px;"><canvas id="chartTrendCat"></canvas></div>
+      </div>
+    </div>
+    <!-- 洞察分析 -->
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-3">
+      <!-- 趨勢洞察 -->
+      <div class="bg-orange-50 rounded-xl p-4" id="trend-insight">
+        <p class="text-xs font-bold text-orange-700 mb-2">📈 趨勢解讀</p>
+        <div class="text-slate-400 text-xs">計算中...</div>
+      </div>
+      <!-- 近5年各類別 top 3 -->
+      <div class="bg-slate-50 rounded-xl p-4" id="trend-cat-top">
+        <p class="text-xs font-bold text-slate-600 mb-2">🏆 近5年 Top 5 議題</p>
+        <div class="space-y-1.5" id="trend-cat-bars"></div>
+      </div>
+    </div>
+  </div>
 
-    <!-- 即時新聞（1/3） -->
-    <div class="card p-6 flex flex-col">
+  <!-- 即時新聞 -->
+  <div class="card p-6 flex flex-col mb-6">
       <div class="flex items-center justify-between mb-3">
         <div>
           <h2 class="text-lg font-black text-slate-900">市政即時新聞</h2>
@@ -286,7 +312,6 @@
 <div class="news-card bg-white rounded-xl p-3 border border-slate-100"><div class="flex items-center gap-1.5 mb-1.5"><span class="text-[10px] font-bold px-1.5 py-0.5 rounded-full text-white" style="background:#F97316">民報</span><span class="text-[10px] font-bold px-1.5 py-0.5 rounded-full text-white" style="background:#EC4899">市場商圈</span><span class="text-[10px] text-slate-400 ml-auto font-en">2026-05-11</span></div><a href="https://news.google.com/rss/articles/CBMiX0FVX3lxTE1RUEU5ZVZ3YnM4WHMzblFSalVjejFhVTRTX2t3ZnhOb0dVeEN0bGtVOVdvXzRZYm81ckRvWktRQlBZWmVzYlNzSXJSWXgxNDA3U2tVMHpJeUcyR0tDaGd3?oc=5" target="_blank" rel="noopener" class="text-xs font-bold text-slate-800 leading-relaxed hover:text-orange-500 transition-colors block line-clamp-2">200元換400元套票！全台94處市場、夜市開搶 寧夏、逢甲都能用</a></div>
 </div>
       <!-- ── news-end -->
-    </div>
   </div>
 
   <!-- ── Row 2.5：市民社群聲音 ── -->
@@ -990,41 +1015,141 @@
   }
 
   function renderTrendChart(data) {
-    const trend = computeYearTrend(data);
-    const ctx = document.getElementById('chartTrend').getContext('2d');
-    new Chart(ctx, {
-      type: 'line',
-      data: {
-        labels: trend.labels,
-        datasets: [{
-          data: trend.values,
-          borderColor: '#F97316',
-          backgroundColor: 'rgba(249,115,22,.08)',
-          borderWidth: 2.5,
-          pointBackgroundColor: '#F97316',
-          pointRadius: 4,
-          pointHoverRadius: 6,
-          fill: true,
-          tension: 0.4,
-        }]
-      },
-      options: {
-        responsive: true,
-        maintainAspectRatio: false,
-        plugins: {
-          legend: { display: false },
-          tooltip: {
-            callbacks: {
-              label: ctx => ` ${ctx.parsed.y} 件投訴`,
-            }
-          }
+    const trend   = computeYearTrend(data);
+    const labels  = trend.labels;
+    const values  = trend.values;
+    const gi      = id => document.getElementById(id);
+
+    // ── KPI 計算 ──────────────────────────────────────────────────────────
+    const total     = values.reduce((s, v) => s + v, 0);
+    const peakIdx   = values.indexOf(Math.max(...values));
+    const peakYear  = labels[peakIdx];
+    const peakVal   = values[peakIdx];
+    const nowYear   = String(new Date().getFullYear());
+    const thisYear  = values[labels.indexOf(nowYear)] || 0;
+    const prevYear  = values[labels.indexOf(String(parseInt(nowYear) - 1))] || 0;
+    const yoy       = prevYear > 0 ? Math.round((thisYear - prevYear) / prevYear * 100) : 0;
+    const nonZero   = values.filter(v => v > 0);
+    const avgPerYear= nonZero.length ? Math.round(nonZero.reduce((s,v)=>s+v,0)/nonZero.length) : 0;
+
+    // ── KPI 磚 ────────────────────────────────────────────────────────────
+    const kpiEl = gi('trend-kpis');
+    if (kpiEl) kpiEl.innerHTML = [
+      ['總資料筆數', total.toLocaleString(), '筆', '#FED7AA', '#C2410C'],
+      ['最高記錄年', peakYear, `${peakVal.toLocaleString()} 件`, '#DBEAFE', '#1D4ED8'],
+      [`${nowYear}年累計`, thisYear.toLocaleString(), '件（截至今日）', '#D1FAE5', '#065F46'],
+      ['年均', avgPerYear.toLocaleString(), `件／年（${nonZero.length}年資料）`, '#F3E8FF', '#7E22CE'],
+    ].map(([label, val, sub, bg, color]) =>
+      `<div class="rounded-xl p-3 text-center" style="background:${bg}">
+        <div class="text-[10px] font-bold mb-0.5" style="color:${color}">${label}</div>
+        <div class="text-xl font-black" style="color:${color}">${val}</div>
+        <div class="text-[9px] mt-0.5" style="color:${color};opacity:0.7">${sub}</div>
+      </div>`
+    ).join('');
+
+    // 更新標籤
+    const tag = gi('trend-update-tag');
+    if (tag) tag.textContent = `${nonZero.length} 年資料`;
+
+    // ── 歷年趨勢折線圖 ───────────────────────────────────────────────────
+    const ctx = gi('chartTrend')?.getContext('2d');
+    if (ctx) {
+      const colors = values.map((v, i) =>
+        labels[i] === peakYear ? '#EF4444' : labels[i] === nowYear ? '#F97316' : '#F97316'
+      );
+      new Chart(ctx, {
+        type: 'line',
+        data: {
+          labels,
+          datasets: [{
+            data: values,
+            borderColor: '#F97316',
+            backgroundColor: 'rgba(249,115,22,.08)',
+            borderWidth: 2.5,
+            pointBackgroundColor: colors,
+            pointRadius: values.map((_, i) => labels[i] === peakYear || labels[i] === nowYear ? 6 : 3),
+            pointHoverRadius: 7,
+            fill: true,
+            tension: 0.4,
+          }]
         },
-        scales: {
-          x: { grid: { display: false }, ticks: { font: { size: 11 } } },
-          y: { grid: { color: '#F1F5F9' }, ticks: { font: { size: 11 } }, beginAtZero: true }
+        options: {
+          responsive: true, maintainAspectRatio: false,
+          plugins: {
+            legend: { display: false },
+            tooltip: { callbacks: { label: c => ` ${c.parsed.y.toLocaleString()} 件` } }
+          },
+          scales: {
+            x: { grid: { display: false }, ticks: { font: { size: 10 } } },
+            y: { grid: { color: '#F1F5F9' }, ticks: { font: { size: 10 } }, beginAtZero: true }
+          }
         }
-      }
-    });
+      });
+    }
+
+    // ── 議題分類甜甜圈圖 ─────────────────────────────────────────────────
+    const catCtx = gi('chartTrendCat')?.getContext('2d');
+    const catData = (typeof categoryData !== 'undefined' && categoryData.length > 0)
+      ? categoryData : computeCatData(data);
+    const top8 = catData.slice(0, 8);
+    if (catCtx && top8.length) {
+      new Chart(catCtx, {
+        type: 'doughnut',
+        data: {
+          labels: top8.map(d => d.category),
+          datasets: [{ data: top8.map(d => d.count),
+            backgroundColor: top8.map(d => getCatColor(d.category)),
+            borderWidth: 2, borderColor: '#fff', hoverOffset: 6 }]
+        },
+        options: {
+          responsive: true, maintainAspectRatio: false,
+          plugins: {
+            legend: { position: 'right', labels: { font: { size: 9 }, boxWidth: 10, padding: 6 } },
+            tooltip: { callbacks: {
+              label: c => ` ${c.label}: ${c.parsed.toLocaleString()} 件 (${Math.round(c.parsed/total*100)}%)`
+            }}
+          }
+        }
+      });
+    }
+
+    // ── 洞察解讀 ─────────────────────────────────────────────────────────
+    const insightEl = gi('trend-insight');
+    if (insightEl) {
+      const trendDir  = values[values.length-1] > values[values.length-2] ? '↑ 上升' : '↓ 下降';
+      const trendColor= values[values.length-1] > values[values.length-2] ? '#EF4444' : '#10B981';
+      const recentAvg = Math.round(values.slice(-3).reduce((s,v)=>s+v,0) / 3);
+      insightEl.innerHTML = [
+        `<span class="text-orange-400 font-bold">📍</span> 資料最高峰：<strong>${peakYear} 年</strong>共 <strong>${peakVal.toLocaleString()} 件</strong>`,
+        `<span class="text-blue-400 font-bold">📅</span> ${nowYear} 年截至目前：<strong>${thisYear.toLocaleString()} 件</strong>` +
+          (prevYear > 0 ? `，較去年 <strong style="color:${trendColor}">${yoy > 0 ? '+' : ''}${yoy}%</strong>` : ''),
+        `<span style="color:${trendColor}" class="font-bold">📈</span> 最近趨勢：<strong style="color:${trendColor}">${trendDir}</strong>（近 3 年均 ${recentAvg.toLocaleString()} 件/年）`,
+        `<span class="text-purple-400 font-bold">🏆</span> 最大問題類別：<strong>${catData[0]?.category || '—'}</strong>（${catData[0]?.count?.toLocaleString() || 0} 件，佔 ${Math.round((catData[0]?.count||0)/total*100)}%）`,
+      ].map(txt =>
+        `<div class="flex items-start gap-1.5 text-[11px] text-slate-600">${txt}</div>`
+      ).join('');
+    }
+
+    // ── 近5年 Top 5 議題橫條 ─────────────────────────────────────────────
+    const catBarsEl = gi('trend-cat-bars');
+    if (catBarsEl && catData.length) {
+      const top5  = catData.slice(0, 5);
+      const maxC  = top5[0].count;
+      catBarsEl.innerHTML = top5.map(d => {
+        const pct   = Math.round(d.count / total * 100);
+        const barW  = Math.round(d.count / maxC * 100);
+        const color = getCatColor(d.category);
+        return `<div>
+          <div class="flex items-center justify-between text-[10px] mb-0.5">
+            <span class="font-bold text-slate-700">${getCatIcon(d.category)} ${d.category}</span>
+            <span class="font-black" style="color:${color}">${pct}%・${d.count.toLocaleString()}件</span>
+          </div>
+          <div class="h-1.5 bg-slate-200 rounded-full overflow-hidden">
+            <div class="h-full rounded-full transition-all" style="width:${barW}%;background:${color}"></div>
+          </div>
+        </div>`;
+      }).join('');
+    }
   }
 
   function renderWestPopChart(data) {
