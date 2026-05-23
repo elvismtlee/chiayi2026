@@ -1,20 +1,51 @@
 {
-  "updated_at": "2026-05-23T16:12:50.281612",
+  "updated_at": "2026-05-23T16:18:41.648082",
   "aqi_realtime": [
     {
-      "station": "嘉義市（Open-Meteo 模型）",
-      "aqi": 29,
-      "pm25": 20.7,
-      "pm10": 23.4,
-      "o3": 1.0,
-      "no2": 65.6,
-      "status": "良好",
-      "pollutant": "PM2.5",
-      "time": "2026-05-24T00:00",
-      "source": "Open-Meteo"
+      "station": "",
+      "aqi": 0,
+      "pm25": 0.0,
+      "pm10": 0.0,
+      "o3": 0.0,
+      "no2": 0.0,
+      "status": "",
+      "pollutant": "",
+      "time": "2026-05-24 00:00",
+      "source": "環境部"
+    },
+    {
+      "station": "",
+      "aqi": 0,
+      "pm25": 0.0,
+      "pm10": 0.0,
+      "o3": 0.0,
+      "no2": 0.0,
+      "status": "",
+      "pollutant": "",
+      "time": "2026-05-24 00:00",
+      "source": "環境部"
+    },
+    {
+      "station": "",
+      "aqi": 0,
+      "pm25": 0.0,
+      "pm10": 0.0,
+      "o3": 0.0,
+      "no2": 0.0,
+      "status": "",
+      "pollutant": "",
+      "time": "2026-05-24 00:00",
+      "source": "環境部"
     }
   ],
-  "aqi_history": [],
+  "aqi_history": [
+    {
+      "month": "",
+      "aqi": 0.0,
+      "pm25": 0.0,
+      "station": "嘉義"
+    }
+  ],
   "earthquake": [
     {
       "title": "規模 4.9・82 km S of Hualien City, Taiwan",
@@ -41,15 +72,15 @@
   "weather": [
     {
       "station": "嘉義市（Open-Meteo）",
-      "temp": "25.8",
-      "apparent_temp": "29.2",
-      "humidity": "74",
+      "temp": "25.6",
+      "apparent_temp": "28.9",
+      "humidity": "75",
       "rainfall": "0.0",
-      "wind_speed": "6.3",
-      "wind_dir": "143",
-      "cloud": "65",
+      "wind_speed": "6.8",
+      "wind_dir": "140",
+      "cloud": "55",
       "weather": "多雲",
-      "time": "2026-05-24 00:00",
+      "time": "2026-05-24 00:15",
       "source": "Open-Meteo"
     }
   ],
@@ -278,7 +309,7 @@
       "lat": 23.482663,
       "lng": 120.462988,
       "total": 25,
-      "available": 1,
+      "available": 3,
       "addr": "中山路2號(前)"
     },
     {
@@ -305,7 +336,7 @@
       "lat": 23.4798596,
       "lng": 120.4488291,
       "total": 20,
-      "available": 0,
+      "available": 2,
       "addr": "中山路306號"
     },
     {
@@ -332,7 +363,7 @@
       "lat": 23.47877,
       "lng": 120.44089,
       "total": 42,
-      "available": 11,
+      "available": 9,
       "addr": "中山路528號"
     },
     {
@@ -436,5 +467,5 @@
     }
   ],
   "water": [],
-  "fetch_seconds": 93.9
+  "fetch_seconds": 94.6
 }
