@@ -434,9 +434,9 @@ def build_dashboard(news, complaint_stats, council_data, citizen_stats, social_p
             flags=re.DOTALL,
         )
 
-    # 注入更新時間（JS 會自動顯示，此處備用靜態注入）
+    # 注入更新時間（使用 regex 確保每次都能更新，無論目前值為何）
     now_str = datetime.now().strftime("%Y-%m-%d %H:%M")
-    html = html.replace("最後更新：載入中...", f"最後更新：{now_str}")
+    html = re.sub(r"最後更新：[^<\"]*", f"最後更新：{now_str}", html)
 
     index_path.write_text(html, encoding="utf-8")
 
