@@ -1095,9 +1095,9 @@
         <div class="text-[10px] text-purple-300 mt-0.5">第11屆</div>
       </div>
       <div class="bg-indigo-50 border border-indigo-100 rounded-xl p-3 text-center">
-        <div class="text-xs font-bold text-indigo-400 uppercase tracking-wide mb-1">質詢記錄</div>
+        <div class="text-xs font-bold text-indigo-400 uppercase tracking-wide mb-1">定期會次</div>
         <div class="text-2xl font-black text-indigo-700" id="council-questions">—</div>
-        <div class="text-[10px] text-indigo-300 mt-0.5">件質詢</div>
+        <div class="text-[10px] text-indigo-300 mt-0.5">第11屆已開</div>
       </div>
       <div class="bg-slate-100 border border-slate-200 rounded-xl p-3 text-center">
         <div class="text-xs font-bold text-slate-400 uppercase tracking-wide mb-1">現任議員</div>
@@ -2634,7 +2634,7 @@ function renderAccidentStats() {
     const cs = typeof councilStat !== 'undefined' ? councilStat : {};
     const gi = id => document.getElementById(id);
     if (gi('council-meetings'))  gi('council-meetings').textContent  = cs.meetings_count || '14';
-    if (gi('council-questions')) gi('council-questions').textContent = cs.question_count || '—';
+    if (gi('council-questions')) gi('council-questions').textContent = cs.meetings_count || '6';
     if (gi('council-members'))   gi('council-members').textContent   = '23';
 
     // ── 第11屆嘉義市議會議員名單（東區10席・西區13席，共23席）
