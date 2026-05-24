@@ -85,93 +85,123 @@
       "source": "scraped"
     },
     {
-      "name": "蕭淑玲",
+      "name": "傅大偉",
       "source": "static"
     },
     {
-      "name": "陳怡岳",
+      "name": "黃露慧",
       "source": "static"
     },
     {
-      "name": "蔡明儀",
+      "name": "黃盈智",
       "source": "static"
     },
     {
-      "name": "林建豐",
+      "name": "陳家平",
       "source": "static"
     },
     {
-      "name": "柳宗廷",
+      "name": "張敏琪",
       "source": "static"
     },
     {
-      "name": "吳竟銓",
+      "name": "郭定緯",
       "source": "static"
     },
     {
-      "name": "徐欣瑩",
+      "name": "張榮藏",
       "source": "static"
     },
     {
-      "name": "謝明匡",
+      "name": "顏田慎節",
       "source": "static"
     },
     {
-      "name": "許明財",
+      "name": "戴寧",
       "source": "static"
     },
     {
-      "name": "劉蓁蓁",
+      "name": "李奕德",
       "source": "static"
     },
     {
-      "name": "蕭貫譽",
+      "name": "陳姿妏",
       "source": "static"
     },
     {
-      "name": "王美惠",
+      "name": "張秀華",
       "source": "static"
     },
     {
-      "name": "廖怡琛",
+      "name": "鄭光宏",
       "source": "static"
     },
     {
-      "name": "郭明賓",
+      "name": "黃敏修",
       "source": "static"
     },
     {
-      "name": "李明進",
+      "name": "黃思婷",
       "source": "static"
     },
     {
-      "name": "陳靜思",
+      "name": "黃大祐",
       "source": "static"
     },
     {
-      "name": "唐美玲",
+      "name": "林煒軒",
+      "source": "static"
+    },
+    {
+      "name": "蘇澤峰",
+      "source": "static"
+    },
+    {
+      "name": "孫貫志",
+      "source": "static"
+    },
+    {
+      "name": "蔡文旭",
+      "source": "static"
+    },
+    {
+      "name": "蔡坤叡",
+      "source": "static"
+    },
+    {
+      "name": "李忠曆",
+      "source": "static"
+    },
+    {
+      "name": "王浩",
       "source": "static"
     }
   ],
   "question_records": [],
   "councilor_names": [
-    "蕭淑玲",
-    "陳怡岳",
-    "蔡明儀",
-    "林建豐",
-    "柳宗廷",
-    "吳竟銓",
-    "徐欣瑩",
-    "謝明匡",
-    "許明財",
-    "劉蓁蓁",
-    "蕭貫譽",
-    "王美惠",
-    "廖怡琛",
-    "郭明賓",
-    "李明進",
-    "陳靜思",
-    "唐美玲"
+    "傅大偉",
+    "黃露慧",
+    "黃盈智",
+    "陳家平",
+    "張敏琪",
+    "郭定緯",
+    "張榮藏",
+    "顏田慎節",
+    "戴寧",
+    "李奕德",
+    "陳姿妏",
+    "張秀華",
+    "鄭光宏",
+    "黃敏修",
+    "黃思婷",
+    "黃大祐",
+    "林煒軒",
+    "蘇澤峰",
+    "孫貫志",
+    "蔡文旭",
+    "蔡坤叡",
+    "李忠曆",
+    "王浩"
   ],
-  "updated_at": "2026-05-24T06:10:53.678335"
+  "updated_at": "2026-05-24T07:01:17.868791"
 }
