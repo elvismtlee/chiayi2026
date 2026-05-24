@@ -2637,53 +2637,13 @@ function renderAccidentStats() {
     if (gi('council-questions')) gi('council-questions').textContent = cs.question_count || '—';
     if (gi('council-members'))   gi('council-members').textContent   = '24';
 
-    // ── 第11屆嘉義市議會議員名單（東區12席・西區12席）
-    // 資料來源：嘉義市議會官網 https://www.cycc.gov.tw
-    // 黨籍：dpp=民進黨, kmt=國民黨, tpp=民眾黨, tsp=台灣基進, ind=無黨籍
-    const EAST = [
-      {name:'蕭淑玲', party:'dpp', note:'議長'},
-      {name:'謝明匡', party:'dpp'},
-      {name:'陳怡岳', party:'dpp'},
-      {name:'林建豐', party:'dpp'},
-      {name:'吳竟銓', party:'tpp'},
-      {name:'徐欣瑩', party:'tsp'},
-      {name:'劉蓁蓁', party:'kmt'},
-      {name:'蕭貫譽', party:'kmt'},
-      {name:'洪敏雄', party:'ind'},
-      {name:'陳炳男', party:'kmt'},
-      {name:'吳孟哲', party:'ind'},
-      {name:'鄭光宏', party:'kmt'},
-    ];
-    const WEST = [
-      {name:'李明進', party:'dpp'},
-      {name:'唐美玲', party:'dpp'},
-      {name:'蔡明儀', party:'dpp'},
-      {name:'柳宗廷', party:'dpp'},
-      {name:'郭明賓', party:'kmt'},
-      {name:'廖怡琛', party:'tpp'},
-      {name:'許明財', party:'kmt'},
-      {name:'陳家賓', party:'ind'},
-      {name:'陳靜思', party:'dpp'},
-      {name:'鄭國忠', party:'kmt'},
-      {name:'林美燕', party:'tpp'},
-      {name:'黃嫈珺', party:'kmt'},
-    ];
-    const partyColor = {
-      dpp:'background:#1B9431;color:#fff',
-      kmt:'background:#1D4ED8;color:#fff',
-      tpp:'background:#38BDF8;color:#fff',
-      tsp:'background:#EF4444;color:#fff',
-      ind:'background:#94A3B8;color:#fff',
-    };
-    const chip = (m) => {
-      const style = partyColor[m.party] || 'background:#94A3B8;color:#fff';
-      const note  = m.note ? ` <span style="font-size:9px;opacity:0.8">(${m.note})</span>` : '';
-      return `<span class="text-xs px-2.5 py-1 rounded-full font-bold" style="${style}">${m.name}${note}</span>`;
-    };
+    // ── 第11屆嘉義市議會議員名單（待確認）──
+    // 名單需由候選人本人依嘉義市議會官網確認後填入
     const eEl = gi('councilor-east');
     const wEl = gi('councilor-west');
-    if (eEl) eEl.innerHTML = EAST.map(chip).join('');
-    if (wEl) wEl.innerHTML = WEST.map(chip).join('');
+    const placeholder = '<span class="text-xs px-3 py-1 rounded-full bg-slate-100 text-slate-400">資料確認中，請稍候</span>';
+    if (eEl) eEl.innerHTML = placeholder;
+    if (wEl) wEl.innerHTML = placeholder;
   }
 
   // ── renderKPIs 更新（加入 deaths/injuries）──
