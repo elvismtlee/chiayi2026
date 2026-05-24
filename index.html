@@ -1101,7 +1101,7 @@
       </div>
       <div class="bg-slate-100 border border-slate-200 rounded-xl p-3 text-center">
         <div class="text-xs font-bold text-slate-400 uppercase tracking-wide mb-1">現任議員</div>
-        <div class="text-2xl font-black text-slate-700" id="council-members">24</div>
+        <div class="text-2xl font-black text-slate-700" id="council-members">23</div>
         <div class="text-[10px] text-slate-400 mt-0.5">席</div>
       </div>
       <div class="bg-orange-50 border border-orange-100 rounded-xl p-3 text-center">
@@ -1113,19 +1113,19 @@
     <!-- 議員名單（東區 + 西區，分色） -->
     <div class="mb-6">
       <div class="flex items-center justify-between mb-3">
-        <p class="text-sm font-bold text-slate-600">🏛️ 第11屆議員名單（2022–2026）・共24席</p>
+        <p class="text-sm font-bold text-slate-600">🏛️ 第11屆議員名單（2022–2026）・共23席</p>
         <a href="https://www.cycc.gov.tw/member" target="_blank" rel="noopener"
            class="text-xs text-purple-500 font-bold hover:underline">官網驗證 →</a>
       </div>
       <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
         <!-- 東區 12席 -->
         <div class="bg-slate-50 rounded-xl p-4 border border-slate-200">
-          <p class="text-xs font-bold text-slate-500 uppercase tracking-wide mb-2.5">📍 東區選區 12席</p>
+          <p class="text-xs font-bold text-slate-500 uppercase tracking-wide mb-2.5">📍 東區選區 10席</p>
           <div class="flex flex-wrap gap-1.5" id="councilor-east"></div>
         </div>
         <!-- 西區 12席 -->
         <div class="bg-purple-50 rounded-xl p-4 border border-purple-200">
-          <p class="text-xs font-bold text-purple-500 uppercase tracking-wide mb-2.5">📍 西區選區 12席</p>
+          <p class="text-xs font-bold text-purple-500 uppercase tracking-wide mb-2.5">📍 西區選區 13席</p>
           <div class="flex flex-wrap gap-1.5" id="councilor-west"></div>
         </div>
       </div>
@@ -2635,7 +2635,7 @@ function renderAccidentStats() {
     const gi = id => document.getElementById(id);
     if (gi('council-meetings'))  gi('council-meetings').textContent  = cs.meetings_count || '14';
     if (gi('council-questions')) gi('council-questions').textContent = cs.question_count || '—';
-    if (gi('council-members'))   gi('council-members').textContent   = '24';
+    if (gi('council-members'))   gi('council-members').textContent   = '23';
 
     // ── 第11屆嘉義市議會議員名單（東區10席・西區13席，共23席）
     // 資料來源：自由時報、蕃新聞 2022/11/26 開票結果（二來源交叉確認）
