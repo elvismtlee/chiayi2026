@@ -3249,7 +3249,7 @@ function renderAccidentStats() {
 
   // ── 城市綜合數據渲染（cityData 由 scraper.py 注入）──
   function renderCityData() {
-    if (!window.cityData || !cityData.updated_at) return;
+    if (typeof cityData === 'undefined' || !cityData.updated_at) return;
 
     // 更新時間
     const updStr = cityData.updated_at.replace('T', ' ').slice(0, 16);
