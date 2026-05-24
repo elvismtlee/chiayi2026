@@ -1,51 +1,20 @@
 {
-  "updated_at": "2026-05-24T17:21:56.984030",
+  "updated_at": "2026-05-24T19:13:02.402862",
   "aqi_realtime": [
     {
-      "station": "",
-      "aqi": 0,
-      "pm25": 0.0,
-      "pm10": 0.0,
-      "o3": 0.0,
-      "no2": 0.0,
-      "status": "",
-      "pollutant": "",
-      "time": "2026-05-25 01:00",
-      "source": "環境部"
-    },
-    {
-      "station": "",
-      "aqi": 0,
-      "pm25": 0.0,
-      "pm10": 0.0,
-      "o3": 0.0,
-      "no2": 0.0,
-      "status": "",
-      "pollutant": "",
-      "time": "2026-05-25 01:00",
-      "source": "環境部"
-    },
-    {
-      "station": "",
-      "aqi": 0,
-      "pm25": 0.0,
-      "pm10": 0.0,
-      "o3": 0.0,
-      "no2": 0.0,
-      "status": "",
-      "pollutant": "",
-      "time": "2026-05-25 01:00",
-      "source": "環境部"
+      "station": "嘉義市（Open-Meteo 模型）",
+      "aqi": 20,
+      "pm25": 14.3,
+      "pm10": 16.6,
+      "o3": 14.0,
+      "no2": 39.9,
+      "status": "良好",
+      "pollutant": "PM2.5",
+      "time": "2026-05-25T03:00",
+      "source": "Open-Meteo"
     }
   ],
-  "aqi_history": [
-    {
-      "month": "",
-      "aqi": 0.0,
-      "pm25": 0.0,
-      "station": "嘉義"
-    }
-  ],
+  "aqi_history": [],
   "earthquake": [
     {
       "title": "規模 4.9・82 km S of Hualien City, Taiwan",
@@ -65,15 +34,15 @@
   "weather": [
     {
       "station": "嘉義市（Open-Meteo）",
-      "temp": "25.6",
-      "apparent_temp": "28.7",
-      "humidity": "76",
+      "temp": "25.0",
+      "apparent_temp": "27.4",
+      "humidity": "72",
       "rainfall": "0.0",
-      "wind_speed": "9.0",
-      "wind_dir": "154",
-      "cloud": "97",
+      "wind_speed": "8.9",
+      "wind_dir": "159",
+      "cloud": "95",
       "weather": "陰天",
-      "time": "2026-05-25 01:15",
+      "time": "2026-05-25 03:00",
       "source": "Open-Meteo"
     }
   ],
@@ -107,9 +76,9 @@
       "source": "Google新聞"
     },
     {
-      "title": "近千萬補助助攻嘉市產業創新！黃敏惠市長宣布115年SBIR計劃開跑！ - chiayi.gov.tw",
+      "title": "3/28加開疫苗接種站，免費服務嘉義市19-49歲市民接種市府自購流感疫苗，數量有限，請把握機會 - 嘉義市政府衛生局",
       "date": "Fri, 22 May 2026",
-      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9XdVk2RGwzdUx1b1R3QTRoZWFBVGZMU0tXRXRrZXM3WVJqaXY2NmMtVkxIVUVIRFBmM3lBTXRDelVQRHV3bzlkMXAyZVdqTVNfYVd4b0lfdFlrUXpNVFBPQ0FRQ1JhSjdrY01DM0tOcmZLelJYTHc?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFB1TFNEcXYzU2RRR2VEVl9rVlRlWEhyaExlcXpqZTFvZVNxOWdkN3I4OEdyTkZSc3B3VkM1WHE3d05NSlRNRHNmZmNfLTZjcldiTEpaMFBuY0d2d0VHdExJR0FJT1k5N3IzbkwyQmc1aw?oc=5",
       "desc": "",
       "source": "Google新聞"
     },
@@ -302,7 +271,7 @@
       "lat": 23.482663,
       "lng": 120.462988,
       "total": 25,
-      "available": 8,
+      "available": 7,
       "addr": "中山路2號(前)"
     },
     {
@@ -329,7 +298,7 @@
       "lat": 23.4798596,
       "lng": 120.4488291,
       "total": 20,
-      "available": 6,
+      "available": 4,
       "addr": "中山路306號"
     },
     {
@@ -347,7 +316,7 @@
       "lat": 23.47917,
       "lng": 120.44186,
       "total": 99,
-      "available": 50,
+      "available": 55,
       "addr": "中山路524號"
     },
     {
@@ -356,7 +325,7 @@
       "lat": 23.47877,
       "lng": 120.44089,
       "total": 42,
-      "available": 26,
+      "available": 35,
       "addr": "中山路528號"
     },
     {
@@ -374,7 +343,7 @@
       "lat": 23.47336,
       "lng": 120.44604,
       "total": 14,
-      "available": 8,
+      "available": 9,
       "addr": "垂楊路351號"
     },
     {
@@ -383,7 +352,7 @@
       "lat": 23.4738724,
       "lng": 120.4493073,
       "total": 20,
-      "available": 10,
+      "available": 9,
       "addr": "垂楊路434號"
     },
     {
@@ -401,7 +370,7 @@
       "lat": 23.486138,
       "lng": 120.453829,
       "total": 20,
-      "available": 6,
+      "available": 4,
       "addr": "忠孝路284號(旁)"
     },
     {
@@ -410,7 +379,7 @@
       "lat": 23.48091,
       "lng": 120.43012,
       "total": 20,
-      "available": 7,
+      "available": 2,
       "addr": "北港路312號東側"
     },
     {
@@ -419,7 +388,7 @@
       "lat": 23.48465,
       "lng": 120.43354,
       "total": 14,
-      "available": 2,
+      "available": 1,
       "addr": "友愛興達路口"
     },
     {
@@ -437,7 +406,7 @@
       "lat": 23.49265,
       "lng": 120.43191,
       "total": 15,
-      "available": 8,
+      "available": 9,
       "addr": "自由路492號"
     },
     {
@@ -455,10 +424,10 @@
       "lat": 23.47165,
       "lng": 120.43119,
       "total": 15,
-      "available": 1,
+      "available": 4,
       "addr": "博愛路二段461號"
     }
   ],
   "water": [],
-  "fetch_seconds": 47.3
+  "fetch_seconds": 54.9
 }
