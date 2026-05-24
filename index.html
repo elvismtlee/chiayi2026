@@ -342,7 +342,8 @@
     <div class="grid grid-cols-1 lg:grid-cols-3 gap-4 mb-4">
       <!-- 歷年趨勢折線圖 (2/3) -->
       <div class="lg:col-span-2">
-        <p class="text-xs font-bold text-slate-500 mb-2">歷年件數（2013–2026）</p>
+        <p class="text-xs font-bold text-slate-500 mb-1">歷年件數（2013–2026）</p>
+        <p class="text-[10px] text-amber-700 bg-amber-50 border border-amber-200 px-2 py-0.5 rounded mb-2">⚠️ 2025 年起交通事故統計納入 A3 輕傷口徑，使數值約為前年 3 倍；橙色節點為不同統計基準，不可直接與前年比較</p>
         <div style="height:200px;"><canvas id="chartTrend"></canvas></div>
       </div>
       <!-- 議題分類佔比 (1/3) -->
@@ -360,7 +361,7 @@
       </div>
       <!-- 近5年各類別 top 3 -->
       <div class="bg-slate-50 rounded-xl p-4" id="trend-cat-top">
-        <p class="text-xs font-bold text-slate-600 mb-2">🏆 近5年 Top 5 議題</p>
+        <p class="text-xs font-bold text-slate-600 mb-2">🏆 歷年 Top 5 議題</p>
         <div class="space-y-1.5" id="trend-cat-bars"></div>
       </div>
     </div>
@@ -2131,21 +2132,27 @@
 
     // ── KPI 計算 ──────────────────────────────────────────────────────────
     const total     = values.reduce((s, v) => s + v, 0);
+    // 峰值排除 2025+ 以避免 A3 口徑變更造成誤判
+    const preIdxs   = labels.map((y,i) => y < '2025' ? i : -1).filter(i => i >= 0);
+    const prePeak   = preIdxs.reduce((a, b) => values[a] >= values[b] ? a : b, preIdxs[0] ?? 0);
     const peakIdx   = values.indexOf(Math.max(...values));
-    const peakYear  = labels[peakIdx];
-    const peakVal   = values[peakIdx];
+    const peakYear  = labels[prePeak];   // 前口徑最高年
+    const peakVal   = values[prePeak];
+    const rawPeakY  = labels[peakIdx];   // 原始最高年（可能 2025）
     const nowYear   = String(new Date().getFullYear());
     const thisYear  = values[labels.indexOf(nowYear)] || 0;
     const prevYear  = values[labels.indexOf(String(parseInt(nowYear) - 1))] || 0;
     const yoy       = prevYear > 0 ? Math.round((thisYear - prevYear) / prevYear * 100) : 0;
     const nonZero   = values.filter(v => v > 0);
     const avgPerYear= nonZero.length ? Math.round(nonZero.reduce((s,v)=>s+v,0)/nonZero.length) : 0;
+    const has2025spike = rawPeakY >= '2025';
 
     // ── KPI 磚 ────────────────────────────────────────────────────────────
     const kpiEl = gi('trend-kpis');
     if (kpiEl) kpiEl.innerHTML = [
       ['總資料筆數', total.toLocaleString(), '筆', '#FED7AA', '#C2410C'],
-      ['最高記錄年', peakYear, `${peakVal.toLocaleString()} 件`, '#DBEAFE', '#1D4ED8'],
+      [has2025spike ? '最高記錄年 ⚠️' : '最高記錄年',
+       peakYear, `${peakVal.toLocaleString()} 件（同口徑）`, '#DBEAFE', '#1D4ED8'],
       [`${nowYear}年累計`, thisYear.toLocaleString(), '件（截至今日）', '#D1FAE5', '#065F46'],
       ['年均', avgPerYear.toLocaleString(), `件／年（近${nonZero.length}年）`, '#F3E8FF', '#7E22CE'],
     ].map(([label, val, sub, bg, color]) =>
@@ -2164,7 +2171,9 @@
     const ctx = gi('chartTrend')?.getContext('2d');
     if (ctx) {
       const colors = values.map((v, i) =>
-        labels[i] === peakYear ? '#EF4444' : labels[i] === nowYear ? '#F97316' : '#F97316'
+        labels[i] >= '2025' ? '#FB923C' :          // 橙色 = A3 新口徑
+        labels[i] === peakYear ? '#EF4444' :        // 紅色 = 同口徑最高峰
+        '#F97316'
       );
       new Chart(ctx, {
         type: 'line',
@@ -2176,7 +2185,7 @@
             backgroundColor: 'rgba(249,115,22,.08)',
             borderWidth: 2.5,
             pointBackgroundColor: colors,
-            pointRadius: values.map((_, i) => labels[i] === peakYear || labels[i] === nowYear ? 6 : 3),
+            pointRadius: values.map((_, i) => labels[i] >= '2025' || labels[i] === peakYear ? 6 : 3),
             pointHoverRadius: 7,
             fill: true,
             tension: 0.4,
@@ -2229,12 +2238,12 @@
       const trendColor= values[values.length-1] > values[values.length-2] ? '#EF4444' : '#10B981';
       const recentAvg = Math.round(values.slice(-3).reduce((s,v)=>s+v,0) / 3);
       insightEl.innerHTML = [
-        `<span class="text-orange-400 font-bold">📍</span> 資料最高峰：<strong>${peakYear} 年</strong>共 <strong>${peakVal.toLocaleString()} 件</strong>`,
+        `<span class="text-orange-400 font-bold">📍</span> 同口徑最高峰：<strong>${peakYear} 年</strong>共 <strong>${peakVal.toLocaleString()} 件</strong>`,
         `<span class="text-blue-400 font-bold">📅</span> ${nowYear} 年截至目前：<strong>${thisYear.toLocaleString()} 件</strong>` +
           (prevYear > 0 ? `，較去年 <strong style="color:${trendColor}">${yoy > 0 ? '+' : ''}${yoy}%</strong>` : ''),
         `<span style="color:${trendColor}" class="font-bold">📈</span> 最近趨勢：<strong style="color:${trendColor}">${trendDir}</strong>（近 3 年均 ${recentAvg.toLocaleString()} 件/年）`,
-        `<span class="text-purple-400 font-bold">🏆</span> 最大問題類別：<strong>${catData[0]?.category || '—'}</strong>（${catData[0]?.count?.toLocaleString() || 0} 件，佔 ${Math.round((catData[0]?.count||0)/total*100)}%）`,
-      ].map(txt =>
+        has2025spike ? `<span class="text-amber-500 font-bold">⚠</span> 2025 起納入 A3 輕傷統計（<span style="color:#FB923C">橙色節點</span>），數值不可與前年直接比較` : '',
+      ].filter(Boolean).map(txt =>
         `<div class="flex items-start gap-1.5 text-[11px] text-slate-600">${txt}</div>`
       ).join('');
     }

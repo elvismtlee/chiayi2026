@@ -665,9 +665,16 @@ def fetch_all_opendata_records() -> list[dict]:
 
 def build_complaint_stats(records: list[dict]) -> dict:
     """從原始記錄建立統計摘要，供儀表板圖表使用。
-    分類統計使用 count 欄位加總（反映實際件數/數量），
-    例如交通事故每月有件數欄位，加總後顯示12年真實事故總數。
+
+    計數規則（避免不同資料集的 count 語意混淆）：
+    ・交通事故：count = 月度件數（200–800），直接加總反映真實事故量
+    ・基礎設施清冊（路燈、橋梁、停車場、陳情管道）：
+        count = 設施數量，不代表投訴件數 → 固定用 1 per record
+    ・管線施工、溺水、噪音等事件記錄：count=1，直接加總
     """
+    # 基礎設施清冊子類別：以設施數量為 count，不代表投訴件數
+    INVENTORY_SUBS = {"路燈照明", "橋梁設施", "公有停車場", "陳情管道"}
+
     category_counts: dict[str, int] = {}
     subcategory_counts: dict[str, dict] = {}  # {category: {sub: count}}
     road_counts: dict[str, int] = {}
@@ -675,14 +682,17 @@ def build_complaint_stats(records: list[dict]) -> dict:
 
     for r in records:
         cat = r.get("category") or r.get("議題分類") or r.get("類別") or "其他"
-        # 使用 count 欄位加總（交通事故為月度件數，路燈為該區燈數，橋梁/管線為1）
-        n = r.get("count", 1)
-        if not isinstance(n, (int, float)) or n <= 0:
+        sub = r.get("subcategory", "")
+        # 基礎設施清冊固定用 1（設施數量 ≠ 投訴件數）
+        if sub in INVENTORY_SUBS:
             n = 1
+        else:
+            n = r.get("count", 1)
+            if not isinstance(n, (int, float)) or n <= 0:
+                n = 1
         category_counts[cat] = category_counts.get(cat, 0) + int(n)
 
-        # 子類別統計（同樣用 count 加總）
-        sub = r.get("subcategory", "")
+        # 子類別統計（使用已修正的 n）
         if sub:
             if cat not in subcategory_counts:
                 subcategory_counts[cat] = {}
@@ -698,8 +708,8 @@ def build_complaint_stats(records: list[dict]) -> dict:
             date_str = r.get("date") or r.get("通報日期") or ""
             year = date_str[:4] if len(date_str) >= 4 else ""
         if year and year.isdigit() and 2010 <= int(year) <= 2030:
-            # 年度用 count 加總（反映實際事故量趨勢）
-            year_counts[year] = year_counts.get(year, 0) + r.get("count", 1)
+            # 年度用已修正的 n 加總（清冊類為1，事故為月度件數）
+            year_counts[year] = year_counts.get(year, 0) + int(n)
 
     top_roads = sorted(road_counts.items(), key=lambda x: x[1], reverse=True)[:10]
     top_cats = sorted(category_counts.items(), key=lambda x: x[1], reverse=True)
