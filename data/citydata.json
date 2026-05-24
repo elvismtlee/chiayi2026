@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-24T19:13:02.402862",
+  "updated_at": "2026-05-24T19:29:09.894814",
   "aqi_realtime": [
     {
       "station": "嘉義市（Open-Meteo 模型）",
@@ -35,14 +35,14 @@
     {
       "station": "嘉義市（Open-Meteo）",
       "temp": "25.0",
-      "apparent_temp": "27.4",
-      "humidity": "72",
+      "apparent_temp": "27.2",
+      "humidity": "71",
       "rainfall": "0.0",
       "wind_speed": "8.9",
       "wind_dir": "159",
-      "cloud": "95",
+      "cloud": "90",
       "weather": "陰天",
-      "time": "2026-05-25 03:00",
+      "time": "2026-05-25 03:15",
       "source": "Open-Meteo"
     }
   ],
@@ -92,13 +92,6 @@
   ],
   "procurement": [
     {
-      "title": "賴清德總統就職兩週年嘉義市建設狂「跳票」 張啓楷：民進黨勿把嘉市當政治鬥爭犧牲品 - PChome Online 新聞",
-      "date": "Tue, 19 May 2026",
-      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPSWNXZmRCd0JlLTlrOWR0MVlYQlhDZUdzNnZrSjdTTTVyOTR6NGUxSUQ0MVltM3lpR3A3bkF6d0s1cVJ6OGdEUkZQN3dSUjB1V0lZMWJiODVDOFUzVngzX0lyVHNtcklaOWlNaUVYaVRJZUVURERWdDg2cjRXcmJUNDJEblRrY2xYNkxz?oc=5",
-      "org": "新聞資訊",
-      "source": "Google新聞"
-    },
-    {
       "title": "民進黨政府執政嘉義市建設狂「跳票」 張啓楷籲勿把嘉市當政治鬥爭犧牲品 - 蕃新聞",
       "date": "Tue, 19 May 2026",
       "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFA3Y2NmU2JPRkxEUjZmemo1N25uLWxfM0hHVGdmZzhDajBIMkJ2YjYydFd6R1ZGdUVwaFozVlJmalMtbzNaQ2pnOXFBUUpWclU1RUE?oc=5",
@@ -116,6 +109,13 @@
       "title": "嘉義鐵路高架化將讓都市縫合共融 推動交通新路網建設 帶動東西區發展 - 自由時報",
       "date": "Thu, 30 Apr 2026",
       "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9ORzltT2hJU0E0OVgtX0ZhS0JVYjZjOUgwT3hWVXQzbW5XVWdqMkI5d0lHeG9nS1RNYTM5Z21TeDBBa3NIb3RnSk8zNmJOZzB5?oc=5",
+      "org": "新聞資訊",
+      "source": "Google新聞"
+    },
+    {
+      "title": "賴清德總統就職兩週年嘉義市建設狂「跳票」 張啓楷：民進黨勿把嘉市當政治鬥爭犧牲品 - 蕃新聞",
+      "date": "Tue, 19 May 2026",
+      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9sYWdoVjIydGVKUzVwbnFIal8tODh4TFFJRElkcld2T0RiOTBjWVU5Q3lZQmhKdWVzMndseGhKVVFUWURrNTEwVHJNcEJsek9CQnc?oc=5",
       "org": "新聞資訊",
       "source": "Google新聞"
     },
@@ -153,30 +153,7 @@
     "enterovirus": [],
     "updated": "2026-05-24"
   },
-  "fire": {
-    "chiayi_datasets": [
-      {
-        "title": "",
-        "date": ""
-      },
-      {
-        "title": "",
-        "date": ""
-      },
-      {
-        "title": "",
-        "date": ""
-      },
-      {
-        "title": "",
-        "date": ""
-      },
-      {
-        "title": "",
-        "date": ""
-      }
-    ]
-  },
+  "fire": {},
   "population": [],
   "bus": [
     {
@@ -271,7 +248,7 @@
       "lat": 23.482663,
       "lng": 120.462988,
       "total": 25,
-      "available": 7,
+      "available": 8,
       "addr": "中山路2號(前)"
     },
     {
@@ -316,7 +293,7 @@
       "lat": 23.47917,
       "lng": 120.44186,
       "total": 99,
-      "available": 55,
+      "available": 70,
       "addr": "中山路524號"
     },
     {
@@ -429,5 +406,5 @@
     }
   ],
   "water": [],
-  "fetch_seconds": 54.9
+  "fetch_seconds": 68.3
 }
