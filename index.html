@@ -2849,8 +2849,12 @@ function renderAccidentStats() {
     const stMap = {};
     noise.forEach(r => {
       const st = r.location || r.title || '未知站';
+      // avg_db 欄位優先；其次解析 description "月均59.1dB"；fallback 0
+      const dbVal = r.avg_db
+        || parseFloat((r.description||'').match(/月均([\d.]+)dB/)?.[1])
+        || 0;
       if (!stMap[st] || (r.date || '') > (stMap[st].date || '')) {
-        stMap[st] = { db: r.count || 0, date: r.date || '' };
+        stMap[st] = { db: dbVal, date: r.date || '' };
       }
     });
     const stList = Object.entries(stMap).map(([st, d]) => ({ st, db: d.db }))
