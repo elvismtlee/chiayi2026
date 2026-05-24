@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-24T16:11:03.498845",
+  "updated_at": "2026-05-24T17:21:56.984030",
   "aqi_realtime": [
     {
       "station": "",
@@ -10,7 +10,7 @@
       "no2": 0.0,
       "status": "",
       "pollutant": "",
-      "time": "2026-05-24 23:00",
+      "time": "2026-05-25 01:00",
       "source": "環境部"
     },
     {
@@ -22,7 +22,7 @@
       "no2": 0.0,
       "status": "",
       "pollutant": "",
-      "time": "2026-05-24 23:00",
+      "time": "2026-05-25 01:00",
       "source": "環境部"
     },
     {
@@ -34,7 +34,7 @@
       "no2": 0.0,
       "status": "",
       "pollutant": "",
-      "time": "2026-05-24 23:00",
+      "time": "2026-05-25 01:00",
       "source": "環境部"
     }
   ],
@@ -65,15 +65,15 @@
   "weather": [
     {
       "station": "嘉義市（Open-Meteo）",
-      "temp": "25.7",
-      "apparent_temp": "29.6",
-      "humidity": "81",
+      "temp": "25.6",
+      "apparent_temp": "28.7",
+      "humidity": "76",
       "rainfall": "0.0",
-      "wind_speed": "7.7",
-      "wind_dir": "139",
-      "cloud": "99",
+      "wind_speed": "9.0",
+      "wind_dir": "154",
+      "cloud": "97",
       "weather": "陰天",
-      "time": "2026-05-25 00:00",
+      "time": "2026-05-25 01:15",
       "source": "Open-Meteo"
     }
   ],
@@ -107,9 +107,9 @@
       "source": "Google新聞"
     },
     {
-      "title": "嘉義市圓福寺佛誕節浴佛法會 市長黃敏惠等人祈願社會安定、和諧 - 台灣華報",
-      "date": "Sun, 24 May 2026",
-      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1kVVVhZUctUjlSMGZzZnpwSlFTOG9iR1g0QW5tOGtmS1BzUXB0WGFBMXlqOEJ5cERVak82QWtnR21vY3dHeXlQSm41TlZZUlp5R2FuN04yVDVQQTdza2Z2dnN0OW1sX0FNQXg4?oc=5",
+      "title": "近千萬補助助攻嘉市產業創新！黃敏惠市長宣布115年SBIR計劃開跑！ - chiayi.gov.tw",
+      "date": "Fri, 22 May 2026",
+      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9XdVk2RGwzdUx1b1R3QTRoZWFBVGZMU0tXRXRrZXM3WVJqaXY2NmMtVkxIVUVIRFBmM3lBTXRDelVQRHV3bzlkMXAyZVdqTVNfYVd4b0lfdFlrUXpNVFBPQ0FRQ1JhSjdrY01DM0tOcmZLelJYTHc?oc=5",
       "desc": "",
       "source": "Google新聞"
     },
@@ -184,7 +184,30 @@
     "enterovirus": [],
     "updated": "2026-05-24"
   },
-  "fire": {},
+  "fire": {
+    "chiayi_datasets": [
+      {
+        "title": "",
+        "date": ""
+      },
+      {
+        "title": "",
+        "date": ""
+      },
+      {
+        "title": "",
+        "date": ""
+      },
+      {
+        "title": "",
+        "date": ""
+      },
+      {
+        "title": "",
+        "date": ""
+      }
+    ]
+  },
   "population": [],
   "bus": [
     {
@@ -270,7 +293,7 @@
       "lat": 23.482012,
       "lng": 120.457342,
       "total": 22,
-      "available": 7,
+      "available": 8,
       "addr": "中山路98號(前)"
     },
     {
@@ -279,7 +302,7 @@
       "lat": 23.482663,
       "lng": 120.462988,
       "total": 25,
-      "available": 9,
+      "available": 8,
       "addr": "中山路2號(前)"
     },
     {
@@ -306,7 +329,7 @@
       "lat": 23.4798596,
       "lng": 120.4488291,
       "total": 20,
-      "available": 4,
+      "available": 6,
       "addr": "中山路306號"
     },
     {
@@ -324,7 +347,7 @@
       "lat": 23.47917,
       "lng": 120.44186,
       "total": 99,
-      "available": 49,
+      "available": 50,
       "addr": "中山路524號"
     },
     {
@@ -333,7 +356,7 @@
       "lat": 23.47877,
       "lng": 120.44089,
       "total": 42,
-      "available": 7,
+      "available": 26,
       "addr": "中山路528號"
     },
     {
@@ -351,7 +374,7 @@
       "lat": 23.47336,
       "lng": 120.44604,
       "total": 14,
-      "available": 12,
+      "available": 8,
       "addr": "垂楊路351號"
     },
     {
@@ -387,7 +410,7 @@
       "lat": 23.48091,
       "lng": 120.43012,
       "total": 20,
-      "available": 8,
+      "available": 7,
       "addr": "北港路312號東側"
     },
     {
@@ -423,7 +446,7 @@
       "lat": 23.478941,
       "lng": 120.437805,
       "total": 23,
-      "available": 3,
+      "available": 2,
       "addr": "博愛路二段281號"
     },
     {
@@ -437,5 +460,5 @@
     }
   ],
   "water": [],
-  "fetch_seconds": 173.5
+  "fetch_seconds": 47.3
 }
