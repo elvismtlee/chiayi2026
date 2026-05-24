@@ -2637,13 +2637,52 @@ function renderAccidentStats() {
     if (gi('council-questions')) gi('council-questions').textContent = cs.question_count || '—';
     if (gi('council-members'))   gi('council-members').textContent   = '24';
 
-    // ── 第11屆嘉義市議會議員名單（待確認）──
-    // 名單需由候選人本人依嘉義市議會官網確認後填入
+    // ── 第11屆嘉義市議會議員名單（東區10席・西區13席，共23席）
+    // 資料來源：自由時報、蕃新聞 2022/11/26 開票結果（二來源交叉確認）
+    // 議長：陳姿妏（無黨籍，西區）・副議長：張榮藏（無黨籍，東區）
+    // ※ 李奕德（東區）2025/3/25 病逝；戴寧（東區）2025/8 服刑
+    const EAST = [
+      {name:'傅大偉', party:'kmt'},
+      {name:'黃露慧', party:'dpp'},
+      {name:'黃盈智', party:'dpp'},
+      {name:'陳家平', party:'kmt'},
+      {name:'張敏琪', party:'kmt'},
+      {name:'郭定緯', party:'kmt'},
+      {name:'張榮藏', party:'ind', note:'副議長'},
+      {name:'顏田慎節', party:'ind'},
+      {name:'戴寧',   party:'ind', note:'服刑中'},
+      {name:'李奕德', party:'ind', note:'已故'},
+    ];
+    const WEST = [
+      {name:'陳姿妏', party:'ind', note:'議長'},
+      {name:'張秀華', party:'kmt'},
+      {name:'鄭光宏', party:'kmt'},
+      {name:'黃敏修', party:'dpp'},
+      {name:'黃思婷', party:'ind'},
+      {name:'黃大祐', party:'dpp'},
+      {name:'林煒軒', party:'dpp'},
+      {name:'蘇澤峰', party:'ind'},
+      {name:'孫貫志', party:'ind'},
+      {name:'蔡文旭', party:'dpp'},
+      {name:'蔡坤叡', party:'ind'},
+      {name:'李忠曆', party:'ind'},
+      {name:'王浩',   party:'tsp'},
+    ];
+    const partyColor = {
+      dpp:'background:#1B9431;color:#fff',
+      kmt:'background:#1D4ED8;color:#fff',
+      tsp:'background:#F97316;color:#fff',
+      ind:'background:#94A3B8;color:#fff',
+    };
+    const chip = (m) => {
+      const style = partyColor[m.party] || 'background:#94A3B8;color:#fff';
+      const note  = m.note ? ' <span style="font-size:9px;opacity:0.75">(' + m.note + ')</span>' : '';
+      return '<span class="text-xs px-2.5 py-1 rounded-full font-bold" style="' + style + '">' + m.name + note + '</span>';
+    };
     const eEl = gi('councilor-east');
     const wEl = gi('councilor-west');
-    const placeholder = '<span class="text-xs px-3 py-1 rounded-full bg-slate-100 text-slate-400">資料確認中，請稍候</span>';
-    if (eEl) eEl.innerHTML = placeholder;
-    if (wEl) wEl.innerHTML = placeholder;
+    if (eEl) eEl.innerHTML = EAST.map(chip).join('');
+    if (wEl) wEl.innerHTML = WEST.map(chip).join('');
   }
 
   // ── renderKPIs 更新（加入 deaths/injuries）──
