@@ -307,7 +307,8 @@
     </div>
     <!-- 年度趨勢圖 -->
     <div class="mb-4">
-      <p class="text-xs font-bold text-slate-500 mb-2">歷年事故件數（2014–2025）</p>
+      <p class="text-xs font-bold text-slate-500 mb-1">歷年事故件數（2014–2025）</p>
+      <p class="text-[10px] text-amber-700 bg-amber-50 border border-amber-200 px-2 py-0.5 rounded mb-2">⚠️ 2025 年起統計口徑擴大（新納入 A3 輕傷事故），橙色柱不可直接與前年對比</p>
       <div style="height:160px;"><canvas id="chartAccYear"></canvas></div>
     </div>
     <!-- 月份分布 + 洞察 -->
@@ -2434,9 +2435,10 @@ function renderAccidentStats() {
         type: 'bar',
         data: { labels: years, datasets: [{
           data: yVals,
-          backgroundColor: yVals.map((v,i) => {
-            const mx = Math.max(...yVals);
-            return v === mx ? '#EF4444' : '#FCA5A5';
+          backgroundColor: years.map((y,i) => {
+            if (y >= '2025') return '#FB923C'; // 橙色 = 不同統計口徑
+            const pre2025max = Math.max(...yVals.filter((_,j) => years[j] < '2025'));
+            return yVals[i] === pre2025max ? '#EF4444' : '#FCA5A5';
           }),
           borderRadius: 3, borderSkipped: false
         }]},
@@ -2482,16 +2484,21 @@ function renderAccidentStats() {
     // 洞察文字
     const ins = gi('acc-insight');
     if (ins && years.length > 0) {
-      const maxY = years.reduce((a,b)=>yearMap[a]>yearMap[b]?a:b);
-      const minY = years.reduce((a,b)=>yearMap[a]<yearMap[b]?a:b);
+      // 趨勢計算排除 2025+（統計口徑不同，不可直接比較）
+      const preYears = years.filter(y => y < '2025');
+      const cmpYears = preYears.length > 0 ? preYears : years;
+      const maxY = cmpYears.reduce((a,b)=>yearMap[a]>yearMap[b]?a:b);
+      const minY = cmpYears.reduce((a,b)=>yearMap[a]<yearMap[b]?a:b);
       const maxM = mLabels.reduce((a,b)=>(monthMap[a.padStart(2,'0')]||0)>(monthMap[b.padStart(2,'0')]||0)?a:b);
-      const trend = yVals.length >= 2 ? (yVals[yVals.length-1] - yVals[0]) : 0;
+      const preVals = cmpYears.map(y=>yearMap[y]);
+      const trend = preVals.length >= 2 ? (preVals[preVals.length-1] - preVals[0]) : 0;
+      const has2025 = years.some(y => y >= '2025');
       ins.innerHTML = [
-        '<div class="flex items-start gap-1.5"><span class="text-red-400 font-bold shrink-0">●</span><span>最高峰：<strong class="text-slate-800">' + maxY + ' 年</strong>（' + yearMap[maxY].toLocaleString() + '件）</span></div>',
-        '<div class="flex items-start gap-1.5"><span class="text-green-400 font-bold shrink-0">●</span><span>最少年：<strong class="text-slate-800">' + minY + ' 年</strong>（' + yearMap[minY].toLocaleString() + '件）</span></div>',
+        '<div class="flex items-start gap-1.5"><span class="text-red-400 font-bold shrink-0">●</span><span>歷年最高（至2024）：<strong class="text-slate-800">' + maxY + ' 年</strong>（' + yearMap[maxY].toLocaleString() + '件）</span></div>',
+        '<div class="flex items-start gap-1.5"><span class="text-green-400 font-bold shrink-0">●</span><span>歷年最少：<strong class="text-slate-800">' + minY + ' 年</strong>（' + yearMap[minY].toLocaleString() + '件）</span></div>',
         '<div class="flex items-start gap-1.5"><span class="text-orange-400 font-bold shrink-0">●</span><span>事故高峰月：<strong class="text-slate-800">' + maxM + ' 月</strong>，需加強執法</span></div>',
-        '<div class="flex items-start gap-1.5"><span class="text-' + (trend>0?'red':'green') + '-400 font-bold shrink-0">●</span><span>近12年趨勢：' + (trend>0?'事故增加 ↑':'事故減少 ↓') + ' <strong class="text-slate-800">' + Math.abs(trend).toLocaleString() + '件</strong></span></div>',
-        '<div class="flex items-start gap-1.5"><span class="text-blue-400 font-bold shrink-0">●</span><span>每 <strong class="text-slate-800">' + (totalAcc>0?Math.round(24*365*12/totalAcc):0) + ' 小時</strong>發生 1 件事故</span></div>',
+        '<div class="flex items-start gap-1.5"><span class="text-' + (trend>0?'red':'green') + '-400 font-bold shrink-0">●</span><span>2014–2024 趨勢：' + (trend>0?'事故增加 ↑':'事故減少 ↓') + ' <strong class="text-slate-800">' + Math.abs(trend).toLocaleString() + '件</strong></span></div>',
+        has2025 ? '<div class="flex items-start gap-1.5"><span class="text-amber-500 font-bold shrink-0">⚠</span><span>2025 起含 A3 輕傷新口徑，<strong class="text-amber-700">橙色柱</strong>不可與前年直接比較</span></div>' : '',
       ].join('');
     }
   }
