@@ -1,6 +1,27 @@
 {
-  "updated_at": "2026-05-25T03:02:09.245760",
+  "updated_at": "2026-05-25T10:03:54.064611",
   "news": [
+    {
+      "headline": "嘉義市外師共學再升級以建築美學與閱讀文化深化教學能量",
+      "source": "嘉義市政府/教育處/觀光新聞處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=938536",
+      "date": "2026/05/25",
+      "query": "市府新聞"
+    },
+    {
+      "headline": "嘉市「嘉有大廚」健康飲食三部曲超過10萬元獎項鼓勵吃出健康",
+      "source": "嘉義市政府/衛生局/觀光新聞處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=938528",
+      "date": "2026/05/25",
+      "query": "市府新聞"
+    },
+    {
+      "headline": "赴美深造！嘉市消考取無人機NIST證書歸國",
+      "source": "嘉義市政府/消防局",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=938511",
+      "date": "2026/05/25",
+      "query": "市府新聞"
+    },
     {
       "headline": "為加強嘉義市(以下簡稱本市)市區道路停車秩序整頓及提高停車周轉率，本市東區體育館北側無名路（體育路至彌陀路口）自115年6月1日起實施路邊停車收費管理事宜。",
       "source": "嘉義市政府/交通處",
@@ -62,27 +83,6 @@
       "source": "嘉義市政府/文化局/觀光新聞處",
       "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=938463",
       "date": "2026/05/24",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "圓福寺佛誕節浴佛法會黃敏惠市長祈願社會安定、和諧",
-      "source": "嘉義市政府/民政處/觀光新聞處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=938462",
-      "date": "2026/05/24",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "嘉義市中醫藥服務再升級黃敏惠市長見證仲景共享藥局開幕創中醫師與藥師協同照護新模式",
-      "source": "嘉義市政府/衛生局/觀光新聞處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=938461",
-      "date": "2026/05/24",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "嘉義市青少年福利服務中心全新升級羽球、匹克球共融球場嶄新亮相",
-      "source": "嘉義市政府/社會處/觀光新聞處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=938425",
-      "date": "2026/05/23",
       "query": "市府新聞"
     }
   ],
@@ -202,7 +202,7 @@
       "2012": 1,
       "2013": 1
     },
-    "updated_at": "2026-05-25T03:00:15.354258",
+    "updated_at": "2026-05-25T10:01:45.125393",
     "source": "data.chiayi.gov.tw"
   },
   "council": {
@@ -236,6 +236,48 @@
   },
   "citizen_stats": {},
   "social_posts": [
+    {
+      "id": "ptt-httpswwwpttccbbsChiayiM1779697801A07Bhtml",
+      "platform": "PTT",
+      "platform_color": "#00b300",
+      "board": "Chiayi",
+      "date": "05/25",
+      "author": "PTT 鄉民",
+      "title": "[新聞] 嘉市停車格激增民眾卻「無感」？議員質",
+      "url": "https://www.ptt.cc/bbs/Chiayi/M.1779697801.A.07B.html",
+      "reactions": 0,
+      "comments": 0,
+      "category": "交通停車",
+      "source": "ptt"
+    },
+    {
+      "id": "ptt-httpswwwpttccbbsChiayiM1779693482AC49html",
+      "platform": "PTT",
+      "platform_color": "#00b300",
+      "board": "Chiayi",
+      "date": "05/25",
+      "author": "PTT 鄉民",
+      "title": "［交換］5/26棒球比賽換飲料",
+      "url": "https://www.ptt.cc/bbs/Chiayi/M.1779693482.A.C49.html",
+      "reactions": 0,
+      "comments": 0,
+      "category": "市政議題",
+      "source": "ptt"
+    },
+    {
+      "id": "ptt-httpswwwpttccbbsChiayiM1779683426AB89html",
+      "platform": "PTT",
+      "platform_color": "#00b300",
+      "board": "Chiayi",
+      "date": "05/25",
+      "author": "PTT 鄉民",
+      "title": "[問題] 改窗簾服務（修短）",
+      "url": "https://www.ptt.cc/bbs/Chiayi/M.1779683426.A.B89.html",
+      "reactions": 0,
+      "comments": 0,
+      "category": "行政服務",
+      "source": "ptt"
+    },
     {
       "id": "ptt-httpswwwpttccbbsChiayiM1779605604A687html",
       "platform": "PTT",
@@ -357,48 +399,6 @@
       "author": "PTT 鄉民",
       "title": "[亂入] (11屆)市議會 第七次定期會(1-20會)",
       "url": "https://www.ptt.cc/bbs/Chiayi/M.1779417929.A.978.html",
-      "reactions": 0,
-      "comments": 0,
-      "category": "市政議題",
-      "source": "ptt"
-    },
-    {
-      "id": "ptt-httpswwwpttccbbsChiayiM1779417435AF6Dhtml",
-      "platform": "PTT",
-      "platform_color": "#00b300",
-      "board": "Chiayi",
-      "date": "05/25",
-      "author": "PTT 鄉民",
-      "title": "[新聞] 嘉義台積宅虛漲泡沫要破？專家點名2區恐",
-      "url": "https://www.ptt.cc/bbs/Chiayi/M.1779417435.A.F6D.html",
-      "reactions": 0,
-      "comments": 0,
-      "category": "市政議題",
-      "source": "ptt"
-    },
-    {
-      "id": "ptt-httpswwwpttccbbsChiayiM1779382456AC53html",
-      "platform": "PTT",
-      "platform_color": "#00b300",
-      "board": "Chiayi",
-      "date": "05/24",
-      "author": "PTT 鄉民",
-      "title": "[問題] 請問嘉義人如何前往綠島旅遊",
-      "url": "https://www.ptt.cc/bbs/Chiayi/M.1779382456.A.C53.html",
-      "reactions": 0,
-      "comments": 0,
-      "category": "文化觀光",
-      "source": "ptt"
-    },
-    {
-      "id": "ptt-httpswwwpttccbbsChiayiM1779377229A7C3html",
-      "platform": "PTT",
-      "platform_color": "#00b300",
-      "board": "Chiayi",
-      "date": "05/22",
-      "author": "PTT 鄉民",
-      "title": "[問題] 請問後庄里這邊有人有同樣的狀況嗎?",
-      "url": "https://www.ptt.cc/bbs/Chiayi/M.1779377229.A.7C3.html",
       "reactions": 0,
       "comments": 0,
       "category": "市政議題",
