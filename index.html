@@ -197,88 +197,6 @@
 ══════════════════════════════════════════════════════ -->
 <main class="max-w-6xl mx-auto px-4 md:px-6 pb-20" style="margin-top:-1px;">
 
-  <!-- ── Row 1：議題分類 + 路段熱點 ── -->
-  <div class="grid grid-cols-1 lg:grid-cols-5 gap-6 mb-6 mt-8" id="sec-cat">
-
-    <!-- 13 大議題分類（3/5） -->
-    <div class="lg:col-span-3 card p-6" style="border-left:4px solid #F97316;">
-      <div class="flex items-center justify-between mb-5">
-        <div>
-          <h2 class="text-lg font-black text-slate-900">13 大市政議題分析</h2>
-          <p class="text-sm text-slate-500 mt-0.5">2014–2026 開放資料 × 社群監測，交通事故・道路施工・路燈・橋梁・溺水・噪音…</p>
-        </div>
-        <span class="text-xs font-bold text-orange-700 bg-orange-50 px-3 py-1 rounded-full">多源整合</span>
-      </div>
-      <!-- KPI 磚 -->
-      <div class="grid grid-cols-2 md:grid-cols-4 gap-2 mb-4" id="cat-kpis">
-        <div class="bg-orange-50 border border-orange-100 rounded-xl p-2.5 text-center">
-          <div class="text-[10px] font-bold text-orange-400 uppercase tracking-wide mb-0.5">最大議題</div>
-          <div class="text-base font-black text-orange-600 leading-tight" id="cat-top-name">—</div>
-          <div class="text-[11px] text-orange-300 mt-0.5" id="cat-top-count"></div>
-        </div>
-        <div class="bg-red-50 border border-red-100 rounded-xl p-2.5 text-center">
-          <div class="text-[10px] font-bold text-red-400 uppercase tracking-wide mb-0.5">總投訴數</div>
-          <div class="text-xl font-black text-red-600" id="cat-total-records">—</div>
-          <div class="text-[11px] text-red-300 mt-0.5">件（全資料集）</div>
-        </div>
-        <div class="bg-blue-50 border border-blue-100 rounded-xl p-2.5 text-center">
-          <div class="text-[10px] font-bold text-blue-400 uppercase tracking-wide mb-0.5">今年新增</div>
-          <div class="text-xl font-black text-blue-600" id="cat-this-year">—</div>
-          <div class="text-[11px] text-blue-300 mt-0.5">件（2026）</div>
-        </div>
-        <div class="bg-emerald-50 border border-emerald-100 rounded-xl p-2.5 text-center">
-          <div class="text-[10px] font-bold text-emerald-500 uppercase tracking-wide mb-0.5">議題覆蓋</div>
-          <div class="text-xl font-black text-emerald-600" id="cat-active-cats">—</div>
-          <div class="text-[11px] text-emerald-300 mt-0.5">類別有紀錄</div>
-        </div>
-      </div>
-      <!-- 議題橫條 -->
-      <div class="space-y-2.5" id="cat-bars"></div>
-      <!-- 洞察文字 -->
-      <div class="mt-4 pt-3 border-t border-slate-100 grid grid-cols-1 md:grid-cols-3 gap-2" id="cat-insights">
-        <div class="bg-orange-50 rounded-xl p-3">
-          <p class="text-[10px] font-black text-orange-600 mb-1">🏆 第一優先</p>
-          <p class="text-xs text-slate-700" id="cat-insight-1">計算中…</p>
-        </div>
-        <div class="bg-blue-50 rounded-xl p-3">
-          <p class="text-[10px] font-black text-blue-600 mb-1">📈 成長最快</p>
-          <p class="text-xs text-slate-700" id="cat-insight-2">計算中…</p>
-        </div>
-        <div class="bg-emerald-50 rounded-xl p-3">
-          <p class="text-[10px] font-black text-emerald-600 mb-1">✅ 監測重點</p>
-          <p class="text-xs text-slate-700">交通停車・道路路平・人行步道 是西區最急需改善的三大民生議題</p>
-        </div>
-      </div>
-    </div>
-
-    <!-- 路段熱點（2/5） -->
-    <div class="lg:col-span-2 card p-6" style="border-left:4px solid #F97316;">
-      <div class="flex items-center justify-between mb-3">
-        <div>
-          <h2 class="text-base font-black text-slate-900">🚧 道路施工全面分析</h2>
-          <p class="text-xs text-slate-500 mt-0.5">管線挖掘・市府工程即時施工數據</p>
-        </div>
-        <span class="text-xs font-bold bg-orange-100 text-orange-600 px-2 py-0.5 rounded-full" id="pipeline-status-tag">更新中</span>
-      </div>
-      <!-- KPI 磚 -->
-      <div class="grid grid-cols-4 gap-1.5 mb-3" id="pipeline-kpis"></div>
-      <!-- 施工類型分布圖 -->
-      <div class="mb-3">
-        <p class="text-[11px] font-bold text-slate-400 uppercase tracking-wide mb-1.5">施工類型分布</p>
-        <div style="height:90px;"><canvas id="chartPipelineCat"></canvas></div>
-      </div>
-      <!-- 熱點路段 -->
-      <p class="text-[11px] font-bold text-slate-400 uppercase tracking-wide mb-1.5">熱點路段 Top 8</p>
-      <div class="space-y-1" id="road-list"></div>
-      <div class="mt-2 pt-2 border-t border-slate-100">
-        <a href="https://data.chiayi.gov.tw/opendata/"
-           target="_blank" rel="noopener"
-           class="text-xs text-blue-500 font-bold hover:underline">📋 查閱完整施工清單 →</a>
-      </div>
-    </div>
-  </div>
-
-
   <!-- ── 交通安全近12年全面分析 ─────────────────────────────────────────────── -->
   <div class="card p-6 mb-6" id="sec-traffic" style="border-left:4px solid #EF4444;">
     <div class="flex items-center justify-between mb-4 pb-3 border-b border-slate-100">
@@ -710,6 +628,88 @@
       </div>
     </div>
   </div>
+
+  <!-- ── Row 1：議題分類 + 路段熱點 ── -->
+  <div class="grid grid-cols-1 lg:grid-cols-5 gap-6 mb-6 mt-8" id="sec-cat">
+
+    <!-- 13 大議題分類（3/5） -->
+    <div class="lg:col-span-3 card p-6" style="border-left:4px solid #F97316;">
+      <div class="flex items-center justify-between mb-5">
+        <div>
+          <h2 class="text-lg font-black text-slate-900">13 大市政議題分析</h2>
+          <p class="text-sm text-slate-500 mt-0.5">2014–2026 開放資料 × 社群監測，交通事故・道路施工・路燈・橋梁・溺水・噪音…</p>
+        </div>
+        <span class="text-xs font-bold text-orange-700 bg-orange-50 px-3 py-1 rounded-full">多源整合</span>
+      </div>
+      <!-- KPI 磚 -->
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-2 mb-4" id="cat-kpis">
+        <div class="bg-orange-50 border border-orange-100 rounded-xl p-2.5 text-center">
+          <div class="text-[10px] font-bold text-orange-400 uppercase tracking-wide mb-0.5">最大議題</div>
+          <div class="text-base font-black text-orange-600 leading-tight" id="cat-top-name">—</div>
+          <div class="text-[11px] text-orange-300 mt-0.5" id="cat-top-count"></div>
+        </div>
+        <div class="bg-red-50 border border-red-100 rounded-xl p-2.5 text-center">
+          <div class="text-[10px] font-bold text-red-400 uppercase tracking-wide mb-0.5">總投訴數</div>
+          <div class="text-xl font-black text-red-600" id="cat-total-records">—</div>
+          <div class="text-[11px] text-red-300 mt-0.5">件（全資料集）</div>
+        </div>
+        <div class="bg-blue-50 border border-blue-100 rounded-xl p-2.5 text-center">
+          <div class="text-[10px] font-bold text-blue-400 uppercase tracking-wide mb-0.5">今年新增</div>
+          <div class="text-xl font-black text-blue-600" id="cat-this-year">—</div>
+          <div class="text-[11px] text-blue-300 mt-0.5">件（2026）</div>
+        </div>
+        <div class="bg-emerald-50 border border-emerald-100 rounded-xl p-2.5 text-center">
+          <div class="text-[10px] font-bold text-emerald-500 uppercase tracking-wide mb-0.5">議題覆蓋</div>
+          <div class="text-xl font-black text-emerald-600" id="cat-active-cats">—</div>
+          <div class="text-[11px] text-emerald-300 mt-0.5">類別有紀錄</div>
+        </div>
+      </div>
+      <!-- 議題橫條 -->
+      <div class="space-y-2.5" id="cat-bars"></div>
+      <!-- 洞察文字 -->
+      <div class="mt-4 pt-3 border-t border-slate-100 grid grid-cols-1 md:grid-cols-3 gap-2" id="cat-insights">
+        <div class="bg-orange-50 rounded-xl p-3">
+          <p class="text-[10px] font-black text-orange-600 mb-1">🏆 第一優先</p>
+          <p class="text-xs text-slate-700" id="cat-insight-1">計算中…</p>
+        </div>
+        <div class="bg-blue-50 rounded-xl p-3">
+          <p class="text-[10px] font-black text-blue-600 mb-1">📈 成長最快</p>
+          <p class="text-xs text-slate-700" id="cat-insight-2">計算中…</p>
+        </div>
+        <div class="bg-emerald-50 rounded-xl p-3">
+          <p class="text-[10px] font-black text-emerald-600 mb-1">✅ 監測重點</p>
+          <p class="text-xs text-slate-700">交通停車・道路路平・人行步道 是西區最急需改善的三大民生議題</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- 路段熱點（2/5） -->
+    <div class="lg:col-span-2 card p-6" style="border-left:4px solid #F97316;">
+      <div class="flex items-center justify-between mb-3">
+        <div>
+          <h2 class="text-base font-black text-slate-900">🚧 道路施工全面分析</h2>
+          <p class="text-xs text-slate-500 mt-0.5">管線挖掘・市府工程即時施工數據</p>
+        </div>
+        <span class="text-xs font-bold bg-orange-100 text-orange-600 px-2 py-0.5 rounded-full" id="pipeline-status-tag">更新中</span>
+      </div>
+      <!-- KPI 磚 -->
+      <div class="grid grid-cols-4 gap-1.5 mb-3" id="pipeline-kpis"></div>
+      <!-- 施工類型分布圖 -->
+      <div class="mb-3">
+        <p class="text-[11px] font-bold text-slate-400 uppercase tracking-wide mb-1.5">施工類型分布</p>
+        <div style="height:90px;"><canvas id="chartPipelineCat"></canvas></div>
+      </div>
+      <!-- 熱點路段 -->
+      <p class="text-[11px] font-bold text-slate-400 uppercase tracking-wide mb-1.5">熱點路段 Top 8</p>
+      <div class="space-y-1" id="road-list"></div>
+      <div class="mt-2 pt-2 border-t border-slate-100">
+        <a href="https://data.chiayi.gov.tw/opendata/"
+           target="_blank" rel="noopener"
+           class="text-xs text-blue-500 font-bold hover:underline">📋 查閱完整施工清單 →</a>
+      </div>
+    </div>
+  </div>
+
 
   <!-- ── 基礎建設資產盤點（全幅） ── -->
   <div class="card p-6 mb-6" style="border-left:4px solid #3B82F6;">
