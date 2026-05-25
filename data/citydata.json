@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-25T18:11:35.112921",
+  "updated_at": "2026-05-25T18:16:57.782826",
   "aqi_realtime": [
     {
       "station": "嘉義市（Open-Meteo 模型）",
@@ -34,15 +34,15 @@
   "weather": [
     {
       "station": "嘉義市（Open-Meteo）",
-      "temp": "24.5",
-      "apparent_temp": "26.8",
-      "humidity": "73",
+      "temp": "24.4",
+      "apparent_temp": "26.6",
+      "humidity": "72",
       "rainfall": "0.0",
-      "wind_speed": "7.9",
-      "wind_dir": "133",
-      "cloud": "16",
-      "weather": "晴",
-      "time": "2026-05-26 02:00",
+      "wind_speed": "8.0",
+      "wind_dir": "132",
+      "cloud": "27",
+      "weather": "多雲",
+      "time": "2026-05-26 02:15",
       "source": "Open-Meteo"
     }
   ],
@@ -92,6 +92,13 @@
   ],
   "procurement": [
     {
+      "title": "賴清德總統就職兩週年嘉義市建設狂「跳票」 張啓楷：民進黨勿把嘉市當政治鬥爭犧牲品 - PChome Online 新聞",
+      "date": "Tue, 19 May 2026",
+      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPSWNXZmRCd0JlLTlrOWR0MVlYQlhDZUdzNnZrSjdTTTVyOTR6NGUxSUQ0MVltM3lpR3A3bkF6d0s1cVJ6OGdEUkZQN3dSUjB1V0lZMWJiODVDOFUzVngzX0lyVHNtcklaOWlNaUVYaVRJZUVURERWdDg2cjRXcmJUNDJEblRrY2xYNkxz?oc=5",
+      "org": "新聞資訊",
+      "source": "Google新聞"
+    },
+    {
       "title": "民進黨政府執政嘉義市建設狂「跳票」 張啓楷籲勿把嘉市當政治鬥爭犧牲品 - 蕃新聞",
       "date": "Tue, 19 May 2026",
       "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFA3Y2NmU2JPRkxEUjZmemo1N25uLWxfM0hHVGdmZzhDajBIMkJ2YjYydFd6R1ZGdUVwaFozVlJmalMtbzNaQ2pnOXFBUUpWclU1RUE?oc=5",
@@ -137,13 +144,6 @@
       "title": "嘉義市推動友善人行環境 「2026馬路好行」現地評比展現建設成果 - 中央社 CNA",
       "date": "Mon, 16 Mar 2026",
       "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE12cnY4Q3NhZWFKS0FvSEFIa0pXMmVEX3E3VUk2Z0h5QkI0VXJKc3MtLVlFSTRhOXNGQmV4OS1zc3h4ME9ON3pjRWpNWW51MjVzS3hxcV93?oc=5",
-      "org": "新聞資訊",
-      "source": "Google新聞"
-    },
-    {
-      "title": "賴清德總統就職兩週年嘉義市建設狂「跳票」 張啓楷：民進黨勿把嘉市當政治鬥爭犧牲品 - 蕃新聞",
-      "date": "Tue, 19 May 2026",
-      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9sYWdoVjIydGVKUzVwbnFIal8tODh4TFFJRElkcld2T0RiOTBjWVU5Q3lZQmhKdWVzMndseGhKVVFUWURrNTEwVHJNcEJsek9CQnc?oc=5",
       "org": "新聞資訊",
       "source": "Google新聞"
     }
@@ -406,5 +406,5 @@
     }
   ],
   "water": [],
-  "fetch_seconds": 153.9
+  "fetch_seconds": 68.2
 }
