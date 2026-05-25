@@ -79,20 +79,32 @@
   <div class="absolute inset-0 opacity-5" style="background-image:repeating-linear-gradient(0deg,transparent,transparent 39px,rgba(255,255,255,.3) 39px,rgba(255,255,255,.3) 40px),repeating-linear-gradient(90deg,transparent,transparent 39px,rgba(255,255,255,.3) 39px,rgba(255,255,255,.3) 40px);"></div>
 
   <div class="max-w-6xl mx-auto px-6 py-16 relative">
-    <div class="max-w-3xl">
-      <div class="flex items-center gap-3 mb-6 fade-up">
-        <span class="bg-orange-500 text-white text-xs font-en font-bold px-3 py-1 rounded-full tracking-widest uppercase">Live Data</span>
-        <span class="text-slate-400 text-sm font-en" id="last-update">最後更新：2026-05-24 19:13</span>
+    <!-- 標題列：左側主標 + 右側候選人資訊 -->
+    <div class="flex items-end justify-between gap-8 mb-10">
+      <div class="flex-1 min-w-0">
+        <div class="flex items-center gap-3 mb-6 fade-up">
+          <span class="bg-orange-500 text-white text-xs font-en font-bold px-3 py-1 rounded-full tracking-widest uppercase">Live Data</span>
+          <span class="text-slate-400 text-sm font-en" id="last-update">最後更新：2026-05-24 19:13</span>
+        </div>
+
+        <h1 class="text-4xl md:text-6xl font-black leading-tight mb-4 fade-up delay-1">
+          嘉義市<span style="color:var(--orange)">城市問題</span><br>近12年真實數據
+        </h1>
+        <p class="text-slate-300 text-lg md:text-xl font-light leading-relaxed fade-up delay-2">
+          道路交通事故、管線施工、路燈、橋梁、停車、噪音⋯⋯<br>
+          嘉義市近12年基礎建設問題全面透明化，數字說了算。
+        </p>
       </div>
 
-      <h1 class="text-4xl md:text-6xl font-black leading-tight mb-4 fade-up delay-1">
-        嘉義市<span style="color:var(--orange)">城市問題</span><br>近12年真實數據
-      </h1>
-      <p class="text-slate-300 text-lg md:text-xl font-light leading-relaxed mb-10 fade-up delay-2">
-        道路交通事故、管線施工、路燈、橋梁、停車、噪音⋯⋯<br>
-        嘉義市近12年基礎建設問題全面透明化，數字說了算。
-      </p>
-    </div><!-- /max-w-3xl -->
+      <!-- 候選人資訊（桌機顯示） -->
+      <div class="hidden lg:flex flex-col items-end text-right flex-shrink-0 fade-up delay-2 pl-8 pb-1"
+           style="border-left:1px solid rgba(255,255,255,0.18);">
+        <div class="text-5xl font-black text-white tracking-wide leading-none mb-3">李明燦</div>
+        <div class="w-10 h-0.5 bg-orange-400 mb-3 ml-auto"></div>
+        <div class="text-sm font-bold text-orange-400 leading-snug">2026 嘉義市西區</div>
+        <div class="text-sm text-slate-300 font-light leading-snug">市議員擬參選人</div>
+      </div>
+    </div><!-- /flex 標題列 -->
 
       <!-- 大數字 KPI (6格) — Absolute Accent Bar 版（不裁切） -->
       <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-5 fade-up delay-3 mt-2">
