@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-25T17:09:36.658873",
+  "updated_at": "2026-05-25T17:12:41.995504",
   "aqi_realtime": [
     {
       "station": "",
@@ -184,7 +184,30 @@
     "enterovirus": [],
     "updated": "2026-05-25"
   },
-  "fire": {},
+  "fire": {
+    "chiayi_datasets": [
+      {
+        "title": "",
+        "date": ""
+      },
+      {
+        "title": "",
+        "date": ""
+      },
+      {
+        "title": "",
+        "date": ""
+      },
+      {
+        "title": "",
+        "date": ""
+      },
+      {
+        "title": "",
+        "date": ""
+      }
+    ]
+  },
   "population": [],
   "bus": [
     {
@@ -437,5 +460,5 @@
     }
   ],
   "water": [],
-  "fetch_seconds": 68.7
+  "fetch_seconds": 47.3
 }
