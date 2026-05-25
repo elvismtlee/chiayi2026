@@ -1314,8 +1314,6 @@
       <div class="flex flex-wrap gap-3 mt-3 text-xs text-slate-500">
         <span class="flex items-center gap-1"><span class="w-3 h-3 rounded-full bg-green-500 inline-block"></span>民主進步黨</span>
         <span class="flex items-center gap-1"><span class="w-3 h-3 rounded-full bg-blue-600 inline-block"></span>中國國民黨</span>
-        <span class="flex items-center gap-1"><span class="w-3 h-3 rounded-full bg-sky-400 inline-block"></span>台灣民眾黨</span>
-        <span class="flex items-center gap-1"><span class="w-3 h-3 rounded-full bg-red-500 inline-block"></span>台灣基進</span>
         <span class="flex items-center gap-1"><span class="w-3 h-3 rounded-full bg-slate-400 inline-block"></span>無黨籍</span>
       </div>
     </div>
@@ -2666,9 +2664,14 @@ function renderAccidentStats() {
     if (gi('council-members'))   gi('council-members').textContent   = '23';
 
     // ── 第11屆嘉義市議會議員名單（東區10席・西區13席，共23席）
-    // 資料來源：自由時報、蕃新聞 2022/11/26 開票結果（二來源交叉確認）
+    // 資料來源：維基百科・自由時報・CEC選舉公報（多源交叉確認）
     // 議長：陳姿妏（無黨籍，西區）・副議長：張榮藏（無黨籍，東區）
-    // ※ 李奕德（東區）2025/3/25 病逝；戴寧（東區）2025/8 服刑
+    // ※ 李奕德（東區）2025/3/25 病逝；戴寧（東區）2025/8 服刑中
+    // ※ 蔡文旭（西區）2023/12/13 因肺癌病逝
+    // ※ 黃敏修（西區）當選後退出民進黨，現無黨籍
+    // ※ 蘇澤峰（西區）2024/8 加入國民黨黨團
+    // ※ 王浩（西區）2025/3 退出時代力量，現無黨籍
+    // ※ 顏翎熹（東區）曾改名「顏色不分藍綠支持性專區顏色田慎節」，2023年改回原名
     const EAST = [
       {name:'傅大偉', party:'kmt'},
       {name:'黃露慧', party:'dpp'},
@@ -2677,7 +2680,7 @@ function renderAccidentStats() {
       {name:'張敏琪', party:'kmt'},
       {name:'郭定緯', party:'kmt'},
       {name:'張榮藏', party:'ind', note:'副議長'},
-      {name:'顏田慎節', party:'ind'},
+      {name:'顏翎熹', party:'ind'},
       {name:'戴寧',   party:'ind', note:'服刑中'},
       {name:'李奕德', party:'ind', note:'已故'},
     ];
@@ -2685,21 +2688,20 @@ function renderAccidentStats() {
       {name:'陳姿妏', party:'ind', note:'議長'},
       {name:'張秀華', party:'kmt'},
       {name:'鄭光宏', party:'kmt'},
-      {name:'黃敏修', party:'dpp'},
+      {name:'黃敏修', party:'ind'},
       {name:'黃思婷', party:'ind'},
       {name:'黃大祐', party:'dpp'},
       {name:'林煒軒', party:'dpp'},
-      {name:'蘇澤峰', party:'ind'},
+      {name:'蘇澤峰', party:'kmt'},
       {name:'孫貫志', party:'ind'},
-      {name:'蔡文旭', party:'dpp'},
+      {name:'蔡文旭', party:'dpp', note:'已故'},
       {name:'蔡坤叡', party:'ind'},
       {name:'李忠曆', party:'ind'},
-      {name:'王浩',   party:'tsp'},
+      {name:'王浩',   party:'ind'},
     ];
     const partyColor = {
       dpp:'background:#1B9431;color:#fff',
       kmt:'background:#1D4ED8;color:#fff',
-      tsp:'background:#F97316;color:#fff',
       ind:'background:#94A3B8;color:#fff',
     };
     const chip = (m) => {
