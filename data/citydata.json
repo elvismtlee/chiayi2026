@@ -1,16 +1,16 @@
 {
-  "updated_at": "2026-05-25T18:55:12.596395",
+  "updated_at": "2026-05-25T19:28:24.796297",
   "aqi_realtime": [
     {
       "station": "嘉義市（Open-Meteo 模型）",
-      "aqi": 23,
-      "pm25": 16.9,
-      "pm10": 19.5,
-      "o3": 20.0,
-      "no2": 44.7,
+      "aqi": 24,
+      "pm25": 17.3,
+      "pm10": 19.6,
+      "o3": 15.0,
+      "no2": 47.6,
       "status": "良好",
       "pollutant": "PM2.5",
-      "time": "2026-05-26T02:00",
+      "time": "2026-05-26T03:00",
       "source": "Open-Meteo"
     }
   ],
@@ -34,15 +34,15 @@
   "weather": [
     {
       "station": "嘉義市（Open-Meteo）",
-      "temp": "24.1",
-      "apparent_temp": "26.1",
+      "temp": "23.6",
+      "apparent_temp": "25.5",
       "humidity": "72",
       "rainfall": "0.0",
-      "wind_speed": "8.0",
-      "wind_dir": "130",
-      "cloud": "7",
+      "wind_speed": "7.6",
+      "wind_dir": "128",
+      "cloud": "9",
       "weather": "晴",
-      "time": "2026-05-26 02:45",
+      "time": "2026-05-26 03:15",
       "source": "Open-Meteo"
     }
   ],
@@ -275,7 +275,7 @@
       "lat": 23.4798596,
       "lng": 120.4488291,
       "total": 20,
-      "available": 5,
+      "available": 7,
       "addr": "中山路306號"
     },
     {
@@ -406,5 +406,5 @@
     }
   ],
   "water": [],
-  "fetch_seconds": 154.0
+  "fetch_seconds": 68.3
 }
