@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-25T18:16:57.782826",
+  "updated_at": "2026-05-25T18:55:12.596395",
   "aqi_realtime": [
     {
       "station": "嘉義市（Open-Meteo 模型）",
@@ -34,15 +34,15 @@
   "weather": [
     {
       "station": "嘉義市（Open-Meteo）",
-      "temp": "24.4",
-      "apparent_temp": "26.6",
+      "temp": "24.1",
+      "apparent_temp": "26.1",
       "humidity": "72",
       "rainfall": "0.0",
       "wind_speed": "8.0",
-      "wind_dir": "132",
-      "cloud": "27",
-      "weather": "多雲",
-      "time": "2026-05-26 02:15",
+      "wind_dir": "130",
+      "cloud": "7",
+      "weather": "晴",
+      "time": "2026-05-26 02:45",
       "source": "Open-Meteo"
     }
   ],
@@ -266,7 +266,7 @@
       "lat": 23.477031,
       "lng": 120.465573,
       "total": 34,
-      "available": 12,
+      "available": 8,
       "addr": "大雅路二段738號(前)"
     },
     {
@@ -284,7 +284,7 @@
       "lat": 23.47963,
       "lng": 120.44583,
       "total": 20,
-      "available": 10,
+      "available": 4,
       "addr": "中山路386號"
     },
     {
@@ -293,7 +293,7 @@
       "lat": 23.47917,
       "lng": 120.44186,
       "total": 99,
-      "available": 82,
+      "available": 84,
       "addr": "中山路524號"
     },
     {
@@ -329,7 +329,7 @@
       "lat": 23.4738724,
       "lng": 120.4493073,
       "total": 20,
-      "available": 2,
+      "available": 6,
       "addr": "垂楊路434號"
     },
     {
@@ -406,5 +406,5 @@
     }
   ],
   "water": [],
-  "fetch_seconds": 68.2
+  "fetch_seconds": 154.0
 }
