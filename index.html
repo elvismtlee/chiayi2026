@@ -1930,7 +1930,7 @@
 
   // ── 渲染函式 ──
   function renderKPIs(data, catData, roadData) {
-    animateCount(document.getElementById('kpi-total'), data.reduce((s,d)=>s+(d.count||1),0));
+    animateCount(document.getElementById('kpi-total'), data.filter(d=>d.subcategory==='交通事故').reduce((s,d)=>s+(d.count||0),0));
     animateCount(document.getElementById('kpi-month'), countThisMonth(data));
     const topCat = catData.find(d => d.count > 0);
     if (topCat) {
