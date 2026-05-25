@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-25T17:12:41.995504",
+  "updated_at": "2026-05-25T17:36:19.699864",
   "aqi_realtime": [
     {
       "station": "",
@@ -10,7 +10,7 @@
       "no2": 0.0,
       "status": "",
       "pollutant": "",
-      "time": "2026-05-26 00:00",
+      "time": "2026-05-26 01:00",
       "source": "環境部"
     },
     {
@@ -22,7 +22,7 @@
       "no2": 0.0,
       "status": "",
       "pollutant": "",
-      "time": "2026-05-26 00:00",
+      "time": "2026-05-26 01:00",
       "source": "環境部"
     },
     {
@@ -34,7 +34,7 @@
       "no2": 0.0,
       "status": "",
       "pollutant": "",
-      "time": "2026-05-26 00:00",
+      "time": "2026-05-26 01:00",
       "source": "環境部"
     }
   ],
@@ -65,15 +65,15 @@
   "weather": [
     {
       "station": "嘉義市（Open-Meteo）",
-      "temp": "24.9",
-      "apparent_temp": "27.9",
-      "humidity": "76",
+      "temp": "24.7",
+      "apparent_temp": "27.4",
+      "humidity": "74",
       "rainfall": "0.0",
-      "wind_speed": "7.1",
-      "wind_dir": "139",
-      "cloud": "58",
+      "wind_speed": "7.5",
+      "wind_dir": "136",
+      "cloud": "33",
       "weather": "多雲",
-      "time": "2026-05-26 01:00",
+      "time": "2026-05-26 01:30",
       "source": "Open-Meteo"
     }
   ],
@@ -184,30 +184,7 @@
     "enterovirus": [],
     "updated": "2026-05-25"
   },
-  "fire": {
-    "chiayi_datasets": [
-      {
-        "title": "",
-        "date": ""
-      },
-      {
-        "title": "",
-        "date": ""
-      },
-      {
-        "title": "",
-        "date": ""
-      },
-      {
-        "title": "",
-        "date": ""
-      },
-      {
-        "title": "",
-        "date": ""
-      }
-    ]
-  },
+  "fire": {},
   "population": [],
   "bus": [
     {
@@ -320,7 +297,7 @@
       "lat": 23.477031,
       "lng": 120.465573,
       "total": 34,
-      "available": 27,
+      "available": 12,
       "addr": "大雅路二段738號(前)"
     },
     {
@@ -329,7 +306,7 @@
       "lat": 23.4798596,
       "lng": 120.4488291,
       "total": 20,
-      "available": 2,
+      "available": 0,
       "addr": "中山路306號"
     },
     {
@@ -338,7 +315,7 @@
       "lat": 23.47963,
       "lng": 120.44583,
       "total": 20,
-      "available": 12,
+      "available": 11,
       "addr": "中山路386號"
     },
     {
@@ -374,7 +351,7 @@
       "lat": 23.47336,
       "lng": 120.44604,
       "total": 14,
-      "available": 4,
+      "available": 2,
       "addr": "垂楊路351號"
     },
     {
@@ -410,7 +387,7 @@
       "lat": 23.48091,
       "lng": 120.43012,
       "total": 20,
-      "available": 2,
+      "available": 3,
       "addr": "北港路312號東側"
     },
     {
@@ -460,5 +437,5 @@
     }
   ],
   "water": [],
-  "fetch_seconds": 47.3
+  "fetch_seconds": 66.9
 }
