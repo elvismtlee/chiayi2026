@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-25T16:30:45.332833",
+  "updated_at": "2026-05-25T16:41:55.155184",
   "aqi_realtime": [
     {
       "station": "",
@@ -184,30 +184,7 @@
     "enterovirus": [],
     "updated": "2026-05-25"
   },
-  "fire": {
-    "chiayi_datasets": [
-      {
-        "title": "",
-        "date": ""
-      },
-      {
-        "title": "",
-        "date": ""
-      },
-      {
-        "title": "",
-        "date": ""
-      },
-      {
-        "title": "",
-        "date": ""
-      },
-      {
-        "title": "",
-        "date": ""
-      }
-    ]
-  },
+  "fire": {},
   "population": [],
   "bus": [
     {
@@ -293,7 +270,7 @@
       "lat": 23.482012,
       "lng": 120.457342,
       "total": 22,
-      "available": 7,
+      "available": 6,
       "addr": "中山路98號(前)"
     },
     {
@@ -311,7 +288,7 @@
       "lat": 23.478707,
       "lng": 120.462594,
       "total": 38,
-      "available": 4,
+      "available": 5,
       "addr": "啟明路122號(前)"
     },
     {
@@ -329,7 +306,7 @@
       "lat": 23.4798596,
       "lng": 120.4488291,
       "total": 20,
-      "available": 3,
+      "available": 2,
       "addr": "中山路306號"
     },
     {
@@ -338,7 +315,7 @@
       "lat": 23.47963,
       "lng": 120.44583,
       "total": 20,
-      "available": 12,
+      "available": 11,
       "addr": "中山路386號"
     },
     {
@@ -356,7 +333,7 @@
       "lat": 23.47877,
       "lng": 120.44089,
       "total": 42,
-      "available": 17,
+      "available": 28,
       "addr": "中山路528號"
     },
     {
@@ -460,5 +437,5 @@
     }
   ],
   "water": [],
-  "fetch_seconds": 50.8
+  "fetch_seconds": 66.4
 }
