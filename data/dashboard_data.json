@@ -1,6 +1,13 @@
 {
-  "updated_at": "2026-05-25T19:29:33.081882",
+  "updated_at": "2026-05-26T02:48:15.244443",
   "news": [
+    {
+      "headline": "嘉義市攜手臺師大洪聰敏教授，揭開逆轉「機能年齡」的關鍵密碼",
+      "source": "嘉義市政府/衛生局/觀光新聞處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=938009",
+      "date": "2026/05/26",
+      "query": "市府新聞"
+    },
     {
       "headline": "嘉義市外師共學再升級以建築美學與閱讀文化深化教學能量",
       "source": "嘉義市政府/教育處/觀光新聞處",
@@ -75,13 +82,6 @@
       "headline": "創世「築院+1」公益園遊會募集新院經費黃敏惠市長送上溫暖祝福",
       "source": "嘉義市政府/社會處/觀光新聞處",
       "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=938464",
-      "date": "2026/05/24",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "美秀集團十週年演唱會首日黃敏惠市長到場力挺感謝將樂迷帶回嘉義",
-      "source": "嘉義市政府/文化局/觀光新聞處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=938463",
       "date": "2026/05/24",
       "query": "市府新聞"
     }
@@ -201,7 +201,7 @@
       "2012": 1,
       "2013": 1
     },
-    "updated_at": "2026-05-25T19:27:26.175959",
+    "updated_at": "2026-05-26T02:47:05.268469",
     "source": "data.chiayi.gov.tw"
   },
   "council": {
@@ -236,11 +236,25 @@
   "citizen_stats": {},
   "social_posts": [
     {
+      "id": "ptt-httpswwwpttccbbsChiayiM1779760247A1B0html",
+      "platform": "PTT",
+      "platform_color": "#00b300",
+      "board": "Chiayi",
+      "date": "05/26",
+      "author": "PTT 鄉民",
+      "title": "[新聞] 百里侯爭霸／藍白共推 張啓楷：產經升級",
+      "url": "https://www.ptt.cc/bbs/Chiayi/M.1779760247.A.1B0.html",
+      "reactions": 0,
+      "comments": 0,
+      "category": "市政議題",
+      "source": "ptt"
+    },
+    {
       "id": "ptt-httpswwwpttccbbsChiayiM1779718864A6C8html",
       "platform": "PTT",
       "platform_color": "#00b300",
       "board": "Chiayi",
-      "date": "05/25",
+      "date": "05/26",
       "author": "PTT 鄉民",
       "title": "[問題] 嘉義早午餐精緻餐盒推薦",
       "url": "https://www.ptt.cc/bbs/Chiayi/M.1779718864.A.6C8.html",
@@ -384,20 +398,6 @@
       "author": "PTT 鄉民",
       "title": "[徵求] 幫忙在中正大學找一篇論文並影印",
       "url": "https://www.ptt.cc/bbs/Chiayi/M.1779455759.A.985.html",
-      "reactions": 0,
-      "comments": 0,
-      "category": "市政議題",
-      "source": "ptt"
-    },
-    {
-      "id": "ptt-httpswwwpttccbbsChiayiM1779430009A485html",
-      "platform": "PTT",
-      "platform_color": "#00b300",
-      "board": "Chiayi",
-      "date": "05/23",
-      "author": "PTT 鄉民",
-      "title": "[新聞] 嘉市羅大德診所X光室偵煙器藏密錄器 ",
-      "url": "https://www.ptt.cc/bbs/Chiayi/M.1779430009.A.485.html",
       "reactions": 0,
       "comments": 0,
       "category": "市政議題",
