@@ -1,16 +1,16 @@
 {
-  "updated_at": "2026-05-25T18:16:57.782826",
+  "updated_at": "2026-05-26T09:50:56.722940",
   "aqi_realtime": [
     {
       "station": "嘉義市（Open-Meteo 模型）",
-      "aqi": 23,
-      "pm25": 16.9,
-      "pm10": 19.5,
-      "o3": 20.0,
-      "no2": 44.7,
+      "aqi": 16,
+      "pm25": 11.5,
+      "pm10": 15.1,
+      "o3": 114.0,
+      "no2": 9.5,
       "status": "良好",
       "pollutant": "PM2.5",
-      "time": "2026-05-26T02:00",
+      "time": "2026-05-26T17:00",
       "source": "Open-Meteo"
     }
   ],
@@ -34,15 +34,15 @@
   "weather": [
     {
       "station": "嘉義市（Open-Meteo）",
-      "temp": "24.4",
-      "apparent_temp": "26.6",
-      "humidity": "72",
+      "temp": "31.5",
+      "apparent_temp": "34.8",
+      "humidity": "54",
       "rainfall": "0.0",
-      "wind_speed": "8.0",
-      "wind_dir": "132",
-      "cloud": "27",
-      "weather": "多雲",
-      "time": "2026-05-26 02:15",
+      "wind_speed": "7.3",
+      "wind_dir": "224",
+      "cloud": "100",
+      "weather": "陰天",
+      "time": "2026-05-26 17:45",
       "source": "Open-Meteo"
     }
   ],
@@ -76,39 +76,32 @@
       "source": "Google新聞"
     },
     {
-      "title": "嘉義市「嘉有大廚」活動啟動 總獎項逾10萬鼓勵吃出健康 - 台灣好新聞",
-      "date": "Mon, 25 May 2026",
-      "link": "https://news.google.com/rss/articles/CBMi9AJBVV95cUxPbW9sSDZvM1pWZ0pOczNHSDRNSkcwSFFxN0FNT2dtLW13d3F3LWk4Q1pwSTBsQjJ5R1ZvZGJEQUtQOXlqb081NjIxMG1ZNkdwTFM3ZG9pVzNfZUU1X3c4TWlmTVpPekxNSC1Vb241eDBUOTVxN1FuaVhBOTNlNGplLXVPZ2FZT0RhSEdiNjVtakRrVU9fNGJTYVQyRU1fTXYwZjBqd2FURTl5LTV3dEY4dXBIY3pYWWY5VW0ycEpMWnZjMTByNk52eUpxMEZRa0dKRUl6V1lVN0hQaGFGcUFYTTN4MU9sU0NnQl8yeVpTMWw3dXhvQndUOW9ndDIxSTRmLWlIVWRlVFMxZ21DQmlZMUxBNHFRUTRHNUZwMnBZcUNjTXk5NVV2Y0FwVHVyTFA5NUg0VGFEVTBrWFprN2ZWQkx3YnFYR3NaY1JjVzNBbHZpMFpTeVJvcUxVRzF4alpwa0oxMThPZE5jOU9TNDJLUVg2Rkc?oc=5",
+      "title": "嘉市「城隍夜巡－夯枷解厄」榮獲2026旺旺中時台灣旅遊大賞 - 中央社 CNA",
+      "date": "Tue, 26 May 2026",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE14VGNLdU81TVA3dlJtenZpOThGYUdmWHgzRDRKS1NDZ0xDaUVoaEV6Njl0QzhRMm5hSzhMT1M1VHNsSnRHbnpiS0QzNFlFQzEydWxXZFBB?oc=5",
       "desc": "",
       "source": "Google新聞"
     },
     {
-      "title": "全嘉灶咖出好料 嘉義市推三大健康飲食活動 - 新唐人亞太電視台",
+      "title": "嘉義市「嘉有大廚」活動啟動 總獎項逾10萬鼓勵吃出健康 - 台灣好新聞",
       "date": "Mon, 25 May 2026",
-      "link": "https://news.google.com/rss/articles/CBMizgJBVV95cUxPYU9xOW9LYjk4QmxyRlVRczlvU0lFV3pOelJBYU9ydDZKQXBySmc4aDR3Y0VJcHBXcUIxZjNmTm0tb09GXzM4Uy1LczVyTTQ1dXEtcGVCcnFBM0RIcl9rTk55ZEVYS3RmRlBYRVdVa3BWM0NIc2c3MGk2Qzh1VjlKaXRQSDRyb3NxSEE5VmFCN0FsS1BKbXdiVWFiVmtpenlpN0djeEdNWXlxY1d6UXVrcGM5VlpWLWpkMFlveENlWHFnbmpQOHJNUmVTQkZGR25BamFEdXg1TUhIbUQxZ0JFc3Z5Z0lQUmxkeGFSakZPTzlJbUhfczA3ZnNHcmRxREo2UlVhLUZJOUMwQjJ4cG9VLVFBb1ExMmU5VFQ5MUNxNEVyZzE4cWlZXy1Gd0FnZENzZGUzMWpYVHU3WFRqSHFNeGMwUFlTeWt1NnBjOU9B?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMi9AJBVV95cUxPbW9sSDZvM1pWZ0pOczNHSDRNSkcwSFFxN0FNT2dtLW13d3F3LWk4Q1pwSTBsQjJ5R1ZvZGJEQUtQOXlqb081NjIxMG1ZNkdwTFM3ZG9pVzNfZUU1X3c4TWlmTVpPekxNSC1Vb241eDBUOTVxN1FuaVhBOTNlNGplLXVPZ2FZT0RhSEdiNjVtakRrVU9fNGJTYVQyRU1fTXYwZjBqd2FURTl5LTV3dEY4dXBIY3pYWWY5VW0ycEpMWnZjMTByNk52eUpxMEZRa0dKRUl6V1lVN0hQaGFGcUFYTTN4MU9sU0NnQl8yeVpTMWw3dXhvQndUOW9ndDIxSTRmLWlIVWRlVFMxZ21DQmlZMUxBNHFRUTRHNUZwMnBZcUNjTXk5NVV2Y0FwVHVyTFA5NUg0VGFEVTBrWFprN2ZWQkx3YnFYR3NaY1JjVzNBbHZpMFpTeVJvcUxVRzF4alpwa0oxMThPZE5jOU9TNDJLUVg2Rkc?oc=5",
       "desc": "",
       "source": "Google新聞"
     }
   ],
   "procurement": [
     {
-      "title": "賴清德總統就職兩週年嘉義市建設狂「跳票」 張啓楷：民進黨勿把嘉市當政治鬥爭犧牲品 - PChome Online 新聞",
-      "date": "Tue, 19 May 2026",
-      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPSWNXZmRCd0JlLTlrOWR0MVlYQlhDZUdzNnZrSjdTTTVyOTR6NGUxSUQ0MVltM3lpR3A3bkF6d0s1cVJ6OGdEUkZQN3dSUjB1V0lZMWJiODVDOFUzVngzX0lyVHNtcklaOWlNaUVYaVRJZUVURERWdDg2cjRXcmJUNDJEblRrY2xYNkxz?oc=5",
-      "org": "新聞資訊",
-      "source": "Google新聞"
-    },
-    {
-      "title": "民進黨政府執政嘉義市建設狂「跳票」 張啓楷籲勿把嘉市當政治鬥爭犧牲品 - 蕃新聞",
-      "date": "Tue, 19 May 2026",
-      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFA3Y2NmU2JPRkxEUjZmemo1N25uLWxfM0hHVGdmZzhDajBIMkJ2YjYydFd6R1ZGdUVwaFozVlJmalMtbzNaQ2pnOXFBUUpWclU1RUE?oc=5",
-      "org": "新聞資訊",
-      "source": "Google新聞"
-    },
-    {
       "title": "王美惠立委邀國土署官員實勘 強化嘉義市整體防洪韌性 - 觀傳媒",
       "date": "Tue, 12 May 2026",
       "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE01VnVDLUt3bG9yLUdyckxHakc1UUJ5MDEwVnZoU20tLXBCNUFkZXJic21xV1JKS2FzTHVxYUhFUUdMREZTVV81MnJTYk5ma1V1LWJZMUluZw?oc=5",
+      "org": "新聞資訊",
+      "source": "Google新聞"
+    },
+    {
+      "title": "民進黨政府執政嘉義市建設狂「跳票」 張啓楷籲勿把嘉市當政治鬥爭犧牲品 - PChome Online 新聞",
+      "date": "Tue, 19 May 2026",
+      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPSEplUVJxYlNTMF9HZDE3MFk1TzZCZWc1WWxLQkxtSnlmT0RzLTJkclZmMTJrVy1kMElRMzY4bm5GUnJ0b3NINHJRQkhJdmZjck1yNTVvZFltTmhqbDBfSjllZHBqLWxBSUh3UngxWnVVR28zbEZvS2NjTmw1cS05ZzVyMHhIUTlCUXc?oc=5",
       "org": "新聞資訊",
       "source": "Google新聞"
     },
@@ -146,14 +139,44 @@
       "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE12cnY4Q3NhZWFKS0FvSEFIa0pXMmVEX3E3VUk2Z0h5QkI0VXJKc3MtLVlFSTRhOXNGQmV4OS1zc3h4ME9ON3pjRWpNWW51MjVzS3hxcV93?oc=5",
       "org": "新聞資訊",
       "source": "Google新聞"
+    },
+    {
+      "title": "賴清德總統就職兩週年嘉義市建設狂「跳票」 張啓楷：民進黨勿把嘉市當政治鬥爭犧牲品 - PChome Online 新聞",
+      "date": "Tue, 19 May 2026",
+      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPSWNXZmRCd0JlLTlrOWR0MVlYQlhDZUdzNnZrSjdTTTVyOTR6NGUxSUQ0MVltM3lpR3A3bkF6d0s1cVJ6OGdEUkZQN3dSUjB1V0lZMWJiODVDOFUzVngzX0lyVHNtcklaOWlNaUVYaVRJZUVURERWdDg2cjRXcmJUNDJEblRrY2xYNkxz?oc=5",
+      "org": "新聞資訊",
+      "source": "Google新聞"
     }
   ],
   "disease": {
     "dengue": [],
     "enterovirus": [],
-    "updated": "2026-05-25"
+    "updated": "2026-05-26"
   },
-  "fire": {},
+  "fire": {
+    "chiayi_datasets": [
+      {
+        "title": "",
+        "date": ""
+      },
+      {
+        "title": "",
+        "date": ""
+      },
+      {
+        "title": "",
+        "date": ""
+      },
+      {
+        "title": "",
+        "date": ""
+      },
+      {
+        "title": "",
+        "date": ""
+      }
+    ]
+  },
   "population": [],
   "bus": [
     {
@@ -230,7 +253,7 @@
       "lat": 23.481634,
       "lng": 120.453745,
       "total": 45,
-      "available": 16,
+      "available": 11,
       "addr": "中山路199號(對面)"
     },
     {
@@ -239,7 +262,7 @@
       "lat": 23.482012,
       "lng": 120.457342,
       "total": 22,
-      "available": 6,
+      "available": 3,
       "addr": "中山路98號(前)"
     },
     {
@@ -257,7 +280,7 @@
       "lat": 23.478707,
       "lng": 120.462594,
       "total": 38,
-      "available": 5,
+      "available": 1,
       "addr": "啟明路122號(前)"
     },
     {
@@ -266,7 +289,7 @@
       "lat": 23.477031,
       "lng": 120.465573,
       "total": 34,
-      "available": 12,
+      "available": 28,
       "addr": "大雅路二段738號(前)"
     },
     {
@@ -275,7 +298,7 @@
       "lat": 23.4798596,
       "lng": 120.4488291,
       "total": 20,
-      "available": 5,
+      "available": 20,
       "addr": "中山路306號"
     },
     {
@@ -284,7 +307,7 @@
       "lat": 23.47963,
       "lng": 120.44583,
       "total": 20,
-      "available": 10,
+      "available": 14,
       "addr": "中山路386號"
     },
     {
@@ -293,7 +316,7 @@
       "lat": 23.47917,
       "lng": 120.44186,
       "total": 99,
-      "available": 82,
+      "available": 96,
       "addr": "中山路524號"
     },
     {
@@ -302,7 +325,7 @@
       "lat": 23.47877,
       "lng": 120.44089,
       "total": 42,
-      "available": 35,
+      "available": 18,
       "addr": "中山路528號"
     },
     {
@@ -311,7 +334,7 @@
       "lat": 23.47283,
       "lng": 120.44029,
       "total": 5,
-      "available": 3,
+      "available": 0,
       "addr": "垂楊路575號"
     },
     {
@@ -320,7 +343,7 @@
       "lat": 23.47336,
       "lng": 120.44604,
       "total": 14,
-      "available": 7,
+      "available": 8,
       "addr": "垂楊路351號"
     },
     {
@@ -329,7 +352,7 @@
       "lat": 23.4738724,
       "lng": 120.4493073,
       "total": 20,
-      "available": 2,
+      "available": 12,
       "addr": "垂楊路434號"
     },
     {
@@ -347,7 +370,7 @@
       "lat": 23.486138,
       "lng": 120.453829,
       "total": 20,
-      "available": 5,
+      "available": 3,
       "addr": "忠孝路284號(旁)"
     },
     {
@@ -356,7 +379,7 @@
       "lat": 23.48091,
       "lng": 120.43012,
       "total": 20,
-      "available": 3,
+      "available": 6,
       "addr": "北港路312號東側"
     },
     {
@@ -365,7 +388,7 @@
       "lat": 23.48465,
       "lng": 120.43354,
       "total": 14,
-      "available": 5,
+      "available": 7,
       "addr": "友愛興達路口"
     },
     {
@@ -374,7 +397,7 @@
       "lat": 23.48931,
       "lng": 120.4361,
       "total": 15,
-      "available": 11,
+      "available": 10,
       "addr": "自由路298號"
     },
     {
@@ -383,7 +406,7 @@
       "lat": 23.49265,
       "lng": 120.43191,
       "total": 15,
-      "available": 10,
+      "available": 3,
       "addr": "自由路492號"
     },
     {
@@ -392,7 +415,7 @@
       "lat": 23.478941,
       "lng": 120.437805,
       "total": 23,
-      "available": 3,
+      "available": 5,
       "addr": "博愛路二段281號"
     },
     {
@@ -406,5 +429,5 @@
     }
   ],
   "water": [],
-  "fetch_seconds": 68.2
+  "fetch_seconds": 88.1
 }
