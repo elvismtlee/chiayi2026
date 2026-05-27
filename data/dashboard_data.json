@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-26T20:06:38.088031",
+  "updated_at": "2026-05-27T03:00:11.842177",
   "news": [
     {
       "headline": "購取貨要注意！慎防詐騙包裹",
@@ -202,7 +202,7 @@
       "2012": 1,
       "2013": 1
     },
-    "updated_at": "2026-05-26T20:05:26.551364",
+    "updated_at": "2026-05-27T02:59:06.064137",
     "source": "data.chiayi.gov.tw"
   },
   "council": {
@@ -236,6 +236,34 @@
   },
   "citizen_stats": {},
   "social_posts": [
+    {
+      "id": "ptt-httpswwwpttccbbsChiayiM1779842124A8E1html",
+      "platform": "PTT",
+      "platform_color": "#00b300",
+      "board": "Chiayi",
+      "date": "05/27",
+      "author": "PTT 鄉民",
+      "title": "[問題] 世賢路的相命館",
+      "url": "https://www.ptt.cc/bbs/Chiayi/M.1779842124.A.8E1.html",
+      "reactions": 0,
+      "comments": 0,
+      "category": "市政議題",
+      "source": "ptt"
+    },
+    {
+      "id": "ptt-httpswwwpttccbbsChiayiM1779839730A326html",
+      "platform": "PTT",
+      "platform_color": "#00b300",
+      "board": "Chiayi",
+      "date": "05/27",
+      "author": "PTT 鄉民",
+      "title": "[公告] 天氣炎熱 進桶冷靜一下",
+      "url": "https://www.ptt.cc/bbs/Chiayi/M.1779839730.A.326.html",
+      "reactions": 0,
+      "comments": 0,
+      "category": "市政議題",
+      "source": "ptt"
+    },
     {
       "id": "ptt-httpswwwpttccbbsChiayiM1779792787A679html",
       "platform": "PTT",
@@ -371,34 +399,6 @@
       "author": "PTT 鄉民",
       "title": "[轉讓] 澎湖風沙月民宿5/30-5/31雙人床一晚",
       "url": "https://www.ptt.cc/bbs/Chiayi/M.1779493926.A.775.html",
-      "reactions": 0,
-      "comments": 0,
-      "category": "市政議題",
-      "source": "ptt"
-    },
-    {
-      "id": "ptt-httpswwwpttccbbsChiayiM1779462067AFEDhtml",
-      "platform": "PTT",
-      "platform_color": "#00b300",
-      "board": "Chiayi",
-      "date": "05/22",
-      "author": "PTT 鄉民",
-      "title": "[買賣] 全家林鳳營衛生紙飲料麵包/統一數位禮券/7-11開心卡安心取",
-      "url": "https://www.ptt.cc/bbs/Chiayi/M.1779462067.A.FED.html",
-      "reactions": 0,
-      "comments": 0,
-      "category": "市政議題",
-      "source": "ptt"
-    },
-    {
-      "id": "ptt-httpswwwpttccbbsChiayiM1779455759A985html",
-      "platform": "PTT",
-      "platform_color": "#00b300",
-      "board": "Chiayi",
-      "date": "05/23",
-      "author": "PTT 鄉民",
-      "title": "[徵求] 幫忙在中正大學找一篇論文並影印",
-      "url": "https://www.ptt.cc/bbs/Chiayi/M.1779455759.A.985.html",
       "reactions": 0,
       "comments": 0,
       "category": "市政議題",
