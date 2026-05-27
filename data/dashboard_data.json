@@ -1,6 +1,34 @@
 {
-  "updated_at": "2026-05-27T03:00:11.842177",
+  "updated_at": "2026-05-27T09:44:40.119003",
   "news": [
+    {
+      "headline": "願景館化身為「城市電影院」，「幕光織城」主題活動6月27日起隆重登場",
+      "source": "嘉義市政府/都市發展處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=938745",
+      "date": "2026/05/27",
+      "query": "市府新聞"
+    },
+    {
+      "headline": "115年全國身心障礙國民運動會嘉義市代表隊勇奪23金12銀14銅成績亮眼",
+      "source": "嘉義市政府/教育處/觀光新聞處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=938742",
+      "date": "2026/05/27",
+      "query": "市府新聞"
+    },
+    {
+      "headline": "施政滿意度、獎項含金量非六都第一！黃敏惠市長盼中央聽見市民心聲補上高鐵聯外軌道關鍵拼圖",
+      "source": "嘉義市政府/觀光新聞處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=938736",
+      "date": "2026/05/27",
+      "query": "市府新聞"
+    },
+    {
+      "headline": "共同寫歷史！黃敏惠市長第四度獲《遠見》五星市長肯定八大面向滿意度突破80％全國唯一",
+      "source": "嘉義市政府/觀光新聞處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=938732",
+      "date": "2026/05/27",
+      "query": "市府新聞"
+    },
     {
       "headline": "購取貨要注意！慎防詐騙包裹",
       "source": "嘉義市政府/企劃處",
@@ -54,34 +82,6 @@
       "headline": "嘉義市外師共學再升級以建築美學與閱讀文化深化教學能量",
       "source": "嘉義市政府/教育處/觀光新聞處",
       "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=938536",
-      "date": "2026/05/25",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "嘉市「嘉有大廚」健康飲食三部曲超過10萬元獎項鼓勵吃出健康",
-      "source": "嘉義市政府/衛生局/觀光新聞處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=938528",
-      "date": "2026/05/25",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "赴美深造！嘉市消考取無人機NIST證書歸國",
-      "source": "嘉義市政府/消防局",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=938511",
-      "date": "2026/05/25",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "為加強嘉義市(以下簡稱本市)市區道路停車秩序整頓及提高停車周轉率，本市東區體育館北側無名路（體育路至彌陀路口）自115年6月1日起實施路邊停車收費管理事宜。",
-      "source": "嘉義市政府/交通處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=938505",
-      "date": "2026/05/25",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "大陸地區人民「買房不踩雷，許可先到位，文件有驗證，登記更順利」!",
-      "source": "嘉義市政府",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=938503",
       "date": "2026/05/25",
       "query": "市府新聞"
     }
@@ -202,7 +202,7 @@
       "2012": 1,
       "2013": 1
     },
-    "updated_at": "2026-05-27T02:59:06.064137",
+    "updated_at": "2026-05-27T09:42:28.786167",
     "source": "data.chiayi.gov.tw"
   },
   "council": {
@@ -367,7 +367,7 @@
       "platform": "PTT",
       "platform_color": "#00b300",
       "board": "Chiayi",
-      "date": "05/25",
+      "date": "05/27",
       "author": "PTT 鄉民",
       "title": "[新聞] 台積電嘉科園區建廠效應 嘉縣治開店日本",
       "url": "https://www.ptt.cc/bbs/Chiayi/M.1779583375.A.3FE.html",
