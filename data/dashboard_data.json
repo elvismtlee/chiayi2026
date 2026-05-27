@@ -1,6 +1,13 @@
 {
-  "updated_at": "2026-05-27T09:44:40.119003",
+  "updated_at": "2026-05-27T15:33:24.449297",
   "news": [
+    {
+      "headline": "從餐桌到城市治理嘉義市食農教育入圍IASE決選",
+      "source": "嘉義市政府/建設處/農林畜牧科",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=938760",
+      "date": "2026/05/27",
+      "query": "市府新聞"
+    },
     {
       "headline": "願景館化身為「城市電影院」，「幕光織城」主題活動6月27日起隆重登場",
       "source": "嘉義市政府/都市發展處",
@@ -76,13 +83,6 @@
       "source": "嘉義市政府/衛生局/觀光新聞處",
       "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=938009",
       "date": "2026/05/26",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "嘉義市外師共學再升級以建築美學與閱讀文化深化教學能量",
-      "source": "嘉義市政府/教育處/觀光新聞處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=938536",
-      "date": "2026/05/25",
       "query": "市府新聞"
     }
   ],
@@ -202,7 +202,7 @@
       "2012": 1,
       "2013": 1
     },
-    "updated_at": "2026-05-27T09:42:28.786167",
+    "updated_at": "2026-05-27T15:32:06.769384",
     "source": "data.chiayi.gov.tw"
   },
   "council": {
