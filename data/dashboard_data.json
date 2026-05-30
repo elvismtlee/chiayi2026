@@ -1,6 +1,20 @@
 {
-  "updated_at": "2026-05-30T13:22:45.610756",
+  "updated_at": "2026-05-30T19:08:27.215180",
   "news": [
+    {
+      "headline": "高溫警報！慎防熱傷害三高族群更需提高警覺",
+      "source": "嘉義市政府/衛生局/觀光新聞處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=939032",
+      "date": "2026/05/31",
+      "query": "市府新聞"
+    },
+    {
+      "headline": "把握嘉義藝術節最後一日聽歌、看劇、逛潮店跟著皮克敏腳步探索城市",
+      "source": "嘉義市政府/觀光新聞處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=939031",
+      "date": "2026/05/31",
+      "query": "市府新聞"
+    },
     {
       "headline": "助企業突破資金瓶頸嘉義市攜手信保基金打造友善創業融資環境",
       "source": "嘉義市政府/工策會/觀光新聞處",
@@ -70,29 +84,15 @@
       "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=938956",
       "date": "2026/05/29",
       "query": "市府新聞"
-    },
-    {
-      "headline": "嘉義市國際教育週啟動！500位學子嘉義公園定向越野解碼城市永續DNA",
-      "source": "嘉義市政府/教育處/觀光新聞處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=938954",
-      "date": "2026/05/29",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "擋水利器!嘉義市防水閘門(板)補助最高10萬即日起受理至115年10月31日",
-      "source": "嘉義市政府",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=938953",
-      "date": "2026/05/29",
-      "query": "市府新聞"
     }
   ],
   "complaint_stats": {
-    "total": 76710,
-    "record_count": 516,
+    "total": 76634,
+    "record_count": 440,
     "category_counts": {
       "公共安全": 35882,
       "交通停車": 7743,
-      "道路路平": 264,
+      "道路路平": 188,
       "環境衛生": 5,
       "行政服務": 6
     },
@@ -107,11 +107,9 @@
         "公有停車場": 38
       },
       "道路路平": {
-        "電力管線": 32,
-        "電信管線": 22,
-        "市府工程": 12,
-        "自來水管線": 25,
-        "道路施工": 1,
+        "電力管線": 1,
+        "電信管線": 10,
+        "自來水管線": 5,
         "橋梁設施": 172
       },
       "環境衛生": {
@@ -128,31 +126,7 @@
       },
       {
         "road": "東區嘉義",
-        "count": 9
-      },
-      {
-        "road": "西區西榮村里民生北路",
-        "count": 3
-      },
-      {
-        "road": "西區保福村里竹圍路1",
-        "count": 2
-      },
-      {
-        "road": "西區劉厝村里大富路2",
-        "count": 2
-      },
-      {
-        "road": "西區重興村里博愛路一",
-        "count": 2
-      },
-      {
-        "road": "西區竹村村里竹子腳",
-        "count": 2
-      },
-      {
-        "road": "東區短竹村里彌陀路2",
-        "count": 2
+        "count": 4
       },
       {
         "road": "西區北湖村里北社尾路",
@@ -161,6 +135,30 @@
       {
         "road": "親水公園",
         "count": 2
+      },
+      {
+        "road": "蘭潭水庫三信亭附近",
+        "count": 2
+      },
+      {
+        "road": "嘉義市中山路199號",
+        "count": 2
+      },
+      {
+        "road": "嘉義市山仔頂249-",
+        "count": 2
+      },
+      {
+        "road": "西區保福村里竹圍路1",
+        "count": 1
+      },
+      {
+        "road": "東區中山村里宣信街4",
+        "count": 1
+      },
+      {
+        "road": "東區文化村里民族路5",
+        "count": 1
       }
     ],
     "top_categories": [
@@ -174,7 +172,7 @@
       },
       {
         "category": "道路路平",
-        "count": 264
+        "count": 188
       },
       {
         "category": "行政服務",
@@ -196,13 +194,13 @@
       "2021": 3035,
       "2022": 3112,
       "2023": 3318,
-      "2024": 3271,
-      "2025": 8893,
-      "2026": 793,
+      "2024": 3270,
+      "2025": 8874,
+      "2026": 737,
       "2012": 1,
       "2013": 1
     },
-    "updated_at": "2026-05-30T13:21:21.733565",
+    "updated_at": "2026-05-30T19:07:09.391715",
     "source": "data.chiayi.gov.tw"
   },
   "council": {
@@ -237,11 +235,25 @@
   "citizen_stats": {},
   "social_posts": [
     {
-      "id": "ptt-httpswwwpttccbbsChiayiM1780041183AC8Ahtml",
+      "id": "ptt-httpswwwpttccbbsChiayiM1780148558A7E4html",
       "platform": "PTT",
       "platform_color": "#00b300",
       "board": "Chiayi",
       "date": "05/30",
+      "author": "PTT 鄉民",
+      "title": "[新聞] 豪車至玉山登山口拍照 葉男身分遭起底是",
+      "url": "https://www.ptt.cc/bbs/Chiayi/M.1780148558.A.7E4.html",
+      "reactions": 0,
+      "comments": 0,
+      "category": "市政議題",
+      "source": "ptt"
+    },
+    {
+      "id": "ptt-httpswwwpttccbbsChiayiM1780041183AC8Ahtml",
+      "platform": "PTT",
+      "platform_color": "#00b300",
+      "board": "Chiayi",
+      "date": "05/31",
       "author": "PTT 鄉民",
       "title": "[新聞] 台積電進駐嘉義掀熱議 在地人憂房價遭哄",
       "url": "https://www.ptt.cc/bbs/Chiayi/M.1780041183.A.C8A.html",
@@ -388,20 +400,6 @@
       "reactions": 0,
       "comments": 0,
       "category": "行政服務",
-      "source": "ptt"
-    },
-    {
-      "id": "ptt-httpswwwpttccbbsChiayiM1779605604A687html",
-      "platform": "PTT",
-      "platform_color": "#00b300",
-      "board": "Chiayi",
-      "date": "05/25",
-      "author": "PTT 鄉民",
-      "title": "[問題] 有中醫用此藥材的嗎(硫磺/生附/炮附)",
-      "url": "https://www.ptt.cc/bbs/Chiayi/M.1779605604.A.687.html",
-      "reactions": 0,
-      "comments": 0,
-      "category": "市政議題",
       "source": "ptt"
     }
   ]
