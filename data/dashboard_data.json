@@ -1,6 +1,27 @@
 {
-  "updated_at": "2026-05-30T08:29:58.069204",
+  "updated_at": "2026-05-30T13:22:45.610756",
   "news": [
+    {
+      "headline": "助企業突破資金瓶頸嘉義市攜手信保基金打造友善創業融資環境",
+      "source": "嘉義市政府/工策會/觀光新聞處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=939030",
+      "date": "2026/05/30",
+      "query": "市府新聞"
+    },
+    {
+      "headline": "「嘉義＋1、共好＋1！」嘉義市各機關115年員工康樂運動會登場凝聚團隊向心力與幸福能量",
+      "source": "嘉義市政府/人事處/觀光新聞處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=939029",
+      "date": "2026/05/30",
+      "query": "市府新聞"
+    },
+    {
+      "headline": "家庭有愛幸福抵嘉嘉市國際家庭日表揚「我說我家的故事」",
+      "source": "嘉義市政府/教育處/觀光新聞處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=939028",
+      "date": "2026/05/30",
+      "query": "市府新聞"
+    },
     {
       "headline": "這不是詐騙，農林漁牧業普查火熱訪查中！",
       "source": "嘉義市政府/西區公所",
@@ -62,27 +83,6 @@
       "source": "嘉義市政府",
       "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=938953",
       "date": "2026/05/29",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "【高溫警報！】慎防熱傷害三高族群更需提高警覺",
-      "source": "嘉義市政府/衛生局",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=938931",
-      "date": "2026/05/29",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "北門口先天宮迎五年千歲聖誕千秋黃敏惠市長循古禮參香祈福",
-      "source": "嘉義市政府/民政處/觀光新聞處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=938925",
-      "date": "2026/05/29",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "嘉義之光再耀國際劉宛渝勇奪世界盃金牌並刷新世界紀錄",
-      "source": "嘉義市政府/教育處/觀光新聞處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=938848",
-      "date": "2026/05/28",
       "query": "市府新聞"
     }
   ],
@@ -202,7 +202,7 @@
       "2012": 1,
       "2013": 1
     },
-    "updated_at": "2026-05-30T08:27:47.201636",
+    "updated_at": "2026-05-30T13:21:21.733565",
     "source": "data.chiayi.gov.tw"
   },
   "council": {
