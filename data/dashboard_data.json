@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-31T13:30:36.975577",
+  "updated_at": "2026-05-31T19:12:47.872467",
   "news": [
     {
       "headline": "嘉義市115學年度國民中小學暨幼兒園教師甄選初試順利舉行",
@@ -87,12 +87,12 @@
     }
   ],
   "complaint_stats": {
-    "total": 76634,
-    "record_count": 440,
+    "total": 76635,
+    "record_count": 441,
     "category_counts": {
       "公共安全": 35882,
       "交通停車": 7743,
-      "道路路平": 188,
+      "道路路平": 189,
       "環境衛生": 5,
       "行政服務": 6
     },
@@ -110,6 +110,7 @@
         "電力管線": 1,
         "電信管線": 10,
         "自來水管線": 5,
+        "道路施工": 1,
         "橋梁設施": 172
       },
       "環境衛生": {
@@ -172,7 +173,7 @@
       },
       {
         "category": "道路路平",
-        "count": 188
+        "count": 189
       },
       {
         "category": "行政服務",
@@ -194,13 +195,13 @@
       "2021": 3035,
       "2022": 3112,
       "2023": 3318,
-      "2024": 3270,
+      "2024": 3271,
       "2025": 8874,
       "2026": 737,
       "2012": 1,
       "2013": 1
     },
-    "updated_at": "2026-05-31T13:29:11.272011",
+    "updated_at": "2026-05-31T19:11:25.162639",
     "source": "data.chiayi.gov.tw"
   },
   "council": {
@@ -235,6 +236,34 @@
   "citizen_stats": {},
   "social_posts": [
     {
+      "id": "ptt-httpswwwpttccbbsChiayiM1780251760A8E2html",
+      "platform": "PTT",
+      "platform_color": "#00b300",
+      "board": "Chiayi",
+      "date": "06/01",
+      "author": "PTT 鄉民",
+      "title": "[情報] 嘉義智選假日酒店被放置祕錄器",
+      "url": "https://www.ptt.cc/bbs/Chiayi/M.1780251760.A.8E2.html",
+      "reactions": 0,
+      "comments": 0,
+      "category": "市政議題",
+      "source": "ptt"
+    },
+    {
+      "id": "ptt-httpswwwpttccbbsChiayiM1780242284A881html",
+      "platform": "PTT",
+      "platform_color": "#00b300",
+      "board": "Chiayi",
+      "date": "05/31",
+      "author": "PTT 鄉民",
+      "title": "[新聞] 煙波集團雙點布局嘉市 檜村及北門館下月",
+      "url": "https://www.ptt.cc/bbs/Chiayi/M.1780242284.A.881.html",
+      "reactions": 0,
+      "comments": 0,
+      "category": "市政議題",
+      "source": "ptt"
+    },
+    {
       "id": "ptt-httpswwwpttccbbsChiayiM1780203759A260html",
       "platform": "PTT",
       "platform_color": "#00b300",
@@ -267,7 +296,7 @@
       "platform": "PTT",
       "platform_color": "#00b300",
       "board": "Chiayi",
-      "date": "05/31",
+      "date": "06/01",
       "author": "PTT 鄉民",
       "title": "[新聞] 豪車至玉山登山口拍照 葉男身分遭起底是",
       "url": "https://www.ptt.cc/bbs/Chiayi/M.1780148558.A.7E4.html",
@@ -281,7 +310,7 @@
       "platform": "PTT",
       "platform_color": "#00b300",
       "board": "Chiayi",
-      "date": "05/31",
+      "date": "06/01",
       "author": "PTT 鄉民",
       "title": "[新聞] 台積電進駐嘉義掀熱議 在地人憂房價遭哄",
       "url": "https://www.ptt.cc/bbs/Chiayi/M.1780041183.A.C8A.html",
@@ -351,7 +380,7 @@
       "platform": "PTT",
       "platform_color": "#00b300",
       "board": "Chiayi",
-      "date": "05/29",
+      "date": "06/01",
       "author": "PTT 鄉民",
       "title": "[新聞] 快訊／國民黨禮讓無黨籍！朴子市長吳品叡參選嘉義縣長",
       "url": "https://www.ptt.cc/bbs/Chiayi/M.1779792787.A.679.html",
@@ -365,38 +394,10 @@
       "platform": "PTT",
       "platform_color": "#00b300",
       "board": "Chiayi",
-      "date": "05/29",
+      "date": "06/01",
       "author": "PTT 鄉民",
       "title": "[新聞] 百里侯爭霸／藍白共推 張啓楷：產經升級",
       "url": "https://www.ptt.cc/bbs/Chiayi/M.1779760247.A.1B0.html",
-      "reactions": 0,
-      "comments": 0,
-      "category": "市政議題",
-      "source": "ptt"
-    },
-    {
-      "id": "ptt-httpswwwpttccbbsChiayiM1779718864A6C8html",
-      "platform": "PTT",
-      "platform_color": "#00b300",
-      "board": "Chiayi",
-      "date": "05/28",
-      "author": "PTT 鄉民",
-      "title": "[問題] 嘉義早午餐精緻餐盒推薦",
-      "url": "https://www.ptt.cc/bbs/Chiayi/M.1779718864.A.6C8.html",
-      "reactions": 0,
-      "comments": 0,
-      "category": "市政議題",
-      "source": "ptt"
-    },
-    {
-      "id": "ptt-httpswwwpttccbbsChiayiM1779716624A9F7html",
-      "platform": "PTT",
-      "platform_color": "#00b300",
-      "board": "Chiayi",
-      "date": "05/25",
-      "author": "PTT 鄉民",
-      "title": "[買賣] 塑膠箱、空氣袋、防撞桌角、紙箱",
-      "url": "https://www.ptt.cc/bbs/Chiayi/M.1779716624.A.9F7.html",
       "reactions": 0,
       "comments": 0,
       "category": "市政議題",

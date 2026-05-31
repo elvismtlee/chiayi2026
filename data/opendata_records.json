@@ -2254,6 +2254,20 @@
     "source_url": "https://data.chiayi.gov.tw/opendata/"
   },
   {
+    "date": "2024/10",
+    "year": "2024",
+    "category": "道路路平",
+    "subcategory": "道路施工",
+    "location": "西區竹圍村里德安路10號",
+    "title": "僑平國小德安路與興達路汙水接管",
+    "end_date": "2024-10-30",
+    "status": "施工中",
+    "applicant": "一般管線單位",
+    "source": "data.chiayi.gov.tw",
+    "count": 1,
+    "source_url": "https://data.chiayi.gov.tw/opendata/"
+  },
+  {
     "category": "公共安全",
     "subcategory": "路燈照明",
     "location": "600台灣嘉",
