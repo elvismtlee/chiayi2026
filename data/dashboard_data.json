@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-30T19:08:27.215180",
+  "updated_at": "2026-05-31T03:00:35.177889",
   "news": [
     {
       "headline": "高溫警報！慎防熱傷害三高族群更需提高警覺",
@@ -200,7 +200,7 @@
       "2012": 1,
       "2013": 1
     },
-    "updated_at": "2026-05-30T19:07:09.391715",
+    "updated_at": "2026-05-31T02:59:06.199330",
     "source": "data.chiayi.gov.tw"
   },
   "council": {
@@ -235,11 +235,25 @@
   "citizen_stats": {},
   "social_posts": [
     {
+      "id": "ptt-httpswwwpttccbbsChiayiM1780185999AA80html",
+      "platform": "PTT",
+      "platform_color": "#00b300",
+      "board": "Chiayi",
+      "date": "05/31",
+      "author": "PTT 鄉民",
+      "title": "[贈送] 毛毯 床包 被子一批",
+      "url": "https://www.ptt.cc/bbs/Chiayi/M.1780185999.A.A80.html",
+      "reactions": 0,
+      "comments": 0,
+      "category": "市政議題",
+      "source": "ptt"
+    },
+    {
       "id": "ptt-httpswwwpttccbbsChiayiM1780148558A7E4html",
       "platform": "PTT",
       "platform_color": "#00b300",
       "board": "Chiayi",
-      "date": "05/30",
+      "date": "05/31",
       "author": "PTT 鄉民",
       "title": "[新聞] 豪車至玉山登山口拍照 葉男身分遭起底是",
       "url": "https://www.ptt.cc/bbs/Chiayi/M.1780148558.A.7E4.html",
@@ -386,20 +400,6 @@
       "reactions": 0,
       "comments": 0,
       "category": "交通停車",
-      "source": "ptt"
-    },
-    {
-      "id": "ptt-httpswwwpttccbbsChiayiM1779683426AB89html",
-      "platform": "PTT",
-      "platform_color": "#00b300",
-      "board": "Chiayi",
-      "date": "05/28",
-      "author": "PTT 鄉民",
-      "title": "[問題] 改窗簾服務（修短）",
-      "url": "https://www.ptt.cc/bbs/Chiayi/M.1779683426.A.B89.html",
-      "reactions": 0,
-      "comments": 0,
-      "category": "行政服務",
       "source": "ptt"
     }
   ]
