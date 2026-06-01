@@ -1,6 +1,13 @@
 {
-  "updated_at": "2026-06-01T11:28:52.420657",
+  "updated_at": "2026-06-01T17:32:45.136863",
   "news": [
+    {
+      "headline": "嘉義市毒駕零容忍累犯照片全公告",
+      "source": "嘉義市政府/警察局",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=939255",
+      "date": "2026/06/01",
+      "query": "市府新聞"
+    },
     {
       "headline": "「自備食器easy購」百店響應現折超有感，減廢吃美食還能抽大獎！",
       "source": "嘉義市政府/嘉義市政府環境保護局/資源循環管理科",
@@ -76,13 +83,6 @@
       "source": "嘉義市政府/觀光新聞處",
       "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=939031",
       "date": "2026/05/31",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "助企業突破資金瓶頸嘉義市攜手信保基金打造友善創業融資環境",
-      "source": "嘉義市政府/工策會/觀光新聞處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=939030",
-      "date": "2026/05/30",
       "query": "市府新聞"
     }
   ],
@@ -201,7 +201,7 @@
       "2012": 1,
       "2013": 1
     },
-    "updated_at": "2026-06-01T11:26:27.493863",
+    "updated_at": "2026-06-01T17:30:58.239633",
     "source": "data.chiayi.gov.tw"
   },
   "council": {
@@ -236,14 +236,14 @@
   "citizen_stats": {},
   "social_posts": [
     {
-      "id": "ptt-httpswwwpttccbbsChiayiM1780287290AF61html",
+      "id": "ptt-httpswwwpttccbbsChiayiM1780330357A50Ehtml",
       "platform": "PTT",
       "platform_color": "#00b300",
       "board": "Chiayi",
-      "date": "06/01",
+      "date": "06/02",
       "author": "PTT 鄉民",
-      "title": "[交易] 全家大杯特濃美式$28.5/特濃拿鐵$34.5",
-      "url": "https://www.ptt.cc/bbs/Chiayi/M.1780287290.A.F61.html",
+      "title": "[交易] 禮券 7-11 三井  天仁 寶雅 大全聯",
+      "url": "https://www.ptt.cc/bbs/Chiayi/M.1780330357.A.50E.html",
       "reactions": 0,
       "comments": 0,
       "category": "市政議題",
@@ -352,7 +352,7 @@
       "platform": "PTT",
       "platform_color": "#00b300",
       "board": "Chiayi",
-      "date": "05/29",
+      "date": "06/01",
       "author": "PTT 鄉民",
       "title": "Fw: [情報] 5月29日起 嘉義縣YouBike新增10個站點",
       "url": "https://www.ptt.cc/bbs/Chiayi/M.1779934111.A.96B.html",
