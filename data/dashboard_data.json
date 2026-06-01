@@ -1,10 +1,45 @@
 {
-  "updated_at": "2026-06-01T03:39:36.643341",
+  "updated_at": "2026-06-01T11:28:52.420657",
   "news": [
+    {
+      "headline": "「自備食器easy購」百店響應現折超有感，減廢吃美食還能抽大獎！",
+      "source": "嘉義市政府/嘉義市政府環境保護局/資源循環管理科",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=939241",
+      "date": "2026/06/01",
+      "query": "市府新聞"
+    },
+    {
+      "headline": "115年工廠校正及營運調查開跑嘉市府籲工廠詳實填報確保權益",
+      "source": "嘉義市政府/建設處/觀光新聞處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=939230",
+      "date": "2026/06/01",
+      "query": "市府新聞"
+    },
+    {
+      "headline": "「香腳花」博物館再現嘉義藝術節重現百年剖香腳技藝",
+      "source": "嘉義市政府/文化局/觀光新聞處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=939223",
+      "date": "2026/06/01",
+      "query": "市府新聞"
+    },
+    {
+      "headline": "嘉義市石綿清運補助至6月30日請把握時間申請",
+      "source": "嘉義市政府/嘉義市政府環境保護局/環保設施管理科",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=939221",
+      "date": "2026/06/01",
+      "query": "市府新聞"
+    },
     {
       "headline": "嘉義六義宮平安繞境交管資訊",
       "source": "嘉義市政府/警察局/觀光新聞處",
       "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=939214",
+      "date": "2026/06/01",
+      "query": "市府新聞"
+    },
+    {
+      "headline": "6/27救援小英雄波力POLI有任務嘉義公園攜手順稅一起嗨！",
+      "source": "嘉義市政府/財政稅務局",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=939240",
       "date": "2026/06/01",
       "query": "市府新聞"
     },
@@ -48,41 +83,6 @@
       "source": "嘉義市政府/工策會/觀光新聞處",
       "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=939030",
       "date": "2026/05/30",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "「嘉義＋1、共好＋1！」嘉義市各機關115年員工康樂運動會登場凝聚團隊向心力與幸福能量",
-      "source": "嘉義市政府/人事處/觀光新聞處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=939029",
-      "date": "2026/05/30",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "家庭有愛幸福抵嘉嘉市國際家庭日表揚「我說我家的故事」",
-      "source": "嘉義市政府/教育處/觀光新聞處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=939028",
-      "date": "2026/05/30",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "這不是詐騙，農林漁牧業普查火熱訪查中！",
-      "source": "嘉義市政府/西區公所",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=938967",
-      "date": "2026/05/30",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "嘉義市政府警察局表揚員警好人好事績優人員",
-      "source": "嘉義市政府/警察局",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=938979",
-      "date": "2026/05/29",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "男子毒駕再犯遭警查獲檢方向法院聲請羈押獲准",
-      "source": "嘉義市政府/警察局",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=938978",
-      "date": "2026/05/29",
       "query": "市府新聞"
     }
   ],
@@ -201,7 +201,7 @@
       "2012": 1,
       "2013": 1
     },
-    "updated_at": "2026-06-01T03:38:14.052314",
+    "updated_at": "2026-06-01T11:26:27.493863",
     "source": "data.chiayi.gov.tw"
   },
   "council": {
@@ -236,6 +236,20 @@
   "citizen_stats": {},
   "social_posts": [
     {
+      "id": "ptt-httpswwwpttccbbsChiayiM1780287290AF61html",
+      "platform": "PTT",
+      "platform_color": "#00b300",
+      "board": "Chiayi",
+      "date": "06/01",
+      "author": "PTT 鄉民",
+      "title": "[交易] 全家大杯特濃美式$28.5/特濃拿鐵$34.5",
+      "url": "https://www.ptt.cc/bbs/Chiayi/M.1780287290.A.F61.html",
+      "reactions": 0,
+      "comments": 0,
+      "category": "市政議題",
+      "source": "ptt"
+    },
+    {
       "id": "ptt-httpswwwpttccbbsChiayiM1780251760A8E2html",
       "platform": "PTT",
       "platform_color": "#00b300",
@@ -254,7 +268,7 @@
       "platform": "PTT",
       "platform_color": "#00b300",
       "board": "Chiayi",
-      "date": "05/31",
+      "date": "06/01",
       "author": "PTT 鄉民",
       "title": "[新聞] 煙波集團雙點布局嘉市 檜村及北門館下月",
       "url": "https://www.ptt.cc/bbs/Chiayi/M.1780242284.A.881.html",
@@ -282,7 +296,7 @@
       "platform": "PTT",
       "platform_color": "#00b300",
       "board": "Chiayi",
-      "date": "05/31",
+      "date": "06/01",
       "author": "PTT 鄉民",
       "title": "[贈送] 毛毯 床包 被子一批",
       "url": "https://www.ptt.cc/bbs/Chiayi/M.1780185999.A.A80.html",
@@ -384,20 +398,6 @@
       "author": "PTT 鄉民",
       "title": "[新聞] 快訊／國民黨禮讓無黨籍！朴子市長吳品叡參選嘉義縣長",
       "url": "https://www.ptt.cc/bbs/Chiayi/M.1779792787.A.679.html",
-      "reactions": 0,
-      "comments": 0,
-      "category": "市政議題",
-      "source": "ptt"
-    },
-    {
-      "id": "ptt-httpswwwpttccbbsChiayiM1779760247A1B0html",
-      "platform": "PTT",
-      "platform_color": "#00b300",
-      "board": "Chiayi",
-      "date": "06/01",
-      "author": "PTT 鄉民",
-      "title": "[新聞] 百里侯爭霸／藍白共推 張啓楷：產經升級",
-      "url": "https://www.ptt.cc/bbs/Chiayi/M.1779760247.A.1B0.html",
       "reactions": 0,
       "comments": 0,
       "category": "市政議題",
