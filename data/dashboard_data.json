@@ -1,6 +1,27 @@
 {
-  "updated_at": "2026-05-31T19:12:47.872467",
+  "updated_at": "2026-06-01T03:39:36.643341",
   "news": [
+    {
+      "headline": "嘉義六義宮平安繞境交管資訊",
+      "source": "嘉義市政府/警察局/觀光新聞處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=939214",
+      "date": "2026/06/01",
+      "query": "市府新聞"
+    },
+    {
+      "headline": "租稅爭議別煩惱！納保官專業解惑，守護您的權益",
+      "source": "嘉義市政府/財政稅務局",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=939125",
+      "date": "2026/06/01",
+      "query": "市府新聞"
+    },
+    {
+      "headline": "納保官與您有約零距離解決稅務煩惱",
+      "source": "嘉義市政府/財政稅務局",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=939124",
+      "date": "2026/06/01",
+      "query": "市府新聞"
+    },
     {
       "headline": "嘉義市115學年度國民中小學暨幼兒園教師甄選初試順利舉行",
       "source": "嘉義市政府/教育處/觀光新聞處",
@@ -61,27 +82,6 @@
       "headline": "男子毒駕再犯遭警查獲檢方向法院聲請羈押獲准",
       "source": "嘉義市政府/警察局",
       "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=938978",
-      "date": "2026/05/29",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "嘉市「毒駕零容忍」啟動同步查緝毒駕與斷源緝毒專案",
-      "source": "嘉義市政府/警察局",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=938972",
-      "date": "2026/05/29",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "嘉義市115學年度第一次校長遴選結果出爐林雅芳獲遴選為文雅國小校長",
-      "source": "嘉義市政府/教育處/觀光新聞處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=938969",
-      "date": "2026/05/29",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "嘉義藝術節壓軸登場自備食器享優惠推動永續減塑生活",
-      "source": "嘉義市政府/嘉義市政府環境保護局/資源循環管理科",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=938963",
       "date": "2026/05/29",
       "query": "市府新聞"
     }
@@ -201,7 +201,7 @@
       "2012": 1,
       "2013": 1
     },
-    "updated_at": "2026-05-31T19:11:25.162639",
+    "updated_at": "2026-06-01T03:38:14.052314",
     "source": "data.chiayi.gov.tw"
   },
   "council": {
