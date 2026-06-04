@@ -1,16 +1,16 @@
 {
-  "updated_at": "2026-06-04T09:52:29.817038",
+  "updated_at": "2026-06-04T14:54:08.745299",
   "aqi_realtime": [
     {
       "station": "嘉義市（Open-Meteo 模型）",
-      "aqi": 6,
-      "pm25": 4.5,
-      "pm10": 4.8,
-      "o3": 58.0,
-      "no2": 26.9,
+      "aqi": 10,
+      "pm25": 7.3,
+      "pm10": 7.6,
+      "o3": 5.0,
+      "no2": 55.2,
       "status": "良好",
       "pollutant": "PM2.5",
-      "time": "2026-06-04T17:00",
+      "time": "2026-06-04T22:00",
       "source": "Open-Meteo"
     }
   ],
@@ -19,15 +19,15 @@
   "weather": [
     {
       "station": "嘉義市（Open-Meteo）",
-      "temp": "26.4",
-      "apparent_temp": "31.2",
-      "humidity": "94",
+      "temp": "24.8",
+      "apparent_temp": "30.5",
+      "humidity": "98",
       "rainfall": "0.0",
-      "wind_speed": "14.0",
-      "wind_dir": "187",
-      "cloud": "98",
-      "weather": "陰天",
-      "time": "2026-06-04 17:45",
+      "wind_speed": "4.1",
+      "wind_dir": "146",
+      "cloud": "69",
+      "weather": "多雲",
+      "time": "2026-06-04 22:45",
       "source": "Open-Meteo"
     }
   ],
@@ -40,30 +40,30 @@
       "source": "Google新聞"
     },
     {
-      "title": "「大嘉義起來搞軌」看板高掛 黃敏惠喊話：別讓嘉義成高鐵聯外孤兒 - UDN",
+      "title": "嘉義市願景館看板亮相 籲中央落實交通平權 - 大纪元",
       "date": "Thu, 04 Jun 2026",
-      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE0ya2taWkR3VEIxOGNhdzJmSEZVaU9IejV6bEI0VWYyamwtMW5JdElJX0w0dUlOMDRRSzFGY0oxSFNpdUcwTWxDS0Vva3ZyV1BGNVdF0gFYQVVfeXFMTzBMbUlHY0VOajBoY0g5YVU2eUNkNGhQTC1uQWdIUFNEcWJRUjRYYU52LVZ2amRnY2VPVEk1TUFQbktWMXBCdXpjYVNQZUxoOVhkOXQ5Z3p2OA?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBnRVNqMnAtVmdEZFBwY2s4Wk5GSUxQdzIwQjItbURyTkRNVW5hSi1ucFpaMEdqcDBtTnJmT3laSUNlZEE1OWtOVWJHSWV3NnNJS2dPUDRSNHVuVWhkQjZ30gFkQVVfeXFMTllyZlgwZ1Fia1RuWGt1cGRrd1d0SGcxalRvN3pMUzZSYk4wM1dzY1RjTDNfYjZqbWxhYzkxeVpVNERNdC1RdlFsQkFjTkJ2cFJWUkdHY09mRllwY0pickNSUlU3UQ?oc=5",
       "desc": "",
       "source": "Google新聞"
     },
     {
-      "title": "嘉義市女童軍節慶祝活動 傳遞關懷力量 | 青年日報 - LINE TODAY",
+      "title": "聲援黃敏惠「大嘉義起來搞軌」 張啓楷：中央別欺負嘉義市民 - UDN",
       "date": "Thu, 04 Jun 2026",
-      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9jeUNZRFZvTl91cnBHck9RbG5tUC0xcW5tNHZ5UE10V0VUY3BaT0ZVT3NZTDkzLW9haklVVUJzVXBFNlR3b0ZoZWxHRWx4TTVyd2FGX2p3?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFAxQjNwc3k0ajJYZEM5MXZkWmNZbGJ6WXhBVlZLYW9TYWdUVnNLdUFyNnduNFNocDNBUnk5amo0VElWTF90cXJKeFlRTFNfWkU1UGsw0gFYQVVfeXFMTnJubHBRNVczeWNSa05ncVVDYTltTGl0RXN1SGktVUs4aU5fZjVudDQ5NTY3bEFQUUpNaVJteW1LSnAwcVBYV1BiOWd1V3k4SmdIbTdpVUNXMA?oc=5",
       "desc": "",
       "source": "Google新聞"
     },
     {
-      "title": "《遠見》調查／教育、環保、觀光全國第一　嘉義市施政亮眼 - ETtoday新聞雲",
+      "title": "嘉義市拼國際觀光 參訪團訪釜山電影殿堂拓展影視交流 - 觀傳媒",
       "date": "Thu, 04 Jun 2026",
-      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5QQTRyRXJBbXRLRDVpRlVpN2thWHJ0MFF2dy1MZVUyNGJBT0RIY0JxWV9TMUw3ZnoyaU5ZOTR5U05pXzJyMEVkd2tuUXJMS2xjdlVsRHNsNG1fam85SmfSAWhBVV95cUxPWVJLWHhCS2hqVVcxMmZzQzFENDU5ZWtOSUFxZThfSUZxZnBFeEVpdHkzNWdVNEN5cDFKZk9UWHVuRHJYclFuVmFQTzV0UWxta095UU5TU21aMVI1blI3aXFNTjlCYnFTQg?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE80dEFJWTVJemx5VjEtUzZ6NU9vU1BkWE5zMEd5MDZfVHhpVEZjRm1KUGplcFNpY3diSHQ1X0VDNXRTRzdjckRxOXlXNzRidklLQmlEOXp5QQ?oc=5",
       "desc": "",
       "source": "Google新聞"
     },
     {
-      "title": "嘉義市爭取中央興辦軌道建設 願景館高掛「大嘉義起來搞軌」看板 - 自由時報",
+      "title": "嘉義市女童軍節慶祝活動 傳遞關懷力量 - 青年日報",
       "date": "Thu, 04 Jun 2026",
-      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1PVmZBWVNhZG84MXZTY3NiWEppeFBIV3hwM29rREJoRTAtSHB3bTk1YlJfaE0wNDdLQUVSRlBaOUV0VXVfWUo2U041Q3U2MDZibkcwTEEwc0l6b2hibkxpdmVUOTjSAWpBVV95cUxONDNhaHU0T0pQdU9zN0tfbGtvSjlfYVhCUUlDSUR1RE9aZW9JdWU2S21GT0NYUl9DdGo0VFJDZHNfeGRIckVRcDBsTHJ6UmNPX2g5b181SndqaWJVQk1WZk0wMWxDb2YwUU1R?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBCbDl6VVd6S05MSEtfS05ET0gwZnA4VU52VDJnbjFMTTF1bHZmeUVJTVg0NWdmbmUwbk96NnFCQ3Y4NlZEOXRUUG5QQVNDeVBFNGEzTnVzVnFQLUJUcFBUM2Q5LW9FdEgtMXhIMm13?oc=5",
       "desc": "",
       "source": "Google新聞"
     },
@@ -91,9 +91,9 @@
       "source": "Google新聞"
     },
     {
-      "title": "賴清德總統就職兩週年嘉義市建設狂「跳票」 張啓楷：民進黨勿把嘉市當政治鬥爭犧牲品 - PChome Online 新聞",
+      "title": "民進黨政府執政嘉義市建設狂「跳票」 張啓楷籲勿把嘉市當政治鬥爭犧牲品 - PChome Online 新聞",
       "date": "Tue, 19 May 2026",
-      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPSWNXZmRCd0JlLTlrOWR0MVlYQlhDZUdzNnZrSjdTTTVyOTR6NGUxSUQ0MVltM3lpR3A3bkF6d0s1cVJ6OGdEUkZQN3dSUjB1V0lZMWJiODVDOFUzVngzX0lyVHNtcklaOWlNaUVYaVRJZUVURERWdDg2cjRXcmJUNDJEblRrY2xYNkxz?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPSEplUVJxYlNTMF9HZDE3MFk1TzZCZWc1WWxLQkxtSnlmT0RzLTJkclZmMTJrVy1kMElRMzY4bm5GUnJ0b3NINHJRQkhJdmZjck1yNTVvZFltTmhqbDBfSjllZHBqLWxBSUh3UngxWnVVR28zbEZvS2NjTmw1cS05ZzVyMHhIUTlCUXc?oc=5",
       "org": "新聞資訊",
       "source": "Google新聞"
     },
@@ -238,7 +238,7 @@
       "lat": 23.481634,
       "lng": 120.453745,
       "total": 45,
-      "available": 29,
+      "available": 25,
       "addr": "中山路199號(對面)"
     },
     {
@@ -247,7 +247,7 @@
       "lat": 23.482012,
       "lng": 120.457342,
       "total": 22,
-      "available": 12,
+      "available": 11,
       "addr": "中山路98號(前)"
     },
     {
@@ -256,7 +256,7 @@
       "lat": 23.482663,
       "lng": 120.462988,
       "total": 25,
-      "available": 11,
+      "available": 10,
       "addr": "中山路2號(前)"
     },
     {
@@ -265,7 +265,7 @@
       "lat": 23.478707,
       "lng": 120.462594,
       "total": 38,
-      "available": 20,
+      "available": 2,
       "addr": "啟明路122號(前)"
     },
     {
@@ -274,7 +274,7 @@
       "lat": 23.477031,
       "lng": 120.465573,
       "total": 34,
-      "available": 12,
+      "available": 10,
       "addr": "大雅路二段738號(前)"
     },
     {
@@ -283,7 +283,7 @@
       "lat": 23.4798596,
       "lng": 120.4488291,
       "total": 20,
-      "available": 11,
+      "available": 10,
       "addr": "中山路306號"
     },
     {
@@ -292,7 +292,7 @@
       "lat": 23.47963,
       "lng": 120.44583,
       "total": 20,
-      "available": 11,
+      "available": 18,
       "addr": "中山路386號"
     },
     {
@@ -301,7 +301,7 @@
       "lat": 23.47917,
       "lng": 120.44186,
       "total": 99,
-      "available": 31,
+      "available": 32,
       "addr": "中山路524號"
     },
     {
@@ -310,7 +310,7 @@
       "lat": 23.47877,
       "lng": 120.44089,
       "total": 42,
-      "available": 13,
+      "available": 24,
       "addr": "中山路528號"
     },
     {
@@ -328,7 +328,7 @@
       "lat": 23.47336,
       "lng": 120.44604,
       "total": 14,
-      "available": 5,
+      "available": 11,
       "addr": "垂楊路351號"
     },
     {
@@ -337,7 +337,7 @@
       "lat": 23.4738724,
       "lng": 120.4493073,
       "total": 20,
-      "available": 5,
+      "available": 1,
       "addr": "垂楊路434號"
     },
     {
@@ -346,7 +346,7 @@
       "lat": 23.47918,
       "lng": 120.43182,
       "total": 15,
-      "available": 11,
+      "available": 3,
       "addr": "北港路278號"
     },
     {
@@ -364,7 +364,7 @@
       "lat": 23.48091,
       "lng": 120.43012,
       "total": 20,
-      "available": 16,
+      "available": 12,
       "addr": "北港路312號東側"
     },
     {
@@ -373,7 +373,7 @@
       "lat": 23.48465,
       "lng": 120.43354,
       "total": 14,
-      "available": 6,
+      "available": 4,
       "addr": "友愛興達路口"
     },
     {
@@ -391,7 +391,7 @@
       "lat": 23.49265,
       "lng": 120.43191,
       "total": 15,
-      "available": 14,
+      "available": 7,
       "addr": "自由路492號"
     },
     {
@@ -400,7 +400,7 @@
       "lat": 23.478941,
       "lng": 120.437805,
       "total": 23,
-      "available": 10,
+      "available": 6,
       "addr": "博愛路二段281號"
     },
     {
@@ -409,10 +409,10 @@
       "lat": 23.47165,
       "lng": 120.43119,
       "total": 15,
-      "available": 7,
+      "available": 0,
       "addr": "博愛路二段461號"
     }
   ],
   "water": [],
-  "fetch_seconds": 102.1
+  "fetch_seconds": 99.6
 }
