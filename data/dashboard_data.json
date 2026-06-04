@@ -1,6 +1,34 @@
 {
-  "updated_at": "2026-06-04T03:41:41.481023",
+  "updated_at": "2026-06-04T09:54:11.891663",
   "news": [
+    {
+      "headline": "佇幸福的嘉義有一種甘甜的佮意彼就是逐工佮你答喙鼓的趣味",
+      "source": "嘉義市政府/教育處/觀光新聞處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=939535",
+      "date": "2026/06/04",
+      "query": "市府新聞"
+    },
+    {
+      "headline": "藝術走入日常，城市成為策展現場「嘉義藝術日常ArtWeekChiayi｜在場證明」徵件至6月21日",
+      "source": "嘉義市政府/文化局/觀光新聞處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=939534",
+      "date": "2026/06/04",
+      "query": "市府新聞"
+    },
+    {
+      "headline": "大嘉義起來搞軌」別讓嘉義成為高鐵聯外孤兒願景館看板亮相籲中央落實交通平權",
+      "source": "嘉義市政府/交通處/觀光新聞處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=939528",
+      "date": "2026/06/04",
+      "query": "市府新聞"
+    },
+    {
+      "headline": "嘉義市400女童軍齊聚歡慶女童軍節！以行動「讓愛+1」傳遞關懷力量",
+      "source": "嘉義市政府/教育處/觀光新聞處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=939524",
+      "date": "2026/06/04",
+      "query": "市府新聞"
+    },
     {
       "headline": "高齡換照新制開跑嘉義市監理站結合嘉義醫院辦理「一站式換照服務」",
       "source": "嘉義市政府/嘉義市監理站/觀光新聞處",
@@ -54,34 +82,6 @@
       "headline": "「2026嘉義藝術節」文化公園壓軸綻放兩日湧入15萬人次",
       "source": "嘉義市政府/文化局/觀光新聞處",
       "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=939322",
-      "date": "2026/06/02",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "已下定金向建商購買預售屋，現在想取消，可以嗎？該怎麼辦？",
-      "source": "嘉義市政府/地政處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=939345",
-      "date": "2026/06/02",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "「嘉義式感性」席捲釜山！嘉市觀光推介會「木都」魅力驚艷韓國",
-      "source": "嘉義市政府/觀光新聞處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=939317",
-      "date": "2026/06/02",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "115年嘉義市環境知識競賽，報名開始囉!",
-      "source": "嘉義市政府/嘉義市政府環境保護局/綜合計畫科",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=939311",
-      "date": "2026/06/02",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "黃敏惠市長率「嘉義隊」赴韓國釜山拓展國際觀光版圖深化台韓城市交流",
-      "source": "嘉義市政府/觀光新聞處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=939303",
       "date": "2026/06/02",
       "query": "市府新聞"
     }
@@ -202,7 +202,7 @@
       "2012": 1,
       "2013": 1
     },
-    "updated_at": "2026-06-04T03:39:00.470723",
+    "updated_at": "2026-06-04T09:52:18.639457",
     "source": "data.chiayi.gov.tw"
   },
   "council": {
