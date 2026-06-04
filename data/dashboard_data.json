@@ -1,6 +1,20 @@
 {
-  "updated_at": "2026-06-03T20:59:31.048216",
+  "updated_at": "2026-06-04T03:41:41.481023",
   "news": [
+    {
+      "headline": "高齡換照新制開跑嘉義市監理站結合嘉義醫院辦理「一站式換照服務」",
+      "source": "嘉義市政府/嘉義市監理站/觀光新聞處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=939515",
+      "date": "2026/06/04",
+      "query": "市府新聞"
+    },
+    {
+      "headline": "從韓流到嘉義感性嘉義市政府參訪釜山電影殿堂拓展影視交流",
+      "source": "嘉義市政府/觀光新聞處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=939492",
+      "date": "2026/06/04",
+      "query": "市府新聞"
+    },
     {
       "headline": "114學年度全國學生音樂比賽「特優」團隊音樂會展現卓越教育成果",
       "source": "嘉義市政府/教育處/觀光新聞處",
@@ -69,20 +83,6 @@
       "source": "嘉義市政府/觀光新聞處",
       "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=939303",
       "date": "2026/06/02",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "嘉義市第二屆節能知識線上競賽即將開跑邀全民一起學節電、拿好",
-      "source": "嘉義市政府/嘉義市政府環境保護局/綜合計畫科",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=939239",
-      "date": "2026/06/02",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "嘉義市毒駕零容忍累犯照片全公告",
-      "source": "嘉義市政府/警察局",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=939255",
-      "date": "2026/06/01",
       "query": "市府新聞"
     }
   ],
@@ -202,7 +202,7 @@
       "2012": 1,
       "2013": 1
     },
-    "updated_at": "2026-06-03T20:57:18.646793",
+    "updated_at": "2026-06-04T03:39:00.470723",
     "source": "data.chiayi.gov.tw"
   },
   "council": {
@@ -236,6 +236,34 @@
   },
   "citizen_stats": {},
   "social_posts": [
+    {
+      "id": "ptt-httpswwwpttccbbsChiayiM1780540330A5F9html",
+      "platform": "PTT",
+      "platform_color": "#00b300",
+      "board": "Chiayi",
+      "date": "01/01",
+      "author": "PTT 鄉民",
+      "title": "Fw: [情報] 6月5日起 嘉義縣YouBike新增1個站點",
+      "url": "https://www.ptt.cc/bbs/Chiayi/M.1780540330.A.5F9.html",
+      "reactions": 0,
+      "comments": 0,
+      "category": "市政議題",
+      "source": "ptt"
+    },
+    {
+      "id": "ptt-httpswwwpttccbbsChiayiM1780536885A3E7html",
+      "platform": "PTT",
+      "platform_color": "#00b300",
+      "board": "Chiayi",
+      "date": "06/04",
+      "author": "PTT 鄉民",
+      "title": "[自介] ZMTL 北漂AI架構師/顧問/講師",
+      "url": "https://www.ptt.cc/bbs/Chiayi/M.1780536885.A.3E7.html",
+      "reactions": 0,
+      "comments": 0,
+      "category": "市政議題",
+      "source": "ptt"
+    },
     {
       "id": "ptt-httpswwwpttccbbsChiayiM1780479366A3AChtml",
       "platform": "PTT",
@@ -371,34 +399,6 @@
       "author": "PTT 鄉民",
       "title": "[新聞] 豪車至玉山登山口拍照 葉男身分遭起底是",
       "url": "https://www.ptt.cc/bbs/Chiayi/M.1780148558.A.7E4.html",
-      "reactions": 0,
-      "comments": 0,
-      "category": "市政議題",
-      "source": "ptt"
-    },
-    {
-      "id": "ptt-httpswwwpttccbbsChiayiM1780041183AC8Ahtml",
-      "platform": "PTT",
-      "platform_color": "#00b300",
-      "board": "Chiayi",
-      "date": "06/03",
-      "author": "PTT 鄉民",
-      "title": "[新聞] 台積電進駐嘉義掀熱議 在地人憂房價遭哄",
-      "url": "https://www.ptt.cc/bbs/Chiayi/M.1780041183.A.C8A.html",
-      "reactions": 0,
-      "comments": 0,
-      "category": "市政議題",
-      "source": "ptt"
-    },
-    {
-      "id": "ptt-httpswwwpttccbbsChiayiM1780016501AAB8html",
-      "platform": "PTT",
-      "platform_color": "#00b300",
-      "board": "Chiayi",
-      "date": "05/29",
-      "author": "PTT 鄉民",
-      "title": "[新聞] 嘉市敬老卡不應只是裝飾品 議員促市府",
-      "url": "https://www.ptt.cc/bbs/Chiayi/M.1780016501.A.AB8.html",
       "reactions": 0,
       "comments": 0,
       "category": "市政議題",
