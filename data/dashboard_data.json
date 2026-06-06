@@ -1,6 +1,13 @@
 {
-  "updated_at": "2026-06-05T19:51:24.863180",
+  "updated_at": "2026-06-06T02:47:18.237971",
   "news": [
+    {
+      "headline": "預防漢他病毒、落實三不策略",
+      "source": "嘉義市政府/西區公所",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=939646",
+      "date": "2026/06/06",
+      "query": "市府新聞"
+    },
     {
       "headline": "公告「嘉義市嘉北國小地下停車場」車位登記抽籤公告",
       "source": "嘉義市政府/交通處",
@@ -75,13 +82,6 @@
       "headline": "「大嘉義起來搞軌」別讓嘉義成為高鐵聯外孤兒願景館看板亮相籲中央落實交通平權",
       "source": "嘉義市政府/交通處/觀光新聞處",
       "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=939528",
-      "date": "2026/06/04",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "嘉義市400女童軍齊聚歡慶女童軍節！以行動「讓愛+1」傳遞關懷力量",
-      "source": "嘉義市政府/教育處/觀光新聞處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=939524",
       "date": "2026/06/04",
       "query": "市府新聞"
     }
@@ -202,7 +202,7 @@
       "2012": 1,
       "2013": 1
     },
-    "updated_at": "2026-06-05T19:49:33.347039",
+    "updated_at": "2026-06-06T02:44:50.503818",
     "source": "data.chiayi.gov.tw"
   },
   "council": {

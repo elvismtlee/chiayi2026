@@ -1,16 +1,16 @@
 {
-  "updated_at": "2026-06-05T19:49:48.239983",
+  "updated_at": "2026-06-06T02:45:02.922240",
   "aqi_realtime": [
     {
       "station": "嘉義市（Open-Meteo 模型）",
-      "aqi": 77,
-      "pm25": 45.4,
-      "pm10": 45.5,
-      "o3": 1.0,
-      "no2": 64.1,
-      "status": "普通",
+      "aqi": 21,
+      "pm25": 15.3,
+      "pm10": 18.8,
+      "o3": 94.0,
+      "no2": 21.6,
+      "status": "良好",
       "pollutant": "PM2.5",
-      "time": "2026-06-06T03:00",
+      "time": "2026-06-06T10:00",
       "source": "Open-Meteo"
     }
   ],
@@ -19,15 +19,15 @@
   "weather": [
     {
       "station": "嘉義市（Open-Meteo）",
-      "temp": "25.2",
-      "apparent_temp": "31.1",
-      "humidity": "96",
-      "rainfall": "0.1",
-      "wind_speed": "3.1",
-      "wind_dir": "167",
-      "cloud": "100",
-      "weather": "毛雨",
-      "time": "2026-06-06 03:45",
+      "temp": "30.8",
+      "apparent_temp": "39.1",
+      "humidity": "72",
+      "rainfall": "0.0",
+      "wind_speed": "4.8",
+      "wind_dir": "312",
+      "cloud": "93",
+      "weather": "陰天",
+      "time": "2026-06-06 10:45",
       "source": "Open-Meteo"
     }
   ],
@@ -40,23 +40,16 @@
       "source": "Google新聞"
     },
     {
+      "title": "公告修正受理115年度「嘉義市木造建築老舊危險電線更新」補助方式、受理期間及補助項目。 - chiayi.gov.tw",
+      "date": "Sat, 30 May 2026",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBlSG9CRGJMSHhYQzVnelVsRzc5TlZjSTNabFNiUmRJekxzMEFsMVdBZGZJWGVxRGJRZ0I5WW1EMFVaQXFZMEluM3ZUMzZseTM2Q19KM0NFdW5YYjhmdVZsVlNnVDY5M0pPTXc?oc=5",
+      "desc": "",
+      "source": "Google新聞"
+    },
+    {
       "title": "嘉義市政府歡迎臺中榮民總醫院傅雲慶總院長親自率隊駐診嘉義市 - chiayi.gov.tw",
       "date": "Mon, 01 Jun 2026",
       "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1BNnYwMXdsVTAwZ0VKNHVTU1E0aXM0WnBsaGdGTE43b3dxV0JtYTdrTjdRT0ZZNUptY3BjQWJUUGtSTy1nTnFocFppOExmaUNWQVg3bnJTRkhJYXFYODhwcEtZcGpxZFVxNW4wRTRzU2FsWFduSmc?oc=5",
-      "desc": "",
-      "source": "Google新聞"
-    },
-    {
-      "title": "市釜山辦觀光旅遊推介會 木都嘉義式感性吸引關注|亞洲 - 僑務電子報",
-      "date": "Wed, 03 Jun 2026",
-      "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE8wNEE0Y2UxOUV6TTZGa3Y0TC1nUy1Jd25SU2lzWnF0QkdQN3Q4U2NLMC14ZE1KeWdKOWtRdnYwWVBsTlZQSEZhaFlkNA?oc=5",
-      "desc": "",
-      "source": "Google新聞"
-    },
-    {
-      "title": "嘉義市115年國中教育會考成績亮眼 展現多元學習豐碩成果 - 中央社 CNA",
-      "date": "Fri, 05 Jun 2026",
-      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBqTExRSklPOEdKYllWTGFmZU5VLVJIcjRWNmZZMDlUdG9PdS04RXN3ZmZld0lkU195N1BRWnJiT1oyRnB1LTAycGhITXVYOEJVUjFLOF9R?oc=5",
       "desc": "",
       "source": "Google新聞"
     },
@@ -73,6 +66,13 @@
       "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE51UlNEVW1WYjY4eWpoUzFCUEc5V2N5dzViQjNzT0dqMG5Rc2JjRGd6X0JfTzNINkhPLTNydENobjBDZEVCRUpXdjZ6aG1MYjg?oc=5",
       "desc": "",
       "source": "Google新聞"
+    },
+    {
+      "title": "嘉義市115年國中教育會考成績亮眼 展現多元學習豐碩成果 - 中央社 CNA",
+      "date": "Fri, 05 Jun 2026",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBqTExRSklPOEdKYllWTGFmZU5VLVJIcjRWNmZZMDlUdG9PdS04RXN3ZmZld0lkU195N1BRWnJiT1oyRnB1LTAycGhITXVYOEJVUjFLOF9R?oc=5",
+      "desc": "",
+      "source": "Google新聞"
     }
   ],
   "procurement": [
@@ -84,16 +84,9 @@
       "source": "Google新聞"
     },
     {
-      "title": "王美惠爭取2.4億治水經費 強化嘉義市防洪韌性 - 放言Fount Media",
-      "date": "Tue, 12 May 2026",
-      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1OQzlRY0VFSVZOS1NWUEU0RFdoMklGN1ljakw4MEZ2a0UxMkJjcmlFamhVVlhCMHRhLUxaNVJoY0NSVXZaRXpPYVMyUmEzWmoxbmc?oc=5",
-      "org": "新聞資訊",
-      "source": "Google新聞"
-    },
-    {
-      "title": "賴清德總統就職兩週年嘉義市建設狂「跳票」 張啓楷：民進黨勿把嘉市當政治鬥爭犧牲品 - PChome Online 新聞",
-      "date": "Tue, 19 May 2026",
-      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPSWNXZmRCd0JlLTlrOWR0MVlYQlhDZUdzNnZrSjdTTTVyOTR6NGUxSUQ0MVltM3lpR3A3bkF6d0s1cVJ6OGdEUkZQN3dSUjB1V0lZMWJiODVDOFUzVngzX0lyVHNtcklaOWlNaUVYaVRJZUVURERWdDg2cjRXcmJUNDJEblRrY2xYNkxz?oc=5",
+      "title": "「嘉義市污水系統第一期-分支網及用戶接管第8、9標工程」竣工典禮黃敏惠市長：城市欸靠山抵嘉 - chiayi.gov.tw",
+      "date": "Wed, 21 Jan 2026",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5raFM0MEJraHdKNlJPMTZUVkM2Z2ZvZ3hsREtKRjVRSWVZLWhXUkp6dlZWSWc3YWdvbTl3MFB3dlFVNmN1YVN3dGN1b2FXQ2R2TEw5ZjE1ZEppWEM2QnhuQWJYdk5HazFIZlE?oc=5",
       "org": "新聞資訊",
       "source": "Google新聞"
     },
@@ -101,20 +94,6 @@
       "title": "嘉義鐵路高架化將讓都市縫合共融 推動交通新路網建設 帶動東西區發展 - 自由時報",
       "date": "Thu, 30 Apr 2026",
       "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9ORzltT2hJU0E0OVgtX0ZhS0JVYjZjOUgwT3hWVXQzbW5XVWdqMkI5d0lHeG9nS1RNYTM5Z21TeDBBa3NIb3RnSk8zNmJOZzB5?oc=5",
-      "org": "新聞資訊",
-      "source": "Google新聞"
-    },
-    {
-      "title": "嘉市舊市公所地下停車場動土 斥資4.8億元活化歷史場域強化交通機能 - 中央社 CNA",
-      "date": "Mon, 13 Apr 2026",
-      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1ELXdDTE5PUElSSUdYOFZ0RUZiZzUzUHhFamF1bHVneF85d1dxNFVzUTBSd1Y5UVRBLUNEemJxWkFEa3dmQnQ2ODktZERYWlpGNUZSVGVB?oc=5",
-      "org": "新聞資訊",
-      "source": "Google新聞"
-    },
-    {
-      "title": "「嘉義市污水系統第一期-分支網及用戶接管第8、9標工程」竣工典禮黃敏惠市長：城市欸靠山抵嘉 - chiayi.gov.tw",
-      "date": "Wed, 21 Jan 2026",
-      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5raFM0MEJraHdKNlJPMTZUVkM2Z2ZvZ3hsREtKRjVRSWVZLWhXUkp6dlZWSWc3YWdvbTl3MFB3dlFVNmN1YVN3dGN1b2FXQ2R2TEw5ZjE1ZEppWEM2QnhuQWJYdk5HazFIZlE?oc=5",
       "org": "新聞資訊",
       "source": "Google新聞"
     },
@@ -131,12 +110,33 @@
       "link": "https://news.google.com/rss/articles/CBMiwgJBVV95cUxPZkdJd1U3WDVqZHlwZDBITW5wb1I3M3hscWJxZDgydW5QNy10clNzdnNsS3FKRWFfd214aUxFNzJWdWJXbnd5V2doQm56UENaQ3g3dHRWSzJBVGVtd0kxTGZuazhHUzBhend1bEJabXlvZ0NYTXBGWG8wS1VBc08yRnNxVS1oU2c5dm1ETTloVG1fNjdVQjBtT1FjaUFnb3BiN0RtdU5IMnpOVnd1YXFBV0lYV0dQc2Q3R3YtTldPekpQSFozMmsxci0tMmxpd3JydnFaVEpadDJFbXd4b2I1ZDFJOHRXekRYVkpZSmN5enp4Rl96Zi1xSTdJWjRWVW5kRlR1M3BoS1o5d1RnbHpkajJudGpwVGxVOF8zUS1xeHZOclVqbHRCSUI1TDVhNl8wNXRvQVB4Y2NDRXhNaVplQm1R?oc=5",
       "org": "新聞資訊",
       "source": "Google新聞"
+    },
+    {
+      "title": "嘉義市西區全民運動館工程進度破7成5 黃敏惠視察啟用營運期曝 - UDN",
+      "date": "Wed, 28 Jan 2026",
+      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBXM3hhN1djdmdRZXNYNUN3Tmk5SjZ4djkzb3ZWSUNET2ZkSVVSV3lrYy1OQ2t1ZHhjLUJ2djBtbk1NZVBqdVl1eUJDRDFXd1FD0gFWQVVfeXFMTmhtNFppRHZxUDhKTlBYNHlXbTR0RXVZckRjZGM0bmtnV0pJaVROdHUwN1FhX0pGWFFEd3NmcHhzUTJHS2NFU1VjUWxPRXVhaXNUUHJ6T1E?oc=5",
+      "org": "新聞資訊",
+      "source": "Google新聞"
+    },
+    {
+      "title": "王美惠爭取2.4億治水經費 強化嘉義市防洪韌性 - 放言Fount Media",
+      "date": "Tue, 12 May 2026",
+      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1OQzlRY0VFSVZOS1NWUEU0RFdoMklGN1ljakw4MEZ2a0UxMkJjcmlFamhVVlhCMHRhLUxaNVJoY0NSVXZaRXpPYVMyUmEzWmoxbmc?oc=5",
+      "org": "新聞資訊",
+      "source": "Google新聞"
+    },
+    {
+      "title": "嘉義市舊市公所地下停車場動土 斥資4.8億元活化歷史場域強化交通機能 - 台灣華報",
+      "date": "Wed, 15 Apr 2026",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5LYl9MdUFOS3luYXp4TnJYblptWllKQnRfVzY0YkpZQjVpNnI2WFhVQjJPa21FYWM4NHlkVkVKZkpLdzFTcDU2cUthOV9GeFYxWU9tWW82SDdpcndEQ2pLTmo3X29JcjBMVUhN?oc=5",
+      "org": "新聞資訊",
+      "source": "Google新聞"
     }
   ],
   "disease": {
     "dengue": [],
     "enterovirus": [],
-    "updated": "2026-06-05"
+    "updated": "2026-06-06"
   },
   "fire": {
     "chiayi_datasets": [
@@ -238,7 +238,7 @@
       "lat": 23.481634,
       "lng": 120.453745,
       "total": 45,
-      "available": 25,
+      "available": 24,
       "addr": "中山路199號(對面)"
     },
     {
@@ -247,7 +247,7 @@
       "lat": 23.482012,
       "lng": 120.457342,
       "total": 22,
-      "available": 6,
+      "available": 11,
       "addr": "中山路98號(前)"
     },
     {
@@ -256,7 +256,7 @@
       "lat": 23.482663,
       "lng": 120.462988,
       "total": 25,
-      "available": 12,
+      "available": 4,
       "addr": "中山路2號(前)"
     },
     {
@@ -265,7 +265,7 @@
       "lat": 23.478707,
       "lng": 120.462594,
       "total": 38,
-      "available": 6,
+      "available": 8,
       "addr": "啟明路122號(前)"
     },
     {
@@ -274,7 +274,7 @@
       "lat": 23.477031,
       "lng": 120.465573,
       "total": 34,
-      "available": 9,
+      "available": 24,
       "addr": "大雅路二段738號(前)"
     },
     {
@@ -283,7 +283,7 @@
       "lat": 23.4798596,
       "lng": 120.4488291,
       "total": 20,
-      "available": 4,
+      "available": 7,
       "addr": "中山路306號"
     },
     {
@@ -292,7 +292,7 @@
       "lat": 23.47963,
       "lng": 120.44583,
       "total": 20,
-      "available": 5,
+      "available": 1,
       "addr": "中山路386號"
     },
     {
@@ -301,7 +301,7 @@
       "lat": 23.47917,
       "lng": 120.44186,
       "total": 99,
-      "available": 70,
+      "available": 54,
       "addr": "中山路524號"
     },
     {
@@ -310,7 +310,7 @@
       "lat": 23.47877,
       "lng": 120.44089,
       "total": 42,
-      "available": 37,
+      "available": 11,
       "addr": "中山路528號"
     },
     {
@@ -319,7 +319,7 @@
       "lat": 23.47283,
       "lng": 120.44029,
       "total": 5,
-      "available": 4,
+      "available": 5,
       "addr": "垂楊路575號"
     },
     {
@@ -328,7 +328,7 @@
       "lat": 23.47336,
       "lng": 120.44604,
       "total": 14,
-      "available": 4,
+      "available": 6,
       "addr": "垂楊路351號"
     },
     {
@@ -346,7 +346,7 @@
       "lat": 23.47918,
       "lng": 120.43182,
       "total": 15,
-      "available": 3,
+      "available": 5,
       "addr": "北港路278號"
     },
     {
@@ -355,7 +355,7 @@
       "lat": 23.486138,
       "lng": 120.453829,
       "total": 20,
-      "available": 6,
+      "available": 11,
       "addr": "忠孝路284號(旁)"
     },
     {
@@ -364,7 +364,7 @@
       "lat": 23.48091,
       "lng": 120.43012,
       "total": 20,
-      "available": 6,
+      "available": 11,
       "addr": "北港路312號東側"
     },
     {
@@ -373,7 +373,7 @@
       "lat": 23.48465,
       "lng": 120.43354,
       "total": 14,
-      "available": 9,
+      "available": 8,
       "addr": "友愛興達路口"
     },
     {
@@ -391,7 +391,7 @@
       "lat": 23.49265,
       "lng": 120.43191,
       "total": 15,
-      "available": 7,
+      "available": 6,
       "addr": "自由路492號"
     },
     {
@@ -400,7 +400,7 @@
       "lat": 23.478941,
       "lng": 120.437805,
       "total": 23,
-      "available": 1,
+      "available": 5,
       "addr": "博愛路二段281號"
     },
     {
@@ -409,10 +409,10 @@
       "lat": 23.47165,
       "lng": 120.43119,
       "total": 15,
-      "available": 7,
+      "available": 12,
       "addr": "博愛路二段461號"
     }
   ],
   "water": [],
-  "fetch_seconds": 96.6
+  "fetch_seconds": 135.3
 }
