@@ -1,5 +1,33 @@
 [
   {
+    "id": "ptt-httpswwwpttccbbsChiayiM1780748245AEF5html",
+    "platform": "PTT",
+    "platform_color": "#00b300",
+    "board": "Chiayi",
+    "date": "06/06",
+    "author": "PTT 鄉民",
+    "title": "[廣告] 日文招生 長庚縣府",
+    "url": "https://www.ptt.cc/bbs/Chiayi/M.1780748245.A.EF5.html",
+    "reactions": 0,
+    "comments": 0,
+    "category": "市政議題",
+    "source": "ptt"
+  },
+  {
+    "id": "ptt-httpswwwpttccbbsChiayiM1780744171AEC1html",
+    "platform": "PTT",
+    "platform_color": "#00b300",
+    "board": "Chiayi",
+    "date": "06/06",
+    "author": "PTT 鄉民",
+    "title": "[綠記] 蒜頭糖廠 蔗埕文化園區 一日遊",
+    "url": "https://www.ptt.cc/bbs/Chiayi/M.1780744171.A.EC1.html",
+    "reactions": 0,
+    "comments": 0,
+    "category": "文化觀光",
+    "source": "ptt"
+  },
+  {
     "id": "ptt-httpswwwpttccbbsChiayiM1780673929A999html",
     "platform": "PTT",
     "platform_color": "#00b300",
@@ -137,34 +165,6 @@
     "reactions": 0,
     "comments": 0,
     "category": "市政議題",
-    "source": "ptt"
-  },
-  {
-    "id": "ptt-httpswwwpttccbbsChiayiM1780469221A4C9html",
-    "platform": "PTT",
-    "platform_color": "#00b300",
-    "board": "Chiayi",
-    "date": "06/05",
-    "author": "PTT 鄉民",
-    "title": "[廣告] 動力樂器 6/7 民歌表演",
-    "url": "https://www.ptt.cc/bbs/Chiayi/M.1780469221.A.4C9.html",
-    "reactions": 0,
-    "comments": 0,
-    "category": "市政議題",
-    "source": "ptt"
-  },
-  {
-    "id": "ptt-httpswwwpttccbbsChiayiM1780385285A7A5html",
-    "platform": "PTT",
-    "platform_color": "#00b300",
-    "board": "Chiayi",
-    "date": "06/05",
-    "author": "PTT 鄉民",
-    "title": "[新聞] 嘉義市公園有「菸害」 市府研議導入AI辨",
-    "url": "https://www.ptt.cc/bbs/Chiayi/M.1780385285.A.7A5.html",
-    "reactions": 0,
-    "comments": 0,
-    "category": "公園綠地",
     "source": "ptt"
   }
 ]
