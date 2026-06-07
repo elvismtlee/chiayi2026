@@ -1,6 +1,13 @@
 {
-  "updated_at": "2026-06-07T03:29:21.279814",
+  "updated_at": "2026-06-07T08:53:46.170605",
   "news": [
+    {
+      "headline": "嘉義市115年度童軍運動會熱鬧登場！超過450位童軍同場較勁展現童軍智、仁、勇精神",
+      "source": "嘉義市政府/教育處/觀光新聞處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=939738",
+      "date": "2026/06/07",
+      "query": "市府新聞"
+    },
     {
       "headline": "全國長照業務聯繫會議登場！嘉義市分享長照及高齡友善城市推動經驗",
       "source": "嘉義市政府/衛生局/觀光新聞處",
@@ -75,13 +82,6 @@
       "headline": "「大嘉義起來搞軌」看板引熱議黃敏惠市長爭取「嘉義臺鐵-高鐵聯外軌道運輸」",
       "source": "嘉義市政府/交通處/觀光新聞處",
       "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=939642",
-      "date": "2026/06/05",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "宏仁中學畢業典禮登場！黃敏惠市長返母校勉學子帶著愛逐夢前行",
-      "source": "嘉義市政府/教育處/觀光新聞處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=939641",
       "date": "2026/06/05",
       "query": "市府新聞"
     }
@@ -202,7 +202,7 @@
       "2012": 1,
       "2013": 1
     },
-    "updated_at": "2026-06-07T03:27:22.075423",
+    "updated_at": "2026-06-07T08:51:53.502853",
     "source": "data.chiayi.gov.tw"
   },
   "council": {
@@ -236,6 +236,34 @@
   },
   "citizen_stats": {},
   "social_posts": [
+    {
+      "id": "ptt-httpswwwpttccbbsChiayiM1780812681AA29html",
+      "platform": "PTT",
+      "platform_color": "#00b300",
+      "board": "Chiayi",
+      "date": "06/07",
+      "author": "PTT 鄉民",
+      "title": "[買賣] 全新循環扇+膠囊咖啡機/膠囊+絨毛毯",
+      "url": "https://www.ptt.cc/bbs/Chiayi/M.1780812681.A.A29.html",
+      "reactions": 0,
+      "comments": 0,
+      "category": "市政議題",
+      "source": "ptt"
+    },
+    {
+      "id": "ptt-httpswwwpttccbbsChiayiM1780804679AA4Chtml",
+      "platform": "PTT",
+      "platform_color": "#00b300",
+      "board": "Chiayi",
+      "date": "06/07",
+      "author": "PTT 鄉民",
+      "title": "[認養] 1個月左右小貓*6隻",
+      "url": "https://www.ptt.cc/bbs/Chiayi/M.1780804679.A.A4C.html",
+      "reactions": 0,
+      "comments": 0,
+      "category": "市政議題",
+      "source": "ptt"
+    },
     {
       "id": "ptt-httpswwwpttccbbsChiayiM1780787717AFADhtml",
       "platform": "PTT",
@@ -297,7 +325,7 @@
       "platform": "PTT",
       "platform_color": "#00b300",
       "board": "Chiayi",
-      "date": "06/05",
+      "date": "06/07",
       "author": "PTT 鄉民",
       "title": "[問題] 百立牙醫（治療蛀牙）",
       "url": "https://www.ptt.cc/bbs/Chiayi/M.1780650427.A.CFD.html",
@@ -311,7 +339,7 @@
       "platform": "PTT",
       "platform_color": "#00b300",
       "board": "Chiayi",
-      "date": "06/06",
+      "date": "06/07",
       "author": "PTT 鄉民",
       "title": "［閒聊］五星縣長光環下的扯事",
       "url": "https://www.ptt.cc/bbs/Chiayi/M.1780644140.A.8C0.html",
@@ -371,34 +399,6 @@
       "author": "PTT 鄉民",
       "title": "[問題] 台式傳統甜甜圈",
       "url": "https://www.ptt.cc/bbs/Chiayi/M.1780575106.A.513.html",
-      "reactions": 0,
-      "comments": 0,
-      "category": "市政議題",
-      "source": "ptt"
-    },
-    {
-      "id": "ptt-httpswwwpttccbbsChiayiM1780540330A5F9html",
-      "platform": "PTT",
-      "platform_color": "#00b300",
-      "board": "Chiayi",
-      "date": "01/01",
-      "author": "PTT 鄉民",
-      "title": "Fw: [情報] 6月5日起 嘉義縣YouBike新增1個站點",
-      "url": "https://www.ptt.cc/bbs/Chiayi/M.1780540330.A.5F9.html",
-      "reactions": 0,
-      "comments": 0,
-      "category": "市政議題",
-      "source": "ptt"
-    },
-    {
-      "id": "ptt-httpswwwpttccbbsChiayiM1780536885A3E7html",
-      "platform": "PTT",
-      "platform_color": "#00b300",
-      "board": "Chiayi",
-      "date": "06/04",
-      "author": "PTT 鄉民",
-      "title": "[自介] ZMTL 北漂AI架構師/顧問/講師",
-      "url": "https://www.ptt.cc/bbs/Chiayi/M.1780536885.A.3E7.html",
       "reactions": 0,
       "comments": 0,
       "category": "市政議題",
