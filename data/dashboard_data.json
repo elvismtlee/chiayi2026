@@ -1,6 +1,48 @@
 {
-  "updated_at": "2026-06-08T03:35:28.762051",
+  "updated_at": "2026-06-08T10:35:39.713250",
   "news": [
+    {
+      "headline": "嘉市府舉辦食品業者倡議論壇攜手產官學用誠信守護食安",
+      "source": "嘉義市政府/政風處/觀光新聞處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=939827",
+      "date": "2026/06/08",
+      "query": "市府新聞"
+    },
+    {
+      "headline": "嘉市警察節慶祝大會黃敏惠市長表揚績優警民力感謝守護城市安全",
+      "source": "嘉義市政府/警察局/觀光新聞處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=939816",
+      "date": "2026/06/08",
+      "query": "市府新聞"
+    },
+    {
+      "headline": "115年嘉義市弱勢族群能源效率改善計畫開跑囉",
+      "source": "嘉義市政府/嘉義市政府環境保護局/綜合計畫科",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=939812",
+      "date": "2026/06/08",
+      "query": "市府新聞"
+    },
+    {
+      "headline": "鋒面及西南氣流接力影響嘉市府全面戒備、落實防汛工作",
+      "source": "嘉義市政府/工務處/環保局/觀光新聞處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=939809",
+      "date": "2026/06/08",
+      "query": "市府新聞"
+    },
+    {
+      "headline": "頂好時光，庄頭派對—獨角仙季秘境開幕活動",
+      "source": "嘉義市政府/嘉義市政府環境保護局/綜合計畫科",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=939806",
+      "date": "2026/06/08",
+      "query": "市府新聞"
+    },
+    {
+      "headline": "跨海深化台日教育交流蘭潭國小師生參訪日本熊本縣玉名町小學校",
+      "source": "嘉義市政府/教育處/觀光新聞處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=939804",
+      "date": "2026/06/08",
+      "query": "市府新聞"
+    },
     {
       "headline": "嘉義市路邊停車格於端午節當日暫停收費",
       "source": "嘉義市政府/交通處",
@@ -41,48 +83,6 @@
       "source": "嘉義市政府/教育處/觀光新聞處",
       "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=939738",
       "date": "2026/06/07",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "全國長照業務聯繫會議登場！嘉義市分享長照及高齡友善城市推動經驗",
-      "source": "嘉義市政府/衛生局/觀光新聞處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=939716",
-      "date": "2026/06/06",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "嘉義市消費力加持！黃敏惠市長攜手黃偉哲市長助攻台南農特產銷售開紅盤",
-      "source": "嘉義市政府/建設處/觀光新聞處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=939714",
-      "date": "2026/06/06",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "「神在、人在、城就在」挺過風災考驗黃敏惠市長見證百年福山宮重現風華",
-      "source": "嘉義市政府/民政處/觀光新聞處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=939713",
-      "date": "2026/06/06",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "「頂好時光，庄頭派對」登場！黃敏惠市長邀民眾漫遊嘉市獨角仙秘境感受城市綠色廊道魅力",
-      "source": "嘉義市政府/民政處/建設處/觀光新聞處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=939712",
-      "date": "2026/06/06",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "氣候行動即刻行動「貍想世界」嘉市與您同行",
-      "source": "嘉義市政府/嘉義市政府環境保護局/環境品質管理科",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=939318",
-      "date": "2026/06/06",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "預防漢他病毒、落實三不策略",
-      "source": "嘉義市政府/西區公所",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=939646",
-      "date": "2026/06/06",
       "query": "市府新聞"
     }
   ],
@@ -202,7 +202,7 @@
       "2012": 1,
       "2013": 1
     },
-    "updated_at": "2026-06-08T03:33:32.618587",
+    "updated_at": "2026-06-08T10:33:01.797725",
     "source": "data.chiayi.gov.tw"
   },
   "council": {
@@ -236,6 +236,34 @@
   },
   "citizen_stats": {},
   "social_posts": [
+    {
+      "id": "ptt-httpswwwpttccbbsChiayiM1780912521AA17html",
+      "platform": "PTT",
+      "platform_color": "#00b300",
+      "board": "Chiayi",
+      "date": "06/08",
+      "author": "PTT 鄉民",
+      "title": "[問題] 嘉義便宜全車烤漆",
+      "url": "https://www.ptt.cc/bbs/Chiayi/M.1780912521.A.A17.html",
+      "reactions": 0,
+      "comments": 0,
+      "category": "市政議題",
+      "source": "ptt"
+    },
+    {
+      "id": "ptt-httpswwwpttccbbsChiayiM1780900878A371html",
+      "platform": "PTT",
+      "platform_color": "#00b300",
+      "board": "Chiayi",
+      "date": "06/08",
+      "author": "PTT 鄉民",
+      "title": "[新聞] 嘉義藍白合2／張啟楷拋「0歲存5萬」　",
+      "url": "https://www.ptt.cc/bbs/Chiayi/M.1780900878.A.371.html",
+      "reactions": 0,
+      "comments": 0,
+      "category": "市政議題",
+      "source": "ptt"
+    },
     {
       "id": "ptt-httpswwwpttccbbsChiayiM1780834578AFAFhtml",
       "platform": "PTT",
@@ -371,34 +399,6 @@
       "author": "PTT 鄉民",
       "title": "Fw: [情報] 6月5日起 嘉義市YouBike新增1個站點",
       "url": "https://www.ptt.cc/bbs/Chiayi/M.1780640803.A.B8D.html",
-      "reactions": 0,
-      "comments": 0,
-      "category": "市政議題",
-      "source": "ptt"
-    },
-    {
-      "id": "ptt-httpswwwpttccbbsChiayiM1780638216A49Ehtml",
-      "platform": "PTT",
-      "platform_color": "#00b300",
-      "board": "Chiayi",
-      "date": "06/05",
-      "author": "PTT 鄉民",
-      "title": "[買賣] 西堤餐券、輕量行李箱、jomalone護手霜",
-      "url": "https://www.ptt.cc/bbs/Chiayi/M.1780638216.A.49E.html",
-      "reactions": 0,
-      "comments": 0,
-      "category": "市政議題",
-      "source": "ptt"
-    },
-    {
-      "id": "ptt-httpswwwpttccbbsChiayiM1780575249A988html",
-      "platform": "PTT",
-      "platform_color": "#00b300",
-      "board": "Chiayi",
-      "date": "06/07",
-      "author": "PTT 鄉民",
-      "title": "[新聞] 「大嘉義起來搞軌」看板高掛 黃敏惠喊話",
-      "url": "https://www.ptt.cc/bbs/Chiayi/M.1780575249.A.988.html",
       "reactions": 0,
       "comments": 0,
       "category": "市政議題",
