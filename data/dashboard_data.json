@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-08T15:42:44.729055",
+  "updated_at": "2026-06-08T20:11:59.442195",
   "news": [
     {
       "headline": "嘉市府舉辦食品業者倡議論壇攜手產官學用誠信守護食安",
@@ -87,12 +87,12 @@
     }
   ],
   "complaint_stats": {
-    "total": 77331,
-    "record_count": 482,
+    "total": 77370,
+    "record_count": 521,
     "category_counts": {
       "公共安全": 36538,
       "交通停車": 7743,
-      "道路路平": 229,
+      "道路路平": 268,
       "環境衛生": 5,
       "行政服務": 6
     },
@@ -107,11 +107,11 @@
         "公有停車場": 38
       },
       "道路路平": {
-        "自來水管線": 14,
-        "電力管線": 31,
-        "電信管線": 10,
-        "道路施工": 1,
-        "市府工程": 1,
+        "自來水管線": 24,
+        "電力管線": 42,
+        "電信管線": 14,
+        "道路施工": 12,
+        "市府工程": 4,
         "橋梁設施": 172
       },
       "環境衛生": {
@@ -127,6 +127,18 @@
         "count": 12
       },
       {
+        "road": "西區湖內村里健康七街",
+        "count": 4
+      },
+      {
+        "road": "東區中山村里民權路9",
+        "count": 3
+      },
+      {
+        "road": "東區嘉義",
+        "count": 3
+      },
+      {
         "road": "西區湖內村里健康一街",
         "count": 2
       },
@@ -139,28 +151,16 @@
         "count": 2
       },
       {
-        "road": "親水公園",
+        "road": "西區嘉義",
         "count": 2
       },
       {
-        "road": "蘭潭水庫三信亭附近",
+        "road": "西區劉厝村里大聖路1",
         "count": 2
       },
       {
-        "road": "嘉義市中山路199號",
+        "road": "西區美源村里仁愛路2",
         "count": 2
-      },
-      {
-        "road": "嘉義市山仔頂249-",
-        "count": 2
-      },
-      {
-        "road": "西區書院村里延平街3",
-        "count": 1
-      },
-      {
-        "road": "西區世賢路四段段35",
-        "count": 1
       }
     ],
     "top_categories": [
@@ -174,7 +174,7 @@
       },
       {
         "category": "道路路平",
-        "count": 229
+        "count": 268
       },
       {
         "category": "行政服務",
@@ -196,13 +196,13 @@
       "2021": 3035,
       "2022": 3112,
       "2023": 3318,
-      "2024": 3270,
-      "2025": 8885,
-      "2026": 1423,
+      "2024": 3271,
+      "2025": 8890,
+      "2026": 1456,
       "2012": 1,
       "2013": 1
     },
-    "updated_at": "2026-06-08T15:41:00.335559",
+    "updated_at": "2026-06-08T20:09:55.870728",
     "source": "data.chiayi.gov.tw"
   },
   "council": {
@@ -237,6 +237,20 @@
   "citizen_stats": {},
   "social_posts": [
     {
+      "id": "ptt-httpswwwpttccbbsChiayiM1780933457A635html",
+      "platform": "PTT",
+      "platform_color": "#00b300",
+      "board": "Chiayi",
+      "date": "06/08",
+      "author": "PTT 鄉民",
+      "title": "[亂入] 6/9 梅山竹崎番路大埔阿里山鄉停班停課",
+      "url": "https://www.ptt.cc/bbs/Chiayi/M.1780933457.A.635.html",
+      "reactions": 0,
+      "comments": 0,
+      "category": "市政議題",
+      "source": "ptt"
+    },
+    {
       "id": "ptt-httpswwwpttccbbsChiayiM1780928006AD02html",
       "platform": "PTT",
       "platform_color": "#00b300",
@@ -269,7 +283,7 @@
       "platform": "PTT",
       "platform_color": "#00b300",
       "board": "Chiayi",
-      "date": "06/08",
+      "date": "06/09",
       "author": "PTT 鄉民",
       "title": "[新聞] 嘉義藍白合2／張啟楷拋「0歲存5萬」　",
       "url": "https://www.ptt.cc/bbs/Chiayi/M.1780900878.A.371.html",
@@ -385,20 +399,6 @@
       "author": "PTT 鄉民",
       "title": "[問題] 百立牙醫（治療蛀牙）",
       "url": "https://www.ptt.cc/bbs/Chiayi/M.1780650427.A.CFD.html",
-      "reactions": 0,
-      "comments": 0,
-      "category": "市政議題",
-      "source": "ptt"
-    },
-    {
-      "id": "ptt-httpswwwpttccbbsChiayiM1780644140A8C0html",
-      "platform": "PTT",
-      "platform_color": "#00b300",
-      "board": "Chiayi",
-      "date": "06/08",
-      "author": "PTT 鄉民",
-      "title": "［閒聊］五星縣長光環下的扯事",
-      "url": "https://www.ptt.cc/bbs/Chiayi/M.1780644140.A.8C0.html",
       "reactions": 0,
       "comments": 0,
       "category": "市政議題",
