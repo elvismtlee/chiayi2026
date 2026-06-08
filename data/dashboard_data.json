@@ -1,6 +1,34 @@
 {
-  "updated_at": "2026-06-07T19:23:04.049183",
+  "updated_at": "2026-06-08T03:35:28.762051",
   "news": [
+    {
+      "headline": "嘉義市路邊停車格於端午節當日暫停收費",
+      "source": "嘉義市政府/交通處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=939788",
+      "date": "2026/06/08",
+      "query": "市府新聞"
+    },
+    {
+      "headline": "嘉義囝仔廖士賢《南風》MV故鄉首映黃敏惠市長到場祝賀：嘉義人的才華值得被世界看見",
+      "source": "嘉義市政府/文化局/觀光新聞處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=939787",
+      "date": "2026/06/08",
+      "query": "市府新聞"
+    },
+    {
+      "headline": "嘉市東、西區衛生所加開假日門診，提供長者肺炎鏈球菌及幼兒常規疫苗接種服務，市民接種疫苗可獲洗碗精1瓶",
+      "source": "嘉義市政府/衛生局/觀光新聞處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=939784",
+      "date": "2026/06/08",
+      "query": "市府新聞"
+    },
+    {
+      "headline": "嘉義市政府衛生局公布「115年度端午節相關業者及應景食品稽查抽驗專案」執行結果",
+      "source": "嘉義市政府/衛生局",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=939621",
+      "date": "2026/06/08",
+      "query": "市府新聞"
+    },
     {
       "headline": "醫界父子檔傳承醫者心！丞泰牙醫喬遷打造全齡口腔照護新環境",
       "source": "嘉義市政府/衛生局/觀光新聞處",
@@ -56,41 +84,13 @@
       "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=939646",
       "date": "2026/06/06",
       "query": "市府新聞"
-    },
-    {
-      "headline": "公告「嘉義市嘉北國小地下停車場」車位登記抽籤公告",
-      "source": "嘉義市政府/交通處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=939595",
-      "date": "2026/06/05",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "防疫實力大增！專家傳授孳生源巡檢技巧守護無蚊嘉園",
-      "source": "嘉義市政府/嘉義市政府環境保護局/清潔隊",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=939627",
-      "date": "2026/06/05",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "嘉義市發布首本「都市設計審議作業手冊」，打造會呼吸的宜居城市",
-      "source": "嘉義市政府/都市發展處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=939648",
-      "date": "2026/06/05",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "荔枝減產有補助！嘉義市即日起受理天然災害現金救助",
-      "source": "嘉義市政府/建設處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=939644",
-      "date": "2026/06/05",
-      "query": "市府新聞"
     }
   ],
   "complaint_stats": {
-    "total": 76675,
-    "record_count": 481,
+    "total": 77331,
+    "record_count": 482,
     "category_counts": {
-      "公共安全": 35882,
+      "公共安全": 36538,
       "交通停車": 7743,
       "道路路平": 229,
       "環境衛生": 5,
@@ -98,7 +98,7 @@
     },
     "subcategory_counts": {
       "公共安全": {
-        "交通事故": 35824,
+        "交通事故": 36480,
         "路燈照明": 20,
         "水域安全": 38
       },
@@ -166,7 +166,7 @@
     "top_categories": [
       {
         "category": "公共安全",
-        "count": 35882
+        "count": 36538
       },
       {
         "category": "交通停車",
@@ -198,11 +198,11 @@
       "2023": 3318,
       "2024": 3270,
       "2025": 8885,
-      "2026": 767,
+      "2026": 1423,
       "2012": 1,
       "2013": 1
     },
-    "updated_at": "2026-06-07T19:20:43.662161",
+    "updated_at": "2026-06-08T03:33:32.618587",
     "source": "data.chiayi.gov.tw"
   },
   "council": {
@@ -269,7 +269,7 @@
       "platform": "PTT",
       "platform_color": "#00b300",
       "board": "Chiayi",
-      "date": "06/07",
+      "date": "06/08",
       "author": "PTT 鄉民",
       "title": "[認養] 1個月左右小貓*6隻",
       "url": "https://www.ptt.cc/bbs/Chiayi/M.1780804679.A.A4C.html",
