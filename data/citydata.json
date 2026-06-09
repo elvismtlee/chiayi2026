@@ -1,16 +1,16 @@
 {
-  "updated_at": "2026-06-09T14:46:22.805633",
+  "updated_at": "2026-06-09T20:05:28.962929",
   "aqi_realtime": [
     {
       "station": "嘉義市（Open-Meteo 模型）",
-      "aqi": 5,
-      "pm25": 4.0,
-      "pm10": 4.1,
-      "o3": 31.0,
-      "no2": 40.0,
+      "aqi": 2,
+      "pm25": 2.0,
+      "pm10": 2.1,
+      "o3": 63.0,
+      "no2": 11.8,
       "status": "良好",
       "pollutant": "PM2.5",
-      "time": "2026-06-09T22:00",
+      "time": "2026-06-10T04:00",
       "source": "Open-Meteo"
     }
   ],
@@ -27,15 +27,15 @@
   "weather": [
     {
       "station": "嘉義市（Open-Meteo）",
-      "temp": "24.7",
-      "apparent_temp": "27.9",
-      "humidity": "92",
-      "rainfall": "0.1",
-      "wind_speed": "17.6",
-      "wind_dir": "165",
+      "temp": "24.6",
+      "apparent_temp": "28.6",
+      "humidity": "94",
+      "rainfall": "0.6",
+      "wind_speed": "13.0",
+      "wind_dir": "170",
       "cloud": "100",
-      "weather": "毛雨",
-      "time": "2026-06-09 22:45",
+      "weather": "陣雨",
+      "time": "2026-06-10 04:00",
       "source": "Open-Meteo"
     }
   ],
@@ -48,16 +48,16 @@
       "source": "Google新聞"
     },
     {
-      "title": "嘉義市411頂尖學子獲獎　黃敏惠：AI時代人才決定未來 - ETtoday新聞雲",
+      "title": "嘉義市國際蘭馨交流協會捐贈新美國小交通車 - 大纪元",
       "date": "Tue, 09 Jun 2026",
-      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1JVnhxVGcwY3E2YzNuSUs0dVNhUUJZYWhBUFF5aGVYRkZkclItRGwzRjIxQlR3NDB5cFFNclJ6WHRiYk84SnBnVklyWTdDMURqX3NvYkUyT3pTY3NvaFHSAWhBVV95cUxNTlo4WE5qRXd3ejU3RTNjWkVRbHBWanFlWHpjWTFOTm9wYWhvUWhJRVVlM293YWttdDY0X0NycGItYkZ0dlJDN2Ryc29RUVJJR3JmUGF6ZWQtVmo1Uk1rTWs3TXphQnFibw?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE43TUdLeGdHRG9IU3UwZ0owZVc3enhuazhILUMwTnhWNC1NOHctbmxtNzNVcWlRZE01QTVZUTZfbU1nS0kyMVc3Z0JJT2kzLVBvNExyUzdTc2gwMzAzS3d30gFkQVVfeXFMTjJZaVNmUHFQalFwTzBNeXJHTzJHbTAyQnFLdkVLYmZtdFlVMW1vVFNzOXk1TjZNYTZacXNlcUhGTHZ5XzJUSHl2NUxVWnFXeDJGa2RlajREOFpxODhTM0I0UE03ag?oc=5",
       "desc": "",
       "source": "Google新聞"
     },
     {
-      "title": "從軍眷村到新木都生活場域！建國二村、復興新村全新風貌搶先看 - 城市學",
+      "title": "嘉義市411頂尖學子獲獎　黃敏惠：AI時代人才決定未來 - ETtoday新聞雲",
       "date": "Tue, 09 Jun 2026",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBLV0tJQnVRTnVqTWpfWDVreFYtdVUwNUJnVDdCM1dEODNTcnppeVVQM2wzZmVhZGVRdEpqeGJ5NGZnUVBqTnZ1M0JxdFVwbHc?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1JVnhxVGcwY3E2YzNuSUs0dVNhUUJZYWhBUFF5aGVYRkZkclItRGwzRjIxQlR3NDB5cFFNclJ6WHRiYk84SnBnVklyWTdDMURqX3NvYkUyT3pTY3NvaFHSAWhBVV95cUxNTlo4WE5qRXd3ejU3RTNjWkVRbHBWanFlWHpjWTFOTm9wYWhvUWhJRVVlM293YWttdDY0X0NycGItYkZ0dlJDN2Ryc29RUVJJR3JmUGF6ZWQtVmo1Uk1rTWs3TXphQnFibw?oc=5",
       "desc": "",
       "source": "Google新聞"
     },
@@ -69,16 +69,16 @@
       "source": "Google新聞"
     },
     {
-      "title": "市長獎暨議長獎頒獎典禮登場 黃敏惠市長祝福學子自信啟航 - 中央社 CNA",
+      "title": "從軍眷村到新木都生活場域！建國二村、復興新村全新風貌搶先看 - 城市學",
       "date": "Tue, 09 Jun 2026",
-      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5EZkk5U3QzMFduTG9fbk1aX0l0a2kxUXpsVDhaM0xBTkdJWFJtZlZnNnk3aVZXTWh4QTN3eWNweXhaek10Wll0MnE4alJabEF1UnJBZml3?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBLV0tJQnVRTnVqTWpfWDVreFYtdVUwNUJnVDdCM1dEODNTcnppeVVQM2wzZmVhZGVRdEpqeGJ5NGZnUVBqTnZ1M0JxdFVwbHc?oc=5",
       "desc": "",
       "source": "Google新聞"
     },
     {
-      "title": "黃敏惠駁炒地傳言　強調任內家人未購置嘉義土地 | 政治 | CTWANT - CTWANT",
-      "date": "Mon, 08 Jun 2026",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFB4a0dDbUVqZ1R1WVdLdjBSVWFtQWhRcXJacHRUek00WjJ2dVBSSmFRV3RSWm0tVG0wTGMwMUJ5ODY4MC1Ja01CNDhFcmxwTTjSAVRBVV95cUxPdXdiQm9mdnpoY3ExX3hJaHhiR3YyaGcyb1lPVVQwNF82Vk0wdjh2WXNPdHJYTDFoSDU5cFBneVBWVGY2U1JDX29mT05VQ0RYUjhWNk4?oc=5",
+      "title": "市長獎暨議長獎頒獎典禮登場 黃敏惠市長祝福學子自信啟航 - 中央社 CNA",
+      "date": "Tue, 09 Jun 2026",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5EZkk5U3QzMFduTG9fbk1aX0l0a2kxUXpsVDhaM0xBTkdJWFJtZlZnNnk3aVZXTWh4QTN3eWNweXhaek10Wll0MnE4alJabEF1UnJBZml3?oc=5",
       "desc": "",
       "source": "Google新聞"
     }
@@ -95,6 +95,13 @@
       "title": "王美惠立委邀國土署官員實勘 強化嘉義市整體防洪韌性 - 觀傳媒",
       "date": "Tue, 12 May 2026",
       "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE01VnVDLUt3bG9yLUdyckxHakc1UUJ5MDEwVnZoU20tLXBCNUFkZXJic21xV1JKS2FzTHVxYUhFUUdMREZTVV81MnJTYk5ma1V1LWJZMUluZw?oc=5",
+      "org": "新聞資訊",
+      "source": "Google新聞"
+    },
+    {
+      "title": "民進黨政府執政嘉義市建設狂「跳票」 張啓楷籲勿把嘉市當政治鬥爭犧牲品 - 蕃新聞",
+      "date": "Tue, 19 May 2026",
+      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFA3Y2NmU2JPRkxEUjZmemo1N25uLWxfM0hHVGdmZzhDajBIMkJ2YjYydFd6R1ZGdUVwaFozVlJmalMtbzNaQ2pnOXFBUUpWclU1RUE?oc=5",
       "org": "新聞資訊",
       "source": "Google新聞"
     },
@@ -123,13 +130,6 @@
       "title": "「嘉義市污水系統第一期-分支網及用戶接管第8、9標工程」竣工典禮黃敏惠市長：城市欸靠山抵嘉 - chiayi.gov.tw",
       "date": "Wed, 21 Jan 2026",
       "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5raFM0MEJraHdKNlJPMTZUVkM2Z2ZvZ3hsREtKRjVRSWVZLWhXUkp6dlZWSWc3YWdvbTl3MFB3dlFVNmN1YVN3dGN1b2FXQ2R2TEw5ZjE1ZEppWEM2QnhuQWJYdk5HazFIZlE?oc=5",
-      "org": "新聞資訊",
-      "source": "Google新聞"
-    },
-    {
-      "title": "嘉義市污水下水道系統第一期建設完工中央挹注污水下水道經費達39億元讓接管普及率躍升南台灣第三|內政 - 僑務電子報",
-      "date": "Fri, 23 Jan 2026",
-      "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE1yOWZHS2FHS01jSUZoUzZvOFQzd19qaDhHR24xQ0VyZmdpdC1JTE5nbmczb2NNRlpyMHFRY1EtTXBfeDM3RUY1R19vQQ?oc=5",
       "org": "新聞資訊",
       "source": "Google新聞"
     },
@@ -273,7 +273,7 @@
       "lat": 23.478707,
       "lng": 120.462594,
       "total": 38,
-      "available": 19,
+      "available": 7,
       "addr": "啟明路122號(前)"
     },
     {
@@ -282,7 +282,7 @@
       "lat": 23.477031,
       "lng": 120.465573,
       "total": 34,
-      "available": 28,
+      "available": 16,
       "addr": "大雅路二段738號(前)"
     },
     {
@@ -291,7 +291,7 @@
       "lat": 23.4798596,
       "lng": 120.4488291,
       "total": 20,
-      "available": 11,
+      "available": 10,
       "addr": "中山路306號"
     },
     {
@@ -309,7 +309,7 @@
       "lat": 23.47917,
       "lng": 120.44186,
       "total": 99,
-      "available": 52,
+      "available": 87,
       "addr": "中山路524號"
     },
     {
@@ -318,7 +318,7 @@
       "lat": 23.47877,
       "lng": 120.44089,
       "total": 42,
-      "available": 20,
+      "available": 35,
       "addr": "中山路528號"
     },
     {
@@ -345,7 +345,7 @@
       "lat": 23.4738724,
       "lng": 120.4493073,
       "total": 20,
-      "available": 12,
+      "available": 9,
       "addr": "垂楊路434號"
     },
     {
@@ -381,7 +381,7 @@
       "lat": 23.48465,
       "lng": 120.43354,
       "total": 14,
-      "available": 3,
+      "available": 1,
       "addr": "友愛興達路口"
     },
     {
@@ -390,7 +390,7 @@
       "lat": 23.48931,
       "lng": 120.4361,
       "total": 15,
-      "available": 7,
+      "available": 6,
       "addr": "自由路298號"
     },
     {
@@ -408,7 +408,7 @@
       "lat": 23.478941,
       "lng": 120.437805,
       "total": 23,
-      "available": 9,
+      "available": 8,
       "addr": "博愛路二段281號"
     },
     {
@@ -422,5 +422,5 @@
     }
   ],
   "water": [],
-  "fetch_seconds": 136.2
+  "fetch_seconds": 93.5
 }
