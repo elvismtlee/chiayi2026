@@ -1,6 +1,27 @@
 {
-  "updated_at": "2026-06-09T02:44:48.315364",
+  "updated_at": "2026-06-09T09:40:55.241217",
   "news": [
+    {
+      "headline": "嘉市府召開「長榮公園地下停車場新建統包工程」施工前里民說明會廣納地方意見",
+      "source": "嘉義市政府/交通處/觀光新聞處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=939916",
+      "date": "2026/06/09",
+      "query": "市府新聞"
+    },
+    {
+      "headline": "嘉義市舉辦115年全中運暨全小田代表隊聯合慶功宴表揚績優選手與教練",
+      "source": "嘉義市政府/教育處/觀光新聞處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=939915",
+      "date": "2026/06/09",
+      "query": "市府新聞"
+    },
+    {
+      "headline": "114年市長獎暨議長獎頒獎典禮登場黃敏惠市長祝福桃城學子自信啟航邁向新里程",
+      "source": "嘉義市政府/教育處/觀光新聞處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=939909",
+      "date": "2026/06/09",
+      "query": "市府新聞"
+    },
     {
       "headline": "嘉市府舉辦食品業者倡議論壇攜手產官學用誠信守護食安",
       "source": "嘉義市政府/政風處/觀光新聞處",
@@ -44,13 +65,6 @@
       "query": "市府新聞"
     },
     {
-      "headline": "嘉義市路邊停車格於端午節當日暫停收費",
-      "source": "嘉義市政府/交通處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=939788",
-      "date": "2026/06/08",
-      "query": "市府新聞"
-    },
-    {
       "headline": "嘉義囝仔廖士賢《南風》MV故鄉首映黃敏惠市長到場祝賀：嘉義人的才華值得被世界看見",
       "source": "嘉義市政府/文化局/觀光新聞處",
       "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=939787",
@@ -69,20 +83,6 @@
       "source": "嘉義市政府/衛生局",
       "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=939621",
       "date": "2026/06/08",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "醫界父子檔傳承醫者心！丞泰牙醫喬遷打造全齡口腔照護新環境",
-      "source": "嘉義市政府/衛生局/觀光新聞處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=939741",
-      "date": "2026/06/07",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "嘉義市115年度童軍運動會熱鬧登場！超過450位童軍同場較勁展現童軍智、仁、勇精神",
-      "source": "嘉義市政府/教育處/觀光新聞處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=939738",
-      "date": "2026/06/07",
       "query": "市府新聞"
     }
   ],
@@ -202,7 +202,7 @@
       "2012": 1,
       "2013": 1
     },
-    "updated_at": "2026-06-09T02:43:01.568414",
+    "updated_at": "2026-06-09T09:38:23.515563",
     "source": "data.chiayi.gov.tw"
   },
   "council": {
@@ -237,6 +237,20 @@
   "citizen_stats": {},
   "social_posts": [
     {
+      "id": "ptt-httpswwwpttccbbsChiayiM1780991181A9A6html",
+      "platform": "PTT",
+      "platform_color": "#00b300",
+      "board": "Chiayi",
+      "date": "06/09",
+      "author": "PTT 鄉民",
+      "title": "[合購] 好市多富雨自動傘+ 桌上型擺頭隨行風扇 ",
+      "url": "https://www.ptt.cc/bbs/Chiayi/M.1780991181.A.9A6.html",
+      "reactions": 0,
+      "comments": 0,
+      "category": "市政議題",
+      "source": "ptt"
+    },
+    {
       "id": "ptt-httpswwwpttccbbsChiayiM1780933457A635html",
       "platform": "PTT",
       "platform_color": "#00b300",
@@ -255,7 +269,7 @@
       "platform": "PTT",
       "platform_color": "#00b300",
       "board": "Chiayi",
-      "date": "06/08",
+      "date": "06/09",
       "author": "PTT 鄉民",
       "title": "[新聞] 饗食天堂、莫內饗宴2大人氣品牌將進駐 ",
       "url": "https://www.ptt.cc/bbs/Chiayi/M.1780928006.A.D02.html",
@@ -339,7 +353,7 @@
       "platform": "PTT",
       "platform_color": "#00b300",
       "board": "Chiayi",
-      "date": "06/08",
+      "date": "06/09",
       "author": "PTT 鄉民",
       "title": "[新聞] 嘉義8旬身障嬤日行10里撿千瓶菸蒂 兌換2",
       "url": "https://www.ptt.cc/bbs/Chiayi/M.1780787717.A.FAD.html",
@@ -385,20 +399,6 @@
       "author": "PTT 鄉民",
       "title": "[新聞] 煙波集團插旗嘉市檜意森活村本月開始營運",
       "url": "https://www.ptt.cc/bbs/Chiayi/M.1780673929.A.999.html",
-      "reactions": 0,
-      "comments": 0,
-      "category": "市政議題",
-      "source": "ptt"
-    },
-    {
-      "id": "ptt-httpswwwpttccbbsChiayiM1780650427ACFDhtml",
-      "platform": "PTT",
-      "platform_color": "#00b300",
-      "board": "Chiayi",
-      "date": "06/07",
-      "author": "PTT 鄉民",
-      "title": "[問題] 百立牙醫（治療蛀牙）",
-      "url": "https://www.ptt.cc/bbs/Chiayi/M.1780650427.A.CFD.html",
       "reactions": 0,
       "comments": 0,
       "category": "市政議題",
