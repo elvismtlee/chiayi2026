@@ -1,5 +1,19 @@
 [
   {
+    "id": "ptt-httpswwwpttccbbsGossipingM1781059920A036html",
+    "platform": "PTT",
+    "platform_color": "#00b300",
+    "board": "Gossiping",
+    "date": "06/10",
+    "author": "PTT 鄉民",
+    "title": "[新聞] 台南機車「追撞垃圾車」！騎士騰空飛進",
+    "url": "https://www.ptt.cc/bbs/Gossiping/M.1781059920.A.036.html",
+    "reactions": 0,
+    "comments": 0,
+    "category": "交通停車",
+    "source": "ptt"
+  },
+  {
     "id": "ptt-httpswwwpttccbbsChiayiM1781026168A128html",
     "platform": "PTT",
     "platform_color": "#00b300",
@@ -74,7 +88,7 @@
     "platform": "PTT",
     "platform_color": "#00b300",
     "board": "Chiayi",
-    "date": "06/09",
+    "date": "06/10",
     "author": "PTT 鄉民",
     "title": "[新聞] 嘉義藍白合2／張啟楷拋「0歲存5萬」　",
     "url": "https://www.ptt.cc/bbs/Chiayi/M.1780900878.A.371.html",
@@ -151,20 +165,6 @@
     "reactions": 0,
     "comments": 0,
     "category": "市政議題",
-    "source": "ptt"
-  },
-  {
-    "id": "ptt-httpswwwpttccbbsChiayiM1780744171AEC1html",
-    "platform": "PTT",
-    "platform_color": "#00b300",
-    "board": "Chiayi",
-    "date": "06/06",
-    "author": "PTT 鄉民",
-    "title": "[綠記] 蒜頭糖廠 蔗埕文化園區 一日遊",
-    "url": "https://www.ptt.cc/bbs/Chiayi/M.1780744171.A.EC1.html",
-    "reactions": 0,
-    "comments": 0,
-    "category": "文化觀光",
     "source": "ptt"
   }
 ]
