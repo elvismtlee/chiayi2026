@@ -1,6 +1,13 @@
 {
-  "updated_at": "2026-06-10T09:56:48.051135",
+  "updated_at": "2026-06-10T15:29:09.709631",
   "news": [
+    {
+      "headline": "嘉義市召開115年第1次食安推動委員會跨局處把關食安守護市民健康",
+      "source": "嘉義市政府/衛生局",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=940022",
+      "date": "2026/06/10",
+      "query": "市府新聞"
+    },
     {
       "headline": "嘉屋首獎揭曉竹圍子林宅展現新木都宜居建築典範",
       "source": "嘉義市政府/都市發展處/觀光新聞處",
@@ -75,13 +82,6 @@
       "headline": "鋒面及西南氣流接力影響嘉市府全面戒備、落實防汛工作",
       "source": "嘉義市政府/工務處/環保局/觀光新聞處",
       "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=939809",
-      "date": "2026/06/08",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "頂好時光，庄頭派對—獨角仙季秘境開幕活動",
-      "source": "嘉義市政府/嘉義市政府環境保護局/綜合計畫科",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=939806",
       "date": "2026/06/08",
       "query": "市府新聞"
     }
@@ -202,7 +202,7 @@
       "2012": 1,
       "2013": 1
     },
-    "updated_at": "2026-06-10T09:54:07.903440",
+    "updated_at": "2026-06-10T15:27:15.808888",
     "source": "data.chiayi.gov.tw"
   },
   "council": {
@@ -236,6 +236,20 @@
   },
   "citizen_stats": {},
   "social_posts": [
+    {
+      "id": "ptt-httpswwwpttccbbsChiayiM1781100351A6E3html",
+      "platform": "PTT",
+      "platform_color": "#00b300",
+      "board": "Chiayi",
+      "date": "06/10",
+      "author": "PTT 鄉民",
+      "title": "[買賣] 衛生紙 拿鐵 氣炸鍋 聚 西堤 陶板屋 積木",
+      "url": "https://www.ptt.cc/bbs/Chiayi/M.1781100351.A.6E3.html",
+      "reactions": 0,
+      "comments": 0,
+      "category": "市政議題",
+      "source": "ptt"
+    },
     {
       "id": "ptt-httpswwwpttccbbsChiayiM1781026168A128html",
       "platform": "PTT",
@@ -339,7 +353,7 @@
       "platform": "PTT",
       "platform_color": "#00b300",
       "board": "Chiayi",
-      "date": "06/09",
+      "date": "06/10",
       "author": "PTT 鄉民",
       "title": "[買賣] 全新循環扇+膠囊咖啡機/膠囊+絨毛毯",
       "url": "https://www.ptt.cc/bbs/Chiayi/M.1780812681.A.A29.html",
@@ -388,20 +402,6 @@
       "reactions": 0,
       "comments": 0,
       "category": "市政議題",
-      "source": "ptt"
-    },
-    {
-      "id": "ptt-httpswwwpttccbbsChiayiM1780744171AEC1html",
-      "platform": "PTT",
-      "platform_color": "#00b300",
-      "board": "Chiayi",
-      "date": "06/06",
-      "author": "PTT 鄉民",
-      "title": "[綠記] 蒜頭糖廠 蔗埕文化園區 一日遊",
-      "url": "https://www.ptt.cc/bbs/Chiayi/M.1780744171.A.EC1.html",
-      "reactions": 0,
-      "comments": 0,
-      "category": "文化觀光",
       "source": "ptt"
     }
   ]
