@@ -1,6 +1,20 @@
 {
-  "updated_at": "2026-06-10T02:58:28.639289",
+  "updated_at": "2026-06-10T09:56:48.051135",
   "news": [
+    {
+      "headline": "嘉屋首獎揭曉竹圍子林宅展現新木都宜居建築典範",
+      "source": "嘉義市政府/都市發展處/觀光新聞處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=940001",
+      "date": "2026/06/10",
+      "query": "市府新聞"
+    },
+    {
+      "headline": "嘉義市編劇人才培訓首梯結業DemoDay引進業界實戰點評接軌影視產業",
+      "source": "嘉義市政府/文化局/觀光新聞處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=939996",
+      "date": "2026/06/10",
+      "query": "市府新聞"
+    },
     {
       "headline": "不動產買賣最常吵什麼？最新統計出爐！",
       "source": "嘉義市政府/地政處",
@@ -68,20 +82,6 @@
       "headline": "頂好時光，庄頭派對—獨角仙季秘境開幕活動",
       "source": "嘉義市政府/嘉義市政府環境保護局/綜合計畫科",
       "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=939806",
-      "date": "2026/06/08",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "跨海深化台日教育交流蘭潭國小師生參訪日本熊本縣玉名町小學校",
-      "source": "嘉義市政府/教育處/觀光新聞處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=939804",
-      "date": "2026/06/08",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "嘉義囝仔廖士賢《南風》MV故鄉首映黃敏惠市長到場祝賀：嘉義人的才華值得被世界看見",
-      "source": "嘉義市政府/文化局/觀光新聞處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=939787",
       "date": "2026/06/08",
       "query": "市府新聞"
     }
@@ -202,7 +202,7 @@
       "2012": 1,
       "2013": 1
     },
-    "updated_at": "2026-06-10T02:56:30.125921",
+    "updated_at": "2026-06-10T09:54:07.903440",
     "source": "data.chiayi.gov.tw"
   },
   "council": {
@@ -236,20 +236,6 @@
   },
   "citizen_stats": {},
   "social_posts": [
-    {
-      "id": "ptt-httpswwwpttccbbsGossipingM1781059920A036html",
-      "platform": "PTT",
-      "platform_color": "#00b300",
-      "board": "Gossiping",
-      "date": "06/10",
-      "author": "PTT 鄉民",
-      "title": "[新聞] 台南機車「追撞垃圾車」！騎士騰空飛進",
-      "url": "https://www.ptt.cc/bbs/Gossiping/M.1781059920.A.036.html",
-      "reactions": 0,
-      "comments": 0,
-      "category": "交通停車",
-      "source": "ptt"
-    },
     {
       "id": "ptt-httpswwwpttccbbsChiayiM1781026168A128html",
       "platform": "PTT",
@@ -297,7 +283,7 @@
       "platform": "PTT",
       "platform_color": "#00b300",
       "board": "Chiayi",
-      "date": "06/09",
+      "date": "06/10",
       "author": "PTT 鄉民",
       "title": "[新聞] 饗食天堂、莫內饗宴2大人氣品牌將進駐 ",
       "url": "https://www.ptt.cc/bbs/Chiayi/M.1780928006.A.D02.html",
@@ -402,6 +388,20 @@
       "reactions": 0,
       "comments": 0,
       "category": "市政議題",
+      "source": "ptt"
+    },
+    {
+      "id": "ptt-httpswwwpttccbbsChiayiM1780744171AEC1html",
+      "platform": "PTT",
+      "platform_color": "#00b300",
+      "board": "Chiayi",
+      "date": "06/06",
+      "author": "PTT 鄉民",
+      "title": "[綠記] 蒜頭糖廠 蔗埕文化園區 一日遊",
+      "url": "https://www.ptt.cc/bbs/Chiayi/M.1780744171.A.EC1.html",
+      "reactions": 0,
+      "comments": 0,
+      "category": "文化觀光",
       "source": "ptt"
     }
   ]
