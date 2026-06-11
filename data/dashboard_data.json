@@ -1,6 +1,48 @@
 {
-  "updated_at": "2026-06-11T03:44:39.884706",
+  "updated_at": "2026-06-11T10:18:51.478467",
   "news": [
+    {
+      "headline": "嘉義市區域設計中心舊菸葉廠一號倉庫正式揭牌啟用嘉義市設計周串聯國際同步登場",
+      "source": "嘉義市政府/文化局/觀光新聞處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=941418",
+      "date": "2026/06/11",
+      "query": "市府新聞"
+    },
+    {
+      "headline": "回收更方便還有加碼優惠嘉義市攜手全家推動循環新日常",
+      "source": "嘉義市政府/嘉義市政府環境保護局/資源循環管理科",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=940534",
+      "date": "2026/06/11",
+      "query": "市府新聞"
+    },
+    {
+      "headline": "嘉義市挺在地產業！宣布納管及特登工廠「雙金免收一年」結合AI與低碳智慧轉型引領業者迎來下一個春天",
+      "source": "嘉義市政府/建設處/觀光新聞處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=940510",
+      "date": "2026/06/11",
+      "query": "市府新聞"
+    },
+    {
+      "headline": "餐飲油水減污油脂截留有方法",
+      "source": "嘉義市政府/嘉義市政府環境保護局/環境品質管理科",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=940456",
+      "date": "2026/06/11",
+      "query": "市府新聞"
+    },
+    {
+      "headline": "衛福部嘉義醫院新任院長陳殷正就職！黃敏惠市長盼攜手打造全齡共享、世代宜居健康城市",
+      "source": "嘉義市政府/衛生局/觀光新聞處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=940454",
+      "date": "2026/06/11",
+      "query": "市府新聞"
+    },
+    {
+      "headline": "從迷惘中成長、在挑戰中前行黃敏惠市長勉勵畢業生勇敢追夢迎未來",
+      "source": "嘉義市政府/教育處/觀光新聞處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=940310",
+      "date": "2026/06/11",
+      "query": "市府新聞"
+    },
     {
       "headline": "嘉義市查獲千萬電子煙倉庫衛生局示警：包裝時尚卻藏致命健康危害",
       "source": "嘉義市政府/衛生局",
@@ -41,48 +83,6 @@
       "source": "嘉義市政府/地政處",
       "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=939497",
       "date": "2026/06/10",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "嘉義市衛生醫療再奪全國佳績轉呈21項獎項展現守護全齡市民健康成果",
-      "source": "嘉義市政府/衛生局/觀光新聞處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=939929",
-      "date": "2026/06/09",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "嘉市府召開「長榮公園地下停車場新建統包工程」施工前里民說明會廣納地方意見",
-      "source": "嘉義市政府/交通處/觀光新聞處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=939916",
-      "date": "2026/06/09",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "嘉義市舉辦115年全中運暨全小田代表隊聯合慶功宴表揚績優選手與教練",
-      "source": "嘉義市政府/教育處/觀光新聞處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=939915",
-      "date": "2026/06/09",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "114學年度市長獎暨議長獎頒獎典禮登場黃敏惠市長祝福桃城學子自信啟航邁向新里程",
-      "source": "嘉義市政府/教育處/觀光新聞處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=939909",
-      "date": "2026/06/09",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "嘉市府舉辦食品業者倡議論壇攜手產官學用誠信守護食安",
-      "source": "嘉義市政府/政風處/觀光新聞處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=939827",
-      "date": "2026/06/08",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "嘉市警察節慶祝大會黃敏惠市長表揚績優警民力感謝守護城市安全",
-      "source": "嘉義市政府/警察局/觀光新聞處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=939816",
-      "date": "2026/06/08",
       "query": "市府新聞"
     }
   ],
@@ -202,7 +202,7 @@
       "2012": 1,
       "2013": 1
     },
-    "updated_at": "2026-06-11T03:38:32.496465",
+    "updated_at": "2026-06-11T10:17:07.958525",
     "source": "data.chiayi.gov.tw"
   },
   "council": {
@@ -236,6 +236,20 @@
   },
   "citizen_stats": {},
   "social_posts": [
+    {
+      "id": "ptt-httpswwwpttccbbsChiayiM1781163742A42Ahtml",
+      "platform": "PTT",
+      "platform_color": "#00b300",
+      "board": "Chiayi",
+      "date": "06/11",
+      "author": "PTT 鄉民",
+      "title": "[徵人] 6/24柯南電影 找人分電影票徽章 in89",
+      "url": "https://www.ptt.cc/bbs/Chiayi/M.1781163742.A.42A.html",
+      "reactions": 0,
+      "comments": 0,
+      "category": "市政議題",
+      "source": "ptt"
+    },
     {
       "id": "ptt-httpswwwpttccbbsChiayiM1781100351A6E3html",
       "platform": "PTT",
@@ -325,7 +339,7 @@
       "platform": "PTT",
       "platform_color": "#00b300",
       "board": "Chiayi",
-      "date": "06/10",
+      "date": "06/11",
       "author": "PTT 鄉民",
       "title": "[新聞] 嘉義藍白合2／張啟楷拋「0歲存5萬」　",
       "url": "https://www.ptt.cc/bbs/Chiayi/M.1780900878.A.371.html",
@@ -388,20 +402,6 @@
       "reactions": 0,
       "comments": 0,
       "category": "社福高齡",
-      "source": "ptt"
-    },
-    {
-      "id": "ptt-httpswwwpttccbbsChiayiM1780748245AEF5html",
-      "platform": "PTT",
-      "platform_color": "#00b300",
-      "board": "Chiayi",
-      "date": "06/06",
-      "author": "PTT 鄉民",
-      "title": "[廣告] 日文招生 長庚縣府",
-      "url": "https://www.ptt.cc/bbs/Chiayi/M.1780748245.A.EF5.html",
-      "reactions": 0,
-      "comments": 0,
-      "category": "市政議題",
       "source": "ptt"
     }
   ]
