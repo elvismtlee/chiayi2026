@@ -1,6 +1,20 @@
 {
-  "updated_at": "2026-06-11T20:21:44.740802",
+  "updated_at": "2026-06-12T03:33:14.668014",
   "news": [
+    {
+      "headline": "90萬獎金助攻跨域業師培力第七屆有事青年行動競賽開跑邀青年「在嘉玩出新公式」",
+      "source": "嘉義市政府/企劃處/觀光新聞處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=941664",
+      "date": "2026/06/12",
+      "query": "市府新聞"
+    },
+    {
+      "headline": "納保官與您有約零距離解決稅務煩惱",
+      "source": "嘉義市政府/財政稅務局",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=939124",
+      "date": "2026/06/12",
+      "query": "市府新聞"
+    },
     {
       "headline": "嘉義市區域設計中心舊菸葉廠一號倉庫正式揭牌啟用嘉義市設計周串聯國際同步登場",
       "source": "嘉義市政府/文化局/觀光新聞處",
@@ -68,20 +82,6 @@
       "headline": "嘉屋首獎揭曉竹圍子林宅展現新木都宜居建築典範",
       "source": "嘉義市政府/都市發展處/觀光新聞處",
       "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=940001",
-      "date": "2026/06/10",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "嘉義市編劇人才培訓首梯結業DemoDay引進業界實戰點評接軌影視產業",
-      "source": "嘉義市政府/文化局/觀光新聞處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=939996",
-      "date": "2026/06/10",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "不動產買賣最常吵什麼？最新統計出爐！",
-      "source": "嘉義市政府/地政處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=939497",
       "date": "2026/06/10",
       "query": "市府新聞"
     }
@@ -202,7 +202,7 @@
       "2012": 1,
       "2013": 1
     },
-    "updated_at": "2026-06-11T20:19:50.335352",
+    "updated_at": "2026-06-12T03:31:32.332617",
     "source": "data.chiayi.gov.tw"
   },
   "council": {
@@ -283,7 +283,7 @@
       "platform": "PTT",
       "platform_color": "#00b300",
       "board": "Chiayi",
-      "date": "06/11",
+      "date": "06/12",
       "author": "PTT 鄉民",
       "title": "［新聞］ 嘉義市議員王浩指快慢車道分隔島易成",
       "url": "https://www.ptt.cc/bbs/Chiayi/M.1781026168.A.128.html",
