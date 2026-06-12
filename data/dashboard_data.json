@@ -1,6 +1,13 @@
 {
-  "updated_at": "2026-06-12T03:33:14.668014",
+  "updated_at": "2026-06-12T10:10:50.104161",
   "news": [
+    {
+      "headline": "嘉義市畢業季登場！黃敏惠市長勉勵孩子向光而行照耀他人",
+      "source": "嘉義市政府/教育處/觀光新聞處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=942118",
+      "date": "2026/06/12",
+      "query": "市府新聞"
+    },
     {
       "headline": "90萬獎金助攻跨域業師培力第七屆有事青年行動競賽開跑邀青年「在嘉玩出新公式」",
       "source": "嘉義市政府/企劃處/觀光新聞處",
@@ -75,13 +82,6 @@
       "headline": "嘉義市召開115年第1次食安推動委員會跨局處把關食安守護市民健康",
       "source": "嘉義市政府/衛生局",
       "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=940022",
-      "date": "2026/06/10",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "嘉屋首獎揭曉竹圍子林宅展現新木都宜居建築典範",
-      "source": "嘉義市政府/都市發展處/觀光新聞處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=940001",
       "date": "2026/06/10",
       "query": "市府新聞"
     }
@@ -202,7 +202,7 @@
       "2012": 1,
       "2013": 1
     },
-    "updated_at": "2026-06-12T03:31:32.332617",
+    "updated_at": "2026-06-12T10:08:53.575785",
     "source": "data.chiayi.gov.tw"
   },
   "council": {
