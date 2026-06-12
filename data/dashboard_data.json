@@ -1,6 +1,20 @@
 {
-  "updated_at": "2026-06-12T10:10:50.104161",
+  "updated_at": "2026-06-12T14:56:56.503168",
   "news": [
+    {
+      "headline": "歡慶警察節暖心挺警嘉義市東區國民運動中心、嘉義市北回慢跑協會致贈體驗券慰勉嘉市警辛勞",
+      "source": "嘉義市政府/警察局",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=942161",
+      "date": "2026/06/12",
+      "query": "市府新聞"
+    },
+    {
+      "headline": "諸葛四郎動畫電影助力警政宣導警察局感謝基金會熱心公益",
+      "source": "嘉義市政府/警察局",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=942160",
+      "date": "2026/06/12",
+      "query": "市府新聞"
+    },
     {
       "headline": "嘉義市畢業季登場！黃敏惠市長勉勵孩子向光而行照耀他人",
       "source": "嘉義市政府/教育處/觀光新聞處",
@@ -69,20 +83,6 @@
       "source": "嘉義市政府/衛生局",
       "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=940005",
       "date": "2026/06/11",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "嘉義市強化餐館業廚餘管理落實合法清運防堵鼠害風險",
-      "source": "嘉義市政府/嘉義市政府環境保護局/環保設施管理科",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=940009",
-      "date": "2026/06/11",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "嘉義市召開115年第1次食安推動委員會跨局處把關食安守護市民健康",
-      "source": "嘉義市政府/衛生局",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=940022",
-      "date": "2026/06/10",
       "query": "市府新聞"
     }
   ],
@@ -202,7 +202,7 @@
       "2012": 1,
       "2013": 1
     },
-    "updated_at": "2026-06-12T10:08:53.575785",
+    "updated_at": "2026-06-12T14:55:02.588887",
     "source": "data.chiayi.gov.tw"
   },
   "council": {
@@ -236,6 +236,20 @@
   },
   "citizen_stats": {},
   "social_posts": [
+    {
+      "id": "ptt-httpswwwpttccbbsChiayiM1781270499A7BBhtml",
+      "platform": "PTT",
+      "platform_color": "#00b300",
+      "board": "Chiayi",
+      "date": "06/12",
+      "author": "PTT 鄉民",
+      "title": "[廣告] 餡芙餡芙工作室6/15隆重開幕",
+      "url": "https://www.ptt.cc/bbs/Chiayi/M.1781270499.A.7BB.html",
+      "reactions": 0,
+      "comments": 0,
+      "category": "市政議題",
+      "source": "ptt"
+    },
     {
       "id": "ptt-httpswwwpttccbbsChiayiM1781176595A61Ehtml",
       "platform": "PTT",
@@ -339,7 +353,7 @@
       "platform": "PTT",
       "platform_color": "#00b300",
       "board": "Chiayi",
-      "date": "06/08",
+      "date": "06/12",
       "author": "PTT 鄉民",
       "title": "[問題] 嘉義便宜全車烤漆",
       "url": "https://www.ptt.cc/bbs/Chiayi/M.1780912521.A.A17.html",
@@ -385,20 +399,6 @@
       "author": "PTT 鄉民",
       "title": "[買賣] 全新循環扇+膠囊咖啡機/膠囊+絨毛毯",
       "url": "https://www.ptt.cc/bbs/Chiayi/M.1780812681.A.A29.html",
-      "reactions": 0,
-      "comments": 0,
-      "category": "市政議題",
-      "source": "ptt"
-    },
-    {
-      "id": "ptt-httpswwwpttccbbsChiayiM1780804679AA4Chtml",
-      "platform": "PTT",
-      "platform_color": "#00b300",
-      "board": "Chiayi",
-      "date": "06/08",
-      "author": "PTT 鄉民",
-      "title": "[認養] 1個月左右小貓*6隻",
-      "url": "https://www.ptt.cc/bbs/Chiayi/M.1780804679.A.A4C.html",
       "reactions": 0,
       "comments": 0,
       "category": "市政議題",
