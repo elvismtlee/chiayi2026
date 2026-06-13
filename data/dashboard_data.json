@@ -1,6 +1,34 @@
 {
-  "updated_at": "2026-06-13T02:58:24.480256",
+  "updated_at": "2026-06-13T08:55:27.360681",
   "news": [
+    {
+      "headline": "不用餓肚子也能瘦！運動營養師「叮噹」嘉義開講",
+      "source": "嘉義市政府/衛生局/觀光新聞處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=939610",
+      "date": "2026/06/13",
+      "query": "市府新聞"
+    },
+    {
+      "headline": "2026嘉義市城市設計論壇登場！日泰跨國陣容啟動城市創意動能",
+      "source": "嘉義市政府/文化局/觀光新聞處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=942238",
+      "date": "2026/06/13",
+      "query": "市府新聞"
+    },
+    {
+      "headline": "嘉市家庭暴力防治月「SpeakOut」系列活動跨語文化整合防暴行動打造友善城市",
+      "source": "嘉義市政府/社會處/觀光新聞處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=942237",
+      "date": "2026/06/13",
+      "query": "市府新聞"
+    },
+    {
+      "headline": "黃敏惠市長二度視察防汛建設市府爭取近3億推6案治水升級、後庄直排排洪效益增近5倍",
+      "source": "嘉義市政府/工務處/觀光新聞處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=942236",
+      "date": "2026/06/13",
+      "query": "市府新聞"
+    },
     {
       "headline": "本市替代役備役EMT-1繼續教育訓練召集6月23日至26日登場",
       "source": "嘉義市政府/西區公所",
@@ -54,34 +82,6 @@
       "headline": "回收更方便還有加碼優惠嘉義市攜手全家推動循環新日常",
       "source": "嘉義市政府/嘉義市政府環境保護局/資源循環管理科",
       "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=940534",
-      "date": "2026/06/11",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "嘉義市挺在地產業！宣布納管及特登工廠「雙金免收一年」結合AI與低碳智慧轉型引領業者迎來下一個春天",
-      "source": "嘉義市政府/建設處/觀光新聞處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=940510",
-      "date": "2026/06/11",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "餐飲油水減污油脂截留有方法",
-      "source": "嘉義市政府/嘉義市政府環境保護局/環境品質管理科",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=940456",
-      "date": "2026/06/11",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "衛福部嘉義醫院新任院長陳殷正就職！黃敏惠市長盼攜手打造全齡共享、世代宜居健康城市",
-      "source": "嘉義市政府/衛生局/觀光新聞處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=940454",
-      "date": "2026/06/11",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "從迷惘中成長、在挑戰中前行黃敏惠市長勉勵畢業生勇敢追夢迎未來",
-      "source": "嘉義市政府/教育處/觀光新聞處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=940310",
       "date": "2026/06/11",
       "query": "市府新聞"
     }
@@ -202,7 +202,7 @@
       "2012": 1,
       "2013": 1
     },
-    "updated_at": "2026-06-13T02:56:37.987706",
+    "updated_at": "2026-06-13T08:53:35.761899",
     "source": "data.chiayi.gov.tw"
   },
   "council": {
@@ -236,6 +236,20 @@
   },
   "citizen_stats": {},
   "social_posts": [
+    {
+      "id": "ptt-httpswwwpttccbbsChiayiM1781323846A378html",
+      "platform": "PTT",
+      "platform_color": "#00b300",
+      "board": "Chiayi",
+      "date": "06/13",
+      "author": "PTT 鄉民",
+      "title": "[情報] 宏仁中學x美國STEM高中 雙聯學制簽約",
+      "url": "https://www.ptt.cc/bbs/Chiayi/M.1781323846.A.378.html",
+      "reactions": 0,
+      "comments": 0,
+      "category": "市政議題",
+      "source": "ptt"
+    },
     {
       "id": "ptt-httpswwwpttccbbsChiayiM1781312202A4CChtml",
       "platform": "PTT",
@@ -311,7 +325,7 @@
       "platform": "PTT",
       "platform_color": "#00b300",
       "board": "Chiayi",
-      "date": "06/12",
+      "date": "06/13",
       "author": "PTT 鄉民",
       "title": "［新聞］ 嘉義市議員王浩指快慢車道分隔島易成",
       "url": "https://www.ptt.cc/bbs/Chiayi/M.1781026168.A.128.html",
@@ -385,20 +399,6 @@
       "author": "PTT 鄉民",
       "title": "[新聞] 嘉義藍白合2／張啟楷拋「0歲存5萬」　",
       "url": "https://www.ptt.cc/bbs/Chiayi/M.1780900878.A.371.html",
-      "reactions": 0,
-      "comments": 0,
-      "category": "市政議題",
-      "source": "ptt"
-    },
-    {
-      "id": "ptt-httpswwwpttccbbsChiayiM1780834578AFAFhtml",
-      "platform": "PTT",
-      "platform_color": "#00b300",
-      "board": "Chiayi",
-      "date": "06/07",
-      "author": "PTT 鄉民",
-      "title": "[贈送] 全新的玻璃酒杯一打（有LOGO） ",
-      "url": "https://www.ptt.cc/bbs/Chiayi/M.1780834578.A.FAF.html",
       "reactions": 0,
       "comments": 0,
       "category": "市政議題",
