@@ -1,6 +1,13 @@
 {
-  "updated_at": "2026-06-12T20:08:41.595951",
+  "updated_at": "2026-06-13T02:58:24.480256",
   "news": [
+    {
+      "headline": "本市替代役備役EMT-1繼續教育訓練召集6月23日至26日登場",
+      "source": "嘉義市政府/西區公所",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=942156",
+      "date": "2026/06/13",
+      "query": "市府新聞"
+    },
     {
       "headline": "歡慶警察節暖心挺警嘉義市東區國民運動中心、嘉義市北回慢跑協會致贈體驗券慰勉嘉市警辛勞",
       "source": "嘉義市政府/警察局",
@@ -75,13 +82,6 @@
       "headline": "從迷惘中成長、在挑戰中前行黃敏惠市長勉勵畢業生勇敢追夢迎未來",
       "source": "嘉義市政府/教育處/觀光新聞處",
       "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=940310",
-      "date": "2026/06/11",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "嘉義市查獲千萬電子煙倉庫衛生局示警：包裝時尚卻藏致命健康危害",
-      "source": "嘉義市政府/衛生局",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=940005",
       "date": "2026/06/11",
       "query": "市府新聞"
     }
@@ -202,7 +202,7 @@
       "2012": 1,
       "2013": 1
     },
-    "updated_at": "2026-06-12T20:05:57.488699",
+    "updated_at": "2026-06-13T02:56:37.987706",
     "source": "data.chiayi.gov.tw"
   },
   "council": {
@@ -236,6 +236,20 @@
   },
   "citizen_stats": {},
   "social_posts": [
+    {
+      "id": "ptt-httpswwwpttccbbsChiayiM1781312202A4CChtml",
+      "platform": "PTT",
+      "platform_color": "#00b300",
+      "board": "Chiayi",
+      "date": "06/13",
+      "author": "PTT 鄉民",
+      "title": "[廣告]6/14爸爸自然園藝工作坊暨兒童故事手作坊",
+      "url": "https://www.ptt.cc/bbs/Chiayi/M.1781312202.A.4CC.html",
+      "reactions": 0,
+      "comments": 0,
+      "category": "通學安全",
+      "source": "ptt"
+    },
     {
       "id": "ptt-httpswwwpttccbbsChiayiM1781270499A7BBhtml",
       "platform": "PTT",
@@ -385,20 +399,6 @@
       "author": "PTT 鄉民",
       "title": "[贈送] 全新的玻璃酒杯一打（有LOGO） ",
       "url": "https://www.ptt.cc/bbs/Chiayi/M.1780834578.A.FAF.html",
-      "reactions": 0,
-      "comments": 0,
-      "category": "市政議題",
-      "source": "ptt"
-    },
-    {
-      "id": "ptt-httpswwwpttccbbsChiayiM1780812681AA29html",
-      "platform": "PTT",
-      "platform_color": "#00b300",
-      "board": "Chiayi",
-      "date": "06/10",
-      "author": "PTT 鄉民",
-      "title": "[買賣] 全新循環扇+膠囊咖啡機/膠囊+絨毛毯",
-      "url": "https://www.ptt.cc/bbs/Chiayi/M.1780812681.A.A29.html",
       "reactions": 0,
       "comments": 0,
       "category": "市政議題",
