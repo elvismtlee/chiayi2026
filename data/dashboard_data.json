@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-13T08:55:27.360681",
+  "updated_at": "2026-06-13T13:52:06.912455",
   "news": [
     {
       "headline": "不用餓肚子也能瘦！運動營養師「叮噹」嘉義開講",
@@ -202,7 +202,7 @@
       "2012": 1,
       "2013": 1
     },
-    "updated_at": "2026-06-13T08:53:35.761899",
+    "updated_at": "2026-06-13T13:50:23.679659",
     "source": "data.chiayi.gov.tw"
   },
   "council": {
@@ -236,6 +236,34 @@
   },
   "citizen_stats": {},
   "social_posts": [
+    {
+      "id": "ptt-httpswwwpttccbbsChiayiM1781357957A81Ehtml",
+      "platform": "PTT",
+      "platform_color": "#00b300",
+      "board": "Chiayi",
+      "date": "06/13",
+      "author": "PTT 鄉民",
+      "title": "[閒聊] 快慢車道同向分隔島",
+      "url": "https://www.ptt.cc/bbs/Chiayi/M.1781357957.A.81E.html",
+      "reactions": 0,
+      "comments": 0,
+      "category": "市政議題",
+      "source": "ptt"
+    },
+    {
+      "id": "ptt-httpswwwpttccbbsChiayiM1781351663A968html",
+      "platform": "PTT",
+      "platform_color": "#00b300",
+      "board": "Chiayi",
+      "date": "01/01",
+      "author": "PTT 鄉民",
+      "title": "Fw: [新聞] 副教授抓手要求承諾不做傻事 男大生提告",
+      "url": "https://www.ptt.cc/bbs/Chiayi/M.1781351663.A.968.html",
+      "reactions": 0,
+      "comments": 0,
+      "category": "市政議題",
+      "source": "ptt"
+    },
     {
       "id": "ptt-httpswwwpttccbbsChiayiM1781323846A378html",
       "platform": "PTT",
@@ -371,34 +399,6 @@
       "author": "PTT 鄉民",
       "title": "[新聞] 饗食天堂、莫內饗宴2大人氣品牌將進駐 ",
       "url": "https://www.ptt.cc/bbs/Chiayi/M.1780928006.A.D02.html",
-      "reactions": 0,
-      "comments": 0,
-      "category": "市政議題",
-      "source": "ptt"
-    },
-    {
-      "id": "ptt-httpswwwpttccbbsChiayiM1780912521AA17html",
-      "platform": "PTT",
-      "platform_color": "#00b300",
-      "board": "Chiayi",
-      "date": "06/12",
-      "author": "PTT 鄉民",
-      "title": "[問題] 嘉義便宜全車烤漆",
-      "url": "https://www.ptt.cc/bbs/Chiayi/M.1780912521.A.A17.html",
-      "reactions": 0,
-      "comments": 0,
-      "category": "市政議題",
-      "source": "ptt"
-    },
-    {
-      "id": "ptt-httpswwwpttccbbsChiayiM1780900878A371html",
-      "platform": "PTT",
-      "platform_color": "#00b300",
-      "board": "Chiayi",
-      "date": "06/11",
-      "author": "PTT 鄉民",
-      "title": "[新聞] 嘉義藍白合2／張啟楷拋「0歲存5萬」　",
-      "url": "https://www.ptt.cc/bbs/Chiayi/M.1780900878.A.371.html",
       "reactions": 0,
       "comments": 0,
       "category": "市政議題",
