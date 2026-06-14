@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-14T13:59:02.152848",
+  "updated_at": "2026-06-14T19:23:09.840121",
   "news": [
     {
       "headline": "逆光也能同行嘉義縣市攜手打造多元性別友善藥癮復元新模式",
@@ -201,7 +201,7 @@
       "2012": 1,
       "2013": 1
     },
-    "updated_at": "2026-06-14T13:56:36.442478",
+    "updated_at": "2026-06-14T19:21:21.788268",
     "source": "data.chiayi.gov.tw"
   },
   "council": {
@@ -235,6 +235,20 @@
   },
   "citizen_stats": {},
   "social_posts": [
+    {
+      "id": "ptt-httpswwwpttccbbsChiayiM1781449109AB94html",
+      "platform": "PTT",
+      "platform_color": "#00b300",
+      "board": "Chiayi",
+      "date": "06/15",
+      "author": "PTT 鄉民",
+      "title": "[問題]  有乾淨盥洗的健身房",
+      "url": "https://www.ptt.cc/bbs/Chiayi/M.1781449109.A.B94.html",
+      "reactions": 0,
+      "comments": 0,
+      "category": "市政議題",
+      "source": "ptt"
+    },
     {
       "id": "ptt-httpswwwpttccbbsChiayiM1781442444AF07html",
       "platform": "PTT",
@@ -384,20 +398,6 @@
       "author": "PTT 鄉民",
       "title": "［新聞］ 嘉義市議員王浩指快慢車道分隔島易成",
       "url": "https://www.ptt.cc/bbs/Chiayi/M.1781026168.A.128.html",
-      "reactions": 0,
-      "comments": 0,
-      "category": "市政議題",
-      "source": "ptt"
-    },
-    {
-      "id": "ptt-httpswwwpttccbbsChiayiM1780991181A9A6html",
-      "platform": "PTT",
-      "platform_color": "#00b300",
-      "board": "Chiayi",
-      "date": "06/09",
-      "author": "PTT 鄉民",
-      "title": "[合購] 好市多富雨自動傘+ 桌上型擺頭隨行風扇 ",
-      "url": "https://www.ptt.cc/bbs/Chiayi/M.1780991181.A.9A6.html",
       "reactions": 0,
       "comments": 0,
       "category": "市政議題",
