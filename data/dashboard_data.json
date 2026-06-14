@@ -1,6 +1,13 @@
 {
-  "updated_at": "2026-06-14T03:36:48.879361",
+  "updated_at": "2026-06-14T09:30:00.805956",
   "news": [
+    {
+      "headline": "逆光也能同行嘉義縣市攜手打造多元性別友善藥癮復元新模式",
+      "source": "嘉義市政府/衛生局",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=939911",
+      "date": "2026/06/14",
+      "query": "市府新聞"
+    },
     {
       "headline": "嘉市百年道爺圳再生獲2026建築園冶獎展現永續共融新水岸",
       "source": "嘉義市政府/工務處/觀光新聞處",
@@ -75,13 +82,6 @@
       "headline": "90萬獎金助攻跨域業師培力第七屆有事青年行動競賽開跑邀青年「在嘉玩出新公式」",
       "source": "嘉義市政府/企劃處/觀光新聞處",
       "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=941664",
-      "date": "2026/06/12",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "納保官與您有約零距離解決稅務煩惱",
-      "source": "嘉義市政府/財政稅務局",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=939124",
       "date": "2026/06/12",
       "query": "市府新聞"
     }
@@ -201,7 +201,7 @@
       "2012": 1,
       "2013": 1
     },
-    "updated_at": "2026-06-14T03:34:55.347672",
+    "updated_at": "2026-06-14T09:27:40.622805",
     "source": "data.chiayi.gov.tw"
   },
   "council": {
