@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-13T19:22:34.235076",
+  "updated_at": "2026-06-14T03:36:48.879361",
   "news": [
     {
       "headline": "嘉市百年道爺圳再生獲2026建築園冶獎展現永續共融新水岸",
@@ -201,7 +201,7 @@
       "2012": 1,
       "2013": 1
     },
-    "updated_at": "2026-06-13T19:20:46.898489",
+    "updated_at": "2026-06-14T03:34:55.347672",
     "source": "data.chiayi.gov.tw"
   },
   "council": {
@@ -236,11 +236,25 @@
   "citizen_stats": {},
   "social_posts": [
     {
+      "id": "ptt-httpswwwpttccbbsChiayiM1781406079AD32html",
+      "platform": "PTT",
+      "platform_color": "#00b300",
+      "board": "Chiayi",
+      "date": "06/14",
+      "author": "PTT 鄉民",
+      "title": "[買賣] 塑膠箱、空氣袋、防撞桌角、紙箱  ",
+      "url": "https://www.ptt.cc/bbs/Chiayi/M.1781406079.A.D32.html",
+      "reactions": 0,
+      "comments": 0,
+      "category": "市政議題",
+      "source": "ptt"
+    },
+    {
       "id": "ptt-httpswwwpttccbbsChiayiM1781357957A81Ehtml",
       "platform": "PTT",
       "platform_color": "#00b300",
       "board": "Chiayi",
-      "date": "06/13",
+      "date": "06/14",
       "author": "PTT 鄉民",
       "title": "[閒聊] 快慢車道同向分隔島",
       "url": "https://www.ptt.cc/bbs/Chiayi/M.1781357957.A.81E.html",
@@ -268,7 +282,7 @@
       "platform": "PTT",
       "platform_color": "#00b300",
       "board": "Chiayi",
-      "date": "06/13",
+      "date": "06/14",
       "author": "PTT 鄉民",
       "title": "[情報] 宏仁中學x美國STEM高中 雙聯學制簽約",
       "url": "https://www.ptt.cc/bbs/Chiayi/M.1781323846.A.378.html",
@@ -310,7 +324,7 @@
       "platform": "PTT",
       "platform_color": "#00b300",
       "board": "Chiayi",
-      "date": "06/13",
+      "date": "06/14",
       "author": "PTT 鄉民",
       "title": "[問題] 關於機車兩段左轉",
       "url": "https://www.ptt.cc/bbs/Chiayi/M.1781176595.A.61E.html",
@@ -352,7 +366,7 @@
       "platform": "PTT",
       "platform_color": "#00b300",
       "board": "Chiayi",
-      "date": "06/13",
+      "date": "06/14",
       "author": "PTT 鄉民",
       "title": "［新聞］ 嘉義市議員王浩指快慢車道分隔島易成",
       "url": "https://www.ptt.cc/bbs/Chiayi/M.1781026168.A.128.html",
@@ -384,20 +398,6 @@
       "author": "PTT 鄉民",
       "title": "[亂入] 6/9 梅山竹崎番路大埔阿里山鄉停班停課",
       "url": "https://www.ptt.cc/bbs/Chiayi/M.1780933457.A.635.html",
-      "reactions": 0,
-      "comments": 0,
-      "category": "市政議題",
-      "source": "ptt"
-    },
-    {
-      "id": "ptt-httpswwwpttccbbsChiayiM1780928006AD02html",
-      "platform": "PTT",
-      "platform_color": "#00b300",
-      "board": "Chiayi",
-      "date": "06/11",
-      "author": "PTT 鄉民",
-      "title": "[新聞] 饗食天堂、莫內饗宴2大人氣品牌將進駐 ",
-      "url": "https://www.ptt.cc/bbs/Chiayi/M.1780928006.A.D02.html",
       "reactions": 0,
       "comments": 0,
       "category": "市政議題",
