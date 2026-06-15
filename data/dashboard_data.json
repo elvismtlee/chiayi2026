@@ -1,10 +1,45 @@
 {
-  "updated_at": "2026-06-14T19:23:09.840121",
+  "updated_at": "2026-06-15T03:49:47.263791",
   "news": [
+    {
+      "headline": "嘉義市社區營造獲文化部優等文化與設計共創「嘉義新日常」",
+      "source": "嘉義市政府/文化局/觀光新聞處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=942307",
+      "date": "2026/06/15",
+      "query": "市府新聞"
+    },
+    {
+      "headline": "嘉義市路邊停車格於端午節當日暫停收費",
+      "source": "嘉義市政府/交通處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=942288",
+      "date": "2026/06/15",
+      "query": "市府新聞"
+    },
+    {
+      "headline": "端午粽有不同，這樣吃很「粽」要",
+      "source": "嘉義市政府/嘉義市政府環境保護局/綜合計畫科",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=939813",
+      "date": "2026/06/15",
+      "query": "市府新聞"
+    },
     {
       "headline": "逆光也能同行嘉義縣市攜手打造多元性別友善藥癮復元新模式",
       "source": "嘉義市政府/衛生局",
       "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=939911",
+      "date": "2026/06/14",
+      "query": "市府新聞"
+    },
+    {
+      "headline": "嘉義設計力再獲國際肯定！嘉義市博主展館榮獲BIGSEE金獎",
+      "source": "嘉義市政府/文化局/觀光新聞處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=942296",
+      "date": "2026/06/14",
+      "query": "市府新聞"
+    },
+    {
+      "headline": "嘉義之光！嘉義市東發食品行榮獲第十屆國家環境教育獎!!",
+      "source": "嘉義市政府/嘉義市政府環境保護局/綜合計畫科",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=942302",
       "date": "2026/06/14",
       "query": "市府新聞"
     },
@@ -48,41 +83,6 @@
       "source": "嘉義市政府/工務處/觀光新聞處",
       "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=942236",
       "date": "2026/06/13",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "本市替代役備役EMT-1繼續教育訓練召集6月23日至26日登場",
-      "source": "嘉義市政府/西區公所",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=942156",
-      "date": "2026/06/13",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "歡慶警察節暖心挺警嘉義市東區國民運動中心、嘉義市北回慢跑協會致贈體驗券慰勉嘉市警辛勞",
-      "source": "嘉義市政府/警察局",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=942161",
-      "date": "2026/06/12",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "諸葛四郎動畫電影助力警政宣導警察局感謝基金會熱心公益",
-      "source": "嘉義市政府/警察局",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=942160",
-      "date": "2026/06/12",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "嘉義市畢業季登場！黃敏惠市長勉勵孩子向光而行照耀他人",
-      "source": "嘉義市政府/教育處/觀光新聞處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=942118",
-      "date": "2026/06/12",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "90萬獎金助攻跨域業師培力第七屆有事青年行動競賽開跑邀青年「在嘉玩出新公式」",
-      "source": "嘉義市政府/企劃處/觀光新聞處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=941664",
-      "date": "2026/06/12",
       "query": "市府新聞"
     }
   ],
@@ -201,7 +201,7 @@
       "2012": 1,
       "2013": 1
     },
-    "updated_at": "2026-06-14T19:21:21.788268",
+    "updated_at": "2026-06-15T03:47:16.341236",
     "source": "data.chiayi.gov.tw"
   },
   "council": {
@@ -236,6 +236,34 @@
   "citizen_stats": {},
   "social_posts": [
     {
+      "id": "ptt-httpswwwpttccbbsChiayiM1781488895A33Fhtml",
+      "platform": "PTT",
+      "platform_color": "#00b300",
+      "board": "Chiayi",
+      "date": "06/15",
+      "author": "PTT 鄉民",
+      "title": "[問題] 有誰說甲",
+      "url": "https://www.ptt.cc/bbs/Chiayi/M.1781488895.A.33F.html",
+      "reactions": 0,
+      "comments": 0,
+      "category": "市政議題",
+      "source": "ptt"
+    },
+    {
+      "id": "ptt-httpswwwpttccbbsChiayiM1781484071AA32html",
+      "platform": "PTT",
+      "platform_color": "#00b300",
+      "board": "Chiayi",
+      "date": "06/15",
+      "author": "PTT 鄉民",
+      "title": "[問題] 義竹的桌球室",
+      "url": "https://www.ptt.cc/bbs/Chiayi/M.1781484071.A.A32.html",
+      "reactions": 0,
+      "comments": 0,
+      "category": "市政議題",
+      "source": "ptt"
+    },
+    {
       "id": "ptt-httpswwwpttccbbsChiayiM1781449109AB94html",
       "platform": "PTT",
       "platform_color": "#00b300",
@@ -254,7 +282,7 @@
       "platform": "PTT",
       "platform_color": "#00b300",
       "board": "Chiayi",
-      "date": "06/14",
+      "date": "06/15",
       "author": "PTT 鄉民",
       "title": "[問題] BRT嘉義公園出發",
       "url": "https://www.ptt.cc/bbs/Chiayi/M.1781442444.A.F07.html",
@@ -352,7 +380,7 @@
       "platform": "PTT",
       "platform_color": "#00b300",
       "board": "Chiayi",
-      "date": "06/14",
+      "date": "06/15",
       "author": "PTT 鄉民",
       "title": "[問題] 關於機車兩段左轉",
       "url": "https://www.ptt.cc/bbs/Chiayi/M.1781176595.A.61E.html",
@@ -370,34 +398,6 @@
       "author": "PTT 鄉民",
       "title": "[徵人] 6/24柯南電影 找人分電影票徽章 in89",
       "url": "https://www.ptt.cc/bbs/Chiayi/M.1781163742.A.42A.html",
-      "reactions": 0,
-      "comments": 0,
-      "category": "市政議題",
-      "source": "ptt"
-    },
-    {
-      "id": "ptt-httpswwwpttccbbsChiayiM1781100351A6E3html",
-      "platform": "PTT",
-      "platform_color": "#00b300",
-      "board": "Chiayi",
-      "date": "06/10",
-      "author": "PTT 鄉民",
-      "title": "[買賣] 衛生紙 拿鐵 氣炸鍋 聚 西堤 陶板屋 積木",
-      "url": "https://www.ptt.cc/bbs/Chiayi/M.1781100351.A.6E3.html",
-      "reactions": 0,
-      "comments": 0,
-      "category": "市政議題",
-      "source": "ptt"
-    },
-    {
-      "id": "ptt-httpswwwpttccbbsChiayiM1781026168A128html",
-      "platform": "PTT",
-      "platform_color": "#00b300",
-      "board": "Chiayi",
-      "date": "06/14",
-      "author": "PTT 鄉民",
-      "title": "［新聞］ 嘉義市議員王浩指快慢車道分隔島易成",
-      "url": "https://www.ptt.cc/bbs/Chiayi/M.1781026168.A.128.html",
       "reactions": 0,
       "comments": 0,
       "category": "市政議題",
