@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-16T11:10:18.404949",
+  "updated_at": "2026-06-16T16:45:11.111713",
   "news": [
     {
       "headline": "守護健康家園落實「巡、倒、清、刷」",
@@ -202,7 +202,7 @@
       "2012": 1,
       "2013": 1
     },
-    "updated_at": "2026-06-16T11:07:28.040744",
+    "updated_at": "2026-06-16T16:42:43.273189",
     "source": "data.chiayi.gov.tw"
   },
   "council": {
@@ -236,6 +236,20 @@
   },
   "citizen_stats": {},
   "social_posts": [
+    {
+      "id": "ptt-httpswwwpttccbbsChiayiM1781613710A6F3html",
+      "platform": "PTT",
+      "platform_color": "#00b300",
+      "board": "Chiayi",
+      "date": "06/16",
+      "author": "PTT 鄉民",
+      "title": "［買賣］二手兒童腳踏車 16吋",
+      "url": "https://www.ptt.cc/bbs/Chiayi/M.1781613710.A.6F3.html",
+      "reactions": 0,
+      "comments": 0,
+      "category": "通學安全",
+      "source": "ptt"
+    },
     {
       "id": "ptt-httpswwwpttccbbsChiayiM1781530667ABEAhtml",
       "platform": "PTT",
@@ -325,7 +339,7 @@
       "platform": "PTT",
       "platform_color": "#00b300",
       "board": "Chiayi",
-      "date": "06/15",
+      "date": "06/16",
       "author": "PTT 鄉民",
       "title": "[問題] BRT嘉義公園出發",
       "url": "https://www.ptt.cc/bbs/Chiayi/M.1781442444.A.F07.html",
@@ -367,7 +381,7 @@
       "platform": "PTT",
       "platform_color": "#00b300",
       "board": "Chiayi",
-      "date": "06/14",
+      "date": "06/16",
       "author": "PTT 鄉民",
       "title": "Fw: [新聞] 副教授抓手要求承諾不做傻事 男大生提告",
       "url": "https://www.ptt.cc/bbs/Chiayi/M.1781351663.A.968.html",
@@ -388,20 +402,6 @@
       "reactions": 0,
       "comments": 0,
       "category": "市政議題",
-      "source": "ptt"
-    },
-    {
-      "id": "ptt-httpswwwpttccbbsChiayiM1781312202A4CChtml",
-      "platform": "PTT",
-      "platform_color": "#00b300",
-      "board": "Chiayi",
-      "date": "06/13",
-      "author": "PTT 鄉民",
-      "title": "[廣告]6/14爸爸自然園藝工作坊暨兒童故事手作坊",
-      "url": "https://www.ptt.cc/bbs/Chiayi/M.1781312202.A.4CC.html",
-      "reactions": 0,
-      "comments": 0,
-      "category": "通學安全",
       "source": "ptt"
     }
   ]
