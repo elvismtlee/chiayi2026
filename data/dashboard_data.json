@@ -1,6 +1,20 @@
 {
-  "updated_at": "2026-06-16T03:40:39.293707",
+  "updated_at": "2026-06-16T11:10:18.404949",
   "news": [
+    {
+      "headline": "守護健康家園落實「巡、倒、清、刷」",
+      "source": "嘉義市政府/環保局/觀光新聞處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=942446",
+      "date": "2026/06/16",
+      "query": "市府新聞"
+    },
+    {
+      "headline": "端午粽香慶佳節環保惜食不浪費",
+      "source": "嘉義市政府/嘉義市政府環境保護局/資源循環管理科",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=942440",
+      "date": "2026/06/16",
+      "query": "市府新聞"
+    },
     {
       "headline": "內政部「老宅延壽機能復新計畫」嘉義市預計7月公告受理",
       "source": "嘉義市政府/都市發展處/觀光新聞處",
@@ -68,20 +82,6 @@
       "headline": "嘉義設計力再獲國際肯定！嘉義市博主展館榮獲BIGSEE金獎",
       "source": "嘉義市政府/文化局/觀光新聞處",
       "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=942296",
-      "date": "2026/06/14",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "嘉義之光！嘉義市東發食品行榮獲第十屆國家環境教育獎!!",
-      "source": "嘉義市政府/嘉義市政府環境保護局/綜合計畫科",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=942302",
-      "date": "2026/06/14",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "嘉市百年道爺圳再生獲2026建築園冶獎展現永續共融新水岸",
-      "source": "嘉義市政府/工務處/觀光新聞處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=942240",
       "date": "2026/06/14",
       "query": "市府新聞"
     }
@@ -202,7 +202,7 @@
       "2012": 1,
       "2013": 1
     },
-    "updated_at": "2026-06-16T03:38:55.350445",
+    "updated_at": "2026-06-16T11:07:28.040744",
     "source": "data.chiayi.gov.tw"
   },
   "council": {
