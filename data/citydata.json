@@ -1,16 +1,16 @@
 {
-  "updated_at": "2026-06-16T16:42:54.789158",
+  "updated_at": "2026-06-16T20:48:14.291208",
   "aqi_realtime": [
     {
       "station": "嘉義市（Open-Meteo 模型）",
-      "aqi": 12,
-      "pm25": 8.8,
-      "pm10": 9.0,
-      "o3": 1.0,
-      "no2": 38.9,
+      "aqi": 10,
+      "pm25": 7.1,
+      "pm10": 7.3,
+      "o3": 0.0,
+      "no2": 39.4,
       "status": "良好",
       "pollutant": "PM2.5",
-      "time": "2026-06-17T00:00",
+      "time": "2026-06-17T04:00",
       "source": "Open-Meteo"
     }
   ],
@@ -34,58 +34,58 @@
   "weather": [
     {
       "station": "嘉義市（Open-Meteo）",
-      "temp": "24.6",
-      "apparent_temp": "27.5",
-      "humidity": "84",
+      "temp": "23.9",
+      "apparent_temp": "27.6",
+      "humidity": "89",
       "rainfall": "0.0",
-      "wind_speed": "11.9",
-      "wind_dir": "175",
-      "cloud": "96",
+      "wind_speed": "8.3",
+      "wind_dir": "162",
+      "cloud": "99",
       "weather": "陰天",
-      "time": "2026-06-17 00:30",
+      "time": "2026-06-17 04:45",
       "source": "Open-Meteo"
     }
   ],
   "announcements": [
     {
-      "title": "嘉市「振興商圈夜市券」收券店家突破900間、百貨超商都能用 - chiayi.gov.tw",
-      "date": "Mon, 15 Jun 2026",
-      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBNOTVPbHpRUXdvMW5lVkw3Yll6LUdOaHVRX0pUZ21NaW9wdkd2MF9XTGJUZXN0cFVhNWoyTzJJcGp3R0VlVmROdjN5ZmxmLTVqWWU0NUhyMXc4SVFkZFVTa2VuV1I5NWl3MkE?oc=5",
-      "desc": "",
-      "source": "Google新聞"
-    },
-    {
-      "title": "嘉義市黃敏惠市長啟動物資韌性應變計畫穩物價、設28處二手袋取用點推環保 - 嘉義市政府環境保護局",
-      "date": "Fri, 12 Jun 2026",
-      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBZc1VSSXlqMFZWYW9neVF4QWt1WkpxWDRTMXBPWnJKQVRmeHpqcTJIdGhwbnQ0SHRkdUluaF9VZWJEQ3FHMFFUYjFVS3EzRGZ6ZmkzZGE3Ym16MS1Nams2Q1V6Mmw0R0poQnRIai1pazNuRGFlSU93Xw?oc=5",
-      "desc": "",
-      "source": "Google新聞"
-    },
-    {
-      "title": "嘉義市政府歡迎臺中榮民總醫院傅雲慶總院長親自率隊駐診嘉義市 - chiayi.gov.tw",
-      "date": "Sat, 13 Jun 2026",
-      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1BNnYwMXdsVTAwZ0VKNHVTU1E0aXM0WnBsaGdGTE43b3dxV0JtYTdrTjdRT0ZZNUptY3BjQWJUUGtSTy1nTnFocFppOExmaUNWQVg3bnJTRkhJYXFYODhwcEtZcGpxZFVxNW4wRTRzU2FsWFduSmc?oc=5",
-      "desc": "",
-      "source": "Google新聞"
-    },
-    {
-      "title": "嘉義市115年度下路頭段地籍圖重測啟動3月13日辦理4場說明會保障土地權益 - chiayi.gov.tw",
-      "date": "Fri, 05 Jun 2026",
-      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBPek90MFZfYzFUekhGbWViMzQwV3BldHBZOWJPV3VTcXNiaDh4alduUzJybXlLZjI1QnkzcUxZSnFZbUpUN2s3V09vTS1feUQwYVVCZEVtNFpIX3Fta2Q5RHZHeE02ZGh3elE?oc=5",
-      "desc": "",
-      "source": "Google新聞"
-    },
-    {
-      "title": "嘉義市政府全力守護就醫隱私 衛生局查核美醫診所反偷拍 - 嘉義市政府衛生局",
-      "date": "Wed, 10 Jun 2026",
-      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5tTGpvVzI4Tjg0bVdGU3BhSmlLclRWY0VTS0FndW1kNFlQNXRhazZFVUlVdFkxT3NyVTdHazFETmNGQjRHd0Y0RGdUWjh6Q3U2cU9TQ1h0eng4SUUtbUgxMEM3dkhjRmNxM2dNV2p1cw?oc=5",
-      "desc": "",
-      "source": "Google新聞"
-    },
-    {
-      "title": "嘉義市老屋延壽補助修繕最高可領960萬元申請期曝| 區域觀測站 - udn房地產",
+      "title": "嘉義市第二屆節能知識線上競賽即將開跑 邀全民一起學節電、拿好禮 - 嘉義市政府環境保護局",
       "date": "Tue, 16 Jun 2026",
-      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBCU21ySEFrRjh2VFhYeGtHZG9aSnRxLUZ0VUpzN0t4OXRjb3FmMnpnU1ZmTHFIRmRBR3A2bDdmVy1ta3d3VGQzdVJIMkNfRVJLalVOLXkzOXRmRkE1MlRBSDVNTHZrQ3k0MWhVUzU3U2kzWjBYdWNCRDdkR2lQNTQ?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5CQVZRNFUyWnRIR2otOEtXaFdxeFhYWGxDMmhzQV9SR0s4a2ZLNktNY0N2ak5sam12cnVmeGNfZ2FvaGYyaGRJQkxxZDQ4SUUxLXBXbmJlcFVvdzZKZ19VZmI3VFptRWYwZmhV?oc=5",
+      "desc": "",
+      "source": "Google新聞"
+    },
+    {
+      "title": "嘉義市「世界閱讀日x地球日：旅讀探險家」4/18 舊監登場！邀市民展開木都綠色閱讀旅程 - 嘉義市政府環境保護局",
+      "date": "Tue, 16 Jun 2026",
+      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1KNHE5LXNJZHZzZ1lfUlZNZjdpa3JlWTBFUFZrbGhTV0d6VjhwTzEza2x0aGo2bUdUZkx5cmxvanY5alhCYlRMdjd4OTNKNWxyTEFKTFdpVTh6UUN1dHVJUVFydVMyUEMzdy1OZy1vWWdFNlFZWjRYWQ?oc=5",
+      "desc": "",
+      "source": "Google新聞"
+    },
+    {
+      "title": "嘉義市家暴防治月啟動 擴及新住民及移工消弭通報隔閡 - UDN",
+      "date": "Sat, 13 Jun 2026",
+      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFA5TWE1dHktd0ozNEJ1dHEtYURUUzRIVlFCR2liZmdxbHczZk1ZQVRhMWYzckI5UUtBaTJwb0xISDIyTGNQeEt1LVJvblRacy1L0gFWQVVfeXFMUDVxa1cwUnVKcTlVRzVWMml2R2dreHd6YVFlZzVUMzlLeFdaV1dqNkFlM1pNM1FNSXh5ZDJIWUZyekhxTnNIM0VDVVVVQlhQdEVJYUc5Ync?oc=5",
+      "desc": "",
+      "source": "Google新聞"
+    },
+    {
+      "title": "全台首例！屏東琉球國中前校長涉霸凌遭解職 教團籲嘉義市跟進 - 民報",
+      "date": "Tue, 16 Jun 2026",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5ycWJ1Y0FuVkZMWWg0OFk3YXVQQWxHYzNHSDZmZWJIakRDUzdpYS1wNzhmd1Q4ai1vV19vR1p5Yi1tU1JKaDNzYm1ONTVQWWoxVm1BWDRhb1o5RHdxN0s2WE5IcEQxT2UzMHc?oc=5",
+      "desc": "",
+      "source": "Google新聞"
+    },
+    {
+      "title": "建立完善社造支持機制 嘉義新日常計畫啟動 - 新唐人亞太電視台",
+      "date": "Mon, 15 Jun 2026",
+      "link": "https://news.google.com/rss/articles/CBMizgJBVV95cUxNeUpQbkt5c0xnYThCdldkcE5RbkJkWkE0UEVoY3FOTDVNaGpSYW5LbjJIN2Q1aUNDZ0s3UVNBNDZHMTZISXl0dUJKTWYwS1pCQURoVFJwQ19nNlRBaWNxNEJaRE1tQ095cHJCbE9oNUlGT3F2cmZoUzhZcm1GUGRvbG9vNGNlejlkVnkwb01Rdjc0UU5uTzh4ZGFqcHlxaEx3elV3anpXQXJNdWtOZGMtcFQzM1RNOUdBNmw2WnoxNGpFX2ttV0RzbE1sUFVuUG9iYVFyRVlzalRCLWQ5dkgxaTktZWplbWQ5Vm50NEhkWmY4QmhhS2JHR3o0aHBsREJ3dWoxNjRHYUx1UlF6VzNpdkRPeVgtMTZ0aEVsX2lvQm5HeE5JaG9xVThMd2FVdDRZcWRic2ZIRWthTFdZdjlfN3dCUEhQRzRqZmxmeG9B?oc=5",
+      "desc": "",
+      "source": "Google新聞"
+    },
+    {
+      "title": "嘉市社區營造優等 文化與設計創嘉義新日常 - 大纪元",
+      "date": "Mon, 15 Jun 2026",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5YWGFDQW9VVnNzODRmTVN1bnBGSmhFTkp4R2lLVDB3N1hMV19LWXAtOVhTc2lJX2pVQ2lwTFllell0VVozRXdIYXg1VTJiOGlESjI4dFhIRy03dDVCdDJwa9IBZkFVX3lxTE5nVVRfWk15c3dhb1RZcHQ5VTBFM2dvUW5EWU0zSEJDalB6T1E0a3g2Mkt1Um5xSXR4RXJVTURiZ3BVVjFWQ1k5MnM2bldMN3MwOTQyX1RZbEtEV19IVGVYNTJhOThGdw?oc=5",
       "desc": "",
       "source": "Google新聞"
     }
@@ -271,7 +271,7 @@
       "lat": 23.482663,
       "lng": 120.462988,
       "total": 25,
-      "available": 13,
+      "available": 3,
       "addr": "中山路2號(前)"
     },
     {
@@ -280,7 +280,7 @@
       "lat": 23.478707,
       "lng": 120.462594,
       "total": 38,
-      "available": 15,
+      "available": 2,
       "addr": "啟明路122號(前)"
     },
     {
@@ -289,7 +289,7 @@
       "lat": 23.477031,
       "lng": 120.465573,
       "total": 34,
-      "available": 12,
+      "available": 10,
       "addr": "大雅路二段738號(前)"
     },
     {
@@ -298,7 +298,7 @@
       "lat": 23.4798596,
       "lng": 120.4488291,
       "total": 20,
-      "available": 3,
+      "available": 2,
       "addr": "中山路306號"
     },
     {
@@ -316,7 +316,7 @@
       "lat": 23.47917,
       "lng": 120.44186,
       "total": 99,
-      "available": 85,
+      "available": 88,
       "addr": "中山路524號"
     },
     {
@@ -325,7 +325,7 @@
       "lat": 23.47877,
       "lng": 120.44089,
       "total": 42,
-      "available": 25,
+      "available": 36,
       "addr": "中山路528號"
     },
     {
@@ -379,7 +379,7 @@
       "lat": 23.48091,
       "lng": 120.43012,
       "total": 20,
-      "available": 13,
+      "available": 3,
       "addr": "北港路312號東側"
     },
     {
@@ -388,7 +388,7 @@
       "lat": 23.48465,
       "lng": 120.43354,
       "total": 14,
-      "available": 4,
+      "available": 3,
       "addr": "友愛興達路口"
     },
     {
@@ -429,5 +429,5 @@
     }
   ],
   "water": [],
-  "fetch_seconds": 136.3
+  "fetch_seconds": 144.8
 }
