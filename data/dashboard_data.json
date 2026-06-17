@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-17T10:55:01.014570",
+  "updated_at": "2026-06-17T15:22:13.467150",
   "news": [
     {
       "headline": "嘉義市115學年度公立國民中小學第二次校長遴選完成攜手打造優質教育環境",
@@ -201,7 +201,7 @@
       "2012": 1,
       "2013": 1
     },
-    "updated_at": "2026-06-17T10:52:26.915072",
+    "updated_at": "2026-06-17T15:20:25.917962",
     "source": "data.chiayi.gov.tw"
   },
   "council": {
@@ -235,6 +235,34 @@
   },
   "citizen_stats": {},
   "social_posts": [
+    {
+      "id": "ptt-httpswwwpttccbbsGossipingM1781709068A1C0html",
+      "platform": "PTT",
+      "platform_color": "#00b300",
+      "board": "Gossiping",
+      "date": "06/17",
+      "author": "PTT 鄉民",
+      "title": "[問卦] 日本人為什麼喜歡亂丟垃圾？",
+      "url": "https://www.ptt.cc/bbs/Gossiping/M.1781709068.A.1C0.html",
+      "reactions": 0,
+      "comments": 0,
+      "category": "環境衛生",
+      "source": "ptt"
+    },
+    {
+      "id": "ptt-httpswwwpttccbbsChiayiM1781698120ABDBhtml",
+      "platform": "PTT",
+      "platform_color": "#00b300",
+      "board": "Chiayi",
+      "date": "06/17",
+      "author": "PTT 鄉民",
+      "title": "[贈送] 中埔後庄 一張堪用的椅子",
+      "url": "https://www.ptt.cc/bbs/Chiayi/M.1781698120.A.BDB.html",
+      "reactions": 0,
+      "comments": 0,
+      "category": "市政議題",
+      "source": "ptt"
+    },
     {
       "id": "ptt-httpswwwpttccbbsChiayiM1781530667ABEAhtml",
       "platform": "PTT",
@@ -373,34 +401,6 @@
       "reactions": 0,
       "comments": 0,
       "category": "市政議題",
-      "source": "ptt"
-    },
-    {
-      "id": "ptt-httpswwwpttccbbsChiayiM1781323846A378html",
-      "platform": "PTT",
-      "platform_color": "#00b300",
-      "board": "Chiayi",
-      "date": "06/15",
-      "author": "PTT 鄉民",
-      "title": "[情報] 宏仁中學x美國STEM高中 雙聯學制簽約",
-      "url": "https://www.ptt.cc/bbs/Chiayi/M.1781323846.A.378.html",
-      "reactions": 0,
-      "comments": 0,
-      "category": "市政議題",
-      "source": "ptt"
-    },
-    {
-      "id": "ptt-httpswwwpttccbbsChiayiM1781312202A4CChtml",
-      "platform": "PTT",
-      "platform_color": "#00b300",
-      "board": "Chiayi",
-      "date": "06/13",
-      "author": "PTT 鄉民",
-      "title": "[廣告]6/14爸爸自然園藝工作坊暨兒童故事手作坊",
-      "url": "https://www.ptt.cc/bbs/Chiayi/M.1781312202.A.4CC.html",
-      "reactions": 0,
-      "comments": 0,
-      "category": "通學安全",
       "source": "ptt"
     }
   ]
