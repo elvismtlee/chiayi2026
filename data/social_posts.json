@@ -1,19 +1,5 @@
 [
   {
-    "id": "ptt-httpswwwpttccbbsGossipingM1781709068A1C0html",
-    "platform": "PTT",
-    "platform_color": "#00b300",
-    "board": "Gossiping",
-    "date": "06/17",
-    "author": "PTT 鄉民",
-    "title": "[問卦] 日本人為什麼喜歡亂丟垃圾？",
-    "url": "https://www.ptt.cc/bbs/Gossiping/M.1781709068.A.1C0.html",
-    "reactions": 0,
-    "comments": 0,
-    "category": "環境衛生",
-    "source": "ptt"
-  },
-  {
     "id": "ptt-httpswwwpttccbbsChiayiM1781698120ABDBhtml",
     "platform": "PTT",
     "platform_color": "#00b300",
@@ -162,6 +148,20 @@
     "author": "PTT 鄉民",
     "title": "Fw: [新聞] 副教授抓手要求承諾不做傻事 男大生提告",
     "url": "https://www.ptt.cc/bbs/Chiayi/M.1781351663.A.968.html",
+    "reactions": 0,
+    "comments": 0,
+    "category": "市政議題",
+    "source": "ptt"
+  },
+  {
+    "id": "ptt-httpswwwpttccbbsChiayiM1781323846A378html",
+    "platform": "PTT",
+    "platform_color": "#00b300",
+    "board": "Chiayi",
+    "date": "06/15",
+    "author": "PTT 鄉民",
+    "title": "[情報] 宏仁中學x美國STEM高中 雙聯學制簽約",
+    "url": "https://www.ptt.cc/bbs/Chiayi/M.1781323846.A.378.html",
     "reactions": 0,
     "comments": 0,
     "category": "市政議題",

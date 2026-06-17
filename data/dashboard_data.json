@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-17T15:22:13.467150",
+  "updated_at": "2026-06-17T20:11:45.493216",
   "news": [
     {
       "headline": "嘉義市115學年度公立國民中小學第二次校長遴選完成攜手打造優質教育環境",
@@ -87,12 +87,12 @@
     }
   ],
   "complaint_stats": {
-    "total": 77322,
-    "record_count": 473,
+    "total": 77357,
+    "record_count": 508,
     "category_counts": {
       "公共安全": 36538,
       "交通停車": 7743,
-      "道路路平": 220,
+      "道路路平": 255,
       "環境衛生": 5,
       "行政服務": 6
     },
@@ -107,10 +107,11 @@
         "公有停車場": 38
       },
       "道路路平": {
-        "電信管線": 5,
-        "電力管線": 34,
-        "自來水管線": 4,
-        "道路施工": 5,
+        "電信管線": 16,
+        "電力管線": 43,
+        "自來水管線": 8,
+        "道路施工": 8,
+        "市府工程": 8,
         "橋梁設施": 172
       },
       "環境衛生": {
@@ -126,6 +127,10 @@
         "count": 12
       },
       {
+        "road": "東區嘉義",
+        "count": 6
+      },
+      {
         "road": "東區中山村里民權路9",
         "count": 3
       },
@@ -134,15 +139,11 @@
         "count": 3
       },
       {
-        "road": "東區嘉義",
-        "count": 2
-      },
-      {
-        "road": "西區嘉義",
-        "count": 2
-      },
-      {
         "road": "西區港坪村里育人路3",
+        "count": 2
+      },
+      {
+        "road": "東區興安村里興美二路",
         "count": 2
       },
       {
@@ -150,15 +151,15 @@
         "count": 2
       },
       {
+        "road": "西區嘉義",
+        "count": 2
+      },
+      {
+        "road": "東區太平村里博東路",
+        "count": 2
+      },
+      {
         "road": "親水公園",
-        "count": 2
-      },
-      {
-        "road": "蘭潭水庫三信亭附近",
-        "count": 2
-      },
-      {
-        "road": "嘉義市中山路199號",
         "count": 2
       }
     ],
@@ -173,7 +174,7 @@
       },
       {
         "category": "道路路平",
-        "count": 220
+        "count": 255
       },
       {
         "category": "行政服務",
@@ -196,12 +197,12 @@
       "2022": 3112,
       "2023": 3318,
       "2024": 3270,
-      "2025": 8909,
-      "2026": 1390,
+      "2025": 8919,
+      "2026": 1415,
       "2012": 1,
       "2013": 1
     },
-    "updated_at": "2026-06-17T15:20:25.917962",
+    "updated_at": "2026-06-17T20:09:54.337776",
     "source": "data.chiayi.gov.tw"
   },
   "council": {
@@ -235,20 +236,6 @@
   },
   "citizen_stats": {},
   "social_posts": [
-    {
-      "id": "ptt-httpswwwpttccbbsGossipingM1781709068A1C0html",
-      "platform": "PTT",
-      "platform_color": "#00b300",
-      "board": "Gossiping",
-      "date": "06/17",
-      "author": "PTT 鄉民",
-      "title": "[問卦] 日本人為什麼喜歡亂丟垃圾？",
-      "url": "https://www.ptt.cc/bbs/Gossiping/M.1781709068.A.1C0.html",
-      "reactions": 0,
-      "comments": 0,
-      "category": "環境衛生",
-      "source": "ptt"
-    },
     {
       "id": "ptt-httpswwwpttccbbsChiayiM1781698120ABDBhtml",
       "platform": "PTT",
@@ -398,6 +385,20 @@
       "author": "PTT 鄉民",
       "title": "Fw: [新聞] 副教授抓手要求承諾不做傻事 男大生提告",
       "url": "https://www.ptt.cc/bbs/Chiayi/M.1781351663.A.968.html",
+      "reactions": 0,
+      "comments": 0,
+      "category": "市政議題",
+      "source": "ptt"
+    },
+    {
+      "id": "ptt-httpswwwpttccbbsChiayiM1781323846A378html",
+      "platform": "PTT",
+      "platform_color": "#00b300",
+      "board": "Chiayi",
+      "date": "06/15",
+      "author": "PTT 鄉民",
+      "title": "[情報] 宏仁中學x美國STEM高中 雙聯學制簽約",
+      "url": "https://www.ptt.cc/bbs/Chiayi/M.1781323846.A.378.html",
       "reactions": 0,
       "comments": 0,
       "category": "市政議題",
