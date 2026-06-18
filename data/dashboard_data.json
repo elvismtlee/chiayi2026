@@ -1,6 +1,20 @@
 {
-  "updated_at": "2026-06-18T10:21:21.158558",
+  "updated_at": "2026-06-18T15:02:11.736763",
   "news": [
+    {
+      "headline": "嘉義市警察局首創舊時警察文化體驗營結合犯罪預防宣導東吳高職表藝科穿越時空巡守東門所",
+      "source": "嘉義市政府/警察局",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=942667",
+      "date": "2026/06/18",
+      "query": "市府新聞"
+    },
+    {
+      "headline": "毒駕零容忍!唾液快篩強力掃蕩5日鐵腕預防性羈押3人",
+      "source": "嘉義市政府/警察局",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=942666",
+      "date": "2026/06/18",
+      "query": "市府新聞"
+    },
     {
       "headline": "廉潔嘉義不送禮粽香傳愛最有情",
       "source": "嘉義市政府/政風處/觀光新聞處",
@@ -69,20 +83,6 @@
       "source": "嘉義市政府/文化局/觀光新聞處",
       "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=942506",
       "date": "2026/06/17",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "浪漫延續~「相遇嘉義・幸福+1」單身聯誼活動開放報名",
-      "source": "嘉義市政府/民政處戶政科",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=942498",
-      "date": "2026/06/17",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "115年房屋稅查詢通知書已寄出提供QR-Code線上補單服務請多加利用",
-      "source": "嘉義市政府/財政稅務局",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=942485",
-      "date": "2026/06/16",
       "query": "市府新聞"
     }
   ],
@@ -202,7 +202,7 @@
       "2012": 1,
       "2013": 1
     },
-    "updated_at": "2026-06-18T10:18:46.098270",
+    "updated_at": "2026-06-18T15:00:14.003671",
     "source": "data.chiayi.gov.tw"
   },
   "council": {
@@ -395,7 +395,7 @@
       "platform": "PTT",
       "platform_color": "#00b300",
       "board": "Chiayi",
-      "date": "06/16",
+      "date": "06/18",
       "author": "PTT 鄉民",
       "title": "Fw: [新聞] 副教授抓手要求承諾不做傻事 男大生提告",
       "url": "https://www.ptt.cc/bbs/Chiayi/M.1781351663.A.968.html",
