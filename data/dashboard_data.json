@@ -1,6 +1,20 @@
 {
-  "updated_at": "2026-06-17T20:11:45.493216",
+  "updated_at": "2026-06-18T03:32:07.456048",
   "news": [
+    {
+      "headline": "明華園總團旗艦大戲《貓神》震撼登場嘉義文化公園邀您6/27共賞歌仔戲經典鉅作",
+      "source": "嘉義市政府/文化局/觀光新聞處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=942624",
+      "date": "2026/06/18",
+      "query": "市府新聞"
+    },
+    {
+      "headline": "轉知考選部訊息：115年公務人員高考一級暨二級考試報名",
+      "source": "嘉義市政府/企劃處/人事處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=941526",
+      "date": "2026/06/18",
+      "query": "市府新聞"
+    },
     {
       "headline": "嘉義市115學年度公立國民中小學第二次校長遴選完成攜手打造優質教育環境",
       "source": "嘉義市政府/教育處/觀光新聞處",
@@ -69,20 +83,6 @@
       "source": "嘉義市政府/行政處",
       "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=942399",
       "date": "2026/06/16",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "不用餓肚子也能瘦！運動營養師「叮噹」嘉義開講",
-      "source": "嘉義市政府/衛生局/觀光新聞處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=942323",
-      "date": "2026/06/15",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "絕嘉美味！嘉義市長黃敏惠推「嘉市好店」前進2026台北國際食品展",
-      "source": "嘉義市政府/建設處/觀光新聞處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=942318",
-      "date": "2026/06/15",
       "query": "市府新聞"
     }
   ],
@@ -202,7 +202,7 @@
       "2012": 1,
       "2013": 1
     },
-    "updated_at": "2026-06-17T20:09:54.337776",
+    "updated_at": "2026-06-18T03:30:15.261611",
     "source": "data.chiayi.gov.tw"
   },
   "council": {
@@ -236,6 +236,20 @@
   },
   "citizen_stats": {},
   "social_posts": [
+    {
+      "id": "ptt-httpswwwpttccbbsChiayiM1781750855ABCFhtml",
+      "platform": "PTT",
+      "platform_color": "#00b300",
+      "board": "Chiayi",
+      "date": "06/18",
+      "author": "PTT 鄉民",
+      "title": "[交換] 新光禮券 換 遠百/sogo禮券",
+      "url": "https://www.ptt.cc/bbs/Chiayi/M.1781750855.A.BCF.html",
+      "reactions": 0,
+      "comments": 0,
+      "category": "市政議題",
+      "source": "ptt"
+    },
     {
       "id": "ptt-httpswwwpttccbbsChiayiM1781698120ABDBhtml",
       "platform": "PTT",
@@ -385,20 +399,6 @@
       "author": "PTT 鄉民",
       "title": "Fw: [新聞] 副教授抓手要求承諾不做傻事 男大生提告",
       "url": "https://www.ptt.cc/bbs/Chiayi/M.1781351663.A.968.html",
-      "reactions": 0,
-      "comments": 0,
-      "category": "市政議題",
-      "source": "ptt"
-    },
-    {
-      "id": "ptt-httpswwwpttccbbsChiayiM1781323846A378html",
-      "platform": "PTT",
-      "platform_color": "#00b300",
-      "board": "Chiayi",
-      "date": "06/15",
-      "author": "PTT 鄉民",
-      "title": "[情報] 宏仁中學x美國STEM高中 雙聯學制簽約",
-      "url": "https://www.ptt.cc/bbs/Chiayi/M.1781323846.A.378.html",
       "reactions": 0,
       "comments": 0,
       "category": "市政議題",
