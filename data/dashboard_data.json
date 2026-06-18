@@ -1,6 +1,41 @@
 {
-  "updated_at": "2026-06-18T03:32:07.456048",
+  "updated_at": "2026-06-18T10:21:21.158558",
   "news": [
+    {
+      "headline": "廉潔嘉義不送禮粽香傳愛最有情",
+      "source": "嘉義市政府/政風處/觀光新聞處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=942655",
+      "date": "2026/06/18",
+      "query": "市府新聞"
+    },
+    {
+      "headline": "嘉北車站周邊都市計畫變更公展前座談會打造健康幸福城願景",
+      "source": "嘉義市政府/都市發展處/觀光新聞處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=942646",
+      "date": "2026/06/18",
+      "query": "市府新聞"
+    },
+    {
+      "headline": "端午連假來嘉義！首屆嘉義市設計週壓軸登場共振舞台、嘉菸市集熱鬧開展",
+      "source": "嘉義市政府/文化局/觀光新聞處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=942645",
+      "date": "2026/06/18",
+      "query": "市府新聞"
+    },
+    {
+      "headline": "總獎金30萬元！2026街舞首都全國舞藝競技賽7月嘉義市登場",
+      "source": "嘉義市政府/文化局/觀光新聞處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=942644",
+      "date": "2026/06/18",
+      "query": "市府新聞"
+    },
+    {
+      "headline": "王寶釧都等到了嘉義還沒！嘉市府拒當板凳球員掛計時器喊話中央",
+      "source": "嘉義市政府/交通處/觀光新聞處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=942643",
+      "date": "2026/06/18",
+      "query": "市府新聞"
+    },
     {
       "headline": "明華園總團旗艦大戲《貓神》震撼登場嘉義文化公園邀您6/27共賞歌仔戲經典鉅作",
       "source": "嘉義市政府/文化局/觀光新聞處",
@@ -47,41 +82,6 @@
       "headline": "115年房屋稅查詢通知書已寄出提供QR-Code線上補單服務請多加利用",
       "source": "嘉義市政府/財政稅務局",
       "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=942485",
-      "date": "2026/06/16",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "土地增值稅重購退稅列管案件7月起展開清查",
-      "source": "嘉義市政府/財政稅務局",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=942484",
-      "date": "2026/06/16",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "守護健康家園落實「巡、倒、清、刷」",
-      "source": "嘉義市政府/環保局/觀光新聞處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=942446",
-      "date": "2026/06/16",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "端午粽香慶佳節環保惜食不浪費",
-      "source": "嘉義市政府/嘉義市政府環境保護局/資源循環管理科",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=942440",
-      "date": "2026/06/16",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "內政部「老宅延壽機能復新計畫」嘉義市預計7月公告受理",
-      "source": "嘉義市政府/都市發展處/觀光新聞處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=942403",
-      "date": "2026/06/16",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "嘉義市政府115年6月份公報",
-      "source": "嘉義市政府/行政處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=942399",
       "date": "2026/06/16",
       "query": "市府新聞"
     }
@@ -202,7 +202,7 @@
       "2012": 1,
       "2013": 1
     },
-    "updated_at": "2026-06-18T03:30:15.261611",
+    "updated_at": "2026-06-18T10:18:46.098270",
     "source": "data.chiayi.gov.tw"
   },
   "council": {
