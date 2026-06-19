@@ -73,107 +73,118 @@
   ],
   "councilors": [
     {
-      "name": "本會",
-      "source": "scraped"
-    },
-    {
-      "name": "歷屆",
-      "source": "scraped"
-    },
-    {
-      "name": "本屆",
-      "source": "scraped"
-    },
-    {
       "name": "傅大偉",
+      "party": "",
       "source": "static"
     },
     {
       "name": "黃露慧",
+      "party": "",
       "source": "static"
     },
     {
       "name": "黃盈智",
+      "party": "",
       "source": "static"
     },
     {
       "name": "陳家平",
+      "party": "",
       "source": "static"
     },
     {
       "name": "張敏琪",
+      "party": "",
       "source": "static"
     },
     {
       "name": "郭定緯",
+      "party": "",
       "source": "static"
     },
     {
       "name": "張榮藏",
+      "party": "",
       "source": "static"
     },
     {
       "name": "顏田慎節",
+      "party": "",
       "source": "static"
     },
     {
       "name": "戴寧",
+      "party": "",
       "source": "static"
     },
     {
       "name": "李奕德",
+      "party": "",
       "source": "static"
     },
     {
       "name": "陳姿妏",
+      "party": "",
       "source": "static"
     },
     {
       "name": "張秀華",
+      "party": "",
       "source": "static"
     },
     {
       "name": "鄭光宏",
+      "party": "",
       "source": "static"
     },
     {
       "name": "黃敏修",
+      "party": "",
       "source": "static"
     },
     {
       "name": "黃思婷",
+      "party": "",
       "source": "static"
     },
     {
       "name": "黃大祐",
+      "party": "",
       "source": "static"
     },
     {
       "name": "林煒軒",
+      "party": "",
       "source": "static"
     },
     {
       "name": "蘇澤峰",
+      "party": "",
       "source": "static"
     },
     {
       "name": "孫貫志",
+      "party": "",
       "source": "static"
     },
     {
       "name": "蔡文旭",
+      "party": "",
       "source": "static"
     },
     {
       "name": "蔡坤叡",
+      "party": "",
       "source": "static"
     },
     {
       "name": "李忠曆",
+      "party": "",
       "source": "static"
     },
     {
       "name": "王浩",
+      "party": "",
       "source": "static"
     }
   ],
@@ -203,5 +214,5 @@
     "李忠曆",
     "王浩"
   ],
-  "updated_at": "2026-06-18T20:23:48.813111"
+  "updated_at": "2026-06-19T04:00:21.323819"
 }
