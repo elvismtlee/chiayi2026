@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-19T10:22:26.740747",
+  "updated_at": "2026-06-19T15:04:43.649879",
   "news": [
     {
       "headline": "大溪社區慶端午結合香草園區推廣食農教育與環境永續",
@@ -202,7 +202,7 @@
       "2012": 1,
       "2013": 1
     },
-    "updated_at": "2026-06-19T10:20:43.025721",
+    "updated_at": "2026-06-19T15:01:59.733154",
     "source": "data.chiayi.gov.tw"
   },
   "council": {
@@ -236,20 +236,6 @@
   },
   "citizen_stats": {},
   "social_posts": [
-    {
-      "id": "ptt-httpswwwpttccbbsGossipingM1781864121A4E6html",
-      "platform": "PTT",
-      "platform_color": "#00b300",
-      "board": "Gossiping",
-      "date": "06/19",
-      "author": "PTT 鄉民",
-      "title": "[新聞] 划龍舟也能談市政！沈伯洋直言「要尊重專",
-      "url": "https://www.ptt.cc/bbs/Gossiping/M.1781864121.A.4E6.html",
-      "reactions": 0,
-      "comments": 0,
-      "category": "行政服務",
-      "source": "ptt"
-    },
     {
       "id": "ptt-httpswwwpttccbbsChiayiM1781835055A450html",
       "platform": "PTT",
@@ -399,6 +385,20 @@
       "author": "PTT 鄉民",
       "title": "[買賣] 塑膠箱、空氣袋、防撞桌角、紙箱  ",
       "url": "https://www.ptt.cc/bbs/Chiayi/M.1781406079.A.D32.html",
+      "reactions": 0,
+      "comments": 0,
+      "category": "市政議題",
+      "source": "ptt"
+    },
+    {
+      "id": "ptt-httpswwwpttccbbsChiayiM1781357957A81Ehtml",
+      "platform": "PTT",
+      "platform_color": "#00b300",
+      "board": "Chiayi",
+      "date": "06/14",
+      "author": "PTT 鄉民",
+      "title": "[閒聊] 快慢車道同向分隔島",
+      "url": "https://www.ptt.cc/bbs/Chiayi/M.1781357957.A.81E.html",
       "reactions": 0,
       "comments": 0,
       "category": "市政議題",
