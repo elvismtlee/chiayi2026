@@ -1,16 +1,16 @@
 {
-  "updated_at": "2026-06-19T04:00:26.235963",
+  "updated_at": "2026-06-19T10:20:55.530437",
   "aqi_realtime": [
     {
       "station": "嘉義市（Open-Meteo 模型）",
-      "aqi": 30,
-      "pm25": 21.7,
-      "pm10": 22.6,
-      "o3": 134.0,
-      "no2": 15.8,
+      "aqi": 22,
+      "pm25": 15.8,
+      "pm10": 18.0,
+      "o3": 77.0,
+      "no2": 30.9,
       "status": "良好",
       "pollutant": "PM2.5",
-      "time": "2026-06-19T12:00",
+      "time": "2026-06-19T18:00",
       "source": "Open-Meteo"
     }
   ],
@@ -27,15 +27,15 @@
   "weather": [
     {
       "station": "嘉義市（Open-Meteo）",
-      "temp": "32.9",
-      "apparent_temp": "38.7",
-      "humidity": "56",
+      "temp": "29.4",
+      "apparent_temp": "34.5",
+      "humidity": "75",
       "rainfall": "0.0",
-      "wind_speed": "13.9",
-      "wind_dir": "219",
-      "cloud": "75",
-      "weather": "多雲",
-      "time": "2026-06-19 12:00",
+      "wind_speed": "8.9",
+      "wind_dir": "205",
+      "cloud": "87",
+      "weather": "陰天",
+      "time": "2026-06-19 18:15",
       "source": "Open-Meteo"
     }
   ],
@@ -62,6 +62,13 @@
       "source": "Google新聞"
     },
     {
+      "title": "端午連假「放粽」一下！嘉義市寵物公園全面開放 帶毛孩盡情放電 - 墨新聞-MORE News",
+      "date": "Fri, 19 Jun 2026",
+      "link": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE1WSnVBOFcyQm10QUlBNmJmZm9PRUhLcVRoT2ZyMklDU2J4WnZCclM0S0FwT29LRXBIX09hVmUzQnBoQQ?oc=5",
+      "desc": "",
+      "source": "Google新聞"
+    },
+    {
       "title": "嘉義市第二屆節能知識線上競賽即將開跑 邀全民一起學節電、拿好禮 - 嘉義市政府環境保護局",
       "date": "Tue, 16 Jun 2026",
       "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5CQVZRNFUyWnRIR2otOEtXaFdxeFhYWGxDMmhzQV9SR0s4a2ZLNktNY0N2ak5sam12cnVmeGNfZ2FvaGYyaGRJQkxxZDQ4SUUxLXBXbmJlcFVvdzZKZ19VZmI3VFptRWYwZmhV?oc=5",
@@ -69,16 +76,9 @@
       "source": "Google新聞"
     },
     {
-      "title": "端午連假來嘉過節 「嘉義市設計週」推音樂市集掀創意熱潮 - 蕃新聞",
-      "date": "Thu, 18 Jun 2026",
-      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE96TVBGRXhZWmFVTTdJV0VFRmdCTjBXSUJYYzUzanBWQzdKdjF0ZXRUN25BaHNFZDAwTjJoZ1lnaVkyWUszb01Yaml2NlFhOFhoZ2c?oc=5",
-      "desc": "",
-      "source": "Google新聞"
-    },
-    {
-      "title": "嘉北車站周邊都更案 嘉義市府公展前舉辦座談會 - 台灣好新聞",
-      "date": "Thu, 18 Jun 2026",
-      "link": "https://news.google.com/rss/articles/CBMizgJBVV95cUxPUFJoRFM0YnNlbHR1b3pDZUFhajhLYlZ3X3c5cVZZSlo4REVYblNOTEMwb1BRVEpWdW9lbDZRUy0xSEtOV2lSS09BOTRLMnRHMXd2OTM0ODRZV0JvSG85bjVrZ2ZWTWEwRTFLeE5uSTZEcUFLU201VVlxRnhvaG8wVGpJWS1YWW01WEpVT1pEMGxtUk9UYzJBR0NoUUF5cWUtdFdfcTY1OXhuYVZtdk5DWC14czF5aGVRM0lRQndTZ3dPVi1nNlctVlVkVGUyY0QxYjlqanJNUFlDOFh2UjNSRHFreDJVRkR4NHJKMTduUDl6cmJZOUI5ZlE5dXNSUUYtSEpVSGhrLXcyLXZkVGw0NlZ0N21xRUdqaDNvSEJQV1llWGZqTmhOemhHWnZUTTFmRW1HRkxkclZja1BKa0s0bzN4UEJNTndDT29ucHdB?oc=5",
+      "title": "無菸環境 - 嘉義市政府衛生局",
+      "date": "Tue, 16 Jun 2026",
+      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNM3JqMDFYTkd2eWcwS1p3RDJUTmV6V3lLVTZrLTFNZjlydWExUlR5RjV2TEdrOE9qRk9VRzhJdWZpUEJnWVByVmxQVEpYcUd0bklpSHVjRmU3ZlQ1d1hLUHZTNFFGSkhVcUMwd05EdHZGbTlOVm9kXzUzazY2eGxNel9sRWZSOTZtTWVV?oc=5",
       "desc": "",
       "source": "Google新聞"
     }
@@ -146,7 +146,30 @@
     "enterovirus": [],
     "updated": "2026-06-19"
   },
-  "fire": {},
+  "fire": {
+    "chiayi_datasets": [
+      {
+        "title": "",
+        "date": ""
+      },
+      {
+        "title": "",
+        "date": ""
+      },
+      {
+        "title": "",
+        "date": ""
+      },
+      {
+        "title": "",
+        "date": ""
+      },
+      {
+        "title": "",
+        "date": ""
+      }
+    ]
+  },
   "population": [],
   "bus": [
     {
@@ -223,7 +246,7 @@
       "lat": 23.481634,
       "lng": 120.453745,
       "total": 45,
-      "available": 11,
+      "available": 10,
       "addr": "中山路199號(對面)"
     },
     {
@@ -232,7 +255,7 @@
       "lat": 23.482012,
       "lng": 120.457342,
       "total": 22,
-      "available": 16,
+      "available": 8,
       "addr": "中山路98號(前)"
     },
     {
@@ -241,7 +264,7 @@
       "lat": 23.482663,
       "lng": 120.462988,
       "total": 25,
-      "available": 15,
+      "available": 19,
       "addr": "中山路2號(前)"
     },
     {
@@ -250,7 +273,7 @@
       "lat": 23.478707,
       "lng": 120.462594,
       "total": 38,
-      "available": 11,
+      "available": 12,
       "addr": "啟明路122號(前)"
     },
     {
@@ -259,7 +282,7 @@
       "lat": 23.477031,
       "lng": 120.465573,
       "total": 34,
-      "available": 2,
+      "available": 14,
       "addr": "大雅路二段738號(前)"
     },
     {
@@ -268,7 +291,7 @@
       "lat": 23.4798596,
       "lng": 120.4488291,
       "total": 20,
-      "available": 12,
+      "available": 16,
       "addr": "中山路306號"
     },
     {
@@ -277,7 +300,7 @@
       "lat": 23.47963,
       "lng": 120.44583,
       "total": 20,
-      "available": 4,
+      "available": 8,
       "addr": "中山路386號"
     },
     {
@@ -286,7 +309,7 @@
       "lat": 23.47917,
       "lng": 120.44186,
       "total": 99,
-      "available": 50,
+      "available": 38,
       "addr": "中山路524號"
     },
     {
@@ -295,7 +318,7 @@
       "lat": 23.47877,
       "lng": 120.44089,
       "total": 42,
-      "available": 26,
+      "available": 9,
       "addr": "中山路528號"
     },
     {
@@ -304,7 +327,7 @@
       "lat": 23.47283,
       "lng": 120.44029,
       "total": 5,
-      "available": 1,
+      "available": 0,
       "addr": "垂楊路575號"
     },
     {
@@ -313,7 +336,7 @@
       "lat": 23.47336,
       "lng": 120.44604,
       "total": 14,
-      "available": 2,
+      "available": 10,
       "addr": "垂楊路351號"
     },
     {
@@ -322,7 +345,7 @@
       "lat": 23.4738724,
       "lng": 120.4493073,
       "total": 20,
-      "available": 9,
+      "available": 16,
       "addr": "垂楊路434號"
     },
     {
@@ -331,7 +354,7 @@
       "lat": 23.47918,
       "lng": 120.43182,
       "total": 15,
-      "available": 9,
+      "available": 1,
       "addr": "北港路278號"
     },
     {
@@ -340,7 +363,7 @@
       "lat": 23.486138,
       "lng": 120.453829,
       "total": 20,
-      "available": 11,
+      "available": 2,
       "addr": "忠孝路284號(旁)"
     },
     {
@@ -349,7 +372,7 @@
       "lat": 23.48091,
       "lng": 120.43012,
       "total": 20,
-      "available": 4,
+      "available": 7,
       "addr": "北港路312號東側"
     },
     {
@@ -358,7 +381,7 @@
       "lat": 23.48465,
       "lng": 120.43354,
       "total": 14,
-      "available": 8,
+      "available": 4,
       "addr": "友愛興達路口"
     },
     {
@@ -367,7 +390,7 @@
       "lat": 23.48931,
       "lng": 120.4361,
       "total": 15,
-      "available": 2,
+      "available": 7,
       "addr": "自由路298號"
     },
     {
@@ -376,7 +399,7 @@
       "lat": 23.49265,
       "lng": 120.43191,
       "total": 15,
-      "available": 10,
+      "available": 0,
       "addr": "自由路492號"
     },
     {
@@ -385,7 +408,7 @@
       "lat": 23.478941,
       "lng": 120.437805,
       "total": 23,
-      "available": 7,
+      "available": 0,
       "addr": "博愛路二段281號"
     },
     {
@@ -394,10 +417,10 @@
       "lat": 23.47165,
       "lng": 120.43119,
       "total": 15,
-      "available": 2,
+      "available": 8,
       "addr": "博愛路二段461號"
     }
   ],
   "water": [],
-  "fetch_seconds": 165.0
+  "fetch_seconds": 91.2
 }
