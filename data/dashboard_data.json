@@ -1,6 +1,20 @@
 {
-  "updated_at": "2026-06-20T08:57:36.946524",
+  "updated_at": "2026-06-20T13:55:12.518285",
   "news": [
+    {
+      "headline": "嘉市府旬味學推動食農教育五部曲從土地到餐桌打造城市食農學習旅程",
+      "source": "嘉義市政府/建設處/觀光新聞處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=942767",
+      "date": "2026/06/20",
+      "query": "市府新聞"
+    },
+    {
+      "headline": "嘉義市推城市綠美學要讓城市逐漸長成森林",
+      "source": "嘉義市政府/建設處/觀光新聞處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=942766",
+      "date": "2026/06/20",
+      "query": "市府新聞"
+    },
     {
       "headline": "公所投保對象請多利用健保快易通APP",
       "source": "嘉義市政府/西區公所",
@@ -68,20 +82,6 @@
       "headline": "總獎金30萬元！2026街舞首都全國舞藝競技賽7月嘉義市登場",
       "source": "嘉義市政府/文化局/觀光新聞處",
       "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=942644",
-      "date": "2026/06/18",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "王寶釧都等到了嘉義還沒！嘉市府拒當板凳球員掛計時器喊話中央",
-      "source": "嘉義市政府/交通處/觀光新聞處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=942643",
-      "date": "2026/06/18",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "明華園總團旗艦大戲《貓神》震撼登場嘉義文化公園邀您6/27共賞歌仔戲經典鉅作",
-      "source": "嘉義市政府/文化局/觀光新聞處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=942624",
       "date": "2026/06/18",
       "query": "市府新聞"
     }
@@ -202,7 +202,7 @@
       "2012": 1,
       "2013": 1
     },
-    "updated_at": "2026-06-20T08:53:46.466838",
+    "updated_at": "2026-06-20T13:53:20.247332",
     "source": "data.chiayi.gov.tw"
   },
   "council": {
