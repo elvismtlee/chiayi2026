@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-21T09:45:36.403000",
+  "updated_at": "2026-06-21T14:05:59.436702",
   "news": [
     {
       "headline": "嘉市府旬味學推動食農教育五部曲從土地到餐桌打造城市食農學習旅程",
@@ -202,7 +202,7 @@
       "2012": 1,
       "2013": 1
     },
-    "updated_at": "2026-06-21T09:43:46.757764",
+    "updated_at": "2026-06-21T14:04:10.488155",
     "source": "data.chiayi.gov.tw"
   },
   "council": {
@@ -236,20 +236,6 @@
   },
   "citizen_stats": {},
   "social_posts": [
-    {
-      "id": "ptt-httpswwwpttccbbsGossipingM1782034055A894html",
-      "platform": "PTT",
-      "platform_color": "#00b300",
-      "board": "Gossiping",
-      "date": "06/21",
-      "author": "PTT 鄉民",
-      "title": "[問卦] 大家真的會羨慕垃圾阿北嗎？",
-      "url": "https://www.ptt.cc/bbs/Gossiping/M.1782034055.A.894.html",
-      "reactions": 0,
-      "comments": 0,
-      "category": "環境衛生",
-      "source": "ptt"
-    },
     {
       "id": "ptt-httpswwwpttccbbsChiayiM1781935330A648html",
       "platform": "PTT",
@@ -399,6 +385,20 @@
       "author": "PTT 鄉民",
       "title": "[問題] 義竹的桌球室",
       "url": "https://www.ptt.cc/bbs/Chiayi/M.1781484071.A.A32.html",
+      "reactions": 0,
+      "comments": 0,
+      "category": "市政議題",
+      "source": "ptt"
+    },
+    {
+      "id": "ptt-httpswwwpttccbbsChiayiM1781449109AB94html",
+      "platform": "PTT",
+      "platform_color": "#00b300",
+      "board": "Chiayi",
+      "date": "06/20",
+      "author": "PTT 鄉民",
+      "title": "[問題]  有乾淨盥洗的健身房",
+      "url": "https://www.ptt.cc/bbs/Chiayi/M.1781449109.A.B94.html",
       "reactions": 0,
       "comments": 0,
       "category": "市政議題",
