@@ -1,64 +1,33 @@
 {
-  "updated_at": "2026-06-22T16:47:54.932870",
+  "updated_at": "2026-06-22T20:43:18.541939",
   "aqi_realtime": [
     {
-      "station": "",
-      "aqi": 0,
-      "pm25": 0.0,
-      "pm10": 0.0,
-      "o3": 0.0,
-      "no2": 0.0,
-      "status": "",
-      "pollutant": "",
-      "time": "2026-06-23 00:00",
-      "source": "環境部"
-    },
-    {
-      "station": "",
-      "aqi": 0,
-      "pm25": 0.0,
-      "pm10": 0.0,
-      "o3": 0.0,
-      "no2": 0.0,
-      "status": "",
-      "pollutant": "",
-      "time": "2026-06-23 00:00",
-      "source": "環境部"
-    },
-    {
-      "station": "",
-      "aqi": 0,
-      "pm25": 0.0,
-      "pm10": 0.0,
-      "o3": 0.0,
-      "no2": 0.0,
-      "status": "",
-      "pollutant": "",
-      "time": "2026-06-23 00:00",
-      "source": "環境部"
+      "station": "嘉義市（Open-Meteo 模型）",
+      "aqi": 22,
+      "pm25": 16.1,
+      "pm10": 18.8,
+      "o3": 2.0,
+      "no2": 52.9,
+      "status": "良好",
+      "pollutant": "PM2.5",
+      "time": "2026-06-23T04:00",
+      "source": "Open-Meteo"
     }
   ],
-  "aqi_history": [
-    {
-      "month": "",
-      "aqi": 0.0,
-      "pm25": 0.0,
-      "station": "嘉義"
-    }
-  ],
+  "aqi_history": [],
   "earthquake": [],
   "weather": [
     {
       "station": "嘉義市（Open-Meteo）",
-      "temp": "24.7",
-      "apparent_temp": "29.2",
-      "humidity": "91",
+      "temp": "23.3",
+      "apparent_temp": "26.7",
+      "humidity": "89",
       "rainfall": "0.0",
-      "wind_speed": "7.0",
-      "wind_dir": "159",
-      "cloud": "1",
-      "weather": "晴",
-      "time": "2026-06-23 00:45",
+      "wind_speed": "7.8",
+      "wind_dir": "143",
+      "cloud": "100",
+      "weather": "陰天",
+      "time": "2026-06-23 04:30",
       "source": "Open-Meteo"
     }
   ],
@@ -92,9 +61,9 @@
       "source": "Google新聞"
     },
     {
-      "title": "嘉義市人事處長交接 林日明返鄉接棒打造高效有溫度團隊 - Yahoo新聞",
-      "date": "Mon, 22 Jun 2026",
-      "link": "https://news.google.com/rss/articles/CBMigANBVV95cUxOeGE5SFM4YUxfNzRRTjZacS1FazJCd1dNZlhhMGs4RDIzbnUyNkUxY2t2T2ktTmJ0aWhaZWwxUUx1UUdkM3Q4Ni1zZmdENHQ4QU8yVWFBWE0wWERaczlrRFk1QkxqdlZRYy1aUjV6UC1oY2hBb1hVSVJjay1FUTVvQnd2cC1PbzFRWE9LUXVUYm1BU0daX3RGandDWHJ6Mm1SNXpGOHZhS0NTanlMLWlHejR0UkdVSXN0QS1yRHVaZkI2czYxN0pCamlSZGc4d0RMQm0tcVcwaU9KUmk0SC11VTdIejRIVFU3d0hUV0wwd0laRk9yMGNaaF8xVTUwc24zdkJ4cVBxMVljcV9yV2JZaE1TaVZpMmtCWGlsUHpJV2JadFBvVU9vd1B0dDlWV1dNTER3M25NdEIzcy0wMFVZN21nLU5BaFpibkxIUGJudFJNVFdKdzhUTEczdGhMRHRMalIzdUZtR1RsdzVnNE9zZ1Q3SFF2bEtjdE9GbzBYV1Y?oc=5",
+      "title": "地震報告(圖) 6月21日10時37分規模3.5 嘉義市政府西方2.0 公里 (位於嘉義市西區) - 中央氣象署地震測報中心",
+      "date": "Sun, 21 Jun 2026",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5tMF9NZDZOT2U0NUFuM3ZrVGNZckp4am5WZmtBTjZMQmpWeXR5Ykx3WC1lb1FvUE1IZllBemRLS1JrMjBleDNhZkRrT0hJd1FIZm9vaHgybHp0MzEwYkk5aWRKcmk2c1BhbWEzT2JpV2Q?oc=5",
       "desc": "",
       "source": "Google新聞"
     },
@@ -150,16 +119,16 @@
       "source": "Google新聞"
     },
     {
-      "title": "嘉義市污水下水道系統第一期建設完工中央挹注污水下水道經費達39億元讓接管普及率躍升南台灣第三|內政 - 僑務電子報",
-      "date": "Fri, 23 Jan 2026",
-      "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE1yOWZHS2FHS01jSUZoUzZvOFQzd19qaDhHR24xQ0VyZmdpdC1JTE5nbmczb2NNRlpyMHFRY1EtTXBfeDM3RUY1R19vQQ?oc=5",
+      "title": "民進黨政府執政嘉義市建設狂「跳票」 張啓楷籲勿把嘉市當政治鬥爭犧牲品 - PChome Online 新聞",
+      "date": "Tue, 19 May 2026",
+      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPSEplUVJxYlNTMF9HZDE3MFk1TzZCZWc1WWxLQkxtSnlmT0RzLTJkclZmMTJrVy1kMElRMzY4bm5GUnJ0b3NINHJRQkhJdmZjck1yNTVvZFltTmhqbDBfSjllZHBqLWxBSUh3UngxWnVVR28zbEZvS2NjTmw1cS05ZzVyMHhIUTlCUXc?oc=5",
       "org": "新聞資訊",
       "source": "Google新聞"
     },
     {
-      "title": "民進黨政府執政嘉義市建設狂「跳票」 張啓楷籲勿把嘉市當政治鬥爭犧牲品 - PChome Online 新聞",
-      "date": "Tue, 19 May 2026",
-      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPSEplUVJxYlNTMF9HZDE3MFk1TzZCZWc1WWxLQkxtSnlmT0RzLTJkclZmMTJrVy1kMElRMzY4bm5GUnJ0b3NINHJRQkhJdmZjck1yNTVvZFltTmhqbDBfSjllZHBqLWxBSUh3UngxWnVVR28zbEZvS2NjTmw1cS05ZzVyMHhIUTlCUXc?oc=5",
+      "title": "嘉義市污水下水道系統第一期建設完工中央挹注污水下水道經費達39億元讓接管普及率躍升南台灣第三|內政 - 僑務電子報",
+      "date": "Fri, 23 Jan 2026",
+      "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE1yOWZHS2FHS01jSUZoUzZvOFQzd19qaDhHR24xQ0VyZmdpdC1JTE5nbmczb2NNRlpyMHFRY1EtTXBfeDM3RUY1R19vQQ?oc=5",
       "org": "新聞資訊",
       "source": "Google新聞"
     }
@@ -269,7 +238,7 @@
       "lat": 23.481634,
       "lng": 120.453745,
       "total": 45,
-      "available": 29,
+      "available": 19,
       "addr": "中山路199號(對面)"
     },
     {
@@ -278,7 +247,7 @@
       "lat": 23.482012,
       "lng": 120.457342,
       "total": 22,
-      "available": 7,
+      "available": 6,
       "addr": "中山路98號(前)"
     },
     {
@@ -296,7 +265,7 @@
       "lat": 23.478707,
       "lng": 120.462594,
       "total": 38,
-      "available": 8,
+      "available": 10,
       "addr": "啟明路122號(前)"
     },
     {
@@ -305,7 +274,7 @@
       "lat": 23.477031,
       "lng": 120.465573,
       "total": 34,
-      "available": 12,
+      "available": 9,
       "addr": "大雅路二段738號(前)"
     },
     {
@@ -323,7 +292,7 @@
       "lat": 23.47963,
       "lng": 120.44583,
       "total": 20,
-      "available": 1,
+      "available": 5,
       "addr": "中山路386號"
     },
     {
@@ -332,7 +301,7 @@
       "lat": 23.47917,
       "lng": 120.44186,
       "total": 99,
-      "available": 61,
+      "available": 93,
       "addr": "中山路524號"
     },
     {
@@ -359,7 +328,7 @@
       "lat": 23.47336,
       "lng": 120.44604,
       "total": 14,
-      "available": 4,
+      "available": 6,
       "addr": "垂楊路351號"
     },
     {
@@ -368,7 +337,7 @@
       "lat": 23.4738724,
       "lng": 120.4493073,
       "total": 20,
-      "available": 5,
+      "available": 7,
       "addr": "垂楊路434號"
     },
     {
@@ -413,7 +382,7 @@
       "lat": 23.48931,
       "lng": 120.4361,
       "total": 15,
-      "available": 12,
+      "available": 3,
       "addr": "自由路298號"
     },
     {
@@ -445,5 +414,5 @@
     }
   ],
   "water": [],
-  "fetch_seconds": 95.7
+  "fetch_seconds": 104.7
 }
