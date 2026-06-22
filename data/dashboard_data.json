@@ -1,11 +1,74 @@
 {
-  "updated_at": "2026-06-22T03:49:38.379331",
+  "updated_at": "2026-06-22T11:52:06.964935",
   "news": [
+    {
+      "headline": "嘉義市舉辦企業自主防災座談會攜手在地企業共築強韌安全嘉園",
+      "source": "嘉義市政府/消防局",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=943209",
+      "date": "2026/06/22",
+      "query": "市府新聞"
+    },
+    {
+      "headline": "端午連假來「嘉」輕鬆遊漫遊蘭潭、鐵馬道甩脂正夯！",
+      "source": "嘉義市政府/觀光新聞處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=943207",
+      "date": "2026/06/22",
+      "query": "市府新聞"
+    },
+    {
+      "headline": "嘉市好店南北雙展齊發！「嘉義風味」閃耀台南新光三越、進軍台北國際食品展",
+      "source": "嘉義市政府/建設處/觀光新聞處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=943206",
+      "date": "2026/06/22",
+      "query": "市府新聞"
+    },
+    {
+      "headline": "破7萬人次走進舊嘉菸嘉義市設計週圓滿落幕",
+      "source": "嘉義市政府/文化局/觀光新聞處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=943195",
+      "date": "2026/06/22",
+      "query": "市府新聞"
+    },
+    {
+      "headline": "哨響正義在法律當後盾！嘉市府辦理「公益揭弊者保護法」講座",
+      "source": "嘉義市政府/政風處/觀光新聞處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=943188",
+      "date": "2026/06/22",
+      "query": "市府新聞"
+    },
+    {
+      "headline": "2026嘉義市購物節7月開跑！滿500元抽百萬元豪華汽車、百萬現金大獎抽不完",
+      "source": "嘉義市政府/建設處/觀光新聞處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=942936",
+      "date": "2026/06/22",
+      "query": "市府新聞"
+    },
+    {
+      "headline": "房產有異動第一時間通知你嘉義市全國首創智能櫃員機申辦「地籍異動即時通」",
+      "source": "嘉義市政府/地政處/觀光新聞處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=942897",
+      "date": "2026/06/22",
+      "query": "市府新聞"
+    },
+    {
+      "headline": "嘉義市政府人事處長交接！嘉義子弟林日明返鄉接任攜手打造有溫度的戰鬥團隊",
+      "source": "嘉義市政府/人事處/觀光新聞處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=942891",
+      "date": "2026/06/22",
+      "query": "市府新聞"
+    },
     {
       "headline": "嘉義市推動智慧回收機佈建再進化擴點結合活動提升市民參與",
       "source": "嘉義市政府/嘉義市政府環境保護局/資源循環管理科",
       "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=942859",
       "date": "2026/06/22",
+      "query": "市府新聞"
+    },
+    {
+      "headline": "柏安診所開幕肝膽腸胃專科進駐社區守護嘉義市民健康",
+      "source": "嘉義市政府/衛生局/觀光新聞處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=943211",
+      "date": "2026/06/20",
       "query": "市府新聞"
     },
     {
@@ -20,69 +83,6 @@
       "source": "嘉義市政府/建設處/觀光新聞處",
       "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=942766",
       "date": "2026/06/20",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "公所投保對象請多利用健保快易通APP",
-      "source": "嘉義市政府/西區公所",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=942626",
-      "date": "2026/06/20",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "大溪社區慶端午結合香草園區推廣食農教育與環境永續",
-      "source": "嘉義市政府/社會處/觀光新聞處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=942729",
-      "date": "2026/06/19",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "端午連假帶毛孩「放粽」趣嘉義市兩座寵物公園陪毛孩開心放電",
-      "source": "嘉義市政府/建設處/觀光新聞處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=942728",
-      "date": "2026/06/19",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "委託仲介公司介紹房子，現在屋主要賣了，能不能取消不買？",
-      "source": "嘉義市政府/地政處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=942661",
-      "date": "2026/06/19",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "嘉義市警察局首創舊時警察文化體驗營結合犯罪預防宣導東吳高職表藝科穿越時空巡守東門所",
-      "source": "嘉義市政府/警察局",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=942667",
-      "date": "2026/06/18",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "毒駕零容忍!唾液快篩強力掃蕩5日鐵腕預防性羈押3人",
-      "source": "嘉義市政府/警察局",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=942666",
-      "date": "2026/06/18",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "廉潔嘉義不送禮粽香傳愛最有情",
-      "source": "嘉義市政府/政風處/觀光新聞處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=942655",
-      "date": "2026/06/18",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "嘉北車站周邊都市計畫變更公展前座談會打造健康幸福城願景",
-      "source": "嘉義市政府/都市發展處/觀光新聞處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=942646",
-      "date": "2026/06/18",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "端午連假來嘉義！首屆嘉義市設計週壓軸登場共振舞台、嘉菸市集熱鬧開展",
-      "source": "嘉義市政府/文化局/觀光新聞處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=942645",
-      "date": "2026/06/18",
       "query": "市府新聞"
     }
   ],
@@ -202,7 +202,7 @@
       "2012": 1,
       "2013": 1
     },
-    "updated_at": "2026-06-22T03:47:09.139218",
+    "updated_at": "2026-06-22T11:49:30.682236",
     "source": "data.chiayi.gov.tw"
   },
   "council": {
@@ -237,17 +237,31 @@
   "citizen_stats": {},
   "social_posts": [
     {
-      "id": "ptt-httpswwwpttccbbsGossipingM1782099358A440html",
+      "id": "ptt-httpswwwpttccbbsChiayiM1782114503A73Fhtml",
       "platform": "PTT",
       "platform_color": "#00b300",
-      "board": "Gossiping",
+      "board": "Chiayi",
       "date": "06/22",
       "author": "PTT 鄉民",
-      "title": "[新聞] 桃園賓士違停女乘客見警慌張　身藏喪屍煙",
-      "url": "https://www.ptt.cc/bbs/Gossiping/M.1782099358.A.440.html",
+      "title": "〔徵求〕二手108課綱的國三各科参考書和總複習講義",
+      "url": "https://www.ptt.cc/bbs/Chiayi/M.1782114503.A.73F.html",
       "reactions": 0,
       "comments": 0,
-      "category": "交通停車",
+      "category": "市政議題",
+      "source": "ptt"
+    },
+    {
+      "id": "ptt-httpswwwpttccbbsChiayiM1782106730AAA8html",
+      "platform": "PTT",
+      "platform_color": "#00b300",
+      "board": "Chiayi",
+      "date": "06/22",
+      "author": "PTT 鄉民",
+      "title": "[問題] 換IPHONE手機電池的店家",
+      "url": "https://www.ptt.cc/bbs/Chiayi/M.1782106730.A.AA8.html",
+      "reactions": 0,
+      "comments": 0,
+      "category": "市政議題",
       "source": "ptt"
     },
     {
@@ -385,20 +399,6 @@
       "author": "PTT 鄉民",
       "title": "[問題] 有誰說甲",
       "url": "https://www.ptt.cc/bbs/Chiayi/M.1781488895.A.33F.html",
-      "reactions": 0,
-      "comments": 0,
-      "category": "市政議題",
-      "source": "ptt"
-    },
-    {
-      "id": "ptt-httpswwwpttccbbsChiayiM1781484071AA32html",
-      "platform": "PTT",
-      "platform_color": "#00b300",
-      "board": "Chiayi",
-      "date": "06/15",
-      "author": "PTT 鄉民",
-      "title": "[問題] 義竹的桌球室",
-      "url": "https://www.ptt.cc/bbs/Chiayi/M.1781484071.A.A32.html",
       "reactions": 0,
       "comments": 0,
       "category": "市政議題",
