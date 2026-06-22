@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-22T11:52:06.964935",
+  "updated_at": "2026-06-22T16:49:30.600521",
   "news": [
     {
       "headline": "嘉義市舉辦企業自主防災座談會攜手在地企業共築強韌安全嘉園",
@@ -202,7 +202,7 @@
       "2012": 1,
       "2013": 1
     },
-    "updated_at": "2026-06-22T11:49:30.682236",
+    "updated_at": "2026-06-22T16:47:41.059444",
     "source": "data.chiayi.gov.tw"
   },
   "council": {
@@ -236,20 +236,6 @@
   },
   "citizen_stats": {},
   "social_posts": [
-    {
-      "id": "ptt-httpswwwpttccbbsChiayiM1782114503A73Fhtml",
-      "platform": "PTT",
-      "platform_color": "#00b300",
-      "board": "Chiayi",
-      "date": "06/22",
-      "author": "PTT 鄉民",
-      "title": "〔徵求〕二手108課綱的國三各科参考書和總複習講義",
-      "url": "https://www.ptt.cc/bbs/Chiayi/M.1782114503.A.73F.html",
-      "reactions": 0,
-      "comments": 0,
-      "category": "市政議題",
-      "source": "ptt"
-    },
     {
       "id": "ptt-httpswwwpttccbbsChiayiM1782106730AAA8html",
       "platform": "PTT",
@@ -399,6 +385,20 @@
       "author": "PTT 鄉民",
       "title": "[問題] 有誰說甲",
       "url": "https://www.ptt.cc/bbs/Chiayi/M.1781488895.A.33F.html",
+      "reactions": 0,
+      "comments": 0,
+      "category": "市政議題",
+      "source": "ptt"
+    },
+    {
+      "id": "ptt-httpswwwpttccbbsChiayiM1781484071AA32html",
+      "platform": "PTT",
+      "platform_color": "#00b300",
+      "board": "Chiayi",
+      "date": "06/15",
+      "author": "PTT 鄉民",
+      "title": "[問題] 義竹的桌球室",
+      "url": "https://www.ptt.cc/bbs/Chiayi/M.1781484071.A.A32.html",
       "reactions": 0,
       "comments": 0,
       "category": "市政議題",
