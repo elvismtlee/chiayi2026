@@ -1,6 +1,13 @@
 {
-  "updated_at": "2026-06-21T19:29:29.382825",
+  "updated_at": "2026-06-22T03:49:38.379331",
   "news": [
+    {
+      "headline": "嘉義市推動智慧回收機佈建再進化擴點結合活動提升市民參與",
+      "source": "嘉義市政府/嘉義市政府環境保護局/資源循環管理科",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=942859",
+      "date": "2026/06/22",
+      "query": "市府新聞"
+    },
     {
       "headline": "嘉市府旬味學推動食農教育五部曲從土地到餐桌打造城市食農學習旅程",
       "source": "嘉義市政府/建設處/觀光新聞處",
@@ -75,13 +82,6 @@
       "headline": "端午連假來嘉義！首屆嘉義市設計週壓軸登場共振舞台、嘉菸市集熱鬧開展",
       "source": "嘉義市政府/文化局/觀光新聞處",
       "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=942645",
-      "date": "2026/06/18",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "總獎金30萬元！2026街舞首都全國舞藝競技賽7月嘉義市登場",
-      "source": "嘉義市政府/文化局/觀光新聞處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=942644",
       "date": "2026/06/18",
       "query": "市府新聞"
     }
@@ -202,7 +202,7 @@
       "2012": 1,
       "2013": 1
     },
-    "updated_at": "2026-06-21T19:27:39.669234",
+    "updated_at": "2026-06-22T03:47:09.139218",
     "source": "data.chiayi.gov.tw"
   },
   "council": {
@@ -237,6 +237,20 @@
   "citizen_stats": {},
   "social_posts": [
     {
+      "id": "ptt-httpswwwpttccbbsGossipingM1782099358A440html",
+      "platform": "PTT",
+      "platform_color": "#00b300",
+      "board": "Gossiping",
+      "date": "06/22",
+      "author": "PTT 鄉民",
+      "title": "[新聞] 桃園賓士違停女乘客見警慌張　身藏喪屍煙",
+      "url": "https://www.ptt.cc/bbs/Gossiping/M.1782099358.A.440.html",
+      "reactions": 0,
+      "comments": 0,
+      "category": "交通停車",
+      "source": "ptt"
+    },
+    {
       "id": "ptt-httpswwwpttccbbsChiayiM1781935330A648html",
       "platform": "PTT",
       "platform_color": "#00b300",
@@ -269,7 +283,7 @@
       "platform": "PTT",
       "platform_color": "#00b300",
       "board": "Chiayi",
-      "date": "06/21",
+      "date": "06/22",
       "author": "PTT 鄉民",
       "title": "[亂入] 徵人幫忙遛狗",
       "url": "https://www.ptt.cc/bbs/Chiayi/M.1781911464.A.5B3.html",
@@ -385,20 +399,6 @@
       "author": "PTT 鄉民",
       "title": "[問題] 義竹的桌球室",
       "url": "https://www.ptt.cc/bbs/Chiayi/M.1781484071.A.A32.html",
-      "reactions": 0,
-      "comments": 0,
-      "category": "市政議題",
-      "source": "ptt"
-    },
-    {
-      "id": "ptt-httpswwwpttccbbsChiayiM1781449109AB94html",
-      "platform": "PTT",
-      "platform_color": "#00b300",
-      "board": "Chiayi",
-      "date": "06/20",
-      "author": "PTT 鄉民",
-      "title": "[問題]  有乾淨盥洗的健身房",
-      "url": "https://www.ptt.cc/bbs/Chiayi/M.1781449109.A.B94.html",
       "reactions": 0,
       "comments": 0,
       "category": "市政議題",
