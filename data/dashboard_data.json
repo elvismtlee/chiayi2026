@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-22T20:45:03.218151",
+  "updated_at": "2026-06-23T02:51:20.494587",
   "news": [
     {
       "headline": "嘉義市舉辦企業自主防災座談會攜手在地企業共築強韌安全嘉園",
@@ -202,7 +202,7 @@
       "2012": 1,
       "2013": 1
     },
-    "updated_at": "2026-06-22T20:43:04.016463",
+    "updated_at": "2026-06-23T02:49:33.141229",
     "source": "data.chiayi.gov.tw"
   },
   "council": {
@@ -236,6 +236,20 @@
   },
   "citizen_stats": {},
   "social_posts": [
+    {
+      "id": "ptt-httpswwwpttccbbsGossipingM1782182346A503html",
+      "platform": "PTT",
+      "platform_color": "#00b300",
+      "board": "Gossiping",
+      "date": "06/23",
+      "author": "PTT 鄉民",
+      "title": "[新聞] 高雄市長選情互咬！柯志恩46.8％領先賴瑞",
+      "url": "https://www.ptt.cc/bbs/Gossiping/M.1782182346.A.503.html",
+      "reactions": 0,
+      "comments": 0,
+      "category": "市政議題",
+      "source": "ptt"
+    },
     {
       "id": "ptt-httpswwwpttccbbsChiayiM1782106730AAA8html",
       "platform": "PTT",
@@ -385,20 +399,6 @@
       "author": "PTT 鄉民",
       "title": "[問題] 有誰說甲",
       "url": "https://www.ptt.cc/bbs/Chiayi/M.1781488895.A.33F.html",
-      "reactions": 0,
-      "comments": 0,
-      "category": "市政議題",
-      "source": "ptt"
-    },
-    {
-      "id": "ptt-httpswwwpttccbbsChiayiM1781484071AA32html",
-      "platform": "PTT",
-      "platform_color": "#00b300",
-      "board": "Chiayi",
-      "date": "06/15",
-      "author": "PTT 鄉民",
-      "title": "[問題] 義竹的桌球室",
-      "url": "https://www.ptt.cc/bbs/Chiayi/M.1781484071.A.A32.html",
       "reactions": 0,
       "comments": 0,
       "category": "市政議題",
