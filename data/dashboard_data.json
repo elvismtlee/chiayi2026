@@ -1,6 +1,27 @@
 {
-  "updated_at": "2026-06-23T02:51:20.494587",
+  "updated_at": "2026-06-23T09:35:35.467563",
   "news": [
+    {
+      "headline": "嘉義市推動智慧回收機佈建再增3處！明(6/24)起推廣活動起跑揪你回收兌優惠",
+      "source": "嘉義市政府/環保局/觀光新聞處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=943331",
+      "date": "2026/06/23",
+      "query": "市府新聞"
+    },
+    {
+      "headline": "嘉義市政府衛生局公布「115年國道服務區暨交流道周邊餐飲業稽查專案」執行結果",
+      "source": "嘉義市政府/衛生局",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=942856",
+      "date": "2026/06/23",
+      "query": "市府新聞"
+    },
+    {
+      "headline": "黃敏惠市長率隊赴德荷交流借鏡國際經驗打造永續嘉義市",
+      "source": "嘉義市政府/環保局/觀光新聞處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=943311",
+      "date": "2026/06/23",
+      "query": "市府新聞"
+    },
     {
       "headline": "嘉義市舉辦企業自主防災座談會攜手在地企業共築強韌安全嘉園",
       "source": "嘉義市政府/消防局",
@@ -62,27 +83,6 @@
       "source": "嘉義市政府/嘉義市政府環境保護局/資源循環管理科",
       "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=942859",
       "date": "2026/06/22",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "柏安診所開幕肝膽腸胃專科進駐社區守護嘉義市民健康",
-      "source": "嘉義市政府/衛生局/觀光新聞處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=943211",
-      "date": "2026/06/20",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "嘉市府旬味學推動食農教育五部曲從土地到餐桌打造城市食農學習旅程",
-      "source": "嘉義市政府/建設處/觀光新聞處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=942767",
-      "date": "2026/06/20",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "嘉義市推城市綠美學要讓城市逐漸長成森林",
-      "source": "嘉義市政府/建設處/觀光新聞處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=942766",
-      "date": "2026/06/20",
       "query": "市府新聞"
     }
   ],
@@ -202,7 +202,7 @@
       "2012": 1,
       "2013": 1
     },
-    "updated_at": "2026-06-23T02:49:33.141229",
+    "updated_at": "2026-06-23T09:33:32.486800",
     "source": "data.chiayi.gov.tw"
   },
   "council": {
@@ -236,20 +236,6 @@
   },
   "citizen_stats": {},
   "social_posts": [
-    {
-      "id": "ptt-httpswwwpttccbbsGossipingM1782182346A503html",
-      "platform": "PTT",
-      "platform_color": "#00b300",
-      "board": "Gossiping",
-      "date": "06/23",
-      "author": "PTT 鄉民",
-      "title": "[新聞] 高雄市長選情互咬！柯志恩46.8％領先賴瑞",
-      "url": "https://www.ptt.cc/bbs/Gossiping/M.1782182346.A.503.html",
-      "reactions": 0,
-      "comments": 0,
-      "category": "市政議題",
-      "source": "ptt"
-    },
     {
       "id": "ptt-httpswwwpttccbbsChiayiM1782106730AAA8html",
       "platform": "PTT",
@@ -399,6 +385,20 @@
       "author": "PTT 鄉民",
       "title": "[問題] 有誰說甲",
       "url": "https://www.ptt.cc/bbs/Chiayi/M.1781488895.A.33F.html",
+      "reactions": 0,
+      "comments": 0,
+      "category": "市政議題",
+      "source": "ptt"
+    },
+    {
+      "id": "ptt-httpswwwpttccbbsChiayiM1781484071AA32html",
+      "platform": "PTT",
+      "platform_color": "#00b300",
+      "board": "Chiayi",
+      "date": "06/15",
+      "author": "PTT 鄉民",
+      "title": "[問題] 義竹的桌球室",
+      "url": "https://www.ptt.cc/bbs/Chiayi/M.1781484071.A.A32.html",
       "reactions": 0,
       "comments": 0,
       "category": "市政議題",
