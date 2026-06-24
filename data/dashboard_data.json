@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-24T09:06:26.072820",
+  "updated_at": "2026-06-24T14:24:12.053446",
   "news": [
     {
       "headline": "2026布丁狗Super30路跑派對熱鬧登場！交管資訊公開",
@@ -202,7 +202,7 @@
       "2012": 1,
       "2013": 1
     },
-    "updated_at": "2026-06-24T09:04:00.026180",
+    "updated_at": "2026-06-24T14:22:24.393524",
     "source": "data.chiayi.gov.tw"
   },
   "council": {
@@ -236,20 +236,6 @@
   },
   "citizen_stats": {},
   "social_posts": [
-    {
-      "id": "ptt-httpswwwpttccbbsGossipingM1782290713AF14html",
-      "platform": "PTT",
-      "platform_color": "#00b300",
-      "board": "Gossiping",
-      "date": "06/24",
-      "author": "PTT 鄉民",
-      "title": "[新聞] 快訊／高雄市議員黃紹庭將解職　詐助理",
-      "url": "https://www.ptt.cc/bbs/Gossiping/M.1782290713.A.F14.html",
-      "reactions": 0,
-      "comments": 0,
-      "category": "市政議題",
-      "source": "ptt"
-    },
     {
       "id": "ptt-httpswwwpttccbbsChiayiM1782263778A377html",
       "platform": "PTT",
@@ -399,6 +385,20 @@
       "author": "PTT 鄉民",
       "title": "Re: [問題] 有誰說甲",
       "url": "https://www.ptt.cc/bbs/Chiayi/M.1781510327.A.7C1.html",
+      "reactions": 0,
+      "comments": 0,
+      "category": "市政議題",
+      "source": "ptt"
+    },
+    {
+      "id": "ptt-httpswwwpttccbbsChiayiM1781503048A1E3html",
+      "platform": "PTT",
+      "platform_color": "#00b300",
+      "board": "Chiayi",
+      "date": "06/15",
+      "author": "PTT 鄉民",
+      "title": "Re: [問題] 有誰說甲",
+      "url": "https://www.ptt.cc/bbs/Chiayi/M.1781503048.A.1E3.html",
       "reactions": 0,
       "comments": 0,
       "category": "市政議題",
