@@ -1,6 +1,34 @@
 {
-  "updated_at": "2026-06-24T02:55:27.486885",
+  "updated_at": "2026-06-24T09:06:26.072820",
   "news": [
+    {
+      "headline": "2026布丁狗Super30路跑派對熱鬧登場！交管資訊公開",
+      "source": "嘉義市政府/警察局/觀光新聞處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=943458",
+      "date": "2026/06/24",
+      "query": "市府新聞"
+    },
+    {
+      "headline": "迎接戶政日提前溫情慰勞基層戶政同仁",
+      "source": "嘉義市政府/民政處/嘉義市東區戶政事務所/嘉義市西區戶政事務所",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=943456",
+      "date": "2026/06/24",
+      "query": "市府新聞"
+    },
+    {
+      "headline": "15家精選嘉市好店進軍台北國際食品展去年媒合金額翻近3倍今年續拚商機！",
+      "source": "嘉義市政府/建設處/觀光新聞處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=943437",
+      "date": "2026/06/24",
+      "query": "市府新聞"
+    },
+    {
+      "headline": "嘉義市回收新優惠！到全家超商回收廢電池、舊3C加碼5元抵用金",
+      "source": "嘉義市政府/環境保護局/觀光新聞處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=943425",
+      "date": "2026/06/24",
+      "query": "市府新聞"
+    },
     {
       "headline": "嘉義市推動智慧回收機佈建再增3處！明(6/24)起推廣活動起跑揪你回收兌優惠",
       "source": "嘉義市政府/環保局/觀光新聞處",
@@ -54,34 +82,6 @@
       "headline": "哨響正義在法律當後盾！嘉市府辦理「公益揭弊者保護法」講座",
       "source": "嘉義市政府/政風處/觀光新聞處",
       "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=943188",
-      "date": "2026/06/22",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "2026嘉義市購物節7月開跑！滿500元抽百萬元豪華汽車、百萬現金大獎抽不完",
-      "source": "嘉義市政府/建設處/觀光新聞處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=942936",
-      "date": "2026/06/22",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "房產有異動第一時間通知你嘉義市全國首創智能櫃員機申辦「地籍異動即時通」",
-      "source": "嘉義市政府/地政處/觀光新聞處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=942897",
-      "date": "2026/06/22",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "嘉義市政府人事處長交接！嘉義子弟林日明返鄉接任攜手打造有溫度的戰鬥團隊",
-      "source": "嘉義市政府/人事處/觀光新聞處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=942891",
-      "date": "2026/06/22",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "嘉義市推動智慧回收機佈建再進化擴點結合活動提升市民參與",
-      "source": "嘉義市政府/嘉義市政府環境保護局/資源循環管理科",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=942859",
       "date": "2026/06/22",
       "query": "市府新聞"
     }
@@ -202,7 +202,7 @@
       "2012": 1,
       "2013": 1
     },
-    "updated_at": "2026-06-24T02:52:35.729414",
+    "updated_at": "2026-06-24T09:04:00.026180",
     "source": "data.chiayi.gov.tw"
   },
   "council": {
@@ -237,14 +237,14 @@
   "citizen_stats": {},
   "social_posts": [
     {
-      "id": "ptt-httpswwwpttccbbsGossipingM1782268974A54Chtml",
+      "id": "ptt-httpswwwpttccbbsGossipingM1782290713AF14html",
       "platform": "PTT",
       "platform_color": "#00b300",
       "board": "Gossiping",
       "date": "06/24",
       "author": "PTT 鄉民",
-      "title": "[新聞] 網友嗆殺李四川、羅智強 藍營雙北議員提",
-      "url": "https://www.ptt.cc/bbs/Gossiping/M.1782268974.A.54C.html",
+      "title": "[新聞] 快訊／高雄市議員黃紹庭將解職　詐助理",
+      "url": "https://www.ptt.cc/bbs/Gossiping/M.1782290713.A.F14.html",
       "reactions": 0,
       "comments": 0,
       "category": "市政議題",

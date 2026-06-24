@@ -1,5 +1,33 @@
 [
   {
+    "headline": "2026布丁狗Super30路跑派對熱鬧登場！交管資訊公開",
+    "source": "嘉義市政府/警察局/觀光新聞處",
+    "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=943458",
+    "date": "2026/06/24",
+    "query": "市府新聞"
+  },
+  {
+    "headline": "迎接戶政日提前溫情慰勞基層戶政同仁",
+    "source": "嘉義市政府/民政處/嘉義市東區戶政事務所/嘉義市西區戶政事務所",
+    "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=943456",
+    "date": "2026/06/24",
+    "query": "市府新聞"
+  },
+  {
+    "headline": "15家精選嘉市好店進軍台北國際食品展去年媒合金額翻近3倍今年續拚商機！",
+    "source": "嘉義市政府/建設處/觀光新聞處",
+    "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=943437",
+    "date": "2026/06/24",
+    "query": "市府新聞"
+  },
+  {
+    "headline": "嘉義市回收新優惠！到全家超商回收廢電池、舊3C加碼5元抵用金",
+    "source": "嘉義市政府/環境保護局/觀光新聞處",
+    "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=943425",
+    "date": "2026/06/24",
+    "query": "市府新聞"
+  },
+  {
     "headline": "嘉義市推動智慧回收機佈建再增3處！明(6/24)起推廣活動起跑揪你回收兌優惠",
     "source": "嘉義市政府/環保局/觀光新聞處",
     "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=943331",
@@ -63,34 +91,6 @@
     "query": "市府新聞"
   },
   {
-    "headline": "房產有異動第一時間通知你嘉義市全國首創智能櫃員機申辦「地籍異動即時通」",
-    "source": "嘉義市政府/地政處/觀光新聞處",
-    "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=942897",
-    "date": "2026/06/22",
-    "query": "市府新聞"
-  },
-  {
-    "headline": "嘉義市政府人事處長交接！嘉義子弟林日明返鄉接任攜手打造有溫度的戰鬥團隊",
-    "source": "嘉義市政府/人事處/觀光新聞處",
-    "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=942891",
-    "date": "2026/06/22",
-    "query": "市府新聞"
-  },
-  {
-    "headline": "嘉義市推動智慧回收機佈建再進化擴點結合活動提升市民參與",
-    "source": "嘉義市政府/嘉義市政府環境保護局/資源循環管理科",
-    "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=942859",
-    "date": "2026/06/22",
-    "query": "市府新聞"
-  },
-  {
-    "headline": "柏安診所開幕肝膽腸胃專科進駐社區守護嘉義市民健康",
-    "source": "嘉義市政府/衛生局/觀光新聞處",
-    "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=943211",
-    "date": "2026/06/20",
-    "query": "市府新聞"
-  },
-  {
     "headline": "嘉義市召開115年第1次食安推動委員會跨局處把關食安守護市民健康",
     "source": "嘉義市政府/衛生局",
     "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=940022",
@@ -114,7 +114,7 @@
   {
     "headline": "嘉義市西區規模3.5極淺層地震 台南白河、嘉義太保最大震度3級",
     "source": "MSN",
-    "link": "https://news.google.com/rss/articles/CBMiqARBVV95cUxQWXhnbm1BTXF1X1dOMjg3dHZZN3hzNVpCc3N1R1YycUdXTGgzTzVrUkhVR3JxUHhtM0p2R3RDLUkxSmlQdDQyRUduSk1nN29GWjNKLWUyT0Q5a1hnQ2pLVWdqcEhfRXJmeGVEbWl3Wi1abEJKa1g4cGp0Vy1FUHAxeVBIM1RkX1N5cGhyRjYzNnFjeGg3QnlIU09WU2hSa184d0FkM0VyN0V5bmtTelFqMEI4azAybmt4djVHTlQtMDNOVTlZYWhNVlEzZFZ5azdXc3U1Y293NEhXWmg1YTRPd3lLUW5EV1NKTDZwVm0zRmU3Qk5RVXB5Y1NsbEtKUk9TQ05fRzExY2VNdUlCOWI2Z2xjaWg5UFVMR3NmSHhuZlA2U0JMajllNjh1SlBRckdUR0FMMWNxSkI0LVNmbWlkTzl3R3lna0J5eUNxTjZqR3ZPTFVLa3ZSLVV2REFoajM4NXB1UTJJaHA4dGdnUy1WVnA2Y3lxSk1hRjNsdGNzREJacXFZTG5UcFFYck9Pa1I5OHdtS1lBUUlQYWRvQjFFdGlPUXJ2UWliV3RKS1VxelFZWV9EekNVaVNfN2dkNUJlVUtyeHVpLU1zZTdUXzl0aXlUOXdMUVU0YUYweE1YM2dyRkRMM0ZVMlNDU01nelgtMkE4N2djTXdmLUR2TXBqSW9PYkQ5M0VpUHNla1Vic1A5YUhDZUdCS0w5bEVkT0UtMC1iZFY3bFk?oc=5",
+    "link": "https://news.google.com/rss/articles/CBMiqgRBVV95cUxOX0dDT2l2QVE5RDBaVk5wNXlMQVRQWmNJU0EtRHJHUGpHT21GZEY5RjJOR0V4VllZNFNTQ0FycGkzbkpFV1FTajFJVmVoM1VjWTdJQl9QTGNpOGJLRXVaa3lGUFI1YVlXWEpCbjRQbTY4cldta19NMXU2bTBsMkxWV0NTcjgxQ3dDQ1dueVpZWjJUN3ZzdkEzM0dEZFktdGh1OFUtNnBCSUg0dllaNDhEYVdKTVR0SUZISTR5dHlIYVUyMFlvekFOWUprc0lBd1BsRFk1dWxCN0ZnLUNsTkFoTjVsQ0FFelJOYnBBU0JyU2VqX3k0aDNCajRZTnZ0T2IyVmdRM2J5QWNWVWJ3NkRBeUlQMDNWeXpLUkRuT0JTSHZ3aUVpVUdXczR0d0RKNmJvUFFRQ1d5d0JmQ3JZdTA3d21pQUlvNW1RSFEza0Y3cFE0M2F0dWxRU21mQUVTcTlrSVA1Z3pFSmpuX1dwNjdYam9WTW5sQlNmdVZwcE1CSk9YX0ZFeGZrRERYd3JKeXhWQmVZeEo3cUNicEJnR3dGdU1ZQWFhQlhxZlhBLXJIdEdJeFphUllYU0dud1V4cERlakpQaWhGb3JQZzZEQndQSUQyWE10WGIxLVRFb25XU1huSlVtYmlVaDlYYkVfMkFhUUNJZjV1WENBN3FHMUdqdWRnUU92UVRTWjdhbmZnZGt6WV9yYUVsRE82V2hJVXpjTmtyUTdXSjBtQQ?oc=5",
     "date": "2026-06-23 13:00",
     "query": "嘉義市 噪音 污染"
   },
@@ -165,7 +165,7 @@
     "source": "LINE TODAY",
     "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9WVGJuX3FJcWVxYVJ5LWFIQTdRODZHUGVSZE1yQ09RVDByc0xBYXZzZjdueGR1LXg0TUYxSE16QnZpdW1HdGVJYk50OFZUQVFsS3FxN1ln?oc=5",
     "date": "2026-06-13 17:46",
-    "query": "嘉義市 交通事故"
+    "query": "嘉義市 消防 事故"
   },
   {
     "headline": "嘉義市後庄直排改善工程年底完工 排洪效益增近5倍",
@@ -182,11 +182,25 @@
     "query": "嘉義市 環境衛生 垃圾"
   },
   {
+    "headline": "陳姿妏、黃敏惠盛情款待!全國議長、 副議長聯誼會今晚嗨翻嘉市",
+    "source": "MSN",
+    "link": "https://news.google.com/rss/articles/CBMingNBVV95cUxOeVZSdUV6RFd5QzhQX3oyM1lMVHJnOS1TbjJzbmZtOFR5N1p1Z0g4TGUzQzJzdHFRZEtnNHZxaTVIczEzTExSRm5pM1pMOVFBckdxT3l5ZVBlMTUzT0ttNWU3eDByRGNyX09lMHA3dzE4dVlRa1NpX3R5OTBuM1EybDRrSkNRbVk1V1NiMHhOZFVIdW53Wlk3NTdNWHZzVWZUY1Q5eVh6NU41ZkRiZUhla0RmREFxUTRROElyWmJZcVk3UlRuZ3gzWFhHcW5rLVVqdV9tZTNGNjQ0NEJDbzdzYVFSQXBiZzNIaTAtTnUzRkVEaEF5WVZZR3dKVVhPUzg3U2owaThOWWxvdHhfSVZuVVg1cDFIc2RmWkY5WGdhU1JPaWotVnIzUEZCZktnX2xHR19NdWllcFhZTzJQM3VYNE5HclI3N0xDV2VHZHY0OUc4WmNGS2Rxc1VSRWd5WkdJcVItWHAtMEJMeXVGdlhaeC1BTjJ0LXROcmpiWk4tWXEtRTBOME9LcVpIWW1BRUJoUl9hSmV5RFdKaFVwUnc?oc=5",
+    "date": "2026-06-11 16:46",
+    "query": "嘉義市議會 會議"
+  },
+  {
     "headline": "嘉義市環保局針對餐飲油水減污 輔導業者設置油脂截留設施",
     "source": "蕃新聞",
     "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFByS0QxV2VlVDF4RXJmeEdCWmdTQ2JyMTRIZnB3b1RTR1ZYNEtkc0tFcWtVcjB5VkhVX3FzdmgxdGtDT2xXWEw1YlQxN3NkR0tKWGc?oc=5",
     "date": "2026-06-11 16:00",
     "query": "嘉義市 排水 水溝"
+  },
+  {
+    "headline": "下雨下到民眾急躁？嘉義到高雄整天交通意外頻傳",
+    "source": "TVBS新聞網",
+    "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE94d0Z4MkpLa0VZY1dKRWVIZWlPQ1BKUDlmTU1aR1lpMVk3YkFoTnJGOHZYVG1KRzJfY2tCRkRoNy1tMHhkbU5NbmR4LXdOeUE?oc=5",
+    "date": "2026-06-11 15:00",
+    "query": "嘉義市 交通事故"
   },
   {
     "headline": "快訊／獲提報「模範警察」⋯嘉義市偵查隊分隊長涉貪、洩密! 檢方聲押",
@@ -252,6 +266,20 @@
     "query": "嘉義市 交通事故"
   },
   {
+    "headline": "瞄準韓國客源市場 黃敏惠率團赴釜山推介嘉義觀光魅力",
+    "source": "墨新聞-MORE News",
+    "link": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE15YUlfQl9zVlVMR2UwaWhQdDloMTBQcXVXcFFHeW1MRGJYOHd1RF9Vd2c3VUhDR3UySUxobjJNM0VuQQ?oc=5",
+    "date": "2026-06-02 15:00",
+    "query": "嘉義市 夜市 市場"
+  },
+  {
+    "headline": "嘉義蘭潭國中風雨球場工安意外！30歲工人遭鋼板切腹 臟器外露亡",
+    "source": "UDN",
+    "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5qRzdmODkwUXZkcTRvLTFmX3BCeThfcE85MmRLS1NIdmFUQzB3VTlnSnA0QVhXY0hPSjZvLW1qZVdXblZxcmQ3ZjBVb1QzaHV30gFWQVVfeXFMUGxJNm9MT013c3VUblJhZTk5bEFnU3lzdnZUUVRfOHZUWUtfdmZFQWNOQXdVM1ZrMHdIOUxNUld3eXVNdWZ6WkQyQUtBSC10VnpfU2ZrR2c?oc=5",
+    "date": "2026-05-29 15:00",
+    "query": "嘉義市 消防 事故"
+  },
+  {
     "headline": "2026嘉義藝術節》皮克敏迷你散步地圖、遮陽帽怎麼領？時間地點、交通一次看－活動旅遊全攻略",
     "source": "商周",
     "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1OSjZ1SG93d1JVODlFdHZLUmtJbk0tN0RRakU0Qk80ajAyNWpKbl9uaFhxSi1BZ0Y0YmJ6LWhGYzlMLVp5WVVETnNnekhxOWlzZTF1ZTVHWFNwYXk4WmV1emtR?oc=5",
@@ -287,9 +315,9 @@
     "query": "嘉義市 觀光 文化 活動"
   },
   {
-    "headline": "嘉義城隍夜巡奪旅遊大賞 宗教觀光魅力驚豔全台",
-    "source": "樂聯網",
-    "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5BUGgybUQtOEQ3bU1BcFlrazFhVk5nTEh2V0dLblRqZ2x6bFlVZnhFZFJFMDlJWUIzUkFyR2h0U3IyYkFvVDNCZFA1cw?oc=5",
+    "headline": "「城隍夜巡－夯枷解厄」榮獲2026旺旺中時台灣旅遊大賞 展現嘉義市宗教觀光魅力！",
+    "source": "台灣華報",
+    "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1KZnpSVWU0TVIxeDNvRGcyTFFfS1lOZXpZenZlWEFXUi05NkZ0d1VTUlpUOGxKR3hKcWZxYU5nSmNFQVhlS2d5cnM4V1RnWjhSS3k0LUlCT0FNSGN0N0lmNnhhSlRkQjM4VjJv?oc=5",
     "date": "2026-05-26 15:00",
     "query": "嘉義市 觀光 文化 活動"
   },
@@ -343,6 +371,13 @@
     "query": "嘉義市 夜市 市場"
   },
   {
+    "headline": "18縣市「200元換400元」94處市場、夜市名單一次看",
+    "source": "Yahoo新聞",
+    "link": "https://news.google.com/rss/articles/CBMijgJBVV95cUxQamJaejk2V0s1TXRLcS1EZnR0cUkya0J2QWlpX2h2cUpIR1piLUVlNExPMDNQSlZ1bTR1UmlrYXJzTk5MWUhwaHVjZWRGTUg2aFF2LXc4UWtyN3lkUTk1aW9SVkNkQzQ5R0RLbEpFYjhWMkxDUFdrdFdHbndLa2hCLThFR1MxYlM2M1Rna2ltWnRFNENjMW1xUGtnclBHN3VCOVNDR2hwb2tQbEEyM2J6TDNDdHdHUUN4Ui1Ca2JQbEsydWVFUVlaVVRmYjNIaVJsbDF2c2w1VkJtQkdzazBJaWxSMTlfcS1fZzc1T2tjdjREYnZCNmdUT2tWdEM5S3JMZXJhRnlQV3lBblZ2OXc?oc=5",
+    "date": "2026-05-10 15:00",
+    "query": "嘉義市 夜市 市場"
+  },
+  {
     "headline": "毒駕連環撞驚魂一瞬間 女乘客命危急轉院搶救",
     "source": "UDN",
     "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9KSGlWQWx6a19RdmN3ekt0YkluSGNEOHo4RVdOaWEzS0pETlR0ZXEyUFY3SnpzQmY3c2NZY3V2bFNkTmdoa1M1OWZMMDlhS0gx0gFWQVVfeXFMUDUzdVdLVFRpc3ZhN2VTajhJcFhrd1FmWGFseW41WUp0ZzhESlpSbXR3SVZuWGswVnZhWXhxdjVxOWppbzNOdmc0QUFhMWt2dWpUUVZlR1E?oc=5",
@@ -378,13 +413,6 @@
     "query": "嘉義市 議員 質詢"
   },
   {
-    "headline": "皮克敏湧130萬人塞爆嘉義！亂象叢生 議員批：管理失靈非意外",
-    "source": "中時新聞網",
-    "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFB2UW5ubDh1SUpkOTRQWUJjY25maHlNWEFkQml3WXZpWTl3U3M3QVIzY0tnbzdpby1RbUFCMTZBcTNKQktlMnJweDd0S0JkT2ktR1FNZXNYRWtTSFc0N1ZhYlNFempVYk9IWUN1cVl3?oc=5",
-    "date": "2026-05-04 15:00",
-    "query": "嘉義市 議員 質詢"
-  },
-  {
     "headline": "皮克敏翻轉文化體驗 嘉市5月首週迎130萬人潮",
     "source": "台灣好新聞",
     "link": "https://news.google.com/rss/articles/CBMiqgJBVV95cUxNYUpMUGJmY2NzS1I5cmd6OTVLUFBGejdNWjJPOTVPNUJJSnNPX1Q2Y21SbDJVLVJWOUtua0I1Q2dmNlpCZVVSbTlwWmZWOGpDM2hTSWVSNXltTWpLNUluTFIzQmRCT2s2Y2FjS1FTSkNWTzk3SW03blV5b2JvOG9wTU9WemduLTBXZEdReFlWZHlvS09uMnBHcElrTFpXY2lYVURPYmdMR0xQS3F2MTEyY2tIZlcwUDNGdGRMb1MwUlNLUXlGWm5JbW9sSTdxdHpYM25lZUNkQlczUGlWTk5sbWZSMDBSRzdJUllyNWFmZXFTVkMwc3FoMmxQaE5zR3ZaLWc4TGxxbktrSVFLQWNaRTJmTFV2SlgtWmRMQlJIcDJ0RWxVV2JWSWln?oc=5",
@@ -410,7 +438,7 @@
     "source": "工商時報",
     "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE4wN1k0eHY5M3RxMjdKaE93NGJLdWliNkFGSkIwTGRyaXZlMkFZdmZ1Q1RpbTdrZXU1Zm54aGxKU05iNmR4eXp5blhvUkVjY29GT0U3VWw4cUY5ZmZZM1E4?oc=5",
     "date": "2026-04-30 15:00",
-    "query": "嘉義市 1999 陳情"
+    "query": "嘉義市 議員 質詢"
   },
   {
     "headline": "廢棄車輛移置處理逾140天 嘉市1999挨批效率低落",
@@ -441,9 +469,9 @@
     "query": "嘉義市 議員 質詢"
   },
   {
-    "headline": "嘉市公園用地閒置7年議員盼還地於民- 其他",
-    "source": "旺得富理財網",
-    "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9fOXFnQjFhYjBnR19UUjlVTHZxOWxRRXhhZlFEdmZOR0pkSkZQZzh2UU0yakNCUE1KWWxKUnJtRGVaVU1EMFVUeElIZVVCMkZGZU1wVXlxX3JZUmhIa05NQ2VoSGNRSmdMc2c?oc=5",
+    "headline": "嘉市兒17公園用地閒置7年　議員盼還地於民",
+    "source": "好房網News",
+    "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5KWTM3Nm9MMjhQMjFvZjVKMTZzMTdBVXcxRHRYZE1iTXFLNVJlZTNtYk9LdThZMWttckVZdTl5SWwzWW02U2t4eUZ3bU14VmRuOXhRd2Vka1p4cUVoVC1wZ0lrQThRNFI0aVNB0gFwQVVfeXFMT0ZUTmdZVHZJeWtIVlpTa0U5MURrNlNnNWNwZGZULWVsMGtUak1mUHViRndLNmFKM3lZempHd0prTkJ5MFZ0VGtxak9wSEdvd2Z6Nmd0cHhNMDUxdHk3RUh6NWRLeTVDT29ITjQxTFFGNw?oc=5",
     "date": "2026-04-28 15:00",
     "query": "嘉義市 公園 綠地"
   },
@@ -466,13 +494,6 @@
     "source": "中央社 CNA",
     "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1lSHRQOTA0c3JMT053ejJoVE1CTFhYUUEtc2VJa2RGMnRHdEk3N193VGpzbTRyT0VrX1VkXzZNWjdnZHZPek1aMDV0V19XamNrSjAteHlmc2NVcUVDa0Jn?oc=5",
     "date": "2026-04-21 15:00",
-    "query": "嘉義市議會 會議"
-  },
-  {
-    "headline": "議程提前黃敏惠缺席定期會 議長激動嗆「市長自己准假」",
-    "source": "中時新聞網",
-    "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE82REJuYmlURm92Wi1HenhjTDBXQnVNWFhzYUg1NTgyaDBWeE1sZDhYT2p6QnB6MkF5QXB5Nk1LM0RULTU4eHdTUFExejZZRV9CeVN2b1ZMc2NtR2dRNzBMWVVEMVhXRzk4d3V6aE1B?oc=5",
-    "date": "2026-04-20 15:00",
     "query": "嘉義市議會 會議"
   },
   {
@@ -609,20 +630,6 @@
     "query": "嘉義市 夜市 市場"
   },
   {
-    "headline": "趕赴尾牙聚餐心急釀禍 嘉市3車連環撞5人驚魂幸無傷",
-    "source": "UDN",
-    "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5STE9QbkM4VHo1VF9kYmphcWZvdjVocGdTYVdkRUJFRGF1aGFWN0FsV0U5R2U0Q0lpR1dFck5jODdnOWRSTzdsUzBOOU52eHc00gFWQVVfeXFMTlg0dFZnQTl4ZzdsLVJlMmptRnNVbHRCQUNWamRJOXo2RmpYbkd6NGVidjdiWFBBcmZwRlFLRFpHUUw3QWhTa3VfQWdyZjJMc0lmSldPU2c?oc=5",
-    "date": "2026-02-11 16:00",
-    "query": "嘉義市 消防 事故"
-  },
-  {
-    "headline": "嘉義市「振興商圈夜市券」 3/2開始兌換",
-    "source": "Yahoo新聞",
-    "link": "https://news.google.com/rss/articles/CBMiggJBVV95cUxNWTkxSHdZU29ZSjE2UTRSS04wRG0wdVNtcEpyMm9IYmlVeWk5Vkp1dWU2NDJ6dDZDX3NiWWUwdzJOMS1oRWJweVo3MjRZUTF0ek9HUkQxbGEzVUc4THA3Nk9GQkhxdk05ZE44R1FzdWFYbzI5TGhoTFB5WlpraVQwWTFRaXpnUk1qbmZES1kyaHBpQVNOYm04Qk1SeWVhOVktZTNTQWNPWWZjb2VYRmVWY3Fqano1bEttVjA0djhYOGlnZ204U2RwYm5mUmpHdDZRQS1oT2U3cUxENGh6QW1aeVItWVpKczI5alM4RjBHd0dXa0RBSGRFOTB5dGdqRjg3LUE?oc=5",
-    "date": "2026-02-09 16:00",
-    "query": "嘉義市 夜市 市場"
-  },
-  {
     "headline": "新開幕麻辣鍋品牌嘉義店 遭網友踢爆店前水溝冒黃油環保局稽查",
     "source": "UDN",
     "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9nNWNTeGcxN05EQ2JnVWF1aXNHbkViRVVWSWVINXZTZ2Z4Qmh6YnJMWWVNcjhUVzU0OC1BeVZBV2hUWlJ1RkFqZm8wcm1QUlBs0gFWQVVfeXFMUFVQeWVaQTU0OVhHT3pNdVJnelcyVEFySGQ1dlFocGdWYThVcGtaQ2ZGa0RnZ3E5RUlWUHd2VXRqMGpUa3lXNjg5QVo1OHd5YVZZbkZtMGc?oc=5",
@@ -679,13 +686,6 @@
     "query": "嘉義市 建設 工程"
   },
   {
-    "headline": "炮仗花瀑綻放迎新春 嘉義市揭開花季序幕",
-    "source": "蕃新聞",
-    "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE41X0lJaXk0MXVIUm9HTjRZTk0xODRabXpfOERCNWk4N0pJLXcxYjlGbUljaV8zd0hfU1RIdVdsMVNNV2g1ekRhVWFiM25mZVYtZnc?oc=5",
-    "date": "2026-01-28 16:00",
-    "query": "嘉義市 路燈 安全"
-  },
-  {
     "headline": "嘉義市市民中心工程動土 黃敏惠市長：迎接城市發展全新里程碑",
     "source": "中央社 CNA",
     "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1aMi1xeF9hMUJWTXZjb2ZmeTNjSGJGYVVOanZvMktDYlY5SnNSbHRxY0tfcUc3eEdqNXhibV91NWJ6dlgzLTBvZmUybmducjFyRWN5Y3ZB?oc=5",
@@ -695,7 +695,7 @@
   {
     "headline": "「嘉義市污水系統第一期-分支網及用戶接管第8、9標工程」竣工典禮黃敏惠市長：城市欸靠山抵嘉",
     "source": "chiayi.gov.tw",
-    "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5raFM0MEJraHdKNlJPMTZUVkM2Z2ZvZ3hsREtKRjVRSWVZLWhXUkp6dlZWSWc3YWdvbTl3MFB3dlFVNmN1YVN3dGN1b2FXQ2R2TEw5ZjE1ZEppWEM2QnhuQWJYdk5HazFIZlE?oc=5",
+    "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5uWjRVRG9xblBMOFQ3dmZFOXpIdXd5WEZDQ2RxN2dTdGZMOUg5UWlGX1pjZ2hhVjVkZjI0WHpvQ2FnYlRJRmdYaEU3aHdZcVpXdFc4bkZURlAxeFFyU0ktNk4xU0hEakYtTEE?oc=5",
     "date": "2026-01-21 16:00",
     "query": "嘉義市 建設 工程"
   },
@@ -705,13 +705,6 @@
     "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBFTkZlcG43SkUyZzJkN2kzWk5GTnlfZlJhTGVDaWRyX3FmanVEWm9qX1FYcGpQbVJxb3h5V0VzQWdLdl84Y2NTaFVZNlRETWpkWjY0SkNibTRXM1VfNDNVSkhvWkQ4czViR0Jj?oc=5",
     "date": "2025-12-18 16:00",
     "query": "嘉義市 排水 水溝"
-  },
-  {
-    "headline": "嘉義市政府爭取「永續提升人行安全計畫」6案 中央原則支持",
-    "source": "chiayi.gov.tw",
-    "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9GZGZseVBldXlhcEY3NWdhODBvQ0xwby02N1kzb19WMmpEU1Q3cENRZ25XZ3ZMd2lKNHhfbUR3ZHR6WGU5M2Zadkk1UU1wUEhPN21JSEgyQlY1azdQa0xhNzdTT2hVVFV4Nnc?oc=5",
-    "date": "2025-12-16 16:00",
-    "query": "嘉義市 路燈 安全"
   },
   {
     "headline": "守護行人安全 嘉義市立委王美惠爭取1億8000萬改善市區路口與人行道！",
@@ -742,6 +735,13 @@
     "query": "嘉義市 環境衛生 垃圾"
   },
   {
+    "headline": "噴水池變身公園指標！嘉義市文化公園「全新指標設計」5 大設計亮點，用水的柔軟、流動呼應生命力",
+    "source": "ShoppingDesign",
+    "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5jVkp1ZXlBcG9QcWxJR0pZWC1UMzhtb0ZTSVpfYUFXZ3RwODBsRzVqVk5TWUpBMnZmS0RfeTlnWkx5N21qc2FvN1E4SW1KU2o5UkNDLUQyYkZvd2xqSHc?oc=5",
+    "date": "2025-11-27 16:00",
+    "query": "嘉義市 公園 綠地"
+  },
+  {
     "headline": "年度道安評比獲肯定 嘉義市以3E策略改善交通安全",
     "source": "chiayi.gov.tw",
     "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE92ZHZyMjZpRFVTVUFKam1tc0l0LVh1WW55dEtkcHNWQVJ3MEtxSW05NDBhbjVhODM5RGlQV2JZRUszdFJlLS12SFZoV0oyOXAwaHdRVnpEUnA0V2lST0NUc1RnREhueElsZmc?oc=5",
@@ -770,25 +770,11 @@
     "query": "嘉義市 公園 綠地"
   },
   {
-    "headline": "全齡共融新亮點 嘉市湖子內社區公園綠地動土打造綠色生活圈",
-    "source": "UDN",
-    "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1FZ3ZFZm5JOFlyWFgwc1JsbXkwTWhfalJKdmdOdlQzS1ZWRVl3b19Gd2FVdmp1cl9mM2VTZ3FxYXRycjB3VGF6UWpRWExzLWpO0gFWQVVfeXFMTkxKUjdjNjBNNnlqTFFTbzdMc3A0ckNhMDNjSXNiZTUtVjBSdFU0c01nTXd1blkzTEY3NWZQRGNQNUpMWDhYZ2cxUVp5RHRpNU5VSnJoZ2c?oc=5",
-    "date": "2025-10-25 15:00",
-    "query": "嘉義市 公園 綠地"
-  },
-  {
     "headline": "嘉市12億打造友善步道 民眾抱怨機車難停 市府：停車格有增加",
     "source": "中時新聞網",
     "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE01R1lpMTVxLXpVcWw5WnBNa1k3ZTZmVjMtRDFnOXhDamMyM0JBM04zSl9YakV5ZV9SR212a1czSGo0RTdNV1dDN0lOV2c3ek4tbzZmZzByY1BfQU9SbGxJN0pxYnB0LXNZNmxiOHpn?oc=5",
     "date": "2025-10-17 15:00",
     "query": "嘉義市 人行道 步道"
-  },
-  {
-    "headline": "逛文化路夜市車停西市場！嘉市府呼籲安心旅遊、好停車、好吃好買",
-    "source": "chiayi.gov.tw",
-    "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBzMm5ydkpQWFRhbUVJQjdrMXgwaGFZNFlXSXU0TWY5NlpRZmxndWE0OUFMQlhxTTZzSmNHd2lPSUZLYlNmWTVjTWlwc3BvWUowOFJQUHpiaTVIVHNqU1FfVGNIbWhDR3l3akE?oc=5",
-    "date": "2025-10-05 15:00",
-    "query": "嘉義市 夜市 市場"
   },
   {
     "headline": "午後1小時近百毫米短延時強降雨 嘉市部分道路積水迅速消退",
@@ -882,6 +868,13 @@
     "query": "嘉義市 停車 違規"
   },
   {
+    "headline": "嘉義市牛稠溪環快東段先期聯絡道正式啟動黃敏惠市長：打造三橫三縱三環新路網輕軌若核定願至行政院表演舞獅",
+    "source": "chiayi.gov.tw",
+    "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE93Wjhtc3cxc3FKMC1xUlFnNWg0M3lXaEQxNXptWFMxakNZYVZ5SDBkVEhpdmtNNnM0bVgxcDRhTVNEcFlacVBUSXphRlEyc1B5QXlza3h5VW9lSFhrUTZpcGNwSEJCU2FHcUE?oc=5",
+    "date": "2025-03-07 16:00",
+    "query": "嘉義市 路燈 安全"
+  },
+  {
     "headline": "大雅路一段與北園國中小通學步道工程將完工！ 打造東區門戶迎賓大道、安心通學人本環境",
     "source": "chiayi.gov.tw",
     "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9WSzA5TW9DaU9wcExoQjZIUFU0WmU5VXhLSUNXX1h3VERpTmhPM2p4N29ER0ZRMXloYTQ2YUxHUU1aVlk1eWZYUVo2dmdybklIcWZkbmR6YlRUT2JCeHc3cnl1ZUFlVm5JaXc?oc=5",
@@ -941,6 +934,13 @@
     "headline": "強化夜間照明 嘉義市完成14處路口高燈架設",
     "source": "台灣好新聞",
     "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBKZ2ppSV9tMXVGZk51SzhpWldJdFNuSk1velUzSEZxX1hjZ09rRlRWZ0p0TzJReF8xRkhUOC1OcDREZ1RvbFg0YlVmSQ?oc=5",
+    "date": "2021-09-06 15:00",
+    "query": "嘉義市 路燈 安全"
+  },
+  {
+    "headline": "嘉市府強化14處大型路口夜間照明",
+    "source": "大纪元",
+    "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE41SFNDMHpuOUItdWFtQjJLRGpHWlRVRW5XU2d0TVJfYlJFT1BZYTFtTi1udk1zNEpzRmluakUxRUlXaU1ncWpwMnkyT1hXbThXZGppQzBXMG5Mc21QUVM40gFkQVVfeXFMTkNwejhNaUU0eXVlbE56cWtzSjBjU2o0Y3d5R1Z5V2ViWjRkU0V4emtlaElRNG9EVGlVZjU1bXpjSTlGU0tMS0YtYV9vX0p2Yjk3bTNLa2hrZXhGQ2EzMnBpUHBhZQ?oc=5",
     "date": "2021-09-06 15:00",
     "query": "嘉義市 路燈 安全"
   },
