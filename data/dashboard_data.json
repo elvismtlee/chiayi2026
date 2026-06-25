@@ -1,6 +1,20 @@
 {
-  "updated_at": "2026-06-24T19:47:06.146890",
+  "updated_at": "2026-06-25T02:57:09.665806",
   "news": [
+    {
+      "headline": "嘉義市公共圖書館推出「細說多元文化工作坊」打造暑期多元文化體驗",
+      "source": "嘉義市政府/文化局/觀光新聞處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=943568",
+      "date": "2026/06/25",
+      "query": "市府新聞"
+    },
+    {
+      "headline": "嘉市西區衛生所6/27加開假日門診完成接種長者肺炎鏈球菌或幼兒常規疫苗加碼送洗碗精",
+      "source": "嘉義市政府/衛生局/觀光新聞處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=943566",
+      "date": "2026/06/25",
+      "query": "市府新聞"
+    },
     {
       "headline": "2026布丁狗Super30路跑派對熱鬧登場！交管資訊公開",
       "source": "嘉義市政府/警察局/觀光新聞處",
@@ -68,20 +82,6 @@
       "headline": "嘉市好店南北雙展齊發！「嘉義風味」閃耀台南新光三越、進軍台北國際食品展",
       "source": "嘉義市政府/建設處/觀光新聞處",
       "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=943206",
-      "date": "2026/06/22",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "破7萬人次走進舊嘉菸嘉義市設計週圓滿落幕",
-      "source": "嘉義市政府/文化局/觀光新聞處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=943195",
-      "date": "2026/06/22",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "哨響正義在法律當後盾！嘉市府辦理「公益揭弊者保護法」講座",
-      "source": "嘉義市政府/政風處/觀光新聞處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=943188",
       "date": "2026/06/22",
       "query": "市府新聞"
     }
@@ -202,7 +202,7 @@
       "2012": 1,
       "2013": 1
     },
-    "updated_at": "2026-06-24T19:44:28.992958",
+    "updated_at": "2026-06-25T02:54:09.957447",
     "source": "data.chiayi.gov.tw"
   },
   "council": {
@@ -237,11 +237,25 @@
   "citizen_stats": {},
   "social_posts": [
     {
+      "id": "ptt-httpswwwpttccbbsGossipingM1782355385A671html",
+      "platform": "PTT",
+      "platform_color": "#00b300",
+      "board": "Gossiping",
+      "date": "06/25",
+      "author": "PTT 鄉民",
+      "title": "[新聞] 快訊／米克拉雨彈狂炸！高雄旗山「淹水又",
+      "url": "https://www.ptt.cc/bbs/Gossiping/M.1782355385.A.671.html",
+      "reactions": 0,
+      "comments": 0,
+      "category": "排水水利",
+      "source": "ptt"
+    },
+    {
       "id": "ptt-httpswwwpttccbbsChiayiM1782263778A377html",
       "platform": "PTT",
       "platform_color": "#00b300",
       "board": "Chiayi",
-      "date": "06/24",
+      "date": "06/25",
       "author": "PTT 鄉民",
       "title": "[新聞] 台積擴建先進封裝 供應鏈看好嘉科三期",
       "url": "https://www.ptt.cc/bbs/Chiayi/M.1782263778.A.377.html",
@@ -385,20 +399,6 @@
       "author": "PTT 鄉民",
       "title": "Re: [問題] 有誰說甲",
       "url": "https://www.ptt.cc/bbs/Chiayi/M.1781510327.A.7C1.html",
-      "reactions": 0,
-      "comments": 0,
-      "category": "市政議題",
-      "source": "ptt"
-    },
-    {
-      "id": "ptt-httpswwwpttccbbsChiayiM1781503048A1E3html",
-      "platform": "PTT",
-      "platform_color": "#00b300",
-      "board": "Chiayi",
-      "date": "06/15",
-      "author": "PTT 鄉民",
-      "title": "Re: [問題] 有誰說甲",
-      "url": "https://www.ptt.cc/bbs/Chiayi/M.1781503048.A.1E3.html",
       "reactions": 0,
       "comments": 0,
       "category": "市政議題",
