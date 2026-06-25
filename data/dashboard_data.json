@@ -1,6 +1,20 @@
 {
-  "updated_at": "2026-06-25T02:57:09.665806",
+  "updated_at": "2026-06-25T08:57:23.158844",
   "news": [
+    {
+      "headline": "嘉義市打造全國首創AIAgent長照新典範榮獲FCA創新商務獎銀獎",
+      "source": "嘉義市政府/衛生局/觀光新聞處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=943586",
+      "date": "2026/06/25",
+      "query": "市府新聞"
+    },
+    {
+      "headline": "畢業生也同台嘉北管樂班攜手嘉頌重奏團百人共演音樂劇《彩虹鴉》",
+      "source": "嘉義市政府/教育處/觀光新聞處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=943576",
+      "date": "2026/06/25",
+      "query": "市府新聞"
+    },
     {
       "headline": "嘉義市公共圖書館推出「細說多元文化工作坊」打造暑期多元文化體驗",
       "source": "嘉義市政府/文化局/觀光新聞處",
@@ -68,20 +82,6 @@
       "headline": "嘉義市舉辦企業自主防災座談會攜手在地企業共築強韌安全嘉園",
       "source": "嘉義市政府/消防局",
       "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=943209",
-      "date": "2026/06/22",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "端午連假來「嘉」輕鬆遊漫遊蘭潭、鐵馬道甩脂正夯！",
-      "source": "嘉義市政府/觀光新聞處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=943207",
-      "date": "2026/06/22",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "嘉市好店南北雙展齊發！「嘉義風味」閃耀台南新光三越、進軍台北國際食品展",
-      "source": "嘉義市政府/建設處/觀光新聞處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=943206",
       "date": "2026/06/22",
       "query": "市府新聞"
     }
@@ -202,7 +202,7 @@
       "2012": 1,
       "2013": 1
     },
-    "updated_at": "2026-06-25T02:54:09.957447",
+    "updated_at": "2026-06-25T08:54:56.179921",
     "source": "data.chiayi.gov.tw"
   },
   "council": {
@@ -237,17 +237,59 @@
   "citizen_stats": {},
   "social_posts": [
     {
-      "id": "ptt-httpswwwpttccbbsGossipingM1782355385A671html",
+      "id": "ptt-httpswwwpttccbbsGossipingM1782377611A6B8html",
       "platform": "PTT",
       "platform_color": "#00b300",
       "board": "Gossiping",
       "date": "06/25",
       "author": "PTT 鄉民",
-      "title": "[新聞] 快訊／米克拉雨彈狂炸！高雄旗山「淹水又",
-      "url": "https://www.ptt.cc/bbs/Gossiping/M.1782355385.A.671.html",
+      "title": "[問卦] 高雄淹水叫積水，台北叫什麼？",
+      "url": "https://www.ptt.cc/bbs/Gossiping/M.1782377611.A.6B8.html",
       "reactions": 0,
       "comments": 0,
       "category": "排水水利",
+      "source": "ptt"
+    },
+    {
+      "id": "ptt-httpswwwpttccbbsGossipingM1782377284A01Dhtml",
+      "platform": "PTT",
+      "platform_color": "#00b300",
+      "board": "Gossiping",
+      "date": "06/25",
+      "author": "PTT 鄉民",
+      "title": "[問卦] 為什麼毒駕垃圾，影片裡臉都要打碼？",
+      "url": "https://www.ptt.cc/bbs/Gossiping/M.1782377284.A.01D.html",
+      "reactions": 0,
+      "comments": 0,
+      "category": "環境衛生",
+      "source": "ptt"
+    },
+    {
+      "id": "ptt-httpswwwpttccbbsGossipingM1782377189AD12html",
+      "platform": "PTT",
+      "platform_color": "#00b300",
+      "board": "Gossiping",
+      "date": "06/25",
+      "author": "PTT 鄉民",
+      "title": "[問卦] 台北淹水 台北人為捨摸不生氣？",
+      "url": "https://www.ptt.cc/bbs/Gossiping/M.1782377189.A.D12.html",
+      "reactions": 0,
+      "comments": 0,
+      "category": "排水水利",
+      "source": "ptt"
+    },
+    {
+      "id": "ptt-httpswwwpttccbbsGossipingM1782377079A369html",
+      "platform": "PTT",
+      "platform_color": "#00b300",
+      "board": "Gossiping",
+      "date": "06/25",
+      "author": "PTT 鄉民",
+      "title": "Re: [新聞] 汶汶遭狂粉割頸 美女議員爆被跟騷",
+      "url": "https://www.ptt.cc/bbs/Gossiping/M.1782377079.A.369.html",
+      "reactions": 0,
+      "comments": 0,
+      "category": "市政議題",
       "source": "ptt"
     },
     {
@@ -357,48 +399,6 @@
       "author": "PTT 鄉民",
       "title": "[交換] 新光禮券 換 遠百/sogo禮券",
       "url": "https://www.ptt.cc/bbs/Chiayi/M.1781750855.A.BCF.html",
-      "reactions": 0,
-      "comments": 0,
-      "category": "市政議題",
-      "source": "ptt"
-    },
-    {
-      "id": "ptt-httpswwwpttccbbsChiayiM1781698120ABDBhtml",
-      "platform": "PTT",
-      "platform_color": "#00b300",
-      "board": "Chiayi",
-      "date": "06/17",
-      "author": "PTT 鄉民",
-      "title": "已贈出",
-      "url": "https://www.ptt.cc/bbs/Chiayi/M.1781698120.A.BDB.html",
-      "reactions": 0,
-      "comments": 0,
-      "category": "市政議題",
-      "source": "ptt"
-    },
-    {
-      "id": "ptt-httpswwwpttccbbsChiayiM1781530667ABEAhtml",
-      "platform": "PTT",
-      "platform_color": "#00b300",
-      "board": "Chiayi",
-      "date": "06/15",
-      "author": "PTT 鄉民",
-      "title": "[廣告] 暑假育樂營隊 科學.機器人.AI.KPOP.管樂",
-      "url": "https://www.ptt.cc/bbs/Chiayi/M.1781530667.A.BEA.html",
-      "reactions": 0,
-      "comments": 0,
-      "category": "市政議題",
-      "source": "ptt"
-    },
-    {
-      "id": "ptt-httpswwwpttccbbsChiayiM1781510327A7C1html",
-      "platform": "PTT",
-      "platform_color": "#00b300",
-      "board": "Chiayi",
-      "date": "06/15",
-      "author": "PTT 鄉民",
-      "title": "Re: [問題] 有誰說甲",
-      "url": "https://www.ptt.cc/bbs/Chiayi/M.1781510327.A.7C1.html",
       "reactions": 0,
       "comments": 0,
       "category": "市政議題",
