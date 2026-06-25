@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-25T14:28:19.780746",
+  "updated_at": "2026-06-25T19:59:46.641690",
   "news": [
     {
       "headline": "老檜重生與識詐的永續交織嘉市警局手把手領長者打造高齡防詐「檜意小木屋」",
@@ -87,12 +87,12 @@
     }
   ],
   "complaint_stats": {
-    "total": 77409,
-    "record_count": 560,
+    "total": 77391,
+    "record_count": 542,
     "category_counts": {
       "公共安全": 36538,
       "交通停車": 7743,
-      "道路路平": 307,
+      "道路路平": 289,
       "環境衛生": 5,
       "行政服務": 6
     },
@@ -107,11 +107,11 @@
         "公有停車場": 38
       },
       "道路路平": {
-        "電信管線": 52,
-        "自來水管線": 35,
-        "電力管線": 41,
+        "電信管線": 41,
+        "市府工程": 3,
         "道路施工": 5,
-        "市府工程": 2,
+        "自來水管線": 33,
+        "電力管線": 35,
         "橋梁設施": 172
       },
       "環境衛生": {
@@ -128,38 +128,38 @@
       },
       {
         "road": "東區嘉義",
-        "count": 7
-      },
-      {
-        "road": "西區湖內村里健康八街",
-        "count": 4
-      },
-      {
-        "road": "東區華南村里維新路2",
-        "count": 2
-      },
-      {
-        "road": "西區湖內村里健康十街",
-        "count": 2
-      },
-      {
-        "road": "東區民族村里文昌街7",
-        "count": 2
-      },
-      {
-        "road": "西區竹圍村里中興路1",
-        "count": 2
-      },
-      {
-        "road": "西區導明村里民生南路",
-        "count": 2
+        "count": 6
       },
       {
         "road": "東區太平村里新生路5",
+        "count": 4
+      },
+      {
+        "road": "西區湖內村里健康八街",
+        "count": 3
+      },
+      {
+        "road": "東區東興村里安和街1",
         "count": 2
       },
       {
-        "road": "西區湖內村里新民路1",
+        "road": "東區北門村里吳鳳北路",
+        "count": 2
+      },
+      {
+        "road": "西區湖內村里健康十三",
+        "count": 2
+      },
+      {
+        "road": "西區磚窯村里永福三街",
+        "count": 2
+      },
+      {
+        "road": "東區短竹村里彌陀路2",
+        "count": 2
+      },
+      {
+        "road": "東區中山村里宣信街4",
         "count": 2
       }
     ],
@@ -174,7 +174,7 @@
       },
       {
         "category": "道路路平",
-        "count": 307
+        "count": 289
       },
       {
         "category": "行政服務",
@@ -197,12 +197,12 @@
       "2022": 3112,
       "2023": 3318,
       "2024": 3271,
-      "2025": 8886,
-      "2026": 1499,
+      "2025": 8891,
+      "2026": 1476,
       "2012": 1,
       "2013": 1
     },
-    "updated_at": "2026-06-25T14:25:39.082274",
+    "updated_at": "2026-06-25T19:56:52.764637",
     "source": "data.chiayi.gov.tw"
   },
   "council": {
@@ -237,11 +237,53 @@
   "citizen_stats": {},
   "social_posts": [
     {
-      "id": "ptt-httpswwwpttccbbsChiayiM1782391191A015html",
+      "id": "ptt-httpswwwpttccbbsGossipingM1782411665A876html",
+      "platform": "PTT",
+      "platform_color": "#00b300",
+      "board": "Gossiping",
+      "date": "06/26",
+      "author": "PTT 鄉民",
+      "title": "[問卦] 淹水不退又放假的城市適合科技業嗎？",
+      "url": "https://www.ptt.cc/bbs/Gossiping/M.1782411665.A.876.html",
+      "reactions": 0,
+      "comments": 0,
+      "category": "排水水利",
+      "source": "ptt"
+    },
+    {
+      "id": "ptt-httpswwwpttccbbsGossipingM1782411598A5D3html",
+      "platform": "PTT",
+      "platform_color": "#00b300",
+      "board": "Gossiping",
+      "date": "06/26",
+      "author": "PTT 鄉民",
+      "title": "[問卦] 為什麼台北人自己還嘲笑自己淹水",
+      "url": "https://www.ptt.cc/bbs/Gossiping/M.1782411598.A.5D3.html",
+      "reactions": 0,
+      "comments": 0,
+      "category": "排水水利",
+      "source": "ptt"
+    },
+    {
+      "id": "ptt-httpswwwpttccbbsChiayiM1782398508A9EDhtml",
       "platform": "PTT",
       "platform_color": "#00b300",
       "board": "Chiayi",
       "date": "06/25",
+      "author": "PTT 鄉民",
+      "title": "[問題] 有人車輪被同款釘子插破嗎",
+      "url": "https://www.ptt.cc/bbs/Chiayi/M.1782398508.A.9ED.html",
+      "reactions": 0,
+      "comments": 0,
+      "category": "市政議題",
+      "source": "ptt"
+    },
+    {
+      "id": "ptt-httpswwwpttccbbsChiayiM1782391191A015html",
+      "platform": "PTT",
+      "platform_color": "#00b300",
+      "board": "Chiayi",
+      "date": "06/26",
       "author": "PTT 鄉民",
       "title": "[新聞] 赴德荷交流 黃敏惠盼借鏡經驗打造永續嘉",
       "url": "https://www.ptt.cc/bbs/Chiayi/M.1782391191.A.015.html",
@@ -357,48 +399,6 @@
       "author": "PTT 鄉民",
       "title": "[交換] 新光禮券 換 遠百/sogo禮券",
       "url": "https://www.ptt.cc/bbs/Chiayi/M.1781750855.A.BCF.html",
-      "reactions": 0,
-      "comments": 0,
-      "category": "市政議題",
-      "source": "ptt"
-    },
-    {
-      "id": "ptt-httpswwwpttccbbsChiayiM1781698120ABDBhtml",
-      "platform": "PTT",
-      "platform_color": "#00b300",
-      "board": "Chiayi",
-      "date": "06/17",
-      "author": "PTT 鄉民",
-      "title": "已贈出",
-      "url": "https://www.ptt.cc/bbs/Chiayi/M.1781698120.A.BDB.html",
-      "reactions": 0,
-      "comments": 0,
-      "category": "市政議題",
-      "source": "ptt"
-    },
-    {
-      "id": "ptt-httpswwwpttccbbsChiayiM1781530667ABEAhtml",
-      "platform": "PTT",
-      "platform_color": "#00b300",
-      "board": "Chiayi",
-      "date": "06/15",
-      "author": "PTT 鄉民",
-      "title": "[廣告] 暑假育樂營隊 科學.機器人.AI.KPOP.管樂",
-      "url": "https://www.ptt.cc/bbs/Chiayi/M.1781530667.A.BEA.html",
-      "reactions": 0,
-      "comments": 0,
-      "category": "市政議題",
-      "source": "ptt"
-    },
-    {
-      "id": "ptt-httpswwwpttccbbsChiayiM1781510327A7C1html",
-      "platform": "PTT",
-      "platform_color": "#00b300",
-      "board": "Chiayi",
-      "date": "06/15",
-      "author": "PTT 鄉民",
-      "title": "Re: [問題] 有誰說甲",
-      "url": "https://www.ptt.cc/bbs/Chiayi/M.1781510327.A.7C1.html",
       "reactions": 0,
       "comments": 0,
       "category": "市政議題",
