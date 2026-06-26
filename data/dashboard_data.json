@@ -1,6 +1,41 @@
 {
-  "updated_at": "2026-06-25T19:59:46.641690",
+  "updated_at": "2026-06-26T02:59:50.363582",
   "news": [
+    {
+      "headline": "嘉義市政府警察局表揚員警好人好事績優人員",
+      "source": "嘉義市政府/警察局",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=943672",
+      "date": "2026/06/26",
+      "query": "市府新聞"
+    },
+    {
+      "headline": "嘉義市政府辦理採購稽核實務暨專業精進講習強化採購治理量能提升廉能透明效能",
+      "source": "嘉義市政府/政風處/觀光新聞處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=943671",
+      "date": "2026/06/26",
+      "query": "市府新聞"
+    },
+    {
+      "headline": "總獎金高達70萬元!第十七屆桃城文學獎徵件倒數中",
+      "source": "嘉義市政府/文化局/觀光新聞處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=943668",
+      "date": "2026/06/26",
+      "query": "市府新聞"
+    },
+    {
+      "headline": "【Q猴提醒您｜詐騙又升級，防詐三步驟不能忘】",
+      "source": "嘉義市政府/地政處/地用及重劃科",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=942617",
+      "date": "2026/06/26",
+      "query": "市府新聞"
+    },
+    {
+      "headline": "乳品標示新制7月1日上路!有標章才能叫「鮮乳」嘉市衛生局提醒業者儘速檢視產品標示",
+      "source": "嘉義市政府/衛生局",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=943560",
+      "date": "2026/06/26",
+      "query": "市府新聞"
+    },
     {
       "headline": "老檜重生與識詐的永續交織嘉市警局手把手領長者打造高齡防詐「檜意小木屋」",
       "source": "嘉義市政府/警察局",
@@ -48,41 +83,6 @@
       "source": "嘉義市政府/民政處/嘉義市東區戶政事務所/嘉義市西區戶政事務所",
       "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=943456",
       "date": "2026/06/24",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "15家精選嘉市好店進軍台北國際食品展去年媒合金額翻近3倍今年續拚商機！",
-      "source": "嘉義市政府/建設處/觀光新聞處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=943437",
-      "date": "2026/06/24",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "嘉義市回收新優惠！到全家超商回收廢電池、舊3C加碼5元抵用金",
-      "source": "嘉義市政府/環境保護局/觀光新聞處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=943425",
-      "date": "2026/06/24",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "嘉義市推動智慧回收機佈建再增3處！明(6/24)起推廣活動起跑揪你回收兌優惠",
-      "source": "嘉義市政府/環保局/觀光新聞處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=943331",
-      "date": "2026/06/23",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "嘉義市政府衛生局公布「115年國道服務區暨交流道周邊餐飲業稽查專案」執行結果",
-      "source": "嘉義市政府/衛生局",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=942856",
-      "date": "2026/06/23",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "黃敏惠市長率隊赴德荷交流借鏡國際經驗打造永續嘉義市",
-      "source": "嘉義市政府/環保局/觀光新聞處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=943311",
-      "date": "2026/06/23",
       "query": "市府新聞"
     }
   ],
@@ -202,7 +202,7 @@
       "2012": 1,
       "2013": 1
     },
-    "updated_at": "2026-06-25T19:56:52.764637",
+    "updated_at": "2026-06-26T02:57:08.512301",
     "source": "data.chiayi.gov.tw"
   },
   "council": {
@@ -237,28 +237,14 @@
   "citizen_stats": {},
   "social_posts": [
     {
-      "id": "ptt-httpswwwpttccbbsGossipingM1782411665A876html",
+      "id": "ptt-httpswwwpttccbbsGossipingM1782442118A72Fhtml",
       "platform": "PTT",
       "platform_color": "#00b300",
       "board": "Gossiping",
       "date": "06/26",
       "author": "PTT 鄉民",
-      "title": "[問卦] 淹水不退又放假的城市適合科技業嗎？",
-      "url": "https://www.ptt.cc/bbs/Gossiping/M.1782411665.A.876.html",
-      "reactions": 0,
-      "comments": 0,
-      "category": "排水水利",
-      "source": "ptt"
-    },
-    {
-      "id": "ptt-httpswwwpttccbbsGossipingM1782411598A5D3html",
-      "platform": "PTT",
-      "platform_color": "#00b300",
-      "board": "Gossiping",
-      "date": "06/26",
-      "author": "PTT 鄉民",
-      "title": "[問卦] 為什麼台北人自己還嘲笑自己淹水",
-      "url": "https://www.ptt.cc/bbs/Gossiping/M.1782411598.A.5D3.html",
+      "title": "[問卦] 全台都在淹水 天公伯很公平 做不好就淹",
+      "url": "https://www.ptt.cc/bbs/Gossiping/M.1782442118.A.72F.html",
       "reactions": 0,
       "comments": 0,
       "category": "排水水利",
@@ -269,7 +255,7 @@
       "platform": "PTT",
       "platform_color": "#00b300",
       "board": "Chiayi",
-      "date": "06/25",
+      "date": "06/26",
       "author": "PTT 鄉民",
       "title": "[問題] 有人車輪被同款釘子插破嗎",
       "url": "https://www.ptt.cc/bbs/Chiayi/M.1782398508.A.9ED.html",
@@ -399,6 +385,20 @@
       "author": "PTT 鄉民",
       "title": "[交換] 新光禮券 換 遠百/sogo禮券",
       "url": "https://www.ptt.cc/bbs/Chiayi/M.1781750855.A.BCF.html",
+      "reactions": 0,
+      "comments": 0,
+      "category": "市政議題",
+      "source": "ptt"
+    },
+    {
+      "id": "ptt-httpswwwpttccbbsChiayiM1781698120ABDBhtml",
+      "platform": "PTT",
+      "platform_color": "#00b300",
+      "board": "Chiayi",
+      "date": "06/17",
+      "author": "PTT 鄉民",
+      "title": "已贈出",
+      "url": "https://www.ptt.cc/bbs/Chiayi/M.1781698120.A.BDB.html",
       "reactions": 0,
       "comments": 0,
       "category": "市政議題",
