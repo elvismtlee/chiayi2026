@@ -1,6 +1,20 @@
 {
-  "updated_at": "2026-06-26T02:59:50.363582",
+  "updated_at": "2026-06-26T09:07:25.931156",
   "news": [
+    {
+      "headline": "115年嘉義市弱勢族群能源效率改善計畫開跑囉",
+      "source": "嘉義市政府/環保局/觀光新聞處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=943687",
+      "date": "2026/06/26",
+      "query": "市府新聞"
+    },
+    {
+      "headline": "「2026嘉義雙潭星光路跑」報名資訊",
+      "source": "嘉義市政府/企劃處/教育處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=943682",
+      "date": "2026/06/26",
+      "query": "市府新聞"
+    },
     {
       "headline": "嘉義市政府警察局表揚員警好人好事績優人員",
       "source": "嘉義市政府/警察局",
@@ -69,20 +83,6 @@
       "source": "嘉義市政府/衛生局/觀光新聞處",
       "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=943566",
       "date": "2026/06/25",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "2026布丁狗Super30路跑派對熱鬧登場！交管資訊公開",
-      "source": "嘉義市政府/警察局/觀光新聞處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=943458",
-      "date": "2026/06/24",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "迎接戶政日提前溫情慰勞基層戶政同仁",
-      "source": "嘉義市政府/民政處/嘉義市東區戶政事務所/嘉義市西區戶政事務所",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=943456",
-      "date": "2026/06/24",
       "query": "市府新聞"
     }
   ],
@@ -202,7 +202,7 @@
       "2012": 1,
       "2013": 1
     },
-    "updated_at": "2026-06-26T02:57:08.512301",
+    "updated_at": "2026-06-26T09:05:17.112715",
     "source": "data.chiayi.gov.tw"
   },
   "council": {
@@ -232,22 +232,36 @@
       "李忠曆",
       "王浩"
     ],
-    "question_count": 0
+    "question_count": 8
   },
   "citizen_stats": {},
   "social_posts": [
     {
-      "id": "ptt-httpswwwpttccbbsGossipingM1782442118A72Fhtml",
+      "id": "ptt-httpswwwpttccbbsGossipingM1782464372A58Ehtml",
       "platform": "PTT",
       "platform_color": "#00b300",
       "board": "Gossiping",
       "date": "06/26",
       "author": "PTT 鄉民",
-      "title": "[問卦] 全台都在淹水 天公伯很公平 做不好就淹",
-      "url": "https://www.ptt.cc/bbs/Gossiping/M.1782442118.A.72F.html",
+      "title": "[新聞] 竹縣淹水釀首起死亡！竹北女開車上班受困",
+      "url": "https://www.ptt.cc/bbs/Gossiping/M.1782464372.A.58E.html",
       "reactions": 0,
       "comments": 0,
       "category": "排水水利",
+      "source": "ptt"
+    },
+    {
+      "id": "ptt-httpswwwpttccbbsChiayiM1782454076A11Dhtml",
+      "platform": "PTT",
+      "platform_color": "#00b300",
+      "board": "Chiayi",
+      "date": "06/26",
+      "author": "PTT 鄉民",
+      "title": "[買賣] 全家林鳳營衛生紙優格/肯德基/家樂福/統一數位禮券/王品/饗",
+      "url": "https://www.ptt.cc/bbs/Chiayi/M.1782454076.A.11D.html",
+      "reactions": 0,
+      "comments": 0,
+      "category": "市政議題",
       "source": "ptt"
     },
     {
@@ -283,7 +297,7 @@
       "platform": "PTT",
       "platform_color": "#00b300",
       "board": "Chiayi",
-      "date": "06/25",
+      "date": "06/26",
       "author": "PTT 鄉民",
       "title": "[新聞] 台積擴建先進封裝 供應鏈看好嘉科三期",
       "url": "https://www.ptt.cc/bbs/Chiayi/M.1782263778.A.377.html",
@@ -385,20 +399,6 @@
       "author": "PTT 鄉民",
       "title": "[交換] 新光禮券 換 遠百/sogo禮券",
       "url": "https://www.ptt.cc/bbs/Chiayi/M.1781750855.A.BCF.html",
-      "reactions": 0,
-      "comments": 0,
-      "category": "市政議題",
-      "source": "ptt"
-    },
-    {
-      "id": "ptt-httpswwwpttccbbsChiayiM1781698120ABDBhtml",
-      "platform": "PTT",
-      "platform_color": "#00b300",
-      "board": "Chiayi",
-      "date": "06/17",
-      "author": "PTT 鄉民",
-      "title": "已贈出",
-      "url": "https://www.ptt.cc/bbs/Chiayi/M.1781698120.A.BDB.html",
       "reactions": 0,
       "comments": 0,
       "category": "市政議題",
