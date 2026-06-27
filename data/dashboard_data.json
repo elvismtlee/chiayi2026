@@ -1,6 +1,27 @@
 {
-  "updated_at": "2026-06-27T02:47:34.334279",
+  "updated_at": "2026-06-27T08:38:01.517822",
   "news": [
+    {
+      "headline": "公共托育好安心幸福育兒愛+1嘉市首辦公托親子運動會展現友善育兒成果",
+      "source": "嘉義市政府/社會處/觀光新聞處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=943784",
+      "date": "2026/06/27",
+      "query": "市府新聞"
+    },
+    {
+      "headline": "「攜手順稅嘉市好生活」登場嘉市升格44周年展現財政穩健與幸福城市活力",
+      "source": "嘉義市政府/財稅局/觀光新聞處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=943782",
+      "date": "2026/06/27",
+      "query": "市府新聞"
+    },
+    {
+      "headline": "99歲阿嬤站上舞台！嘉市「嘉寶趴踢秀」331位長者活力開跳",
+      "source": "嘉義市政府/衛生局/觀光新聞處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=943781",
+      "date": "2026/06/27",
+      "query": "市府新聞"
+    },
     {
       "headline": "借鏡德國循環經濟園區轉型經驗嘉市永續循環園區打造資源再生典範",
       "source": "嘉義市政府/環保局/觀光新聞處",
@@ -62,27 +83,6 @@
       "source": "嘉義市政府/衛生局",
       "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=943560",
       "date": "2026/06/26",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "老檜重生與識詐的永續交織嘉市警局手把手領長者打造高齡防詐「檜意小木屋」",
-      "source": "嘉義市政府/警察局",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=943616",
-      "date": "2026/06/25",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "嘉義市打造全國首創AIAgent長照新典範榮獲FCA創新商務獎銀獎",
-      "source": "嘉義市政府/衛生局/觀光新聞處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=943586",
-      "date": "2026/06/25",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "畢業生也同台嘉北管樂班攜手嘉頌重奏團百人共演音樂劇《彩虹鴉》",
-      "source": "嘉義市政府/教育處/觀光新聞處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=943576",
-      "date": "2026/06/25",
       "query": "市府新聞"
     }
   ],
@@ -202,7 +202,7 @@
       "2012": 1,
       "2013": 1
     },
-    "updated_at": "2026-06-27T02:45:04.618727",
+    "updated_at": "2026-06-27T08:35:58.889957",
     "source": "data.chiayi.gov.tw"
   },
   "council": {
@@ -237,31 +237,17 @@
   "citizen_stats": {},
   "social_posts": [
     {
-      "id": "ptt-httpswwwpttccbbsGossipingM1782527556A6BFhtml",
+      "id": "ptt-httpswwwpttccbbsChiayiM1782534086A9D8html",
       "platform": "PTT",
       "platform_color": "#00b300",
-      "board": "Gossiping",
+      "board": "Chiayi",
       "date": "06/27",
       "author": "PTT 鄉民",
-      "title": "Re: [新聞] 內湖淹水！藍委安排下週考察港湖　沈伯洋",
-      "url": "https://www.ptt.cc/bbs/Gossiping/M.1782527556.A.6BF.html",
+      "title": "［買賣］多項商品出售",
+      "url": "https://www.ptt.cc/bbs/Chiayi/M.1782534086.A.9D8.html",
       "reactions": 0,
       "comments": 0,
-      "category": "排水水利",
-      "source": "ptt"
-    },
-    {
-      "id": "ptt-httpswwwpttccbbsGossipingM1782527251A4C8html",
-      "platform": "PTT",
-      "platform_color": "#00b300",
-      "board": "Gossiping",
-      "date": "06/27",
-      "author": "PTT 鄉民",
-      "title": "[新聞] 內湖淹水！藍委安排下週考察港湖　沈伯洋",
-      "url": "https://www.ptt.cc/bbs/Gossiping/M.1782527251.A.4C8.html",
-      "reactions": 0,
-      "comments": 0,
-      "category": "排水水利",
+      "category": "市政議題",
       "source": "ptt"
     },
     {
@@ -399,6 +385,20 @@
       "author": "PTT 鄉民",
       "title": "贈送嬰兒床（已贈出）",
       "url": "https://www.ptt.cc/bbs/Chiayi/M.1781835055.A.450.html",
+      "reactions": 0,
+      "comments": 0,
+      "category": "市政議題",
+      "source": "ptt"
+    },
+    {
+      "id": "ptt-httpswwwpttccbbsChiayiM1781750855ABCFhtml",
+      "platform": "PTT",
+      "platform_color": "#00b300",
+      "board": "Chiayi",
+      "date": "06/18",
+      "author": "PTT 鄉民",
+      "title": "[交換] 新光禮券 換 遠百/sogo禮券",
+      "url": "https://www.ptt.cc/bbs/Chiayi/M.1781750855.A.BCF.html",
       "reactions": 0,
       "comments": 0,
       "category": "市政議題",
