@@ -1,6 +1,20 @@
 {
-  "updated_at": "2026-06-26T19:48:31.259937",
+  "updated_at": "2026-06-27T02:47:34.334279",
   "news": [
+    {
+      "headline": "借鏡德國循環經濟園區轉型經驗嘉市永續循環園區打造資源再生典範",
+      "source": "嘉義市政府/環保局/觀光新聞處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=943779",
+      "date": "2026/06/27",
+      "query": "市府新聞"
+    },
+    {
+      "headline": "宗教團體不動產審認申請期限再延長至117年6月9日!",
+      "source": "嘉義市政府/西區公所",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=943709",
+      "date": "2026/06/27",
+      "query": "市府新聞"
+    },
     {
       "headline": "115年嘉義市弱勢族群能源效率改善計畫開跑囉",
       "source": "嘉義市政府/環保局/觀光新聞處",
@@ -68,20 +82,6 @@
       "headline": "畢業生也同台嘉北管樂班攜手嘉頌重奏團百人共演音樂劇《彩虹鴉》",
       "source": "嘉義市政府/教育處/觀光新聞處",
       "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=943576",
-      "date": "2026/06/25",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "嘉義市公共圖書館推出「細說多元文化工作坊」打造暑期多元文化體驗",
-      "source": "嘉義市政府/文化局/觀光新聞處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=943568",
-      "date": "2026/06/25",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "嘉市西區衛生所6/27加開假日門診完成接種長者肺炎鏈球菌或幼兒常規疫苗加碼送洗碗精",
-      "source": "嘉義市政府/衛生局/觀光新聞處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=943566",
       "date": "2026/06/25",
       "query": "市府新聞"
     }
@@ -202,7 +202,7 @@
       "2012": 1,
       "2013": 1
     },
-    "updated_at": "2026-06-26T19:45:48.371842",
+    "updated_at": "2026-06-27T02:45:04.618727",
     "source": "data.chiayi.gov.tw"
   },
   "council": {
@@ -237,42 +237,28 @@
   "citizen_stats": {},
   "social_posts": [
     {
-      "id": "ptt-httpswwwpttccbbsGossipingM1782499950A2BEhtml",
+      "id": "ptt-httpswwwpttccbbsGossipingM1782527556A6BFhtml",
       "platform": "PTT",
       "platform_color": "#00b300",
       "board": "Gossiping",
       "date": "06/27",
       "author": "PTT 鄉民",
-      "title": "[問卦] 青鳥 對內湖淹水見獵心喜？",
-      "url": "https://www.ptt.cc/bbs/Gossiping/M.1782499950.A.2BE.html",
+      "title": "Re: [新聞] 內湖淹水！藍委安排下週考察港湖　沈伯洋",
+      "url": "https://www.ptt.cc/bbs/Gossiping/M.1782527556.A.6BF.html",
       "reactions": 0,
       "comments": 0,
       "category": "排水水利",
       "source": "ptt"
     },
     {
-      "id": "ptt-httpswwwpttccbbsGossipingM1782497593AB4Bhtml",
+      "id": "ptt-httpswwwpttccbbsGossipingM1782527251A4C8html",
       "platform": "PTT",
       "platform_color": "#00b300",
       "board": "Gossiping",
       "date": "06/27",
       "author": "PTT 鄉民",
-      "title": "Re: [爆卦] 桃園市政府社會局竟然沒有社工編制",
-      "url": "https://www.ptt.cc/bbs/Gossiping/M.1782497593.A.B4B.html",
-      "reactions": 0,
-      "comments": 0,
-      "category": "行政服務",
-      "source": "ptt"
-    },
-    {
-      "id": "ptt-httpswwwpttccbbsGossipingM1782497338A783html",
-      "platform": "PTT",
-      "platform_color": "#00b300",
-      "board": "Gossiping",
-      "date": "06/27",
-      "author": "PTT 鄉民",
-      "title": "Re: [問卦] 積水一小時退光叫淹水，積水30小時還沒退",
-      "url": "https://www.ptt.cc/bbs/Gossiping/M.1782497338.A.783.html",
+      "title": "[新聞] 內湖淹水！藍委安排下週考察港湖　沈伯洋",
+      "url": "https://www.ptt.cc/bbs/Gossiping/M.1782527251.A.4C8.html",
       "reactions": 0,
       "comments": 0,
       "category": "排水水利",
@@ -297,7 +283,7 @@
       "platform": "PTT",
       "platform_color": "#00b300",
       "board": "Chiayi",
-      "date": "06/26",
+      "date": "06/27",
       "author": "PTT 鄉民",
       "title": "[問題] 有人車輪被同款釘子插破嗎",
       "url": "https://www.ptt.cc/bbs/Chiayi/M.1782398508.A.9ED.html",
@@ -325,7 +311,7 @@
       "platform": "PTT",
       "platform_color": "#00b300",
       "board": "Chiayi",
-      "date": "06/26",
+      "date": "06/27",
       "author": "PTT 鄉民",
       "title": "[新聞] 台積擴建先進封裝 供應鏈看好嘉科三期",
       "url": "https://www.ptt.cc/bbs/Chiayi/M.1782263778.A.377.html",
@@ -399,6 +385,20 @@
       "author": "PTT 鄉民",
       "title": "[亂入] 徵人幫忙遛狗",
       "url": "https://www.ptt.cc/bbs/Chiayi/M.1781911464.A.5B3.html",
+      "reactions": 0,
+      "comments": 0,
+      "category": "市政議題",
+      "source": "ptt"
+    },
+    {
+      "id": "ptt-httpswwwpttccbbsChiayiM1781835055A450html",
+      "platform": "PTT",
+      "platform_color": "#00b300",
+      "board": "Chiayi",
+      "date": "06/21",
+      "author": "PTT 鄉民",
+      "title": "贈送嬰兒床（已贈出）",
+      "url": "https://www.ptt.cc/bbs/Chiayi/M.1781835055.A.450.html",
       "reactions": 0,
       "comments": 0,
       "category": "市政議題",
