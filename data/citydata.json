@@ -1,16 +1,16 @@
 {
-  "updated_at": "2026-06-27T13:28:11.695201",
+  "updated_at": "2026-06-27T19:18:12.322750",
   "aqi_realtime": [
     {
       "station": "嘉義市（Open-Meteo 模型）",
-      "aqi": 23,
-      "pm25": 16.4,
-      "pm10": 16.4,
-      "o3": 1.0,
-      "no2": 49.5,
+      "aqi": 22,
+      "pm25": 16.1,
+      "pm10": 16.2,
+      "o3": 0.0,
+      "no2": 39.8,
       "status": "良好",
       "pollutant": "PM2.5",
-      "time": "2026-06-27T21:00",
+      "time": "2026-06-28T03:00",
       "source": "Open-Meteo"
     }
   ],
@@ -20,22 +20,36 @@
     {
       "station": "嘉義市（Open-Meteo）",
       "temp": "24.4",
-      "apparent_temp": "28.9",
-      "humidity": "96",
-      "rainfall": "0.3",
-      "wind_speed": "8.9",
-      "wind_dir": "142",
-      "cloud": "100",
-      "weather": "毛雨",
-      "time": "2026-06-27 21:15",
+      "apparent_temp": "28.3",
+      "humidity": "89",
+      "rainfall": "0.0",
+      "wind_speed": "8.6",
+      "wind_dir": "157",
+      "cloud": "99",
+      "weather": "陰天",
+      "time": "2026-06-28 03:15",
       "source": "Open-Meteo"
     }
   ],
   "announcements": [
     {
-      "title": "嘉義市推動低碳上學路 機車汰舊換新補助再加碼 - 嘉義市政府環境保護局",
-      "date": "Tue, 23 Jun 2026",
-      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5lMkZpOC1wUHJvai0wdW1adFZ1UW0xeWpGRVJLVVhwemc5cnNQVjZvc1NPWlBfTmZaTENZYmhuYTcwMHZTSkFTRC1kVUpodndNNGE3WVRfbmZha2Vuc0NSOUdMNHAyb1NmRi1N?oc=5",
+      "title": "嘉義市石綿清運補助至6月30日 請把握時間申請 - 嘉義市政府環境保護局",
+      "date": "Thu, 25 Jun 2026",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFB0S2t6bkM3dVJqeFFtNWtuYkZiQTlSaFU3TmpfeEdwOW1qX2dXcjhnT2tMTzNmRmY4WnB0N3FaendZY1VoRmpXTk0yT2RzbjlmTjJ1MVdZaG5UelpLdFUyQnMwczdMdlFxZ1pN?oc=5",
+      "desc": "",
+      "source": "Google新聞"
+    },
+    {
+      "title": "嘉義市政府歡迎臺中榮民總醫院傅雲慶總院長親自率隊駐診嘉義市 - 嘉義市政府衛生局",
+      "date": "Sat, 27 Jun 2026",
+      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBFRzh3SlFhZUthcjRoTTNLbkdady1jUjlMQl9PbWRBOGZCUnVNeVo3cGo5U3VvTnZhWF9YeWpWY3Z6alcteUpTZG56dTA3dkdlUThFWmktcmpNU3BwU1RISHY5VUItTWpQWjZrM05oSQ?oc=5",
+      "desc": "",
+      "source": "Google新聞"
+    },
+    {
+      "title": "99歲阿嬤站上舞台 嘉義市「嘉寶趴踢秀」331位長者活力開跳！ - 台灣華報",
+      "date": "Sat, 27 Jun 2026",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE4ydnAwakJuY0h2VUFiM0tSSFJ3bWdrSHgzVi1GUEhBbzc1a0FzdWdzNnJNU19Wb09CR2hLWDVFa1F4QlNZakVITXV4bzVXRUl1YmtaSlBHdVE1OUR2T3JHNEVxQ21BWFd4cEdR?oc=5",
       "desc": "",
       "source": "Google新聞"
     },
@@ -47,30 +61,16 @@
       "source": "Google新聞"
     },
     {
+      "title": "99歲阿嬤潮翻舞台！嘉義市「嘉寶趴踢秀」震撼登場 - 三星傳媒",
+      "date": "Sat, 27 Jun 2026",
+      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFB5Qnh4Y2pfdmk4VlpiYW9ITUJjRDA1bU0zLVY3NVQ2M2lsZlFyWnBxdDJoV1RyNlFPOHRlMm5DT1NuWFdUc3Rsc2tyVFNQbS15ZkM5TXVWbzZjU0pyNFJQdWFR?oc=5",
+      "desc": "",
+      "source": "Google新聞"
+    },
+    {
       "title": "嘉義市政府警察局表揚員警好人好事績優人員 - ccpb.gov.tw",
       "date": "Fri, 26 Jun 2026",
       "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOeEdqRmNDTzIzRHJXM1lla1RmWTlXSkRiVENUaXpkSlA1bWdTaXpYVzR1bFFNV0FWckVhcVdLRFRTRkFXNWxtVk1RU2lpUktQb2Jramd0cFoza2dHZGowcllhQUxKWXpPMWh2R0RhRER3NUFWaUtPb1JFOGdOMFU0aktPamc?oc=5",
-      "desc": "",
-      "source": "Google新聞"
-    },
-    {
-      "title": "臺北智慧城市展嘉市「家城×嘉義」主題館移師嘉義 - 蕃新聞",
-      "date": "Sat, 27 Jun 2026",
-      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1FMFJwTmpYRFJlU20xbHJfTmUyUjFIeENodXVwaU5FdXJ6OWRzeUJpZW04S0JJX29nVTdyejNxS1FZU0VlRVZuelNPckg2a3pRaUE?oc=5",
-      "desc": "",
-      "source": "Google新聞"
-    },
-    {
-      "title": "嘉義市「嘉寶趴踢秀」震撼登場 99歲阿嬤舞出精彩人生 - Yahoo新聞",
-      "date": "Sat, 27 Jun 2026",
-      "link": "https://news.google.com/rss/articles/CBMi1gJBVV95cUxPdW1BWlh4SHoxZTd3QzhxaXdYbzdyZS1UaGx6bzNTU3hha19CMHgwYVVITTl2enNIdERmX05UUUJ0Qnl6TjFWUk9mdi12ODhMb2ZuT3Y4ME5QNHhxM1JjNnNXOHIwT2VFaGRycnNSbjljeGhBOFZaMDBXLU9COHhjMlpJeUhGSW5teVJhaXJyMEs1ODBJNDFYcU1oUEVrNVA0Q2pqY0xiYUJSTTh4cktUcndDUldyejVRTmJsMDdIbGp2bnh5akQ3aGdiamtKSGI3amtMUkV0U0FUeC12b21Jbl9zbVQ1X09XNklaXzl2am1YYWRtR2ItMVAtd0t4OXM5a1E1QlB3eWkySGpCMTBtYjJIdWRFUElndlVoYXIwS2RrdWdLVnlscW5QQU5oQ3ozNGxkMXF0QmRkSnRMS1JFb2NFRjNUc3NTdEZxUUdudWRsVDVCN2c?oc=5",
-      "desc": "",
-      "source": "Google新聞"
-    },
-    {
-      "title": "99歲阿嬤站上舞台 嘉義「嘉寶趴踢秀」活力開跳 | 青年日報 - LINE TODAY",
-      "date": "Sat, 27 Jun 2026",
-      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1UVVlBTjhQVXJBOUV6alNuUzUtOGxWV2FVZVI3ZjFtUnl5UkhBWGI2SXFvRG5kTHh2Ti1uOFFxNWhFanlHVGUxS2N2dlkwcTZGdEpaNVZ3?oc=5",
       "desc": "",
       "source": "Google新聞"
     }
@@ -238,7 +238,7 @@
       "lat": 23.481634,
       "lng": 120.453745,
       "total": 45,
-      "available": 20,
+      "available": 19,
       "addr": "中山路199號(對面)"
     },
     {
@@ -247,7 +247,7 @@
       "lat": 23.482012,
       "lng": 120.457342,
       "total": 22,
-      "available": 4,
+      "available": 7,
       "addr": "中山路98號(前)"
     },
     {
@@ -256,7 +256,7 @@
       "lat": 23.482663,
       "lng": 120.462988,
       "total": 25,
-      "available": 8,
+      "available": 6,
       "addr": "中山路2號(前)"
     },
     {
@@ -274,7 +274,7 @@
       "lat": 23.477031,
       "lng": 120.465573,
       "total": 34,
-      "available": 2,
+      "available": 9,
       "addr": "大雅路二段738號(前)"
     },
     {
@@ -292,7 +292,7 @@
       "lat": 23.47963,
       "lng": 120.44583,
       "total": 20,
-      "available": 5,
+      "available": 7,
       "addr": "中山路386號"
     },
     {
@@ -301,7 +301,7 @@
       "lat": 23.47917,
       "lng": 120.44186,
       "total": 99,
-      "available": 80,
+      "available": 93,
       "addr": "中山路524號"
     },
     {
@@ -310,7 +310,7 @@
       "lat": 23.47877,
       "lng": 120.44089,
       "total": 42,
-      "available": 30,
+      "available": 31,
       "addr": "中山路528號"
     },
     {
@@ -337,7 +337,7 @@
       "lat": 23.4738724,
       "lng": 120.4493073,
       "total": 20,
-      "available": 10,
+      "available": 7,
       "addr": "垂楊路434號"
     },
     {
@@ -373,7 +373,7 @@
       "lat": 23.48465,
       "lng": 120.43354,
       "total": 14,
-      "available": 5,
+      "available": 3,
       "addr": "友愛興達路口"
     },
     {
@@ -400,7 +400,7 @@
       "lat": 23.478941,
       "lng": 120.437805,
       "total": 23,
-      "available": 4,
+      "available": 3,
       "addr": "博愛路二段281號"
     },
     {
@@ -409,10 +409,10 @@
       "lat": 23.47165,
       "lng": 120.43119,
       "total": 15,
-      "available": 4,
+      "available": 3,
       "addr": "博愛路二段461號"
     }
   ],
   "water": [],
-  "fetch_seconds": 99.5
+  "fetch_seconds": 113.8
 }

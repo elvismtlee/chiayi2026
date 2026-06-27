@@ -1,6 +1,13 @@
 {
-  "updated_at": "2026-06-27T13:29:51.198135",
+  "updated_at": "2026-06-27T19:20:06.096825",
   "news": [
+    {
+      "headline": "歡慶嘉義市恢復升格省轄市44週年臺北智慧城市展「家城×嘉義」主題館移師嘉義集點送限量超可愛磁吸小燈箱",
+      "source": "嘉義市政府/企劃處/觀光新聞處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=943783",
+      "date": "2026/06/28",
+      "query": "市府新聞"
+    },
     {
       "headline": "公共托育好安心幸福育兒愛+1嘉市首辦公托親子運動會展現友善育兒成果",
       "source": "嘉義市政府/社會處/觀光新聞處",
@@ -77,22 +84,15 @@
       "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=942617",
       "date": "2026/06/26",
       "query": "市府新聞"
-    },
-    {
-      "headline": "乳品標示新制7月1日上路!有標章才能叫「鮮乳」嘉市衛生局提醒業者儘速檢視產品標示",
-      "source": "嘉義市政府/衛生局",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=943560",
-      "date": "2026/06/26",
-      "query": "市府新聞"
     }
   ],
   "complaint_stats": {
-    "total": 77379,
-    "record_count": 530,
+    "total": 77326,
+    "record_count": 477,
     "category_counts": {
       "公共安全": 36538,
       "交通停車": 7743,
-      "道路路平": 277,
+      "道路路平": 224,
       "環境衛生": 5,
       "行政服務": 6
     },
@@ -107,11 +107,10 @@
         "公有停車場": 38
       },
       "道路路平": {
-        "電信管線": 32,
-        "電力管線": 55,
-        "自來水管線": 13,
-        "市府工程": 1,
-        "道路施工": 4,
+        "電信管線": 7,
+        "電力管線": 39,
+        "道路施工": 3,
+        "自來水管線": 3,
         "橋梁設施": 172
       },
       "環境衛生": {
@@ -128,26 +127,6 @@
       },
       {
         "road": "東區太平村里新生路5",
-        "count": 4
-      },
-      {
-        "road": "東區短竹村里彌陀路2",
-        "count": 3
-      },
-      {
-        "road": "西區湖內村里健康十三",
-        "count": 2
-      },
-      {
-        "road": "西區磚窯村里永福三街",
-        "count": 2
-      },
-      {
-        "road": "西區北榮村里文化路4",
-        "count": 2
-      },
-      {
-        "road": "東區中山村里宣信街4",
         "count": 2
       },
       {
@@ -160,6 +139,26 @@
       },
       {
         "road": "西區湖內村里新民路1",
+        "count": 2
+      },
+      {
+        "road": "東區嘉義",
+        "count": 2
+      },
+      {
+        "road": "親水公園",
+        "count": 2
+      },
+      {
+        "road": "蘭潭水庫三信亭附近",
+        "count": 2
+      },
+      {
+        "road": "嘉義市中山路199號",
+        "count": 2
+      },
+      {
+        "road": "嘉義市山仔頂249-",
         "count": 2
       }
     ],
@@ -174,7 +173,7 @@
       },
       {
         "category": "道路路平",
-        "count": 277
+        "count": 224
       },
       {
         "category": "行政服務",
@@ -197,12 +196,12 @@
       "2022": 3112,
       "2023": 3318,
       "2024": 3270,
-      "2025": 8891,
-      "2026": 1465,
+      "2025": 8881,
+      "2026": 1422,
       "2012": 1,
       "2013": 1
     },
-    "updated_at": "2026-06-27T13:28:00.446865",
+    "updated_at": "2026-06-27T19:17:58.225470",
     "source": "data.chiayi.gov.tw"
   },
   "council": {
@@ -237,17 +236,17 @@
   "citizen_stats": {},
   "social_posts": [
     {
-      "id": "ptt-httpswwwpttccbbsGossipingM1782565808A77Fhtml",
+      "id": "ptt-httpswwwpttccbbsChiayiM1782585476ADCAhtml",
       "platform": "PTT",
       "platform_color": "#00b300",
-      "board": "Gossiping",
-      "date": "06/27",
+      "board": "Chiayi",
+      "date": "06/28",
       "author": "PTT 鄉民",
-      "title": "[問卦] 是哪個智障說淹水不會影響水蓮的？",
-      "url": "https://www.ptt.cc/bbs/Gossiping/M.1782565808.A.77F.html",
+      "title": "[問題] 這兩天大家的網路會卡頓嗎？",
+      "url": "https://www.ptt.cc/bbs/Chiayi/M.1782585476.A.DCA.html",
       "reactions": 0,
       "comments": 0,
-      "category": "排水水利",
+      "category": "市政議題",
       "source": "ptt"
     },
     {
