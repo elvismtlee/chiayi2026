@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-28T08:52:45.835666",
+  "updated_at": "2026-06-28T13:30:50.351313",
   "news": [
     {
       "headline": "感念秋山紀夫一路陪伴嘉義管樂嘉義市致贈紀念感謝座",
@@ -201,7 +201,7 @@
       "2012": 1,
       "2013": 1
     },
-    "updated_at": "2026-06-28T08:50:00.450652",
+    "updated_at": "2026-06-28T13:28:27.024990",
     "source": "data.chiayi.gov.tw"
   },
   "council": {
@@ -235,6 +235,20 @@
   },
   "citizen_stats": {},
   "social_posts": [
+    {
+      "id": "ptt-httpswwwpttccbbsChiayiM1782648649AD61html",
+      "platform": "PTT",
+      "platform_color": "#00b300",
+      "board": "Chiayi",
+      "date": "06/28",
+      "author": "PTT 鄉民",
+      "title": "[新聞] 台鐵北回歸線站重生「光之森」車站明年下",
+      "url": "https://www.ptt.cc/bbs/Chiayi/M.1782648649.A.D61.html",
+      "reactions": 0,
+      "comments": 0,
+      "category": "市政議題",
+      "source": "ptt"
+    },
     {
       "id": "ptt-httpswwwpttccbbsChiayiM1782629125A855html",
       "platform": "PTT",
@@ -384,20 +398,6 @@
       "author": "PTT 鄉民",
       "title": "[贈送] 飛利浦EP2220咖啡機(已送出) ",
       "url": "https://www.ptt.cc/bbs/Chiayi/M.1781914376.A.A65.html",
-      "reactions": 0,
-      "comments": 0,
-      "category": "市政議題",
-      "source": "ptt"
-    },
-    {
-      "id": "ptt-httpswwwpttccbbsChiayiM1781911464A5B3html",
-      "platform": "PTT",
-      "platform_color": "#00b300",
-      "board": "Chiayi",
-      "date": "06/25",
-      "author": "PTT 鄉民",
-      "title": "[亂入] 徵人幫忙遛狗",
-      "url": "https://www.ptt.cc/bbs/Chiayi/M.1781911464.A.5B3.html",
       "reactions": 0,
       "comments": 0,
       "category": "市政議題",
