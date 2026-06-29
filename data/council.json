@@ -31,43 +31,18 @@
       "source": "council_announce"
     },
     {
-      "date": "2026/04/20",
+      "date": "2026/07/02",
       "type": "議員報到",
       "source": "council_schedule"
     },
     {
-      "date": "2026/04/21",
-      "type": "交通處工作報告",
+      "date": "2026/07/03",
+      "type": "各審查委員會聯席會議審查",
       "source": "council_schedule"
     },
     {
-      "date": "2026/04/22",
-      "type": "教育處工作報告",
-      "source": "council_schedule"
-    },
-    {
-      "date": "2026/04/23",
-      "type": "工務處工作報告",
-      "source": "council_schedule"
-    },
-    {
-      "date": "2026/04/24",
-      "type": "警察局工作報告",
-      "source": "council_schedule"
-    },
-    {
-      "date": "2026/04/27",
-      "type": "都發處工作報告",
-      "source": "council_schedule"
-    },
-    {
-      "date": "2026/04/28",
-      "type": "市長施政報告",
-      "source": "council_schedule"
-    },
-    {
-      "date": "2026/04/29",
-      "type": "文化局工作報告",
+      "date": "2026/07/06",
+      "type": "專案小組報告",
       "source": "council_schedule"
     }
   ],
@@ -256,5 +231,5 @@
     "李忠曆",
     "王浩"
   ],
-  "updated_at": "2026-06-29T03:06:07.998256"
+  "updated_at": "2026-06-29T10:54:17.567482"
 }
