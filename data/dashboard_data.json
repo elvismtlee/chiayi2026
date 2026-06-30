@@ -1,6 +1,34 @@
 {
-  "updated_at": "2026-06-30T02:58:18.148569",
+  "updated_at": "2026-06-30T09:32:44.994351",
   "news": [
+    {
+      "headline": "嘉義市來嘉BIKE訪熱鬧登場！交管資訊公開",
+      "source": "嘉義市政府/警察局/觀光新聞處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=944015",
+      "date": "2026/06/30",
+      "query": "市府新聞"
+    },
+    {
+      "headline": "西安宮平安遶境祈福將登場！交管資訊公開",
+      "source": "嘉義市政府/警察局/觀光新聞處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=944014",
+      "date": "2026/06/30",
+      "query": "市府新聞"
+    },
+    {
+      "headline": "全臺首創3D樹木管理平台「嘉森映像」7/1亮相打造智慧永續綠城市",
+      "source": "嘉義市政府/建設處/觀光新聞處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=944006",
+      "date": "2026/06/30",
+      "query": "市府新聞"
+    },
+    {
+      "headline": "2026嘉義雙潭星光路跑開放報名！父親節夜晚開啟夢幻夏夜泡泡派對",
+      "source": "嘉義市政府/教育處/企劃處/觀光新聞處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=944005",
+      "date": "2026/06/30",
+      "query": "市府新聞"
+    },
     {
       "headline": "「掃蕩毒駕零容忍嘉市警於6月29日啟動「封閉式路檢」保五總隊重兵強勢增援！強力維護用路安全」",
       "source": "嘉義市政府/警察局",
@@ -55,34 +83,6 @@
       "source": "嘉義市政府/文化局/觀光新聞處",
       "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=943815",
       "date": "2026/06/28",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "歡慶嘉義市恢復升格省轄市44週年臺北智慧城市展「家城×嘉義」主題館移師嘉義集點送限量超可愛磁吸小燈箱",
-      "source": "嘉義市政府/企劃處/觀光新聞處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=943783",
-      "date": "2026/06/28",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "公共托育好安心幸福育兒愛+1嘉市首辦公托親子運動會展現友善育兒成果",
-      "source": "嘉義市政府/社會處/觀光新聞處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=943784",
-      "date": "2026/06/27",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "「攜手順稅嘉市好生活」登場嘉市升格44周年展現財政穩健與幸福城市活力",
-      "source": "嘉義市政府/財稅局/觀光新聞處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=943782",
-      "date": "2026/06/27",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "99歲阿嬤站上舞台！嘉市「嘉寶趴踢秀」331位長者活力開跳",
-      "source": "嘉義市政府/衛生局/觀光新聞處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=943781",
-      "date": "2026/06/27",
       "query": "市府新聞"
     }
   ],
@@ -202,7 +202,7 @@
       "2012": 1,
       "2013": 1
     },
-    "updated_at": "2026-06-30T02:54:36.197778",
+    "updated_at": "2026-06-30T09:30:07.318541",
     "source": "data.chiayi.gov.tw"
   },
   "council": {
@@ -311,7 +311,7 @@
       "platform": "PTT",
       "platform_color": "#00b300",
       "board": "Chiayi",
-      "date": "06/29",
+      "date": "06/30",
       "author": "PTT 鄉民",
       "title": "[問題] 這兩天大家的網路會卡頓嗎？",
       "url": "https://www.ptt.cc/bbs/Chiayi/M.1782585476.A.DCA.html",
