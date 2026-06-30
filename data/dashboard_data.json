@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-30T14:14:58.262112",
+  "updated_at": "2026-06-30T19:55:38.273123",
   "news": [
     {
       "headline": "嘉義市來嘉BIKE訪熱鬧登場！交管資訊公開",
@@ -87,12 +87,12 @@
     }
   ],
   "complaint_stats": {
-    "total": 77369,
-    "record_count": 520,
+    "total": 77349,
+    "record_count": 500,
     "category_counts": {
       "公共安全": 36538,
       "交通停車": 7743,
-      "道路路平": 267,
+      "道路路平": 247,
       "環境衛生": 5,
       "行政服務": 6
     },
@@ -107,11 +107,11 @@
         "公有停車場": 38
       },
       "道路路平": {
-        "電信管線": 16,
-        "電力管線": 53,
+        "電力管線": 15,
+        "電信管線": 15,
+        "自來水管線": 32,
+        "市府工程": 7,
         "道路施工": 6,
-        "自來水管線": 16,
-        "市府工程": 4,
         "橋梁設施": 172
       },
       "環境衛生": {
@@ -128,39 +128,39 @@
       },
       {
         "road": "東區嘉義",
-        "count": 10
+        "count": 9
       },
       {
-        "road": "西區湖內村里健康八街",
-        "count": 3
+        "road": "西區福安村里國城二街",
+        "count": 4
       },
       {
         "road": "東區短竹村里彌陀路2",
-        "count": 3
-      },
-      {
-        "road": "東區太平村里新生路5",
         "count": 2
       },
       {
-        "road": "東區中山村里彌陀路",
+        "road": "東區東興村里安和街1",
         "count": 2
       },
       {
-        "road": "西區劉厝村里玉山路與",
+        "road": "親水公園",
         "count": 2
       },
       {
-        "road": "東區育英村里興業東路",
+        "road": "蘭潭水庫三信亭附近",
         "count": 2
       },
       {
-        "road": "西區北榮村里文化路4",
+        "road": "嘉義市中山路199號",
         "count": 2
       },
       {
-        "road": "西區湖內村里新民路1",
+        "road": "嘉義市山仔頂249-",
         "count": 2
+      },
+      {
+        "road": "西區磚窯村里大同路1",
+        "count": 1
       }
     ],
     "top_categories": [
@@ -174,7 +174,7 @@
       },
       {
         "category": "道路路平",
-        "count": 267
+        "count": 247
       },
       {
         "category": "行政服務",
@@ -197,12 +197,12 @@
       "2022": 3112,
       "2023": 3318,
       "2024": 3270,
-      "2025": 8886,
-      "2026": 1460,
+      "2025": 8882,
+      "2026": 1444,
       "2012": 1,
       "2013": 1
     },
-    "updated_at": "2026-06-30T14:12:25.318285",
+    "updated_at": "2026-06-30T19:52:39.725454",
     "source": "data.chiayi.gov.tw"
   },
   "council": {
@@ -236,20 +236,6 @@
   },
   "citizen_stats": {},
   "social_posts": [
-    {
-      "id": "ptt-httpswwwpttccbbsChiayiM1782757057A3A0html",
-      "platform": "PTT",
-      "platform_color": "#00b300",
-      "board": "Chiayi",
-      "date": "06/30",
-      "author": "PTT 鄉民",
-      "title": "[徵求] 今天到期的7-11點數",
-      "url": "https://www.ptt.cc/bbs/Chiayi/M.1782757057.A.3A0.html",
-      "reactions": 0,
-      "comments": 0,
-      "category": "市政議題",
-      "source": "ptt"
-    },
     {
       "id": "ptt-httpswwwpttccbbsChiayiM1782713150AF48html",
       "platform": "PTT",
@@ -399,6 +385,20 @@
       "author": "PTT 鄉民",
       "title": "[問題] 換IPHONE手機電池的店家",
       "url": "https://www.ptt.cc/bbs/Chiayi/M.1782106730.A.AA8.html",
+      "reactions": 0,
+      "comments": 0,
+      "category": "市政議題",
+      "source": "ptt"
+    },
+    {
+      "id": "ptt-httpswwwpttccbbsChiayiM1781914376AA65html",
+      "platform": "PTT",
+      "platform_color": "#00b300",
+      "board": "Chiayi",
+      "date": "06/20",
+      "author": "PTT 鄉民",
+      "title": "[贈送] 飛利浦EP2220咖啡機(已送出) ",
+      "url": "https://www.ptt.cc/bbs/Chiayi/M.1781914376.A.A65.html",
       "reactions": 0,
       "comments": 0,
       "category": "市政議題",
