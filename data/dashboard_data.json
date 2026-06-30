@@ -1,6 +1,20 @@
 {
-  "updated_at": "2026-06-29T19:52:58.404673",
+  "updated_at": "2026-06-30T02:58:18.148569",
   "news": [
+    {
+      "headline": "「掃蕩毒駕零容忍嘉市警於6月29日啟動「封閉式路檢」保五總隊重兵強勢增援！強力維護用路安全」",
+      "source": "嘉義市政府/警察局",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=943993",
+      "date": "2026/06/30",
+      "query": "市府新聞"
+    },
+    {
+      "headline": "社福及私校受贈土地免徵土增稅列管案件7月起展開清查",
+      "source": "嘉義市政府/財政稅務局",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=943996",
+      "date": "2026/06/30",
+      "query": "市府新聞"
+    },
     {
       "headline": "興嘉國小管樂團赴日本京都交流以音樂跨越國界譜寫臺日友誼",
       "source": "嘉義市政府/教育處/觀光新聞處",
@@ -68,20 +82,6 @@
       "headline": "99歲阿嬤站上舞台！嘉市「嘉寶趴踢秀」331位長者活力開跳",
       "source": "嘉義市政府/衛生局/觀光新聞處",
       "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=943781",
-      "date": "2026/06/27",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "借鏡德國循環經濟園區轉型經驗嘉市永續循環園區打造資源再生典範",
-      "source": "嘉義市政府/環保局/觀光新聞處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=943779",
-      "date": "2026/06/27",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "宗教團體不動產審認申請期限再延長至117年6月9日!",
-      "source": "嘉義市政府/西區公所",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=943709",
       "date": "2026/06/27",
       "query": "市府新聞"
     }
@@ -202,7 +202,7 @@
       "2012": 1,
       "2013": 1
     },
-    "updated_at": "2026-06-29T19:51:06.764159",
+    "updated_at": "2026-06-30T02:54:36.197778",
     "source": "data.chiayi.gov.tw"
   },
   "council": {
@@ -269,7 +269,7 @@
       "platform": "PTT",
       "platform_color": "#00b300",
       "board": "Chiayi",
-      "date": "06/29",
+      "date": "06/30",
       "author": "PTT 鄉民",
       "title": "[新聞] 台鐵北回歸線站重生「光之森」車站明年下",
       "url": "https://www.ptt.cc/bbs/Chiayi/M.1782648649.A.D61.html",
