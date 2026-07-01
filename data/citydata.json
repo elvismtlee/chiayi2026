@@ -1,16 +1,16 @@
 {
-  "updated_at": "2026-07-01T03:01:16.894010",
+  "updated_at": "2026-07-01T09:48:37.313101",
   "aqi_realtime": [
     {
       "station": "嘉義市（Open-Meteo 模型）",
-      "aqi": 30,
-      "pm25": 21.5,
-      "pm10": 22.1,
-      "o3": 57.0,
-      "no2": 36.2,
+      "aqi": 42,
+      "pm25": 30.2,
+      "pm10": 31.2,
+      "o3": 55.0,
+      "no2": 44.9,
       "status": "良好",
       "pollutant": "PM2.5",
-      "time": "2026-07-01T11:00",
+      "time": "2026-07-01T17:00",
       "source": "Open-Meteo"
     }
   ],
@@ -27,58 +27,58 @@
   "weather": [
     {
       "station": "嘉義市（Open-Meteo）",
-      "temp": "32.1",
-      "apparent_temp": "39.1",
-      "humidity": "64",
+      "temp": "29.8",
+      "apparent_temp": "35.4",
+      "humidity": "78",
       "rainfall": "0.0",
-      "wind_speed": "7.1",
-      "wind_dir": "333",
-      "cloud": "95",
-      "weather": "陰天",
-      "time": "2026-07-01 11:00",
+      "wind_speed": "10.3",
+      "wind_dir": "358",
+      "cloud": "60",
+      "weather": "雷雨",
+      "time": "2026-07-01 17:45",
       "source": "Open-Meteo"
     }
   ],
   "announcements": [
     {
-      "title": "出國報告 - chiayi.gov.tw",
-      "date": "Mon, 29 Jun 2026",
-      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNcVo0RjhxY3NtekpiRmtSaDB4WFZueXdDa0xvZWFKdjNpN0xNSkpQWFRjY0RsVGpaUEZLZkhmSUVieFhZVWhrQlNRcUVsQ21ldldheENyc05WTkdwazE5YVhvMmRIZVFiYzIwcHV5aUJRR1lhRFN4cGh1WklHMEdCVXhTWTVJUEtCOFRrTFpqRWpHQQ?oc=5",
+      "title": "嘉市「振興商圈夜市券」收券店家突破900間、百貨超商都能用 - chiayi.gov.tw",
+      "date": "Wed, 01 Jul 2026",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBNOTVPbHpRUXdvMW5lVkw3Yll6LUdOaHVRX0pUZ21NaW9wdkd2MF9XTGJUZXN0cFVhNWoyTzJJcGp3R0VlVmROdjN5ZmxmLTVqWWU0NUhyMXc4SVFkZFVTa2VuV1I5NWl3MkE?oc=5",
       "desc": "",
       "source": "Google新聞"
     },
     {
-      "title": "嘉義市5家醫院開設傳染病特別門診 請您安心過好年 - 嘉義市政府衛生局",
-      "date": "Sun, 28 Jun 2026",
-      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9jLUxDS0RqYjl4dzNLaHAtVWluRmlQbDMyYUVLTFVjMV85SmpCMmpLeGY3bnE5MGtQV1hxMTEzZGJtZm52QS1zSVRDOFhBaGEyRllNTlJRdnV6M3F4OVRtRTBGZnNIbXJraDdmVjkxY3FWeUFEYkhQd1hCdFk?oc=5",
+      "title": "【轉知】嘉義市政府115年7月1日（星期三）至7月5日（星期日）辦理「慶祝嘉義市恢復升格省轄市44週年暨智慧城市特展」活動資訊-最新消息 - chcg.gov.",
+      "date": "Wed, 01 Jul 2026",
+      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOVUZEQzZ0bFJ3Z3MzVG96WTR4ZnF3c1doQXc2a04zU211MU56bGRlZVcxb0lBM2k3MU1CTTlTTTQ0VmNmSlNYOWtHbWNydmVMcTUwUkM3MVpWTlQwZm1JNjVjY0RhbFZDR0FKTjJEWE1DVFEzVWkxcFdVSTdzT3NHLUl2SkRYZw?oc=5",
       "desc": "",
       "source": "Google新聞"
     },
     {
-      "title": "嘉義市115年整合性健康篩檢啟動! 首度新增身體組成分析、持續推動無痛腸胃鏡 - 嘉義市政府衛生局",
-      "date": "Sat, 27 Jun 2026",
-      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5MUnJhamxxOGo1UUQxN2ZMbFZkd3ZHN09wLWZYczJHYVlQWXlQSWpiajh0R0pHTkIzMUlkTDhRRE5ST2tLT2E5VkJycThyZzAtTGl5NnhCdWZZQ2Jqb3I3N3ptTnRBT0pMM09wZU1mMA?oc=5",
+      "title": "嘉義市擴大免費營養午餐試辦逾80歲長者健保補助| 地方 - 中央社 CNA",
+      "date": "Wed, 01 Jul 2026",
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBSWXVpOFB3SU9hbXBqWlJjdF9mR09TQ1AwVF9acC1JY0Q4anE1SzVXa1RKSG1EMGluNjFvcTU5Nm5SSnRjNFlocjFNTEY3elNNbFliU1dVSEo2OUNNT1dR?oc=5",
       "desc": "",
       "source": "Google新聞"
     },
     {
-      "title": "嘉義市石綿清運補助至6月30日 請把握時間申請 - 嘉義市政府環境保護局",
-      "date": "Thu, 25 Jun 2026",
-      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFB0S2t6bkM3dVJqeFFtNWtuYkZiQTlSaFU3TmpfeEdwOW1qX2dXcjhnT2tMTzNmRmY4WnB0N3FaendZY1VoRmpXTk0yT2RzbjlmTjJ1MVdZaG5UelpLdFUyQnMwczdMdlFxZ1pN?oc=5",
+      "title": "嘉義市慶升格44週年 黃敏惠端福利新政：午餐免費、長者健保補助 - 墨新聞-MORE News",
+      "date": "Wed, 01 Jul 2026",
+      "link": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE92c0pTR2Rjc3JaWDVTQ3l0ZWhBR1FBaDZRMDFpTTI1Q05Kb3RfaFM4aGdrdlBlSWRIQXp0M0trQ0ZHdw?oc=5",
       "desc": "",
       "source": "Google新聞"
     },
     {
-      "title": "115年嘉義市弱勢族群能源效率改善計畫開跑囉 - 嘉義市政府環境保護局",
-      "date": "Thu, 25 Jun 2026",
-      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE0xZzloNE9kNldyUnJDMDNwSTJDZ1NBbzdvdC1iWDYzOHU4NFBHSnZJeTFOdWRZTkxocFBSajJKSW9IOG5ZaTZ5VWpXZ291S2IzcE9hdzYwelh4aXh0cXVLb2FRblBiUUhWZ1Zv?oc=5",
+      "title": "嘉義市升格44週年送大禮 擴大營養午餐及長者健保補助 - 蕃新聞",
+      "date": "Wed, 01 Jul 2026",
+      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9vTWZYS1FwTHpWRkRpeVNhWDFvbUowVTVSVU8xRE9MeE1GSDFJZWtvRVB2dGlETmRyQjZ2VFNsSFNvUjNOUGxiSU54WkgzN1g1Umc?oc=5",
       "desc": "",
       "source": "Google新聞"
     },
     {
-      "title": "長照防疫再升級！嘉義市力拼115年完成長照機構LTBI防治100%全涵蓋 - 嘉義市政府衛生局",
-      "date": "Fri, 26 Jun 2026",
-      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBwV3YtT3NybkhYS3dMZ1BCMEE4RDE0eXNISVZBMmMyLTljX3VGZFBZU0JMLUhrZDFLc2xuX1N2aTljT1B0ZnNlT2I2UXBZaHFGRGZiVEhiaXZHME5uX1A1bXlWR1hlWnpqXzdPc2RXRQ?oc=5",
+      "title": "嘉義市慶升格44週年！黃敏惠宣布午餐免費、80歲健保全免 - 中時新聞網",
+      "date": "Wed, 01 Jul 2026",
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE01blZmVXpuOHpKNkJRaU9HT3J2emU3eVdqeENQT2l4UENHc3JIS1REbm5wRHV2dldTNFQ3cngzRlZsSmwtNkE4YjhqRXloRlk5aUVkREs5bnVVN2dIMzVkY1JocVZEX2FNQ2U0b25R?oc=5",
       "desc": "",
       "source": "Google新聞"
     }
@@ -88,6 +88,13 @@
       "title": "空拍見證城市蛻變 嘉義鐵路高架化主體成形完工通車期曝 - UDN",
       "date": "Wed, 17 Jun 2026",
       "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5jYUxXTF9kcUZQMGRMUlNfaV9ONWtSeTlQRmxGd2N5MkdBLUZWa0JMN2pnMlNaRXllQW16R0lRNm03Y2ZsZzA2bmJmekdBeUR30gFWQVVfeXFMTWhPMEY3SW80Q1lZeHkxcTdINzRCVGRkT0pWVkF1VTRZMGFlQjBlZnpmQVFDbHI3ak80UE1XTElnQVZVYXBQd25kN3lmdlRPWXI0YjVQb3c?oc=5",
+      "org": "新聞資訊",
+      "source": "Google新聞"
+    },
+    {
+      "title": "王美惠立委邀國土署官員實勘 強化嘉義市整體防洪韌性 | 觀傳媒 - LINE TODAY",
+      "date": "Tue, 12 May 2026",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFB2QTQyRjkwWi1hRUdxa0hUY3BsQ2N3SUhBd1NyUVMxT2l1RXlSaEZzcTAzcmdnYll2VThGR2tHQTU0R2t2QWpvYmQ1NGlBUWNycV9wT2Rn?oc=5",
       "org": "新聞資訊",
       "source": "Google新聞"
     },
@@ -106,16 +113,9 @@
       "source": "Google新聞"
     },
     {
-      "title": "行政院長卓榮泰視察嘉義市西區全民運動館市長黃敏惠、立委王美惠等人爭取升級相關運動場館設施、啟動高鐵嘉義站聯外輕軌工程 - 台灣華報",
-      "date": "Sat, 25 Apr 2026",
-      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5FbXgzNlBmMzI2Um4ycHZhT3gyUDNyVlpJU0s5WXMyT0NEMDlTRmZSOFl0OGdQMnFacENVT09rWVREYzZYN2hic2ZVajR6cEFxRV9nc0lPNFprYmh0bFhHUmJ0N2ViTDlMckln?oc=5",
-      "org": "新聞資訊",
-      "source": "Google新聞"
-    },
-    {
-      "title": "嘉市舊市公所地下停車場動土 斥資4.8億元活化歷史場域強化交通機能 - 中央社 CNA",
-      "date": "Mon, 13 Apr 2026",
-      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1ELXdDTE5PUElSSUdYOFZ0RUZiZzUzUHhFamF1bHVneF85d1dxNFVzUTBSd1Y5UVRBLUNEemJxWkFEa3dmQnQ2ODktZERYWlpGNUZSVGVB?oc=5",
+      "title": "嘉義市舊市公所地下停車場動土 斥資4.8億元活化歷史場域強化交通機能 - 台灣華報",
+      "date": "Wed, 15 Apr 2026",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5LYl9MdUFOS3luYXp4TnJYblptWllKQnRfVzY0YkpZQjVpNnI2WFhVQjJPa21FYWM4NHlkVkVKZkpLdzFTcDU2cUthOV9GeFYxWU9tWW82SDdpcndEQ2pLTmo3X29JcjBMVUhN?oc=5",
       "org": "新聞資訊",
       "source": "Google新聞"
     },
@@ -146,281 +146,46 @@
     "enterovirus": [],
     "updated": "2026-07-01"
   },
-  "fire": {
-    "chiayi_datasets": [
-      {
-        "title": "",
-        "date": ""
-      },
-      {
-        "title": "",
-        "date": ""
-      },
-      {
-        "title": "",
-        "date": ""
-      },
-      {
-        "title": "",
-        "date": ""
-      },
-      {
-        "title": "",
-        "date": ""
-      }
-    ]
-  },
+  "fire": {},
   "population": [],
   "bus": [
     {
-      "id": "CYI0119",
-      "name": "樂活3路",
-      "from": "許氏宗祠(預約站)",
-      "to": "許厝庄福德宮(預約站)"
+      "id": "7",
+      "name": "7路（市區環線）",
+      "from": "火車站",
+      "to": "東門圓環",
+      "static": true
     },
     {
-      "id": "CYI0123",
-      "name": "樂活1路",
-      "from": "濟美仁愛之家",
-      "to": "榮民醫院長照點"
+      "id": "8",
+      "name": "8路（嘉義大學線）",
+      "from": "火車站",
+      "to": "嘉大蘭潭校區",
+      "static": true
     },
     {
-      "id": "CYI0124",
-      "name": "樂活2路",
-      "from": "竹村里活動中心",
-      "to": "市政府(中山路)"
+      "id": "13",
+      "name": "13路（竹崎線）",
+      "from": "嘉義",
+      "to": "竹崎",
+      "static": true
     },
     {
-      "id": "CYI0128",
-      "name": "樂活5路",
-      "from": "轉運中心",
-      "to": "轉運中心"
+      "id": "22",
+      "name": "22路（朴子線）",
+      "from": "嘉義",
+      "to": "朴子",
+      "static": true
     },
     {
-      "id": "CYI0129",
-      "name": "樂活6路",
-      "from": "紅瓦里(1)全家超商",
-      "to": "嘉義基督教醫院"
-    },
-    {
-      "id": "CYI0130",
-      "name": "樂活7路",
-      "from": "五港宮(預約站)",
-      "to": "五港宮(預約站)"
-    },
-    {
-      "id": "CYI0138",
-      "name": "樂活8路",
-      "from": "泰勒瓦莊園(預約站位)",
-      "to": "轉運中心"
-    },
-    {
-      "id": "CYI0139",
-      "name": "樂活9路",
-      "from": "泰勒瓦莊園(預約站位)",
-      "to": "榮民醫院長照點"
-    },
-    {
-      "id": "CYI0714",
-      "name": "中山幹線(綠線)",
-      "from": "大富路",
-      "to": "嘉義大學校區內"
-    },
-    {
-      "id": "CYI0715",
-      "name": "台灣好行光林我嘉線(黃線)",
-      "from": "港坪運動公園",
-      "to": "蘭潭"
-    },
-    {
-      "id": "CYI0716",
-      "name": "忠孝新民幹線(紅線)",
-      "from": "勞工育樂中心",
-      "to": "忠孝北街"
+      "id": "R1",
+      "name": "紅1（嘉義－高鐵）",
+      "from": "嘉義後站",
+      "to": "嘉義高鐵站",
+      "static": true
     }
   ],
-  "youbike": [
-    {
-      "id": "CYI501001001",
-      "name": "嘉義市政府",
-      "lat": 23.481634,
-      "lng": 120.453745,
-      "total": 45,
-      "available": 29,
-      "addr": "中山路199號(對面)"
-    },
-    {
-      "id": "CYI501001002",
-      "name": "行政執行署",
-      "lat": 23.482012,
-      "lng": 120.457342,
-      "total": 22,
-      "available": 11,
-      "addr": "中山路98號(前)"
-    },
-    {
-      "id": "CYI501001003",
-      "name": "嘉義高商(公園派出所)",
-      "lat": 23.482663,
-      "lng": 120.462988,
-      "total": 25,
-      "available": 2,
-      "addr": "中山路2號(前)"
-    },
-    {
-      "id": "CYI501001004",
-      "name": "嘉義高中(志航街)",
-      "lat": 23.478707,
-      "lng": 120.462594,
-      "total": 38,
-      "available": 9,
-      "addr": "啟明路122號(前)"
-    },
-    {
-      "id": "CYI501001005",
-      "name": "嘉義高中(大雅路)",
-      "lat": 23.477031,
-      "lng": 120.465573,
-      "total": 34,
-      "available": 16,
-      "addr": "大雅路二段738號(前)"
-    },
-    {
-      "id": "CYI501001006",
-      "name": "臺灣銀行嘉義分行",
-      "lat": 23.4798596,
-      "lng": 120.4488291,
-      "total": 20,
-      "available": 14,
-      "addr": "中山路306號"
-    },
-    {
-      "id": "CYI501001007",
-      "name": "彰化銀行嘉義分行",
-      "lat": 23.47963,
-      "lng": 120.44583,
-      "total": 20,
-      "available": 13,
-      "addr": "中山路386號"
-    },
-    {
-      "id": "CYI501001008",
-      "name": "嘉義火車站(願景館)",
-      "lat": 23.47917,
-      "lng": 120.44186,
-      "total": 99,
-      "available": 43,
-      "addr": "中山路524號"
-    },
-    {
-      "id": "CYI501001009",
-      "name": "嘉義火車站(出口)",
-      "lat": 23.47877,
-      "lng": 120.44089,
-      "total": 42,
-      "available": 13,
-      "addr": "中山路528號"
-    },
-    {
-      "id": "CYI501001010",
-      "name": "新光三越遠東站(永和街口)",
-      "lat": 23.47283,
-      "lng": 120.44029,
-      "total": 5,
-      "available": 2,
-      "addr": "垂楊路575號"
-    },
-    {
-      "id": "CYI501001012",
-      "name": "嘉義舊市府(西榮街口)",
-      "lat": 23.47336,
-      "lng": 120.44604,
-      "total": 14,
-      "available": 10,
-      "addr": "垂楊路351號"
-    },
-    {
-      "id": "CYI501001013",
-      "name": "文化公園停車場",
-      "lat": 23.4738724,
-      "lng": 120.4493073,
-      "total": 20,
-      "available": 5,
-      "addr": "垂楊路434號"
-    },
-    {
-      "id": "CYI501001014",
-      "name": "嘉義市議會",
-      "lat": 23.47918,
-      "lng": 120.43182,
-      "total": 15,
-      "available": 4,
-      "addr": "北港路278號"
-    },
-    {
-      "id": "CYI501001015",
-      "name": "檜意森活村",
-      "lat": 23.486138,
-      "lng": 120.453829,
-      "total": 20,
-      "available": 8,
-      "addr": "忠孝路284號(旁)"
-    },
-    {
-      "id": "CYI501001016",
-      "name": "嘉義醫院(中興路)",
-      "lat": 23.48091,
-      "lng": 120.43012,
-      "total": 20,
-      "available": 16,
-      "addr": "北港路312號東側"
-    },
-    {
-      "id": "CYI501001017",
-      "name": "友愛興達路口(德安停車場)",
-      "lat": 23.48465,
-      "lng": 120.43354,
-      "total": 14,
-      "available": 3,
-      "addr": "友愛興達路口"
-    },
-    {
-      "id": "CYI501001018",
-      "name": "自由友愛站",
-      "lat": 23.48931,
-      "lng": 120.4361,
-      "total": 15,
-      "available": 8,
-      "addr": "自由路298號"
-    },
-    {
-      "id": "CYI501001019",
-      "name": "世賢八德站(自由路)",
-      "lat": 23.49265,
-      "lng": 120.43191,
-      "total": 15,
-      "available": 5,
-      "addr": "自由路492號"
-    },
-    {
-      "id": "CYI501001020",
-      "name": "博愛後驛街口",
-      "lat": 23.478941,
-      "lng": 120.437805,
-      "total": 23,
-      "available": 9,
-      "addr": "博愛路二段281號"
-    },
-    {
-      "id": "CYI501001021",
-      "name": "嘉樂福觀光夜市",
-      "lat": 23.47165,
-      "lng": 120.43119,
-      "total": 15,
-      "available": 13,
-      "addr": "博愛路二段461號"
-    }
-  ],
+  "youbike": [],
   "water": [],
-  "fetch_seconds": 100.9
+  "fetch_seconds": 282.7
 }
