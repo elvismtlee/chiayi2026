@@ -1,6 +1,13 @@
 {
-  "updated_at": "2026-06-30T19:55:38.273123",
+  "updated_at": "2026-07-01T03:02:57.844435",
   "news": [
+    {
+      "headline": "嘉義市推「淨零旅遊來我嘉」教材寓教於樂打造新永續生活",
+      "source": "嘉義市政府/嘉義市政府環境保護局/綜合計畫科",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=944197",
+      "date": "2026/07/01",
+      "query": "市府新聞"
+    },
     {
       "headline": "嘉義市來嘉BIKE訪熱鬧登場！交管資訊公開",
       "source": "嘉義市政府/警察局/觀光新聞處",
@@ -76,13 +83,6 @@
       "source": "嘉義市政府/社會處/觀光新聞處",
       "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=943882",
       "date": "2026/06/29",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "感念秋山紀夫一路陪伴嘉義管樂嘉義市致贈紀念感謝座",
-      "source": "嘉義市政府/文化局/觀光新聞處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=943815",
-      "date": "2026/06/28",
       "query": "市府新聞"
     }
   ],
@@ -202,7 +202,7 @@
       "2012": 1,
       "2013": 1
     },
-    "updated_at": "2026-06-30T19:52:39.725454",
+    "updated_at": "2026-07-01T03:01:05.770531",
     "source": "data.chiayi.gov.tw"
   },
   "council": {
