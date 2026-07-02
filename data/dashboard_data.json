@@ -1,6 +1,20 @@
 {
-  "updated_at": "2026-07-01T19:51:21.914006",
+  "updated_at": "2026-07-02T02:52:40.468905",
   "news": [
+    {
+      "headline": "嘉義大車站計畫啟動！嘉市府正式展開小澎湖公辦都市更新意願調查",
+      "source": "嘉義市政府/都市發展處/觀光新聞處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=944383",
+      "date": "2026/07/02",
+      "query": "市府新聞"
+    },
+    {
+      "headline": "無人機也能做農！智慧農業走進校園嘉義市僑平國小展現食農教育成果",
+      "source": "嘉義市政府/教育處/觀光新聞處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=944369",
+      "date": "2026/07/02",
+      "query": "市府新聞"
+    },
     {
       "headline": "打造堅實民防！嘉義市召訓400名替代役備役役男培育專業防災士",
       "source": "嘉義市政府/消防局/觀光新聞處",
@@ -68,20 +82,6 @@
       "headline": "2026嘉義雙潭星光路跑開放報名！父親節夜晚開啟夢幻夏夜泡泡派對",
       "source": "嘉義市政府/教育處/企劃處/觀光新聞處",
       "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=944005",
-      "date": "2026/06/30",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "「掃蕩毒駕零容忍嘉市警於6月29日啟動「封閉式路檢」保五總隊重兵強勢增援！強力維護用路安全」",
-      "source": "嘉義市政府/警察局",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=943993",
-      "date": "2026/06/30",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "社福及私校受贈土地免徵土增稅列管案件7月起展開清查",
-      "source": "嘉義市政府/財政稅務局",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=943996",
       "date": "2026/06/30",
       "query": "市府新聞"
     }
@@ -202,7 +202,7 @@
       "2012": 1,
       "2013": 1
     },
-    "updated_at": "2026-07-01T19:49:33.985921",
+    "updated_at": "2026-07-02T02:50:59.405419",
     "source": "data.chiayi.gov.tw"
   },
   "council": {
@@ -367,7 +367,7 @@
       "platform": "PTT",
       "platform_color": "#00b300",
       "board": "Chiayi",
-      "date": "06/28",
+      "date": "07/02",
       "author": "PTT 鄉民",
       "title": "[新聞] 赴德荷交流 黃敏惠盼借鏡經驗打造永續嘉",
       "url": "https://www.ptt.cc/bbs/Chiayi/M.1782391191.A.015.html",
