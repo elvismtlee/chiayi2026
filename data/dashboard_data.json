@@ -1,6 +1,13 @@
 {
-  "updated_at": "2026-07-03T02:37:44.614781",
+  "updated_at": "2026-07-03T09:00:47.263878",
   "news": [
+    {
+      "headline": "嘉義市「培育台語家庭計畫」熱鬧開跑！四大系列129場活動邀您「Tâi-gí+1做伙行」",
+      "source": "嘉義市政府/文化局/觀光新聞處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=944517",
+      "date": "2026/07/03",
+      "query": "市府新聞"
+    },
     {
       "headline": "嘉義大車站計畫啟動！嘉市府正式展開小澎湖公辦都市更新意願調查",
       "source": "嘉義市政府/都市發展處/觀光新聞處",
@@ -75,13 +82,6 @@
       "headline": "嘉市電動公車《嘉人搭公車義起嗶好運》7月1日隆重登場！",
       "source": "嘉義市政府/嘉義市政府交通處",
       "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=944326",
-      "date": "2026/07/01",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "嘉市慶恢復升格省轄市44週年黃敏惠市長宣布擴大營養午餐與80歲以上長者健保補助",
-      "source": "嘉義市政府/民政處/觀光新聞處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=944301",
       "date": "2026/07/01",
       "query": "市府新聞"
     }
@@ -202,7 +202,7 @@
       "2012": 1,
       "2013": 1
     },
-    "updated_at": "2026-07-03T02:35:02.963755",
+    "updated_at": "2026-07-03T08:58:27.423619",
     "source": "data.chiayi.gov.tw"
   },
   "council": {
@@ -237,11 +237,25 @@
   "citizen_stats": {},
   "social_posts": [
     {
+      "id": "ptt-httpswwwpttccbbsChiayiM1783067454A97Bhtml",
+      "platform": "PTT",
+      "platform_color": "#00b300",
+      "board": "Chiayi",
+      "date": "07/03",
+      "author": "PTT 鄉民",
+      "title": "[亂入] 活潑/淡定/膽小幼貓送養",
+      "url": "https://www.ptt.cc/bbs/Chiayi/M.1783067454.A.97B.html",
+      "reactions": 0,
+      "comments": 0,
+      "category": "市政議題",
+      "source": "ptt"
+    },
+    {
       "id": "ptt-httpswwwpttccbbsChiayiM1782902384A833html",
       "platform": "PTT",
       "platform_color": "#00b300",
       "board": "Chiayi",
-      "date": "07/01",
+      "date": "07/03",
       "author": "PTT 鄉民",
       "title": "[問題] 有沒有嘉義縣學校行事曆八卦？",
       "url": "https://www.ptt.cc/bbs/Chiayi/M.1782902384.A.833.html",
@@ -385,20 +399,6 @@
       "author": "PTT 鄉民",
       "title": "[新聞] 台積擴建先進封裝 供應鏈看好嘉科三期",
       "url": "https://www.ptt.cc/bbs/Chiayi/M.1782263778.A.377.html",
-      "reactions": 0,
-      "comments": 0,
-      "category": "市政議題",
-      "source": "ptt"
-    },
-    {
-      "id": "ptt-httpswwwpttccbbsChiayiM1782262858A205html",
-      "platform": "PTT",
-      "platform_color": "#00b300",
-      "board": "Chiayi",
-      "date": "06/24",
-      "author": "PTT 鄉民",
-      "title": "[合購] 好市多富雨自動傘+ 桌上型擺頭隨行風扇",
-      "url": "https://www.ptt.cc/bbs/Chiayi/M.1782262858.A.205.html",
       "reactions": 0,
       "comments": 0,
       "category": "市政議題",
