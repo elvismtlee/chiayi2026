@@ -1,6 +1,20 @@
 {
-  "updated_at": "2026-07-02T19:24:28.898533",
+  "updated_at": "2026-07-03T02:37:44.614781",
   "news": [
+    {
+      "headline": "嘉義大車站計畫啟動！嘉市府正式展開小澎湖公辦都市更新意願調查",
+      "source": "嘉義市政府/都市發展處/觀光新聞處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=944510",
+      "date": "2026/07/03",
+      "query": "市府新聞"
+    },
+    {
+      "headline": "減少臭氧污染從日常生活改變開始",
+      "source": "嘉義市政府/嘉義市政府環境保護局/環境品質管理科",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=944419",
+      "date": "2026/07/03",
+      "query": "市府新聞"
+    },
     {
       "headline": "中聯大豆沙拉油苯駢芘超標嘉市衛生局立即稽查轄內827件問題油品全數下架停用",
       "source": "嘉義市政府/衛生局/觀光新聞處",
@@ -68,20 +82,6 @@
       "headline": "嘉市慶恢復升格省轄市44週年黃敏惠市長宣布擴大營養午餐與80歲以上長者健保補助",
       "source": "嘉義市政府/民政處/觀光新聞處",
       "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=944301",
-      "date": "2026/07/01",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "乳品標示新制上路嘉市衛生局攜手食安志工深入飲冰品店宣導",
-      "source": "嘉義市政府/衛生局",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=944286",
-      "date": "2026/07/01",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "做抹片送好禮！嘉義市鼓勵女性定期篩檢遠離子宮頸癌",
-      "source": "嘉義市政府/衛生局/觀光新聞處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=942864",
       "date": "2026/07/01",
       "query": "市府新聞"
     }
@@ -202,7 +202,7 @@
       "2012": 1,
       "2013": 1
     },
-    "updated_at": "2026-07-02T19:22:42.743297",
+    "updated_at": "2026-07-03T02:35:02.963755",
     "source": "data.chiayi.gov.tw"
   },
   "council": {
