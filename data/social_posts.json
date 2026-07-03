@@ -1,5 +1,19 @@
 [
   {
+    "id": "ptt-httpswwwpttccbbsChiayiM1783081910A2A7html",
+    "platform": "PTT",
+    "platform_color": "#00b300",
+    "board": "Chiayi",
+    "date": "07/03",
+    "author": "PTT 鄉民",
+    "title": "[廣告]7/5爸爸自然園藝工作坊暨兒童故事手作坊",
+    "url": "https://www.ptt.cc/bbs/Chiayi/M.1783081910.A.2A7.html",
+    "reactions": 0,
+    "comments": 0,
+    "category": "通學安全",
+    "source": "ptt"
+  },
+  {
     "id": "ptt-httpswwwpttccbbsChiayiM1783067454A97Bhtml",
     "platform": "PTT",
     "platform_color": "#00b300",
@@ -148,20 +162,6 @@
     "author": "PTT 鄉民",
     "title": "[新聞] 赴德荷交流 黃敏惠盼借鏡經驗打造永續嘉",
     "url": "https://www.ptt.cc/bbs/Chiayi/M.1782391191.A.015.html",
-    "reactions": 0,
-    "comments": 0,
-    "category": "市政議題",
-    "source": "ptt"
-  },
-  {
-    "id": "ptt-httpswwwpttccbbsChiayiM1782263778A377html",
-    "platform": "PTT",
-    "platform_color": "#00b300",
-    "board": "Chiayi",
-    "date": "07/02",
-    "author": "PTT 鄉民",
-    "title": "[新聞] 台積擴建先進封裝 供應鏈看好嘉科三期",
-    "url": "https://www.ptt.cc/bbs/Chiayi/M.1782263778.A.377.html",
     "reactions": 0,
     "comments": 0,
     "category": "市政議題",
