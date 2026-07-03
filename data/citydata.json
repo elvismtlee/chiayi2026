@@ -1,16 +1,16 @@
 {
-  "updated_at": "2026-07-03T13:56:40.748792",
+  "updated_at": "2026-07-03T19:17:08.164165",
   "aqi_realtime": [
     {
       "station": "嘉義市（Open-Meteo 模型）",
-      "aqi": 73,
-      "pm25": 43.7,
-      "pm10": 44.9,
-      "o3": 7.0,
-      "no2": 92.7,
+      "aqi": 85,
+      "pm25": 48.1,
+      "pm10": 48.8,
+      "o3": 0.0,
+      "no2": 57.3,
       "status": "普通",
       "pollutant": "PM2.5",
-      "time": "2026-07-03T21:00",
+      "time": "2026-07-04T03:00",
       "source": "Open-Meteo"
     }
   ],
@@ -34,15 +34,15 @@
   "weather": [
     {
       "station": "嘉義市（Open-Meteo）",
-      "temp": "27.0",
-      "apparent_temp": "33.2",
-      "humidity": "89",
+      "temp": "24.6",
+      "apparent_temp": "29.7",
+      "humidity": "91",
       "rainfall": "0.0",
-      "wind_speed": "3.5",
-      "wind_dir": "69",
-      "cloud": "6",
+      "wind_speed": "3.3",
+      "wind_dir": "131",
+      "cloud": "13",
       "weather": "晴",
-      "time": "2026-07-03 21:45",
+      "time": "2026-07-04 03:15",
       "source": "Open-Meteo"
     }
   ],
@@ -69,6 +69,13 @@
       "source": "Google新聞"
     },
     {
+      "title": "嘉義市培育台語家庭計畫7/4開跑 達129場活動 - 大纪元",
+      "date": "Fri, 03 Jul 2026",
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE44NEdJcXlBbnhqMHF1SXVDbERtZWpmVGNwczcwaU5FSTJXZlU1MXI1Nk96UFpESEMwR0U4ZE1nVlEyMktJQmRQQmtONm9mUzJDM2lOU095UGthaVAzZE1z0gFkQVVfeXFMTzJhQzhpOFFibWpVSVh2VWVpd3FMbEtoMjcxOXpEQWRjVkdiZFg1TVRSX1BpNWNkLWRkYWg4M2twa3pCalhLYXVCN0FlUkxmUktPSnl2dld5cTV5aC1UZmR2ek54cA?oc=5",
+      "desc": "",
+      "source": "Google新聞"
+    },
+    {
       "title": "嘉義大車站計畫啟動！嘉市府正式展開小澎湖公辦都市更新意願調查 - 中央社 CNA",
       "date": "Fri, 03 Jul 2026",
       "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE53V18ycGo4T29nbXozSGZfS19RTmtqYmcwem5WenZtM1JtczczSktjUHhLRlJNdXN1LVV4Y3p5cnh6RmFSVzFQS1Q5dzV4TVJpbmJWaHJB?oc=5",
@@ -79,13 +86,6 @@
       "title": "嘉義大車站計畫啟動 「小澎湖」公辦都更意願調查啟動 - 自由時報",
       "date": "Fri, 03 Jul 2026",
       "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5teGl6QmtPUm9Dbm1YS1piQ1pEMmFrMkNvMjk3SkxmaUtYNHdFQ1pOVllNalVlcG9MbW84NHI4Z2pETlhFSzV2YXRPT1p1X1hYNXlETThkT2tJazJiZ0lQel9Fc2_SAWpBVV95cUxPNktjMndVR3puLTRucmROQmhwUXZVc3pLTXBxQWtPS2I1QURBSnF4dnpiT291cUV5RS1hRDhmcW1CazBvalhieThuZXNscTdlTEZHV1l0eFVDdF9Tc0poTFV2UEZNbzVVVWRR?oc=5",
-      "desc": "",
-      "source": "Google新聞"
-    },
-    {
-      "title": "轉知~嘉義市政府辦理「慶祝嘉義市恢復升格省轄市44週年暨智慧城市特展」 - chcg.gov.tw",
-      "date": "Wed, 01 Jul 2026",
-      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNWnRSeEY4TlFOel9lclBBRERHRk9WLUQwaXlVQ0h1d3BCVWE2M21KNkIyNEV6NERHb0tpZ3dPYmlxeDRnNWFkSlhac25Yd3ZpdEtGVDczWXc0b0JRMkx1bWdzTGJOQjU4OTRqV2JjcjRjNmszRTlZc2JmLXJDdUVlQVpGbmxwUQ?oc=5",
       "desc": "",
       "source": "Google新聞"
     }
@@ -253,7 +253,7 @@
       "lat": 23.481634,
       "lng": 120.453745,
       "total": 45,
-      "available": 23,
+      "available": 25,
       "addr": "中山路199號(對面)"
     },
     {
@@ -262,7 +262,7 @@
       "lat": 23.482012,
       "lng": 120.457342,
       "total": 22,
-      "available": 11,
+      "available": 7,
       "addr": "中山路98號(前)"
     },
     {
@@ -271,7 +271,7 @@
       "lat": 23.482663,
       "lng": 120.462988,
       "total": 25,
-      "available": 9,
+      "available": 8,
       "addr": "中山路2號(前)"
     },
     {
@@ -289,7 +289,7 @@
       "lat": 23.477031,
       "lng": 120.465573,
       "total": 34,
-      "available": 9,
+      "available": 11,
       "addr": "大雅路二段738號(前)"
     },
     {
@@ -298,7 +298,7 @@
       "lat": 23.4798596,
       "lng": 120.4488291,
       "total": 20,
-      "available": 9,
+      "available": 5,
       "addr": "中山路306號"
     },
     {
@@ -307,7 +307,7 @@
       "lat": 23.47963,
       "lng": 120.44583,
       "total": 20,
-      "available": 10,
+      "available": 4,
       "addr": "中山路386號"
     },
     {
@@ -316,7 +316,7 @@
       "lat": 23.47917,
       "lng": 120.44186,
       "total": 99,
-      "available": 65,
+      "available": 82,
       "addr": "中山路524號"
     },
     {
@@ -325,7 +325,7 @@
       "lat": 23.47877,
       "lng": 120.44089,
       "total": 42,
-      "available": 15,
+      "available": 32,
       "addr": "中山路528號"
     },
     {
@@ -334,7 +334,7 @@
       "lat": 23.47283,
       "lng": 120.44029,
       "total": 5,
-      "available": 0,
+      "available": 2,
       "addr": "垂楊路575號"
     },
     {
@@ -352,7 +352,7 @@
       "lat": 23.4738724,
       "lng": 120.4493073,
       "total": 20,
-      "available": 12,
+      "available": 9,
       "addr": "垂楊路434號"
     },
     {
@@ -361,7 +361,7 @@
       "lat": 23.47918,
       "lng": 120.43182,
       "total": 15,
-      "available": 5,
+      "available": 9,
       "addr": "北港路278號"
     },
     {
@@ -379,7 +379,7 @@
       "lat": 23.48091,
       "lng": 120.43012,
       "total": 20,
-      "available": 5,
+      "available": 2,
       "addr": "北港路312號東側"
     },
     {
@@ -388,7 +388,7 @@
       "lat": 23.48465,
       "lng": 120.43354,
       "total": 14,
-      "available": 6,
+      "available": 5,
       "addr": "友愛興達路口"
     },
     {
@@ -397,7 +397,7 @@
       "lat": 23.48931,
       "lng": 120.4361,
       "total": 15,
-      "available": 8,
+      "available": 10,
       "addr": "自由路298號"
     },
     {
@@ -406,7 +406,7 @@
       "lat": 23.49265,
       "lng": 120.43191,
       "total": 15,
-      "available": 5,
+      "available": 6,
       "addr": "自由路492號"
     },
     {
@@ -415,7 +415,7 @@
       "lat": 23.478941,
       "lng": 120.437805,
       "total": 23,
-      "available": 4,
+      "available": 1,
       "addr": "博愛路二段281號"
     },
     {
@@ -424,10 +424,10 @@
       "lat": 23.47165,
       "lng": 120.43119,
       "total": 15,
-      "available": 1,
+      "available": 2,
       "addr": "博愛路二段461號"
     }
   ],
   "water": [],
-  "fetch_seconds": 97.8
+  "fetch_seconds": 91.7
 }
