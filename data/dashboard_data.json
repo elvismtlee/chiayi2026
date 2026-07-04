@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-04T13:18:08.847089",
+  "updated_at": "2026-07-04T19:11:15.008527",
   "news": [
     {
       "headline": "嘉市府引進「數位照光板」5秒檢測牙菌斑落實智慧照護讓嘉家攏有「好牙」",
@@ -87,12 +87,12 @@
     }
   ],
   "complaint_stats": {
-    "total": 77381,
-    "record_count": 532,
+    "total": 77313,
+    "record_count": 464,
     "category_counts": {
       "公共安全": 36538,
       "交通停車": 7743,
-      "道路路平": 279,
+      "道路路平": 211,
       "環境衛生": 5,
       "行政服務": 6
     },
@@ -107,11 +107,11 @@
         "公有停車場": 38
       },
       "道路路平": {
-        "電力管線": 22,
-        "電信管線": 35,
-        "道路施工": 9,
-        "自來水管線": 31,
-        "市府工程": 10,
+        "電信管線": 11,
+        "道路施工": 2,
+        "自來水管線": 16,
+        "電力管線": 9,
+        "市府工程": 1,
         "橋梁設施": 172
       },
       "環境衛生": {
@@ -128,31 +128,7 @@
       },
       {
         "road": "東區嘉義",
-        "count": 4
-      },
-      {
-        "road": "西區劉厝村里玉山路",
         "count": 3
-      },
-      {
-        "road": "西區福安村里北港路5",
-        "count": 2
-      },
-      {
-        "road": "西區西平村里大同路1",
-        "count": 2
-      },
-      {
-        "road": "西區保生村里永吉四街",
-        "count": 2
-      },
-      {
-        "road": "東區興安村里環興街1",
-        "count": 2
-      },
-      {
-        "road": "東區文雅村里大雅路一",
-        "count": 2
       },
       {
         "road": "西區湖內村里健康八街",
@@ -161,6 +137,30 @@
       {
         "road": "親水公園",
         "count": 2
+      },
+      {
+        "road": "蘭潭水庫三信亭附近",
+        "count": 2
+      },
+      {
+        "road": "嘉義市中山路199號",
+        "count": 2
+      },
+      {
+        "road": "嘉義市山仔頂249-",
+        "count": 2
+      },
+      {
+        "road": "東區新店村里林森東路",
+        "count": 1
+      },
+      {
+        "road": "東區興仁村里興仁街3",
+        "count": 1
+      },
+      {
+        "road": "西區湖內村里健康七街",
+        "count": 1
       }
     ],
     "top_categories": [
@@ -174,7 +174,7 @@
       },
       {
         "category": "道路路平",
-        "count": 279
+        "count": 211
       },
       {
         "category": "行政服務",
@@ -197,12 +197,12 @@
       "2022": 3112,
       "2023": 3318,
       "2024": 3270,
-      "2025": 8885,
-      "2026": 1473,
+      "2025": 8880,
+      "2026": 1410,
       "2012": 1,
       "2013": 1
     },
-    "updated_at": "2026-07-04T13:16:24.976754",
+    "updated_at": "2026-07-04T19:09:17.213959",
     "source": "data.chiayi.gov.tw"
   },
   "council": {
@@ -236,6 +236,20 @@
   },
   "citizen_stats": {},
   "social_posts": [
+    {
+      "id": "ptt-httpswwwpttccbbsChiayiM1783182055AF83html",
+      "platform": "PTT",
+      "platform_color": "#00b300",
+      "board": "Chiayi",
+      "date": "07/05",
+      "author": "PTT 鄉民",
+      "title": "[買賣] 全家大杯特濃經典拿鐵",
+      "url": "https://www.ptt.cc/bbs/Chiayi/M.1783182055.A.F83.html",
+      "reactions": 0,
+      "comments": 0,
+      "category": "市政議題",
+      "source": "ptt"
+    },
     {
       "id": "ptt-httpswwwpttccbbsChiayiM1783154033A59Ahtml",
       "platform": "PTT",
@@ -339,7 +353,7 @@
       "platform": "PTT",
       "platform_color": "#00b300",
       "board": "Chiayi",
-      "date": "07/01",
+      "date": "07/04",
       "author": "PTT 鄉民",
       "title": "[新聞] 台鐵北回歸線站重生「光之森」車站明年下",
       "url": "https://www.ptt.cc/bbs/Chiayi/M.1782648649.A.D61.html",
@@ -385,20 +399,6 @@
       "author": "PTT 鄉民",
       "title": "[問題] 這兩天大家的網路會卡頓嗎？",
       "url": "https://www.ptt.cc/bbs/Chiayi/M.1782585476.A.DCA.html",
-      "reactions": 0,
-      "comments": 0,
-      "category": "市政議題",
-      "source": "ptt"
-    },
-    {
-      "id": "ptt-httpswwwpttccbbsChiayiM1782454076A11Dhtml",
-      "platform": "PTT",
-      "platform_color": "#00b300",
-      "board": "Chiayi",
-      "date": "06/26",
-      "author": "PTT 鄉民",
-      "title": "[買賣] 全家林鳳營衛生紙優格/肯德基/家樂福/統一數位禮券/王品/饗",
-      "url": "https://www.ptt.cc/bbs/Chiayi/M.1782454076.A.11D.html",
       "reactions": 0,
       "comments": 0,
       "category": "市政議題",
