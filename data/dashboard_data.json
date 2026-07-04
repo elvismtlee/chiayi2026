@@ -1,6 +1,13 @@
 {
-  "updated_at": "2026-07-03T19:18:39.879494",
+  "updated_at": "2026-07-04T02:31:44.694639",
   "news": [
+    {
+      "headline": "陸軍南測中心火炮實彈射擊訓練期間，將有較大聲響，敬請民眾安心",
+      "source": "嘉義市政府/西區公所",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=944560",
+      "date": "2026/07/04",
+      "query": "市府新聞"
+    },
     {
       "headline": "嘉義市「培育台語家庭計畫」熱鬧開跑！四大系列129場活動邀您「Tâi-gí+1做伙行」",
       "source": "嘉義市政府/文化局/觀光新聞處",
@@ -75,13 +82,6 @@
       "headline": "打造堅實民防！嘉義市召訓400名替代役備役役男培育專業防災士",
       "source": "嘉義市政府/消防局/觀光新聞處",
       "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=944329",
-      "date": "2026/07/01",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "嘉市電動公車《嘉人搭公車義起嗶好運》7月1日隆重登場！",
-      "source": "嘉義市政府/嘉義市政府交通處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=944326",
       "date": "2026/07/01",
       "query": "市府新聞"
     }
@@ -202,7 +202,7 @@
       "2012": 1,
       "2013": 1
     },
-    "updated_at": "2026-07-03T19:16:10.505430",
+    "updated_at": "2026-07-04T02:29:35.940422",
     "source": "data.chiayi.gov.tw"
   },
   "council": {
@@ -255,7 +255,7 @@
       "platform": "PTT",
       "platform_color": "#00b300",
       "board": "Chiayi",
-      "date": "07/03",
+      "date": "07/04",
       "author": "PTT 鄉民",
       "title": "[亂入] 活潑/淡定/膽小幼貓送養",
       "url": "https://www.ptt.cc/bbs/Chiayi/M.1783067454.A.97B.html",
