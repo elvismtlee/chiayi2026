@@ -29,6 +29,21 @@
       "date": "2024/04/17",
       "type": "嘉義市議會第11屆第1次定期會暨112年第1、2、3次臨時會",
       "source": "council_announce"
+    },
+    {
+      "date": "2026/07/02",
+      "type": "議員報到",
+      "source": "council_schedule"
+    },
+    {
+      "date": "2026/07/03",
+      "type": "各審查委員會聯席會議審查",
+      "source": "council_schedule"
+    },
+    {
+      "date": "2026/07/06",
+      "type": "專案小組報告",
+      "source": "council_schedule"
     }
   ],
   "councilors": [
@@ -216,5 +231,5 @@
     "李忠曆",
     "王浩"
   ],
-  "updated_at": "2026-07-05T02:46:14.318565"
+  "updated_at": "2026-07-05T08:51:59.156676"
 }
