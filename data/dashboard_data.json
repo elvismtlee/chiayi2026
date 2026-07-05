@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-04T19:11:15.008527",
+  "updated_at": "2026-07-05T02:48:27.159622",
   "news": [
     {
       "headline": "嘉市府引進「數位照光板」5秒檢測牙菌斑落實智慧照護讓嘉家攏有「好牙」",
@@ -202,11 +202,11 @@
       "2012": 1,
       "2013": 1
     },
-    "updated_at": "2026-07-04T19:09:17.213959",
+    "updated_at": "2026-07-05T02:45:10.399144",
     "source": "data.chiayi.gov.tw"
   },
   "council": {
-    "meetings_count": 9,
+    "meetings_count": 6,
     "councilors": [
       "傅大偉",
       "黃露慧",
@@ -236,6 +236,20 @@
   },
   "citizen_stats": {},
   "social_posts": [
+    {
+      "id": "ptt-httpswwwpttccbbsChiayiM1783216966A04Bhtml",
+      "platform": "PTT",
+      "platform_color": "#00b300",
+      "board": "Chiayi",
+      "date": "07/05",
+      "author": "PTT 鄉民",
+      "title": "Re: [新聞] 鄭麗文下動員令「100%團結支持」張啓楷 黃敏惠贈國旗挺",
+      "url": "https://www.ptt.cc/bbs/Chiayi/M.1783216966.A.04B.html",
+      "reactions": 0,
+      "comments": 0,
+      "category": "市政議題",
+      "source": "ptt"
+    },
     {
       "id": "ptt-httpswwwpttccbbsChiayiM1783182055AF83html",
       "platform": "PTT",
@@ -269,7 +283,7 @@
       "platform": "PTT",
       "platform_color": "#00b300",
       "board": "Chiayi",
-      "date": "07/04",
+      "date": "07/05",
       "author": "PTT 鄉民",
       "title": "[新聞] 鄭麗文下動員令「100%團結支持」張啓楷 黃敏惠贈國旗挺接棒",
       "url": "https://www.ptt.cc/bbs/Chiayi/M.1783150599.A.3A5.html",
@@ -385,20 +399,6 @@
       "author": "PTT 鄉民",
       "title": "[徵求] 二手小冰箱",
       "url": "https://www.ptt.cc/bbs/Chiayi/M.1782628183.A.893.html",
-      "reactions": 0,
-      "comments": 0,
-      "category": "市政議題",
-      "source": "ptt"
-    },
-    {
-      "id": "ptt-httpswwwpttccbbsChiayiM1782585476ADCAhtml",
-      "platform": "PTT",
-      "platform_color": "#00b300",
-      "board": "Chiayi",
-      "date": "07/04",
-      "author": "PTT 鄉民",
-      "title": "[問題] 這兩天大家的網路會卡頓嗎？",
-      "url": "https://www.ptt.cc/bbs/Chiayi/M.1782585476.A.DCA.html",
       "reactions": 0,
       "comments": 0,
       "category": "市政議題",
