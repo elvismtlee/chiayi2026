@@ -2042,5 +2042,33 @@
     "source": "data.chiayi.gov.tw",
     "title": "道路交通事故（2026/02）",
     "source_url": "https://data.chiayi.gov.tw/opendata/"
+  },
+  {
+    "date": "2026/03",
+    "year": "2026",
+    "month": "03",
+    "category": "公共安全",
+    "subcategory": "交通事故",
+    "location": "嘉義市",
+    "count": 692,
+    "deaths": 4,
+    "injuries": 942,
+    "source": "data.chiayi.gov.tw",
+    "title": "道路交通事故（2026/03）",
+    "source_url": "https://data.chiayi.gov.tw/opendata/"
+  },
+  {
+    "date": "2026/04",
+    "year": "2026",
+    "month": "04",
+    "category": "公共安全",
+    "subcategory": "交通事故",
+    "location": "嘉義市",
+    "count": 719,
+    "deaths": 4,
+    "injuries": 977,
+    "source": "data.chiayi.gov.tw",
+    "title": "道路交通事故（2026/04）",
+    "source_url": "https://data.chiayi.gov.tw/opendata/"
   }
 ]
