@@ -1,6 +1,41 @@
 {
-  "updated_at": "2026-07-07T02:42:20.272336",
+  "updated_at": "2026-07-07T09:40:00.610979",
   "news": [
+    {
+      "headline": "嘉義市環保局邀您一起自備減塑3寶享優惠",
+      "source": "嘉義市政府/嘉義市政府環境保護局/資源循環管理科",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=945041",
+      "date": "2026/07/07",
+      "query": "市府新聞"
+    },
+    {
+      "headline": "桃城創意領航培育未來領袖嘉市國小創意領袖培力營登場",
+      "source": "嘉義市政府/教育處/觀光新聞處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=945011",
+      "date": "2026/07/07",
+      "query": "市府新聞"
+    },
+    {
+      "headline": "115學年度嘉義區高級中等學校免試入學（含特色招生考試）放榜錄取率99.2%",
+      "source": "嘉義市政府/教育處/觀光新聞處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=945009",
+      "date": "2026/07/07",
+      "query": "市府新聞"
+    },
+    {
+      "headline": "嚴防強烈颱風「巴威」來襲！嘉義市政府啟動防颱整備",
+      "source": "嘉義市政府/消防局/工務處/觀光新聞處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=945006",
+      "date": "2026/07/07",
+      "query": "市府新聞"
+    },
+    {
+      "headline": "嘉市府副秘書長、財稅局長佈達宣誓黃敏惠市長期勉打造有溫度的戰鬥團隊",
+      "source": "嘉義市政府/財稅局/觀光新聞處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=944977",
+      "date": "2026/07/07",
+      "query": "市府新聞"
+    },
     {
       "headline": "大富翁也能學永續！嘉市推「淨零旅遊來我嘉」教材寓教於樂守護環境",
       "source": "嘉義市政府/環境保護局/觀光新聞處",
@@ -48,41 +83,6 @@
       "source": "嘉義市政府/交通處",
       "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=944718",
       "date": "2026/07/06",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "嘉義市長者福利再加碼！80歲以上健保費補助7月1日上路",
-      "source": "嘉義市政府/社會處/觀光新聞處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=944702",
-      "date": "2026/07/06",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "嘉頌重奏團《樂脈》入圍第37屆傳藝金曲獎四項嘉義市扶植在地藝文成果再獲全國肯定",
-      "source": "嘉義市政府/文化局/觀光新聞處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=944663",
-      "date": "2026/07/05",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "中南部唯一！嘉義市精忠社區成立「無人機足球培育基地」透過科技跨世代共融",
-      "source": "嘉義市政府/社會處/觀光新聞處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=944662",
-      "date": "2026/07/05",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "書畫交融展新韻《翰墨飛揚》嘉義市書法學會聯展開幕",
-      "source": "嘉義市政府/文化局/觀光新聞處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=944661",
-      "date": "2026/07/05",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "嘉市府引進「數位照光板」5秒檢測牙菌斑落實智慧照護讓嘉家攏有「好牙」",
-      "source": "嘉義市政府/衛生局/觀光新聞處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=944636",
-      "date": "2026/07/04",
       "query": "市府新聞"
     }
   ],
@@ -202,7 +202,7 @@
       "2012": 1,
       "2013": 1
     },
-    "updated_at": "2026-07-07T02:40:32.917992",
+    "updated_at": "2026-07-07T09:37:27.163093",
     "source": "data.chiayi.gov.tw"
   },
   "council": {
@@ -236,6 +236,20 @@
   },
   "citizen_stats": {},
   "social_posts": [
+    {
+      "id": "ptt-httpswwwpttccbbsChiayiM1783398062A842html",
+      "platform": "PTT",
+      "platform_color": "#00b300",
+      "board": "Chiayi",
+      "date": "07/07",
+      "author": "PTT 鄉民",
+      "title": "[買賣] 日貨360度都超美洋裝 日本cosme排行面膜",
+      "url": "https://www.ptt.cc/bbs/Chiayi/M.1783398062.A.842.html",
+      "reactions": 0,
+      "comments": 0,
+      "category": "市政議題",
+      "source": "ptt"
+    },
     {
       "id": "ptt-httpswwwpttccbbsChiayiM1783390735A716html",
       "platform": "PTT",
@@ -388,20 +402,6 @@
       "reactions": 0,
       "comments": 0,
       "category": "通學安全",
-      "source": "ptt"
-    },
-    {
-      "id": "ptt-httpswwwpttccbbsChiayiM1783067454A97Bhtml",
-      "platform": "PTT",
-      "platform_color": "#00b300",
-      "board": "Chiayi",
-      "date": "07/04",
-      "author": "PTT 鄉民",
-      "title": "[亂入] 活潑/淡定/膽小幼貓送養",
-      "url": "https://www.ptt.cc/bbs/Chiayi/M.1783067454.A.97B.html",
-      "reactions": 0,
-      "comments": 0,
-      "category": "市政議題",
       "source": "ptt"
     }
   ]
