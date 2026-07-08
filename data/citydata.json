@@ -1,16 +1,16 @@
 {
-  "updated_at": "2026-07-08T13:53:19.007641",
+  "updated_at": "2026-07-08T19:22:54.342036",
   "aqi_realtime": [
     {
       "station": "嘉義市（Open-Meteo 模型）",
-      "aqi": 37,
-      "pm25": 26.5,
-      "pm10": 29.5,
+      "aqi": 45,
+      "pm25": 32.2,
+      "pm10": 35.0,
       "o3": 0.0,
-      "no2": 71.0,
+      "no2": 55.3,
       "status": "良好",
       "pollutant": "PM2.5",
-      "time": "2026-07-08T21:00",
+      "time": "2026-07-09T03:00",
       "source": "Open-Meteo"
     }
   ],
@@ -34,23 +34,44 @@
   "weather": [
     {
       "station": "嘉義市（Open-Meteo）",
-      "temp": "27.4",
-      "apparent_temp": "33.5",
-      "humidity": "83",
+      "temp": "25.1",
+      "apparent_temp": "30.5",
+      "humidity": "89",
       "rainfall": "0.0",
-      "wind_speed": "1.1",
-      "wind_dir": "342",
-      "cloud": "3",
-      "weather": "晴",
-      "time": "2026-07-08 21:45",
+      "wind_speed": "1.3",
+      "wind_dir": "98",
+      "cloud": "67",
+      "weather": "多雲",
+      "time": "2026-07-09 03:15",
       "source": "Open-Meteo"
     }
   ],
   "announcements": [
     {
+      "title": "115年嘉義市弱勢族群能源效率改善計畫開跑囉 - 嘉義市政府環境保護局",
+      "date": "Wed, 08 Jul 2026",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE0xZzloNE9kNldyUnJDMDNwSTJDZ1NBbzdvdC1iWDYzOHU4NFBHSnZJeTFOdWRZTkxocFBSajJKSW9IOG5ZaTZ5VWpXZ291S2IzcE9hdzYwelh4aXh0cXVLb2FRblBiUUhWZ1Zv?oc=5",
+      "desc": "",
+      "source": "Google新聞"
+    },
+    {
       "title": "強颱巴威來勢洶洶 嘉義市政府全面強化防汛整備 守護市民安全 - 中央社 CNA",
       "date": "Wed, 08 Jul 2026",
       "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1ZN25tLXVwbGN2cG0xejlGTUVjTms0T0FMeWtHSG1EZlctbDlsNmxmaVBvWTktOXlRa2M5NXFYd1FKRVJwMmJTT2sxV2VQNk5va0huWGln?oc=5",
+      "desc": "",
+      "source": "Google新聞"
+    },
+    {
+      "title": "嘉義市「科學168」承載城市教育夢 市長黃敏惠揪大小朋友7/17起同樂玩科學 - 台灣華報",
+      "date": "Wed, 08 Jul 2026",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9iMTg1VjloR09NUzNYU2lXaktjVUJjb29aZW5WN1hKMVdIMXFmSUc2cHdCRmJ3OTdKSVpSS2ZabTcycFZzRGo1cXJvM2VCNnBibHlINWw3eFhsT0FkLUZtSm1JSDlmQmIzcm9R?oc=5",
+      "desc": "",
+      "source": "Google新聞"
+    },
+    {
+      "title": "嘉義市科學168教育博覽會7/17登場 44項闖關、116場科普體驗打造暑假科學盛宴 - 新頭條",
+      "date": "Wed, 08 Jul 2026",
+      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE12UUt6cmxZZHNNbGJUNVM5di1BMFN6YjhIZHQxMDBqdjRkWGxzYnFwZElfdS1xelotRElQTnhKcFRDa3Qxa3BDcGZNR3c1Zjk1a053Qg?oc=5",
       "desc": "",
       "source": "Google新聞"
     },
@@ -65,27 +86,6 @@
       "title": "嘉義市科學168博覽會 7/17至7/21登場 - 自由時報",
       "date": "Wed, 08 Jul 2026",
       "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE12Q0JPZlM0WjFDYU1sQjhuMWxJZHo4ejBNUWJtelk0OWp4U1pNb1UtLWZaTzI2Sy1iSnNOM2NVQW1DekhONDJETk5zRTdIMm92bzBBZ0NRb3g5R1ppemZ6UUdBMjLSAWpBVV95cUxQOTZLRWdzZzUzendXQXlSMGJPQ0NLX0pSZlFLa3JLMGw5Zk90SU82dHBWZUVXdk5Fc3VJMVh6d2d5TGE1RGx1QTlqaGxJMmhoaVBOMFM4eWxxNm9LRTdXQW1UNGZqcmdRUnBB?oc=5",
-      "desc": "",
-      "source": "Google新聞"
-    },
-    {
-      "title": "嘉義科學168暑假登場　44關卡、116場科普教室等你玩 - 聯合新聞網",
-      "date": "Wed, 08 Jul 2026",
-      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE56amVzV3M4THZBdFdUZlVYWC1fVmd6YzluQ0FrdHFta3V3V051SG9IbG5wSmhJZnhKYzJja0VLMWxKMHJ4V1BYNTJlWjJUME5t0gFWQVVfeXFMUGY4d1JWenpCQkJHMTcxcExLM2xTUzRmc2RvXy1saXE0WG5TZXpLbE1uSWZLYm1YcEdUZXhPbXFHeXFTS3NVMl9XbGVMcVNxR2l3Rm5TelE?oc=5",
-      "desc": "",
-      "source": "Google新聞"
-    },
-    {
-      "title": "嘉義市政府第1250次市務會議紀錄 - chiayi.gov.tw",
-      "date": "Sat, 04 Jul 2026",
-      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5UWmxWTE5QY213WThGSUVyLXFzMThESlFlcmVjUlFucWFMMEZmQmM5Wl9PSFY0cFZCcHlDeDhvOEQ2VjAyTG1KQ2M4Um5RdUhVaHcySmluYVhTeUdCZmY4Wk1HNHZzVWZHeHc?oc=5",
-      "desc": "",
-      "source": "Google新聞"
-    },
-    {
-      "title": "嘉義市科學168教育博覽會7/17登場 44項闖關、116場科普體驗打造暑假科學盛宴 - 蕃新聞",
-      "date": "Wed, 08 Jul 2026",
-      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9fTFhiUnV2WE4wSXNfV3VpbHM4czU0U21hT1BLY2VxUDdxZktfdERqYW50SWdOenhsNEhMUlNLLThKUnJWcVAwbEVUTDJJQ1drMHc?oc=5",
       "desc": "",
       "source": "Google新聞"
     }
@@ -253,7 +253,7 @@
       "lat": 23.481634,
       "lng": 120.453745,
       "total": 45,
-      "available": 5,
+      "available": 15,
       "addr": "中山路199號(對面)"
     },
     {
@@ -271,7 +271,7 @@
       "lat": 23.482663,
       "lng": 120.462988,
       "total": 25,
-      "available": 9,
+      "available": 5,
       "addr": "中山路2號(前)"
     },
     {
@@ -280,7 +280,7 @@
       "lat": 23.478707,
       "lng": 120.462594,
       "total": 38,
-      "available": 11,
+      "available": 6,
       "addr": "啟明路122號(前)"
     },
     {
@@ -298,7 +298,7 @@
       "lat": 23.4798596,
       "lng": 120.4488291,
       "total": 20,
-      "available": 5,
+      "available": 7,
       "addr": "中山路306號"
     },
     {
@@ -307,7 +307,7 @@
       "lat": 23.47963,
       "lng": 120.44583,
       "total": 20,
-      "available": 8,
+      "available": 6,
       "addr": "中山路386號"
     },
     {
@@ -316,7 +316,7 @@
       "lat": 23.47917,
       "lng": 120.44186,
       "total": 99,
-      "available": 93,
+      "available": 80,
       "addr": "中山路524號"
     },
     {
@@ -325,7 +325,7 @@
       "lat": 23.47877,
       "lng": 120.44089,
       "total": 42,
-      "available": 10,
+      "available": 38,
       "addr": "中山路528號"
     },
     {
@@ -334,7 +334,7 @@
       "lat": 23.47283,
       "lng": 120.44029,
       "total": 5,
-      "available": 0,
+      "available": 1,
       "addr": "垂楊路575號"
     },
     {
@@ -343,7 +343,7 @@
       "lat": 23.47336,
       "lng": 120.44604,
       "total": 14,
-      "available": 8,
+      "available": 9,
       "addr": "垂楊路351號"
     },
     {
@@ -352,7 +352,7 @@
       "lat": 23.4738724,
       "lng": 120.4493073,
       "total": 20,
-      "available": 1,
+      "available": 9,
       "addr": "垂楊路434號"
     },
     {
@@ -361,7 +361,7 @@
       "lat": 23.47918,
       "lng": 120.43182,
       "total": 15,
-      "available": 7,
+      "available": 8,
       "addr": "北港路278號"
     },
     {
@@ -379,7 +379,7 @@
       "lat": 23.48091,
       "lng": 120.43012,
       "total": 20,
-      "available": 8,
+      "available": 6,
       "addr": "北港路312號東側"
     },
     {
@@ -388,7 +388,7 @@
       "lat": 23.48465,
       "lng": 120.43354,
       "total": 14,
-      "available": 8,
+      "available": 4,
       "addr": "友愛興達路口"
     },
     {
@@ -397,7 +397,7 @@
       "lat": 23.48931,
       "lng": 120.4361,
       "total": 15,
-      "available": 5,
+      "available": 8,
       "addr": "自由路298號"
     },
     {
@@ -415,7 +415,7 @@
       "lat": 23.478941,
       "lng": 120.437805,
       "total": 23,
-      "available": 4,
+      "available": 6,
       "addr": "博愛路二段281號"
     },
     {
@@ -424,10 +424,10 @@
       "lat": 23.47165,
       "lng": 120.43119,
       "total": 15,
-      "available": 1,
+      "available": 3,
       "addr": "博愛路二段461號"
     }
   ],
   "water": [],
-  "fetch_seconds": 96.4
+  "fetch_seconds": 87.0
 }
