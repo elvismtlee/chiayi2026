@@ -1,6 +1,27 @@
 {
-  "updated_at": "2026-07-08T02:19:12.769268",
+  "updated_at": "2026-07-08T08:26:23.513092",
   "news": [
+    {
+      "headline": "嘉義市115年模範父親暨身心障礙者家庭模範父親代表評選結果出爐",
+      "source": "嘉義市政府",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=945160",
+      "date": "2026/07/08",
+      "query": "市府新聞"
+    },
+    {
+      "headline": "颱風來臨前，做好準備最安心",
+      "source": "嘉義市政府/地政處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=945151",
+      "date": "2026/07/08",
+      "query": "市府新聞"
+    },
+    {
+      "headline": "科學168承載城市教育夢黃敏惠市長揪大小朋友7/17起同樂玩科學",
+      "source": "嘉義市政府/教育處/觀光新聞處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=945149",
+      "date": "2026/07/08",
+      "query": "市府新聞"
+    },
     {
       "headline": "守護市容兼防疫！民族里志工揮汗開掃、共造無蚊嘉園",
       "source": "嘉義市政府/嘉義市政府環境保護局/清潔隊",
@@ -61,27 +82,6 @@
       "headline": "中聯大豆沙拉油BaP超標嘉義市啟動分層風險管理督促業者6日午夜前完成預防性下架",
       "source": "嘉義市政府/衛生局",
       "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=944797",
-      "date": "2026/07/06",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "打造堅實民防嘉義市召訓400名役男培育防災士",
-      "source": "嘉義市政府/消防局/觀光新聞處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=944795",
-      "date": "2026/07/06",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "「諸羅搖滾」音樂創作工作坊結訓33位青年創作者展現原創實力",
-      "source": "嘉義市政府/文化局/觀光新聞處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=944738",
-      "date": "2026/07/06",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "「全國聯防毒駕!嘉市警再攜手保五(7/4周六夜)雷霆出擊封閉式路檢斷毒路」",
-      "source": "嘉義市政府/警察局",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=944734",
       "date": "2026/07/06",
       "query": "市府新聞"
     }
@@ -202,7 +202,7 @@
       "2012": 1,
       "2013": 1
     },
-    "updated_at": "2026-07-08T02:16:33.072448",
+    "updated_at": "2026-07-08T08:23:50.413447",
     "source": "data.chiayi.gov.tw"
   },
   "council": {
@@ -236,6 +236,48 @@
   },
   "citizen_stats": {},
   "social_posts": [
+    {
+      "id": "ptt-httpswwwpttccbbsChiayiM1783491762AE70html",
+      "platform": "PTT",
+      "platform_color": "#00b300",
+      "board": "Chiayi",
+      "date": "07/08",
+      "author": "PTT 鄉民",
+      "title": "[買賣] 國小直排輪",
+      "url": "https://www.ptt.cc/bbs/Chiayi/M.1783491762.A.E70.html",
+      "reactions": 0,
+      "comments": 0,
+      "category": "市政議題",
+      "source": "ptt"
+    },
+    {
+      "id": "ptt-httpswwwpttccbbsChiayiM1783491175A6F6html",
+      "platform": "PTT",
+      "platform_color": "#00b300",
+      "board": "Chiayi",
+      "date": "07/08",
+      "author": "PTT 鄉民",
+      "title": "[問題] 新悅跟福容 烤鴨選哪個？",
+      "url": "https://www.ptt.cc/bbs/Chiayi/M.1783491175.A.6F6.html",
+      "reactions": 0,
+      "comments": 0,
+      "category": "市政議題",
+      "source": "ptt"
+    },
+    {
+      "id": "ptt-httpswwwpttccbbsChiayiM1783482871AECFhtml",
+      "platform": "PTT",
+      "platform_color": "#00b300",
+      "board": "Chiayi",
+      "date": "07/08",
+      "author": "PTT 鄉民",
+      "title": "[問題] 尋找短租房源（1個月）",
+      "url": "https://www.ptt.cc/bbs/Chiayi/M.1783482871.A.ECF.html",
+      "reactions": 0,
+      "comments": 0,
+      "category": "市政議題",
+      "source": "ptt"
+    },
     {
       "id": "ptt-httpswwwpttccbbsChiayiM1783398062A842html",
       "platform": "PTT",
@@ -353,55 +395,13 @@
       "platform": "PTT",
       "platform_color": "#00b300",
       "board": "Chiayi",
-      "date": "07/06",
+      "date": "07/08",
       "author": "PTT 鄉民",
       "title": "Re: [新聞] 鄭麗文下動員令「100%團結支持」張啓楷 黃敏惠贈國旗挺",
       "url": "https://www.ptt.cc/bbs/Chiayi/M.1783216966.A.04B.html",
       "reactions": 0,
       "comments": 0,
       "category": "市政議題",
-      "source": "ptt"
-    },
-    {
-      "id": "ptt-httpswwwpttccbbsChiayiM1783182055AF83html",
-      "platform": "PTT",
-      "platform_color": "#00b300",
-      "board": "Chiayi",
-      "date": "07/05",
-      "author": "PTT 鄉民",
-      "title": "[買賣] 全家咖啡 衛生紙 吐司",
-      "url": "https://www.ptt.cc/bbs/Chiayi/M.1783182055.A.F83.html",
-      "reactions": 0,
-      "comments": 0,
-      "category": "市政議題",
-      "source": "ptt"
-    },
-    {
-      "id": "ptt-httpswwwpttccbbsChiayiM1783150599A3A5html",
-      "platform": "PTT",
-      "platform_color": "#00b300",
-      "board": "Chiayi",
-      "date": "07/06",
-      "author": "PTT 鄉民",
-      "title": "[新聞] 鄭麗文下動員令「100%團結支持」張啓楷 黃敏惠贈國旗挺接棒",
-      "url": "https://www.ptt.cc/bbs/Chiayi/M.1783150599.A.3A5.html",
-      "reactions": 0,
-      "comments": 0,
-      "category": "市政議題",
-      "source": "ptt"
-    },
-    {
-      "id": "ptt-httpswwwpttccbbsChiayiM1783081910A2A7html",
-      "platform": "PTT",
-      "platform_color": "#00b300",
-      "board": "Chiayi",
-      "date": "07/03",
-      "author": "PTT 鄉民",
-      "title": "[廣告]7/5爸爸自然園藝工作坊暨兒童故事手作坊",
-      "url": "https://www.ptt.cc/bbs/Chiayi/M.1783081910.A.2A7.html",
-      "reactions": 0,
-      "comments": 0,
-      "category": "通學安全",
       "source": "ptt"
     }
   ]
