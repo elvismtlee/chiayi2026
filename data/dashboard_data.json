@@ -1,10 +1,17 @@
 {
-  "updated_at": "2026-07-08T08:26:23.513092",
+  "updated_at": "2026-07-08T13:54:55.420102",
   "news": [
     {
       "headline": "嘉義市115年模範父親暨身心障礙者家庭模範父親代表評選結果出爐",
       "source": "嘉義市政府",
       "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=945160",
+      "date": "2026/07/08",
+      "query": "市府新聞"
+    },
+    {
+      "headline": "強颱巴威來勢洶洶嘉義市政府全面強化防汛整備全力守護市民安全",
+      "source": "嘉義市政府/工務處/觀光新聞處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=945181",
       "date": "2026/07/08",
       "query": "市府新聞"
     },
@@ -76,13 +83,6 @@
       "source": "嘉義市政府/環境保護局/觀光新聞處",
       "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=944970",
       "date": "2026/07/07",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "中聯大豆沙拉油BaP超標嘉義市啟動分層風險管理督促業者6日午夜前完成預防性下架",
-      "source": "嘉義市政府/衛生局",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=944797",
-      "date": "2026/07/06",
       "query": "市府新聞"
     }
   ],
@@ -202,7 +202,7 @@
       "2012": 1,
       "2013": 1
     },
-    "updated_at": "2026-07-08T08:23:50.413447",
+    "updated_at": "2026-07-08T13:52:28.071041",
     "source": "data.chiayi.gov.tw"
   },
   "council": {
