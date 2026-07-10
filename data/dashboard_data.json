@@ -1,6 +1,55 @@
 {
-  "updated_at": "2026-07-10T02:43:16.649908",
+  "updated_at": "2026-07-10T09:34:01.264051",
   "news": [
+    {
+      "headline": "因颱風受有災害損失記得拍照存證申請租稅減免",
+      "source": "嘉義市政府/財政稅務局",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=945468",
+      "date": "2026/07/10",
+      "query": "市府新聞"
+    },
+    {
+      "headline": "嘉義福容voco酒店榮獲金級環保標章綠色旅宿再添新亮點",
+      "source": "嘉義市政府/嘉義市政府環境保護局/綜合計畫科",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=945457",
+      "date": "2026/07/10",
+      "query": "市府新聞"
+    },
+    {
+      "headline": "因應極端氣候嘉義國中風雨球場動土打造全天候運動空間",
+      "source": "嘉義市政府/教育處/觀光新聞處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=945453",
+      "date": "2026/07/10",
+      "query": "市府新聞"
+    },
+    {
+      "headline": "因應巴威颱風來襲，本市三處水防道路（周圍）之停車格位禁止車輛進入暨暫停路邊停車收費事宜。",
+      "source": "嘉義市政府/交通處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=945441",
+      "date": "2026/07/10",
+      "query": "市府新聞"
+    },
+    {
+      "headline": "嘉市府啟動意願調查小澎湖第一場公辦都市更新說明會舉行",
+      "source": "嘉義市政府/都市發展處/觀光新聞處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=945440",
+      "date": "2026/07/10",
+      "query": "市府新聞"
+    },
+    {
+      "headline": "巴威颱風來襲請民眾雨後清理家園落實防疫三步驟如有身體不適請儘速就醫",
+      "source": "嘉義市政府/衛生局/觀光新聞處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=945430",
+      "date": "2026/07/10",
+      "query": "市府新聞"
+    },
+    {
+      "headline": "強烈颱風巴威來勢洶洶黃敏惠市長：超前部署整備全力守護市民安全",
+      "source": "嘉義市政府/消防局/觀光新聞處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=945427",
+      "date": "2026/07/10",
+      "query": "市府新聞"
+    },
     {
       "headline": "世界盃熱潮來襲地政處提醒：看球也要防詐守護補償權益與財產安全",
       "source": "嘉義市政府/地政處/地用及重劃科",
@@ -17,7 +66,7 @@
     },
     {
       "headline": "因應強颱巴威來襲嘉義市政府各局處活動期程異動",
-      "source": "嘉義市政府/社會處/勞工及青年發展處/民政處/文化局/觀光新聞處",
+      "source": "嘉義市政府/社會處/勞工及青年發展處/民政處/文化局/衛生局/觀光新聞處",
       "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=945283",
       "date": "2026/07/09",
       "query": "市府新聞"
@@ -34,55 +83,6 @@
       "source": "嘉義市政府",
       "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=945160",
       "date": "2026/07/08",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "強颱巴威來勢洶洶嘉義市政府全面強化防汛整備全力守護市民安全",
-      "source": "嘉義市政府/工務處/觀光新聞處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=945181",
-      "date": "2026/07/08",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "颱風來臨前，做好準備最安心",
-      "source": "嘉義市政府/地政處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=945151",
-      "date": "2026/07/08",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "科學168承載城市教育夢黃敏惠市長揪大小朋友7/17起同樂玩科學",
-      "source": "嘉義市政府/教育處/觀光新聞處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=945149",
-      "date": "2026/07/08",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "守護市容兼防疫！民族里志工揮汗開掃、共造無蚊嘉園",
-      "source": "嘉義市政府/嘉義市政府環境保護局/清潔隊",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=945002",
-      "date": "2026/07/08",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "婦幼安全行動策略出招－性騷out健康in解鎖防身密技嘉市警攜手東區國民運動中心辦理性騷擾防治講座暨防身術體驗活動公私協力提升婦幼安全防護",
-      "source": "嘉義市政府/警察局",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=945052",
-      "date": "2026/07/07",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "嘉義市環保局邀您一起自備減塑3寶享優惠",
-      "source": "嘉義市政府/嘉義市政府環境保護局/資源循環管理科",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=945041",
-      "date": "2026/07/07",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "桃城創意領航培育未來領袖嘉市國小創意領袖培力營登場",
-      "source": "嘉義市政府/教育處/觀光新聞處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=945011",
-      "date": "2026/07/07",
       "query": "市府新聞"
     }
   ],
@@ -202,7 +202,7 @@
       "2012": 1,
       "2013": 1
     },
-    "updated_at": "2026-07-10T02:38:27.510838",
+    "updated_at": "2026-07-10T09:30:41.080067",
     "source": "data.chiayi.gov.tw"
   },
   "council": {
@@ -241,7 +241,7 @@
       "platform": "PTT",
       "platform_color": "#00b300",
       "board": "Chiayi",
-      "date": "07/09",
+      "date": "07/10",
       "author": "PTT 鄉民",
       "title": "[問題] 嘉義市室內月租停車",
       "url": "https://www.ptt.cc/bbs/Chiayi/M.1783599314.A.D34.html",
@@ -297,7 +297,7 @@
       "platform": "PTT",
       "platform_color": "#00b300",
       "board": "Chiayi",
-      "date": "07/09",
+      "date": "07/10",
       "author": "PTT 鄉民",
       "title": "[問題] 尋找願意教小孩魔術方塊的版友",
       "url": "https://www.ptt.cc/bbs/Chiayi/M.1783390735.A.716.html",
