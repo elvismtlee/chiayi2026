@@ -1,6 +1,27 @@
 {
-  "updated_at": "2026-07-10T09:34:01.264051",
+  "updated_at": "2026-07-10T14:16:33.782415",
   "news": [
+    {
+      "headline": "【因應颱風來襲嘉義市區公共運輸最新消息】",
+      "source": "嘉義市政府/交通處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=945492",
+      "date": "2026/07/10",
+      "query": "市府新聞"
+    },
+    {
+      "headline": "嘉義市7/11（星期六）停止上班、停止上課",
+      "source": "嘉義市政府/人事處/觀光新聞處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=945490",
+      "date": "2026/07/10",
+      "query": "市府新聞"
+    },
+    {
+      "headline": "嘉市追查問題油品1,659件受影響油品完成下架",
+      "source": "嘉義市政府/衛生局",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=945488",
+      "date": "2026/07/10",
+      "query": "市府新聞"
+    },
     {
       "headline": "因颱風受有災害損失記得拍照存證申請租稅減免",
       "source": "嘉義市政府/財政稅務局",
@@ -62,27 +83,6 @@
       "source": "嘉義市政府/衛生局/觀光新聞處",
       "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=945312",
       "date": "2026/07/09",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "因應強颱巴威來襲嘉義市政府各局處活動期程異動",
-      "source": "嘉義市政府/社會處/勞工及青年發展處/民政處/文化局/衛生局/觀光新聞處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=945283",
-      "date": "2026/07/09",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "嘉義市全球首創「伊鍵通AI智慧守護」一鍵串聯打造高齡照護新模式",
-      "source": "嘉義市政府/衛生局/觀光新聞處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=945256",
-      "date": "2026/07/09",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "嘉義市115年模範父親暨身心障礙者家庭模範父親代表評選結果出爐",
-      "source": "嘉義市政府",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=945160",
-      "date": "2026/07/08",
       "query": "市府新聞"
     }
   ],
@@ -202,7 +202,7 @@
       "2012": 1,
       "2013": 1
     },
-    "updated_at": "2026-07-10T09:30:41.080067",
+    "updated_at": "2026-07-10T14:14:56.225485",
     "source": "data.chiayi.gov.tw"
   },
   "council": {
