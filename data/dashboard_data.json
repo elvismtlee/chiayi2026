@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-10T14:16:33.782415",
+  "updated_at": "2026-07-10T19:29:28.166536",
   "news": [
     {
       "headline": "【因應颱風來襲嘉義市區公共運輸最新消息】",
@@ -87,12 +87,12 @@
     }
   ],
   "complaint_stats": {
-    "total": 78803,
-    "record_count": 545,
+    "total": 78776,
+    "record_count": 518,
     "category_counts": {
       "公共安全": 37949,
       "交通停車": 7743,
-      "道路路平": 290,
+      "道路路平": 263,
       "環境衛生": 5,
       "行政服務": 6
     },
@@ -107,11 +107,11 @@
         "公有停車場": 38
       },
       "道路路平": {
-        "電信管線": 47,
-        "市府工程": 5,
-        "自來水管線": 19,
-        "道路施工": 9,
-        "電力管線": 38,
+        "電信管線": 40,
+        "自來水管線": 15,
+        "市府工程": 2,
+        "電力管線": 27,
+        "道路施工": 7,
         "橋梁設施": 172
       },
       "環境衛生": {
@@ -127,39 +127,39 @@
         "count": 12
       },
       {
-        "road": "東區太平村里新生路5",
-        "count": 4
-      },
-      {
         "road": "東區嘉義",
         "count": 4
       },
       {
         "road": "東區短竹村里彌陀路2",
-        "count": 3
-      },
-      {
-        "road": "西區湖內村里健康十街",
-        "count": 3
-      },
-      {
-        "road": "東區長竹村里大雅路二",
         "count": 2
       },
       {
-        "road": "西區光路村里民生南路",
+        "road": "西區劉厝村里大吉街2",
         "count": 2
       },
       {
-        "road": "西區頭港村里育人路5",
+        "road": "西區竹圍村里忠順二街",
         "count": 2
       },
       {
-        "road": "西區湖內村里健康一街",
+        "road": "東區興安村里順興二路",
         "count": 2
       },
       {
-        "road": "東區太平村里林森東路",
+        "road": "東區興安村里興美二路",
+        "count": 2
+      },
+      {
+        "road": "東區中山村里宣信街4",
+        "count": 2
+      },
+      {
+        "road": "親水公園",
+        "count": 2
+      },
+      {
+        "road": "蘭潭水庫三信亭附近",
         "count": 2
       }
     ],
@@ -174,7 +174,7 @@
       },
       {
         "category": "道路路平",
-        "count": 290
+        "count": 263
       },
       {
         "category": "行政服務",
@@ -197,12 +197,12 @@
       "2022": 3112,
       "2023": 3318,
       "2024": 3270,
-      "2025": 8889,
-      "2026": 2891,
+      "2025": 8884,
+      "2026": 2869,
       "2012": 1,
       "2013": 1
     },
-    "updated_at": "2026-07-10T14:14:56.225485",
+    "updated_at": "2026-07-10T19:25:40.287193",
     "source": "data.chiayi.gov.tw"
   },
   "council": {
@@ -237,11 +237,39 @@
   "citizen_stats": {},
   "social_posts": [
     {
-      "id": "ptt-httpswwwpttccbbsChiayiM1783599314AD34html",
+      "id": "ptt-httpswwwpttccbbsChiayiM1783700278A090html",
+      "platform": "PTT",
+      "platform_color": "#00b300",
+      "board": "Chiayi",
+      "date": "07/11",
+      "author": "PTT 鄉民",
+      "title": "[徵求] iPhone se3 128g 黑/紅",
+      "url": "https://www.ptt.cc/bbs/Chiayi/M.1783700278.A.090.html",
+      "reactions": 0,
+      "comments": 0,
+      "category": "市政議題",
+      "source": "ptt"
+    },
+    {
+      "id": "ptt-httpswwwpttccbbsChiayiM1783697990A326html",
       "platform": "PTT",
       "platform_color": "#00b300",
       "board": "Chiayi",
       "date": "07/10",
+      "author": "PTT 鄉民",
+      "title": "[買賣] 西堤陶板屋 麥當勞 衛生紙 資生堂 快煮壺",
+      "url": "https://www.ptt.cc/bbs/Chiayi/M.1783697990.A.326.html",
+      "reactions": 0,
+      "comments": 0,
+      "category": "市政議題",
+      "source": "ptt"
+    },
+    {
+      "id": "ptt-httpswwwpttccbbsChiayiM1783599314AD34html",
+      "platform": "PTT",
+      "platform_color": "#00b300",
+      "board": "Chiayi",
+      "date": "07/11",
       "author": "PTT 鄉民",
       "title": "[問題] 嘉義市室內月租停車",
       "url": "https://www.ptt.cc/bbs/Chiayi/M.1783599314.A.D34.html",
@@ -371,34 +399,6 @@
       "author": "PTT 鄉民",
       "title": "[交換] 雞肉飯娃娃交換",
       "url": "https://www.ptt.cc/bbs/Chiayi/M.1783227118.A.B56.html",
-      "reactions": 0,
-      "comments": 0,
-      "category": "市政議題",
-      "source": "ptt"
-    },
-    {
-      "id": "ptt-httpswwwpttccbbsChiayiM1783221159A4BDhtml",
-      "platform": "PTT",
-      "platform_color": "#00b300",
-      "board": "Chiayi",
-      "date": "07/09",
-      "author": "PTT 鄉民",
-      "title": "[新聞] 稱「嘉義輕軌」跳票！黃國昌卻點名王美惠",
-      "url": "https://www.ptt.cc/bbs/Chiayi/M.1783221159.A.4BD.html",
-      "reactions": 0,
-      "comments": 0,
-      "category": "市政議題",
-      "source": "ptt"
-    },
-    {
-      "id": "ptt-httpswwwpttccbbsChiayiM1783216966A04Bhtml",
-      "platform": "PTT",
-      "platform_color": "#00b300",
-      "board": "Chiayi",
-      "date": "07/09",
-      "author": "PTT 鄉民",
-      "title": "Re: [新聞] 鄭麗文下動員令「100%團結支持」張啓楷 黃敏惠贈國旗挺",
-      "url": "https://www.ptt.cc/bbs/Chiayi/M.1783216966.A.04B.html",
       "reactions": 0,
       "comments": 0,
       "category": "市政議題",
