@@ -1,6 +1,13 @@
 {
-  "updated_at": "2026-07-09T19:41:47.423812",
+  "updated_at": "2026-07-10T02:43:16.649908",
   "news": [
+    {
+      "headline": "世界盃熱潮來襲地政處提醒：看球也要防詐守護補償權益與財產安全",
+      "source": "嘉義市政府/地政處/地用及重劃科",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=944924",
+      "date": "2026/07/10",
+      "query": "市府新聞"
+    },
     {
       "headline": "中聯問題油品擴大預防性下架嘉市持續查核抽驗跨局處把關食安",
       "source": "嘉義市政府/衛生局/觀光新聞處",
@@ -75,13 +82,6 @@
       "headline": "桃城創意領航培育未來領袖嘉市國小創意領袖培力營登場",
       "source": "嘉義市政府/教育處/觀光新聞處",
       "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=945011",
-      "date": "2026/07/07",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "115學年度嘉義區高級中等學校免試入學（含特色招生考試）放榜錄取率99.2%",
-      "source": "嘉義市政府/教育處/觀光新聞處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=945009",
       "date": "2026/07/07",
       "query": "市府新聞"
     }
@@ -202,7 +202,7 @@
       "2012": 1,
       "2013": 1
     },
-    "updated_at": "2026-07-09T19:40:00.790754",
+    "updated_at": "2026-07-10T02:38:27.510838",
     "source": "data.chiayi.gov.tw"
   },
   "council": {
@@ -255,7 +255,7 @@
       "platform": "PTT",
       "platform_color": "#00b300",
       "board": "Chiayi",
-      "date": "07/09",
+      "date": "07/10",
       "author": "PTT 鄉民",
       "title": "[問題] 新悅跟福容 烤鴨選哪個？",
       "url": "https://www.ptt.cc/bbs/Chiayi/M.1783491175.A.6F6.html",
@@ -283,9 +283,9 @@
       "platform": "PTT",
       "platform_color": "#00b300",
       "board": "Chiayi",
-      "date": "07/07",
+      "date": "07/10",
       "author": "PTT 鄉民",
-      "title": "[買賣] 日貨360度都超美洋裝 日本cosme排行面膜",
+      "title": "[買賣] 拼圖.日cosme排行第一面膜.canmake打亮",
       "url": "https://www.ptt.cc/bbs/Chiayi/M.1783398062.A.842.html",
       "reactions": 0,
       "comments": 0,
