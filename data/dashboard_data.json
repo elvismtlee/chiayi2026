@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-11T13:12:05.558407",
+  "updated_at": "2026-07-11T18:58:08.718038",
   "news": [
     {
       "headline": "嘉義市7/12（星期日）照常上班、照常上課",
@@ -87,12 +87,12 @@
     }
   ],
   "complaint_stats": {
-    "total": 78776,
-    "record_count": 518,
+    "total": 78711,
+    "record_count": 453,
     "category_counts": {
       "公共安全": 37949,
       "交通停車": 7743,
-      "道路路平": 263,
+      "道路路平": 198,
       "環境衛生": 5,
       "行政服務": 6
     },
@@ -107,11 +107,10 @@
         "公有停車場": 38
       },
       "道路路平": {
-        "電信管線": 40,
-        "自來水管線": 15,
-        "市府工程": 2,
-        "電力管線": 27,
-        "道路施工": 7,
+        "自來水管線": 5,
+        "電信管線": 11,
+        "道路施工": 4,
+        "電力管線": 6,
         "橋梁設施": 172
       },
       "環境衛生": {
@@ -131,26 +130,6 @@
         "count": 4
       },
       {
-        "road": "東區短竹村里彌陀路2",
-        "count": 2
-      },
-      {
-        "road": "西區劉厝村里大吉街2",
-        "count": 2
-      },
-      {
-        "road": "西區竹圍村里忠順二街",
-        "count": 2
-      },
-      {
-        "road": "東區興安村里順興二路",
-        "count": 2
-      },
-      {
-        "road": "東區興安村里興美二路",
-        "count": 2
-      },
-      {
         "road": "東區中山村里宣信街4",
         "count": 2
       },
@@ -161,6 +140,26 @@
       {
         "road": "蘭潭水庫三信亭附近",
         "count": 2
+      },
+      {
+        "road": "嘉義市中山路199號",
+        "count": 2
+      },
+      {
+        "road": "嘉義市山仔頂249-",
+        "count": 2
+      },
+      {
+        "road": "西區劉厝村里大利街1",
+        "count": 1
+      },
+      {
+        "road": "西區湖內村里民生南路",
+        "count": 1
+      },
+      {
+        "road": "東區文雅村里文雅街2",
+        "count": 1
       }
     ],
     "top_categories": [
@@ -174,7 +173,7 @@
       },
       {
         "category": "道路路平",
-        "count": 263
+        "count": 198
       },
       {
         "category": "行政服務",
@@ -197,12 +196,12 @@
       "2022": 3112,
       "2023": 3318,
       "2024": 3270,
-      "2025": 8884,
-      "2026": 2869,
+      "2025": 8876,
+      "2026": 2812,
       "2012": 1,
       "2013": 1
     },
-    "updated_at": "2026-07-11T13:10:19.998723",
+    "updated_at": "2026-07-11T18:56:27.174494",
     "source": "data.chiayi.gov.tw"
   },
   "council": {
@@ -237,171 +236,171 @@
   "citizen_stats": {},
   "social_posts": [
     {
-      "id": "ptt-bbsGossipingM1780502148A0E4html",
+      "id": "ptt-httpswwwpttccbbsChiayiM1783783710A204html",
       "platform": "PTT",
       "platform_color": "#00b300",
-      "board": "Gossiping",
-      "date": "6/03",
+      "board": "Chiayi",
+      "date": "07/11",
       "author": "PTT 鄉民",
-      "title": "[新聞] 黃敏惠蟬聯「五星市長」 感謝嘉義市民肯",
-      "url": "https://www.ptt.cc/bbs/Gossiping/M.1780502148.A.0E4.html",
-      "reactions": 1,
-      "comments": 0,
-      "category": "市政議題",
-      "source": "ptt"
-    },
-    {
-      "id": "ptt-bbsGossipingM1780361959A51Fhtml",
-      "platform": "PTT",
-      "platform_color": "#00b300",
-      "board": "Gossiping",
-      "date": "6/02",
-      "author": "PTT 鄉民",
-      "title": "Re: [新聞] 不忍了！嘉義市5毒駕「姓名、照片」",
-      "url": "https://www.ptt.cc/bbs/Gossiping/M.1780361959.A.51F.html",
-      "reactions": 2,
-      "comments": 0,
-      "category": "市政議題",
-      "source": "ptt"
-    },
-    {
-      "id": "ptt-bbsGossipingM1780355389A98Fhtml",
-      "platform": "PTT",
-      "platform_color": "#00b300",
-      "board": "Gossiping",
-      "date": "6/02",
-      "author": "PTT 鄉民",
-      "title": "[新聞] 不忍了！嘉義市5毒駕「姓名、照片」全公",
-      "url": "https://www.ptt.cc/bbs/Gossiping/M.1780355389.A.98F.html",
-      "reactions": 37,
-      "comments": 0,
-      "category": "市政議題",
-      "source": "ptt"
-    },
-    {
-      "id": "ptt-bbsGossipingM1778584660A40Fhtml",
-      "platform": "PTT",
-      "platform_color": "#00b300",
-      "board": "Gossiping",
-      "date": "5/12",
-      "author": "PTT 鄉民",
-      "title": "[新聞] 現勘未受邀嘉義市府批「割稻仔尾」 王美",
-      "url": "https://www.ptt.cc/bbs/Gossiping/M.1778584660.A.40F.html",
-      "reactions": 2,
-      "comments": 0,
-      "category": "市政議題",
-      "source": "ptt"
-    },
-    {
-      "id": "ptt-bbsGossipingM1778161410A497html",
-      "platform": "PTT",
-      "platform_color": "#00b300",
-      "board": "Gossiping",
-      "date": "5/07",
-      "author": "PTT 鄉民",
-      "title": "[新聞] 嘉義市人氣柯爾鴨遭竊 竊賊對鏡頭比YA超",
-      "url": "https://www.ptt.cc/bbs/Gossiping/M.1778161410.A.497.html",
-      "reactions": 4,
-      "comments": 0,
-      "category": "市政議題",
-      "source": "ptt"
-    },
-    {
-      "id": "ptt-bbsGossipingM1777891219A42Ahtml",
-      "platform": "PTT",
-      "platform_color": "#00b300",
-      "board": "Gossiping",
-      "date": "5/04",
-      "author": "PTT 鄉民",
-      "title": "Re: [問卦] 嘉義市才是民主典範啊 政黑好像很氣？",
-      "url": "https://www.ptt.cc/bbs/Gossiping/M.1777891219.A.42A.html",
+      "title": "[揪團] 嘉義資訊社群(Line社團)",
+      "url": "https://www.ptt.cc/bbs/Chiayi/M.1783783710.A.204.html",
       "reactions": 0,
       "comments": 0,
       "category": "市政議題",
       "source": "ptt"
     },
     {
-      "id": "ptt-bbsChiayiM1783599314AD34html",
+      "id": "ptt-httpswwwpttccbbsChiayiM1783757541A27Ahtml",
       "platform": "PTT",
       "platform_color": "#00b300",
       "board": "Chiayi",
-      "date": "7/09",
+      "date": "07/11",
+      "author": "PTT 鄉民",
+      "title": "[買賣] 快拆不銹鋼前置過濾器 等生活物品",
+      "url": "https://www.ptt.cc/bbs/Chiayi/M.1783757541.A.27A.html",
+      "reactions": 0,
+      "comments": 0,
+      "category": "市政議題",
+      "source": "ptt"
+    },
+    {
+      "id": "ptt-httpswwwpttccbbsChiayiM1783725220AFA1html",
+      "platform": "PTT",
+      "platform_color": "#00b300",
+      "board": "Chiayi",
+      "date": "07/11",
+      "author": "PTT 鄉民",
+      "title": "[買賣] 道奇球場入場禮-搖頭娃娃、球衣、冠軍戒",
+      "url": "https://www.ptt.cc/bbs/Chiayi/M.1783725220.A.FA1.html",
+      "reactions": 0,
+      "comments": 0,
+      "category": "市政議題",
+      "source": "ptt"
+    },
+    {
+      "id": "ptt-httpswwwpttccbbsChiayiM1783700278A090html",
+      "platform": "PTT",
+      "platform_color": "#00b300",
+      "board": "Chiayi",
+      "date": "07/11",
+      "author": "PTT 鄉民",
+      "title": "[徵求] iPhone se3 128g 黑/紅",
+      "url": "https://www.ptt.cc/bbs/Chiayi/M.1783700278.A.090.html",
+      "reactions": 0,
+      "comments": 0,
+      "category": "市政議題",
+      "source": "ptt"
+    },
+    {
+      "id": "ptt-httpswwwpttccbbsChiayiM1783697990A326html",
+      "platform": "PTT",
+      "platform_color": "#00b300",
+      "board": "Chiayi",
+      "date": "07/10",
+      "author": "PTT 鄉民",
+      "title": "[買賣] 西堤陶板屋 麥當勞 衛生紙 資生堂 快煮壺",
+      "url": "https://www.ptt.cc/bbs/Chiayi/M.1783697990.A.326.html",
+      "reactions": 0,
+      "comments": 0,
+      "category": "市政議題",
+      "source": "ptt"
+    },
+    {
+      "id": "ptt-httpswwwpttccbbsChiayiM1783599314AD34html",
+      "platform": "PTT",
+      "platform_color": "#00b300",
+      "board": "Chiayi",
+      "date": "07/11",
       "author": "PTT 鄉民",
       "title": "[問題] 嘉義市室內月租停車",
       "url": "https://www.ptt.cc/bbs/Chiayi/M.1783599314.A.D34.html",
-      "reactions": 2,
+      "reactions": 0,
       "comments": 0,
       "category": "交通停車",
       "source": "ptt"
     },
     {
-      "id": "ptt-bbsChiayiM1783336042A08Chtml",
+      "id": "ptt-httpswwwpttccbbsChiayiM1783491175A6F6html",
       "platform": "PTT",
       "platform_color": "#00b300",
       "board": "Chiayi",
-      "date": "7/06",
+      "date": "07/10",
       "author": "PTT 鄉民",
-      "title": "[新聞] 挽袖捐血！嘉義市議會送禮券 他克服「",
-      "url": "https://www.ptt.cc/bbs/Chiayi/M.1783336042.A.08C.html",
-      "reactions": 5,
-      "comments": 0,
-      "category": "市政議題",
-      "source": "ptt"
-    },
-    {
-      "id": "ptt-bbsChiayiM1783221159A4BDhtml",
-      "platform": "PTT",
-      "platform_color": "#00b300",
-      "board": "Chiayi",
-      "date": "7/05",
-      "author": "PTT 鄉民",
-      "title": "[新聞] 稱「嘉義輕軌」跳票！黃國昌卻點名王美惠",
-      "url": "https://www.ptt.cc/bbs/Chiayi/M.1783221159.A.4BD.html",
-      "reactions": 6,
-      "comments": 0,
-      "category": "市政議題",
-      "source": "ptt"
-    },
-    {
-      "id": "ptt-bbsChiayiM1782902384A833html",
-      "platform": "PTT",
-      "platform_color": "#00b300",
-      "board": "Chiayi",
-      "date": "7/01",
-      "author": "PTT 鄉民",
-      "title": "[問題] 有沒有嘉義縣學校行事曆八卦？",
-      "url": "https://www.ptt.cc/bbs/Chiayi/M.1782902384.A.833.html",
-      "reactions": 1,
-      "comments": 0,
-      "category": "通學安全",
-      "source": "ptt"
-    },
-    {
-      "id": "ptt-bbsChiayiM1782713150AF48html",
-      "platform": "PTT",
-      "platform_color": "#00b300",
-      "board": "Chiayi",
-      "date": "6/29",
-      "author": "PTT 鄉民",
-      "title": "Fw: [情報] 6月29日起 嘉義縣YouBike新增13個站點",
-      "url": "https://www.ptt.cc/bbs/Chiayi/M.1782713150.A.F48.html",
+      "title": "[問題] 新悅跟福容 烤鴨選哪個？",
+      "url": "https://www.ptt.cc/bbs/Chiayi/M.1783491175.A.6F6.html",
       "reactions": 0,
       "comments": 0,
       "category": "市政議題",
       "source": "ptt"
     },
     {
-      "id": "ptt-bbsChiayiM1781442444AF07html",
+      "id": "ptt-httpswwwpttccbbsChiayiM1783482871AECFhtml",
       "platform": "PTT",
       "platform_color": "#00b300",
       "board": "Chiayi",
-      "date": "6/14",
+      "date": "07/10",
       "author": "PTT 鄉民",
-      "title": "[問題] BRT嘉義公園出發",
-      "url": "https://www.ptt.cc/bbs/Chiayi/M.1781442444.A.F07.html",
-      "reactions": 3,
+      "title": "[問題] 尋找短租房源（1個月）",
+      "url": "https://www.ptt.cc/bbs/Chiayi/M.1783482871.A.ECF.html",
+      "reactions": 0,
       "comments": 0,
-      "category": "公園綠地",
+      "category": "市政議題",
+      "source": "ptt"
+    },
+    {
+      "id": "ptt-httpswwwpttccbbsChiayiM1783398062A842html",
+      "platform": "PTT",
+      "platform_color": "#00b300",
+      "board": "Chiayi",
+      "date": "07/10",
+      "author": "PTT 鄉民",
+      "title": "[買賣] 拼圖.日cosme排行第一面膜.canmake打亮",
+      "url": "https://www.ptt.cc/bbs/Chiayi/M.1783398062.A.842.html",
+      "reactions": 0,
+      "comments": 0,
+      "category": "市政議題",
+      "source": "ptt"
+    },
+    {
+      "id": "ptt-httpswwwpttccbbsChiayiM1783390735A716html",
+      "platform": "PTT",
+      "platform_color": "#00b300",
+      "board": "Chiayi",
+      "date": "07/10",
+      "author": "PTT 鄉民",
+      "title": "[問題] 尋找願意教小孩魔術方塊的版友",
+      "url": "https://www.ptt.cc/bbs/Chiayi/M.1783390735.A.716.html",
+      "reactions": 0,
+      "comments": 0,
+      "category": "市政議題",
+      "source": "ptt"
+    },
+    {
+      "id": "ptt-httpswwwpttccbbsChiayiM1783336042A08Chtml",
+      "platform": "PTT",
+      "platform_color": "#00b300",
+      "board": "Chiayi",
+      "date": "07/09",
+      "author": "PTT 鄉民",
+      "title": "[新聞] 挽袖捐血！嘉義市議會送禮券 他克服「",
+      "url": "https://www.ptt.cc/bbs/Chiayi/M.1783336042.A.08C.html",
+      "reactions": 0,
+      "comments": 0,
+      "category": "市政議題",
+      "source": "ptt"
+    },
+    {
+      "id": "ptt-httpswwwpttccbbsChiayiM1783319122A0ABhtml",
+      "platform": "PTT",
+      "platform_color": "#00b300",
+      "board": "Chiayi",
+      "date": "07/06",
+      "author": "PTT 鄉民",
+      "title": "[誠徵] 徵二手洗衣機",
+      "url": "https://www.ptt.cc/bbs/Chiayi/M.1783319122.A.0AB.html",
+      "reactions": 0,
+      "comments": 0,
+      "category": "市政議題",
       "source": "ptt"
     }
   ]
