@@ -1,16 +1,16 @@
 {
-  "updated_at": "2026-07-10T19:27:30.755823",
+  "updated_at": "2026-07-11T02:15:14.802916",
   "aqi_realtime": [
     {
       "station": "嘉義市（Open-Meteo 模型）",
-      "aqi": 4,
-      "pm25": 3.0,
-      "pm10": 4.1,
-      "o3": 50.0,
-      "no2": 6.7,
+      "aqi": 6,
+      "pm25": 4.4,
+      "pm10": 5.6,
+      "o3": 40.0,
+      "no2": 13.7,
       "status": "良好",
       "pollutant": "PM2.5",
-      "time": "2026-07-11T03:00",
+      "time": "2026-07-11T10:00",
       "source": "Open-Meteo"
     }
   ],
@@ -27,15 +27,15 @@
   "weather": [
     {
       "station": "嘉義市（Open-Meteo）",
-      "temp": "25.5",
-      "apparent_temp": "28.0",
-      "humidity": "92",
-      "rainfall": "0.1",
-      "wind_speed": "24.9",
-      "wind_dir": "350",
+      "temp": "25.4",
+      "apparent_temp": "28.4",
+      "humidity": "96",
+      "rainfall": "1.4",
+      "wind_speed": "24.2",
+      "wind_dir": "321",
       "cloud": "100",
-      "weather": "毛雨",
-      "time": "2026-07-11 03:15",
+      "weather": "雷雨",
+      "time": "2026-07-11 10:15",
       "source": "Open-Meteo"
     }
   ],
@@ -48,9 +48,9 @@
       "source": "Google新聞"
     },
     {
-      "title": "嘉義市明天停班停課 - 聯合新聞網",
-      "date": "Fri, 10 Jul 2026",
-      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBSNXA4Unl2Y3owZnpZam9TZlZJalZiRnhKY25IS2pTVkM3R0ZsV05ZckpLWmJDTEcxWG16Nm84ZFlDREhUOFhFaU94QUpoNmZM0gFWQVVfeXFMTzF2aTkyOUxsdk9keXFQR1E5SGYxZFZaWWY2QTJIRFVUT2Y2bEVBTjl2dDltTFBYeDVIaWJlUjFmNzNPblZtUG5ieVozeFZfR2s2VlRqVUE?oc=5",
+      "title": "中颱巴威來襲嘉義沿海陣風最大10級 風雨白天劇烈山區防豪雨 - 聯合新聞網",
+      "date": "Sat, 11 Jul 2026",
+      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE04cTlxaXhoM1ZReDVxUUVzb1JTYzJRXzBLdng2ejIxYXhyNXdNakZ2UERfZVB1X3BZR3JZaXp2ajZOaGlwOUptYWwxVU4zTXI4ekhJ0gFYQVVfeXFMTkJWRzV1eXdsMjFJV2piUWNUYTZTLTVVbXd5dWJGcll1Q3p6M1NaYjBrRzhUbTlfSDFhWnd0bDdEeW5qWjNJRERGZWx5bUs4U2FCWXNkbHpMcQ?oc=5",
       "desc": "",
       "source": "Google新聞"
     },
@@ -62,13 +62,6 @@
       "source": "Google新聞"
     },
     {
-      "title": "嘉義市明停班課 - 自由時報",
-      "date": "Fri, 10 Jul 2026",
-      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5Kd0I3Y09KNHdBQW9obDRqMktzdWxhQUE4ekxjRFhZdEd3bVpuVlc1Q243WXNaZEJBMFVPa2U1aVhMUmlNLWI4YVdVV0VEMk9jZ1NRS253Ym1IMXZsbEFMYVN5aULSAWpBVV95cUxNOFZ2QldfLWVrQVB5dDdieWh2NndvLUM3czB1R3ZsX1RXUmJuTDc2SXFHR3UzZ2xTQVJXbWsyOWVjTmZ6S256OHpBMGJUTkVHQmJnYkFFOUJnMm9PaEZKektKbGVScW05Umln?oc=5",
-      "desc": "",
-      "source": "Google新聞"
-    },
-    {
       "title": "強颱巴威來勢洶洶 嘉義市政府全面強化防汛整備 守護市民安全 - 中央社 CNA",
       "date": "Wed, 08 Jul 2026",
       "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1ZN25tLXVwbGN2cG0xejlGTUVjTms0T0FMeWtHSG1EZlctbDlsNmxmaVBvWTktOXlRa2M5NXFYd1FKRVJwMmJTT2sxV2VQNk5va0huWGln?oc=5",
@@ -76,9 +69,16 @@
       "source": "Google新聞"
     },
     {
-      "title": "嘉義市全面戒備巴威颱風 黃敏惠：最高警戒守護市民安全 - Yahoo新聞",
+      "title": "嘉義市明停班課 - 自由時報",
       "date": "Fri, 10 Jul 2026",
-      "link": "https://news.google.com/rss/articles/CBMi9gJBVV95cUxPbGpkVmpkYUlzeHJfTVdYbW92UkNmVXlXVHEyZWF0ajZIN0JWd3UwWUtpa3pJdXR2WTM0Vl9oaUFKVUttVzc3QkU5T3NybzhvSXR5Y25LU2tST3RZdVdlTTFsNnpYTmdzaEJRUFQyQUNTeGxtVkhXc2ozNlFNeGdzTHZnT0hBNjhWSUh0ZDd2dENsWHhUaTBaQ2Z6c0lIRmJtek96NXF2VHQwZHJIQXRIdUVsWVJUbUcwN2J2X01YaXcyZG5xUnNCRTRzVFYyTkFLWGZ6QWlSN0ltSlpFZDFZZUtwaGI4UjhYYmR1clRRWjZzRjJRZEZCa2ROYjhET3l5TmtFTmNVRFdRZDhOVEZBVUNTMHlHaHdUd3g2RFphclFIUVdyZENiekNEdDBmQUp5ei1YbUFuSVZyZ2doZEFtY0NnMFdfSTlCR0l2N2U0SmZNWHA2dFRLZTg2OE5scXJDQ3VKazNTNWFnVlQ4eTQyY0s3S0t5Zw?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5Kd0I3Y09KNHdBQW9obDRqMktzdWxhQUE4ekxjRFhZdEd3bVpuVlc1Q243WXNaZEJBMFVPa2U1aVhMUmlNLWI4YVdVV0VEMk9jZ1NRS253Ym1IMXZsbEFMYVN5aULSAWpBVV95cUxNOFZ2QldfLWVrQVB5dDdieWh2NndvLUM3czB1R3ZsX1RXUmJuTDc2SXFHR3UzZ2xTQVJXbWsyOWVjTmZ6S256OHpBMGJUTkVHQmJnYkFFOUJnMm9PaEZKektKbGVScW05Umln?oc=5",
+      "desc": "",
+      "source": "Google新聞"
+    },
+    {
+      "title": "因應強颱巴威來襲 嘉義市政府各局處活動期程異動 - 墨新聞-MORE News",
+      "date": "Thu, 09 Jul 2026",
+      "link": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE1QeXcwZks2XzBabXYya2FjRmJqanlfMGk0VjZwV3lYZDVGdGg4a2pRVmpMcVE1UkpuVnlLUmpydHEtUQ?oc=5",
       "desc": "",
       "source": "Google新聞"
     }
@@ -92,16 +92,23 @@
       "source": "Google新聞"
     },
     {
-      "title": "嘉市府召開「長榮公園地下停車場新建統包工程」施工前里民說明會 - 中央社 CNA",
-      "date": "Tue, 09 Jun 2026",
-      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1WUzR3bFRvaHhreDFZZHdZYTc5b0VxVFhLVWxhZzd5WlhuMDJmV2RzY01hQXFVdDRSNWFFYkZwcUpYeFoxQ3dqbUdPXzV0OUdHOUVSZ01R?oc=5",
+      "title": "空拍見證城市蛻變 嘉義鐵路高架化主體成形完工通車期曝 - 聯合新聞網",
+      "date": "Wed, 17 Jun 2026",
+      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5jYUxXTF9kcUZQMGRMUlNfaV9ONWtSeTlQRmxGd2N5MkdBLUZWa0JMN2pnMlNaRXllQW16R0lRNm03Y2ZsZzA2bmJmekdBeUR30gFWQVVfeXFMTWhPMEY3SW80Q1lZeHkxcTdINzRCVGRkT0pWVkF1VTRZMGFlQjBlZnpmQVFDbHI3ak80UE1XTElnQVZVYXBQd25kN3lmdlRPWXI0YjVQb3c?oc=5",
       "org": "新聞資訊",
       "source": "Google新聞"
     },
     {
       "title": "「嘉義市污水系統第一期-分支網及用戶接管第8、9標工程」竣工典禮黃敏惠市長：城市欸靠山抵嘉 - chiayi.gov.tw",
       "date": "Wed, 21 Jan 2026",
-      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5uWjRVRG9xblBMOFQ3dmZFOXpIdXd5WEZDQ2RxN2dTdGZMOUg5UWlGX1pjZ2hhVjVkZjI0WHpvQ2FnYlRJRmdYaEU3aHdZcVpXdFc4bkZURlAxeFFyU0ktNk4xU0hEakYtTEE?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5raFM0MEJraHdKNlJPMTZUVkM2Z2ZvZ3hsREtKRjVRSWVZLWhXUkp6dlZWSWc3YWdvbTl3MFB3dlFVNmN1YVN3dGN1b2FXQ2R2TEw5ZjE1ZEppWEM2QnhuQWJYdk5HazFIZlE?oc=5",
+      "org": "新聞資訊",
+      "source": "Google新聞"
+    },
+    {
+      "title": "嘉市府召開「長榮公園地下停車場新建統包工程」施工前里民說明會 - 中央社 CNA",
+      "date": "Tue, 09 Jun 2026",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1WUzR3bFRvaHhreDFZZHdZYTc5b0VxVFhLVWxhZzd5WlhuMDJmV2RzY01hQXFVdDRSNWFFYkZwcUpYeFoxQ3dqbUdPXzV0OUdHOUVSZ01R?oc=5",
       "org": "新聞資訊",
       "source": "Google新聞"
     },
@@ -127,13 +134,6 @@
       "source": "Google新聞"
     },
     {
-      "title": "嘉義市西區全民運動館工程進度破7成5 黃敏惠視察啟用營運期曝 - 聯合新聞網",
-      "date": "Wed, 28 Jan 2026",
-      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBXM3hhN1djdmdRZXNYNUN3Tmk5SjZ4djkzb3ZWSUNET2ZkSVVSV3lrYy1OQ2t1ZHhjLUJ2djBtbk1NZVBqdVl1eUJDRDFXd1FD0gFWQVVfeXFMTmhtNFppRHZxUDhKTlBYNHlXbTR0RXVZckRjZGM0bmtnV0pJaVROdHUwN1FhX0pGWFFEd3NmcHhzUTJHS2NFU1VjUWxPRXVhaXNUUHJ6T1E?oc=5",
-      "org": "新聞資訊",
-      "source": "Google新聞"
-    },
-    {
       "title": "嘉義鐵路高架化將讓都市縫合共融 推動交通新路網建設 帶動東西區發展 - 自由時報",
       "date": "Thu, 30 Apr 2026",
       "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9ORzltT2hJU0E0OVgtX0ZhS0JVYjZjOUgwT3hWVXQzbW5XVWdqMkI5d0lHeG9nS1RNYTM5Z21TeDBBa3NIb3RnSk8zNmJOZzB5?oc=5",
@@ -144,7 +144,7 @@
   "disease": {
     "dengue": [],
     "enterovirus": [],
-    "updated": "2026-07-10"
+    "updated": "2026-07-11"
   },
   "fire": {
     "chiayi_datasets": [
@@ -422,5 +422,5 @@
     }
   ],
   "water": [],
-  "fetch_seconds": 117.4
+  "fetch_seconds": 89.1
 }

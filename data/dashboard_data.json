@@ -1,6 +1,13 @@
 {
-  "updated_at": "2026-07-10T19:29:28.166536",
+  "updated_at": "2026-07-11T02:16:43.913971",
   "news": [
+    {
+      "headline": "強化社會安全網－急難紓困實施方案",
+      "source": "嘉義市政府/西區公所",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=945447",
+      "date": "2026/07/11",
+      "query": "市府新聞"
+    },
     {
       "headline": "【因應颱風來襲嘉義市區公共運輸最新消息】",
       "source": "嘉義市政府/交通處",
@@ -76,13 +83,6 @@
       "source": "嘉義市政府/地政處/地用及重劃科",
       "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=944924",
       "date": "2026/07/10",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "中聯問題油品擴大預防性下架嘉市持續查核抽驗跨局處把關食安",
-      "source": "嘉義市政府/衛生局/觀光新聞處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=945312",
-      "date": "2026/07/09",
       "query": "市府新聞"
     }
   ],
@@ -202,7 +202,7 @@
       "2012": 1,
       "2013": 1
     },
-    "updated_at": "2026-07-10T19:25:40.287193",
+    "updated_at": "2026-07-11T02:14:16.442570",
     "source": "data.chiayi.gov.tw"
   },
   "council": {
@@ -236,6 +236,20 @@
   },
   "citizen_stats": {},
   "social_posts": [
+    {
+      "id": "ptt-httpswwwpttccbbsChiayiM1783725220AFA1html",
+      "platform": "PTT",
+      "platform_color": "#00b300",
+      "board": "Chiayi",
+      "date": "07/11",
+      "author": "PTT 鄉民",
+      "title": "[買賣] 道奇球場入場禮-搖頭娃娃、球衣、冠軍戒",
+      "url": "https://www.ptt.cc/bbs/Chiayi/M.1783725220.A.FA1.html",
+      "reactions": 0,
+      "comments": 0,
+      "category": "市政議題",
+      "source": "ptt"
+    },
     {
       "id": "ptt-httpswwwpttccbbsChiayiM1783700278A090html",
       "platform": "PTT",
@@ -385,20 +399,6 @@
       "author": "PTT 鄉民",
       "title": "[自介] LastAttack",
       "url": "https://www.ptt.cc/bbs/Chiayi/M.1783238702.A.CF6.html",
-      "reactions": 0,
-      "comments": 0,
-      "category": "市政議題",
-      "source": "ptt"
-    },
-    {
-      "id": "ptt-httpswwwpttccbbsChiayiM1783227118AB56html",
-      "platform": "PTT",
-      "platform_color": "#00b300",
-      "board": "Chiayi",
-      "date": "07/05",
-      "author": "PTT 鄉民",
-      "title": "[交換] 雞肉飯娃娃交換",
-      "url": "https://www.ptt.cc/bbs/Chiayi/M.1783227118.A.B56.html",
       "reactions": 0,
       "comments": 0,
       "category": "市政議題",
