@@ -1,6 +1,20 @@
 {
-  "updated_at": "2026-07-12T02:16:47.876505",
+  "updated_at": "2026-07-12T08:11:20.240021",
   "news": [
+    {
+      "headline": "颱風過後防疫不鬆懈！嘉義市政府籲請民眾清積水、護飲食安全慎防疾病傳播",
+      "source": "嘉義市政府/環境保護局/衛生局/觀光新聞處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=945545",
+      "date": "2026/07/12",
+      "query": "市府新聞"
+    },
+    {
+      "headline": "減塑還能省荷包！嘉義市推「減塑3寶」系列優惠活動填問卷加碼抽MacBook",
+      "source": "嘉義市政府/環境保護局/觀光新聞處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=945544",
+      "date": "2026/07/12",
+      "query": "市府新聞"
+    },
     {
       "headline": "嘉義市7/12（星期日）照常上班、照常上課",
       "source": "嘉義市政府/人事處/觀光新聞處",
@@ -68,20 +82,6 @@
       "headline": "因應巴威颱風來襲，本市三處水防道路（周圍）之停車格位禁止車輛進入暨暫停路邊停車收費事宜。",
       "source": "嘉義市政府/交通處",
       "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=945441",
-      "date": "2026/07/10",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "嘉市府啟動意願調查小澎湖第一場公辦都市更新說明會舉行",
-      "source": "嘉義市政府/都市發展處/觀光新聞處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=945440",
-      "date": "2026/07/10",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "巴威颱風來襲請民眾雨後清理家園落實防疫三步驟如有身體不適請儘速就醫",
-      "source": "嘉義市政府/衛生局/觀光新聞處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=945430",
       "date": "2026/07/10",
       "query": "市府新聞"
     }
@@ -201,7 +201,7 @@
       "2012": 1,
       "2013": 1
     },
-    "updated_at": "2026-07-12T02:15:00.327902",
+    "updated_at": "2026-07-12T08:09:30.645729",
     "source": "data.chiayi.gov.tw"
   },
   "council": {
