@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-12T13:15:43.445170",
+  "updated_at": "2026-07-12T19:02:12.123669",
   "news": [
     {
       "headline": "颱風過後防疫不鬆懈！嘉義市政府籲請民眾清積水、護飲食安全慎防疾病傳播",
@@ -201,7 +201,7 @@
       "2012": 1,
       "2013": 1
     },
-    "updated_at": "2026-07-12T13:13:49.673229",
+    "updated_at": "2026-07-12T19:00:27.252212",
     "source": "data.chiayi.gov.tw"
   },
   "council": {
@@ -235,6 +235,20 @@
   },
   "citizen_stats": {},
   "social_posts": [
+    {
+      "id": "ptt-httpswwwpttccbbsChiayiM1783864439A93Bhtml",
+      "platform": "PTT",
+      "platform_color": "#00b300",
+      "board": "Chiayi",
+      "date": "07/12",
+      "author": "PTT 鄉民",
+      "title": "[買賣] 統一數位商品禮券 面額100",
+      "url": "https://www.ptt.cc/bbs/Chiayi/M.1783864439.A.93B.html",
+      "reactions": 0,
+      "comments": 0,
+      "category": "市政議題",
+      "source": "ptt"
+    },
     {
       "id": "ptt-httpswwwpttccbbsChiayiM1783783710A204html",
       "platform": "PTT",
@@ -384,20 +398,6 @@
       "author": "PTT 鄉民",
       "title": "[新聞] 挽袖捐血！嘉義市議會送禮券 他克服「",
       "url": "https://www.ptt.cc/bbs/Chiayi/M.1783336042.A.08C.html",
-      "reactions": 0,
-      "comments": 0,
-      "category": "市政議題",
-      "source": "ptt"
-    },
-    {
-      "id": "ptt-httpswwwpttccbbsChiayiM1783319122A0ABhtml",
-      "platform": "PTT",
-      "platform_color": "#00b300",
-      "board": "Chiayi",
-      "date": "07/06",
-      "author": "PTT 鄉民",
-      "title": "[誠徵] 徵二手洗衣機",
-      "url": "https://www.ptt.cc/bbs/Chiayi/M.1783319122.A.0AB.html",
       "reactions": 0,
       "comments": 0,
       "category": "市政議題",
