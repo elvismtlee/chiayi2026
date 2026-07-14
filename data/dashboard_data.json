@@ -1,6 +1,27 @@
 {
-  "updated_at": "2026-07-14T02:08:03.759122",
+  "updated_at": "2026-07-14T07:59:02.647082",
   "news": [
+    {
+      "headline": "博愛陸橋配合鐵高施工0720至0723、0727至0728(夜間21時至翌日6時)全線封閉",
+      "source": "嘉義市政府/交通處/觀光新聞處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=945756",
+      "date": "2026/07/14",
+      "query": "市府新聞"
+    },
+    {
+      "headline": "嘉市持續加強查核問題油品7,563件受影響油品完成下架",
+      "source": "嘉義市政府/衛生局",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=945747",
+      "date": "2026/07/14",
+      "query": "市府新聞"
+    },
+    {
+      "headline": "博愛陸橋配合鐵高施工，07/20至07/23、07/27至07/28(夜間21時至翌日6時)全線封閉",
+      "source": "嘉義市政府/交通處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=945741",
+      "date": "2026/07/14",
+      "query": "市府新聞"
+    },
     {
       "headline": "2026桃喜親子藝術節7月25日登場親子藝文盛宴連續三個週末邀您一起FUN暑假、玩藝術！",
       "source": "嘉義市政府/文化局/觀光新聞處",
@@ -62,27 +83,6 @@
       "source": "嘉義市政府/人事處/觀光新聞處",
       "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=945530",
       "date": "2026/07/11",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "嘉市災害應變中心一級開設全面投入巴威颱風防範應變",
-      "source": "嘉義市政府/消防局/觀光新聞處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=945526",
-      "date": "2026/07/11",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "強化社會安全網－急難紓困實施方案",
-      "source": "嘉義市政府/西區公所",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=945447",
-      "date": "2026/07/11",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "【因應颱風來襲嘉義市區公共運輸最新消息】",
-      "source": "嘉義市政府/交通處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=945491",
-      "date": "2026/07/10",
       "query": "市府新聞"
     }
   ],
@@ -202,7 +202,7 @@
       "2012": 1,
       "2013": 1
     },
-    "updated_at": "2026-07-14T02:05:32.504018",
+    "updated_at": "2026-07-14T07:56:53.567814",
     "source": "data.chiayi.gov.tw"
   },
   "council": {
@@ -236,6 +236,20 @@
   },
   "citizen_stats": {},
   "social_posts": [
+    {
+      "id": "ptt-httpswwwpttccbbsChiayiM1784013000A6CBhtml",
+      "platform": "PTT",
+      "platform_color": "#00b300",
+      "board": "Chiayi",
+      "date": "07/14",
+      "author": "PTT 鄉民",
+      "title": "[問題] 嘉義市雷射臉部肉芽的診所",
+      "url": "https://www.ptt.cc/bbs/Chiayi/M.1784013000.A.6CB.html",
+      "reactions": 0,
+      "comments": 0,
+      "category": "市政議題",
+      "source": "ptt"
+    },
     {
       "id": "ptt-httpswwwpttccbbsChiayiM1783945445AA6Fhtml",
       "platform": "PTT",
@@ -388,20 +402,6 @@
       "reactions": 0,
       "comments": 0,
       "category": "交通停車",
-      "source": "ptt"
-    },
-    {
-      "id": "ptt-httpswwwpttccbbsChiayiM1783491175A6F6html",
-      "platform": "PTT",
-      "platform_color": "#00b300",
-      "board": "Chiayi",
-      "date": "07/10",
-      "author": "PTT 鄉民",
-      "title": "[問題] 新悅跟福容 烤鴨選哪個？",
-      "url": "https://www.ptt.cc/bbs/Chiayi/M.1783491175.A.6F6.html",
-      "reactions": 0,
-      "comments": 0,
-      "category": "市政議題",
       "source": "ptt"
     }
   ]
