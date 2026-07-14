@@ -1,6 +1,20 @@
 {
-  "updated_at": "2026-07-13T19:27:48.089309",
+  "updated_at": "2026-07-14T02:08:03.759122",
   "news": [
+    {
+      "headline": "2026桃喜親子藝術節7月25日登場親子藝文盛宴連續三個週末邀您一起FUN暑假、玩藝術！",
+      "source": "嘉義市政府/文化局/觀光新聞處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=945716",
+      "date": "2026/07/14",
+      "query": "市府新聞"
+    },
+    {
+      "headline": "115年第二季嘉義市不動產買賣交易熱區公告！",
+      "source": "嘉義市政府",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=945606",
+      "date": "2026/07/14",
+      "query": "市府新聞"
+    },
     {
       "headline": "歐洲經貿辦事處處長谷力哲首度正式拜會嘉義市深化臺歐地方交流",
       "source": "嘉義市政府/民政處/觀光新聞處",
@@ -68,20 +82,6 @@
       "headline": "【因應颱風來襲嘉義市區公共運輸最新消息】",
       "source": "嘉義市政府/交通處",
       "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=945491",
-      "date": "2026/07/10",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "嘉義市7/11（星期六）停止上班、停止上課",
-      "source": "嘉義市政府/人事處/觀光新聞處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=945490",
-      "date": "2026/07/10",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "嘉市追查問題油品1,659件受影響油品完成下架",
-      "source": "嘉義市政府/衛生局",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=945488",
       "date": "2026/07/10",
       "query": "市府新聞"
     }
@@ -202,7 +202,7 @@
       "2012": 1,
       "2013": 1
     },
-    "updated_at": "2026-07-13T19:24:33.587327",
+    "updated_at": "2026-07-14T02:05:32.504018",
     "source": "data.chiayi.gov.tw"
   },
   "council": {
@@ -232,7 +232,7 @@
       "李忠曆",
       "王浩"
     ],
-    "question_count": 0
+    "question_count": 8
   },
   "citizen_stats": {},
   "social_posts": [
