@@ -1,6 +1,41 @@
 {
-  "updated_at": "2026-07-15T02:04:21.431286",
+  "updated_at": "2026-07-15T08:06:05.691689",
   "news": [
+    {
+      "headline": "嘉義市勇奪2026IASE非六都最高榮譽「城市影響力治理獎」以人為本打造影響力城市",
+      "source": "嘉義市政府/企劃處/觀光新聞處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=945939",
+      "date": "2026/07/15",
+      "query": "市府新聞"
+    },
+    {
+      "headline": "嘉市警推出沉浸式防詐遊戲榮獲IASE首獎肯定",
+      "source": "嘉義市政府/警察局",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=945920",
+      "date": "2026/07/15",
+      "query": "市府新聞"
+    },
+    {
+      "headline": "支持藝文不間斷！黃敏惠市長出席「財神盃」頒獎典禮驚喜抱回「市長全勤獎」",
+      "source": "嘉義市政府/教育處/觀光新聞處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=945909",
+      "date": "2026/07/15",
+      "query": "市府新聞"
+    },
+    {
+      "headline": "嘉邑三賢宮、嘉邑慈音堂、嘉邑振武堂、鎮安宮池府千歲平安遶境祈福活動將登場！交管資訊公開",
+      "source": "嘉義市政府/警察局/觀光新聞處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=945907",
+      "date": "2026/07/15",
+      "query": "市府新聞"
+    },
+    {
+      "headline": "嘉義市科學168教育博覽會將登場！交管資訊公開",
+      "source": "嘉義市政府/警察局/觀光新聞處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=945894",
+      "date": "2026/07/15",
+      "query": "市府新聞"
+    },
     {
       "headline": "黃敏惠市長開球點燃戰火！中信兄弟、味全龍決戰棒球原鄉",
       "source": "嘉義市政府/教育處/觀光新聞處",
@@ -48,41 +83,6 @@
       "source": "嘉義市政府/警察局",
       "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=945623",
       "date": "2026/07/13",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "嘉市府推動民族國小西側二期公辦都更案招商評選結果出爐國城建設股份有限公司獲評為最優申請人",
-      "source": "嘉義市政府/都市發展處/觀光新聞處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=945585",
-      "date": "2026/07/13",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "嘉市僑平國小舉辦「學生哲學家故事中的對話與思辨」兒童哲學夏令營",
-      "source": "嘉義市政府/教育處/觀光新聞處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=945576",
-      "date": "2026/07/13",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "颱風過後防疫不鬆懈！嘉義市政府籲請民眾清積水、護飲食安全慎防疾病傳播",
-      "source": "嘉義市政府/環境保護局/衛生局/觀光新聞處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=945545",
-      "date": "2026/07/12",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "減塑還能省荷包！嘉義市推「減塑3寶」系列優惠活動填問卷加碼抽MacBook",
-      "source": "嘉義市政府/環境保護局/觀光新聞處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=945544",
-      "date": "2026/07/12",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "嘉義市7/12（星期日）照常上班、照常上課",
-      "source": "嘉義市政府/人事處/觀光新聞處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=945530",
-      "date": "2026/07/11",
       "query": "市府新聞"
     }
   ],
@@ -202,7 +202,7 @@
       "2012": 1,
       "2013": 1
     },
-    "updated_at": "2026-07-15T02:02:21.169118",
+    "updated_at": "2026-07-15T08:03:36.561249",
     "source": "data.chiayi.gov.tw"
   },
   "council": {
@@ -269,7 +269,7 @@
       "platform": "PTT",
       "platform_color": "#00b300",
       "board": "Chiayi",
-      "date": "07/14",
+      "date": "07/15",
       "author": "PTT 鄉民",
       "title": "[新聞] 快新聞/切割民眾黨!美女網紅驚傳｢無黨籍參選市議員｣想借外",
       "url": "https://www.ptt.cc/bbs/Chiayi/M.1783941568.A.B35.html",
