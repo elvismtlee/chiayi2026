@@ -1,6 +1,27 @@
 {
-  "updated_at": "2026-07-16T02:15:53.710935",
+  "updated_at": "2026-07-16T08:11:25.273622",
   "news": [
+    {
+      "headline": "百萬年海洋故事藏在化石裡嘉市立博物館《未來海洋：化石裡的生態暗號》邀民眾一探究竟",
+      "source": "嘉義市政府/文化局/觀光新聞處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=946085",
+      "date": "2026/07/16",
+      "query": "市府新聞"
+    },
+    {
+      "headline": "首次抗高溫演練強化嘉園韌性",
+      "source": "嘉義市政府/嘉義市政府環境保護局/綜合計畫科",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=945758",
+      "date": "2026/07/16",
+      "query": "市府新聞"
+    },
+    {
+      "headline": "嘉義市翻轉靜態閱讀！公共圖書館打造親子五感閱讀森林",
+      "source": "嘉義市政府/文化局/觀光新聞處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=946050",
+      "date": "2026/07/16",
+      "query": "市府新聞"
+    },
     {
       "headline": "嘉義市政府115年7月份公報",
       "source": "嘉義市政府/行政處",
@@ -61,27 +82,6 @@
       "headline": "博愛陸橋配合鐵高施工0720至0723、0727至0728(夜間21時至翌日6時)全線封閉",
       "source": "嘉義市政府/交通處/觀光新聞處",
       "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=945756",
-      "date": "2026/07/14",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "嘉市持續加強查核問題油品7,563件受影響油品完成下架",
-      "source": "嘉義市政府/衛生局",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=945747",
-      "date": "2026/07/14",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "2026桃喜親子藝術節7月25日登場親子藝文盛宴連續三個週末邀您一起FUN暑假、玩藝術！",
-      "source": "嘉義市政府/文化局/觀光新聞處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=945716",
-      "date": "2026/07/14",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "115年第二季嘉義市不動產買賣交易熱區公告！",
-      "source": "嘉義市政府",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=945606",
       "date": "2026/07/14",
       "query": "市府新聞"
     }
@@ -201,7 +201,7 @@
       "2012": 1,
       "2013": 1
     },
-    "updated_at": "2026-07-16T02:13:16.941193",
+    "updated_at": "2026-07-16T08:08:31.680100",
     "source": "data.chiayi.gov.tw"
   },
   "council": {
@@ -292,34 +292,6 @@
       "source": "ptt"
     },
     {
-      "id": "ptt-httpswwwpttccbbsChiayiM1783907760A948html",
-      "platform": "PTT",
-      "platform_color": "#00b300",
-      "board": "Chiayi",
-      "date": "07/13",
-      "author": "PTT 鄉民",
-      "title": "[買賣]Google Pixel 8 8g/128g 霧灰色",
-      "url": "https://www.ptt.cc/bbs/Chiayi/M.1783907760.A.948.html",
-      "reactions": 0,
-      "comments": 0,
-      "category": "市政議題",
-      "source": "ptt"
-    },
-    {
-      "id": "ptt-httpswwwpttccbbsChiayiM1783864439A93Bhtml",
-      "platform": "PTT",
-      "platform_color": "#00b300",
-      "board": "Chiayi",
-      "date": "07/12",
-      "author": "PTT 鄉民",
-      "title": "[買賣] 統一數位商品禮券 面額100",
-      "url": "https://www.ptt.cc/bbs/Chiayi/M.1783864439.A.93B.html",
-      "reactions": 0,
-      "comments": 0,
-      "category": "市政議題",
-      "source": "ptt"
-    },
-    {
       "id": "ptt-httpswwwpttccbbsChiayiM1783783710A204html",
       "platform": "PTT",
       "platform_color": "#00b300",
@@ -401,6 +373,34 @@
       "reactions": 0,
       "comments": 0,
       "category": "交通停車",
+      "source": "ptt"
+    },
+    {
+      "id": "ptt-httpswwwpttccbbsChiayiM1783491175A6F6html",
+      "platform": "PTT",
+      "platform_color": "#00b300",
+      "board": "Chiayi",
+      "date": "07/14",
+      "author": "PTT 鄉民",
+      "title": "[問題] 新悅跟福容 烤鴨選哪個？",
+      "url": "https://www.ptt.cc/bbs/Chiayi/M.1783491175.A.6F6.html",
+      "reactions": 0,
+      "comments": 0,
+      "category": "市政議題",
+      "source": "ptt"
+    },
+    {
+      "id": "ptt-httpswwwpttccbbsChiayiM1783482871AECFhtml",
+      "platform": "PTT",
+      "platform_color": "#00b300",
+      "board": "Chiayi",
+      "date": "07/10",
+      "author": "PTT 鄉民",
+      "title": "[問題] 尋找短租房源（1個月）",
+      "url": "https://www.ptt.cc/bbs/Chiayi/M.1783482871.A.ECF.html",
+      "reactions": 0,
+      "comments": 0,
+      "category": "市政議題",
       "source": "ptt"
     }
   ]
