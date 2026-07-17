@@ -1,6 +1,20 @@
 {
-  "updated_at": "2026-07-16T19:08:01.656887",
+  "updated_at": "2026-07-17T02:17:51.688133",
   "news": [
+    {
+      "headline": "加強臭氧前趨物管制，嘉市執行加油站油氣逸散檢測",
+      "source": "嘉義市政府/嘉義市政府環境保護局/環境品質管理科",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=946175",
+      "date": "2026/07/17",
+      "query": "市府新聞"
+    },
+    {
+      "headline": "法規新訊｜整體開發地區社會住宅土地規劃及取得方案",
+      "source": "嘉義市政府/地政處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=944366",
+      "date": "2026/07/17",
+      "query": "市府新聞"
+    },
     {
       "headline": "百萬年海洋故事藏在化石裡嘉市立博物館《未來海洋：化石裡的生態暗號》邀民眾一探究竟",
       "source": "嘉義市政府/文化局/觀光新聞處",
@@ -69,20 +83,6 @@
       "source": "嘉義市政府/警察局/觀光新聞處",
       "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=945894",
       "date": "2026/07/15",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "黃敏惠市長開球點燃戰火！中信兄弟、味全龍決戰棒球原鄉",
-      "source": "嘉義市政府/教育處/觀光新聞處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=945789",
-      "date": "2026/07/14",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "博愛陸橋配合鐵高施工0720至0723、0727至0728(夜間21時至翌日6時)全線封閉",
-      "source": "嘉義市政府/交通處/觀光新聞處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=945756",
-      "date": "2026/07/14",
       "query": "市府新聞"
     }
   ],
@@ -202,7 +202,7 @@
       "2012": 1,
       "2013": 1
     },
-    "updated_at": "2026-07-16T19:06:10.670856",
+    "updated_at": "2026-07-17T02:15:17.338268",
     "source": "data.chiayi.gov.tw"
   },
   "council": {
@@ -241,7 +241,7 @@
       "platform": "PTT",
       "platform_color": "#00b300",
       "board": "Chiayi",
-      "date": "07/15",
+      "date": "07/17",
       "author": "PTT 鄉民",
       "title": "[問題] 嘉義市雷射臉部肉芽的診所",
       "url": "https://www.ptt.cc/bbs/Chiayi/M.1784013000.A.6CB.html",
@@ -269,7 +269,7 @@
       "platform": "PTT",
       "platform_color": "#00b300",
       "board": "Chiayi",
-      "date": "07/16",
+      "date": "07/17",
       "author": "PTT 鄉民",
       "title": "[新聞] 快新聞/切割民眾黨!美女網紅驚傳｢無黨籍參選市議員｣想借外",
       "url": "https://www.ptt.cc/bbs/Chiayi/M.1783941568.A.B35.html",
