@@ -1,6 +1,13 @@
 {
-  "updated_at": "2026-07-17T19:03:38.096658",
+  "updated_at": "2026-07-18T02:06:43.795124",
   "news": [
+    {
+      "headline": "兵役選擇役起飛，115年下半年役男申請服替代役(第2次)甄選作業開跑嚕!!",
+      "source": "嘉義市政府/西區公所",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=946212",
+      "date": "2026/07/18",
+      "query": "市府新聞"
+    },
     {
       "headline": "嘉義市立美術館設置典藏展櫃鎮館之寶輪番亮相首展陳澄波《展望諸羅城》7月21日登場",
       "source": "嘉義市政府/文化局/觀光新聞處",
@@ -75,13 +82,6 @@
       "headline": "嘉義市勇奪2026IASE非六都最高榮譽「城市影響力治理獎」以人為本打造影響力城市",
       "source": "嘉義市政府/企劃處/觀光新聞處",
       "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=945939",
-      "date": "2026/07/15",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "嘉市警推出沉浸式防詐遊戲榮獲IASE首獎肯定",
-      "source": "嘉義市政府/警察局",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=945920",
       "date": "2026/07/15",
       "query": "市府新聞"
     }
@@ -202,7 +202,7 @@
       "2012": 1,
       "2013": 1
     },
-    "updated_at": "2026-07-17T19:01:57.228460",
+    "updated_at": "2026-07-18T02:04:56.666104",
     "source": "data.chiayi.gov.tw"
   },
   "council": {
