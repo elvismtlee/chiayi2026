@@ -1,10 +1,31 @@
 {
-  "updated_at": "2026-07-18T07:44:54.656118",
+  "updated_at": "2026-07-18T13:07:15.587617",
   "news": [
     {
       "headline": "逾2,200人「來嘉BIKE訪」騎聚雙潭！10組大白熊新造型地圖驚喜公開再掀打卡熱潮",
       "source": "嘉義市政府/觀光新聞處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=946307",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=946311",
+      "date": "2026/07/18",
+      "query": "市府新聞"
+    },
+    {
+      "headline": "嘉美館年度大展《公共視域：嘉義當代藝術場景1996-2006》黃敏惠市長邀民眾重返嘉義當代藝術現場",
+      "source": "嘉義市政府/文化局/觀光新聞處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=946310",
+      "date": "2026/07/18",
+      "query": "市府新聞"
+    },
+    {
+      "headline": "建研中區聯誼會募集151萬元助學金黃敏惠市長頒獎鼓勵學子築夢前行",
+      "source": "嘉義市政府/教育處/觀光新聞處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=946309",
+      "date": "2026/07/18",
+      "query": "市府新聞"
+    },
+    {
+      "headline": "匯聚愛心照亮未來嘉市「千盞燈」助67位學子勇敢逐夢",
+      "source": "嘉義市政府/民政處/觀光新聞處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=946308",
       "date": "2026/07/18",
       "query": "市府新聞"
     },
@@ -62,27 +83,6 @@
       "source": "嘉義市政府/嘉義市政府環境保護局/綜合計畫科",
       "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=945758",
       "date": "2026/07/16",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "嘉義市翻轉靜態閱讀！公共圖書館打造親子五感閱讀森林",
-      "source": "嘉義市政府/文化局/觀光新聞處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=946050",
-      "date": "2026/07/16",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "嘉義市政府115年7月份公報",
-      "source": "嘉義市政府/行政處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=945868",
-      "date": "2026/07/16",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "兄弟抵嘉詐騙OUT嘉市警方與中信兄弟攜手反詐",
-      "source": "嘉義市政府/警察局",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=945979",
-      "date": "2026/07/15",
       "query": "市府新聞"
     }
   ],
@@ -202,7 +202,7 @@
       "2012": 1,
       "2013": 1
     },
-    "updated_at": "2026-07-18T07:43:02.535516",
+    "updated_at": "2026-07-18T13:05:31.441688",
     "source": "data.chiayi.gov.tw"
   },
   "council": {
@@ -237,6 +237,20 @@
   "citizen_stats": {},
   "social_posts": [
     {
+      "id": "ptt-httpswwwpttccbbsChiayiM1784372161A1C2html",
+      "platform": "PTT",
+      "platform_color": "#00b300",
+      "board": "Chiayi",
+      "date": "07/18",
+      "author": "PTT 鄉民",
+      "title": "[亂入] 我申訴校長後，四個月後，我變成了性騷擾",
+      "url": "https://www.ptt.cc/bbs/Chiayi/M.1784372161.A.1C2.html",
+      "reactions": 0,
+      "comments": 0,
+      "category": "市政議題",
+      "source": "ptt"
+    },
+    {
       "id": "ptt-httpswwwpttccbbsChiayiM1784343766A0DFhtml",
       "platform": "PTT",
       "platform_color": "#00b300",
@@ -265,27 +279,13 @@
       "source": "ptt"
     },
     {
-      "id": "ptt-httpswwwpttccbbsChiayiM1784288558A821html",
-      "platform": "PTT",
-      "platform_color": "#00b300",
-      "board": "Chiayi",
-      "date": "07/17",
-      "author": "PTT 鄉民",
-      "title": "[買賣] Flexispot 氣壓式升降邊桌（白色）",
-      "url": "https://www.ptt.cc/bbs/Chiayi/M.1784288558.A.821.html",
-      "reactions": 0,
-      "comments": 0,
-      "category": "市政議題",
-      "source": "ptt"
-    },
-    {
       "id": "ptt-httpswwwpttccbbsChiayiM1784270081A81Fhtml",
       "platform": "PTT",
       "platform_color": "#00b300",
       "board": "Chiayi",
-      "date": "07/17",
+      "date": "07/18",
       "author": "PTT 鄉民",
-      "title": "[買賣] 勇者傳奇電影票/海報/國考用書",
+      "title": "[買賣] 勇者傳奇電影票/小野麗莎高雄演唱會/藥師少女的獨語展/海報",
       "url": "https://www.ptt.cc/bbs/Chiayi/M.1784270081.A.81F.html",
       "reactions": 0,
       "comments": 0,
