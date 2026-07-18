@@ -1,6 +1,13 @@
 {
-  "updated_at": "2026-07-18T02:06:43.795124",
+  "updated_at": "2026-07-18T07:44:54.656118",
   "news": [
+    {
+      "headline": "逾2,200人「來嘉BIKE訪」騎聚雙潭！10組大白熊新造型地圖驚喜公開再掀打卡熱潮",
+      "source": "嘉義市政府/觀光新聞處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=946307",
+      "date": "2026/07/18",
+      "query": "市府新聞"
+    },
     {
       "headline": "兵役選擇役起飛，115年下半年役男申請服替代役(第2次)甄選作業開跑嚕!!",
       "source": "嘉義市政府/西區公所",
@@ -75,13 +82,6 @@
       "headline": "兄弟抵嘉詐騙OUT嘉市警方與中信兄弟攜手反詐",
       "source": "嘉義市政府/警察局",
       "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=945979",
-      "date": "2026/07/15",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "嘉義市勇奪2026IASE非六都最高榮譽「城市影響力治理獎」以人為本打造影響力城市",
-      "source": "嘉義市政府/企劃處/觀光新聞處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=945939",
       "date": "2026/07/15",
       "query": "市府新聞"
     }
@@ -202,7 +202,7 @@
       "2012": 1,
       "2013": 1
     },
-    "updated_at": "2026-07-18T02:04:56.666104",
+    "updated_at": "2026-07-18T07:43:02.535516",
     "source": "data.chiayi.gov.tw"
   },
   "council": {
@@ -236,6 +236,20 @@
   },
   "citizen_stats": {},
   "social_posts": [
+    {
+      "id": "ptt-httpswwwpttccbbsChiayiM1784343766A0DFhtml",
+      "platform": "PTT",
+      "platform_color": "#00b300",
+      "board": "Chiayi",
+      "date": "07/18",
+      "author": "PTT 鄉民",
+      "title": "[問題] 骨質疏鬆醫生的推薦",
+      "url": "https://www.ptt.cc/bbs/Chiayi/M.1784343766.A.0DF.html",
+      "reactions": 0,
+      "comments": 0,
+      "category": "市政議題",
+      "source": "ptt"
+    },
     {
       "id": "ptt-httpswwwpttccbbsChiayiM1784293167A0F9html",
       "platform": "PTT",
@@ -283,7 +297,7 @@
       "platform": "PTT",
       "platform_color": "#00b300",
       "board": "Chiayi",
-      "date": "07/17",
+      "date": "07/18",
       "author": "PTT 鄉民",
       "title": "[問題] 嘉義市雷射臉部肉芽的診所",
       "url": "https://www.ptt.cc/bbs/Chiayi/M.1784013000.A.6CB.html",
@@ -311,7 +325,7 @@
       "platform": "PTT",
       "platform_color": "#00b300",
       "board": "Chiayi",
-      "date": "07/17",
+      "date": "07/18",
       "author": "PTT 鄉民",
       "title": "[新聞] 快新聞/切割民眾黨!美女網紅驚傳｢無黨籍參選市議員｣想借外",
       "url": "https://www.ptt.cc/bbs/Chiayi/M.1783941568.A.B35.html",
@@ -385,20 +399,6 @@
       "author": "PTT 鄉民",
       "title": "[徵求] iPhone se3 128g 黑/紅",
       "url": "https://www.ptt.cc/bbs/Chiayi/M.1783700278.A.090.html",
-      "reactions": 0,
-      "comments": 0,
-      "category": "市政議題",
-      "source": "ptt"
-    },
-    {
-      "id": "ptt-httpswwwpttccbbsChiayiM1783697990A326html",
-      "platform": "PTT",
-      "platform_color": "#00b300",
-      "board": "Chiayi",
-      "date": "07/10",
-      "author": "PTT 鄉民",
-      "title": "[買賣] 西堤陶板屋 麥當勞 衛生紙 資生堂 快煮壺",
-      "url": "https://www.ptt.cc/bbs/Chiayi/M.1783697990.A.326.html",
       "reactions": 0,
       "comments": 0,
       "category": "市政議題",
