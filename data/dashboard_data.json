@@ -1,6 +1,20 @@
 {
-  "updated_at": "2026-07-19T02:18:49.038802",
+  "updated_at": "2026-07-19T08:11:53.331911",
   "news": [
+    {
+      "headline": "加強臭氧前趨物管制嘉市執行加油站油氣逸散檢測",
+      "source": "嘉義市政府/環境保護局/觀光新聞處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=946325",
+      "date": "2026/07/19",
+      "query": "市府新聞"
+    },
+    {
+      "headline": "響應8020運動嘉市百位樂齡勇壯族展潔牙力從齒開始守護健康老化",
+      "source": "嘉義市政府/衛生局/觀光新聞處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=946324",
+      "date": "2026/07/19",
+      "query": "市府新聞"
+    },
     {
       "headline": "逾2,200人「來嘉BIKE訪」騎聚雙潭！10組大白熊新造型地圖驚喜公開再掀打卡熱潮",
       "source": "嘉義市政府/觀光新聞處",
@@ -69,20 +83,6 @@
       "source": "嘉義市政府/地政處",
       "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=944366",
       "date": "2026/07/17",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "百萬年海洋故事藏在化石裡嘉市立博物館《未來海洋：化石裡的生態暗號》邀民眾一探究竟",
-      "source": "嘉義市政府/文化局/觀光新聞處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=946085",
-      "date": "2026/07/16",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "首次抗高溫演練強化嘉園韌性",
-      "source": "嘉義市政府/嘉義市政府環境保護局/綜合計畫科",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=945758",
-      "date": "2026/07/16",
       "query": "市府新聞"
     }
   ],
@@ -202,7 +202,7 @@
       "2012": 1,
       "2013": 1
     },
-    "updated_at": "2026-07-19T02:16:18.477989",
+    "updated_at": "2026-07-19T08:09:38.842862",
     "source": "data.chiayi.gov.tw"
   },
   "council": {
@@ -325,7 +325,7 @@
       "platform": "PTT",
       "platform_color": "#00b300",
       "board": "Chiayi",
-      "date": "07/18",
+      "date": "07/19",
       "author": "PTT 鄉民",
       "title": "[新聞] 快新聞/切割民眾黨!美女網紅驚傳｢無黨籍參選市議員｣想借外",
       "url": "https://www.ptt.cc/bbs/Chiayi/M.1783941568.A.B35.html",
