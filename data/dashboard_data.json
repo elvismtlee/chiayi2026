@@ -1,6 +1,20 @@
 {
-  "updated_at": "2026-07-19T19:02:33.681680",
+  "updated_at": "2026-07-20T03:25:44.345773",
   "news": [
+    {
+      "headline": "科學168吸引近6萬人次把握最後兩天探索科學趣",
+      "source": "嘉義市政府/教育處/觀光新聞處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=946384",
+      "date": "2026/07/20",
+      "query": "市府新聞"
+    },
+    {
+      "headline": "家戶廢食用油別亂倒冷卻後裝罐隨車回收資源再循環",
+      "source": "嘉義市政府/嘉義市政府環境保護局/清潔隊",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=946369",
+      "date": "2026/07/20",
+      "query": "市府新聞"
+    },
     {
       "headline": "管樂奏響城隍信仰嘉義市「城隍中元祭」中西交融磅礡登場",
       "source": "嘉義市政府/民政處/觀光新聞處",
@@ -68,20 +82,6 @@
       "headline": "科學市集、星空電影院搬進校園！嘉市暑假科學盛事「科學168教育博覽會」熱鬧開幕",
       "source": "嘉義市政府/教育處/觀光新聞處",
       "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=946194",
-      "date": "2026/07/17",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "小木匠暑假集合！嘉博館「木都創藝FUN暑假」手作課開辦體驗嘉義木都魅力",
-      "source": "嘉義市政府/文化局/觀光新聞處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=946177",
-      "date": "2026/07/17",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "加強臭氧前趨物管制，嘉市執行加油站油氣逸散檢測",
-      "source": "嘉義市政府/嘉義市政府環境保護局/環境品質管理科",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=946175",
       "date": "2026/07/17",
       "query": "市府新聞"
     }
@@ -202,7 +202,7 @@
       "2012": 1,
       "2013": 1
     },
-    "updated_at": "2026-07-19T19:00:45.174166",
+    "updated_at": "2026-07-20T03:23:50.495868",
     "source": "data.chiayi.gov.tw"
   },
   "council": {
@@ -269,7 +269,7 @@
       "platform": "PTT",
       "platform_color": "#00b300",
       "board": "Chiayi",
-      "date": "07/19",
+      "date": "07/20",
       "author": "PTT 鄉民",
       "title": "[問題] 嘉義BRT持高鐵票改成付費可行嗎？",
       "url": "https://www.ptt.cc/bbs/Chiayi/M.1784293167.A.0F9.html",
