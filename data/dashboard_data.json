@@ -1,6 +1,20 @@
 {
-  "updated_at": "2026-07-20T03:25:44.345773",
+  "updated_at": "2026-07-20T08:52:49.008515",
   "news": [
+    {
+      "headline": "嘉市、桃園雙城聯手打團體戰！15組團隊來嘉拜訪共創青創與地方創生新局",
+      "source": "嘉義市政府/勞工及青年發展處/觀光新聞處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=946423",
+      "date": "2026/07/20",
+      "query": "市府新聞"
+    },
+    {
+      "headline": "嘉義市出現首例境外移入登革熱確定病例籲請民眾加強落實孳生源清除",
+      "source": "嘉義市政府/衛生局/觀光新聞處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=946397",
+      "date": "2026/07/20",
+      "query": "市府新聞"
+    },
     {
       "headline": "科學168吸引近6萬人次把握最後兩天探索科學趣",
       "source": "嘉義市政府/教育處/觀光新聞處",
@@ -69,20 +83,6 @@
       "source": "嘉義市政府/西區公所",
       "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=946212",
       "date": "2026/07/18",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "嘉義市立美術館設置典藏展櫃鎮館之寶輪番亮相首展陳澄波《展望諸羅城》7月21日登場",
-      "source": "嘉義市政府/文化局/觀光新聞處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=946229",
-      "date": "2026/07/17",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "科學市集、星空電影院搬進校園！嘉市暑假科學盛事「科學168教育博覽會」熱鬧開幕",
-      "source": "嘉義市政府/教育處/觀光新聞處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=946194",
-      "date": "2026/07/17",
       "query": "市府新聞"
     }
   ],
@@ -202,7 +202,7 @@
       "2012": 1,
       "2013": 1
     },
-    "updated_at": "2026-07-20T03:23:50.495868",
+    "updated_at": "2026-07-20T08:50:58.342516",
     "source": "data.chiayi.gov.tw"
   },
   "council": {
@@ -236,6 +236,20 @@
   },
   "citizen_stats": {},
   "social_posts": [
+    {
+      "id": "ptt-httpswwwpttccbbsChiayiM1784535716A6F0html",
+      "platform": "PTT",
+      "platform_color": "#00b300",
+      "board": "Chiayi",
+      "date": "07/20",
+      "author": "PTT 鄉民",
+      "title": "[贈送] 兒童羽球拍 羽球 徵求丙烯麥克筆",
+      "url": "https://www.ptt.cc/bbs/Chiayi/M.1784535716.A.6F0.html",
+      "reactions": 0,
+      "comments": 0,
+      "category": "通學安全",
+      "source": "ptt"
+    },
     {
       "id": "ptt-httpswwwpttccbbsChiayiM1784372161A1C2html",
       "platform": "PTT",
@@ -283,7 +297,7 @@
       "platform": "PTT",
       "platform_color": "#00b300",
       "board": "Chiayi",
-      "date": "07/18",
+      "date": "07/20",
       "author": "PTT 鄉民",
       "title": "[買賣] 勇者傳奇電影票/小野麗莎高雄演唱會/藥師少女的獨語展/海報",
       "url": "https://www.ptt.cc/bbs/Chiayi/M.1784270081.A.81F.html",
@@ -385,20 +399,6 @@
       "author": "PTT 鄉民",
       "title": "[買賣] 道奇球場入場禮-搖頭娃娃、球衣、冠軍戒",
       "url": "https://www.ptt.cc/bbs/Chiayi/M.1783725220.A.FA1.html",
-      "reactions": 0,
-      "comments": 0,
-      "category": "市政議題",
-      "source": "ptt"
-    },
-    {
-      "id": "ptt-httpswwwpttccbbsChiayiM1783700278A090html",
-      "platform": "PTT",
-      "platform_color": "#00b300",
-      "board": "Chiayi",
-      "date": "07/11",
-      "author": "PTT 鄉民",
-      "title": "[徵求] iPhone se3 128g 黑/紅",
-      "url": "https://www.ptt.cc/bbs/Chiayi/M.1783700278.A.090.html",
       "reactions": 0,
       "comments": 0,
       "category": "市政議題",

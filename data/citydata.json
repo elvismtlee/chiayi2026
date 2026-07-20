@@ -1,16 +1,16 @@
 {
-  "updated_at": "2026-07-20T03:24:03.781961",
+  "updated_at": "2026-07-20T08:51:11.853474",
   "aqi_realtime": [
     {
       "station": "嘉義市（Open-Meteo 模型）",
-      "aqi": 16,
-      "pm25": 11.4,
-      "pm10": 15.6,
-      "o3": 109.0,
-      "no2": 10.1,
+      "aqi": 17,
+      "pm25": 12.7,
+      "pm10": 16.5,
+      "o3": 115.0,
+      "no2": 13.4,
       "status": "良好",
       "pollutant": "PM2.5",
-      "time": "2026-07-20T11:00",
+      "time": "2026-07-20T16:00",
       "source": "Open-Meteo"
     }
   ],
@@ -19,15 +19,15 @@
   "weather": [
     {
       "station": "嘉義市（Open-Meteo）",
-      "temp": "31.6",
-      "apparent_temp": "37.8",
-      "humidity": "64",
-      "rainfall": "0.0",
-      "wind_speed": "11.5",
-      "wind_dir": "200",
-      "cloud": "19",
-      "weather": "晴",
-      "time": "2026-07-20 11:15",
+      "temp": "29.8",
+      "apparent_temp": "35.6",
+      "humidity": "77",
+      "rainfall": "0.2",
+      "wind_speed": "7.4",
+      "wind_dir": "184",
+      "cloud": "76",
+      "weather": "雷雨",
+      "time": "2026-07-20 16:45",
       "source": "Open-Meteo"
     }
   ],
@@ -40,23 +40,16 @@
       "source": "Google新聞"
     },
     {
-      "title": "管樂奏響城隍信仰 嘉義市「城隍中元祭」中西交融磅礡登場 - 中央社 CNA",
+      "title": "逾2千車友「來嘉BIKE訪」10組大白熊新造型地圖亮相 再掀打卡熱潮 - 自由時報",
       "date": "Mon, 20 Jul 2026",
-      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1HdFRDbnB3Zmd3eG1aYlJFbjdOaEpSNXJUZms3OHJuUFNMdVJIaVVIWmhmcGc5cVVpSzRLQnZ4U181c3NQLU5TSVFXTm9XalpPR2I0T21n?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBaMHp1NkRlWWVKRkFlb2ZrclFWYlo2MzNRR05tNkI5eXRIV3hYLUxnQXcyY3I1Mno5RmJhV1ZQSmtJWU84MmFVelZnRXV0Z2Vr?oc=5",
       "desc": "",
       "source": "Google新聞"
     },
     {
-      "title": "大暑節氣到嘉義市社區營養師分享掌握「充足補水、均衡飲食、適度運動」三大健康原則消暑更健康 - 嘉義市政府衛生局",
-      "date": "Sun, 19 Jul 2026",
-      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTFA3Znhfa19NS0dEWnBDaTNxZUVTcnR0TUNxbWFrLTM2Yk9RazRlSllLRnd5UGJMRjA1S1M1Yi05clB6NzUwc1hDX1ZXTXJtSnB0ZkYwMENTVHo2Z1ZmTDhndm1idng5dUJhMnpjcGw0OTdTVkRiXzhCY3NQd0Y?oc=5",
-      "desc": "",
-      "source": "Google新聞"
-    },
-    {
-      "title": "嘉市百位樂齡勇壯族展潔牙力 從齒開始守護健康老化 - 中央社 CNA",
+      "title": "嘉市、桃園聯手打團體戰 15組團隊來嘉拜訪 共創青創與地方創生新局 - 中央社 CNA",
       "date": "Mon, 20 Jul 2026",
-      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5sZkhwRVNEYlNjNVJnMEQwRDZSVk9ocndwZlZvQUNETVJlUkx1dHE1OFlvVVNNcXZ2Y3JkMS1teFd3VUxQbjFqU0UzTDVVQnFoRFdyWDBB?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFAySXh6LTNNSFlFQUtPbGt0TjR0SGlUc3VzS3JVNEJjV1dwcmtVbFZfc1lkR2VDSHlOWjV1OGFSaTJYSC02cE41MWR3R1I3SjdBS3ExQkJn?oc=5",
       "desc": "",
       "source": "Google新聞"
     },
@@ -68,9 +61,16 @@
       "source": "Google新聞"
     },
     {
-      "title": "嘉義市115年整合性健康篩檢啟動! 首度新增身體組成分析、持續推動無痛腸胃鏡 - 嘉義市政府衛生局",
-      "date": "Mon, 13 Jul 2026",
-      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5MUnJhamxxOGo1UUQxN2ZMbFZkd3ZHN09wLWZYczJHYVlQWXlQSWpiajh0R0pHTkIzMUlkTDhRRE5ST2tLT2E5VkJycThyZzAtTGl5NnhCdWZZQ2Jqb3I3N3ptTnRBT0pMM09wZU1mMA?oc=5",
+      "title": "管樂奏響城隍信仰 嘉義市「城隍中元祭」中西交融磅礡登場 - 中央社 CNA",
+      "date": "Mon, 20 Jul 2026",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1HdFRDbnB3Zmd3eG1aYlJFbjdOaEpSNXJUZms3OHJuUFNMdVJIaVVIWmhmcGc5cVVpSzRLQnZ4U181c3NQLU5TSVFXTm9XalpPR2I0T21n?oc=5",
+      "desc": "",
+      "source": "Google新聞"
+    },
+    {
+      "title": "嘉市首例境外移入登革熱 有越南旅遊史 - 自由健康網",
+      "date": "Mon, 20 Jul 2026",
+      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE8xNWxjQW5LNjV0VElhVW1QQTZvUkJZbkZGWk0zbHFER29DREZSV3pRVHhUV3hLbXhocVZuVmk5NkpuNmk4VkpjTHg3LUZZUGlidFBxdGJUZzRVWVFoOVo0SG9faF_SAWpBVV95cUxPVXMtWHpBTmlWRUlvRFJlSXNVendYZG9QeVlDR2xZdFpIdnJUM2I2QU1STVliTkd5N1V3R3ZicEdLSHhyaXh3Y3NDeEpWN3k0OUJoa19CLWJvbkJKSFJtUVpvNUxoeGpONjlB?oc=5",
       "desc": "",
       "source": "Google新聞"
     }
@@ -98,9 +98,9 @@
       "source": "Google新聞"
     },
     {
-      "title": "王美惠立委邀國土署官員實勘 強化嘉義市整體防洪韌性 - 觀傳媒",
+      "title": "王美惠立委邀國土署官員實勘 強化嘉義市整體防洪韌性 | 觀傳媒 - LINE TODAY",
       "date": "Tue, 12 May 2026",
-      "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE01VnVDLUt3bG9yLUdyckxHakc1UUJ5MDEwVnZoU20tLXBCNUFkZXJic21xV1JKS2FzTHVxYUhFUUdMREZTVV81MnJTYk5ma1V1LWJZMUluZw?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFB2QTQyRjkwWi1hRUdxa0hUY3BsQ2N3SUhBd1NyUVMxT2l1RXlSaEZzcTAzcmdnYll2VThGR2tHQTU0R2t2QWpvYmQ1NGlBUWNycV9wT2Rn?oc=5",
       "org": "新聞資訊",
       "source": "Google新聞"
     },
@@ -238,7 +238,7 @@
       "lat": 23.481634,
       "lng": 120.453745,
       "total": 45,
-      "available": 17,
+      "available": 23,
       "addr": "中山路199號(對面)"
     },
     {
@@ -247,7 +247,7 @@
       "lat": 23.482012,
       "lng": 120.457342,
       "total": 22,
-      "available": 7,
+      "available": 14,
       "addr": "中山路98號(前)"
     },
     {
@@ -256,7 +256,7 @@
       "lat": 23.482663,
       "lng": 120.462988,
       "total": 25,
-      "available": 10,
+      "available": 0,
       "addr": "中山路2號(前)"
     },
     {
@@ -265,7 +265,7 @@
       "lat": 23.478707,
       "lng": 120.462594,
       "total": 38,
-      "available": 33,
+      "available": 3,
       "addr": "啟明路122號(前)"
     },
     {
@@ -274,7 +274,7 @@
       "lat": 23.477031,
       "lng": 120.465573,
       "total": 34,
-      "available": 27,
+      "available": 24,
       "addr": "大雅路二段738號(前)"
     },
     {
@@ -283,7 +283,7 @@
       "lat": 23.4798596,
       "lng": 120.4488291,
       "total": 20,
-      "available": 11,
+      "available": 17,
       "addr": "中山路306號"
     },
     {
@@ -292,7 +292,7 @@
       "lat": 23.47963,
       "lng": 120.44583,
       "total": 20,
-      "available": 6,
+      "available": 13,
       "addr": "中山路386號"
     },
     {
@@ -301,7 +301,7 @@
       "lat": 23.47917,
       "lng": 120.44186,
       "total": 99,
-      "available": 41,
+      "available": 92,
       "addr": "中山路524號"
     },
     {
@@ -310,7 +310,7 @@
       "lat": 23.47877,
       "lng": 120.44089,
       "total": 42,
-      "available": 34,
+      "available": 3,
       "addr": "中山路528號"
     },
     {
@@ -319,7 +319,7 @@
       "lat": 23.47283,
       "lng": 120.44029,
       "total": 5,
-      "available": 4,
+      "available": 5,
       "addr": "垂楊路575號"
     },
     {
@@ -328,7 +328,7 @@
       "lat": 23.47336,
       "lng": 120.44604,
       "total": 14,
-      "available": 11,
+      "available": 7,
       "addr": "垂楊路351號"
     },
     {
@@ -337,7 +337,7 @@
       "lat": 23.4738724,
       "lng": 120.4493073,
       "total": 20,
-      "available": 10,
+      "available": 2,
       "addr": "垂楊路434號"
     },
     {
@@ -346,7 +346,7 @@
       "lat": 23.47918,
       "lng": 120.43182,
       "total": 15,
-      "available": 3,
+      "available": 0,
       "addr": "北港路278號"
     },
     {
@@ -355,7 +355,7 @@
       "lat": 23.486138,
       "lng": 120.453829,
       "total": 20,
-      "available": 15,
+      "available": 4,
       "addr": "忠孝路284號(旁)"
     },
     {
@@ -364,7 +364,7 @@
       "lat": 23.48091,
       "lng": 120.43012,
       "total": 20,
-      "available": 15,
+      "available": 7,
       "addr": "北港路312號東側"
     },
     {
@@ -373,7 +373,7 @@
       "lat": 23.48465,
       "lng": 120.43354,
       "total": 14,
-      "available": 7,
+      "available": 6,
       "addr": "友愛興達路口"
     },
     {
@@ -382,7 +382,7 @@
       "lat": 23.48931,
       "lng": 120.4361,
       "total": 15,
-      "available": 6,
+      "available": 2,
       "addr": "自由路298號"
     },
     {
@@ -391,7 +391,7 @@
       "lat": 23.49265,
       "lng": 120.43191,
       "total": 15,
-      "available": 3,
+      "available": 7,
       "addr": "自由路492號"
     },
     {
@@ -400,7 +400,7 @@
       "lat": 23.478941,
       "lng": 120.437805,
       "total": 23,
-      "available": 6,
+      "available": 10,
       "addr": "博愛路二段281號"
     },
     {
@@ -409,10 +409,10 @@
       "lat": 23.47165,
       "lng": 120.43119,
       "total": 15,
-      "available": 7,
+      "available": 14,
       "addr": "博愛路二段461號"
     }
   ],
   "water": [],
-  "fetch_seconds": 100.6
+  "fetch_seconds": 97.2
 }
