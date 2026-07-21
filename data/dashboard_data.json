@@ -1,6 +1,13 @@
 {
-  "updated_at": "2026-07-20T19:45:07.329831",
+  "updated_at": "2026-07-21T02:17:44.104908",
   "news": [
+    {
+      "headline": "在嘉義她們為自己寫下名字嘉義文學館「女作家」特展橫跨百年生命書寫",
+      "source": "嘉義市政府/文化局/觀光新聞處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=946502",
+      "date": "2026/07/21",
+      "query": "市府新聞"
+    },
     {
       "headline": "嘉市、桃園雙城聯手打團體戰！15組團隊來嘉拜訪共創青創與地方創生新局",
       "source": "嘉義市政府/勞工及青年發展處/觀光新聞處",
@@ -75,13 +82,6 @@
       "headline": "匯聚愛心照亮未來嘉市「千盞燈」助67位學子勇敢逐夢",
       "source": "嘉義市政府/民政處/觀光新聞處",
       "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=946308",
-      "date": "2026/07/18",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "兵役選擇役起飛，115年下半年役男申請服替代役(第2次)甄選作業開跑嚕!!",
-      "source": "嘉義市政府/西區公所",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=946212",
       "date": "2026/07/18",
       "query": "市府新聞"
     }
@@ -202,7 +202,7 @@
       "2012": 1,
       "2013": 1
     },
-    "updated_at": "2026-07-20T19:42:39.766738",
+    "updated_at": "2026-07-21T02:15:55.533648",
     "source": "data.chiayi.gov.tw"
   },
   "council": {
@@ -236,6 +236,20 @@
   },
   "citizen_stats": {},
   "social_posts": [
+    {
+      "id": "ptt-httpswwwpttccbbsChiayiM1784594571A7AAhtml",
+      "platform": "PTT",
+      "platform_color": "#00b300",
+      "board": "Chiayi",
+      "date": "07/21",
+      "author": "PTT 鄉民",
+      "title": "[售物] 得利床頭矮櫃/Arlink不鏽鋼316吸管冰霸杯",
+      "url": "https://www.ptt.cc/bbs/Chiayi/M.1784594571.A.7AA.html",
+      "reactions": 0,
+      "comments": 0,
+      "category": "市政議題",
+      "source": "ptt"
+    },
     {
       "id": "ptt-httpswwwpttccbbsChiayiM1784535716A6F0html",
       "platform": "PTT",
@@ -283,7 +297,7 @@
       "platform": "PTT",
       "platform_color": "#00b300",
       "board": "Chiayi",
-      "date": "07/20",
+      "date": "07/21",
       "author": "PTT 鄉民",
       "title": "[問題] 嘉義BRT持高鐵票改成付費可行嗎？",
       "url": "https://www.ptt.cc/bbs/Chiayi/M.1784293167.A.0F9.html",
@@ -297,7 +311,7 @@
       "platform": "PTT",
       "platform_color": "#00b300",
       "board": "Chiayi",
-      "date": "07/20",
+      "date": "07/21",
       "author": "PTT 鄉民",
       "title": "[買賣] 勇者傳奇電影票/小野麗莎高雄演唱會/藥師少女的獨語展/海報",
       "url": "https://www.ptt.cc/bbs/Chiayi/M.1784270081.A.81F.html",
@@ -385,20 +399,6 @@
       "author": "PTT 鄉民",
       "title": "[買賣] 快拆不銹鋼前置過濾器 等生活物品",
       "url": "https://www.ptt.cc/bbs/Chiayi/M.1783757541.A.27A.html",
-      "reactions": 0,
-      "comments": 0,
-      "category": "市政議題",
-      "source": "ptt"
-    },
-    {
-      "id": "ptt-httpswwwpttccbbsChiayiM1783725220AFA1html",
-      "platform": "PTT",
-      "platform_color": "#00b300",
-      "board": "Chiayi",
-      "date": "07/11",
-      "author": "PTT 鄉民",
-      "title": "[買賣] 道奇球場入場禮-搖頭娃娃、球衣、冠軍戒",
-      "url": "https://www.ptt.cc/bbs/Chiayi/M.1783725220.A.FA1.html",
       "reactions": 0,
       "comments": 0,
       "category": "市政議題",
