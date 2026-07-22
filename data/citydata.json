@@ -1,16 +1,16 @@
 {
-  "updated_at": "2026-07-22T13:42:13.681551",
+  "updated_at": "2026-07-22T19:11:42.130819",
   "aqi_realtime": [
     {
       "station": "嘉義市（Open-Meteo 模型）",
-      "aqi": 36,
-      "pm25": 25.8,
-      "pm10": 36.0,
-      "o3": 47.0,
-      "no2": 51.9,
+      "aqi": 38,
+      "pm25": 27.6,
+      "pm10": 31.3,
+      "o3": 0.0,
+      "no2": 59.5,
       "status": "良好",
       "pollutant": "PM2.5",
-      "time": "2026-07-22T21:00",
+      "time": "2026-07-23T03:00",
       "source": "Open-Meteo"
     }
   ],
@@ -19,15 +19,15 @@
   "weather": [
     {
       "station": "嘉義市（Open-Meteo）",
-      "temp": "26.6",
-      "apparent_temp": "33.1",
-      "humidity": "94",
+      "temp": "24.6",
+      "apparent_temp": "29.3",
+      "humidity": "89",
       "rainfall": "0.0",
-      "wind_speed": "3.4",
-      "wind_dir": "133",
-      "cloud": "10",
+      "wind_speed": "3.5",
+      "wind_dir": "125",
+      "cloud": "12",
       "weather": "晴",
-      "time": "2026-07-22 21:30",
+      "time": "2026-07-23 03:00",
       "source": "Open-Meteo"
     }
   ],
@@ -40,6 +40,13 @@
       "source": "Google新聞"
     },
     {
+      "title": "嘉義雙潭星光路跑 已成為嘉義市夏季的代表性品牌活動 - 台灣公益新聞網",
+      "date": "Wed, 22 Jul 2026",
+      "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBPSFRfTi1VWXlhakpkQ3RZdWxGY01XbU0zUUx6QWdtR0RIRnI1ZEl5RUNwNDNvNC01VlJBVVY3dGM0UmU3dGE5LVpWVQ?oc=5",
+      "desc": "",
+      "source": "Google新聞"
+    },
+    {
       "title": "桃園青年走讀嘉義木都 跨縣市交流激盪地方創生新思維 - 台灣好新聞",
       "date": "Wed, 22 Jul 2026",
       "link": "https://news.google.com/rss/articles/CBMi8gJBVV95cUxOaHRLZlRGa2d4ejVCaGsyQlZ5OEhvOEFXWFo3bmloekhWMGNVQ0lSeFlrUzhqOHp1cF8yX2NoTDgzS3pfZkh0c096Z203VTRlcmlSX1E5bjhoS2gzYjV1TnBXZzNDUEZRRm00a2hyNHE2aUdYeEZjRVh0T0RNVHZVNzNWMGZjYk5LVDhka2ZTTTByNE51YXd0dnZqV0ZQd0Z4WDlHOEJZeWdWYjZIX0hMWExsRTI2bXRIYmhtTFRxcFE2bVFPbnlvTmgyRmg2Zk1GR3lMZmlsSHp1VVlGWUE2QzIyZk9VdG45UG40ZjZYSDB3ODA0MWVJWEFqLUFqOHUtN2Y0a081Sy14ZnE4UTQ3aWhKdkFScTVmOWtXRVFjTGZqZkpzRHd4WXF1SmZuRlNNVGxhOWNQV2ZlWVdjUnRwRFl0MnRaXzdRMUc2SmV3UnBzRWM1YnphQ2Vod2hITkh0OVNNdktkc3NzZUdTTkhIak5B?oc=5",
@@ -47,23 +54,16 @@
       "source": "Google新聞"
     },
     {
-      "title": "嘉市表揚市區公車優良駕駛長 持續提升公共運輸服務品質 - 中央社 CNA",
+      "title": "桃園青年赴嘉義見學交流 借鏡地方創生經驗激發城市創新 - 自由時報",
       "date": "Wed, 22 Jul 2026",
-      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5BWFNVWUdSRkgzUk1DUHRsOUxKNEEzenNkeVEzNU1GQU84TDZrNDdZVkgxVEZWSDh2cThVYkNycTN2aS1JYm9KUXh0Yzc3RnA2dWROTW93?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1TUUhYTkhGRVdLUWMwMXVRUUF4aEhLVy1mQkNoajZoU2lya192bTdRVGk5X3NuYVVFX2hjeHo5SVd6NTBTbkIwamJJYkRaMWI0a2x4Ympkbm9OSUJuZjM1MzNXdznSAWpBVV95cUxQRUY0dlA4VDJuenpEVmtEUGh3LWNhWXNhVFNUSW9VWTE1cEZ3RnFuWV9ZOURtVk5rOWpIUWN3a3RXZmxIdEQtY1dkSm91emRpamZDempuS3lmTWJLZzFYak9zVVlaajRNMl9n?oc=5",
       "desc": "",
       "source": "Google新聞"
     },
     {
-      "title": "朱宗慶打擊樂團2 打造親子音樂藝術嘉年華 - 大纪元",
+      "title": "嘉義雙潭星光路跑 相約8月8日齊聚嘉義 - 台灣民眾電子報",
       "date": "Wed, 22 Jul 2026",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1fbC1CR3E0TlZKUFkzU0tjbTBrbDdLTU95UzNhN0VrWFRJd3A4RmZ4QmlnazlrQklpNUxhd2ZaNlBZdDNBQ2NDU0JhLTMwMG9mQTk1OEprQmM5VWxYLVVtMdIBZkFVX3lxTE9yczJ3OWYyUzlmZ2d5SnJHMjVKT3RUbVI1REFIS0JQdkpwZHFFdkR3bjVBYU5qZDNsaXdpUTFVajMtZ2dwQWZMQ09BZy0zaEJkTlBRbnVTU2Nsd2J5Sm04Z290T1FzUQ?oc=5",
-      "desc": "",
-      "source": "Google新聞"
-    },
-    {
-      "title": "老師減負擔！嘉義市大手筆砸3737萬：國中小教師全減節數- 生活 - 工商時報",
-      "date": "Wed, 22 Jul 2026",
-      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9rY2hYMkd6cTJoSkxZVU9lOWlWaFg0d2ViU1FicmhHVGs5VzRYVWtGaGplNVBjN21ibDctWUpLNkQtcFNXS1BWeVJoQkVlYnVxYXRTQXRTa01lMkpuYzBV?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBpSWZOWDhPeWZ2ZUtFYlFvSkMyZHQ0cURBc254UXRNcTV3UzNiMmQwR0p3Z1BKZkkzbDEyMjBTS0Q0TXN6djVleg?oc=5",
       "desc": "",
       "source": "Google新聞"
     },
@@ -238,7 +238,7 @@
       "lat": 23.481634,
       "lng": 120.453745,
       "total": 45,
-      "available": 18,
+      "available": 15,
       "addr": "中山路199號(對面)"
     },
     {
@@ -283,7 +283,7 @@
       "lat": 23.4798596,
       "lng": 120.4488291,
       "total": 20,
-      "available": 7,
+      "available": 5,
       "addr": "中山路306號"
     },
     {
@@ -292,7 +292,7 @@
       "lat": 23.47963,
       "lng": 120.44583,
       "total": 20,
-      "available": 10,
+      "available": 9,
       "addr": "中山路386號"
     },
     {
@@ -301,7 +301,7 @@
       "lat": 23.47917,
       "lng": 120.44186,
       "total": 99,
-      "available": 80,
+      "available": 71,
       "addr": "中山路524號"
     },
     {
@@ -310,7 +310,7 @@
       "lat": 23.47877,
       "lng": 120.44089,
       "total": 42,
-      "available": 19,
+      "available": 9,
       "addr": "中山路528號"
     },
     {
@@ -328,7 +328,7 @@
       "lat": 23.47336,
       "lng": 120.44604,
       "total": 14,
-      "available": 1,
+      "available": 5,
       "addr": "垂楊路351號"
     },
     {
@@ -337,7 +337,7 @@
       "lat": 23.4738724,
       "lng": 120.4493073,
       "total": 20,
-      "available": 2,
+      "available": 4,
       "addr": "垂楊路434號"
     },
     {
@@ -346,7 +346,7 @@
       "lat": 23.47918,
       "lng": 120.43182,
       "total": 15,
-      "available": 9,
+      "available": 7,
       "addr": "北港路278號"
     },
     {
@@ -355,7 +355,7 @@
       "lat": 23.486138,
       "lng": 120.453829,
       "total": 20,
-      "available": 6,
+      "available": 7,
       "addr": "忠孝路284號(旁)"
     },
     {
@@ -364,7 +364,7 @@
       "lat": 23.48091,
       "lng": 120.43012,
       "total": 20,
-      "available": 7,
+      "available": 9,
       "addr": "北港路312號東側"
     },
     {
@@ -391,7 +391,7 @@
       "lat": 23.49265,
       "lng": 120.43191,
       "total": 15,
-      "available": 6,
+      "available": 5,
       "addr": "自由路492號"
     },
     {
@@ -400,7 +400,7 @@
       "lat": 23.478941,
       "lng": 120.437805,
       "total": 23,
-      "available": 7,
+      "available": 5,
       "addr": "博愛路二段281號"
     },
     {
@@ -409,10 +409,10 @@
       "lat": 23.47165,
       "lng": 120.43119,
       "total": 15,
-      "available": 7,
+      "available": 6,
       "addr": "博愛路二段461號"
     }
   ],
   "water": [],
-  "fetch_seconds": 98.8
+  "fetch_seconds": 101.1
 }
