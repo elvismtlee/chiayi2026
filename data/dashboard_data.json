@@ -1,6 +1,34 @@
 {
-  "updated_at": "2026-07-22T02:13:59.109897",
+  "updated_at": "2026-07-22T08:25:08.010574",
   "news": [
+    {
+      "headline": "嘉義市暑假藝文盛宴登場！朱宗慶打擊樂團2《擊樂嘉年華》攜手傑出演藝團隊打造親子音樂藝術嘉年華",
+      "source": "嘉義市政府/文化局/觀光新聞處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=946688",
+      "date": "2026/07/22",
+      "query": "市府新聞"
+    },
+    {
+      "headline": "嘉市表揚市區公車優良駕駛長肯定第一線駕駛專業持續提升公共運輸服務品質",
+      "source": "嘉義市政府/交通處/觀光新聞處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=946687",
+      "date": "2026/07/22",
+      "query": "市府新聞"
+    },
+    {
+      "headline": "2026嘉義雙潭星光路跑8/8開跑「夏夜嘉年華」結合泡泡、光影打造全新夜跑體驗",
+      "source": "嘉義市政府/教育處/觀光新聞處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=946676",
+      "date": "2026/07/22",
+      "query": "市府新聞"
+    },
+    {
+      "headline": "嘉義市115學年度全面調降國民中小學教師授課節數支持第一線教師打造幸福教育城市",
+      "source": "嘉義市政府/教育處/觀光新聞處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=946675",
+      "date": "2026/07/22",
+      "query": "市府新聞"
+    },
     {
       "headline": "嘉義市青年創業研習營聚焦數位實戰助攻業者提升營運效率",
       "source": "嘉義市政府/建設處／工商發展投資策進會／觀光新聞處",
@@ -55,34 +83,6 @@
       "source": "嘉義市政府/嘉義市政府環境保護局/資源循環管理科",
       "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=946503",
       "date": "2026/07/21",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "在嘉義她們為自己寫下名字嘉義文學館「女作家」特展橫跨百年生命書寫",
-      "source": "嘉義市政府/文化局/觀光新聞處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=946502",
-      "date": "2026/07/21",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "嘉市、桃園雙城聯手打團體戰！15組團隊來嘉拜訪共創青創與地方創生新局",
-      "source": "嘉義市政府/勞工及青年發展處/觀光新聞處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=946423",
-      "date": "2026/07/20",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "嘉義市出現首例境外移入登革熱確定病例籲請民眾加強落實孳生源清除",
-      "source": "嘉義市政府/衛生局/觀光新聞處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=946397",
-      "date": "2026/07/20",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "科學168吸引近6萬人次把握最後兩天探索科學趣",
-      "source": "嘉義市政府/教育處/觀光新聞處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=946384",
-      "date": "2026/07/20",
       "query": "市府新聞"
     }
   ],
@@ -202,7 +202,7 @@
       "2012": 1,
       "2013": 1
     },
-    "updated_at": "2026-07-22T02:11:33.471007",
+    "updated_at": "2026-07-22T08:22:39.490455",
     "source": "data.chiayi.gov.tw"
   },
   "council": {
@@ -236,6 +236,34 @@
   },
   "citizen_stats": {},
   "social_posts": [
+    {
+      "id": "ptt-httpswwwpttccbbsChiayiM1784703102ADE5html",
+      "platform": "PTT",
+      "platform_color": "#00b300",
+      "board": "Chiayi",
+      "date": "01/01",
+      "author": "PTT 鄉民",
+      "title": "Fw: [情報] 7月24日起 嘉義縣YouBike新增12個站點",
+      "url": "https://www.ptt.cc/bbs/Chiayi/M.1784703102.A.DE5.html",
+      "reactions": 0,
+      "comments": 0,
+      "category": "市政議題",
+      "source": "ptt"
+    },
+    {
+      "id": "ptt-httpswwwpttccbbsChiayiM1784696974AC1Ahtml",
+      "platform": "PTT",
+      "platform_color": "#00b300",
+      "board": "Chiayi",
+      "date": "07/22",
+      "author": "PTT 鄉民",
+      "title": "Re: [揪團] 嘉義資訊社群(Line社團)",
+      "url": "https://www.ptt.cc/bbs/Chiayi/M.1784696974.A.C1A.html",
+      "reactions": 0,
+      "comments": 0,
+      "category": "市政議題",
+      "source": "ptt"
+    },
     {
       "id": "ptt-httpswwwpttccbbsChiayiM1784602124AEFBhtml",
       "platform": "PTT",
@@ -371,34 +399,6 @@
       "author": "PTT 鄉民",
       "title": "[買賣] 7-11開心卡/肯德基/萬家福/統一數位禮券/SNOOPY事事如意碗組",
       "url": "https://www.ptt.cc/bbs/Chiayi/M.1783920074.A.692.html",
-      "reactions": 0,
-      "comments": 0,
-      "category": "市政議題",
-      "source": "ptt"
-    },
-    {
-      "id": "ptt-httpswwwpttccbbsChiayiM1783783710A204html",
-      "platform": "PTT",
-      "platform_color": "#00b300",
-      "board": "Chiayi",
-      "date": "07/14",
-      "author": "PTT 鄉民",
-      "title": "[揪團] 嘉義資訊社群(Line社團)",
-      "url": "https://www.ptt.cc/bbs/Chiayi/M.1783783710.A.204.html",
-      "reactions": 0,
-      "comments": 0,
-      "category": "市政議題",
-      "source": "ptt"
-    },
-    {
-      "id": "ptt-httpswwwpttccbbsChiayiM1783757541A27Ahtml",
-      "platform": "PTT",
-      "platform_color": "#00b300",
-      "board": "Chiayi",
-      "date": "07/11",
-      "author": "PTT 鄉民",
-      "title": "[買賣] 快拆不銹鋼前置過濾器 等生活物品",
-      "url": "https://www.ptt.cc/bbs/Chiayi/M.1783757541.A.27A.html",
       "reactions": 0,
       "comments": 0,
       "category": "市政議題",
