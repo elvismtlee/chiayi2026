@@ -1,6 +1,13 @@
 {
-  "updated_at": "2026-07-21T19:17:02.697663",
+  "updated_at": "2026-07-22T02:13:59.109897",
   "news": [
+    {
+      "headline": "嘉義市青年創業研習營聚焦數位實戰助攻業者提升營運效率",
+      "source": "嘉義市政府/建設處／工商發展投資策進會／觀光新聞處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=946663",
+      "date": "2026/07/22",
+      "query": "市府新聞"
+    },
     {
       "headline": "公告嘉義市垂楊國小及崇文國小地下停車場ROT案前置作業計畫「先期規劃」報告書(定稿本)",
       "source": "嘉義市政府/交通處",
@@ -75,13 +82,6 @@
       "headline": "科學168吸引近6萬人次把握最後兩天探索科學趣",
       "source": "嘉義市政府/教育處/觀光新聞處",
       "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=946384",
-      "date": "2026/07/20",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "家戶廢食用油別亂倒冷卻後裝罐隨車回收資源再循環",
-      "source": "嘉義市政府/嘉義市政府環境保護局/清潔隊",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=946369",
       "date": "2026/07/20",
       "query": "市府新聞"
     }
@@ -202,7 +202,7 @@
       "2012": 1,
       "2013": 1
     },
-    "updated_at": "2026-07-21T19:15:16.223726",
+    "updated_at": "2026-07-22T02:11:33.471007",
     "source": "data.chiayi.gov.tw"
   },
   "council": {
@@ -241,7 +241,7 @@
       "platform": "PTT",
       "platform_color": "#00b300",
       "board": "Chiayi",
-      "date": "07/21",
+      "date": "07/22",
       "author": "PTT 鄉民",
       "title": "[公告] molsmopuim版友水桶處份",
       "url": "https://www.ptt.cc/bbs/Chiayi/M.1784602124.A.EFB.html",
@@ -353,7 +353,7 @@
       "platform": "PTT",
       "platform_color": "#00b300",
       "board": "Chiayi",
-      "date": "07/19",
+      "date": "07/22",
       "author": "PTT 鄉民",
       "title": "[新聞] 快新聞/切割民眾黨!美女網紅驚傳｢無黨籍參選市議員｣想借外",
       "url": "https://www.ptt.cc/bbs/Chiayi/M.1783941568.A.B35.html",
