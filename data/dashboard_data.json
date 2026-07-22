@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-22T08:25:08.010574",
+  "updated_at": "2026-07-22T13:43:52.476653",
   "news": [
     {
       "headline": "嘉義市暑假藝文盛宴登場！朱宗慶打擊樂團2《擊樂嘉年華》攜手傑出演藝團隊打造親子音樂藝術嘉年華",
@@ -202,7 +202,7 @@
       "2012": 1,
       "2013": 1
     },
-    "updated_at": "2026-07-22T08:22:39.490455",
+    "updated_at": "2026-07-22T13:42:00.422212",
     "source": "data.chiayi.gov.tw"
   },
   "council": {
@@ -237,11 +237,25 @@
   "citizen_stats": {},
   "social_posts": [
     {
+      "id": "ptt-httpswwwpttccbbsChiayiM1784710372A2C0html",
+      "platform": "PTT",
+      "platform_color": "#00b300",
+      "board": "Chiayi",
+      "date": "07/22",
+      "author": "PTT 鄉民",
+      "title": "[揪團] 今天國民運動中心籃球場晚上8點",
+      "url": "https://www.ptt.cc/bbs/Chiayi/M.1784710372.A.2C0.html",
+      "reactions": 0,
+      "comments": 0,
+      "category": "市政議題",
+      "source": "ptt"
+    },
+    {
       "id": "ptt-httpswwwpttccbbsChiayiM1784703102ADE5html",
       "platform": "PTT",
       "platform_color": "#00b300",
       "board": "Chiayi",
-      "date": "01/01",
+      "date": "07/22",
       "author": "PTT 鄉民",
       "title": "Fw: [情報] 7月24日起 嘉義縣YouBike新增12個站點",
       "url": "https://www.ptt.cc/bbs/Chiayi/M.1784703102.A.DE5.html",
@@ -385,20 +399,6 @@
       "author": "PTT 鄉民",
       "title": "[新聞] 快新聞/切割民眾黨!美女網紅驚傳｢無黨籍參選市議員｣想借外",
       "url": "https://www.ptt.cc/bbs/Chiayi/M.1783941568.A.B35.html",
-      "reactions": 0,
-      "comments": 0,
-      "category": "市政議題",
-      "source": "ptt"
-    },
-    {
-      "id": "ptt-httpswwwpttccbbsChiayiM1783920074A692html",
-      "platform": "PTT",
-      "platform_color": "#00b300",
-      "board": "Chiayi",
-      "date": "07/13",
-      "author": "PTT 鄉民",
-      "title": "[買賣] 7-11開心卡/肯德基/萬家福/統一數位禮券/SNOOPY事事如意碗組",
-      "url": "https://www.ptt.cc/bbs/Chiayi/M.1783920074.A.692.html",
       "reactions": 0,
       "comments": 0,
       "category": "市政議題",
