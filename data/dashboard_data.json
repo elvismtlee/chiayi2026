@@ -1,6 +1,34 @@
 {
-  "updated_at": "2026-07-23T02:24:24.021241",
+  "updated_at": "2026-07-23T08:27:31.636612",
   "news": [
+    {
+      "headline": "清潔隊招考30名清潔隊約用清潔隊員及清潔車輛儲備駕駛",
+      "source": "嘉義市政府/嘉義市政府環境保護局/清潔隊",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=946838",
+      "date": "2026/07/23",
+      "query": "市府新聞"
+    },
+    {
+      "headline": "嘉市日前針對市售油品擴大抽驗全數合格",
+      "source": "嘉義市政府/衛生局/觀光新聞處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=946837",
+      "date": "2026/07/23",
+      "query": "市府新聞"
+    },
+    {
+      "headline": "YouBike5年騎乘人次破千萬！黃敏惠市長盼補齊「高鐵聯外軌道」拼圖",
+      "source": "嘉義市政府/交通處/觀光新聞處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=946831",
+      "date": "2026/07/23",
+      "query": "市府新聞"
+    },
+    {
+      "headline": "嘉義市打造青少年心理支持網，翻轉參與者成為同儕支持的力量",
+      "source": "嘉義市政府/衛生局",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=936908",
+      "date": "2026/07/23",
+      "query": "市府新聞"
+    },
     {
       "headline": "蟲蟲抵嘉探險去「生態夏令營」7/31熱鬧登場帶領國小學童探索生物多樣性",
       "source": "嘉義市政府/建設處",
@@ -54,34 +82,6 @@
       "headline": "公告嘉義市垂楊國小及崇文國小地下停車場ROT案前置作業計畫「先期規劃」報告書(定稿本)",
       "source": "嘉義市政府/交通處",
       "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=946552",
-      "date": "2026/07/21",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "衛福部社會福利績效實地考核黃敏惠市長率市府團隊展現社福施政成果",
-      "source": "嘉義市政府/社會處/觀光新聞處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=946539",
-      "date": "2026/07/21",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "點亮生命微光、成就每一個孩子！嘉義市林秀香主任與蔡邦居老師榮獲115年師鐸獎殊榮",
-      "source": "嘉義市政府/教育處/觀光新聞處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=946530",
-      "date": "2026/07/21",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "科學168教育博覽會廉潔宣導趣味登場",
-      "source": "嘉義市政府/政風處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=946524",
-      "date": "2026/07/21",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "科學168熱鬧落幕逾8萬人次見證嘉市科學教育實力",
-      "source": "嘉義市政府/教育處/觀光新聞處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=946516",
       "date": "2026/07/21",
       "query": "市府新聞"
     }
@@ -202,7 +202,7 @@
       "2012": 1,
       "2013": 1
     },
-    "updated_at": "2026-07-23T02:21:59.526339",
+    "updated_at": "2026-07-23T08:25:01.026333",
     "source": "data.chiayi.gov.tw"
   },
   "council": {
@@ -367,7 +367,7 @@
       "platform": "PTT",
       "platform_color": "#00b300",
       "board": "Chiayi",
-      "date": "07/21",
+      "date": "07/23",
       "author": "PTT 鄉民",
       "title": "[買賣] 勇者傳奇電影票/小野麗莎高雄演唱會/海報",
       "url": "https://www.ptt.cc/bbs/Chiayi/M.1784270081.A.81F.html",
