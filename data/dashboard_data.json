@@ -1,6 +1,20 @@
 {
-  "updated_at": "2026-07-22T19:13:23.231676",
+  "updated_at": "2026-07-23T02:24:24.021241",
   "news": [
+    {
+      "headline": "蟲蟲抵嘉探險去「生態夏令營」7/31熱鬧登場帶領國小學童探索生物多樣性",
+      "source": "嘉義市政府/建設處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=946722",
+      "date": "2026/07/23",
+      "query": "市府新聞"
+    },
+    {
+      "headline": "115年7月30日嘉義市毒災演練發送災防告警細胞廣播訊息（CBS），民眾收到簡訊請勿驚慌",
+      "source": "嘉義市政府/嘉義市政府環境保護局/綜合計畫科",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=945268",
+      "date": "2026/07/23",
+      "query": "市府新聞"
+    },
     {
       "headline": "嘉義市暑假藝文盛宴登場！朱宗慶打擊樂團2《擊樂嘉年華》攜手傑出演藝團隊打造親子音樂藝術嘉年華",
       "source": "嘉義市政府/文化局/觀光新聞處",
@@ -68,20 +82,6 @@
       "headline": "科學168熱鬧落幕逾8萬人次見證嘉市科學教育實力",
       "source": "嘉義市政府/教育處/觀光新聞處",
       "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=946516",
-      "date": "2026/07/21",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "嘉義市辦理月薪制特教助理人員甄選完善特殊教育支持服務",
-      "source": "嘉義市政府/教育處/觀光新聞處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=946514",
-      "date": "2026/07/21",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "強化回收場消防安全嘉市加強演練",
-      "source": "嘉義市政府/嘉義市政府環境保護局/資源循環管理科",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=946503",
       "date": "2026/07/21",
       "query": "市府新聞"
     }
@@ -202,7 +202,7 @@
       "2012": 1,
       "2013": 1
     },
-    "updated_at": "2026-07-22T19:10:55.365546",
+    "updated_at": "2026-07-23T02:21:59.526339",
     "source": "data.chiayi.gov.tw"
   },
   "council": {
@@ -236,6 +236,20 @@
   },
   "citizen_stats": {},
   "social_posts": [
+    {
+      "id": "ptt-httpswwwpttccbbsChiayiM1784771967A699html",
+      "platform": "PTT",
+      "platform_color": "#00b300",
+      "board": "Chiayi",
+      "date": "01/01",
+      "author": "PTT 鄉民",
+      "title": "Fw: [情報] 7月24日起 嘉義市YouBike新增2個站點",
+      "url": "https://www.ptt.cc/bbs/Chiayi/M.1784771967.A.699.html",
+      "reactions": 0,
+      "comments": 0,
+      "category": "市政議題",
+      "source": "ptt"
+    },
     {
       "id": "ptt-httpswwwpttccbbsChiayiM1784710372A2C0html",
       "platform": "PTT",
@@ -283,7 +297,7 @@
       "platform": "PTT",
       "platform_color": "#00b300",
       "board": "Chiayi",
-      "date": "07/22",
+      "date": "07/23",
       "author": "PTT 鄉民",
       "title": "[公告] molsmopuim版友水桶處份",
       "url": "https://www.ptt.cc/bbs/Chiayi/M.1784602124.A.EFB.html",
@@ -385,20 +399,6 @@
       "author": "PTT 鄉民",
       "title": "[揪團] 7/17週五羽球臨打團",
       "url": "https://www.ptt.cc/bbs/Chiayi/M.1783945445.A.A6F.html",
-      "reactions": 0,
-      "comments": 0,
-      "category": "市政議題",
-      "source": "ptt"
-    },
-    {
-      "id": "ptt-httpswwwpttccbbsChiayiM1783941568AB35html",
-      "platform": "PTT",
-      "platform_color": "#00b300",
-      "board": "Chiayi",
-      "date": "07/22",
-      "author": "PTT 鄉民",
-      "title": "[新聞] 快新聞/切割民眾黨!美女網紅驚傳｢無黨籍參選市議員｣想借外",
-      "url": "https://www.ptt.cc/bbs/Chiayi/M.1783941568.A.B35.html",
       "reactions": 0,
       "comments": 0,
       "category": "市政議題",
