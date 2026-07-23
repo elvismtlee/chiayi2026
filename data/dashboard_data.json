@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-23T08:27:31.636612",
+  "updated_at": "2026-07-23T13:49:56.547906",
   "news": [
     {
       "headline": "清潔隊招考30名清潔隊約用清潔隊員及清潔車輛儲備駕駛",
@@ -202,7 +202,7 @@
       "2012": 1,
       "2013": 1
     },
-    "updated_at": "2026-07-23T08:25:01.026333",
+    "updated_at": "2026-07-23T13:48:12.467991",
     "source": "data.chiayi.gov.tw"
   },
   "council": {
@@ -236,6 +236,20 @@
   },
   "citizen_stats": {},
   "social_posts": [
+    {
+      "id": "ptt-httpswwwpttccbbsChiayiM1784808065A5FAhtml",
+      "platform": "PTT",
+      "platform_color": "#00b300",
+      "board": "Chiayi",
+      "date": "07/23",
+      "author": "PTT 鄉民",
+      "title": "[新聞] 柯文哲挺張啓楷再出手 明天嘉市舉辦論壇",
+      "url": "https://www.ptt.cc/bbs/Chiayi/M.1784808065.A.5FA.html",
+      "reactions": 0,
+      "comments": 0,
+      "category": "市政議題",
+      "source": "ptt"
+    },
     {
       "id": "ptt-httpswwwpttccbbsChiayiM1784771967A699html",
       "platform": "PTT",
@@ -385,20 +399,6 @@
       "author": "PTT 鄉民",
       "title": "[問題] 嘉義市雷射臉部肉芽的診所",
       "url": "https://www.ptt.cc/bbs/Chiayi/M.1784013000.A.6CB.html",
-      "reactions": 0,
-      "comments": 0,
-      "category": "市政議題",
-      "source": "ptt"
-    },
-    {
-      "id": "ptt-httpswwwpttccbbsChiayiM1783945445AA6Fhtml",
-      "platform": "PTT",
-      "platform_color": "#00b300",
-      "board": "Chiayi",
-      "date": "07/13",
-      "author": "PTT 鄉民",
-      "title": "[揪團] 7/17週五羽球臨打團",
-      "url": "https://www.ptt.cc/bbs/Chiayi/M.1783945445.A.A6F.html",
       "reactions": 0,
       "comments": 0,
       "category": "市政議題",

@@ -1,16 +1,16 @@
 {
-  "updated_at": "2026-07-23T08:25:58.573822",
+  "updated_at": "2026-07-23T13:48:26.270790",
   "aqi_realtime": [
     {
       "station": "嘉義市（Open-Meteo 模型）",
-      "aqi": 39,
-      "pm25": 27.8,
-      "pm10": 42.1,
-      "o3": 116.0,
-      "no2": 15.8,
+      "aqi": 45,
+      "pm25": 32.2,
+      "pm10": 38.4,
+      "o3": 18.0,
+      "no2": 78.7,
       "status": "良好",
       "pollutant": "PM2.5",
-      "time": "2026-07-23T16:00",
+      "time": "2026-07-23T21:00",
       "source": "Open-Meteo"
     }
   ],
@@ -27,58 +27,58 @@
   "weather": [
     {
       "station": "嘉義市（Open-Meteo）",
-      "temp": "28.6",
-      "apparent_temp": "34.5",
-      "humidity": "80",
+      "temp": "25.9",
+      "apparent_temp": "32.1",
+      "humidity": "96",
       "rainfall": "0.0",
-      "wind_speed": "5.4",
-      "wind_dir": "15",
-      "cloud": "43",
-      "weather": "多雲",
-      "time": "2026-07-23 16:15",
+      "wind_speed": "4.4",
+      "wind_dir": "120",
+      "cloud": "3",
+      "weather": "晴",
+      "time": "2026-07-23 21:45",
       "source": "Open-Meteo"
     }
   ],
   "announcements": [
     {
-      "title": "嘉義市115年整合性健康篩檢啟動! 首度新增身體組成分析、持續推動無痛腸胃鏡 - 嘉義市政府衛生局",
-      "date": "Wed, 22 Jul 2026",
-      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5MUnJhamxxOGo1UUQxN2ZMbFZkd3ZHN09wLWZYczJHYVlQWXlQSWpiajh0R0pHTkIzMUlkTDhRRE5ST2tLT2E5VkJycThyZzAtTGl5NnhCdWZZQ2Jqb3I3N3ptTnRBT0pMM09wZU1mMA?oc=5",
-      "desc": "",
-      "source": "Google新聞"
-    },
-    {
-      "title": "嘉義雙潭星光路跑 已成為嘉義市夏季的代表性品牌活動 - 台灣公益新聞網",
-      "date": "Wed, 22 Jul 2026",
-      "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBPSFRfTi1VWXlhakpkQ3RZdWxGY01XbU0zUUx6QWdtR0RIRnI1ZEl5RUNwNDNvNC01VlJBVVY3dGM0UmU3dGE5LVpWVQ?oc=5",
-      "desc": "",
-      "source": "Google新聞"
-    },
-    {
-      "title": "嘉義縣出版「家鄉100問」18冊 將作國小四年級生鄉土教材 - UDN",
+      "title": "115年嘉義市弱勢族群能源效率改善計畫開跑囉 - 嘉義市政府環境保護局",
       "date": "Thu, 23 Jul 2026",
-      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1oZEtKSFozdlNhNW40RU1jVDNFVUQ3LXpBRHBjSjlOS1lORDAxRVlKeHZaOC1Od2tDRnhETE5Ed3FOaTU0Tkx2b2pWZXdkZGJn0gFWQVVfeXFMUFNQbkQ2bF9JTE04Zk8xM1JIZEtyTHhYdFFlbEFvc01iZmVEZDdnd3o1XzNTZlpxRlJJbkI0ZnM3am82Wm5XNE9QN3FaWjNCeloxOXdsU0E?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE0xZzloNE9kNldyUnJDMDNwSTJDZ1NBbzdvdC1iWDYzOHU4NFBHSnZJeTFOdWRZTkxocFBSajJKSW9IOG5ZaTZ5VWpXZ291S2IzcE9hdzYwelh4aXh0cXVLb2FRblBiUUhWZ1Zv?oc=5",
       "desc": "",
       "source": "Google新聞"
     },
     {
-      "title": "115年嘉義市「環境好嘉繪」環境教育繪本徵選即日起熱烈徵件！ - 嘉義市政府環境保護局",
-      "date": "Mon, 20 Jul 2026",
-      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9LRjBlUlFjV0ZHSmNKYTVmcllBQ3h0RDZ3d0tYdjlubTNSdGZKN3B4bTJPYk0ySXNBcGZSa2NYQWNQQVlnb2d1LV9VOTRRQUFtSEJYUUVBQUN6T21JTnk1N1ZJSUk0ZVNFd3Bj?oc=5",
-      "desc": "",
-      "source": "Google新聞"
-    },
-    {
-      "title": "YouBike千萬人次達陣 嘉市續拚高鐵聯外軌道 - 社會新聞 - PChome Online 新聞 - PChome Online 新聞",
+      "title": "嘉義市推動智慧回收機佈建再增3處！明(6/24)起推廣活動起跑 揪你回收兌優惠 - 嘉義市政府環境保護局",
       "date": "Thu, 23 Jul 2026",
-      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPcTc1QWlXY3pLM0JJbTFnV1JHWFI2LUItWktRSDdHM0FZajYxQVowa3dUUlhMbnJoQ01NTlc0UWhvaGZWckZMQUlvNVd3M3p1WUxBbldKVktJUXhSYnhTdGgwWlZJeHdZMG1lZ0lzWGVyTFhlU3pjSW5SYVZFRkJweGJoa05hNE9yVjRPZw?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1pa0xqSUx5RGVHTzJCdDJkNmRKa0pseGpQdFJKWXFXQTl2NnFkSUZiNlFreHJJbHN0eEdRaUVLS2JLNWs0a1M2WTZUbU5PdW1wX3RkQnFIejlHaXVpOFN5UzNVY2xEOEFYRThz?oc=5",
       "desc": "",
       "source": "Google新聞"
     },
     {
-      "title": "回收做對 安全加倍 嘉義市3月攜手通路推動易燃回收物安全回收 - 嘉義市政府環境保護局",
-      "date": "Mon, 20 Jul 2026",
-      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFAwVzQ5UDJBUmp4WEp3bmdvejZBdC1SQ1VsaHJsNUpQT0ZyWlQ2MHBpRDJoMjc4VklGd3hLLUpiLUhDR2FIS0dYcUJuMnY5anVSUXdFYmxETkNZaWFfb1prY0VtQWxKeExQcWhZ?oc=5",
+      "title": "嘉義市YouBike五年騎乘人次破千萬 黃敏惠盼補齊「高鐵聯外軌道」拼圖 - 台灣好新聞",
+      "date": "Thu, 23 Jul 2026",
+      "link": "https://news.google.com/rss/articles/CBMiqwNBVV95cUxQaGRGVEtEQnNjSTgwUDExVDZoQ0J0c0xhSjhBcF8xeDJZXzNjT2t1dFRtSGlJRDdPSlNubWRlODdLWkFXbjhDX01WWlE3YXBfeFNKSmwtYVl0ZmlGWllVYmVzZ0NvaE9RSEQzcnd5SDVXeHNKWlA4cUdvVWpnOEZUcWFEamRFeHVGTHNWX1RTZkRHelUteFE4cGVWRS1fc25DODhzRUJfcmdUTGdlNi1aWk42NGJKTWtLTTJvOVRYTUdrTXFLMWZkX0JUVVhCRHRmal92czZ1aWdfQ0lSb0oyNHk2LUZrczZkN0JUcksyUUFVeUIwR0owSEl2bjlkaU9VTC1xWXpWSXdzQ2NWZ3ZHYW9oZ1NSMVZhaDRoQW41Y0p5LW9WOEM3b1NZQ2R3ZUNvQ2d3bHV5RVRQbUt5ay1mb3FQdzEyaDdEWWVLTEVnb3dncUNYT3BuR3JKbTBfYUtrN0d4WHVOV0d4WFJRU09ucE9iaUVxOXFrbHJWaTRIYTNRZVRoZFJfWUlWOHBNQkEzWno1NHBMX3VDSW5RNjh5eGZkcW5WOU1INzRn?oc=5",
+      "desc": "",
+      "source": "Google新聞"
+    },
+    {
+      "title": "115/7/30嘉義市毒災演練 民眾收到簡訊請勿驚慌 - 大纪元",
+      "date": "Thu, 23 Jul 2026",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE44aEVPNEtRakhJWUtETlRmdkxvMnlOMS1GTWJYX0l6VUJFZEJIZjFJZUM0M3RQODh4Rmtjc0lBNEkxZmx3SUZNMll3UzJRaER0OWYxRDJfZ0x5ZFFoSUlNedIBZkFVX3lxTE5vZTF2UWFDVHE2dm8zUS1FN01Bakd0UnZKOWc5eGpvcDFzRHlSVmNMaDkyVmpEOTk3VXlmajBUUTBTcGFOWGFKVUQxUHdEZ0YyZnNKdE8zNjdkTmJMVzM5VHBIWW5SZw?oc=5",
+      "desc": "",
+      "source": "Google新聞"
+    },
+    {
+      "title": "市售油品擴大抽驗 嘉義市全數合格 - Yahoo新聞",
+      "date": "Thu, 23 Jul 2026",
+      "link": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxORzJ5VndEUDdCTzBBQ2tXNUJGUVBjWGJXak9SdEU2TktiaWlHc1FFekc3XzYyZEo3WU8yMzJYZjdzZkh6YTU0Z3IxVFI5WU54MjBOSHBILUxPTVpvZGJybXhrMktXZGlQOEliTXZuSXZlN3Z1T2Q0YUhwWENqQldhNlVnUHg5dV96QjZ1bEFFbUFHcnlwZU01ckh5cUFhWjJzVjNvTVAxR1ljMGxWLUdYcE0ySlRtZHI3a0E1UGRDMWxMeGpOa0dKX3R3UFlRWlVOZTdDNm91R0ZMdTdFNHZoSmRHelVlR3ZWa21nTUNEOEdoY2RUeWdpeWdTTnczWk5GX3l3bEdfYng?oc=5",
+      "desc": "",
+      "source": "Google新聞"
+    },
+    {
+      "title": "皮克敏熱潮助攻！嘉義市YouBike騎乘破千萬人次 - 中時新聞網",
+      "date": "Thu, 23 Jul 2026",
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE81Xy1xRVE2Mk1ONXFXYmJtUGZNRmF5ZnpMRXl1N2NPZHZSYk5GcnFGQmFuZTlSelIxS1lLbDVnbGk2cmljS0k5V3Q3d0Z5dVFqVzNJU3V6Wm9fZEhhSWg1dW9mMkVMclM4VUJPVEtn?oc=5",
       "desc": "",
       "source": "Google新聞"
     }
@@ -246,7 +246,7 @@
       "lat": 23.481634,
       "lng": 120.453745,
       "total": 45,
-      "available": 29,
+      "available": 16,
       "addr": "中山路199號(對面)"
     },
     {
@@ -255,7 +255,7 @@
       "lat": 23.482012,
       "lng": 120.457342,
       "total": 22,
-      "available": 4,
+      "available": 3,
       "addr": "中山路98號(前)"
     },
     {
@@ -264,7 +264,7 @@
       "lat": 23.482663,
       "lng": 120.462988,
       "total": 25,
-      "available": 14,
+      "available": 5,
       "addr": "中山路2號(前)"
     },
     {
@@ -273,7 +273,7 @@
       "lat": 23.478707,
       "lng": 120.462594,
       "total": 38,
-      "available": 7,
+      "available": 4,
       "addr": "啟明路122號(前)"
     },
     {
@@ -282,7 +282,7 @@
       "lat": 23.477031,
       "lng": 120.465573,
       "total": 34,
-      "available": 15,
+      "available": 5,
       "addr": "大雅路二段738號(前)"
     },
     {
@@ -291,7 +291,7 @@
       "lat": 23.4798596,
       "lng": 120.4488291,
       "total": 20,
-      "available": 16,
+      "available": 10,
       "addr": "中山路306號"
     },
     {
@@ -300,7 +300,7 @@
       "lat": 23.47963,
       "lng": 120.44583,
       "total": 20,
-      "available": 20,
+      "available": 5,
       "addr": "中山路386號"
     },
     {
@@ -309,7 +309,7 @@
       "lat": 23.47917,
       "lng": 120.44186,
       "total": 99,
-      "available": 54,
+      "available": 51,
       "addr": "中山路524號"
     },
     {
@@ -318,7 +318,7 @@
       "lat": 23.47877,
       "lng": 120.44089,
       "total": 42,
-      "available": 16,
+      "available": 15,
       "addr": "中山路528號"
     },
     {
@@ -327,7 +327,7 @@
       "lat": 23.47283,
       "lng": 120.44029,
       "total": 5,
-      "available": 4,
+      "available": 3,
       "addr": "垂楊路575號"
     },
     {
@@ -336,7 +336,7 @@
       "lat": 23.47336,
       "lng": 120.44604,
       "total": 14,
-      "available": 12,
+      "available": 6,
       "addr": "垂楊路351號"
     },
     {
@@ -345,7 +345,7 @@
       "lat": 23.4738724,
       "lng": 120.4493073,
       "total": 20,
-      "available": 4,
+      "available": 1,
       "addr": "垂楊路434號"
     },
     {
@@ -354,7 +354,7 @@
       "lat": 23.47918,
       "lng": 120.43182,
       "total": 15,
-      "available": 8,
+      "available": 10,
       "addr": "北港路278號"
     },
     {
@@ -363,7 +363,7 @@
       "lat": 23.486138,
       "lng": 120.453829,
       "total": 20,
-      "available": 2,
+      "available": 5,
       "addr": "忠孝路284號(旁)"
     },
     {
@@ -372,7 +372,7 @@
       "lat": 23.48091,
       "lng": 120.43012,
       "total": 20,
-      "available": 10,
+      "available": 4,
       "addr": "北港路312號東側"
     },
     {
@@ -381,7 +381,7 @@
       "lat": 23.48465,
       "lng": 120.43354,
       "total": 14,
-      "available": 8,
+      "available": 2,
       "addr": "友愛興達路口"
     },
     {
@@ -399,7 +399,7 @@
       "lat": 23.49265,
       "lng": 120.43191,
       "total": 15,
-      "available": 3,
+      "available": 4,
       "addr": "自由路492號"
     },
     {
@@ -417,10 +417,10 @@
       "lat": 23.47165,
       "lng": 120.43119,
       "total": 15,
-      "available": 8,
+      "available": 3,
       "addr": "博愛路二段461號"
     }
   ],
   "water": [],
-  "fetch_seconds": 93.1
+  "fetch_seconds": 90.3
 }
