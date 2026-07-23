@@ -1,16 +1,16 @@
 {
-  "updated_at": "2026-07-23T13:48:26.270790",
+  "updated_at": "2026-07-23T19:17:01.940719",
   "aqi_realtime": [
     {
       "station": "嘉義市（Open-Meteo 模型）",
-      "aqi": 45,
-      "pm25": 32.2,
-      "pm10": 38.4,
-      "o3": 18.0,
-      "no2": 78.7,
-      "status": "良好",
+      "aqi": 67,
+      "pm25": 41.8,
+      "pm10": 47.5,
+      "o3": 0.0,
+      "no2": 76.7,
+      "status": "普通",
       "pollutant": "PM2.5",
-      "time": "2026-07-23T21:00",
+      "time": "2026-07-24T03:00",
       "source": "Open-Meteo"
     }
   ],
@@ -27,15 +27,15 @@
   "weather": [
     {
       "station": "嘉義市（Open-Meteo）",
-      "temp": "25.9",
-      "apparent_temp": "32.1",
-      "humidity": "96",
+      "temp": "24.7",
+      "apparent_temp": "29.6",
+      "humidity": "87",
       "rainfall": "0.0",
-      "wind_speed": "4.4",
-      "wind_dir": "120",
-      "cloud": "3",
-      "weather": "晴",
-      "time": "2026-07-23 21:45",
+      "wind_speed": "1.7",
+      "wind_dir": "122",
+      "cloud": "26",
+      "weather": "多雲",
+      "time": "2026-07-24 03:15",
       "source": "Open-Meteo"
     }
   ],
@@ -55,30 +55,30 @@
       "source": "Google新聞"
     },
     {
-      "title": "嘉義市YouBike五年騎乘人次破千萬 黃敏惠盼補齊「高鐵聯外軌道」拼圖 - 台灣好新聞",
+      "title": "嘉義市擴大抽驗市售油品 全數合格 - 台灣好新聞",
       "date": "Thu, 23 Jul 2026",
-      "link": "https://news.google.com/rss/articles/CBMiqwNBVV95cUxQaGRGVEtEQnNjSTgwUDExVDZoQ0J0c0xhSjhBcF8xeDJZXzNjT2t1dFRtSGlJRDdPSlNubWRlODdLWkFXbjhDX01WWlE3YXBfeFNKSmwtYVl0ZmlGWllVYmVzZ0NvaE9RSEQzcnd5SDVXeHNKWlA4cUdvVWpnOEZUcWFEamRFeHVGTHNWX1RTZkRHelUteFE4cGVWRS1fc25DODhzRUJfcmdUTGdlNi1aWk42NGJKTWtLTTJvOVRYTUdrTXFLMWZkX0JUVVhCRHRmal92czZ1aWdfQ0lSb0oyNHk2LUZrczZkN0JUcksyUUFVeUIwR0owSEl2bjlkaU9VTC1xWXpWSXdzQ2NWZ3ZHYW9oZ1NSMVZhaDRoQW41Y0p5LW9WOEM3b1NZQ2R3ZUNvQ2d3bHV5RVRQbUt5ay1mb3FQdzEyaDdEWWVLTEVnb3dncUNYT3BuR3JKbTBfYUtrN0d4WHVOV0d4WFJRU09ucE9iaUVxOXFrbHJWaTRIYTNRZVRoZFJfWUlWOHBNQkEzWno1NHBMX3VDSW5RNjh5eGZkcW5WOU1INzRn?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMihgJBVV95cUxNRnkySHlkSHVCNldSMXN5SkZWeDNiZmZKaXJxRWZhTFl3a2N1ajA4RGh6U3o3VkFFdjN0WTRCV2o4WGNxbm1hNW5YYWlIakdGSEdEc3RWYm1lcnUzZjdxbTdnNU56UGxKNTZmWFlORDBiYXZMZTBCT2tVX1ZLYXhuNEI5QklfU3E1X29PcXRLMzVCeVU1Q1JQLUd6T1g5YWdyQnotQVVobW85Mk9RWW9UcW15RnBzVGN4cUluRkJHTEFSVkhzVnMtblpPekI0U1JfNlB0Y0I3YTFvWXVCckxTdm1jcGZBV0JqX1BLN3JOUS1XM0gzc2YxeHk2UVBIRnZKRV9QV01R?oc=5",
       "desc": "",
       "source": "Google新聞"
     },
     {
-      "title": "115/7/30嘉義市毒災演練 民眾收到簡訊請勿驚慌 - 大纪元",
+      "title": "嘉義市YouBike 5年騎乘人次破千萬！ 市長黃敏惠盼補齊「高鐵聯外軌道」拼圖 - 台灣華報",
       "date": "Thu, 23 Jul 2026",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE44aEVPNEtRakhJWUtETlRmdkxvMnlOMS1GTWJYX0l6VUJFZEJIZjFJZUM0M3RQODh4Rmtjc0lBNEkxZmx3SUZNMll3UzJRaER0OWYxRDJfZ0x5ZFFoSUlNedIBZkFVX3lxTE5vZTF2UWFDVHE2dm8zUS1FN01Bakd0UnZKOWc5eGpvcDFzRHlSVmNMaDkyVmpEOTk3VXlmajBUUTBTcGFOWGFKVUQxUHdEZ0YyZnNKdE8zNjdkTmJMVzM5VHBIWW5SZw?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1fNzUtcW5nS2lkc245REFMRHhaVnhmZEUyVnB2RWR0VUFHY0tleU9aZzZFUWlJTHdIaUR4bkdaVFVxX1p4emN5Qmo3X2FNNVhPeTRxX00wUXlpSXJsTEJpaHJkZUx2OXVoRXpZ?oc=5",
       "desc": "",
       "source": "Google新聞"
     },
     {
-      "title": "市售油品擴大抽驗 嘉義市全數合格 - Yahoo新聞",
+      "title": "YouBike騎乘破千萬 嘉義市零失竊率打造綠色交通典範 - 觀傳媒",
       "date": "Thu, 23 Jul 2026",
-      "link": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxORzJ5VndEUDdCTzBBQ2tXNUJGUVBjWGJXak9SdEU2TktiaWlHc1FFekc3XzYyZEo3WU8yMzJYZjdzZkh6YTU0Z3IxVFI5WU54MjBOSHBILUxPTVpvZGJybXhrMktXZGlQOEliTXZuSXZlN3Z1T2Q0YUhwWENqQldhNlVnUHg5dV96QjZ1bEFFbUFHcnlwZU01ckh5cUFhWjJzVjNvTVAxR1ljMGxWLUdYcE0ySlRtZHI3a0E1UGRDMWxMeGpOa0dKX3R3UFlRWlVOZTdDNm91R0ZMdTdFNHZoSmRHelVlR3ZWa21nTUNEOEdoY2RUeWdpeWdTTnczWk5GX3l3bEdfYng?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5Cdl9NSVVnS0lzOW9aWjVUcU5nMHRXOXlQTHppMDlHSzlRWGtRbTV2dXZtUWdELUoxX180c1BzYVNzZXlJVlJENHN2WXc0dXdTNHNPbXp6Yw?oc=5",
       "desc": "",
       "source": "Google新聞"
     },
     {
-      "title": "皮克敏熱潮助攻！嘉義市YouBike騎乘破千萬人次 - 中時新聞網",
-      "date": "Thu, 23 Jul 2026",
-      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE81Xy1xRVE2Mk1ONXFXYmJtUGZNRmF5ZnpMRXl1N2NPZHZSYk5GcnFGQmFuZTlSelIxS1lLbDVnbGk2cmljS0k5V3Q3d0Z5dVFqVzNJU3V6Wm9fZEhhSWg1dW9mMkVMclM4VUJPVEtn?oc=5",
+      "title": "嘉義雙潭星光路跑 已成為嘉義市夏季的代表性品牌活動 - 台灣公益新聞網",
+      "date": "Wed, 22 Jul 2026",
+      "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBPSFRfTi1VWXlhakpkQ3RZdWxGY01XbU0zUUx6QWdtR0RIRnI1ZEl5RUNwNDNvNC01VlJBVVY3dGM0UmU3dGE5LVpWVQ?oc=5",
       "desc": "",
       "source": "Google新聞"
     }
@@ -146,30 +146,7 @@
     "enterovirus": [],
     "updated": "2026-07-23"
   },
-  "fire": {
-    "chiayi_datasets": [
-      {
-        "title": "",
-        "date": ""
-      },
-      {
-        "title": "",
-        "date": ""
-      },
-      {
-        "title": "",
-        "date": ""
-      },
-      {
-        "title": "",
-        "date": ""
-      },
-      {
-        "title": "",
-        "date": ""
-      }
-    ]
-  },
+  "fire": {},
   "population": [],
   "bus": [
     {
@@ -255,7 +232,7 @@
       "lat": 23.482012,
       "lng": 120.457342,
       "total": 22,
-      "available": 3,
+      "available": 5,
       "addr": "中山路98號(前)"
     },
     {
@@ -264,7 +241,7 @@
       "lat": 23.482663,
       "lng": 120.462988,
       "total": 25,
-      "available": 5,
+      "available": 8,
       "addr": "中山路2號(前)"
     },
     {
@@ -273,7 +250,7 @@
       "lat": 23.478707,
       "lng": 120.462594,
       "total": 38,
-      "available": 4,
+      "available": 3,
       "addr": "啟明路122號(前)"
     },
     {
@@ -282,7 +259,7 @@
       "lat": 23.477031,
       "lng": 120.465573,
       "total": 34,
-      "available": 5,
+      "available": 12,
       "addr": "大雅路二段738號(前)"
     },
     {
@@ -291,7 +268,7 @@
       "lat": 23.4798596,
       "lng": 120.4488291,
       "total": 20,
-      "available": 10,
+      "available": 2,
       "addr": "中山路306號"
     },
     {
@@ -300,7 +277,7 @@
       "lat": 23.47963,
       "lng": 120.44583,
       "total": 20,
-      "available": 5,
+      "available": 7,
       "addr": "中山路386號"
     },
     {
@@ -309,7 +286,7 @@
       "lat": 23.47917,
       "lng": 120.44186,
       "total": 99,
-      "available": 51,
+      "available": 71,
       "addr": "中山路524號"
     },
     {
@@ -318,7 +295,7 @@
       "lat": 23.47877,
       "lng": 120.44089,
       "total": 42,
-      "available": 15,
+      "available": 25,
       "addr": "中山路528號"
     },
     {
@@ -327,7 +304,7 @@
       "lat": 23.47283,
       "lng": 120.44029,
       "total": 5,
-      "available": 3,
+      "available": 4,
       "addr": "垂楊路575號"
     },
     {
@@ -336,7 +313,7 @@
       "lat": 23.47336,
       "lng": 120.44604,
       "total": 14,
-      "available": 6,
+      "available": 7,
       "addr": "垂楊路351號"
     },
     {
@@ -345,7 +322,7 @@
       "lat": 23.4738724,
       "lng": 120.4493073,
       "total": 20,
-      "available": 1,
+      "available": 6,
       "addr": "垂楊路434號"
     },
     {
@@ -354,7 +331,7 @@
       "lat": 23.47918,
       "lng": 120.43182,
       "total": 15,
-      "available": 10,
+      "available": 6,
       "addr": "北港路278號"
     },
     {
@@ -363,7 +340,7 @@
       "lat": 23.486138,
       "lng": 120.453829,
       "total": 20,
-      "available": 5,
+      "available": 7,
       "addr": "忠孝路284號(旁)"
     },
     {
@@ -372,7 +349,7 @@
       "lat": 23.48091,
       "lng": 120.43012,
       "total": 20,
-      "available": 4,
+      "available": 2,
       "addr": "北港路312號東側"
     },
     {
@@ -381,7 +358,7 @@
       "lat": 23.48465,
       "lng": 120.43354,
       "total": 14,
-      "available": 2,
+      "available": 5,
       "addr": "友愛興達路口"
     },
     {
@@ -390,7 +367,7 @@
       "lat": 23.48931,
       "lng": 120.4361,
       "total": 15,
-      "available": 8,
+      "available": 7,
       "addr": "自由路298號"
     },
     {
@@ -408,7 +385,7 @@
       "lat": 23.478941,
       "lng": 120.437805,
       "total": 23,
-      "available": 9,
+      "available": 6,
       "addr": "博愛路二段281號"
     },
     {
@@ -422,5 +399,5 @@
     }
   ],
   "water": [],
-  "fetch_seconds": 90.3
+  "fetch_seconds": 190.1
 }
