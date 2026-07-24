@@ -1,16 +1,16 @@
 {
-  "updated_at": "2026-07-23T19:17:01.940719",
+  "updated_at": "2026-07-24T02:13:20.917416",
   "aqi_realtime": [
     {
       "station": "嘉義市（Open-Meteo 模型）",
-      "aqi": 67,
-      "pm25": 41.8,
-      "pm10": 47.5,
-      "o3": 0.0,
-      "no2": 76.7,
-      "status": "普通",
+      "aqi": 37,
+      "pm25": 26.7,
+      "pm10": 38.0,
+      "o3": 56.0,
+      "no2": 33.4,
+      "status": "良好",
       "pollutant": "PM2.5",
-      "time": "2026-07-24T03:00",
+      "time": "2026-07-24T10:00",
       "source": "Open-Meteo"
     }
   ],
@@ -27,15 +27,15 @@
   "weather": [
     {
       "station": "嘉義市（Open-Meteo）",
-      "temp": "24.7",
-      "apparent_temp": "29.6",
-      "humidity": "87",
+      "temp": "30.4",
+      "apparent_temp": "35.7",
+      "humidity": "72",
       "rainfall": "0.0",
-      "wind_speed": "1.7",
-      "wind_dir": "122",
-      "cloud": "26",
+      "wind_speed": "12.1",
+      "wind_dir": "345",
+      "cloud": "62",
       "weather": "多雲",
-      "time": "2026-07-24 03:15",
+      "time": "2026-07-24 10:00",
       "source": "Open-Meteo"
     }
   ],
@@ -144,9 +144,32 @@
   "disease": {
     "dengue": [],
     "enterovirus": [],
-    "updated": "2026-07-23"
+    "updated": "2026-07-24"
   },
-  "fire": {},
+  "fire": {
+    "chiayi_datasets": [
+      {
+        "title": "",
+        "date": ""
+      },
+      {
+        "title": "",
+        "date": ""
+      },
+      {
+        "title": "",
+        "date": ""
+      },
+      {
+        "title": "",
+        "date": ""
+      },
+      {
+        "title": "",
+        "date": ""
+      }
+    ]
+  },
   "population": [],
   "bus": [
     {
@@ -223,7 +246,7 @@
       "lat": 23.481634,
       "lng": 120.453745,
       "total": 45,
-      "available": 16,
+      "available": 23,
       "addr": "中山路199號(對面)"
     },
     {
@@ -232,7 +255,7 @@
       "lat": 23.482012,
       "lng": 120.457342,
       "total": 22,
-      "available": 5,
+      "available": 3,
       "addr": "中山路98號(前)"
     },
     {
@@ -250,7 +273,7 @@
       "lat": 23.478707,
       "lng": 120.462594,
       "total": 38,
-      "available": 3,
+      "available": 27,
       "addr": "啟明路122號(前)"
     },
     {
@@ -259,7 +282,7 @@
       "lat": 23.477031,
       "lng": 120.465573,
       "total": 34,
-      "available": 12,
+      "available": 14,
       "addr": "大雅路二段738號(前)"
     },
     {
@@ -268,7 +291,7 @@
       "lat": 23.4798596,
       "lng": 120.4488291,
       "total": 20,
-      "available": 2,
+      "available": 4,
       "addr": "中山路306號"
     },
     {
@@ -277,7 +300,7 @@
       "lat": 23.47963,
       "lng": 120.44583,
       "total": 20,
-      "available": 7,
+      "available": 15,
       "addr": "中山路386號"
     },
     {
@@ -286,7 +309,7 @@
       "lat": 23.47917,
       "lng": 120.44186,
       "total": 99,
-      "available": 71,
+      "available": 36,
       "addr": "中山路524號"
     },
     {
@@ -295,7 +318,7 @@
       "lat": 23.47877,
       "lng": 120.44089,
       "total": 42,
-      "available": 25,
+      "available": 20,
       "addr": "中山路528號"
     },
     {
@@ -304,7 +327,7 @@
       "lat": 23.47283,
       "lng": 120.44029,
       "total": 5,
-      "available": 4,
+      "available": 5,
       "addr": "垂楊路575號"
     },
     {
@@ -313,7 +336,7 @@
       "lat": 23.47336,
       "lng": 120.44604,
       "total": 14,
-      "available": 7,
+      "available": 6,
       "addr": "垂楊路351號"
     },
     {
@@ -322,7 +345,7 @@
       "lat": 23.4738724,
       "lng": 120.4493073,
       "total": 20,
-      "available": 6,
+      "available": 16,
       "addr": "垂楊路434號"
     },
     {
@@ -331,7 +354,7 @@
       "lat": 23.47918,
       "lng": 120.43182,
       "total": 15,
-      "available": 6,
+      "available": 7,
       "addr": "北港路278號"
     },
     {
@@ -340,7 +363,7 @@
       "lat": 23.486138,
       "lng": 120.453829,
       "total": 20,
-      "available": 7,
+      "available": 8,
       "addr": "忠孝路284號(旁)"
     },
     {
@@ -349,7 +372,7 @@
       "lat": 23.48091,
       "lng": 120.43012,
       "total": 20,
-      "available": 2,
+      "available": 12,
       "addr": "北港路312號東側"
     },
     {
@@ -376,7 +399,7 @@
       "lat": 23.49265,
       "lng": 120.43191,
       "total": 15,
-      "available": 4,
+      "available": 2,
       "addr": "自由路492號"
     },
     {
@@ -385,7 +408,7 @@
       "lat": 23.478941,
       "lng": 120.437805,
       "total": 23,
-      "available": 6,
+      "available": 10,
       "addr": "博愛路二段281號"
     },
     {
@@ -394,10 +417,10 @@
       "lat": 23.47165,
       "lng": 120.43119,
       "total": 15,
-      "available": 3,
+      "available": 9,
       "addr": "博愛路二段461號"
     }
   ],
   "water": [],
-  "fetch_seconds": 190.1
+  "fetch_seconds": 95.5
 }
