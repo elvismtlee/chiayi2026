@@ -1,6 +1,41 @@
 {
-  "updated_at": "2026-07-24T08:20:46.304606",
+  "updated_at": "2026-07-24T13:30:50.598093",
   "news": [
+    {
+      "headline": "深入鄰里、服務市民黃敏惠市長表揚績優里鄰長及民戶政人員",
+      "source": "嘉義市政府/民政處/觀光新聞處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=947001",
+      "date": "2026/07/24",
+      "query": "市府新聞"
+    },
+    {
+      "headline": "經典再續！嘉義市KANO王牌投手雕像完成翻銅修復今日重返噴水圓環",
+      "source": "嘉義市政府/建設處/觀光新聞處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=946996",
+      "date": "2026/07/24",
+      "query": "市府新聞"
+    },
+    {
+      "headline": "粒料變顏料~~大溪厝水環境教育園區主題課程利用再生粒料揮灑繪畫創意",
+      "source": "嘉義市政府/嘉義市政府環境保護局/環保設施管理科",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=946994",
+      "date": "2026/07/24",
+      "query": "市府新聞"
+    },
+    {
+      "headline": "海外青年跨海傳愛嘉義市展開國際共學新篇章嘉北國小、蘭潭國中以英語、文化與在地行動連結世界",
+      "source": "嘉義市政府/教育處/觀光新聞處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=946986",
+      "date": "2026/07/24",
+      "query": "市府新聞"
+    },
+    {
+      "headline": "嘉義市政府政風處結合警察局通譯講習攜手新住民守護乾淨選風",
+      "source": "嘉義市政府/政風處/觀光新聞處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=946981",
+      "date": "2026/07/24",
+      "query": "市府新聞"
+    },
     {
       "headline": "嘉義市政府政風處舉辦115年年中工作檢討會強化廉政紀律與預警機制守護市政清廉",
       "source": "嘉義市政府/政風處/觀光新聞處",
@@ -48,41 +83,6 @@
       "source": "嘉義市政府/衛生局/觀光新聞處",
       "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=946837",
       "date": "2026/07/23",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "YouBike5年騎乘人次破千萬！黃敏惠市長盼補齊「高鐵聯外軌道」拼圖",
-      "source": "嘉義市政府/交通處/觀光新聞處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=946831",
-      "date": "2026/07/23",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "嘉義市打造青少年心理支持網，翻轉參與者成為同儕支持的力量",
-      "source": "嘉義市政府/衛生局",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=936908",
-      "date": "2026/07/23",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "蟲蟲抵嘉探險去「生態夏令營」7/31熱鬧登場帶領國小學童探索生物多樣性",
-      "source": "嘉義市政府/建設處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=946722",
-      "date": "2026/07/23",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "115年7月30日嘉義市毒災演練發送災防告警細胞廣播訊息（CBS），民眾收到簡訊請勿驚慌",
-      "source": "嘉義市政府/嘉義市政府環境保護局/綜合計畫科",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=945268",
-      "date": "2026/07/23",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "嘉義市暑假藝文盛宴登場！朱宗慶打擊樂團2《擊樂嘉年華》攜手傑出演藝團隊打造親子音樂藝術嘉年華",
-      "source": "嘉義市政府/文化局/觀光新聞處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=946688",
-      "date": "2026/07/22",
       "query": "市府新聞"
     }
   ],
@@ -202,7 +202,7 @@
       "2012": 1,
       "2013": 1
     },
-    "updated_at": "2026-07-24T08:19:04.225501",
+    "updated_at": "2026-07-24T13:28:30.760690",
     "source": "data.chiayi.gov.tw"
   },
   "council": {
@@ -236,6 +236,34 @@
   },
   "citizen_stats": {},
   "social_posts": [
+    {
+      "id": "ptt-httpswwwpttccbbsChiayiM1784889956A04Dhtml",
+      "platform": "PTT",
+      "platform_color": "#00b300",
+      "board": "Chiayi",
+      "date": "07/24",
+      "author": "PTT 鄉民",
+      "title": "[新聞] 嘉義驚傳學生墜樓悲劇！警勘查結果曝光",
+      "url": "https://www.ptt.cc/bbs/Chiayi/M.1784889956.A.04D.html",
+      "reactions": 0,
+      "comments": 0,
+      "category": "通學安全",
+      "source": "ptt"
+    },
+    {
+      "id": "ptt-httpswwwpttccbbsChiayiM1784881566AC87html",
+      "platform": "PTT",
+      "platform_color": "#00b300",
+      "board": "Chiayi",
+      "date": "07/24",
+      "author": "PTT 鄉民",
+      "title": "[揪團] 7/24今晚19:30 ZUMBA律動團",
+      "url": "https://www.ptt.cc/bbs/Chiayi/M.1784881566.A.C87.html",
+      "reactions": 0,
+      "comments": 0,
+      "category": "市政議題",
+      "source": "ptt"
+    },
     {
       "id": "ptt-httpswwwpttccbbsChiayiM1784880390A52Ehtml",
       "platform": "PTT",
@@ -371,34 +399,6 @@
       "author": "PTT 鄉民",
       "title": "[問題] 骨質疏鬆醫生的推薦",
       "url": "https://www.ptt.cc/bbs/Chiayi/M.1784343766.A.0DF.html",
-      "reactions": 0,
-      "comments": 0,
-      "category": "市政議題",
-      "source": "ptt"
-    },
-    {
-      "id": "ptt-httpswwwpttccbbsChiayiM1784293167A0F9html",
-      "platform": "PTT",
-      "platform_color": "#00b300",
-      "board": "Chiayi",
-      "date": "07/22",
-      "author": "PTT 鄉民",
-      "title": "[問題] 嘉義BRT持高鐵票改成付費可行嗎？",
-      "url": "https://www.ptt.cc/bbs/Chiayi/M.1784293167.A.0F9.html",
-      "reactions": 0,
-      "comments": 0,
-      "category": "市政議題",
-      "source": "ptt"
-    },
-    {
-      "id": "ptt-httpswwwpttccbbsChiayiM1784270081A81Fhtml",
-      "platform": "PTT",
-      "platform_color": "#00b300",
-      "board": "Chiayi",
-      "date": "07/23",
-      "author": "PTT 鄉民",
-      "title": "[買賣] 勇者傳奇電影票/小野麗莎高雄演唱會/海報",
-      "url": "https://www.ptt.cc/bbs/Chiayi/M.1784270081.A.81F.html",
       "reactions": 0,
       "comments": 0,
       "category": "市政議題",
