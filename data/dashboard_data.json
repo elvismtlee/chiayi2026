@@ -1,98 +1,13 @@
 {
-  "updated_at": "2026-07-25T13:21:01.344568",
-  "news": [
-    {
-      "headline": "考驗環保知識、拼團隊默契！環保群英會熱鬧登場凝聚守護環境精神",
-      "source": "嘉義市政府/環保局/觀光新聞處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=947055",
-      "date": "2026/07/25",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "瓷上風景：蝶戀花-台灣瓷繪藝術協會會員聯展開幕逾百件作品呈現藝術細膩之美",
-      "source": "嘉義市政府/文化局/觀光新聞處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=947054",
-      "date": "2026/07/25",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "作伙在嘉起家！嘉市創新模式徵才釋500+職缺五大主題百工專區助攻全齡就業起飛",
-      "source": "嘉義市政府/勞青處/觀光新聞處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=947053",
-      "date": "2026/07/25",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "「嘉義創意產業加速器」正式啟動打造創意產業城市新基地",
-      "source": "嘉義市政府/文化局/觀光新聞處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=947051",
-      "date": "2026/07/25",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "2026嘉義市購物節買氣強強滾！「週霸王」狂刷96萬元Volvo百萬大獎吸睛全臺來嘉抽豪禮",
-      "source": "嘉義市政府/建設處/觀光新聞處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=947050",
-      "date": "2026/07/25",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "115年群英會傳承守護環境的精神打造宜居嘉園",
-      "source": "嘉義市政府/嘉義市政府環境保護局/綜合計畫科",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=946376",
-      "date": "2026/07/25",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "喚起城市的理解與陪伴！《被遺忘的時光》臺語版失智紀錄片抵嘉公益放映",
-      "source": "嘉義市政府/衛生局",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=946984",
-      "date": "2026/07/25",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "熟記「救溺五步」，快樂玩水平安回家",
-      "source": "嘉義市政府/西區公所",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=946833",
-      "date": "2026/07/25",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "深入鄰里、服務市民黃敏惠市長表揚績優里鄰長及民戶政人員",
-      "source": "嘉義市政府/民政處/觀光新聞處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=947001",
-      "date": "2026/07/24",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "經典再續！嘉義市KANO王牌投手雕像完成翻銅修復今日重返噴水圓環",
-      "source": "嘉義市政府/建設處/觀光新聞處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=946996",
-      "date": "2026/07/24",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "粒料變顏料~~大溪厝水環境教育園區主題課程利用再生粒料揮灑繪畫創意",
-      "source": "嘉義市政府/嘉義市政府環境保護局/環保設施管理科",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=946994",
-      "date": "2026/07/24",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "海外青年跨海傳愛嘉義市展開國際共學新篇章嘉北國小、蘭潭國中以英語、文化與在地行動連結世界",
-      "source": "嘉義市政府/教育處/觀光新聞處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=946986",
-      "date": "2026/07/24",
-      "query": "市府新聞"
-    }
-  ],
+  "updated_at": "2026-07-25T19:10:08.523497",
+  "news": [],
   "complaint_stats": {
-    "total": 78783,
-    "record_count": 525,
+    "total": 78725,
+    "record_count": 467,
     "category_counts": {
       "公共安全": 37949,
       "交通停車": 7743,
-      "道路路平": 270,
+      "道路路平": 212,
       "環境衛生": 5,
       "行政服務": 6
     },
@@ -107,11 +22,10 @@
         "公有停車場": 38
       },
       "道路路平": {
-        "電力管線": 27,
-        "市府工程": 5,
-        "自來水管線": 40,
-        "電信管線": 23,
-        "道路施工": 3,
+        "電信管線": 10,
+        "電力管線": 11,
+        "自來水管線": 18,
+        "道路施工": 1,
         "橋梁設施": 172
       },
       "環境衛生": {
@@ -123,35 +37,23 @@
     },
     "top_roads": [
       {
-        "road": "東區嘉義",
-        "count": 12
-      },
-      {
         "road": "蘭潭水庫",
         "count": 12
       },
       {
+        "road": "東區嘉義",
+        "count": 4
+      },
+      {
         "road": "西區後驛村里友忠路7",
-        "count": 3
-      },
-      {
-        "road": "西區湖內村里湖美九街",
-        "count": 3
-      },
-      {
-        "road": "西區西榮村里民生北路",
-        "count": 2
-      },
-      {
-        "road": "西區西榮村里延平街3",
-        "count": 2
-      },
-      {
-        "road": "西區福安村里國城二街",
         "count": 2
       },
       {
         "road": "西區下埤村里仁愛路1",
+        "count": 2
+      },
+      {
+        "road": "西區湖內村里湖美九街",
         "count": 2
       },
       {
@@ -160,6 +62,18 @@
       },
       {
         "road": "東區太平村里新生路5",
+        "count": 2
+      },
+      {
+        "road": "東區短竹村里彌陀路2",
+        "count": 2
+      },
+      {
+        "road": "親水公園",
+        "count": 2
+      },
+      {
+        "road": "蘭潭水庫三信亭附近",
         "count": 2
       }
     ],
@@ -174,7 +88,7 @@
       },
       {
         "category": "道路路平",
-        "count": 270
+        "count": 212
       },
       {
         "category": "行政服務",
@@ -196,13 +110,13 @@
       "2021": 3035,
       "2022": 3112,
       "2023": 3318,
-      "2024": 3271,
-      "2025": 8889,
-      "2026": 2870,
+      "2024": 3270,
+      "2025": 8876,
+      "2026": 2826,
       "2012": 1,
       "2013": 1
     },
-    "updated_at": "2026-07-25T13:18:27.086539",
+    "updated_at": "2026-07-25T19:06:43.996884",
     "source": "data.chiayi.gov.tw"
   },
   "council": {
@@ -297,7 +211,7 @@
       "platform": "PTT",
       "platform_color": "#00b300",
       "board": "Chiayi",
-      "date": "07/25",
+      "date": "07/26",
       "author": "PTT 鄉民",
       "title": "[新聞] 張啓楷稱嘉市長民調差距縮至3.5％ 柯文",
       "url": "https://www.ptt.cc/bbs/Chiayi/M.1784880390.A.52E.html",
