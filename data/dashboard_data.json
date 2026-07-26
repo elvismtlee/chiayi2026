@@ -1,6 +1,27 @@
 {
-  "updated_at": "2026-07-26T08:25:55.836626",
+  "updated_at": "2026-07-26T13:12:47.752685",
   "news": [
+    {
+      "headline": "《文化＋1串！》串起嘉義市36處文化據點互動集點邀全民探索城市文化",
+      "source": "嘉義市政府/文化局/觀光新聞處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=947080",
+      "date": "2026/07/26",
+      "query": "市府新聞"
+    },
+    {
+      "headline": "嘉邑保南境福德正神廟迎建廟300年黃敏惠市長開鑼宣告九月遶境盛事",
+      "source": "嘉義市政府/民政處/觀光新聞處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=947079",
+      "date": "2026/07/26",
+      "query": "市府新聞"
+    },
+    {
+      "headline": "「小狀元經典會考」登場！123位學童傳承經典循古禮厚植文化",
+      "source": "嘉義市政府/民政處/觀光新聞處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=947078",
+      "date": "2026/07/26",
+      "query": "市府新聞"
+    },
     {
       "headline": "「嘉」油小勇士出任務！嘉義市衛生局邀親子闖關學健康守護孩子健康成長",
       "source": "嘉義市政府/衛生局",
@@ -62,27 +83,6 @@
       "source": "嘉義市政府/西區公所",
       "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=946833",
       "date": "2026/07/25",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "深入鄰里、服務市民黃敏惠市長表揚績優里鄰長及民戶政人員",
-      "source": "嘉義市政府/民政處/觀光新聞處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=947001",
-      "date": "2026/07/24",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "經典再續！嘉義市KANO王牌投手雕像完成翻銅修復今日重返噴水圓環",
-      "source": "嘉義市政府/建設處/觀光新聞處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=946996",
-      "date": "2026/07/24",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "粒料變顏料~~大溪厝水環境教育園區主題課程利用再生粒料揮灑繪畫創意",
-      "source": "嘉義市政府/嘉義市政府環境保護局/環保設施管理科",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=946994",
-      "date": "2026/07/24",
       "query": "市府新聞"
     }
   ],
@@ -201,7 +201,7 @@
       "2012": 1,
       "2013": 1
     },
-    "updated_at": "2026-07-26T08:23:25.091850",
+    "updated_at": "2026-07-26T13:11:07.296453",
     "source": "data.chiayi.gov.tw"
   },
   "council": {
