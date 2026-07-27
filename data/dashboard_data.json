@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-27T09:47:32.621886",
+  "updated_at": "2026-07-27T14:28:14.302247",
   "news": [
     {
       "headline": "北興陸橋配合鐵高施工，08/03(夜間21時至翌日6時)全線封閉",
@@ -201,7 +201,7 @@
       "2012": 1,
       "2013": 1
     },
-    "updated_at": "2026-07-27T09:45:05.580605",
+    "updated_at": "2026-07-27T14:25:47.601638",
     "source": "data.chiayi.gov.tw"
   },
   "council": {
@@ -235,6 +235,34 @@
   },
   "citizen_stats": {},
   "social_posts": [
+    {
+      "id": "ptt-httpswwwpttccbbsChiayiM1785156325A8F7html",
+      "platform": "PTT",
+      "platform_color": "#00b300",
+      "board": "Chiayi",
+      "date": "07/27",
+      "author": "PTT 鄉民",
+      "title": "售 iPhone 14 Pro 128g 白色",
+      "url": "https://www.ptt.cc/bbs/Chiayi/M.1785156325.A.8F7.html",
+      "reactions": 0,
+      "comments": 0,
+      "category": "市政議題",
+      "source": "ptt"
+    },
+    {
+      "id": "ptt-httpswwwpttccbbsChiayiM1785146619A103html",
+      "platform": "PTT",
+      "platform_color": "#00b300",
+      "board": "Chiayi",
+      "date": "07/27",
+      "author": "PTT 鄉民",
+      "title": "[亂入] 免費今晚奧德賽，急",
+      "url": "https://www.ptt.cc/bbs/Chiayi/M.1785146619.A.103.html",
+      "reactions": 0,
+      "comments": 0,
+      "category": "市政議題",
+      "source": "ptt"
+    },
     {
       "id": "ptt-httpswwwpttccbbsChiayiM1785115780A5E6html",
       "platform": "PTT",
@@ -370,34 +398,6 @@
       "author": "PTT 鄉民",
       "title": "[揪團] 今天國民運動中心籃球場晚上8點",
       "url": "https://www.ptt.cc/bbs/Chiayi/M.1784710372.A.2C0.html",
-      "reactions": 0,
-      "comments": 0,
-      "category": "市政議題",
-      "source": "ptt"
-    },
-    {
-      "id": "ptt-httpswwwpttccbbsChiayiM1784703102ADE5html",
-      "platform": "PTT",
-      "platform_color": "#00b300",
-      "board": "Chiayi",
-      "date": "07/22",
-      "author": "PTT 鄉民",
-      "title": "Fw: [情報] 7月24日起 嘉義縣YouBike新增12個站點",
-      "url": "https://www.ptt.cc/bbs/Chiayi/M.1784703102.A.DE5.html",
-      "reactions": 0,
-      "comments": 0,
-      "category": "市政議題",
-      "source": "ptt"
-    },
-    {
-      "id": "ptt-httpswwwpttccbbsChiayiM1784696974AC1Ahtml",
-      "platform": "PTT",
-      "platform_color": "#00b300",
-      "board": "Chiayi",
-      "date": "07/23",
-      "author": "PTT 鄉民",
-      "title": "Re: [揪團] 嘉義資訊社群(Line社團)",
-      "url": "https://www.ptt.cc/bbs/Chiayi/M.1784696974.A.C1A.html",
       "reactions": 0,
       "comments": 0,
       "category": "市政議題",
