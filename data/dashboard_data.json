@@ -1,6 +1,27 @@
 {
-  "updated_at": "2026-07-26T19:08:58.551919",
+  "updated_at": "2026-07-27T02:33:45.293030",
   "news": [
+    {
+      "headline": "為加強嘉義市(以下簡稱本市)市區道路停車秩序整頓及提高停車周轉率，本市東區體育館自有停車彎自115年8月1日起實施路邊停車收費管理事宜。",
+      "source": "嘉義市政府/交通處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=947115",
+      "date": "2026/07/27",
+      "query": "市府新聞"
+    },
+    {
+      "headline": "嘉義天恩宮平安遶境祈福將登場！交管資訊公開",
+      "source": "嘉義市政府/警察局/觀光新聞處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=947113",
+      "date": "2026/07/27",
+      "query": "市府新聞"
+    },
+    {
+      "headline": "嘉義市7月30日辦理毒性化學物質暨輻射災害模擬演練環保局提醒收到告警訊息勿驚慌",
+      "source": "嘉義市政府/環境保護局/觀光新聞處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=947112",
+      "date": "2026/07/27",
+      "query": "市府新聞"
+    },
     {
       "headline": "《文化＋1串！》串起嘉義市36處文化據點互動集點邀全民探索城市文化",
       "source": "嘉義市政府/文化局/觀光新聞處",
@@ -61,27 +82,6 @@
       "headline": "2026嘉義市購物節買氣強強滾！「週霸王」狂刷96萬元Volvo百萬大獎吸睛全臺來嘉抽豪禮",
       "source": "嘉義市政府/建設處/觀光新聞處",
       "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=947050",
-      "date": "2026/07/25",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "115年群英會傳承守護環境的精神打造宜居嘉園",
-      "source": "嘉義市政府/嘉義市政府環境保護局/綜合計畫科",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=946376",
-      "date": "2026/07/25",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "喚起城市的理解與陪伴！《被遺忘的時光》臺語版失智紀錄片抵嘉公益放映",
-      "source": "嘉義市政府/衛生局",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=946984",
-      "date": "2026/07/25",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "熟記「救溺五步」，快樂玩水平安回家",
-      "source": "嘉義市政府/西區公所",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=946833",
       "date": "2026/07/25",
       "query": "市府新聞"
     }
@@ -201,7 +201,7 @@
       "2012": 1,
       "2013": 1
     },
-    "updated_at": "2026-07-26T19:06:33.298350",
+    "updated_at": "2026-07-27T02:32:02.589980",
     "source": "data.chiayi.gov.tw"
   },
   "council": {
@@ -235,6 +235,20 @@
   },
   "citizen_stats": {},
   "social_posts": [
+    {
+      "id": "ptt-httpswwwpttccbbsChiayiM1785115780A5E6html",
+      "platform": "PTT",
+      "platform_color": "#00b300",
+      "board": "Chiayi",
+      "date": "07/27",
+      "author": "PTT 鄉民",
+      "title": "[徵求] 明台產物保險的業務",
+      "url": "https://www.ptt.cc/bbs/Chiayi/M.1785115780.A.5E6.html",
+      "reactions": 0,
+      "comments": 0,
+      "category": "市政議題",
+      "source": "ptt"
+    },
     {
       "id": "ptt-httpswwwpttccbbsChiayiM1785033116A4A3html",
       "platform": "PTT",
@@ -282,7 +296,7 @@
       "platform": "PTT",
       "platform_color": "#00b300",
       "board": "Chiayi",
-      "date": "07/26",
+      "date": "07/27",
       "author": "PTT 鄉民",
       "title": "[新聞] 嘉義驚傳學生墜樓悲劇！警勘查結果曝光",
       "url": "https://www.ptt.cc/bbs/Chiayi/M.1784889956.A.04D.html",
@@ -384,20 +398,6 @@
       "author": "PTT 鄉民",
       "title": "Re: [揪團] 嘉義資訊社群(Line社團)",
       "url": "https://www.ptt.cc/bbs/Chiayi/M.1784696974.A.C1A.html",
-      "reactions": 0,
-      "comments": 0,
-      "category": "市政議題",
-      "source": "ptt"
-    },
-    {
-      "id": "ptt-httpswwwpttccbbsChiayiM1784602124AEFBhtml",
-      "platform": "PTT",
-      "platform_color": "#00b300",
-      "board": "Chiayi",
-      "date": "07/24",
-      "author": "PTT 鄉民",
-      "title": "[公告] molsmopuim版友水桶處份",
-      "url": "https://www.ptt.cc/bbs/Chiayi/M.1784602124.A.EFB.html",
       "reactions": 0,
       "comments": 0,
       "category": "市政議題",
