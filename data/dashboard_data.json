@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-27T14:28:14.302247",
+  "updated_at": "2026-07-27T19:26:08.679993",
   "news": [
     {
       "headline": "北興陸橋配合鐵高施工，08/03(夜間21時至翌日6時)全線封閉",
@@ -87,12 +87,12 @@
     }
   ],
   "complaint_stats": {
-    "total": 78725,
-    "record_count": 467,
+    "total": 78785,
+    "record_count": 527,
     "category_counts": {
       "公共安全": 37949,
       "交通停車": 7743,
-      "道路路平": 212,
+      "道路路平": 272,
       "環境衛生": 5,
       "行政服務": 6
     },
@@ -107,10 +107,11 @@
         "公有停車場": 38
       },
       "道路路平": {
-        "電信管線": 10,
-        "電力管線": 11,
-        "自來水管線": 18,
-        "道路施工": 1,
+        "電信管線": 25,
+        "自來水管線": 32,
+        "電力管線": 35,
+        "道路施工": 3,
+        "市府工程": 5,
         "橋梁設施": 172
       },
       "環境衛生": {
@@ -127,19 +128,15 @@
       },
       {
         "road": "東區嘉義",
-        "count": 4
+        "count": 11
       },
       {
         "road": "西區後驛村里友忠路7",
-        "count": 2
-      },
-      {
-        "road": "西區下埤村里仁愛路1",
-        "count": 2
+        "count": 3
       },
       {
         "road": "西區湖內村里湖美九街",
-        "count": 2
+        "count": 3
       },
       {
         "road": "西區北湖村里北社尾路",
@@ -154,11 +151,15 @@
         "count": 2
       },
       {
-        "road": "親水公園",
+        "road": "西區下埤村里仁愛路1",
         "count": 2
       },
       {
-        "road": "蘭潭水庫三信亭附近",
+        "road": "西區國華村里林森西路",
+        "count": 2
+      },
+      {
+        "road": "西區西平村里大同路1",
         "count": 2
       }
     ],
@@ -173,7 +174,7 @@
       },
       {
         "category": "道路路平",
-        "count": 212
+        "count": 272
       },
       {
         "category": "行政服務",
@@ -196,12 +197,12 @@
       "2022": 3112,
       "2023": 3318,
       "2024": 3270,
-      "2025": 8876,
-      "2026": 2826,
+      "2025": 8890,
+      "2026": 2872,
       "2012": 1,
       "2013": 1
     },
-    "updated_at": "2026-07-27T14:25:47.601638",
+    "updated_at": "2026-07-27T19:23:50.360922",
     "source": "data.chiayi.gov.tw"
   },
   "council": {
@@ -258,20 +259,6 @@
       "author": "PTT 鄉民",
       "title": "[亂入] 免費今晚奧德賽，急",
       "url": "https://www.ptt.cc/bbs/Chiayi/M.1785146619.A.103.html",
-      "reactions": 0,
-      "comments": 0,
-      "category": "市政議題",
-      "source": "ptt"
-    },
-    {
-      "id": "ptt-httpswwwpttccbbsChiayiM1785115780A5E6html",
-      "platform": "PTT",
-      "platform_color": "#00b300",
-      "board": "Chiayi",
-      "date": "07/27",
-      "author": "PTT 鄉民",
-      "title": "[徵求] 明台產物保險的業務",
-      "url": "https://www.ptt.cc/bbs/Chiayi/M.1785115780.A.5E6.html",
       "reactions": 0,
       "comments": 0,
       "category": "市政議題",
@@ -398,6 +385,20 @@
       "author": "PTT 鄉民",
       "title": "[揪團] 今天國民運動中心籃球場晚上8點",
       "url": "https://www.ptt.cc/bbs/Chiayi/M.1784710372.A.2C0.html",
+      "reactions": 0,
+      "comments": 0,
+      "category": "市政議題",
+      "source": "ptt"
+    },
+    {
+      "id": "ptt-httpswwwpttccbbsChiayiM1784703102ADE5html",
+      "platform": "PTT",
+      "platform_color": "#00b300",
+      "board": "Chiayi",
+      "date": "07/22",
+      "author": "PTT 鄉民",
+      "title": "Fw: [情報] 7月24日起 嘉義縣YouBike新增12個站點",
+      "url": "https://www.ptt.cc/bbs/Chiayi/M.1784703102.A.DE5.html",
       "reactions": 0,
       "comments": 0,
       "category": "市政議題",
