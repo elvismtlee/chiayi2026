@@ -1,6 +1,34 @@
 {
-  "updated_at": "2026-07-27T02:33:45.293030",
+  "updated_at": "2026-07-27T09:47:32.621886",
   "news": [
+    {
+      "headline": "北興陸橋配合鐵高施工，08/03(夜間21時至翌日6時)全線封閉",
+      "source": "嘉義市政府/交通處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=947155",
+      "date": "2026/07/27",
+      "query": "市府新聞"
+    },
+    {
+      "headline": "嘉義百工百業躍上舞臺！「嘉義式＋1百工百業共創劇場」邀市民說自己的故事",
+      "source": "嘉義市政府/文化局/觀光新聞處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=947145",
+      "date": "2026/07/27",
+      "query": "市府新聞"
+    },
+    {
+      "headline": "嘉義市參與全國招商公辦都更再推優質投資標的",
+      "source": "嘉義市政府/都市發展處/財稅局/觀光新聞處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=947131",
+      "date": "2026/07/27",
+      "query": "市府新聞"
+    },
+    {
+      "headline": "桃喜親子藝術節精彩演出獲熱烈迴響8月2日和9日精彩接力邀親子FUN暑假",
+      "source": "嘉義市政府/文化局/觀光新聞處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=947118",
+      "date": "2026/07/27",
+      "query": "市府新聞"
+    },
     {
       "headline": "為加強嘉義市(以下簡稱本市)市區道路停車秩序整頓及提高停車周轉率，本市東區體育館自有停車彎自115年8月1日起實施路邊停車收費管理事宜。",
       "source": "嘉義市政府/交通處",
@@ -54,34 +82,6 @@
       "headline": "考驗環保知識、拼團隊默契！環保群英會熱鬧登場凝聚守護環境精神",
       "source": "嘉義市政府/環保局/觀光新聞處",
       "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=947055",
-      "date": "2026/07/25",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "瓷上風景：蝶戀花-台灣瓷繪藝術協會會員聯展開幕逾百件作品呈現藝術細膩之美",
-      "source": "嘉義市政府/文化局/觀光新聞處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=947054",
-      "date": "2026/07/25",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "作伙在嘉起家！嘉市創新模式徵才釋500+職缺五大主題百工專區助攻全齡就業起飛",
-      "source": "嘉義市政府/勞青處/觀光新聞處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=947053",
-      "date": "2026/07/25",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "「嘉義創意產業加速器」正式啟動打造創意產業城市新基地",
-      "source": "嘉義市政府/文化局/觀光新聞處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=947051",
-      "date": "2026/07/25",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "2026嘉義市購物節買氣強強滾！「週霸王」狂刷96萬元Volvo百萬大獎吸睛全臺來嘉抽豪禮",
-      "source": "嘉義市政府/建設處/觀光新聞處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=947050",
       "date": "2026/07/25",
       "query": "市府新聞"
     }
@@ -201,7 +201,7 @@
       "2012": 1,
       "2013": 1
     },
-    "updated_at": "2026-07-27T02:32:02.589980",
+    "updated_at": "2026-07-27T09:45:05.580605",
     "source": "data.chiayi.gov.tw"
   },
   "council": {
