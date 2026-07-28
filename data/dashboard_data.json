@@ -1,17 +1,31 @@
 {
-  "updated_at": "2026-07-27T19:26:08.679993",
+  "updated_at": "2026-07-28T02:11:31.139053",
   "news": [
     {
-      "headline": "北興陸橋配合鐵高施工，08/03(夜間21時至翌日6時)全線封閉",
-      "source": "嘉義市政府/交通處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=947155",
-      "date": "2026/07/27",
+      "headline": "擊樂嘉年華「抵嘉」啦！朱宗慶打擊樂團2攜手豆莢寶寶活力登台熱情活力共享嘉義生活美學",
+      "source": "嘉義市政府/文化局/觀光新聞處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=947243",
+      "date": "2026/07/28",
+      "query": "市府新聞"
+    },
+    {
+      "headline": "嘉義市污水治理再奪雙項大獎！營運評鑑獲「優等」、職安評鑑奪「特優」",
+      "source": "嘉義市政府/工務處/觀光新聞處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=947239",
+      "date": "2026/07/28",
       "query": "市府新聞"
     },
     {
       "headline": "嘉義百工百業躍上舞臺！「嘉義式＋1百工百業共創劇場」邀市民說自己的故事",
       "source": "嘉義市政府/文化局/觀光新聞處",
       "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=947145",
+      "date": "2026/07/28",
+      "query": "市府新聞"
+    },
+    {
+      "headline": "北興陸橋配合鐵高施工，08/03(夜間21時至翌日6時)全線封閉",
+      "source": "嘉義市政府/交通處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=947155",
       "date": "2026/07/27",
       "query": "市府新聞"
     },
@@ -69,20 +83,6 @@
       "source": "嘉義市政府/民政處/觀光新聞處",
       "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=947078",
       "date": "2026/07/26",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "「嘉」油小勇士出任務！嘉義市衛生局邀親子闖關學健康守護孩子健康成長",
-      "source": "嘉義市政府/衛生局",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=946713",
-      "date": "2026/07/26",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "考驗環保知識、拼團隊默契！環保群英會熱鬧登場凝聚守護環境精神",
-      "source": "嘉義市政府/環保局/觀光新聞處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=947055",
-      "date": "2026/07/25",
       "query": "市府新聞"
     }
   ],
@@ -202,7 +202,7 @@
       "2012": 1,
       "2013": 1
     },
-    "updated_at": "2026-07-27T19:23:50.360922",
+    "updated_at": "2026-07-28T02:08:40.631163",
     "source": "data.chiayi.gov.tw"
   },
   "council": {
@@ -236,6 +236,20 @@
   },
   "citizen_stats": {},
   "social_posts": [
+    {
+      "id": "ptt-httpswwwpttccbbsChiayiM1785203890AC93html",
+      "platform": "PTT",
+      "platform_color": "#00b300",
+      "board": "Chiayi",
+      "date": "07/28",
+      "author": "PTT 鄉民",
+      "title": "[訃聞] 認識蔡學年的朋友們",
+      "url": "https://www.ptt.cc/bbs/Chiayi/M.1785203890.A.C93.html",
+      "reactions": 0,
+      "comments": 0,
+      "category": "市政議題",
+      "source": "ptt"
+    },
     {
       "id": "ptt-httpswwwpttccbbsChiayiM1785156325A8F7html",
       "platform": "PTT",
@@ -385,20 +399,6 @@
       "author": "PTT 鄉民",
       "title": "[揪團] 今天國民運動中心籃球場晚上8點",
       "url": "https://www.ptt.cc/bbs/Chiayi/M.1784710372.A.2C0.html",
-      "reactions": 0,
-      "comments": 0,
-      "category": "市政議題",
-      "source": "ptt"
-    },
-    {
-      "id": "ptt-httpswwwpttccbbsChiayiM1784703102ADE5html",
-      "platform": "PTT",
-      "platform_color": "#00b300",
-      "board": "Chiayi",
-      "date": "07/22",
-      "author": "PTT 鄉民",
-      "title": "Fw: [情報] 7月24日起 嘉義縣YouBike新增12個站點",
-      "url": "https://www.ptt.cc/bbs/Chiayi/M.1784703102.A.DE5.html",
       "reactions": 0,
       "comments": 0,
       "category": "市政議題",
