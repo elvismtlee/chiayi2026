@@ -1,6 +1,13 @@
 {
-  "updated_at": "2026-07-28T02:11:31.139053",
+  "updated_at": "2026-07-28T08:34:52.192065",
   "news": [
+    {
+      "headline": "法務部蒞嘉考評調解業務嘉義市持續精進調解服務品質",
+      "source": "嘉義市政府/民政處自治行科",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=947245",
+      "date": "2026/07/28",
+      "query": "市府新聞"
+    },
     {
       "headline": "擊樂嘉年華「抵嘉」啦！朱宗慶打擊樂團2攜手豆莢寶寶活力登台熱情活力共享嘉義生活美學",
       "source": "嘉義市政府/文化局/觀光新聞處",
@@ -75,13 +82,6 @@
       "headline": "嘉邑保南境福德正神廟迎建廟300年黃敏惠市長開鑼宣告九月遶境盛事",
       "source": "嘉義市政府/民政處/觀光新聞處",
       "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=947079",
-      "date": "2026/07/26",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "「小狀元經典會考」登場！123位學童傳承經典循古禮厚植文化",
-      "source": "嘉義市政府/民政處/觀光新聞處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=947078",
       "date": "2026/07/26",
       "query": "市府新聞"
     }
@@ -202,7 +202,7 @@
       "2012": 1,
       "2013": 1
     },
-    "updated_at": "2026-07-28T02:08:40.631163",
+    "updated_at": "2026-07-28T08:31:05.487583",
     "source": "data.chiayi.gov.tw"
   },
   "council": {
@@ -237,6 +237,34 @@
   "citizen_stats": {},
   "social_posts": [
     {
+      "id": "ptt-httpswwwpttccbbsChiayiM1785225262A225html",
+      "platform": "PTT",
+      "platform_color": "#00b300",
+      "board": "Chiayi",
+      "date": "07/28",
+      "author": "PTT 鄉民",
+      "title": "[新聞] 東野圭吾大腸癌離世 嘉縣8月45-74歲大腸",
+      "url": "https://www.ptt.cc/bbs/Chiayi/M.1785225262.A.225.html",
+      "reactions": 0,
+      "comments": 0,
+      "category": "市政議題",
+      "source": "ptt"
+    },
+    {
+      "id": "ptt-httpswwwpttccbbsChiayiM1785220856A2F5html",
+      "platform": "PTT",
+      "platform_color": "#00b300",
+      "board": "Chiayi",
+      "date": "07/28",
+      "author": "PTT 鄉民",
+      "title": "[公告] 水桶通知-jimpon板友水桶14天",
+      "url": "https://www.ptt.cc/bbs/Chiayi/M.1785220856.A.2F5.html",
+      "reactions": 0,
+      "comments": 0,
+      "category": "市政議題",
+      "source": "ptt"
+    },
+    {
       "id": "ptt-httpswwwpttccbbsChiayiM1785203890AC93html",
       "platform": "PTT",
       "platform_color": "#00b300",
@@ -251,39 +279,11 @@
       "source": "ptt"
     },
     {
-      "id": "ptt-httpswwwpttccbbsChiayiM1785156325A8F7html",
-      "platform": "PTT",
-      "platform_color": "#00b300",
-      "board": "Chiayi",
-      "date": "07/27",
-      "author": "PTT 鄉民",
-      "title": "售 iPhone 14 Pro 128g 白色",
-      "url": "https://www.ptt.cc/bbs/Chiayi/M.1785156325.A.8F7.html",
-      "reactions": 0,
-      "comments": 0,
-      "category": "市政議題",
-      "source": "ptt"
-    },
-    {
-      "id": "ptt-httpswwwpttccbbsChiayiM1785146619A103html",
-      "platform": "PTT",
-      "platform_color": "#00b300",
-      "board": "Chiayi",
-      "date": "07/27",
-      "author": "PTT 鄉民",
-      "title": "[亂入] 免費今晚奧德賽，急",
-      "url": "https://www.ptt.cc/bbs/Chiayi/M.1785146619.A.103.html",
-      "reactions": 0,
-      "comments": 0,
-      "category": "市政議題",
-      "source": "ptt"
-    },
-    {
       "id": "ptt-httpswwwpttccbbsChiayiM1785033116A4A3html",
       "platform": "PTT",
       "platform_color": "#00b300",
       "board": "Chiayi",
-      "date": "07/27",
+      "date": "07/28",
       "author": "PTT 鄉民",
       "title": "[新聞] 陪張啟楷催票 柯：藍白合是趨勢  ",
       "url": "https://www.ptt.cc/bbs/Chiayi/M.1785033116.A.4A3.html",
@@ -325,7 +325,7 @@
       "platform": "PTT",
       "platform_color": "#00b300",
       "board": "Chiayi",
-      "date": "07/27",
+      "date": "07/28",
       "author": "PTT 鄉民",
       "title": "[新聞] 嘉義驚傳學生墜樓悲劇！警勘查結果曝光",
       "url": "https://www.ptt.cc/bbs/Chiayi/M.1784889956.A.04D.html",
