@@ -1,6 +1,13 @@
 {
-  "updated_at": "2026-07-28T08:34:52.192065",
+  "updated_at": "2026-07-28T13:57:19.367034",
   "news": [
+    {
+      "headline": "嘉市貝萊登幼兒園畢業典禮黃敏惠市長勉勵勇於學習、逐夢未來",
+      "source": "嘉義市政府/教育處/觀光新聞處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=947321",
+      "date": "2026/07/28",
+      "query": "市府新聞"
+    },
     {
       "headline": "法務部蒞嘉考評調解業務嘉義市持續精進調解服務品質",
       "source": "嘉義市政府/民政處自治行科",
@@ -75,13 +82,6 @@
       "headline": "《文化＋1串！》串起嘉義市36處文化據點互動集點邀全民探索城市文化",
       "source": "嘉義市政府/文化局/觀光新聞處",
       "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=947080",
-      "date": "2026/07/26",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "嘉邑保南境福德正神廟迎建廟300年黃敏惠市長開鑼宣告九月遶境盛事",
-      "source": "嘉義市政府/民政處/觀光新聞處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=947079",
       "date": "2026/07/26",
       "query": "市府新聞"
     }
@@ -202,7 +202,7 @@
       "2012": 1,
       "2013": 1
     },
-    "updated_at": "2026-07-28T08:31:05.487583",
+    "updated_at": "2026-07-28T13:55:35.890303",
     "source": "data.chiayi.gov.tw"
   },
   "council": {
@@ -236,6 +236,62 @@
   },
   "citizen_stats": {},
   "social_posts": [
+    {
+      "id": "ptt-httpswwwpttccbbsChiayiM1785244628AF95html",
+      "platform": "PTT",
+      "platform_color": "#00b300",
+      "board": "Chiayi",
+      "date": "07/28",
+      "author": "PTT 鄉民",
+      "title": "[買賣] 桌上型.落地型飲水機/伊萊克斯空氣清淨機",
+      "url": "https://www.ptt.cc/bbs/Chiayi/M.1785244628.A.F95.html",
+      "reactions": 0,
+      "comments": 0,
+      "category": "市政議題",
+      "source": "ptt"
+    },
+    {
+      "id": "ptt-httpswwwpttccbbsChiayiM1785238953A857html",
+      "platform": "PTT",
+      "platform_color": "#00b300",
+      "board": "Chiayi",
+      "date": "07/28",
+      "author": "PTT 鄉民",
+      "title": "[問題] 請問東石好吃的生魚片跟現炒？",
+      "url": "https://www.ptt.cc/bbs/Chiayi/M.1785238953.A.857.html",
+      "reactions": 0,
+      "comments": 0,
+      "category": "市政議題",
+      "source": "ptt"
+    },
+    {
+      "id": "ptt-httpswwwpttccbbsChiayiM1785230758A517html",
+      "platform": "PTT",
+      "platform_color": "#00b300",
+      "board": "Chiayi",
+      "date": "07/28",
+      "author": "PTT 鄉民",
+      "title": "[買賣] 有嘉人抽到一番賞小賞的杯子可轉讓嗎",
+      "url": "https://www.ptt.cc/bbs/Chiayi/M.1785230758.A.517.html",
+      "reactions": 0,
+      "comments": 0,
+      "category": "市政議題",
+      "source": "ptt"
+    },
+    {
+      "id": "ptt-httpswwwpttccbbsChiayiM1785228750AEA4html",
+      "platform": "PTT",
+      "platform_color": "#00b300",
+      "board": "Chiayi",
+      "date": "07/28",
+      "author": "PTT 鄉民",
+      "title": "[買賣] 全家咖啡  吐司 coco",
+      "url": "https://www.ptt.cc/bbs/Chiayi/M.1785228750.A.EA4.html",
+      "reactions": 0,
+      "comments": 0,
+      "category": "市政議題",
+      "source": "ptt"
+    },
     {
       "id": "ptt-httpswwwpttccbbsChiayiM1785225262A225html",
       "platform": "PTT",
@@ -343,62 +399,6 @@
       "author": "PTT 鄉民",
       "title": "[揪團] 7/24今晚19:30 ZUMBA律動團",
       "url": "https://www.ptt.cc/bbs/Chiayi/M.1784881566.A.C87.html",
-      "reactions": 0,
-      "comments": 0,
-      "category": "市政議題",
-      "source": "ptt"
-    },
-    {
-      "id": "ptt-httpswwwpttccbbsChiayiM1784880390A52Ehtml",
-      "platform": "PTT",
-      "platform_color": "#00b300",
-      "board": "Chiayi",
-      "date": "07/26",
-      "author": "PTT 鄉民",
-      "title": "[新聞] 張啓楷稱嘉市長民調差距縮至3.5％ 柯文",
-      "url": "https://www.ptt.cc/bbs/Chiayi/M.1784880390.A.52E.html",
-      "reactions": 0,
-      "comments": 0,
-      "category": "市政議題",
-      "source": "ptt"
-    },
-    {
-      "id": "ptt-httpswwwpttccbbsChiayiM1784808065A5FAhtml",
-      "platform": "PTT",
-      "platform_color": "#00b300",
-      "board": "Chiayi",
-      "date": "07/25",
-      "author": "PTT 鄉民",
-      "title": "[新聞] 柯文哲挺張啓楷再出手 明天嘉市舉辦論壇",
-      "url": "https://www.ptt.cc/bbs/Chiayi/M.1784808065.A.5FA.html",
-      "reactions": 0,
-      "comments": 0,
-      "category": "市政議題",
-      "source": "ptt"
-    },
-    {
-      "id": "ptt-httpswwwpttccbbsChiayiM1784771967A699html",
-      "platform": "PTT",
-      "platform_color": "#00b300",
-      "board": "Chiayi",
-      "date": "01/01",
-      "author": "PTT 鄉民",
-      "title": "Fw: [情報] 7月24日起 嘉義市YouBike新增2個站點",
-      "url": "https://www.ptt.cc/bbs/Chiayi/M.1784771967.A.699.html",
-      "reactions": 0,
-      "comments": 0,
-      "category": "市政議題",
-      "source": "ptt"
-    },
-    {
-      "id": "ptt-httpswwwpttccbbsChiayiM1784710372A2C0html",
-      "platform": "PTT",
-      "platform_color": "#00b300",
-      "board": "Chiayi",
-      "date": "07/22",
-      "author": "PTT 鄉民",
-      "title": "[揪團] 今天國民運動中心籃球場晚上8點",
-      "url": "https://www.ptt.cc/bbs/Chiayi/M.1784710372.A.2C0.html",
       "reactions": 0,
       "comments": 0,
       "category": "市政議題",
