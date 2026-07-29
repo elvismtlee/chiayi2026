@@ -1,5 +1,19 @@
 [
   {
+    "id": "ptt-httpswwwpttccbbsChiayiM1785321254AF24html",
+    "platform": "PTT",
+    "platform_color": "#00b300",
+    "board": "Chiayi",
+    "date": "07/29",
+    "author": "PTT 鄉民",
+    "title": "[買賣] 王品折價券.商品卡/全家衛生紙.吐司.豆漿",
+    "url": "https://www.ptt.cc/bbs/Chiayi/M.1785321254.A.F24.html",
+    "reactions": 0,
+    "comments": 0,
+    "category": "市政議題",
+    "source": "ptt"
+  },
+  {
     "id": "ptt-httpswwwpttccbbsChiayiM1785291414A307html",
     "platform": "PTT",
     "platform_color": "#00b300",
@@ -18,7 +32,7 @@
     "platform": "PTT",
     "platform_color": "#00b300",
     "board": "Chiayi",
-    "date": "07/28",
+    "date": "07/29",
     "author": "PTT 鄉民",
     "title": "[買賣] 桌上型.落地型飲水機/伊萊克斯空氣清淨機",
     "url": "https://www.ptt.cc/bbs/Chiayi/M.1785244628.A.F95.html",
@@ -151,20 +165,6 @@
     "reactions": 0,
     "comments": 0,
     "category": "市政議題",
-    "source": "ptt"
-  },
-  {
-    "id": "ptt-httpswwwpttccbbsChiayiM1784889956A04Dhtml",
-    "platform": "PTT",
-    "platform_color": "#00b300",
-    "board": "Chiayi",
-    "date": "07/28",
-    "author": "PTT 鄉民",
-    "title": "[新聞] 嘉義驚傳學生墜樓悲劇！警勘查結果曝光",
-    "url": "https://www.ptt.cc/bbs/Chiayi/M.1784889956.A.04D.html",
-    "reactions": 0,
-    "comments": 0,
-    "category": "通學安全",
     "source": "ptt"
   }
 ]
