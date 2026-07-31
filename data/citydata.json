@@ -1,16 +1,16 @@
 {
-  "updated_at": "2026-07-31T08:47:27.834353",
+  "updated_at": "2026-07-31T13:57:29.548088",
   "aqi_realtime": [
     {
       "station": "嘉義市（Open-Meteo 模型）",
-      "aqi": 113,
-      "pm25": 58.1,
-      "pm10": 58.8,
-      "o3": 150.0,
-      "no2": 27.0,
-      "status": "對敏感族群不健康",
+      "aqi": 95,
+      "pm25": 51.6,
+      "pm10": 52.0,
+      "o3": 0.0,
+      "no2": 115.3,
+      "status": "普通",
       "pollutant": "PM2.5",
-      "time": "2026-07-31T16:00",
+      "time": "2026-07-31T21:00",
       "source": "Open-Meteo"
     }
   ],
@@ -41,15 +41,15 @@
   "weather": [
     {
       "station": "嘉義市（Open-Meteo）",
-      "temp": "28.6",
-      "apparent_temp": "35.3",
-      "humidity": "85",
+      "temp": "26.6",
+      "apparent_temp": "33.3",
+      "humidity": "94",
       "rainfall": "0.0",
-      "wind_speed": "3.9",
-      "wind_dir": "208",
-      "cloud": "98",
+      "wind_speed": "2.8",
+      "wind_dir": "162",
+      "cloud": "99",
       "weather": "陰天",
-      "time": "2026-07-31 16:45",
+      "time": "2026-07-31 21:45",
       "source": "Open-Meteo"
     }
   ],
@@ -76,14 +76,14 @@
       "source": "Google新聞"
     },
     {
-      "title": "嘉義市115學年度國中小新、卸任校長交接 - 中央社 CNA",
+      "title": "中臺灣農業行銷展售會8月登場 「幸福嘉義館」集結21家品牌 - taiwanhot.net",
       "date": "Fri, 31 Jul 2026",
-      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5Rd1ptVkx3Y0hjNmNNWE1MT3VPeEVQVHJ2NGRlWDd1Ml9hOFRTakFXUWlrcEJBMGZ0Z0VMakJqZEwydXhCNVdCaWZZaG9QZmZXZGZmeE1n?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiggNBVV95cUxPc25obGlXVFM1V0dkU0NNVGVjN3BabTFFbFNadjUxdVN6ck9BY0NNb0l3RDRBWDBuRS05TWROZGtPODJFRGhyZkNYemFuS3g2Z1BjMHRRYWhBSEhuUjBSLWZNbUp0RTFkazhybGUyajVsMlE1Qjc4aUtnZFlUV0ZWeHhiMVhpYnI1QUlwX3JUTWJGMmU4N1F3emctREZHenloWV9hM2hYYWNBM3k5anFHeTdqVjJXaGdyNnh3bEliQktaSzBiMTVqejhIZmYtMUxZa2JJenFDbENfaFlQRUJxMU1CYmpWT2Y3WUtvWkRrY2loTWhRTnk0ZHBRaHdicHRxVlhaYi1MWGdHWW1XbkdSZ3lhZkMzQ19TRzNMeU4zN3Z6dXFRNXNrT3U0d1ZwZ0c1S0dzQi1CUHZjQVFxQm8tRnFUVEoyYVhhWXJjMTAyYVhGWU51ZVVlRm5Id21MZ0dyYjZ2R3dPeXJDRUJrd2NhNUM3dFhCaGV1NzNiV0NEUTcydw?oc=5",
       "desc": "",
       "source": "Google新聞"
     },
     {
-      "title": "嘉義市國中小校長交接　黃敏惠盼深耕育才、智慧領航 - ETtoday新聞雲",
+      "title": "嘉義市國中小校長交接　黃敏惠盼深耕育才、智慧領航 - ettoday.net",
       "date": "Fri, 31 Jul 2026",
       "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBpT19BemdJRGlXLXpnWnpvOWpUY2FIcFMxdFZQcFBvamNCT3oxbVB0ZHg1YWVFLXFpa2FhSUk0QlJrX2ZLRFQ1UTVYNXJIc0JtTjVjWHJoSDAybG93SUHSAUtBVV95cUxQV3lrSk8ycWl4c1Z0NjczRFRZYkl2WGxndVhtRG5qY3laLXMyVWJkQkVoZHdiUllITjZDMHd6LWFPb0hVMzVWeVUwcFU?oc=5",
       "desc": "",
@@ -134,16 +134,16 @@
       "source": "Google新聞"
     },
     {
-      "title": "城市隱形建設 嘉義市污水系統第一期工程完工 - 台灣好新聞",
-      "date": "Thu, 22 Jan 2026",
-      "link": "https://news.google.com/rss/articles/CBMiwgJBVV95cUxPZkdJd1U3WDVqZHlwZDBITW5wb1I3M3hscWJxZDgydW5QNy10clNzdnNsS3FKRWFfd214aUxFNzJWdWJXbnd5V2doQm56UENaQ3g3dHRWSzJBVGVtd0kxTGZuazhHUzBhend1bEJabXlvZ0NYTXBGWG8wS1VBc08yRnNxVS1oU2c5dm1ETTloVG1fNjdVQjBtT1FjaUFnb3BiN0RtdU5IMnpOVnd1YXFBV0lYV0dQc2Q3R3YtTldPekpQSFozMmsxci0tMmxpd3JydnFaVEpadDJFbXd4b2I1ZDFJOHRXekRYVkpZSmN5enp4Rl96Zi1xSTdJWjRWVW5kRlR1M3BoS1o5d1RnbHpkajJudGpwVGxVOF8zUS1xeHZOclVqbHRCSUI1TDVhNl8wNXRvQVB4Y2NDRXhNaVplQm1R?oc=5",
+      "title": "嘉義市污水下水道系統第一期建設完工中央挹注污水下水道經費達39億元讓接管普及率躍升南台灣第三|內政 - 僑新聞",
+      "date": "Fri, 23 Jan 2026",
+      "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE1yOWZHS2FHS01jSUZoUzZvOFQzd19qaDhHR24xQ0VyZmdpdC1JTE5nbmczb2NNRlpyMHFRY1EtTXBfeDM3RUY1R19vQQ?oc=5",
       "org": "新聞資訊",
       "source": "Google新聞"
     },
     {
-      "title": "嘉義市污水下水道系統第一期建設完工中央挹注污水下水道經費達39億元讓接管普及率躍升南台灣第三|內政 - 僑新聞",
-      "date": "Fri, 23 Jan 2026",
-      "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE1yOWZHS2FHS01jSUZoUzZvOFQzd19qaDhHR24xQ0VyZmdpdC1JTE5nbmczb2NNRlpyMHFRY1EtTXBfeDM3RUY1R19vQQ?oc=5",
+      "title": "城市隱形建設 嘉義市污水系統第一期工程完工 - taiwanhot.net",
+      "date": "Thu, 22 Jan 2026",
+      "link": "https://news.google.com/rss/articles/CBMiwgJBVV95cUxPZkdJd1U3WDVqZHlwZDBITW5wb1I3M3hscWJxZDgydW5QNy10clNzdnNsS3FKRWFfd214aUxFNzJWdWJXbnd5V2doQm56UENaQ3g3dHRWSzJBVGVtd0kxTGZuazhHUzBhend1bEJabXlvZ0NYTXBGWG8wS1VBc08yRnNxVS1oU2c5dm1ETTloVG1fNjdVQjBtT1FjaUFnb3BiN0RtdU5IMnpOVnd1YXFBV0lYV0dQc2Q3R3YtTldPekpQSFozMmsxci0tMmxpd3JydnFaVEpadDJFbXd4b2I1ZDFJOHRXekRYVkpZSmN5enp4Rl96Zi1xSTdJWjRWVW5kRlR1M3BoS1o5d1RnbHpkajJudGpwVGxVOF8zUS1xeHZOclVqbHRCSUI1TDVhNl8wNXRvQVB4Y2NDRXhNaVplQm1R?oc=5",
       "org": "新聞資訊",
       "source": "Google新聞"
     },
@@ -260,7 +260,7 @@
       "lat": 23.481634,
       "lng": 120.453745,
       "total": 45,
-      "available": 23,
+      "available": 17,
       "addr": "中山路199號(對面)"
     },
     {
@@ -269,7 +269,7 @@
       "lat": 23.482012,
       "lng": 120.457342,
       "total": 22,
-      "available": 3,
+      "available": 5,
       "addr": "中山路98號(前)"
     },
     {
@@ -278,7 +278,7 @@
       "lat": 23.482663,
       "lng": 120.462988,
       "total": 25,
-      "available": 14,
+      "available": 10,
       "addr": "中山路2號(前)"
     },
     {
@@ -287,7 +287,7 @@
       "lat": 23.478707,
       "lng": 120.462594,
       "total": 38,
-      "available": 1,
+      "available": 5,
       "addr": "啟明路122號(前)"
     },
     {
@@ -296,7 +296,7 @@
       "lat": 23.477031,
       "lng": 120.465573,
       "total": 34,
-      "available": 1,
+      "available": 11,
       "addr": "大雅路二段738號(前)"
     },
     {
@@ -305,7 +305,7 @@
       "lat": 23.4798596,
       "lng": 120.4488291,
       "total": 20,
-      "available": 20,
+      "available": 11,
       "addr": "中山路306號"
     },
     {
@@ -314,7 +314,7 @@
       "lat": 23.47963,
       "lng": 120.44583,
       "total": 20,
-      "available": 18,
+      "available": 3,
       "addr": "中山路386號"
     },
     {
@@ -323,7 +323,7 @@
       "lat": 23.47917,
       "lng": 120.44186,
       "total": 99,
-      "available": 79,
+      "available": 78,
       "addr": "中山路524號"
     },
     {
@@ -332,7 +332,7 @@
       "lat": 23.47877,
       "lng": 120.44089,
       "total": 42,
-      "available": 15,
+      "available": 8,
       "addr": "中山路528號"
     },
     {
@@ -341,7 +341,7 @@
       "lat": 23.47283,
       "lng": 120.44029,
       "total": 5,
-      "available": 0,
+      "available": 2,
       "addr": "垂楊路575號"
     },
     {
@@ -350,7 +350,7 @@
       "lat": 23.47336,
       "lng": 120.44604,
       "total": 14,
-      "available": 14,
+      "available": 10,
       "addr": "垂楊路351號"
     },
     {
@@ -359,7 +359,7 @@
       "lat": 23.4738724,
       "lng": 120.4493073,
       "total": 20,
-      "available": 7,
+      "available": 0,
       "addr": "垂楊路434號"
     },
     {
@@ -368,7 +368,7 @@
       "lat": 23.47918,
       "lng": 120.43182,
       "total": 15,
-      "available": 13,
+      "available": 14,
       "addr": "北港路278號"
     },
     {
@@ -377,7 +377,7 @@
       "lat": 23.486138,
       "lng": 120.453829,
       "total": 20,
-      "available": 8,
+      "available": 3,
       "addr": "忠孝路284號(旁)"
     },
     {
@@ -386,7 +386,7 @@
       "lat": 23.48091,
       "lng": 120.43012,
       "total": 20,
-      "available": 2,
+      "available": 9,
       "addr": "北港路312號東側"
     },
     {
@@ -395,7 +395,7 @@
       "lat": 23.48465,
       "lng": 120.43354,
       "total": 14,
-      "available": 5,
+      "available": 12,
       "addr": "友愛興達路口"
     },
     {
@@ -404,7 +404,7 @@
       "lat": 23.48931,
       "lng": 120.4361,
       "total": 15,
-      "available": 11,
+      "available": 8,
       "addr": "自由路298號"
     },
     {
@@ -413,7 +413,7 @@
       "lat": 23.49265,
       "lng": 120.43191,
       "total": 15,
-      "available": 7,
+      "available": 8,
       "addr": "自由路492號"
     },
     {
@@ -422,7 +422,7 @@
       "lat": 23.478941,
       "lng": 120.437805,
       "total": 23,
-      "available": 9,
+      "available": 2,
       "addr": "博愛路二段281號"
     },
     {
@@ -431,10 +431,10 @@
       "lat": 23.47165,
       "lng": 120.43119,
       "total": 15,
-      "available": 10,
+      "available": 7,
       "addr": "博愛路二段461號"
     }
   ],
   "water": [],
-  "fetch_seconds": 91.9
+  "fetch_seconds": 94.1
 }
