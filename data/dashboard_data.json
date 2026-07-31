@@ -1,6 +1,20 @@
 {
-  "updated_at": "2026-07-30T19:24:08.430506",
+  "updated_at": "2026-07-31T02:26:34.141639",
   "news": [
+    {
+      "headline": "嘉義市政府衛生局公布「115年美食街餐飲業者稽查專案」執行結果",
+      "source": "嘉義市政府/衛生局",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=947538",
+      "date": "2026/07/31",
+      "query": "市府新聞"
+    },
+    {
+      "headline": "【來嘉玩一夏｜精彩盛事齊聚嘉義市】",
+      "source": "嘉義市政府/地政處/地用及重劃科",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=946543",
+      "date": "2026/07/31",
+      "query": "市府新聞"
+    },
     {
       "headline": "嘉市幼兒藝術特展登場孩子用創作描繪桃城之美",
       "source": "嘉義市政府/教育處/觀光新聞處",
@@ -68,20 +82,6 @@
       "headline": "嘉義市《穿城之水─道將圳》繪本發表！以台語重現三百年嘉義城市記憶",
       "source": "嘉義市政府/教育處/觀光新聞處",
       "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=947424",
-      "date": "2026/07/29",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "嘉義市購物節發票登錄突破1億元破億幸運兒喜獲住宿券嘉義市民最期待專屬「滿千送百領現金」8月3日接續登場",
-      "source": "嘉義市政府/建設處/觀光新聞處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=947397",
-      "date": "2026/07/29",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "財政部修正發布「檢舉或查獲違規菸酒案件獎勵辦法」部分條文",
-      "source": "嘉義市政府/財政稅務局",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=947398",
       "date": "2026/07/29",
       "query": "市府新聞"
     }
@@ -202,7 +202,7 @@
       "2012": 1,
       "2013": 1
     },
-    "updated_at": "2026-07-30T19:21:47.248872",
+    "updated_at": "2026-07-31T02:24:53.519613",
     "source": "data.chiayi.gov.tw"
   },
   "council": {
