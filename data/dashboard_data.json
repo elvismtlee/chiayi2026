@@ -1,6 +1,41 @@
 {
-  "updated_at": "2026-07-31T02:26:34.141639",
+  "updated_at": "2026-07-31T08:48:59.687212",
   "news": [
+    {
+      "headline": "中臺灣農業行銷展售會8月登場「幸福嘉義館」集結21家品牌秀嘉義市好味道",
+      "source": "嘉義市政府/建設處/觀光新聞處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=947648",
+      "date": "2026/07/31",
+      "query": "市府新聞"
+    },
+    {
+      "headline": "嘉義市政府衛生局公布「115年度現場調製飲品及冰品稽查專案」執行結果",
+      "source": "嘉義市政府/衛生局",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=947106",
+      "date": "2026/07/31",
+      "query": "市府新聞"
+    },
+    {
+      "headline": "嘉市115學年度國中小新、卸任校長交接黃敏惠市長勉勵教育夥伴深耕育才、領航未來",
+      "source": "嘉義市政府/教育處/觀光新聞處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=947635",
+      "date": "2026/07/31",
+      "query": "市府新聞"
+    },
+    {
+      "headline": "嘉義市城鎮韌性演習8月10日登場！首度實施行動網路降速訓練市府籲民眾提前準備",
+      "source": "嘉義市政府/警察局/觀光新聞處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=947629",
+      "date": "2026/07/31",
+      "query": "市府新聞"
+    },
+    {
+      "headline": "嘉義市身障運代表隊勇奪23金載譽歸來！市府加碼頒發432萬獎勵金",
+      "source": "嘉義市政府/教育處/觀光新聞處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=947626",
+      "date": "2026/07/31",
+      "query": "市府新聞"
+    },
     {
       "headline": "嘉義市政府衛生局公布「115年美食街餐飲業者稽查專案」執行結果",
       "source": "嘉義市政府/衛生局",
@@ -48,41 +83,6 @@
       "source": "嘉義市政府/文化局/觀光新聞處",
       "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=947516",
       "date": "2026/07/30",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "城市是怎麼長出來的？嘉義市立博物館推出「兒童城市建築共創展」邀孩子用想像打造心中的城市",
-      "source": "嘉義市政府/文化局/觀光新聞處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=947515",
-      "date": "2026/07/30",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "化思念為大愛徐瑀婕女士捐「自動給氧甦醒器」助嘉市消防救護",
-      "source": "嘉義市政府/消防局/觀光新聞處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=947442",
-      "date": "2026/07/29",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "正確使用鎮靜安眠藥遵守「五不四要」睡得安心又安全",
-      "source": "嘉義市政府/衛生局",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=947431",
-      "date": "2026/07/29",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "嘉義市白鷺鷥非營利幼兒園招生開跑！7/29-30辦理新生登記完善湖子內公共化教保服務",
-      "source": "嘉義市政府/教育處/觀光新聞處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=947425",
-      "date": "2026/07/29",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "嘉義市《穿城之水─道將圳》繪本發表！以台語重現三百年嘉義城市記憶",
-      "source": "嘉義市政府/教育處/觀光新聞處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=947424",
-      "date": "2026/07/29",
       "query": "市府新聞"
     }
   ],
@@ -202,7 +202,7 @@
       "2012": 1,
       "2013": 1
     },
-    "updated_at": "2026-07-31T02:24:53.519613",
+    "updated_at": "2026-07-31T08:46:28.108903",
     "source": "data.chiayi.gov.tw"
   },
   "council": {
