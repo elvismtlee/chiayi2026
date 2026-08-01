@@ -1,6 +1,13 @@
 {
-  "updated_at": "2026-07-31T19:23:03.014799",
+  "updated_at": "2026-08-01T02:29:28.438408",
   "news": [
+    {
+      "headline": "預售屋有履保就安心？五種保障方式差很大",
+      "source": "嘉義市政府",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=947622",
+      "date": "2026/08/01",
+      "query": "市府新聞"
+    },
     {
       "headline": "中臺灣農業行銷展售會8月登場「幸福嘉義館」集結21家品牌秀嘉義市好味道",
       "source": "嘉義市政府/建設處/觀光新聞處",
@@ -75,13 +82,6 @@
       "headline": "嘉義市留愛不留遺憾！攜手知名律師李永然帶領市民安心傳承",
       "source": "嘉義市政府/衛生局",
       "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=946420",
-      "date": "2026/07/30",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "嘉義市挺青年!使用文化幣看表演再送300元禮券限量開搶",
-      "source": "嘉義市政府/文化局/觀光新聞處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=947516",
       "date": "2026/07/30",
       "query": "市府新聞"
     }
@@ -202,7 +202,7 @@
       "2012": 1,
       "2013": 1
     },
-    "updated_at": "2026-07-31T19:21:20.831174",
+    "updated_at": "2026-08-01T02:26:47.162577",
     "source": "data.chiayi.gov.tw"
   },
   "council": {
@@ -236,6 +236,20 @@
   },
   "citizen_stats": {},
   "social_posts": [
+    {
+      "id": "ptt-httpswwwpttccbbsChiayiM1785544299A7B4html",
+      "platform": "PTT",
+      "platform_color": "#00b300",
+      "board": "Chiayi",
+      "date": "08/01",
+      "author": "PTT 鄉民",
+      "title": "[新聞] 嘉市友忠公園砸4000萬大改造 廁所、步道",
+      "url": "https://www.ptt.cc/bbs/Chiayi/M.1785544299.A.7B4.html",
+      "reactions": 0,
+      "comments": 0,
+      "category": "人行步道",
+      "source": "ptt"
+    },
     {
       "id": "ptt-httpswwwpttccbbsChiayiM1785500572AC59html",
       "platform": "PTT",
@@ -385,20 +399,6 @@
       "author": "PTT 鄉民",
       "title": "[買賣] 全家咖啡   coco茶",
       "url": "https://www.ptt.cc/bbs/Chiayi/M.1785228750.A.EA4.html",
-      "reactions": 0,
-      "comments": 0,
-      "category": "市政議題",
-      "source": "ptt"
-    },
-    {
-      "id": "ptt-httpswwwpttccbbsChiayiM1785225262A225html",
-      "platform": "PTT",
-      "platform_color": "#00b300",
-      "board": "Chiayi",
-      "date": "07/28",
-      "author": "PTT 鄉民",
-      "title": "[新聞] 東野圭吾大腸癌離世 嘉縣8月45-74歲大腸",
-      "url": "https://www.ptt.cc/bbs/Chiayi/M.1785225262.A.225.html",
       "reactions": 0,
       "comments": 0,
       "category": "市政議題",

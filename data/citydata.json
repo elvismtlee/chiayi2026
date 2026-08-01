@@ -1,16 +1,16 @@
 {
-  "updated_at": "2026-07-31T19:21:33.648294",
+  "updated_at": "2026-08-01T02:27:35.515884",
   "aqi_realtime": [
     {
       "station": "嘉義市（Open-Meteo 模型）",
-      "aqi": 117,
-      "pm25": 59.3,
-      "pm10": 59.4,
-      "o3": 0.0,
-      "no2": 73.1,
-      "status": "對敏感族群不健康",
+      "aqi": 36,
+      "pm25": 25.6,
+      "pm10": 26.1,
+      "o3": 91.0,
+      "no2": 33.7,
+      "status": "良好",
       "pollutant": "PM2.5",
-      "time": "2026-08-01T03:00",
+      "time": "2026-08-01T10:00",
       "source": "Open-Meteo"
     }
   ],
@@ -41,23 +41,30 @@
   "weather": [
     {
       "station": "嘉義市（Open-Meteo）",
-      "temp": "25.2",
-      "apparent_temp": "31.2",
-      "humidity": "96",
+      "temp": "31.0",
+      "apparent_temp": "36.4",
+      "humidity": "65",
       "rainfall": "0.0",
-      "wind_speed": "2.5",
-      "wind_dir": "356",
-      "cloud": "92",
+      "wind_speed": "3.3",
+      "wind_dir": "264",
+      "cloud": "100",
       "weather": "陰天",
-      "time": "2026-08-01 03:15",
+      "time": "2026-08-01 10:15",
       "source": "Open-Meteo"
     }
   ],
   "announcements": [
     {
-      "title": "嘉義市115年整合性健康篩檢啟動! 首度新增身體組成分析、持續推動無痛腸胃鏡 - 嘉義市政府衛生局",
+      "title": "嘉義市115年整合性健康篩檢啟動! 首度新增身體組成分析、持續推動無痛腸胃鏡 - health.chiayi.gov.tw",
       "date": "Fri, 31 Jul 2026",
       "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5MUnJhamxxOGo1UUQxN2ZMbFZkd3ZHN09wLWZYczJHYVlQWXlQSWpiajh0R0pHTkIzMUlkTDhRRE5ST2tLT2E5VkJycThyZzAtTGl5NnhCdWZZQ2Jqb3I3N3ptTnRBT0pMM09wZU1mMA?oc=5",
+      "desc": "",
+      "source": "Google新聞"
+    },
+    {
+      "title": "用生命在追劇 - ccpb.gov.tw",
+      "date": "Fri, 31 Jul 2026",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPYk9kU0I4SnF2bzJxUVlyLWN1TFVRTjBCWkNJVlRyc19rQ1ZnTDg3VGZmUXh6WTUzVlpzeUtSM1cySk81RnhkcXY4WDhSZUR0WnVhbHEtb29qdEV6dm5GVDJEc3dGMDVtTnozVmhCY083OUF1V1JXYkJLa3JtMnpnVjRpZ3c?oc=5",
       "desc": "",
       "source": "Google新聞"
     },
@@ -69,20 +76,6 @@
       "source": "Google新聞"
     },
     {
-      "title": "嘉義市體育館(自有停車彎)於115年8月1日起實施路邊停車收費管理 - ccpb.gov.tw",
-      "date": "Fri, 31 Jul 2026",
-      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQMGF6UkptNjFrVFlsanNjMW1zNlRWMnpRVjhxOF9acEcwRkdidG5uRDBtT29TVElBYmNpRnlLY3dpaUpyVHF6UTZxTVV5Y2xJU3BYLVlzUU9LUmdrQTVsX28zRFVGekdZNGdWY3ViM29mdERERS1ITlNNbDhDeUk1eU1lcVQ?oc=5",
-      "desc": "",
-      "source": "Google新聞"
-    },
-    {
-      "title": "嘉義市國中小校長交接　黃敏惠盼深耕育才、智慧領航 - ETtoday新聞雲",
-      "date": "Fri, 31 Jul 2026",
-      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBpT19BemdJRGlXLXpnWnpvOWpUY2FIcFMxdFZQcFBvamNCT3oxbVB0ZHg1YWVFLXFpa2FhSUk0QlJrX2ZLRFQ1UTVYNXJIc0JtTjVjWHJoSDAybG93SUHSAUtBVV95cUxQV3lrSk8ycWl4c1Z0NjczRFRZYkl2WGxndVhtRG5qY3laLXMyVWJkQkVoZHdiUllITjZDMHd6LWFPb0hVMzVWeVUwcFU?oc=5",
-      "desc": "",
-      "source": "Google新聞"
-    },
-    {
       "title": "中臺灣農業行銷展售會8月登場 「幸福嘉義館」集結21家品牌 - 台灣好新聞",
       "date": "Fri, 31 Jul 2026",
       "link": "https://news.google.com/rss/articles/CBMiggNBVV95cUxPc25obGlXVFM1V0dkU0NNVGVjN3BabTFFbFNadjUxdVN6ck9BY0NNb0l3RDRBWDBuRS05TWROZGtPODJFRGhyZkNYemFuS3g2Z1BjMHRRYWhBSEhuUjBSLWZNbUp0RTFkazhybGUyajVsMlE1Qjc4aUtnZFlUV0ZWeHhiMVhpYnI1QUlwX3JUTWJGMmU4N1F3emctREZHenloWV9hM2hYYWNBM3k5anFHeTdqVjJXaGdyNnh3bEliQktaSzBiMTVqejhIZmYtMUxZa2JJenFDbENfaFlQRUJxMU1CYmpWT2Y3WUtvWkRrY2loTWhRTnk0ZHBRaHdicHRxVlhaYi1MWGdHWW1XbkdSZ3lhZkMzQ19TRzNMeU4zN3Z6dXFRNXNrT3U0d1ZwZ0c1S0dzQi1CUHZjQVFxQm8tRnFUVEoyYVhhWXJjMTAyYVhGWU51ZVVlRm5Id21MZ0dyYjZ2R3dPeXJDRUJrd2NhNUM3dFhCaGV1NzNiV0NEUTcydw?oc=5",
@@ -90,9 +83,16 @@
       "source": "Google新聞"
     },
     {
-      "title": "嘉義市購物節發票登錄突破1億元市民最期待「滿千送百領現金」8月3日接力登場| 熱門亮點| 商情 - 經濟日報",
+      "title": "嘉義市政府第1256次市務會議紀錄 - chiayi.gov.tw",
+      "date": "Thu, 30 Jul 2026",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBsVDMtVVEyVW1oMF82Z1RHaUVZTFdPeV9fLTNhOVZrN3gtaGE5b2tUQ2htZmNfUVdXTVRFc3Z1WFJCWU5jRGl1OVVsSVUteXo4aEVhUGlJSjVNUXgzSlpOV1BGNnZDZTUtcVE?oc=5",
+      "desc": "",
+      "source": "Google新聞"
+    },
+    {
+      "title": "嘉義市體育館(自有停車彎)於115年8月1日起實施路邊停車收費管理 - ccpb.gov.tw",
       "date": "Fri, 31 Jul 2026",
-      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE55R2FiN1ZmTEY4SGhqNDZGNWFacDNRdEpVNk12aWZVZDdmRkJyOGJmX3llUktHTG5mOWloM0Z2R0xVVDc0bkRtUDFtNVlSUkgybFc1alNadzdHblhZZG9ZVVh3dXR5YUFlb0RUWDBZNC1mdGp4TV9J?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQMGF6UkptNjFrVFlsanNjMW1zNlRWMnpRVjhxOF9acEcwRkdidG5uRDBtT29TVElBYmNpRnlLY3dpaUpyVHF6UTZxTVV5Y2xJU3BYLVlzUU9LUmdrQTVsX28zRFVGekdZNGdWY3ViM29mdERERS1ITlNNbDhDeUk1eU1lcVQ?oc=5",
       "desc": "",
       "source": "Google新聞"
     }
@@ -158,7 +158,7 @@
   "disease": {
     "dengue": [],
     "enterovirus": [],
-    "updated": "2026-07-31"
+    "updated": "2026-08-01"
   },
   "fire": {
     "chiayi_datasets": [
@@ -260,7 +260,7 @@
       "lat": 23.481634,
       "lng": 120.453745,
       "total": 45,
-      "available": 17,
+      "available": 22,
       "addr": "中山路199號(對面)"
     },
     {
@@ -269,7 +269,7 @@
       "lat": 23.482012,
       "lng": 120.457342,
       "total": 22,
-      "available": 4,
+      "available": 2,
       "addr": "中山路98號(前)"
     },
     {
@@ -287,7 +287,7 @@
       "lat": 23.478707,
       "lng": 120.462594,
       "total": 38,
-      "available": 5,
+      "available": 4,
       "addr": "啟明路122號(前)"
     },
     {
@@ -296,7 +296,7 @@
       "lat": 23.477031,
       "lng": 120.465573,
       "total": 34,
-      "available": 11,
+      "available": 2,
       "addr": "大雅路二段738號(前)"
     },
     {
@@ -305,7 +305,7 @@
       "lat": 23.4798596,
       "lng": 120.4488291,
       "total": 20,
-      "available": 5,
+      "available": 6,
       "addr": "中山路306號"
     },
     {
@@ -314,7 +314,7 @@
       "lat": 23.47963,
       "lng": 120.44583,
       "total": 20,
-      "available": 1,
+      "available": 6,
       "addr": "中山路386號"
     },
     {
@@ -323,7 +323,7 @@
       "lat": 23.47917,
       "lng": 120.44186,
       "total": 99,
-      "available": 87,
+      "available": 42,
       "addr": "中山路524號"
     },
     {
@@ -332,7 +332,7 @@
       "lat": 23.47877,
       "lng": 120.44089,
       "total": 42,
-      "available": 6,
+      "available": 27,
       "addr": "中山路528號"
     },
     {
@@ -341,7 +341,7 @@
       "lat": 23.47283,
       "lng": 120.44029,
       "total": 5,
-      "available": 3,
+      "available": 2,
       "addr": "垂楊路575號"
     },
     {
@@ -350,7 +350,7 @@
       "lat": 23.47336,
       "lng": 120.44604,
       "total": 14,
-      "available": 8,
+      "available": 10,
       "addr": "垂楊路351號"
     },
     {
@@ -359,7 +359,7 @@
       "lat": 23.4738724,
       "lng": 120.4493073,
       "total": 20,
-      "available": 3,
+      "available": 12,
       "addr": "垂楊路434號"
     },
     {
@@ -368,7 +368,7 @@
       "lat": 23.47918,
       "lng": 120.43182,
       "total": 15,
-      "available": 10,
+      "available": 11,
       "addr": "北港路278號"
     },
     {
@@ -377,7 +377,7 @@
       "lat": 23.486138,
       "lng": 120.453829,
       "total": 20,
-      "available": 3,
+      "available": 13,
       "addr": "忠孝路284號(旁)"
     },
     {
@@ -395,7 +395,7 @@
       "lat": 23.48465,
       "lng": 120.43354,
       "total": 14,
-      "available": 11,
+      "available": 4,
       "addr": "友愛興達路口"
     },
     {
@@ -404,7 +404,7 @@
       "lat": 23.48931,
       "lng": 120.4361,
       "total": 15,
-      "available": 9,
+      "available": 5,
       "addr": "自由路298號"
     },
     {
@@ -413,7 +413,7 @@
       "lat": 23.49265,
       "lng": 120.43191,
       "total": 15,
-      "available": 9,
+      "available": 6,
       "addr": "自由路492號"
     },
     {
@@ -422,7 +422,7 @@
       "lat": 23.478941,
       "lng": 120.437805,
       "total": 23,
-      "available": 1,
+      "available": 9,
       "addr": "博愛路二段281號"
     },
     {
@@ -431,10 +431,10 @@
       "lat": 23.47165,
       "lng": 120.43119,
       "total": 15,
-      "available": 3,
+      "available": 5,
       "addr": "博愛路二段461號"
     }
   ],
   "water": [],
-  "fetch_seconds": 89.4
+  "fetch_seconds": 112.9
 }

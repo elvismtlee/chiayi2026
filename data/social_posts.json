@@ -1,5 +1,19 @@
 [
   {
+    "id": "ptt-httpswwwpttccbbsChiayiM1785544299A7B4html",
+    "platform": "PTT",
+    "platform_color": "#00b300",
+    "board": "Chiayi",
+    "date": "08/01",
+    "author": "PTT 鄉民",
+    "title": "[新聞] 嘉市友忠公園砸4000萬大改造 廁所、步道",
+    "url": "https://www.ptt.cc/bbs/Chiayi/M.1785544299.A.7B4.html",
+    "reactions": 0,
+    "comments": 0,
+    "category": "人行步道",
+    "source": "ptt"
+  },
+  {
     "id": "ptt-httpswwwpttccbbsChiayiM1785500572AC59html",
     "platform": "PTT",
     "platform_color": "#00b300",
@@ -148,20 +162,6 @@
     "author": "PTT 鄉民",
     "title": "[買賣] 全家咖啡   coco茶",
     "url": "https://www.ptt.cc/bbs/Chiayi/M.1785228750.A.EA4.html",
-    "reactions": 0,
-    "comments": 0,
-    "category": "市政議題",
-    "source": "ptt"
-  },
-  {
-    "id": "ptt-httpswwwpttccbbsChiayiM1785225262A225html",
-    "platform": "PTT",
-    "platform_color": "#00b300",
-    "board": "Chiayi",
-    "date": "07/28",
-    "author": "PTT 鄉民",
-    "title": "[新聞] 東野圭吾大腸癌離世 嘉縣8月45-74歲大腸",
-    "url": "https://www.ptt.cc/bbs/Chiayi/M.1785225262.A.225.html",
     "reactions": 0,
     "comments": 0,
     "category": "市政議題",
