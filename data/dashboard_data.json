@@ -1,6 +1,20 @@
 {
-  "updated_at": "2026-08-02T02:26:32.064662",
+  "updated_at": "2026-08-02T08:18:52.681743",
   "news": [
+    {
+      "headline": "115年模範父親表揚大會~父愛總是默默守護家庭",
+      "source": "嘉義市政府/西區公所",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=947885",
+      "date": "2026/08/02",
+      "query": "市府新聞"
+    },
+    {
+      "headline": "亞洲青年管弦樂團第10度來嘉49組家庭展現「管樂之都」國際熱情",
+      "source": "嘉義市政府/文化局/觀光新聞處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=947884",
+      "date": "2026/08/02",
+      "query": "市府新聞"
+    },
     {
       "headline": "洪暐哲《偏偏》MV走進嘉義新歌分享會掀粉絲踩點熱潮",
       "source": "嘉義市政府/文化局/觀光新聞處",
@@ -68,20 +82,6 @@
       "headline": "嘉市115學年度國中小新、卸任校長交接黃敏惠市長勉勵教育夥伴深耕育才、領航未來",
       "source": "嘉義市政府/教育處/觀光新聞處",
       "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=947635",
-      "date": "2026/07/31",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "嘉義市城鎮韌性演習8月10日登場！首度實施行動網路降速訓練市府籲民眾提前準備",
-      "source": "嘉義市政府/警察局/觀光新聞處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=947629",
-      "date": "2026/07/31",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "嘉義市身障運代表隊勇奪23金載譽歸來！市府加碼頒發432萬獎勵金",
-      "source": "嘉義市政府/教育處/觀光新聞處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=947626",
       "date": "2026/07/31",
       "query": "市府新聞"
     }
@@ -202,7 +202,7 @@
       "2012": 1,
       "2013": 1
     },
-    "updated_at": "2026-08-02T02:24:06.176921",
+    "updated_at": "2026-08-02T08:17:12.910344",
     "source": "data.chiayi.gov.tw"
   },
   "council": {
@@ -236,6 +236,20 @@
   },
   "citizen_stats": {},
   "social_posts": [
+    {
+      "id": "ptt-httpswwwpttccbbsChiayiM1785644167ACF7html",
+      "platform": "PTT",
+      "platform_color": "#00b300",
+      "board": "Chiayi",
+      "date": "08/02",
+      "author": "PTT 鄉民",
+      "title": "[問題] 四歲小孩適合的游泳老師？",
+      "url": "https://www.ptt.cc/bbs/Chiayi/M.1785644167.A.CF7.html",
+      "reactions": 0,
+      "comments": 0,
+      "category": "市政議題",
+      "source": "ptt"
+    },
     {
       "id": "ptt-httpswwwpttccbbsChiayiM1785544299A7B4html",
       "platform": "PTT",
@@ -385,20 +399,6 @@
       "author": "PTT 鄉民",
       "title": "[買賣] 全家咖啡   coco茶",
       "url": "https://www.ptt.cc/bbs/Chiayi/M.1785228750.A.EA4.html",
-      "reactions": 0,
-      "comments": 0,
-      "category": "市政議題",
-      "source": "ptt"
-    },
-    {
-      "id": "ptt-httpswwwpttccbbsChiayiM1785225262A225html",
-      "platform": "PTT",
-      "platform_color": "#00b300",
-      "board": "Chiayi",
-      "date": "07/28",
-      "author": "PTT 鄉民",
-      "title": "[新聞] 東野圭吾大腸癌離世 嘉縣8月45-74歲大腸",
-      "url": "https://www.ptt.cc/bbs/Chiayi/M.1785225262.A.225.html",
       "reactions": 0,
       "comments": 0,
       "category": "市政議題",
