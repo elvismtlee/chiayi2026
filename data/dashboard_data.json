@@ -1,6 +1,48 @@
 {
-  "updated_at": "2026-08-03T02:29:44.619490",
+  "updated_at": "2026-08-03T09:37:27.021079",
   "news": [
+    {
+      "headline": "黃敏惠市長參訪台東博覽會交流城市治理與地方創生經驗",
+      "source": "嘉義市政府/民政處/觀光新聞處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=948038",
+      "date": "2026/08/03",
+      "query": "市府新聞"
+    },
+    {
+      "headline": "嘉義市115年7月份人口統計資料",
+      "source": "嘉義市政府/民政處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=948037",
+      "date": "2026/08/03",
+      "query": "市府新聞"
+    },
+    {
+      "headline": "桃喜親子藝術節好評延燒青少年音樂展現新秀實力8月9日壓軸活動邀親子共享藝術盛夏",
+      "source": "嘉義市政府/文化局/觀光新聞處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=948016",
+      "date": "2026/08/03",
+      "query": "市府新聞"
+    },
+    {
+      "headline": "明華園總團旗艦大戲《貓神》8月9日嘉義文化公園登場邀您共賞歌仔戲經典盛宴",
+      "source": "嘉義市政府/文化局/觀光新聞處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=948011",
+      "date": "2026/08/03",
+      "query": "市府新聞"
+    },
+    {
+      "headline": "嘉義市民專屬「滿千送百領現金」8月3日開始兌換消費5000送500元現金補助總額2500萬兌完為止",
+      "source": "嘉義市政府/建設處/觀光新聞處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=948002",
+      "date": "2026/08/03",
+      "query": "市府新聞"
+    },
+    {
+      "headline": "嘉義市社會救助金線上捐款平台啟用24小時愛心不打烊",
+      "source": "嘉義市政府/社會處/觀光新聞處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=947997",
+      "date": "2026/08/03",
+      "query": "市府新聞"
+    },
     {
       "headline": "藍波老師熱力引爆嘉義市！「勇壯新節奏律動派對」喚醒樂齡青春靈魂",
       "source": "嘉義市政府/衛生局/觀光新聞處",
@@ -41,48 +83,6 @@
       "source": "嘉義市政府/文化局/觀光新聞處",
       "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=947883",
       "date": "2026/08/02",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "嘉市115學年度公幼加置人力甄選積極打造友善育兒環境",
-      "source": "嘉義市政府/教育處/觀光新聞處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=947882",
-      "date": "2026/08/02",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "嘉義市115學年度全面推動國中小設置特殊教育組強化特殊教育支持系統",
-      "source": "嘉義市政府/教育處/觀光新聞處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=947829",
-      "date": "2026/08/01",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "台北國際合唱音樂節登嘉義西班牙SUHAR男聲合唱團獻聲深化嘉義國際文化交流",
-      "source": "嘉義市政府/文化局/觀光新聞處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=947828",
-      "date": "2026/08/01",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "中華道教團體聯合總會會員大會展現信仰凝聚力黃敏惠市長：宗教文化凝聚安定力量",
-      "source": "嘉義市政府/民政處/觀光新聞處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=947827",
-      "date": "2026/08/01",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "嘉市表揚115年模範父親暨慈暉父親表揚黃敏惠市長感謝父親無私奉獻、守護家庭",
-      "source": "嘉義市政府/社會處/觀光新聞處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=947825",
-      "date": "2026/08/01",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "預售屋有履保就安心？五種保障方式差很大",
-      "source": "嘉義市政府",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=947622",
-      "date": "2026/08/01",
       "query": "市府新聞"
     }
   ],
@@ -198,7 +198,7 @@
       "2012": 1,
       "2013": 1
     },
-    "updated_at": "2026-08-03T02:27:20.873318",
+    "updated_at": "2026-08-03T09:35:48.454397",
     "source": "data.chiayi.gov.tw"
   },
   "council": {
@@ -232,6 +232,20 @@
   },
   "citizen_stats": {},
   "social_posts": [
+    {
+      "id": "ptt-httpswwwpttccbbsChiayiM1785745589AEEAhtml",
+      "platform": "PTT",
+      "platform_color": "#00b300",
+      "board": "Chiayi",
+      "date": "08/03",
+      "author": "PTT 鄉民",
+      "title": "[問題] 嘉義父親節蛋糕",
+      "url": "https://www.ptt.cc/bbs/Chiayi/M.1785745589.A.EEA.html",
+      "reactions": 0,
+      "comments": 0,
+      "category": "市政議題",
+      "source": "ptt"
+    },
     {
       "id": "ptt-httpswwwpttccbbsChiayiM1785644167ACF7html",
       "platform": "PTT",
@@ -363,7 +377,7 @@
       "platform": "PTT",
       "platform_color": "#00b300",
       "board": "Chiayi",
-      "date": "07/30",
+      "date": "08/03",
       "author": "PTT 鄉民",
       "title": "[問題] 請問東石好吃的生魚片跟現炒？",
       "url": "https://www.ptt.cc/bbs/Chiayi/M.1785238953.A.857.html",
@@ -381,20 +395,6 @@
       "author": "PTT 鄉民",
       "title": "[買賣] 有嘉人抽到一番賞小賞的杯子可轉讓嗎",
       "url": "https://www.ptt.cc/bbs/Chiayi/M.1785230758.A.517.html",
-      "reactions": 0,
-      "comments": 0,
-      "category": "市政議題",
-      "source": "ptt"
-    },
-    {
-      "id": "ptt-httpswwwpttccbbsChiayiM1785228750AEA4html",
-      "platform": "PTT",
-      "platform_color": "#00b300",
-      "board": "Chiayi",
-      "date": "07/29",
-      "author": "PTT 鄉民",
-      "title": "[買賣] 全家咖啡   coco茶",
-      "url": "https://www.ptt.cc/bbs/Chiayi/M.1785228750.A.EA4.html",
       "reactions": 0,
       "comments": 0,
       "category": "市政議題",
