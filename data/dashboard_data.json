@@ -1,6 +1,27 @@
 {
-  "updated_at": "2026-08-02T19:05:56.755232",
+  "updated_at": "2026-08-03T02:29:44.619490",
   "news": [
+    {
+      "headline": "藍波老師熱力引爆嘉義市！「勇壯新節奏律動派對」喚醒樂齡青春靈魂",
+      "source": "嘉義市政府/衛生局/觀光新聞處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=947911",
+      "date": "2026/08/03",
+      "query": "市府新聞"
+    },
+    {
+      "headline": "出國旅遊攜帶藥品入境有規定嘉義市政府衛生局提醒遵守自用限量安心出遊健康返國",
+      "source": "嘉義市政府/衛生局",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=947615",
+      "date": "2026/08/03",
+      "query": "市府新聞"
+    },
+    {
+      "headline": "嘉義市石綿建材清運補助第二階段開放申請申請期限至9月底請民眾把握",
+      "source": "嘉義市政府/嘉義市政府環境保護局/環保設施管理科",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=947660",
+      "date": "2026/08/03",
+      "query": "市府新聞"
+    },
     {
       "headline": "115年模範父親表揚大會~父愛總是默默守護家庭",
       "source": "嘉義市政府/西區公所",
@@ -62,27 +83,6 @@
       "source": "嘉義市政府",
       "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=947622",
       "date": "2026/08/01",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "中臺灣農業行銷展售會8月登場「幸福嘉義館」集結21家品牌秀嘉義市好味道",
-      "source": "嘉義市政府/建設處/觀光新聞處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=947648",
-      "date": "2026/07/31",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "嘉義市政府衛生局公布「115年度現場調製飲品及冰品稽查專案」執行結果",
-      "source": "嘉義市政府/衛生局",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=947106",
-      "date": "2026/07/31",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "嘉市115學年度國中小新、卸任校長交接黃敏惠市長勉勵教育夥伴深耕育才、領航未來",
-      "source": "嘉義市政府/教育處/觀光新聞處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=947635",
-      "date": "2026/07/31",
       "query": "市府新聞"
     }
   ],
@@ -198,7 +198,7 @@
       "2012": 1,
       "2013": 1
     },
-    "updated_at": "2026-08-02T19:04:10.023644",
+    "updated_at": "2026-08-03T02:27:20.873318",
     "source": "data.chiayi.gov.tw"
   },
   "council": {
@@ -265,7 +265,7 @@
       "platform": "PTT",
       "platform_color": "#00b300",
       "board": "Chiayi",
-      "date": "08/01",
+      "date": "08/03",
       "author": "PTT 鄉民",
       "title": "[新聞] 莫內饗宴下月試營運、饗食天堂11月開",
       "url": "https://www.ptt.cc/bbs/Chiayi/M.1785497742.A.45D.html",
