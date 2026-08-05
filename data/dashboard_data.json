@@ -1,6 +1,13 @@
 {
-  "updated_at": "2026-08-04T19:31:08.230998",
+  "updated_at": "2026-08-05T02:06:02.286064",
   "news": [
+    {
+      "headline": "嘉義市推動綠色遶境，結合信仰文化落實源頭減量與永續行動",
+      "source": "嘉義市政府/嘉義市政府環境保護局/資源循環管理科",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=948201",
+      "date": "2026/08/05",
+      "query": "市府新聞"
+    },
     {
       "headline": "預售屋有履保就安心？五種保障方式差很大",
       "source": "嘉義市政府/地政處/觀光新聞處",
@@ -75,13 +82,6 @@
       "headline": "嘉義市社會救助金線上捐款平台啟用24小時愛心不打烊",
       "source": "嘉義市政府/社會處/觀光新聞處",
       "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=947997",
-      "date": "2026/08/03",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "藍波老師熱力引爆嘉義市！「勇壯新節奏律動派對」喚醒樂齡青春靈魂",
-      "source": "嘉義市政府/衛生局/觀光新聞處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=947911",
       "date": "2026/08/03",
       "query": "市府新聞"
     }
@@ -202,7 +202,7 @@
       "2012": 1,
       "2013": 1
     },
-    "updated_at": "2026-08-04T19:28:35.243500",
+    "updated_at": "2026-08-05T02:03:59.296873",
     "source": "data.chiayi.gov.tw"
   },
   "council": {
