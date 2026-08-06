@@ -1,6 +1,13 @@
 {
-  "updated_at": "2026-08-05T19:29:31.355954",
+  "updated_at": "2026-08-06T02:12:52.941988",
   "news": [
+    {
+      "headline": "亂丟菸蒂最高罰6,000元嘉市環保局籲民眾守護環境",
+      "source": "嘉義市政府/嘉義市政府環境保護局/資源循環管理科",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=948023",
+      "date": "2026/08/06",
+      "query": "市府新聞"
+    },
     {
       "headline": "嘉義市推動綠色遶境，結合信仰文化落實源頭減量與永續行動",
       "source": "嘉義市政府/嘉義市政府環境保護局/資源循環管理科",
@@ -75,13 +82,6 @@
       "headline": "嘉義市民專屬「滿千送百領現金」8月3日開始兌換消費5000送500元現金補助總額2500萬兌完為止",
       "source": "嘉義市政府/建設處/觀光新聞處",
       "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=948002",
-      "date": "2026/08/03",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "嘉義市社會救助金線上捐款平台啟用24小時愛心不打烊",
-      "source": "嘉義市政府/社會處/觀光新聞處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=947997",
       "date": "2026/08/03",
       "query": "市府新聞"
     }
@@ -201,7 +201,7 @@
       "2012": 1,
       "2013": 1
     },
-    "updated_at": "2026-08-05T19:27:01.118839",
+    "updated_at": "2026-08-06T02:10:26.711110",
     "source": "data.chiayi.gov.tw"
   },
   "council": {
@@ -235,6 +235,20 @@
   },
   "citizen_stats": {},
   "social_posts": [
+    {
+      "id": "ptt-httpswwwpttccbbsChiayiM1785976552A446html",
+      "platform": "PTT",
+      "platform_color": "#00b300",
+      "board": "Chiayi",
+      "date": "08/06",
+      "author": "PTT 鄉民",
+      "title": "[新聞] 嘉義檢舉魔人7個月打127次110 鄰居不堪",
+      "url": "https://www.ptt.cc/bbs/Chiayi/M.1785976552.A.446.html",
+      "reactions": 0,
+      "comments": 0,
+      "category": "市政議題",
+      "source": "ptt"
+    },
     {
       "id": "ptt-httpswwwpttccbbsChiayiM1785936217A5C7html",
       "platform": "PTT",
@@ -384,20 +398,6 @@
       "author": "PTT 鄉民",
       "title": "[買賣] 桌上型.落地型飲水機/伊萊克斯空氣清淨機",
       "url": "https://www.ptt.cc/bbs/Chiayi/M.1785244628.A.F95.html",
-      "reactions": 0,
-      "comments": 0,
-      "category": "市政議題",
-      "source": "ptt"
-    },
-    {
-      "id": "ptt-httpswwwpttccbbsChiayiM1785238953A857html",
-      "platform": "PTT",
-      "platform_color": "#00b300",
-      "board": "Chiayi",
-      "date": "08/03",
-      "author": "PTT 鄉民",
-      "title": "[問題] 請問東石好吃的生魚片跟現炒？",
-      "url": "https://www.ptt.cc/bbs/Chiayi/M.1785238953.A.857.html",
       "reactions": 0,
       "comments": 0,
       "category": "市政議題",
