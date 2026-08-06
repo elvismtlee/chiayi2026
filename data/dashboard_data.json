@@ -1,6 +1,13 @@
 {
-  "updated_at": "2026-08-06T08:31:16.536965",
+  "updated_at": "2026-08-06T14:00:24.896558",
   "news": [
+    {
+      "headline": "嘉義市清潔隊擴編甄試，133名考生爭奪30名",
+      "source": "嘉義市政府/嘉義市政府環境保護局/清潔隊",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=948360",
+      "date": "2026/08/06",
+      "query": "市府新聞"
+    },
     {
       "headline": "亂丟菸蒂最高罰6,000元嘉市環保局籲民眾守護環境",
       "source": "嘉義市政府/嘉義市政府環境保護局/資源循環管理科",
@@ -75,13 +82,6 @@
       "headline": "明華園總團旗艦大戲《貓神》8月9日嘉義文化公園登場邀您共賞歌仔戲經典盛宴",
       "source": "嘉義市政府/文化局/觀光新聞處",
       "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=948011",
-      "date": "2026/08/03",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "嘉義市民專屬「滿千送百領現金」8月3日開始兌換消費5000送500元現金補助總額2500萬兌完為止",
-      "source": "嘉義市政府/建設處/觀光新聞處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=948002",
       "date": "2026/08/03",
       "query": "市府新聞"
     }
@@ -201,7 +201,7 @@
       "2012": 1,
       "2013": 1
     },
-    "updated_at": "2026-08-06T08:29:32.455561",
+    "updated_at": "2026-08-06T13:57:56.730094",
     "source": "data.chiayi.gov.tw"
   },
   "council": {
@@ -235,6 +235,20 @@
   },
   "citizen_stats": {},
   "social_posts": [
+    {
+      "id": "ptt-httpswwwpttccbbsChiayiM1786023738AC49html",
+      "platform": "PTT",
+      "platform_color": "#00b300",
+      "board": "Chiayi",
+      "date": "08/06",
+      "author": "PTT 鄉民",
+      "title": "[贈送] 木頭桌子腳架",
+      "url": "https://www.ptt.cc/bbs/Chiayi/M.1786023738.A.C49.html",
+      "reactions": 0,
+      "comments": 0,
+      "category": "市政議題",
+      "source": "ptt"
+    },
     {
       "id": "ptt-httpswwwpttccbbsChiayiM1785976552A446html",
       "platform": "PTT",
@@ -384,20 +398,6 @@
       "author": "PTT 鄉民",
       "title": "[廣告] 布袋鹽田濕地志工招募中",
       "url": "https://www.ptt.cc/bbs/Chiayi/M.1785291414.A.307.html",
-      "reactions": 0,
-      "comments": 0,
-      "category": "市政議題",
-      "source": "ptt"
-    },
-    {
-      "id": "ptt-httpswwwpttccbbsChiayiM1785244628AF95html",
-      "platform": "PTT",
-      "platform_color": "#00b300",
-      "board": "Chiayi",
-      "date": "07/29",
-      "author": "PTT 鄉民",
-      "title": "[買賣] 桌上型.落地型飲水機/伊萊克斯空氣清淨機",
-      "url": "https://www.ptt.cc/bbs/Chiayi/M.1785244628.A.F95.html",
       "reactions": 0,
       "comments": 0,
       "category": "市政議題",
