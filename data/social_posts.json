@@ -1,5 +1,19 @@
 [
   {
+    "id": "ptt-httpswwwpttccbbsChiayiM1786064158A39Fhtml",
+    "platform": "PTT",
+    "platform_color": "#00b300",
+    "board": "Chiayi",
+    "date": "08/07",
+    "author": "PTT 鄉民",
+    "title": "[新聞] 嘉義市「藍白合」更進一步　蕭萬長出任",
+    "url": "https://www.ptt.cc/bbs/Chiayi/M.1786064158.A.39F.html",
+    "reactions": 0,
+    "comments": 0,
+    "category": "市政議題",
+    "source": "ptt"
+  },
+  {
     "id": "ptt-httpswwwpttccbbsChiayiM1786023738AC49html",
     "platform": "PTT",
     "platform_color": "#00b300",
@@ -148,20 +162,6 @@
     "author": "PTT 鄉民",
     "title": "[買賣] 王品折價券.商品卡/全家衛生紙.吐司.豆漿",
     "url": "https://www.ptt.cc/bbs/Chiayi/M.1785321254.A.F24.html",
-    "reactions": 0,
-    "comments": 0,
-    "category": "市政議題",
-    "source": "ptt"
-  },
-  {
-    "id": "ptt-httpswwwpttccbbsChiayiM1785291414A307html",
-    "platform": "PTT",
-    "platform_color": "#00b300",
-    "board": "Chiayi",
-    "date": "07/29",
-    "author": "PTT 鄉民",
-    "title": "[廣告] 布袋鹽田濕地志工招募中",
-    "url": "https://www.ptt.cc/bbs/Chiayi/M.1785291414.A.307.html",
     "reactions": 0,
     "comments": 0,
     "category": "市政議題",

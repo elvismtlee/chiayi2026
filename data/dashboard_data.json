@@ -1,6 +1,13 @@
 {
-  "updated_at": "2026-08-07T00:00:43.712291",
+  "updated_at": "2026-08-07T02:27:50.407995",
   "news": [
+    {
+      "headline": "父親節相約嘉義雙潭星光路跑，一起感受城市生活的美好。",
+      "source": "嘉義市政府/地政處/地用及重劃科",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=947430",
+      "date": "2026/08/07",
+      "query": "市府新聞"
+    },
     {
       "headline": "噪音車輛擾民代價大，最高裁罰3萬6,000元並吊扣牌照",
       "source": "嘉義市政府/嘉義市政府環境保護局/環境品質管理科",
@@ -77,22 +84,15 @@
       "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=948037",
       "date": "2026/08/03",
       "query": "市府新聞"
-    },
-    {
-      "headline": "桃喜親子藝術節好評延燒青少年音樂展現新秀實力8月9日壓軸活動邀親子共享藝術盛夏",
-      "source": "嘉義市政府/文化局/觀光新聞處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=948016",
-      "date": "2026/08/03",
-      "query": "市府新聞"
     }
   ],
   "complaint_stats": {
-    "total": 79518,
-    "record_count": 552,
+    "total": 79520,
+    "record_count": 554,
     "category_counts": {
       "公共安全": 38658,
       "交通停車": 7743,
-      "道路路平": 296,
+      "道路路平": 298,
       "環境衛生": 5,
       "行政服務": 6
     },
@@ -107,10 +107,11 @@
         "公有停車場": 38
       },
       "道路路平": {
-        "自來水管線": 30,
-        "電信管線": 11,
-        "電力管線": 70,
-        "道路施工": 13,
+        "電力管線": 54,
+        "自來水管線": 43,
+        "電信管線": 16,
+        "道路施工": 12,
+        "市府工程": 1,
         "橋梁設施": 172
       },
       "環境衛生": {
@@ -123,35 +124,23 @@
     "top_roads": [
       {
         "road": "東區嘉義",
-        "count": 13
+        "count": 14
       },
       {
         "road": "蘭潭水庫",
         "count": 12
       },
       {
-        "road": "西區湖內村里健康十街",
-        "count": 2
+        "road": "東區興安村里順興二路",
+        "count": 4
       },
       {
-        "road": "西區大溪村里大安街1",
-        "count": 2
+        "road": "東區興安村里順興三街",
+        "count": 3
       },
       {
-        "road": "西區湖內村里健康五街",
-        "count": 2
-      },
-      {
-        "road": "東區安業村里安業街3",
-        "count": 2
-      },
-      {
-        "road": "西區美源村里仁愛路2",
-        "count": 2
-      },
-      {
-        "road": "西區頭港村里大貴路5",
-        "count": 2
+        "road": "東區太平村里新生路5",
+        "count": 3
       },
       {
         "road": "西區新富村里民生北路",
@@ -159,6 +148,18 @@
       },
       {
         "road": "西區保安村里世賢路一",
+        "count": 2
+      },
+      {
+        "road": "西區湖內村里健康五街",
+        "count": 2
+      },
+      {
+        "road": "西區大溪村里大安街1",
+        "count": 2
+      },
+      {
+        "road": "東區中山村里垂楊路",
         "count": 2
       }
     ],
@@ -173,7 +174,7 @@
       },
       {
         "category": "道路路平",
-        "count": 296
+        "count": 298
       },
       {
         "category": "行政服務",
@@ -196,12 +197,12 @@
       "2022": 3112,
       "2023": 3318,
       "2024": 3270,
-      "2025": 8896,
+      "2025": 8898,
       "2026": 3599,
       "2012": 1,
       "2013": 1
     },
-    "updated_at": "2026-08-06T23:58:54.166703",
+    "updated_at": "2026-08-07T02:25:52.300765",
     "source": "data.chiayi.gov.tw"
   },
   "council": {
@@ -235,6 +236,20 @@
   },
   "citizen_stats": {},
   "social_posts": [
+    {
+      "id": "ptt-httpswwwpttccbbsChiayiM1786064158A39Fhtml",
+      "platform": "PTT",
+      "platform_color": "#00b300",
+      "board": "Chiayi",
+      "date": "08/07",
+      "author": "PTT 鄉民",
+      "title": "[新聞] 嘉義市「藍白合」更進一步　蕭萬長出任",
+      "url": "https://www.ptt.cc/bbs/Chiayi/M.1786064158.A.39F.html",
+      "reactions": 0,
+      "comments": 0,
+      "category": "市政議題",
+      "source": "ptt"
+    },
     {
       "id": "ptt-httpswwwpttccbbsChiayiM1786023738AC49html",
       "platform": "PTT",
@@ -384,20 +399,6 @@
       "author": "PTT 鄉民",
       "title": "[買賣] 王品折價券.商品卡/全家衛生紙.吐司.豆漿",
       "url": "https://www.ptt.cc/bbs/Chiayi/M.1785321254.A.F24.html",
-      "reactions": 0,
-      "comments": 0,
-      "category": "市政議題",
-      "source": "ptt"
-    },
-    {
-      "id": "ptt-httpswwwpttccbbsChiayiM1785291414A307html",
-      "platform": "PTT",
-      "platform_color": "#00b300",
-      "board": "Chiayi",
-      "date": "07/29",
-      "author": "PTT 鄉民",
-      "title": "[廣告] 布袋鹽田濕地志工招募中",
-      "url": "https://www.ptt.cc/bbs/Chiayi/M.1785291414.A.307.html",
       "reactions": 0,
       "comments": 0,
       "category": "市政議題",
