@@ -1,16 +1,16 @@
 {
-  "updated_at": "2026-08-06T13:58:54.314316",
+  "updated_at": "2026-08-06T23:59:07.053741",
   "aqi_realtime": [
     {
       "station": "嘉義市（Open-Meteo 模型）",
-      "aqi": 54,
-      "pm25": 37.1,
-      "pm10": 40.5,
-      "o3": 47.0,
-      "no2": 70.1,
-      "status": "普通",
+      "aqi": 29,
+      "pm25": 21.0,
+      "pm10": 25.1,
+      "o3": 42.0,
+      "no2": 36.9,
+      "status": "良好",
       "pollutant": "PM2.5",
-      "time": "2026-08-06T21:00",
+      "time": "2026-08-07T07:00",
       "source": "Open-Meteo"
     }
   ],
@@ -22,27 +22,20 @@
       "date": "2026-07-31 08:11",
       "link": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tibj",
       "mag": 4.3
-    },
-    {
-      "title": "規模 4.5・98 km E of Yujing, Taiwan",
-      "desc": "深度 18 km",
-      "date": "2026-07-30 16:58",
-      "link": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000th0z",
-      "mag": 4.5
     }
   ],
   "weather": [
     {
       "station": "嘉義市（Open-Meteo）",
-      "temp": "27.2",
-      "apparent_temp": "33.9",
-      "humidity": "91",
-      "rainfall": "0.0",
-      "wind_speed": "2.4",
-      "wind_dir": "189",
-      "cloud": "16",
-      "weather": "晴",
-      "time": "2026-08-06 21:45",
+      "temp": "27.5",
+      "apparent_temp": "33.6",
+      "humidity": "90",
+      "rainfall": "0.1",
+      "wind_speed": "7.9",
+      "wind_dir": "359",
+      "cloud": "24",
+      "weather": "毛雨",
+      "time": "2026-08-07 07:45",
       "source": "Open-Meteo"
     }
   ],
@@ -62,16 +55,9 @@
       "source": "Google新聞"
     },
     {
-      "title": "嘉義市「熊出沒」！10隻大白熊藏身景點 等遊客來抓熊 - UDN",
+      "title": "14家「嘉義式」品牌人氣夯！ 黃敏惠市長率隊前進文博會 - 中央社 CNA",
       "date": "Thu, 06 Aug 2026",
-      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE0tR2hNZ2xtZkJwQnkzZVN5dVRPa2ExNUw0cVJWaExSVG9aN2tYY3VLTGdrajQ5MUxuWmthVFgwVHRwc1MtT3BTYUFlbjNDUnZG0gFWQVVfeXFMTi01YktMalJmYUZDal85TXI5T3V4REtZZkhFUDVhY0dfbUZ2WTE5NWJoUXdidmFudTZ6blVOaC1UMTBvX0VXcWlpOGdsNVVNaUlfTzY5X0E?oc=5",
-      "desc": "",
-      "source": "Google新聞"
-    },
-    {
-      "title": "嘉義市文博會展區亮相我們嘉義式展現文化創意能量| 地方亮點 - 中央社好生活",
-      "date": "Thu, 06 Aug 2026",
-      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE81MWFRaGZhRmUyS0ZiaXJENlF0a0x6VkNxQ0R2UjRSRFd4YkFNYU5fY0plQjdwSk05alIxb0w4cnlSeGJaOUgwYU5pQzc4WElBUDZXR2o2a3pmYzFrWHhv?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE03X3JXMFhoSlk0blhvUkhlZjB3c3J4a3Ftb3JvWXRkdlA2cGhrZDE0YUJId18yNW5YaHcwRjhtTm9pdFduZF9PZHcxS3ZMTXVObmFod2pn?oc=5",
       "desc": "",
       "source": "Google新聞"
     },
@@ -83,9 +69,16 @@
       "source": "Google新聞"
     },
     {
-      "title": "14家「嘉義式」品牌人氣夯！ 黃敏惠市長率隊前進文博會 - 中央社 CNA",
+      "title": "嘉義市文博會展區亮相我們嘉義式展現文化創意能量| 地方亮點 - 中央社好生活",
       "date": "Thu, 06 Aug 2026",
-      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE03X3JXMFhoSlk0blhvUkhlZjB3c3J4a3Ftb3JvWXRkdlA2cGhrZDE0YUJId18yNW5YaHcwRjhtTm9pdFduZF9PZHcxS3ZMTXVObmFod2pn?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE81MWFRaGZhRmUyS0ZiaXJENlF0a0x6VkNxQ0R2UjRSRFd4YkFNYU5fY0plQjdwSk05alIxb0w4cnlSeGJaOUgwYU5pQzc4WElBUDZXR2o2a3pmYzFrWHhv?oc=5",
+      "desc": "",
+      "source": "Google新聞"
+    },
+    {
+      "title": "嘉義市推動智慧回收機佈建再增3處！明(6/24)起推廣活動起跑 揪你回收兌優惠 - 嘉義市政府環境保護局",
+      "date": "Tue, 04 Aug 2026",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1pa0xqSUx5RGVHTzJCdDJkNmRKa0pseGpQdFJKWXFXQTl2NnFkSUZiNlFreHJJbHN0eEdRaUVLS2JLNWs0a1M2WTZUbU5PdW1wX3RkQnFIejlHaXVpOFN5UzNVY2xEOEFYRThz?oc=5",
       "desc": "",
       "source": "Google新聞"
     }
@@ -120,16 +113,9 @@
       "source": "Google新聞"
     },
     {
-      "title": "嘉市停車建設勇奪3金 - 蕃新聞",
-      "date": "Wed, 05 Aug 2026",
-      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE51eExVT2wxemdzajZmRkpSVGNST1k1bjVJeTZnZ29Md185aEh5dGtxUmFrQWtUVjFsVW0ta2FpUGd6N1pmTmppaU9WVV9PWXlWTUE?oc=5",
-      "org": "新聞資訊",
-      "source": "Google新聞"
-    },
-    {
-      "title": "嘉義市污水治理再奪雙項大獎 黃敏惠：隱形建設展現城市競爭力 - 東南亞財經新聞",
-      "date": "Tue, 28 Jul 2026",
-      "link": "https://news.google.com/rss/articles/CBMiwAJBVV95cUxOajdkcEx6RzlLUmdNNzVLQ0FRdEpBeWJyaG40eHJmTHRpSG94T1pPSmNtSGVvOFRxM3VLeWNFbVc4QkdZWUJEMVp5bkhDXzBaV1lzYUlGNkFidElwejV5SkFkYkItYWN3bzVHMXpRanUybkkzYm1wWXdIV2I5alpkd2o5b1NIa2cwWG04WjR3OTZrdGlLYkJiaFhIUE56ZmY3WmtIWk9pMEw0Yy1WTndXOHAySnlXbWdTR21XYUV2TkdKWUJfUFNZUjcyR0RpTU9XVHZMWjdYd3p4Z0JhRndlbnBoZHJrencwaUxCZzB1RGkybXdtb0gtaVJJT2FfT05feXR5WHpBZnRqYnc3NVpWN3JDY0tVWTFvWXdXZjhWYlFqZEUwcWlqRXhjOW45RUJnUkNtcktaM3VTYk5KaC1JNQ?oc=5",
+      "title": "嘉市友忠公園砸4000萬大改造廁所、步道、遊具全面更新- 生活 - 自由時報",
+      "date": "Fri, 31 Jul 2026",
+      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1UN0lNNlBvOFVJeXlyTVNNSUhCOGpBdHNuTnhaeVhRTE9FRlFQSElfWkxsOGllalh6bllhQkRxQXZOcWNtYXBXZWQ2YUFwclFOUlhRMDFzc0tEYlpocFo0TUNCNTQ?oc=5",
       "org": "新聞資訊",
       "source": "Google新聞"
     },
@@ -141,9 +127,16 @@
       "source": "Google新聞"
     },
     {
-      "title": "嘉義市污水治理再奪雙項大獎 黃敏惠：隱形建設展現城市競爭力 - 樂聯網",
+      "title": "嘉義市污水治理再奪雙項大獎 黃敏惠：隱形建設展現城市競爭力 - 東南亞財經新聞",
       "date": "Tue, 28 Jul 2026",
-      "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE53eG96QW5sZUJSSlV6cFJKX05Kd0xjZi1tMjVKS2wwbGJudkpUcmpQaUNvdWZYQ0Y5T3BZblVJNUZ0OWZpdzRCYWlYcw?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiwAJBVV95cUxOajdkcEx6RzlLUmdNNzVLQ0FRdEpBeWJyaG40eHJmTHRpSG94T1pPSmNtSGVvOFRxM3VLeWNFbVc4QkdZWUJEMVp5bkhDXzBaV1lzYUlGNkFidElwejV5SkFkYkItYWN3bzVHMXpRanUybkkzYm1wWXdIV2I5alpkd2o5b1NIa2cwWG04WjR3OTZrdGlLYkJiaFhIUE56ZmY3WmtIWk9pMEw0Yy1WTndXOHAySnlXbWdTR21XYUV2TkdKWUJfUFNZUjcyR0RpTU9XVHZMWjdYd3p4Z0JhRndlbnBoZHJrencwaUxCZzB1RGkybXdtb0gtaVJJT2FfT05feXR5WHpBZnRqYnc3NVpWN3JDY0tVWTFvWXdXZjhWYlFqZEUwcWlqRXhjOW45RUJnUkNtcktaM3VTYk5KaC1JNQ?oc=5",
+      "org": "新聞資訊",
+      "source": "Google新聞"
+    },
+    {
+      "title": "嘉市停車建設勇奪3金 - 蕃新聞",
+      "date": "Wed, 05 Aug 2026",
+      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE51eExVT2wxemdzajZmRkpSVGNST1k1bjVJeTZnZ29Md185aEh5dGtxUmFrQWtUVjFsVW0ta2FpUGd6N1pmTmppaU9WVV9PWXlWTUE?oc=5",
       "org": "新聞資訊",
       "source": "Google新聞"
     }
@@ -180,254 +173,42 @@
   "population": [],
   "bus": [
     {
-      "id": "CYI0119",
-      "name": "樂活3路",
-      "from": "許氏宗祠(預約站)",
-      "to": "許厝庄福德宮(預約站)"
+      "id": "7",
+      "name": "7路（市區環線）",
+      "from": "火車站",
+      "to": "東門圓環",
+      "static": true
     },
     {
-      "id": "CYI0123",
-      "name": "樂活1路",
-      "from": "濟美仁愛之家",
-      "to": "榮民醫院長照點"
+      "id": "8",
+      "name": "8路（嘉義大學線）",
+      "from": "火車站",
+      "to": "嘉大蘭潭校區",
+      "static": true
     },
     {
-      "id": "CYI0124",
-      "name": "樂活2路",
-      "from": "竹村里活動中心",
-      "to": "市政府(中山路)"
+      "id": "13",
+      "name": "13路（竹崎線）",
+      "from": "嘉義",
+      "to": "竹崎",
+      "static": true
     },
     {
-      "id": "CYI0128",
-      "name": "樂活5路",
-      "from": "轉運中心",
-      "to": "轉運中心"
+      "id": "22",
+      "name": "22路（朴子線）",
+      "from": "嘉義",
+      "to": "朴子",
+      "static": true
     },
     {
-      "id": "CYI0129",
-      "name": "樂活6路",
-      "from": "紅瓦里(1)全家超商",
-      "to": "嘉義基督教醫院"
-    },
-    {
-      "id": "CYI0130",
-      "name": "樂活7路",
-      "from": "五港宮(預約站)",
-      "to": "五港宮(預約站)"
-    },
-    {
-      "id": "CYI0138",
-      "name": "樂活8路",
-      "from": "泰勒瓦莊園(預約站位)",
-      "to": "轉運中心"
-    },
-    {
-      "id": "CYI0139",
-      "name": "樂活9路",
-      "from": "泰勒瓦莊園(預約站位)",
-      "to": "榮民醫院長照點"
-    },
-    {
-      "id": "CYI0714",
-      "name": "中山幹線(綠線)",
-      "from": "大富路",
-      "to": "嘉義大學校區內"
-    },
-    {
-      "id": "CYI0715",
-      "name": "台灣好行光林我嘉線(黃線)",
-      "from": "港坪運動公園",
-      "to": "蘭潭"
-    },
-    {
-      "id": "CYI0716",
-      "name": "忠孝新民幹線(紅線)",
-      "from": "勞工育樂中心",
-      "to": "忠孝北街"
+      "id": "R1",
+      "name": "紅1（嘉義－高鐵）",
+      "from": "嘉義後站",
+      "to": "嘉義高鐵站",
+      "static": true
     }
   ],
-  "youbike": [
-    {
-      "id": "CYI501001001",
-      "name": "嘉義市政府",
-      "lat": 23.481634,
-      "lng": 120.453745,
-      "total": 45,
-      "available": 12,
-      "addr": "中山路199號(對面)"
-    },
-    {
-      "id": "CYI501001002",
-      "name": "行政執行署",
-      "lat": 23.482012,
-      "lng": 120.457342,
-      "total": 22,
-      "available": 12,
-      "addr": "中山路98號(前)"
-    },
-    {
-      "id": "CYI501001003",
-      "name": "嘉義高商(公園派出所)",
-      "lat": 23.482663,
-      "lng": 120.462988,
-      "total": 25,
-      "available": 3,
-      "addr": "中山路2號(前)"
-    },
-    {
-      "id": "CYI501001004",
-      "name": "嘉義高中(志航街)",
-      "lat": 23.478707,
-      "lng": 120.462594,
-      "total": 38,
-      "available": 22,
-      "addr": "啟明路122號(前)"
-    },
-    {
-      "id": "CYI501001005",
-      "name": "嘉義高中(大雅路)",
-      "lat": 23.477031,
-      "lng": 120.465573,
-      "total": 34,
-      "available": 12,
-      "addr": "大雅路二段738號(前)"
-    },
-    {
-      "id": "CYI501001006",
-      "name": "臺灣銀行嘉義分行",
-      "lat": 23.4798596,
-      "lng": 120.4488291,
-      "total": 20,
-      "available": 2,
-      "addr": "中山路306號"
-    },
-    {
-      "id": "CYI501001007",
-      "name": "彰化銀行嘉義分行",
-      "lat": 23.47963,
-      "lng": 120.44583,
-      "total": 20,
-      "available": 0,
-      "addr": "中山路386號"
-    },
-    {
-      "id": "CYI501001008",
-      "name": "嘉義火車站(願景館)",
-      "lat": 23.47917,
-      "lng": 120.44186,
-      "total": 99,
-      "available": 65,
-      "addr": "中山路524號"
-    },
-    {
-      "id": "CYI501001009",
-      "name": "嘉義火車站(出口)",
-      "lat": 23.47877,
-      "lng": 120.44089,
-      "total": 42,
-      "available": 14,
-      "addr": "中山路528號"
-    },
-    {
-      "id": "CYI501001010",
-      "name": "新光三越遠東站(永和街口)",
-      "lat": 23.47283,
-      "lng": 120.44029,
-      "total": 5,
-      "available": 4,
-      "addr": "垂楊路575號"
-    },
-    {
-      "id": "CYI501001012",
-      "name": "嘉義舊市府(西榮街口)",
-      "lat": 23.47336,
-      "lng": 120.44604,
-      "total": 14,
-      "available": 11,
-      "addr": "垂楊路351號"
-    },
-    {
-      "id": "CYI501001013",
-      "name": "文化公園停車場",
-      "lat": 23.4738724,
-      "lng": 120.4493073,
-      "total": 20,
-      "available": 11,
-      "addr": "垂楊路434號"
-    },
-    {
-      "id": "CYI501001014",
-      "name": "嘉義市議會",
-      "lat": 23.47918,
-      "lng": 120.43182,
-      "total": 15,
-      "available": 9,
-      "addr": "北港路278號"
-    },
-    {
-      "id": "CYI501001015",
-      "name": "檜意森活村",
-      "lat": 23.486138,
-      "lng": 120.453829,
-      "total": 20,
-      "available": 3,
-      "addr": "忠孝路284號(旁)"
-    },
-    {
-      "id": "CYI501001016",
-      "name": "嘉義醫院(中興路)",
-      "lat": 23.48091,
-      "lng": 120.43012,
-      "total": 20,
-      "available": 3,
-      "addr": "北港路312號東側"
-    },
-    {
-      "id": "CYI501001017",
-      "name": "友愛興達路口(德安停車場)",
-      "lat": 23.48465,
-      "lng": 120.43354,
-      "total": 14,
-      "available": 7,
-      "addr": "友愛興達路口"
-    },
-    {
-      "id": "CYI501001018",
-      "name": "自由友愛站",
-      "lat": 23.48931,
-      "lng": 120.4361,
-      "total": 15,
-      "available": 2,
-      "addr": "自由路298號"
-    },
-    {
-      "id": "CYI501001019",
-      "name": "世賢八德站(自由路)",
-      "lat": 23.49265,
-      "lng": 120.43191,
-      "total": 15,
-      "available": 9,
-      "addr": "自由路492號"
-    },
-    {
-      "id": "CYI501001020",
-      "name": "博愛後驛街口",
-      "lat": 23.478941,
-      "lng": 120.437805,
-      "total": 23,
-      "available": 3,
-      "addr": "博愛路二段281號"
-    },
-    {
-      "id": "CYI501001021",
-      "name": "嘉樂福觀光夜市",
-      "lat": 23.47165,
-      "lng": 120.43119,
-      "total": 15,
-      "available": 4,
-      "addr": "博愛路二段461號"
-    }
-  ],
+  "youbike": [],
   "water": [],
-  "fetch_seconds": 90.6
+  "fetch_seconds": 96.7
 }
