@@ -1,6 +1,20 @@
 {
-  "updated_at": "2026-08-07T02:27:50.407995",
+  "updated_at": "2026-08-07T07:11:43.020482",
   "news": [
+    {
+      "headline": "105年歷史再現！嘉義城隍夜巡串聯海內外宮廟展現宗教文化魅力",
+      "source": "嘉義市政府/民政處/觀光新聞處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=948474",
+      "date": "2026/08/07",
+      "query": "市府新聞"
+    },
+    {
+      "headline": "嘉義市啟動「115年道路交通安全重點整飭計畫」執法、工程、宣導三管齊下打造全民有感安全路",
+      "source": "嘉義市政府/交通處/觀光新聞處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=948470",
+      "date": "2026/08/07",
+      "query": "市府新聞"
+    },
     {
       "headline": "父親節相約嘉義雙潭星光路跑，一起感受城市生活的美好。",
       "source": "嘉義市政府/地政處/地用及重劃科",
@@ -69,20 +83,6 @@
       "source": "嘉義市政府/企劃處",
       "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=948074",
       "date": "2026/08/04",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "黃敏惠市長參訪台東博覽會交流城市治理與地方創生經驗",
-      "source": "嘉義市政府/民政處/觀光新聞處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=948038",
-      "date": "2026/08/03",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "嘉義市115年7月份人口統計資料",
-      "source": "嘉義市政府/民政處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=948037",
-      "date": "2026/08/03",
       "query": "市府新聞"
     }
   ],
@@ -202,7 +202,7 @@
       "2012": 1,
       "2013": 1
     },
-    "updated_at": "2026-08-07T02:25:52.300765",
+    "updated_at": "2026-08-07T07:09:56.264707",
     "source": "data.chiayi.gov.tw"
   },
   "council": {
@@ -236,6 +236,34 @@
   },
   "citizen_stats": {},
   "social_posts": [
+    {
+      "id": "ptt-httpswwwpttccbbsChiayiM1786073931ACC6html",
+      "platform": "PTT",
+      "platform_color": "#00b300",
+      "board": "Chiayi",
+      "date": "08/07",
+      "author": "PTT 鄉民",
+      "title": "[徵求] 諾爾堡幼兒園制服、運動服",
+      "url": "https://www.ptt.cc/bbs/Chiayi/M.1786073931.A.CC6.html",
+      "reactions": 0,
+      "comments": 0,
+      "category": "社福高齡",
+      "source": "ptt"
+    },
+    {
+      "id": "ptt-httpswwwpttccbbsChiayiM1786069650A8C0html",
+      "platform": "PTT",
+      "platform_color": "#00b300",
+      "board": "Chiayi",
+      "date": "08/07",
+      "author": "PTT 鄉民",
+      "title": "［買賣］全新Samsung 無線耳機",
+      "url": "https://www.ptt.cc/bbs/Chiayi/M.1786069650.A.8C0.html",
+      "reactions": 0,
+      "comments": 0,
+      "category": "市政議題",
+      "source": "ptt"
+    },
     {
       "id": "ptt-httpswwwpttccbbsChiayiM1786064158A39Fhtml",
       "platform": "PTT",
@@ -371,34 +399,6 @@
       "author": "PTT 鄉民",
       "title": "[問題] 冷氣漏水",
       "url": "https://www.ptt.cc/bbs/Chiayi/M.1785401804.A.799.html",
-      "reactions": 0,
-      "comments": 0,
-      "category": "市政議題",
-      "source": "ptt"
-    },
-    {
-      "id": "ptt-httpswwwpttccbbsChiayiM1785342606AD3Bhtml",
-      "platform": "PTT",
-      "platform_color": "#00b300",
-      "board": "Chiayi",
-      "date": "07/30",
-      "author": "PTT 鄉民",
-      "title": "Fw: [食記] 金長利新港飴 嘉義新港 百年美味新港飴",
-      "url": "https://www.ptt.cc/bbs/Chiayi/M.1785342606.A.D3B.html",
-      "reactions": 0,
-      "comments": 0,
-      "category": "市政議題",
-      "source": "ptt"
-    },
-    {
-      "id": "ptt-httpswwwpttccbbsChiayiM1785321254AF24html",
-      "platform": "PTT",
-      "platform_color": "#00b300",
-      "board": "Chiayi",
-      "date": "07/30",
-      "author": "PTT 鄉民",
-      "title": "[買賣] 王品折價券.商品卡/全家衛生紙.吐司.豆漿",
-      "url": "https://www.ptt.cc/bbs/Chiayi/M.1785321254.A.F24.html",
       "reactions": 0,
       "comments": 0,
       "category": "市政議題",
