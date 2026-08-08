@@ -1,16 +1,16 @@
 {
-  "updated_at": "2026-08-07T18:57:45.776214",
+  "updated_at": "2026-08-08T01:17:18.213005",
   "aqi_realtime": [
     {
       "station": "嘉義市（Open-Meteo 模型）",
-      "aqi": 47,
-      "pm25": 33.3,
-      "pm10": 34.2,
-      "o3": 65.0,
-      "no2": 34.4,
+      "aqi": 26,
+      "pm25": 18.7,
+      "pm10": 19.7,
+      "o3": 97.0,
+      "no2": 26.4,
       "status": "良好",
       "pollutant": "PM2.5",
-      "time": "2026-08-08T02:00",
+      "time": "2026-08-08T09:00",
       "source": "Open-Meteo"
     }
   ],
@@ -19,15 +19,15 @@
   "weather": [
     {
       "station": "嘉義市（Open-Meteo）",
-      "temp": "24.5",
-      "apparent_temp": "29.5",
-      "humidity": "91",
+      "temp": "30.7",
+      "apparent_temp": "34.9",
+      "humidity": "60",
       "rainfall": "0.0",
-      "wind_speed": "3.0",
-      "wind_dir": "123",
-      "cloud": "68",
-      "weather": "多雲",
-      "time": "2026-08-08 02:45",
+      "wind_speed": "8.4",
+      "wind_dir": "35",
+      "cloud": "98",
+      "weather": "陰天",
+      "time": "2026-08-08 09:15",
       "source": "Open-Meteo"
     }
   ],
@@ -47,9 +47,9 @@
       "source": "Google新聞"
     },
     {
-      "title": "嘉市啟動執法工程宣導 打造全民有感安全路 - 大纪元",
+      "title": "科技輔助行車，安全仍要靠自己。 - ccpb.gov.tw",
       "date": "Fri, 07 Aug 2026",
-      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE4zOFl4OFZnTjZaN0V0Mldxckx6eVZXSDdONEhhV1lGZktxSXNPNGljWGxaZEYtM29rNllrRWVxWk9WckV2RXlaRkQ4QWczMkt6d2YzNzNYNWhqMHI0QWxJ0gFkQVVfeXFMT29zcDBZQnc1a1NSWjBxTGUwN2kyeFpmMVdmM2V2Z2FrYjI0c0daWkxFY1BJOWh3UDVnNjZPc283UmVaZlliSGpKUHJaZEZacGQ1SzBObEFLUjFySDRtSldUazlZbA?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQVHU2aVRZTklwWFNlRENNTlNWNzhQREoxRTVNY1ZlNjYzd09DTXZoUkI1Q3ZtUFhBdjdIS2xoZ2VOOFgtTWZGVFQ3Z3VIRFg3a3RRb0xaTU5RamNLZ3VPVVpKSldNMGNoVXRnWnd1dU1RM3ZQMlJIQUh4Tm5lRjV5Nk5WaXA?oc=5",
       "desc": "",
       "source": "Google新聞"
     },
@@ -77,16 +77,16 @@
   ],
   "procurement": [
     {
-      "title": "嘉義市前瞻停車場建設再獲肯定 國家卓越建設獎勇奪3金1優質獎 - chiayi.gov.tw",
-      "date": "Tue, 04 Aug 2026",
-      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1lakpYZXdiVWM5ZTQ4QkZlZ2RMbENvMndqZ2xxTUNsajZxSlBzTEczN0djWXZwcGswUElLVkVCLXIxQjVMRExWc000TDJ6SU81ZEpjUFNlbHhrUVVsTWFrOWIzbV9sOWZrd3c?oc=5",
+      "title": "嘉義市勇奪國家卓越建設獎3金1優質獎 打造人本永續城市新典範 | 熱門亮點 | 商情 - 經濟日報",
+      "date": "Wed, 05 Aug 2026",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9QSDdiLTFqeTNIbmZPQ2luNE9MbkFRdHBGRTIxVFJoa1pRaVBRRDhZT1YzUkdSMGktZGdvcFp6bmh3VThwVndhbVYzaEZSSmN5SlExamxNazA5QQ?oc=5",
       "org": "新聞資訊",
       "source": "Google新聞"
     },
     {
-      "title": "嘉義市勇奪國家卓越建設獎3金1優質獎 打造人本永續城市新典範 | 熱門亮點 | 商情 - 經濟日報",
-      "date": "Wed, 05 Aug 2026",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9QSDdiLTFqeTNIbmZPQ2luNE9MbkFRdHBGRTIxVFJoa1pRaVBRRDhZT1YzUkdSMGktZGdvcFp6bmh3VThwVndhbVYzaEZSSmN5SlExamxNazA5QQ?oc=5",
+      "title": "嘉義市前瞻停車場建設 獲2026年國家卓越建設獎肯定 - 台灣好新聞",
+      "date": "Tue, 04 Aug 2026",
+      "link": "https://news.google.com/rss/articles/CBMi0wJBVV95cUxNeDl6VS1RcEdTZUtLZTlaY1dSZmJmc0xNbzRJSTZ3SjREUVZxMy1BblU3dXhUQnNhOVdJZTlWYlVNWVJUMjMxQWo0ZjlqX3VySVBicFRwWk5VektLamw0MzQtZjk1dk92RW53dWRnZE9rYlpfNE53UmVXdW9FMWpPMkFaUVpCN2F5VVRZZkMzTm9GS2J5SEVZUVVFVkI3RzRrWlFwWFZQenUyMjVlc2lsdnRLQk5wOEcyX2RLZ0JiVDk1OVZmLWNjUjVJUmUxZGdhVUlia0ppR01vc0x0UGwwcVVXbWFuZ09GWWx1cDNwRWZEOVNQTmtTNkN1UnNFY0FSbmR2S1g1bE05ZmtUNzB0NzJqekhybWdzQzZXYVMyaDNuUThza05ITkN0T1d4YnRQd2Nhbk1jaTY3ZUoyWERiTWJzR1ZPRllUOUJxWm1BTnBSRWc?oc=5",
       "org": "新聞資訊",
       "source": "Google新聞"
     },
@@ -119,16 +119,16 @@
       "source": "Google新聞"
     },
     {
-      "title": "嘉市停車建設勇奪3金 - 蕃新聞",
-      "date": "Wed, 05 Aug 2026",
-      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE51eExVT2wxemdzajZmRkpSVGNST1k1bjVJeTZnZ29Md185aEh5dGtxUmFrQWtUVjFsVW0ta2FpUGd6N1pmTmppaU9WVV9PWXlWTUE?oc=5",
+      "title": "嘉市府召開「長榮公園地下停車場新建統包工程」施工前里民說明會 - cna.com.tw",
+      "date": "Tue, 09 Jun 2026",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1WUzR3bFRvaHhreDFZZHdZYTc5b0VxVFhLVWxhZzd5WlhuMDJmV2RzY01hQXFVdDRSNWFFYkZwcUpYeFoxQ3dqbUdPXzV0OUdHOUVSZ01R?oc=5",
       "org": "新聞資訊",
       "source": "Google新聞"
     },
     {
-      "title": "嘉市府召開「長榮公園地下停車場新建統包工程」施工前里民說明會 - cna.com.tw",
-      "date": "Tue, 09 Jun 2026",
-      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1WUzR3bFRvaHhreDFZZHdZYTc5b0VxVFhLVWxhZzd5WlhuMDJmV2RzY01hQXFVdDRSNWFFYkZwcUpYeFoxQ3dqbUdPXzV0OUdHOUVSZ01R?oc=5",
+      "title": "嘉市停車建設勇奪3金 - 蕃新聞",
+      "date": "Wed, 05 Aug 2026",
+      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE51eExVT2wxemdzajZmRkpSVGNST1k1bjVJeTZnZ29Md185aEh5dGtxUmFrQWtUVjFsVW0ta2FpUGd6N1pmTmppaU9WVV9PWXlWTUE?oc=5",
       "org": "新聞資訊",
       "source": "Google新聞"
     }
@@ -136,9 +136,32 @@
   "disease": {
     "dengue": [],
     "enterovirus": [],
-    "updated": "2026-08-07"
+    "updated": "2026-08-08"
   },
-  "fire": {},
+  "fire": {
+    "chiayi_datasets": [
+      {
+        "title": "",
+        "date": ""
+      },
+      {
+        "title": "",
+        "date": ""
+      },
+      {
+        "title": "",
+        "date": ""
+      },
+      {
+        "title": "",
+        "date": ""
+      },
+      {
+        "title": "",
+        "date": ""
+      }
+    ]
+  },
   "population": [],
   "bus": [
     {
@@ -215,7 +238,7 @@
       "lat": 23.481634,
       "lng": 120.453745,
       "total": 45,
-      "available": 21,
+      "available": 22,
       "addr": "中山路199號(對面)"
     },
     {
@@ -224,7 +247,7 @@
       "lat": 23.482012,
       "lng": 120.457342,
       "total": 22,
-      "available": 3,
+      "available": 1,
       "addr": "中山路98號(前)"
     },
     {
@@ -242,7 +265,7 @@
       "lat": 23.478707,
       "lng": 120.462594,
       "total": 38,
-      "available": 3,
+      "available": 1,
       "addr": "啟明路122號(前)"
     },
     {
@@ -251,7 +274,7 @@
       "lat": 23.477031,
       "lng": 120.465573,
       "total": 34,
-      "available": 3,
+      "available": 8,
       "addr": "大雅路二段738號(前)"
     },
     {
@@ -260,7 +283,7 @@
       "lat": 23.4798596,
       "lng": 120.4488291,
       "total": 20,
-      "available": 3,
+      "available": 15,
       "addr": "中山路306號"
     },
     {
@@ -269,7 +292,7 @@
       "lat": 23.47963,
       "lng": 120.44583,
       "total": 20,
-      "available": 6,
+      "available": 5,
       "addr": "中山路386號"
     },
     {
@@ -278,7 +301,7 @@
       "lat": 23.47917,
       "lng": 120.44186,
       "total": 99,
-      "available": 51,
+      "available": 50,
       "addr": "中山路524號"
     },
     {
@@ -287,7 +310,7 @@
       "lat": 23.47877,
       "lng": 120.44089,
       "total": 42,
-      "available": 3,
+      "available": 23,
       "addr": "中山路528號"
     },
     {
@@ -296,7 +319,7 @@
       "lat": 23.47283,
       "lng": 120.44029,
       "total": 5,
-      "available": 2,
+      "available": 1,
       "addr": "垂楊路575號"
     },
     {
@@ -305,7 +328,7 @@
       "lat": 23.47336,
       "lng": 120.44604,
       "total": 14,
-      "available": 9,
+      "available": 10,
       "addr": "垂楊路351號"
     },
     {
@@ -314,7 +337,7 @@
       "lat": 23.4738724,
       "lng": 120.4493073,
       "total": 20,
-      "available": 9,
+      "available": 14,
       "addr": "垂楊路434號"
     },
     {
@@ -323,7 +346,7 @@
       "lat": 23.47918,
       "lng": 120.43182,
       "total": 15,
-      "available": 5,
+      "available": 3,
       "addr": "北港路278號"
     },
     {
@@ -332,7 +355,7 @@
       "lat": 23.486138,
       "lng": 120.453829,
       "total": 20,
-      "available": 9,
+      "available": 8,
       "addr": "忠孝路284號(旁)"
     },
     {
@@ -341,7 +364,7 @@
       "lat": 23.48091,
       "lng": 120.43012,
       "total": 20,
-      "available": 4,
+      "available": 2,
       "addr": "北港路312號東側"
     },
     {
@@ -350,7 +373,7 @@
       "lat": 23.48465,
       "lng": 120.43354,
       "total": 14,
-      "available": 11,
+      "available": 12,
       "addr": "友愛興達路口"
     },
     {
@@ -359,7 +382,7 @@
       "lat": 23.48931,
       "lng": 120.4361,
       "total": 15,
-      "available": 6,
+      "available": 7,
       "addr": "自由路298號"
     },
     {
@@ -368,7 +391,7 @@
       "lat": 23.49265,
       "lng": 120.43191,
       "total": 15,
-      "available": 11,
+      "available": 12,
       "addr": "自由路492號"
     },
     {
@@ -377,7 +400,7 @@
       "lat": 23.478941,
       "lng": 120.437805,
       "total": 23,
-      "available": 3,
+      "available": 8,
       "addr": "博愛路二段281號"
     },
     {
@@ -386,10 +409,10 @@
       "lat": 23.47165,
       "lng": 120.43119,
       "total": 15,
-      "available": 2,
+      "available": 6,
       "addr": "博愛路二段461號"
     }
   ],
   "water": [],
-  "fetch_seconds": 189.8
+  "fetch_seconds": 88.8
 }
