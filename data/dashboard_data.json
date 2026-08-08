@@ -1,6 +1,13 @@
 {
-  "updated_at": "2026-08-08T01:18:47.000323",
+  "updated_at": "2026-08-08T06:50:47.951513",
   "news": [
+    {
+      "headline": "父親節來場藝文之旅！「瓷上風景：蝶戀花」展期倒數兩日黃敏惠市長邀民眾把握機會賞瓷繪",
+      "source": "嘉義市政府/文化局/觀光新聞處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=948535",
+      "date": "2026/08/08",
+      "query": "市府新聞"
+    },
     {
       "headline": "西區調解委員會提醒您-強制汽車責任保險大升級!!",
       "source": "嘉義市政府/西區公所",
@@ -75,13 +82,6 @@
       "headline": "預售屋有履保就安心？五種保障方式差很大",
       "source": "嘉義市政府/地政處/觀光新聞處",
       "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=948112",
-      "date": "2026/08/04",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "「我們嘉義式」前進2026臺灣文博會展現嘉義好生活好關係好風格",
-      "source": "嘉義市政府/文化局/觀光新聞處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=948111",
       "date": "2026/08/04",
       "query": "市府新聞"
     }
@@ -202,7 +202,7 @@
       "2012": 1,
       "2013": 1
     },
-    "updated_at": "2026-08-08T01:14:41.140320",
+    "updated_at": "2026-08-08T06:46:53.514271",
     "source": "data.chiayi.gov.tw"
   },
   "council": {
