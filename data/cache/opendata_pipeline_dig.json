@@ -602,20 +602,6 @@
     "source_url": "https://data.chiayi.gov.tw/opendata/"
   },
   {
-    "date": "2026/05",
-    "year": "2026",
-    "category": "道路路平",
-    "subcategory": "電力管線",
-    "location": "西區新富村里康樂街135號",
-    "title": "5260127(嘉維A6)線路課+康樂街135-161號",
-    "end_date": "2026-05-28",
-    "status": "未知",
-    "applicant": "台灣電力公司嘉義區營業處",
-    "source": "data.chiayi.gov.tw",
-    "count": 1,
-    "source_url": "https://data.chiayi.gov.tw/opendata/"
-  },
-  {
     "date": "2026/07",
     "year": "2026",
     "category": "道路路平",
@@ -764,6 +750,20 @@
     "title": "B14C53015(A250388)億新投資(整合)大富路",
     "end_date": "2026-04-10",
     "status": "施工中",
+    "applicant": "台灣電力公司嘉義區營業處",
+    "source": "data.chiayi.gov.tw",
+    "count": 1,
+    "source_url": "https://data.chiayi.gov.tw/opendata/"
+  },
+  {
+    "date": "2026/05",
+    "year": "2026",
+    "category": "道路路平",
+    "subcategory": "電力管線",
+    "location": "西區新富村里康樂街135號",
+    "title": "5260127(嘉維A6)線路課+康樂街135-161號",
+    "end_date": "2026-05-28",
+    "status": "未知",
     "applicant": "台灣電力公司嘉義區營業處",
     "source": "data.chiayi.gov.tw",
     "count": 1,
