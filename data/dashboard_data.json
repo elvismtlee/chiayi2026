@@ -1,6 +1,13 @@
 {
-  "updated_at": "2026-08-08T18:34:55.351766",
+  "updated_at": "2026-08-09T01:24:23.259064",
   "news": [
+    {
+      "headline": "天天量腰圍、健康不走樣！嘉義市響應「89量腰日」黃敏惠市長邀全民實踐「健康ACE」守護腰圍抽萬元好禮",
+      "source": "嘉義市政府/衛生局",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=947536",
+      "date": "2026/08/09",
+      "query": "市府新聞"
+    },
     {
       "headline": "4千跑者齊聚嘉義雙潭星光路跑父親節開跑！黃敏惠市長預告11月迎雙潭馬拉松菁英賽",
       "source": "嘉義市政府/教育處/觀光新聞處",
@@ -75,13 +82,6 @@
       "headline": "嘉義市「熊出沒」！10隻新亮相大白熊領路帶你解鎖城市景點",
       "source": "嘉義市政府/觀光新聞處",
       "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=948321",
-      "date": "2026/08/06",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "亂丟菸蒂最高罰6,000元嘉市環保局籲民眾守護環境",
-      "source": "嘉義市政府/嘉義市政府環境保護局/資源循環管理科",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=948023",
       "date": "2026/08/06",
       "query": "市府新聞"
     }
@@ -202,7 +202,7 @@
       "2012": 1,
       "2013": 1
     },
-    "updated_at": "2026-08-08T18:32:52.924302",
+    "updated_at": "2026-08-09T01:21:51.678250",
     "source": "data.chiayi.gov.tw"
   },
   "council": {
