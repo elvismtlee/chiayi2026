@@ -1,6 +1,20 @@
 {
-  "updated_at": "2026-08-12T07:20:54.013370",
+  "updated_at": "2026-08-12T13:01:29.739547",
   "news": [
+    {
+      "headline": "拒絕毒駕、落實停讓嘉義市監理站強化貨運駕駛安全教育",
+      "source": "嘉義市政府/嘉義市監理站/觀光新聞處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=948871",
+      "date": "2026/08/12",
+      "query": "市府新聞"
+    },
+    {
+      "headline": "國際駐村計畫徵件倒數嘉義市區域設計中心邀創作者走向世界",
+      "source": "嘉義市政府/文化局/觀光新聞處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=948856",
+      "date": "2026/08/12",
+      "query": "市府新聞"
+    },
     {
       "headline": "中元來嘉齊普度環保祭祀永續誠心!!",
       "source": "嘉義市政府/嘉義市政府環境保護局/環境品質管理科",
@@ -68,20 +82,6 @@
       "headline": "嘉義「＋1圈」地方創生行動提案賽啟動徵件百萬獎勵支持青年創新實踐",
       "source": "嘉義市政府/勞工及青年發展處/觀光新聞處",
       "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=948640",
-      "date": "2026/08/10",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "2026桃喜親子藝術節落幕三週藝文盛宴打造親子美好時光",
-      "source": "嘉義市政府/文化局/觀光新聞處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=948627",
-      "date": "2026/08/10",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "成人公費肺炎鏈球菌疫苗即日起全面升級接種「1劑搞定」",
-      "source": "嘉義市政府/衛生局/觀光新聞處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=948621",
       "date": "2026/08/10",
       "query": "市府新聞"
     }
@@ -202,7 +202,7 @@
       "2012": 1,
       "2013": 1
     },
-    "updated_at": "2026-08-12T07:19:05.668003",
+    "updated_at": "2026-08-12T12:59:38.795278",
     "source": "data.chiayi.gov.tw"
   },
   "council": {
@@ -236,20 +236,6 @@
   },
   "citizen_stats": {},
   "social_posts": [
-    {
-      "id": "ptt-httpswwwpttccbbsGossipingM1786518885AB19html",
-      "platform": "PTT",
-      "platform_color": "#00b300",
-      "board": "Gossiping",
-      "date": "08/12",
-      "author": "PTT 鄉民",
-      "title": "[新聞] 再打兩岸牌 賴總統：高雄市長選舉勝敗 ",
-      "url": "https://www.ptt.cc/bbs/Gossiping/M.1786518885.A.B19.html",
-      "reactions": 0,
-      "comments": 0,
-      "category": "市政議題",
-      "source": "ptt"
-    },
     {
       "id": "ptt-httpswwwpttccbbsChiayiM1786346040AEE5html",
       "platform": "PTT",
@@ -402,6 +388,20 @@
       "reactions": 0,
       "comments": 0,
       "category": "人行步道",
+      "source": "ptt"
+    },
+    {
+      "id": "ptt-httpswwwpttccbbsChiayiM1785497742A45Dhtml",
+      "platform": "PTT",
+      "platform_color": "#00b300",
+      "board": "Chiayi",
+      "date": "08/03",
+      "author": "PTT 鄉民",
+      "title": "[新聞] 莫內饗宴下月試營運、饗食天堂11月開",
+      "url": "https://www.ptt.cc/bbs/Chiayi/M.1785497742.A.45D.html",
+      "reactions": 0,
+      "comments": 0,
+      "category": "市政議題",
       "source": "ptt"
     }
   ]
