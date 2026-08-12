@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-12T13:01:29.739547",
+  "updated_at": "2026-08-12T19:04:07.930956",
   "news": [
     {
       "headline": "拒絕毒駕、落實停讓嘉義市監理站強化貨運駕駛安全教育",
@@ -202,7 +202,7 @@
       "2012": 1,
       "2013": 1
     },
-    "updated_at": "2026-08-12T12:59:38.795278",
+    "updated_at": "2026-08-12T19:01:39.493051",
     "source": "data.chiayi.gov.tw"
   },
   "council": {
@@ -236,6 +236,48 @@
   },
   "citizen_stats": {},
   "social_posts": [
+    {
+      "id": "ptt-httpswwwpttccbbsChiayiM1786554818A423html",
+      "platform": "PTT",
+      "platform_color": "#00b300",
+      "board": "Chiayi",
+      "date": "08/13",
+      "author": "PTT 鄉民",
+      "title": "[買賣] Apple Macbook air M5 13” 16/512 午夜",
+      "url": "https://www.ptt.cc/bbs/Chiayi/M.1786554818.A.423.html",
+      "reactions": 0,
+      "comments": 0,
+      "category": "市政議題",
+      "source": "ptt"
+    },
+    {
+      "id": "ptt-httpswwwpttccbbsChiayiM1786554108AE83html",
+      "platform": "PTT",
+      "platform_color": "#00b300",
+      "board": "Chiayi",
+      "date": "08/13",
+      "author": "PTT 鄉民",
+      "title": "[徵求] 世賢路一段跟八德路機車道車禍",
+      "url": "https://www.ptt.cc/bbs/Chiayi/M.1786554108.A.E83.html",
+      "reactions": 0,
+      "comments": 0,
+      "category": "交通停車",
+      "source": "ptt"
+    },
+    {
+      "id": "ptt-httpswwwpttccbbsChiayiM1786547169A0D4html",
+      "platform": "PTT",
+      "platform_color": "#00b300",
+      "board": "Chiayi",
+      "date": "08/12",
+      "author": "PTT 鄉民",
+      "title": "[問題] 技術士證照",
+      "url": "https://www.ptt.cc/bbs/Chiayi/M.1786547169.A.0D4.html",
+      "reactions": 0,
+      "comments": 0,
+      "category": "市政議題",
+      "source": "ptt"
+    },
     {
       "id": "ptt-httpswwwpttccbbsChiayiM1786346040AEE5html",
       "platform": "PTT",
@@ -357,48 +399,6 @@
       "author": "PTT 鄉民",
       "title": "[亂入] 明天想去看小菜的朋友們",
       "url": "https://www.ptt.cc/bbs/Chiayi/M.1785936217.A.5C7.html",
-      "reactions": 0,
-      "comments": 0,
-      "category": "市政議題",
-      "source": "ptt"
-    },
-    {
-      "id": "ptt-httpswwwpttccbbsChiayiM1785644167ACF7html",
-      "platform": "PTT",
-      "platform_color": "#00b300",
-      "board": "Chiayi",
-      "date": "08/02",
-      "author": "PTT 鄉民",
-      "title": "[問題] 四歲小孩適合的游泳老師？",
-      "url": "https://www.ptt.cc/bbs/Chiayi/M.1785644167.A.CF7.html",
-      "reactions": 0,
-      "comments": 0,
-      "category": "市政議題",
-      "source": "ptt"
-    },
-    {
-      "id": "ptt-httpswwwpttccbbsChiayiM1785544299A7B4html",
-      "platform": "PTT",
-      "platform_color": "#00b300",
-      "board": "Chiayi",
-      "date": "08/03",
-      "author": "PTT 鄉民",
-      "title": "[新聞] 嘉市友忠公園砸4000萬大改造 廁所、步道",
-      "url": "https://www.ptt.cc/bbs/Chiayi/M.1785544299.A.7B4.html",
-      "reactions": 0,
-      "comments": 0,
-      "category": "人行步道",
-      "source": "ptt"
-    },
-    {
-      "id": "ptt-httpswwwpttccbbsChiayiM1785497742A45Dhtml",
-      "platform": "PTT",
-      "platform_color": "#00b300",
-      "board": "Chiayi",
-      "date": "08/03",
-      "author": "PTT 鄉民",
-      "title": "[新聞] 莫內饗宴下月試營運、饗食天堂11月開",
-      "url": "https://www.ptt.cc/bbs/Chiayi/M.1785497742.A.45D.html",
       "reactions": 0,
       "comments": 0,
       "category": "市政議題",
