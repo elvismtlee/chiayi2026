@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-13T13:06:50.854526",
+  "updated_at": "2026-08-13T19:09:28.518790",
   "news": [
     {
       "headline": "又見行人地獄！香港夫婦入境遊玩 嘉義走斑馬線遭車撞 | Newtalk",
@@ -23,6 +23,13 @@
       "query": "嘉義市 夜市 市場"
     },
     {
+      "headline": "嘉義男疑毒駕失控！倒車撞車再衝2工廠遭羈押",
+      "source": "蕃新聞",
+      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5IaDExSDYxblFiSWZLclJ5c0tiai1GTVc1Ukk2TGFEcElRZEFyNVNSdXExM2xBak1qN0lGUDNkWk5EWHdKODl6b3BzZWVBbUZCZmc?oc=5",
+      "date": "2026-08-12 23:39",
+      "query": "嘉義市 交通事故"
+    },
+    {
       "headline": "拒毒駕 嘉義市監理站強化貨運駕駛安全教育",
       "source": "大纪元",
       "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBPN3d2dEhoSDVxVHIzNnhHVW1PRUcta213bjZuVlg3RGZlTmhRRHJXWUVYcktOdHhHU3RPbEZGZEZVSDZ4QXVUQzRVTFM1b1oxMmowUElKT3duc0kxN3E5cUVuODVzd9IBZkFVX3lxTFBPN3d2dEhoSDVxVHIzNnhHVW1PRUcta213bjZuVlg3RGZlTmhRRHJXWUVYcktOdHhHU3RPbEZGZEZVSDZ4QXVUQzRVTFM1b1oxMmowUElKT3duc0kxN3E5cUVuODVzdw?oc=5",
@@ -31,7 +38,7 @@
     },
     {
       "headline": "嘉義市監理站強化貨運駕駛安全 防毒駕、指差確認守住行車第一線",
-      "source": "news.pchome.com.tw",
+      "source": "PChome Online 新聞",
       "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQZEpwMzg2VnZ3WnUtQ0kzaWctUWVHYTMtbUZYYWs0TmVHdGpidWxHZ1JabWFJUkMxNzA3b2E4R25SendlSUc0czBmVnRELWhKZHNBWjh1UG9sZnZCcElvUm1nSk0tR0RtYmM3QW5QMGxHbHlxT2h0ZUJWeUduQ3U0a3I2bWdZRHpPdG5TUm9tSQ?oc=5",
       "date": "2026-08-12 19:04",
       "query": "嘉義市 交通事故"
@@ -76,13 +83,6 @@
       "source": "yesmedia.com.tw",
       "link": "https://news.google.com/rss/articles/CBMixgJBVV95cUxPckRuWEVoOVRMQVRGS2ZHaC1zNjdTUEpONlZWZm56YTdJVnFTVnRaWUJITE9FWmZGYUtRWlVhTHZkbFRjc29FNGVJM2NvUHJrUF8xUnZUejBaVnhfVG5kb2tPOWk4RUNBZUNHSmt3RG5LQlQwRTZTNDNHR0xyZzl6SzFLbk1Vd21xYVBQMVo0LVlqRFU5cjJleWQxejZiZ3FDY052aXRXNWNuMzVCdWJ6UWNDS1dtS3VOUUVJN3ZjMmZzZVpTNEJXRENKcEp2RG9pNzBRVS05NHplWlEtREJjRzlpNmRBeFY4NWZSU0RMTVpjbmgydk1hcnUwQks1LVNtT1FsOVJpOVhnZTBtZGpEVlI4RjBoek5kdWpvcGc0SEFTT2MwTjhUX3RWUGZ5YVdzd1hOSlQ3cHg4MUVCOWtET0pPdHVYdw?oc=5",
       "date": "2026-08-10 10:10",
-      "query": "嘉義市 道路 施工"
-    },
-    {
-      "headline": "嘉義市人本交通再獲肯定 「馬路好行」一口氣拿下3項工程獎",
-      "source": "墨新聞-MORE News",
-      "link": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE83RXVJREFEeDJFZ2FyVjhfYTQzZThoWEpuX2dRVnVDcEo1emNaRUI4MFpvRTVvSXpiSXJ6enhmaGZ4QQ?oc=5",
-      "date": "2026-08-09 11:20",
       "query": "嘉義市 道路 施工"
     }
   ],
@@ -202,7 +202,7 @@
       "2012": 1,
       "2013": 1
     },
-    "updated_at": "2026-08-13T13:04:55.604252",
+    "updated_at": "2026-08-13T19:04:35.721274",
     "source": "data.chiayi.gov.tw"
   },
   "council": {
@@ -237,11 +237,25 @@
   "citizen_stats": {},
   "social_posts": [
     {
+      "id": "ptt-httpswwwpttccbbsChiayiM1786645323A367html",
+      "platform": "PTT",
+      "platform_color": "#00b300",
+      "board": "Chiayi",
+      "date": "08/14",
+      "author": "PTT 鄉民",
+      "title": "[買賣] 網紅老爸電影票/海報/國考/電腦用書....",
+      "url": "https://www.ptt.cc/bbs/Chiayi/M.1786645323.A.367.html",
+      "reactions": 0,
+      "comments": 0,
+      "category": "市政議題",
+      "source": "ptt"
+    },
+    {
       "id": "ptt-httpswwwpttccbbsChiayiM1786595321AC02html",
       "platform": "PTT",
       "platform_color": "#00b300",
       "board": "Chiayi",
-      "date": "08/13",
+      "date": "08/14",
       "author": "PTT 鄉民",
       "title": "[新聞] 行人地獄再現！港女入境才二日　遊嘉義",
       "url": "https://www.ptt.cc/bbs/Chiayi/M.1786595321.A.C02.html",
@@ -385,20 +399,6 @@
       "author": "PTT 鄉民",
       "title": "[贈送] 木頭桌子腳架",
       "url": "https://www.ptt.cc/bbs/Chiayi/M.1786023738.A.C49.html",
-      "reactions": 0,
-      "comments": 0,
-      "category": "市政議題",
-      "source": "ptt"
-    },
-    {
-      "id": "ptt-httpswwwpttccbbsChiayiM1785976552A446html",
-      "platform": "PTT",
-      "platform_color": "#00b300",
-      "board": "Chiayi",
-      "date": "08/11",
-      "author": "PTT 鄉民",
-      "title": "[新聞] 嘉義檢舉魔人7個月打127次110 鄰居不堪",
-      "url": "https://www.ptt.cc/bbs/Chiayi/M.1785976552.A.446.html",
       "reactions": 0,
       "comments": 0,
       "category": "市政議題",
