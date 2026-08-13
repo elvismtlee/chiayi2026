@@ -1,6 +1,20 @@
 {
-  "updated_at": "2026-08-13T01:32:05.809782",
+  "updated_at": "2026-08-13T07:27:31.649342",
   "news": [
+    {
+      "headline": "雙潭馬拉松菁英賽11月1日開跑總獎金115萬邀跑者來嘉挑戰",
+      "source": "嘉義市政府/教育處/觀光新聞處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=948954",
+      "date": "2026/08/13",
+      "query": "市府新聞"
+    },
+    {
+      "headline": "嘉義市忠孝路346巷都市更新案審議通過加速推進文化新絲路2.0",
+      "source": "嘉義市政府/都市發展處/觀光新聞處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=948949",
+      "date": "2026/08/13",
+      "query": "市府新聞"
+    },
     {
       "headline": "全嘉一起機智用電，舒適過夏也能節能有感！",
       "source": "嘉義市政府/嘉義市政府環境保護局/綜合計畫科",
@@ -69,20 +83,6 @@
       "source": "嘉義市政府/建設處/觀光新聞處",
       "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=948732",
       "date": "2026/08/11",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "非六都最高榮譽！嘉義市摘IASE多項大獎市府團隊轉呈獎座共享榮耀",
-      "source": "嘉義市政府/企劃處/觀光新聞處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=948714",
-      "date": "2026/08/11",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "嘉義市城鎮韌性防空演習順利完成黃敏惠市長：居安思危、提升城市應變能力",
-      "source": "嘉義市政府/警察局/觀光新聞處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=948648",
-      "date": "2026/08/10",
       "query": "市府新聞"
     }
   ],
@@ -202,7 +202,7 @@
       "2012": 1,
       "2013": 1
     },
-    "updated_at": "2026-08-13T01:30:18.578017",
+    "updated_at": "2026-08-13T07:23:42.482524",
     "source": "data.chiayi.gov.tw"
   },
   "council": {
@@ -237,6 +237,34 @@
   "citizen_stats": {},
   "social_posts": [
     {
+      "id": "ptt-httpswwwpttccbbsGossipingM1786605160A449html",
+      "platform": "PTT",
+      "platform_color": "#00b300",
+      "board": "Gossiping",
+      "date": "08/13",
+      "author": "PTT 鄉民",
+      "title": "Re: [新聞] 長崎市長諷「根本沒邀台灣參加」　李逸",
+      "url": "https://www.ptt.cc/bbs/Gossiping/M.1786605160.A.449.html",
+      "reactions": 0,
+      "comments": 0,
+      "category": "市政議題",
+      "source": "ptt"
+    },
+    {
+      "id": "ptt-httpswwwpttccbbsChiayiM1786595321AC02html",
+      "platform": "PTT",
+      "platform_color": "#00b300",
+      "board": "Chiayi",
+      "date": "08/13",
+      "author": "PTT 鄉民",
+      "title": "[新聞] 行人地獄再現！港女入境才二日　遊嘉義",
+      "url": "https://www.ptt.cc/bbs/Chiayi/M.1786595321.A.C02.html",
+      "reactions": 0,
+      "comments": 0,
+      "category": "人行步道",
+      "source": "ptt"
+    },
+    {
       "id": "ptt-httpswwwpttccbbsChiayiM1786554818A423html",
       "platform": "PTT",
       "platform_color": "#00b300",
@@ -269,7 +297,7 @@
       "platform": "PTT",
       "platform_color": "#00b300",
       "board": "Chiayi",
-      "date": "08/12",
+      "date": "08/13",
       "author": "PTT 鄉民",
       "title": "[問題] 技術士證照",
       "url": "https://www.ptt.cc/bbs/Chiayi/M.1786547169.A.0D4.html",
@@ -371,34 +399,6 @@
       "author": "PTT 鄉民",
       "title": "[贈送] 木頭桌子腳架",
       "url": "https://www.ptt.cc/bbs/Chiayi/M.1786023738.A.C49.html",
-      "reactions": 0,
-      "comments": 0,
-      "category": "市政議題",
-      "source": "ptt"
-    },
-    {
-      "id": "ptt-httpswwwpttccbbsChiayiM1785976552A446html",
-      "platform": "PTT",
-      "platform_color": "#00b300",
-      "board": "Chiayi",
-      "date": "08/11",
-      "author": "PTT 鄉民",
-      "title": "[新聞] 嘉義檢舉魔人7個月打127次110 鄰居不堪",
-      "url": "https://www.ptt.cc/bbs/Chiayi/M.1785976552.A.446.html",
-      "reactions": 0,
-      "comments": 0,
-      "category": "市政議題",
-      "source": "ptt"
-    },
-    {
-      "id": "ptt-httpswwwpttccbbsChiayiM1785936217A5C7html",
-      "platform": "PTT",
-      "platform_color": "#00b300",
-      "board": "Chiayi",
-      "date": "08/10",
-      "author": "PTT 鄉民",
-      "title": "[亂入] 明天想去看小菜的朋友們",
-      "url": "https://www.ptt.cc/bbs/Chiayi/M.1785936217.A.5C7.html",
       "reactions": 0,
       "comments": 0,
       "category": "市政議題",
