@@ -1,6 +1,20 @@
 {
-  "updated_at": "2026-08-14T07:23:27.392387",
+  "updated_at": "2026-08-14T12:57:35.426772",
   "news": [
+    {
+      "headline": "嘉頌重奏團攜手高雄市管樂團《樂脈》開啟原創管樂合作新篇章",
+      "source": "嘉義市政府/文化局/觀光新聞處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=949128",
+      "date": "2026/08/14",
+      "query": "市府新聞"
+    },
+    {
+      "headline": "員工親子活動「我嘉童樂會幸福來作伙！」打造嘉義市政府友善幸福職場",
+      "source": "嘉義市政府/人事處/觀光新聞處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=949116",
+      "date": "2026/08/14",
+      "query": "市府新聞"
+    },
     {
       "headline": "嘉義新店奇遇記小小播客用聲音傳遞節能環保力",
       "source": "嘉義市政府/嘉義市政府環境保護局/綜合計畫科",
@@ -69,20 +83,6 @@
       "source": "嘉義市政府/都市發展處/觀光新聞處",
       "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=948949",
       "date": "2026/08/13",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "全嘉一起機智用電，舒適過夏也能節能有感！",
-      "source": "嘉義市政府/嘉義市政府環境保護局/綜合計畫科",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=948633",
-      "date": "2026/08/13",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "拒絕毒駕、落實停讓嘉義市監理站強化貨運駕駛安全教育",
-      "source": "嘉義市政府/嘉義市監理站/觀光新聞處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=948871",
-      "date": "2026/08/12",
       "query": "市府新聞"
     }
   ],
@@ -202,7 +202,7 @@
       "2012": 1,
       "2013": 1
     },
-    "updated_at": "2026-08-14T07:20:54.881393",
+    "updated_at": "2026-08-14T12:55:46.084121",
     "source": "data.chiayi.gov.tw"
   },
   "council": {
@@ -236,6 +236,62 @@
   },
   "citizen_stats": {},
   "social_posts": [
+    {
+      "id": "ptt-httpswwwpttccbbsChiayiM1786710651A66Chtml",
+      "platform": "PTT",
+      "platform_color": "#00b300",
+      "board": "Chiayi",
+      "date": "08/14",
+      "author": "PTT 鄉民",
+      "title": "[新聞] 煙波阿里山北門館試營運突喊卡 莫內饗宴",
+      "url": "https://www.ptt.cc/bbs/Chiayi/M.1786710651.A.66C.html",
+      "reactions": 0,
+      "comments": 0,
+      "category": "市政議題",
+      "source": "ptt"
+    },
+    {
+      "id": "ptt-httpswwwpttccbbsChiayiM1786696660AA08html",
+      "platform": "PTT",
+      "platform_color": "#00b300",
+      "board": "Chiayi",
+      "date": "08/14",
+      "author": "PTT 鄉民",
+      "title": "[買賣] 霜淇淋 快煮壺 西堤 陶板屋 麥當勞 拿鐵",
+      "url": "https://www.ptt.cc/bbs/Chiayi/M.1786696660.A.A08.html",
+      "reactions": 0,
+      "comments": 0,
+      "category": "市政議題",
+      "source": "ptt"
+    },
+    {
+      "id": "ptt-httpswwwpttccbbsChiayiM1786692921A590html",
+      "platform": "PTT",
+      "platform_color": "#00b300",
+      "board": "Chiayi",
+      "date": "08/14",
+      "author": "PTT 鄉民",
+      "title": "[新聞] 嘉市議員選舉站街頭、苦行僧式拜票 他",
+      "url": "https://www.ptt.cc/bbs/Chiayi/M.1786692921.A.590.html",
+      "reactions": 0,
+      "comments": 0,
+      "category": "市政議題",
+      "source": "ptt"
+    },
+    {
+      "id": "ptt-httpswwwpttccbbsChiayiM1786692710AD19html",
+      "platform": "PTT",
+      "platform_color": "#00b300",
+      "board": "Chiayi",
+      "date": "08/14",
+      "author": "PTT 鄉民",
+      "title": "[買賣] 售Funte升降桌 150*80 二手",
+      "url": "https://www.ptt.cc/bbs/Chiayi/M.1786692710.A.D19.html",
+      "reactions": 0,
+      "comments": 0,
+      "category": "市政議題",
+      "source": "ptt"
+    },
     {
       "id": "ptt-httpswwwpttccbbsChiayiM1786679650A2C2html",
       "platform": "PTT",
@@ -297,7 +353,7 @@
       "platform": "PTT",
       "platform_color": "#00b300",
       "board": "Chiayi",
-      "date": "08/13",
+      "date": "08/14",
       "author": "PTT 鄉民",
       "title": "[買賣] Apple Macbook air M5 13” 16/512 午夜",
       "url": "https://www.ptt.cc/bbs/Chiayi/M.1786554818.A.423.html",
@@ -346,62 +402,6 @@
       "reactions": 0,
       "comments": 0,
       "category": "市政議題",
-      "source": "ptt"
-    },
-    {
-      "id": "ptt-httpswwwpttccbbsChiayiM1786256685ABB8html",
-      "platform": "PTT",
-      "platform_color": "#00b300",
-      "board": "Chiayi",
-      "date": "08/14",
-      "author": "PTT 鄉民",
-      "title": "[問題] 詢問嘉義婦產科及月子中心",
-      "url": "https://www.ptt.cc/bbs/Chiayi/M.1786256685.A.BB8.html",
-      "reactions": 0,
-      "comments": 0,
-      "category": "市政議題",
-      "source": "ptt"
-    },
-    {
-      "id": "ptt-httpswwwpttccbbsChiayiM1786200166A47Bhtml",
-      "platform": "PTT",
-      "platform_color": "#00b300",
-      "board": "Chiayi",
-      "date": "08/10",
-      "author": "PTT 鄉民",
-      "title": "[情報] 父親節卡片免費下載",
-      "url": "https://www.ptt.cc/bbs/Chiayi/M.1786200166.A.47B.html",
-      "reactions": 0,
-      "comments": 0,
-      "category": "市政議題",
-      "source": "ptt"
-    },
-    {
-      "id": "ptt-httpswwwpttccbbsChiayiM1786192316ACEChtml",
-      "platform": "PTT",
-      "platform_color": "#00b300",
-      "board": "Chiayi",
-      "date": "08/11",
-      "author": "PTT 鄉民",
-      "title": "[情報] 嘉義市啟動「115年道路交通安全重點整飭",
-      "url": "https://www.ptt.cc/bbs/Chiayi/M.1786192316.A.CEC.html",
-      "reactions": 0,
-      "comments": 0,
-      "category": "交通停車",
-      "source": "ptt"
-    },
-    {
-      "id": "ptt-httpswwwpttccbbsChiayiM1786073931ACC6html",
-      "platform": "PTT",
-      "platform_color": "#00b300",
-      "board": "Chiayi",
-      "date": "08/07",
-      "author": "PTT 鄉民",
-      "title": "[徵求] 諾爾堡幼兒園制服、運動服",
-      "url": "https://www.ptt.cc/bbs/Chiayi/M.1786073931.A.CC6.html",
-      "reactions": 0,
-      "comments": 0,
-      "category": "社福高齡",
       "source": "ptt"
     }
   ]
