@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-14T12:57:35.426772",
+  "updated_at": "2026-08-14T18:47:49.035755",
   "news": [
     {
       "headline": "嘉頌重奏團攜手高雄市管樂團《樂脈》開啟原創管樂合作新篇章",
@@ -87,12 +87,12 @@
     }
   ],
   "complaint_stats": {
-    "total": 79513,
-    "record_count": 547,
+    "total": 79542,
+    "record_count": 576,
     "category_counts": {
       "公共安全": 38658,
       "交通停車": 7743,
-      "道路路平": 291,
+      "道路路平": 320,
       "環境衛生": 5,
       "行政服務": 6
     },
@@ -108,10 +108,10 @@
       },
       "道路路平": {
         "自來水管線": 52,
-        "市府工程": 9,
-        "電力管線": 39,
-        "電信管線": 15,
+        "電信管線": 27,
+        "電力管線": 52,
         "道路施工": 4,
+        "市府工程": 13,
         "橋梁設施": 172
       },
       "環境衛生": {
@@ -124,26 +124,30 @@
     "top_roads": [
       {
         "road": "東區嘉義",
-        "count": 17
+        "count": 15
       },
       {
         "road": "蘭潭水庫",
         "count": 12
       },
       {
+        "road": "東區文雅村里大雅路一",
+        "count": 3
+      },
+      {
         "road": "西區保福村里國聖一街",
         "count": 3
       },
       {
-        "road": "東區東興村里安和街1",
-        "count": 2
-      },
-      {
-        "road": "東區興南村里垂楊路2",
-        "count": 2
+        "road": "東區民族村里吳鳳北路",
+        "count": 3
       },
       {
         "road": "東區後庄村里林森東路",
+        "count": 2
+      },
+      {
+        "road": "西區垂楊村里興業西路",
         "count": 2
       },
       {
@@ -151,15 +155,11 @@
         "count": 2
       },
       {
-        "road": "西區新西村里上海路3",
+        "road": "西區福民村里新民路",
         "count": 2
       },
       {
-        "road": "親水公園",
-        "count": 2
-      },
-      {
-        "road": "蘭潭水庫三信亭附近",
+        "road": "東區興南村里垂楊路2",
         "count": 2
       }
     ],
@@ -174,7 +174,7 @@
       },
       {
         "category": "道路路平",
-        "count": 291
+        "count": 320
       },
       {
         "category": "行政服務",
@@ -197,12 +197,13 @@
       "2022": 3112,
       "2023": 3318,
       "2024": 3270,
-      "2025": 8886,
-      "2026": 3604,
+      "2025": 8893,
+      "2026": 3625,
+      "2027": 1,
       "2012": 1,
       "2013": 1
     },
-    "updated_at": "2026-08-14T12:55:46.084121",
+    "updated_at": "2026-08-14T18:46:06.015826",
     "source": "data.chiayi.gov.tw"
   },
   "council": {
@@ -279,20 +280,6 @@
       "source": "ptt"
     },
     {
-      "id": "ptt-httpswwwpttccbbsChiayiM1786692710AD19html",
-      "platform": "PTT",
-      "platform_color": "#00b300",
-      "board": "Chiayi",
-      "date": "08/14",
-      "author": "PTT 鄉民",
-      "title": "[買賣] 售Funte升降桌 150*80 二手",
-      "url": "https://www.ptt.cc/bbs/Chiayi/M.1786692710.A.D19.html",
-      "reactions": 0,
-      "comments": 0,
-      "category": "市政議題",
-      "source": "ptt"
-    },
-    {
       "id": "ptt-httpswwwpttccbbsChiayiM1786679650A2C2html",
       "platform": "PTT",
       "platform_color": "#00b300",
@@ -339,27 +326,13 @@
       "platform": "PTT",
       "platform_color": "#00b300",
       "board": "Chiayi",
-      "date": "08/14",
+      "date": "08/15",
       "author": "PTT 鄉民",
       "title": "[新聞] 行人地獄再現！港女入境才二日　遊嘉義",
       "url": "https://www.ptt.cc/bbs/Chiayi/M.1786595321.A.C02.html",
       "reactions": 0,
       "comments": 0,
       "category": "人行步道",
-      "source": "ptt"
-    },
-    {
-      "id": "ptt-httpswwwpttccbbsChiayiM1786554818A423html",
-      "platform": "PTT",
-      "platform_color": "#00b300",
-      "board": "Chiayi",
-      "date": "08/14",
-      "author": "PTT 鄉民",
-      "title": "[買賣] Apple Macbook air M5 13” 16/512 午夜",
-      "url": "https://www.ptt.cc/bbs/Chiayi/M.1786554818.A.423.html",
-      "reactions": 0,
-      "comments": 0,
-      "category": "市政議題",
       "source": "ptt"
     },
     {
@@ -399,6 +372,34 @@
       "author": "PTT 鄉民",
       "title": "[亂入] 贈送麥當勞熟客券兩張",
       "url": "https://www.ptt.cc/bbs/Chiayi/M.1786346040.A.EE5.html",
+      "reactions": 0,
+      "comments": 0,
+      "category": "市政議題",
+      "source": "ptt"
+    },
+    {
+      "id": "ptt-httpswwwpttccbbsChiayiM1786256685ABB8html",
+      "platform": "PTT",
+      "platform_color": "#00b300",
+      "board": "Chiayi",
+      "date": "08/14",
+      "author": "PTT 鄉民",
+      "title": "[問題] 詢問嘉義婦產科及月子中心",
+      "url": "https://www.ptt.cc/bbs/Chiayi/M.1786256685.A.BB8.html",
+      "reactions": 0,
+      "comments": 0,
+      "category": "市政議題",
+      "source": "ptt"
+    },
+    {
+      "id": "ptt-httpswwwpttccbbsChiayiM1786200166A47Bhtml",
+      "platform": "PTT",
+      "platform_color": "#00b300",
+      "board": "Chiayi",
+      "date": "08/10",
+      "author": "PTT 鄉民",
+      "title": "[情報] 父親節卡片免費下載",
+      "url": "https://www.ptt.cc/bbs/Chiayi/M.1786200166.A.47B.html",
       "reactions": 0,
       "comments": 0,
       "category": "市政議題",
