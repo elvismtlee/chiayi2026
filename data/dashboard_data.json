@@ -1,6 +1,41 @@
 {
-  "updated_at": "2026-08-14T01:33:21.891280",
+  "updated_at": "2026-08-14T07:23:27.392387",
   "news": [
+    {
+      "headline": "嘉義新店奇遇記小小播客用聲音傳遞節能環保力",
+      "source": "嘉義市政府/嘉義市政府環境保護局/綜合計畫科",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=949107",
+      "date": "2026/08/14",
+      "query": "市府新聞"
+    },
+    {
+      "headline": "因KANO結緣、以城市交流續寫情誼黃敏惠市長率團回訪愛媛縣",
+      "source": "嘉義市政府/民政處/觀光新聞處/",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=949106",
+      "date": "2026/08/14",
+      "query": "市府新聞"
+    },
+    {
+      "headline": "嘉義市敬老愛心乘車卡擴大服務再+1！115/8/17起正式開放折抵計程車資台灣大車隊、大都會助陣",
+      "source": "嘉義市政府/社會處/觀光新聞處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=949104",
+      "date": "2026/08/14",
+      "query": "市府新聞"
+    },
+    {
+      "headline": "嘉義市午餐食力大放異彩！育人國小、垂楊國小榮獲第三屆午星獎",
+      "source": "嘉義市政府/教育處/觀光新聞處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=949097",
+      "date": "2026/08/14",
+      "query": "市府新聞"
+    },
+    {
+      "headline": "嘉義市115年8月28日於諸羅部屋辦理M痘疫苗接種服務籲請「近1年內有風險性行為者」盡快預約接種",
+      "source": "嘉義市政府/衛生局/觀光新聞處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=949086",
+      "date": "2026/08/14",
+      "query": "市府新聞"
+    },
     {
       "headline": "土地徵收常見問答",
       "source": "嘉義市政府/地政處/地用及重劃科",
@@ -48,41 +83,6 @@
       "source": "嘉義市政府/嘉義市監理站/觀光新聞處",
       "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=948871",
       "date": "2026/08/12",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "國際駐村計畫徵件倒數嘉義市區域設計中心邀創作者走向世界",
-      "source": "嘉義市政府/文化局/觀光新聞處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=948856",
-      "date": "2026/08/12",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "中元來嘉齊普度環保祭祀永續誠心!!",
-      "source": "嘉義市政府/嘉義市政府環境保護局/環境品質管理科",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=948848",
-      "date": "2026/08/12",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "中秋愛心伴手禮上市！黃敏惠市長力挺優採「愛心輕軌」溫馨啟航",
-      "source": "嘉義市政府/社會處/觀光新聞處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=948838",
-      "date": "2026/08/12",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "從美術館到旅宿嘉美館攜手新悦打造藝術小山坵讓孩子在旅行中遇見藝術",
-      "source": "嘉義市政府/文化局/觀光新聞處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=948763",
-      "date": "2026/08/11",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "嘉義市棒球日將至黃敏惠市長盼「永不放棄」KANO精神代代相傳",
-      "source": "嘉義市政府/教育處/觀光新聞處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=948762",
-      "date": "2026/08/11",
       "query": "市府新聞"
     }
   ],
@@ -202,7 +202,7 @@
       "2012": 1,
       "2013": 1
     },
-    "updated_at": "2026-08-14T01:30:55.452085",
+    "updated_at": "2026-08-14T07:20:54.881393",
     "source": "data.chiayi.gov.tw"
   },
   "council": {
@@ -237,13 +237,41 @@
   "citizen_stats": {},
   "social_posts": [
     {
+      "id": "ptt-httpswwwpttccbbsChiayiM1786679650A2C2html",
+      "platform": "PTT",
+      "platform_color": "#00b300",
+      "board": "Chiayi",
+      "date": "08/14",
+      "author": "PTT 鄉民",
+      "title": "[徵求] 熊貓外送員裝備",
+      "url": "https://www.ptt.cc/bbs/Chiayi/M.1786679650.A.2C2.html",
+      "reactions": 0,
+      "comments": 0,
+      "category": "市政議題",
+      "source": "ptt"
+    },
+    {
+      "id": "ptt-httpswwwpttccbbsChiayiM1786671117ABABhtml",
+      "platform": "PTT",
+      "platform_color": "#00b300",
+      "board": "Chiayi",
+      "date": "08/14",
+      "author": "PTT 鄉民",
+      "title": "[贈送] 吉尼爾幼兒園冬季運動服",
+      "url": "https://www.ptt.cc/bbs/Chiayi/M.1786671117.A.BAB.html",
+      "reactions": 0,
+      "comments": 0,
+      "category": "社福高齡",
+      "source": "ptt"
+    },
+    {
       "id": "ptt-httpswwwpttccbbsChiayiM1786645323A367html",
       "platform": "PTT",
       "platform_color": "#00b300",
       "board": "Chiayi",
       "date": "08/14",
       "author": "PTT 鄉民",
-      "title": "[買賣] 網紅老爸電影票/海報/國考/電腦用書....",
+      "title": "[買賣] 網紅老爸/喵喵博物館電影票/海報/電腦用書",
       "url": "https://www.ptt.cc/bbs/Chiayi/M.1786645323.A.367.html",
       "reactions": 0,
       "comments": 0,
@@ -283,7 +311,7 @@
       "platform": "PTT",
       "platform_color": "#00b300",
       "board": "Chiayi",
-      "date": "08/13",
+      "date": "08/14",
       "author": "PTT 鄉民",
       "title": "[徵求] 世賢路一段跟八德路機車道車禍",
       "url": "https://www.ptt.cc/bbs/Chiayi/M.1786554108.A.E83.html",
@@ -325,7 +353,7 @@
       "platform": "PTT",
       "platform_color": "#00b300",
       "board": "Chiayi",
-      "date": "08/13",
+      "date": "08/14",
       "author": "PTT 鄉民",
       "title": "[問題] 詢問嘉義婦產科及月子中心",
       "url": "https://www.ptt.cc/bbs/Chiayi/M.1786256685.A.BB8.html",
@@ -374,34 +402,6 @@
       "reactions": 0,
       "comments": 0,
       "category": "社福高齡",
-      "source": "ptt"
-    },
-    {
-      "id": "ptt-httpswwwpttccbbsChiayiM1786064158A39Fhtml",
-      "platform": "PTT",
-      "platform_color": "#00b300",
-      "board": "Chiayi",
-      "date": "08/14",
-      "author": "PTT 鄉民",
-      "title": "[新聞] 嘉義市「藍白合」更進一步　蕭萬長出任",
-      "url": "https://www.ptt.cc/bbs/Chiayi/M.1786064158.A.39F.html",
-      "reactions": 0,
-      "comments": 0,
-      "category": "市政議題",
-      "source": "ptt"
-    },
-    {
-      "id": "ptt-httpswwwpttccbbsChiayiM1786023738AC49html",
-      "platform": "PTT",
-      "platform_color": "#00b300",
-      "board": "Chiayi",
-      "date": "08/06",
-      "author": "PTT 鄉民",
-      "title": "[贈送] 木頭桌子腳架",
-      "url": "https://www.ptt.cc/bbs/Chiayi/M.1786023738.A.C49.html",
-      "reactions": 0,
-      "comments": 0,
-      "category": "市政議題",
       "source": "ptt"
     }
   ]
