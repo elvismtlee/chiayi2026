@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-15T12:33:49.523607",
+  "updated_at": "2026-08-15T18:24:32.711688",
   "news": [
     {
       "headline": "邱比特大白熊放閃嘉義！七夕限定打卡抽限量好禮",
@@ -87,12 +87,12 @@
     }
   ],
   "complaint_stats": {
-    "total": 79542,
-    "record_count": 576,
+    "total": 79467,
+    "record_count": 501,
     "category_counts": {
       "公共安全": 38658,
       "交通停車": 7743,
-      "道路路平": 320,
+      "道路路平": 245,
       "環境衛生": 5,
       "行政服務": 6
     },
@@ -107,11 +107,11 @@
         "公有停車場": 38
       },
       "道路路平": {
-        "自來水管線": 52,
-        "電信管線": 27,
-        "電力管線": 52,
-        "道路施工": 4,
-        "市府工程": 13,
+        "自來水管線": 22,
+        "電力管線": 26,
+        "電信管線": 17,
+        "市府工程": 7,
+        "道路施工": 1,
         "橋梁設施": 172
       },
       "環境衛生": {
@@ -123,43 +123,43 @@
     },
     "top_roads": [
       {
-        "road": "東區嘉義",
-        "count": 15
-      },
-      {
         "road": "蘭潭水庫",
         "count": 12
       },
       {
-        "road": "東區文雅村里大雅路一",
-        "count": 3
-      },
-      {
-        "road": "西區保福村里國聖一街",
-        "count": 3
+        "road": "東區嘉義",
+        "count": 7
       },
       {
         "road": "東區民族村里吳鳳北路",
         "count": 3
       },
       {
-        "road": "東區後庄村里林森東路",
+        "road": "東區頂寮村里南興路2",
         "count": 2
       },
       {
-        "road": "西區垂楊村里興業西路",
+        "road": "東區文雅村里大雅路一",
         "count": 2
       },
       {
-        "road": "東區華南村里蘭井街1",
+        "road": "東區興安村里環興街1",
         "count": 2
       },
       {
-        "road": "西區福民村里新民路",
+        "road": "東區中山村里",
         "count": 2
       },
       {
-        "road": "東區興南村里垂楊路2",
+        "road": "西區福安村里世賢路一",
+        "count": 2
+      },
+      {
+        "road": "親水公園",
+        "count": 2
+      },
+      {
+        "road": "蘭潭水庫三信亭附近",
         "count": 2
       }
     ],
@@ -174,7 +174,7 @@
       },
       {
         "category": "道路路平",
-        "count": 320
+        "count": 245
       },
       {
         "category": "行政服務",
@@ -197,13 +197,13 @@
       "2022": 3112,
       "2023": 3318,
       "2024": 3270,
-      "2025": 8893,
-      "2026": 3625,
+      "2025": 8889,
+      "2026": 3554,
       "2027": 1,
       "2012": 1,
       "2013": 1
     },
-    "updated_at": "2026-08-15T12:31:21.468136",
+    "updated_at": "2026-08-15T18:22:53.107595",
     "source": "data.chiayi.gov.tw"
   },
   "council": {
@@ -237,6 +237,20 @@
   },
   "citizen_stats": {},
   "social_posts": [
+    {
+      "id": "ptt-httpswwwpttccbbsGossipingM1786813846A08Bhtml",
+      "platform": "PTT",
+      "platform_color": "#00b300",
+      "board": "Gossiping",
+      "date": "08/16",
+      "author": "PTT 鄉民",
+      "title": "Re: [問卦] DPP是垃圾嗎",
+      "url": "https://www.ptt.cc/bbs/Gossiping/M.1786813846.A.08B.html",
+      "reactions": 0,
+      "comments": 0,
+      "category": "環境衛生",
+      "source": "ptt"
+    },
     {
       "id": "ptt-httpswwwpttccbbsChiayiM1786760290A438html",
       "platform": "PTT",
@@ -284,7 +298,7 @@
       "platform": "PTT",
       "platform_color": "#00b300",
       "board": "Chiayi",
-      "date": "08/15",
+      "date": "08/16",
       "author": "PTT 鄉民",
       "title": "[新聞] 嘉市議員選舉站街頭、苦行僧式拜票 他",
       "url": "https://www.ptt.cc/bbs/Chiayi/M.1786692921.A.590.html",
@@ -354,7 +368,7 @@
       "platform": "PTT",
       "platform_color": "#00b300",
       "board": "Chiayi",
-      "date": "08/14",
+      "date": "08/15",
       "author": "PTT 鄉民",
       "title": "[徵求] 世賢路一段跟八德路機車道車禍",
       "url": "https://www.ptt.cc/bbs/Chiayi/M.1786554108.A.E83.html",
@@ -386,20 +400,6 @@
       "author": "PTT 鄉民",
       "title": "[亂入] 贈送麥當勞熟客券兩張",
       "url": "https://www.ptt.cc/bbs/Chiayi/M.1786346040.A.EE5.html",
-      "reactions": 0,
-      "comments": 0,
-      "category": "市政議題",
-      "source": "ptt"
-    },
-    {
-      "id": "ptt-httpswwwpttccbbsChiayiM1786256685ABB8html",
-      "platform": "PTT",
-      "platform_color": "#00b300",
-      "board": "Chiayi",
-      "date": "08/14",
-      "author": "PTT 鄉民",
-      "title": "[問題] 詢問嘉義婦產科及月子中心",
-      "url": "https://www.ptt.cc/bbs/Chiayi/M.1786256685.A.BB8.html",
       "reactions": 0,
       "comments": 0,
       "category": "市政議題",
