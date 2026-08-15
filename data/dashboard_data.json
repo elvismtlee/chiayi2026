@@ -1,6 +1,20 @@
 {
-  "updated_at": "2026-08-15T01:01:07.797375",
+  "updated_at": "2026-08-15T06:35:47.645327",
   "news": [
+    {
+      "headline": "邱比特大白熊放閃嘉義！七夕限定打卡抽限量好禮",
+      "source": "嘉義市政府/觀光新聞處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=949200",
+      "date": "2026/08/15",
+      "query": "市府新聞"
+    },
+    {
+      "headline": "城市外交「打」進日本視野黃敏惠市長訪愛媛以棒球深化交流受日媒關注",
+      "source": "嘉義市政府/民政處/文化局/觀光新聞處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=949199",
+      "date": "2026/08/15",
+      "query": "市府新聞"
+    },
     {
       "headline": "配合役男短期生涯規劃，「延緩入營」申請別錯過。",
       "source": "嘉義市政府/西區公所",
@@ -69,20 +83,6 @@
       "source": "嘉義市政府",
       "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=948963",
       "date": "2026/08/14",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "全嘉開普！嘉義城隍廟五大創意供品吸睛兩千萬打造「金馬奔騰躍諸羅」亮相",
-      "source": "嘉義市政府/民政處/觀光新聞處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=948964",
-      "date": "2026/08/13",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "雙潭馬拉松菁英賽11月1日開跑總獎金115萬邀跑者來嘉挑戰",
-      "source": "嘉義市政府/教育處/觀光新聞處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=948954",
-      "date": "2026/08/13",
       "query": "市府新聞"
     }
   ],
@@ -203,7 +203,7 @@
       "2012": 1,
       "2013": 1
     },
-    "updated_at": "2026-08-15T00:59:24.357096",
+    "updated_at": "2026-08-15T06:33:14.790048",
     "source": "data.chiayi.gov.tw"
   },
   "council": {
@@ -238,11 +238,25 @@
   "citizen_stats": {},
   "social_posts": [
     {
+      "id": "ptt-httpswwwpttccbbsChiayiM1786760290A438html",
+      "platform": "PTT",
+      "platform_color": "#00b300",
+      "board": "Chiayi",
+      "date": "08/15",
+      "author": "PTT 鄉民",
+      "title": "[新聞] 毒駕車禍致死非肇責主因仍難卸責 嘉義",
+      "url": "https://www.ptt.cc/bbs/Chiayi/M.1786760290.A.438.html",
+      "reactions": 0,
+      "comments": 0,
+      "category": "交通停車",
+      "source": "ptt"
+    },
+    {
       "id": "ptt-httpswwwpttccbbsChiayiM1786710651A66Chtml",
       "platform": "PTT",
       "platform_color": "#00b300",
       "board": "Chiayi",
-      "date": "08/14",
+      "date": "08/15",
       "author": "PTT 鄉民",
       "title": "[新聞] 煙波阿里山北門館試營運突喊卡 莫內饗宴",
       "url": "https://www.ptt.cc/bbs/Chiayi/M.1786710651.A.66C.html",
@@ -312,7 +326,7 @@
       "platform": "PTT",
       "platform_color": "#00b300",
       "board": "Chiayi",
-      "date": "08/14",
+      "date": "08/15",
       "author": "PTT 鄉民",
       "title": "[買賣] 網紅老爸/喵喵博物館電影票/海報/電腦用書",
       "url": "https://www.ptt.cc/bbs/Chiayi/M.1786645323.A.367.html",
@@ -386,20 +400,6 @@
       "author": "PTT 鄉民",
       "title": "[問題] 詢問嘉義婦產科及月子中心",
       "url": "https://www.ptt.cc/bbs/Chiayi/M.1786256685.A.BB8.html",
-      "reactions": 0,
-      "comments": 0,
-      "category": "市政議題",
-      "source": "ptt"
-    },
-    {
-      "id": "ptt-httpswwwpttccbbsChiayiM1786200166A47Bhtml",
-      "platform": "PTT",
-      "platform_color": "#00b300",
-      "board": "Chiayi",
-      "date": "08/10",
-      "author": "PTT 鄉民",
-      "title": "[情報] 父親節卡片免費下載",
-      "url": "https://www.ptt.cc/bbs/Chiayi/M.1786200166.A.47B.html",
       "reactions": 0,
       "comments": 0,
       "category": "市政議題",
