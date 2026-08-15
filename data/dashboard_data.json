@@ -1,6 +1,13 @@
 {
-  "updated_at": "2026-08-14T18:47:49.035755",
+  "updated_at": "2026-08-15T01:01:07.797375",
   "news": [
+    {
+      "headline": "配合役男短期生涯規劃，「延緩入營」申請別錯過。",
+      "source": "嘉義市政府/西區公所",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=949119",
+      "date": "2026/08/15",
+      "query": "市府新聞"
+    },
     {
       "headline": "嘉頌重奏團攜手高雄市管樂團《樂脈》開啟原創管樂合作新篇章",
       "source": "嘉義市政府/文化局/觀光新聞處",
@@ -75,13 +82,6 @@
       "headline": "雙潭馬拉松菁英賽11月1日開跑總獎金115萬邀跑者來嘉挑戰",
       "source": "嘉義市政府/教育處/觀光新聞處",
       "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=948954",
-      "date": "2026/08/13",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "嘉義市忠孝路346巷都市更新案審議通過加速推進文化新絲路2.0",
-      "source": "嘉義市政府/都市發展處/觀光新聞處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=948949",
       "date": "2026/08/13",
       "query": "市府新聞"
     }
@@ -203,7 +203,7 @@
       "2012": 1,
       "2013": 1
     },
-    "updated_at": "2026-08-14T18:46:06.015826",
+    "updated_at": "2026-08-15T00:59:24.357096",
     "source": "data.chiayi.gov.tw"
   },
   "council": {
@@ -270,7 +270,7 @@
       "platform": "PTT",
       "platform_color": "#00b300",
       "board": "Chiayi",
-      "date": "08/14",
+      "date": "08/15",
       "author": "PTT 鄉民",
       "title": "[新聞] 嘉市議員選舉站街頭、苦行僧式拜票 他",
       "url": "https://www.ptt.cc/bbs/Chiayi/M.1786692921.A.590.html",
