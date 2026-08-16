@@ -1,16 +1,16 @@
 {
-  "updated_at": "2026-08-15T18:23:05.025512",
+  "updated_at": "2026-08-16T01:09:44.990152",
   "aqi_realtime": [
     {
       "station": "嘉義市（Open-Meteo 模型）",
-      "aqi": 13,
-      "pm25": 9.9,
-      "pm10": 10.5,
-      "o3": 13.0,
-      "no2": 49.1,
+      "aqi": 14,
+      "pm25": 10.0,
+      "pm10": 11.6,
+      "o3": 47.0,
+      "no2": 34.1,
       "status": "良好",
       "pollutant": "PM2.5",
-      "time": "2026-08-16T02:00",
+      "time": "2026-08-16T09:00",
       "source": "Open-Meteo"
     }
   ],
@@ -34,23 +34,23 @@
   "weather": [
     {
       "station": "嘉義市（Open-Meteo）",
-      "temp": "25.4",
-      "apparent_temp": "29.6",
-      "humidity": "88",
+      "temp": "28.2",
+      "apparent_temp": "33.0",
+      "humidity": "81",
       "rainfall": "0.0",
-      "wind_speed": "10.0",
-      "wind_dir": "172",
-      "cloud": "78",
-      "weather": "多雲",
-      "time": "2026-08-16 02:15",
+      "wind_speed": "11.6",
+      "wind_dir": "173",
+      "cloud": "98",
+      "weather": "陰天",
+      "time": "2026-08-16 09:00",
       "source": "Open-Meteo"
     }
   ],
   "announcements": [
     {
-      "title": "嘉義市政府第1258次市務會議(擴大)紀錄 - chiayi.gov.tw",
-      "date": "Sat, 15 Aug 2026",
-      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFAzaC0xZS12RzFfU0N1NFJoWHdzLXhCbXBEXzJPNHIxWFVqR0FmRlRGSS10c19sNUMxN0dEOFk3RFB2cG52LWNnSE5SVW40NnJXMlBKM0ZRdFAyVWJQZTE0YXVEYXd3dF9EZXc?oc=5",
+      "title": "115年嘉義市弱勢族群能源效率改善計畫開跑囉 - 嘉義市政府環境保護局",
+      "date": "Thu, 13 Aug 2026",
+      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBjNUh2WTNFTnZOQVVuckZPUV9nRlhkSU9IUmxUd0Z4R0N5NUgyX2xtZmwwQkU3U0pzV2YxYnU2UDBhTkV3cFEzUnJFM2J3U212amxVNGZQWm41UUtSc3AzaV9RbUZWSXRIM2VMT3RLQTBuMkV2NXFyeA?oc=5",
       "desc": "",
       "source": "Google新聞"
     },
@@ -69,13 +69,6 @@
       "source": "Google新聞"
     },
     {
-      "title": "115年嘉義市弱勢族群能源效率改善計畫開跑囉 - 嘉義市政府環境保護局",
-      "date": "Thu, 13 Aug 2026",
-      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBjNUh2WTNFTnZOQVVuckZPUV9nRlhkSU9IUmxUd0Z4R0N5NUgyX2xtZmwwQkU3U0pzV2YxYnU2UDBhTkV3cFEzUnJFM2J3U212amxVNGZQWm41UUtSc3AzaV9RbUZWSXRIM2VMT3RLQTBuMkV2NXFyeA?oc=5",
-      "desc": "",
-      "source": "Google新聞"
-    },
-    {
       "title": "嘉義市推動智慧回收機佈建再進化 擴點結合活動提升市民參與 - 嘉義市政府環境保護局",
       "date": "Fri, 14 Aug 2026",
       "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBIZ1VUTDFwVVJDQk0xakJzaXRtdTZJZFJ2UDhxNUFlQUFUYzNSM1YtSmxyWndUSS1PWWpnMmdFZ2lNZm5QbS1uc3hKQUVqTVVxRGZTME1Qak1ZZlA1eC1DLVI5OXlMMV9KRFlZ?oc=5",
@@ -88,16 +81,16 @@
       "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFAwVzQ5UDJBUmp4WEp3bmdvejZBdC1SQ1VsaHJsNUpQT0ZyWlQ2MHBpRDJoMjc4VklGd3hLLUpiLUhDR2FIS0dYcUJuMnY5anVSUXdFYmxETkNZaWFfb1prY0VtQWxKeExQcWhZ?oc=5",
       "desc": "",
       "source": "Google新聞"
+    },
+    {
+      "title": "嘉義市再增8個單位通過親善哺（集）乳室認證 持續打造母嬰友善城市 - 嘉義市政府衛生局",
+      "date": "Mon, 10 Aug 2026",
+      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBJQk5aNmhRZHRiRmFnWTJRbUJmQjdEbFVxV19yM3lpdmtXMmp6VFo5UHdlcEd3bEdSdG83NFdzRUNKTWk4eUJMSjNIdkxTSjZIYVNjeGRnZ1dWUk54aTFOaE1XZWFsbFpDVG9ubnI2V2VSdENTVVVBQzVtM18?oc=5",
+      "desc": "",
+      "source": "Google新聞"
     }
   ],
   "procurement": [
-    {
-      "title": "嘉市東門圓環施工改善疑挖到古城門遺構暫時停工- 嘉義市 - 自由時報",
-      "date": "Wed, 12 Aug 2026",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1JYjBiT2ozRmZVTGs1OHZfOXA3OWsxOEVVMXEyMTc1TTJCRl9vM2FFRTlqMXJJZEVJaVRCZHc2OXgyQWlsME9PSVl6LVZwSjJqbHNZMUpxNVg1MDlRTEZZM2VEUVlhaFFTejBlSw?oc=5",
-      "org": "新聞資訊",
-      "source": "Google新聞"
-    },
     {
       "title": "嘉義市勇奪國家卓越建設獎3金1優質獎 打造人本永續城市新典範 | 熱門亮點 | 商情 - 經濟日報",
       "date": "Wed, 05 Aug 2026",
@@ -113,23 +106,30 @@
       "source": "Google新聞"
     },
     {
-      "title": "嘉義市人本交通再獲肯定 「馬路好行」一口氣拿下3項工程獎 - more-news.tw",
+      "title": "嘉義市人本交通再獲肯定 「馬路好行」一口氣拿下3項工程獎 - 墨新聞-MORE News",
       "date": "Sun, 09 Aug 2026",
       "link": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE83RXVJREFEeDJFZ2FyVjhfYTQzZThoWEpuX2dRVnVDcEo1emNaRUI4MFpvRTVvSXpiSXJ6enhmaGZ4QQ?oc=5",
       "org": "新聞資訊",
       "source": "Google新聞"
     },
     {
-      "title": "嘉義市前瞻停車場建設再獲肯定 國家卓越建設獎勇奪3金1優質獎 - 樂聯網",
+      "title": "嘉義市前瞻停車場建設勇奪國家卓越建設獎3金1優質 打造人本永續城市 - PChome Online新聞",
       "date": "Tue, 04 Aug 2026",
-      "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE1oZFoxUjh5MXJsenJGUHZZQjVWODVhbGpSdFR3Nk1FX1dIU3pJTG9hTE5XRW9nMjFjTUJuQ3VGZmVJY29ZRThrSFgxVQ?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNQzNqdWpYVk05WTROSTJjSUJZTk8wQTB2bU15OE1xTWFUWXlyelNGU1YybWZUcFZwVHpnYzZ4amJCLW1rMVN2cV9MTzhoX3o1RnI4cWJZbENxZDZwZndmUUtLamdGZVRlVjVQbm5lX2ItRlpYeWZ3VUh4NTY5WWJyakYzUy1TSG43MHZTNlJOUQ?oc=5",
       "org": "新聞資訊",
       "source": "Google新聞"
     },
     {
-      "title": "嘉義市前瞻停車場建設勇奪國家卓越建設獎3金1優質 打造人本永續城市 - PChome Online 新聞",
-      "date": "Tue, 04 Aug 2026",
-      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNQzNqdWpYVk05WTROSTJjSUJZTk8wQTB2bU15OE1xTWFUWXlyelNGU1YybWZUcFZwVHpnYzZ4amJCLW1rMVN2cV9MTzhoX3o1RnI4cWJZbENxZDZwZndmUUtLamdGZVRlVjVQbm5lX2ItRlpYeWZ3VUh4NTY5WWJyakYzUy1TSG43MHZTNlJOUQ?oc=5",
+      "title": "阿里山貴賓館整修工程獲獎 展現文化資產保存成果 - 信吉衛視+",
+      "date": "Sun, 09 Aug 2026",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBVaWYtWU4xeFItMmNJc1lmREl3T0EyLS1MaTZqa3c3YzFaRVR1S2VuNHYzbFpudERKWDBWQ2dSc0RnVUJYeEs3RG5iQ3N4V2ZoelZQazZoM0ZrZw?oc=5",
+      "org": "新聞資訊",
+      "source": "Google新聞"
+    },
+    {
+      "title": "【營建】幸福大道．安心同行 從一條人行道，看見嘉義市的人本交通與盧厝里的幸福改變 - 正聲廣播電台",
+      "date": "Tue, 07 Jul 2026",
+      "link": "https://news.google.com/rss/articles/CBMiREFVX3lxTE5CNWl5N3NxQ0w3R2piV3hxMEJjTDFGTndKZWJ5QkVTRjE3cWdHU3dzUWdkeGw4eUFaeUZocFpKOU0wMk5M?oc=5",
       "org": "新聞資訊",
       "source": "Google新聞"
     },
@@ -141,9 +141,9 @@
       "source": "Google新聞"
     },
     {
-      "title": "阿里山貴賓館整修工程獲獎 展現文化資產保存成果 - sjtv.com.tw",
-      "date": "Sun, 09 Aug 2026",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBVaWYtWU4xeFItMmNJc1lmREl3T0EyLS1MaTZqa3c3YzFaRVR1S2VuNHYzbFpudERKWDBWQ2dSc0RnVUJYeEs3RG5iQ3N4V2ZoelZQazZoM0ZrZw?oc=5",
+      "title": "嘉義市污水治理再奪雙項大獎 黃敏惠：隱形建設展現城市競爭力 - 墨新聞-MORE News",
+      "date": "Tue, 28 Jul 2026",
+      "link": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE9IV0ZFNXltSHdjMHBSbnFqNzFjaVh4aDNKeUtBYVFMQ2N3Qi1uN0ptd2gtM185aTVNTHNhQWgxbjhMdw?oc=5",
       "org": "新聞資訊",
       "source": "Google新聞"
     }
@@ -151,32 +151,9 @@
   "disease": {
     "dengue": [],
     "enterovirus": [],
-    "updated": "2026-08-15"
+    "updated": "2026-08-16"
   },
-  "fire": {
-    "chiayi_datasets": [
-      {
-        "title": "",
-        "date": ""
-      },
-      {
-        "title": "",
-        "date": ""
-      },
-      {
-        "title": "",
-        "date": ""
-      },
-      {
-        "title": "",
-        "date": ""
-      },
-      {
-        "title": "",
-        "date": ""
-      }
-    ]
-  },
+  "fire": {},
   "population": [],
   "bus": [
     {
@@ -253,7 +230,7 @@
       "lat": 23.481634,
       "lng": 120.453745,
       "total": 45,
-      "available": 22,
+      "available": 23,
       "addr": "中山路199號(對面)"
     },
     {
@@ -271,7 +248,7 @@
       "lat": 23.482663,
       "lng": 120.462988,
       "total": 25,
-      "available": 5,
+      "available": 4,
       "addr": "中山路2號(前)"
     },
     {
@@ -280,7 +257,7 @@
       "lat": 23.478707,
       "lng": 120.462594,
       "total": 38,
-      "available": 11,
+      "available": 9,
       "addr": "啟明路122號(前)"
     },
     {
@@ -289,7 +266,7 @@
       "lat": 23.477031,
       "lng": 120.465573,
       "total": 34,
-      "available": 15,
+      "available": 11,
       "addr": "大雅路二段738號(前)"
     },
     {
@@ -298,7 +275,7 @@
       "lat": 23.4798596,
       "lng": 120.4488291,
       "total": 20,
-      "available": 0,
+      "available": 11,
       "addr": "中山路306號"
     },
     {
@@ -316,7 +293,7 @@
       "lat": 23.47917,
       "lng": 120.44186,
       "total": 99,
-      "available": 27,
+      "available": 83,
       "addr": "中山路524號"
     },
     {
@@ -325,7 +302,7 @@
       "lat": 23.47877,
       "lng": 120.44089,
       "total": 42,
-      "available": 24,
+      "available": 37,
       "addr": "中山路528號"
     },
     {
@@ -334,7 +311,7 @@
       "lat": 23.47283,
       "lng": 120.44029,
       "total": 5,
-      "available": 4,
+      "available": 3,
       "addr": "垂楊路575號"
     },
     {
@@ -343,7 +320,7 @@
       "lat": 23.47336,
       "lng": 120.44604,
       "total": 14,
-      "available": 5,
+      "available": 4,
       "addr": "垂楊路351號"
     },
     {
@@ -352,7 +329,7 @@
       "lat": 23.4738724,
       "lng": 120.4493073,
       "total": 20,
-      "available": 5,
+      "available": 8,
       "addr": "垂楊路434號"
     },
     {
@@ -361,7 +338,7 @@
       "lat": 23.47918,
       "lng": 120.43182,
       "total": 15,
-      "available": 13,
+      "available": 2,
       "addr": "北港路278號"
     },
     {
@@ -370,7 +347,7 @@
       "lat": 23.486138,
       "lng": 120.453829,
       "total": 20,
-      "available": 7,
+      "available": 10,
       "addr": "忠孝路284號(旁)"
     },
     {
@@ -379,7 +356,7 @@
       "lat": 23.48091,
       "lng": 120.43012,
       "total": 20,
-      "available": 7,
+      "available": 8,
       "addr": "北港路312號東側"
     },
     {
@@ -388,7 +365,7 @@
       "lat": 23.48465,
       "lng": 120.43354,
       "total": 14,
-      "available": 13,
+      "available": 0,
       "addr": "友愛興達路口"
     },
     {
@@ -406,7 +383,7 @@
       "lat": 23.49265,
       "lng": 120.43191,
       "total": 15,
-      "available": 8,
+      "available": 10,
       "addr": "自由路492號"
     },
     {
@@ -415,7 +392,7 @@
       "lat": 23.478941,
       "lng": 120.437805,
       "total": 23,
-      "available": 4,
+      "available": 11,
       "addr": "博愛路二段281號"
     },
     {
@@ -424,10 +401,10 @@
       "lat": 23.47165,
       "lng": 120.43119,
       "total": 15,
-      "available": 3,
+      "available": 6,
       "addr": "博愛路二段461號"
     }
   ],
   "water": [],
-  "fetch_seconds": 87.7
+  "fetch_seconds": 191.8
 }
