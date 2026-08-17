@@ -1,6 +1,20 @@
 {
-  "updated_at": "2026-08-17T06:47:12.512919",
+  "updated_at": "2026-08-17T12:40:10.534118",
   "news": [
+    {
+      "headline": "115年度清潔隊約用隊員甄試-公告錄取名單",
+      "source": "嘉義市政府/嘉義市政府環境保護局/清潔隊",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=949317",
+      "date": "2026/08/17",
+      "query": "市府新聞"
+    },
+    {
+      "headline": "九華山地藏庵「放水燈船法會」及「普施法會」活動將登場！交管資訊公開",
+      "source": "嘉義市政府/警察局/觀光新聞處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=949311",
+      "date": "2026/08/17",
+      "query": "市府新聞"
+    },
     {
       "headline": "逆勢突圍！嘉市114年家庭可支配所得連7年創新高平均每人所得全台第五",
       "source": "嘉義市政府/觀光新聞處",
@@ -69,20 +83,6 @@
       "source": "嘉義市政府/西區公所",
       "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=949119",
       "date": "2026/08/15",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "嘉頌重奏團攜手高雄市管樂團《樂脈》開啟原創管樂合作新篇章",
-      "source": "嘉義市政府/文化局/觀光新聞處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=949128",
-      "date": "2026/08/14",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "員工親子活動「我嘉童樂會幸福來作伙！」打造嘉義市政府友善幸福職場",
-      "source": "嘉義市政府/人事處/觀光新聞處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=949116",
-      "date": "2026/08/14",
       "query": "市府新聞"
     }
   ],
@@ -199,7 +199,7 @@
       "2012": 1,
       "2013": 1
     },
-    "updated_at": "2026-08-17T06:45:24.575692",
+    "updated_at": "2026-08-17T12:37:42.489292",
     "source": "data.chiayi.gov.tw"
   },
   "council": {
@@ -252,7 +252,7 @@
       "platform": "PTT",
       "platform_color": "#00b300",
       "board": "Chiayi",
-      "date": "08/16",
+      "date": "08/17",
       "author": "PTT 鄉民",
       "title": "[買賣] 嘉義市 小孩長大物品出清",
       "url": "https://www.ptt.cc/bbs/Chiayi/M.1786879969.A.2AB.html",
