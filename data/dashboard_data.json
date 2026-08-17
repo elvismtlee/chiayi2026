@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-16T18:27:11.937165",
+  "updated_at": "2026-08-17T01:04:05.812949",
   "news": [
     {
       "headline": "嘉義市首度推出「321ACTION+1電影故事徵件」邀全台創作者從嘉義出發讓好故事走向大銀幕",
@@ -199,7 +199,7 @@
       "2012": 1,
       "2013": 1
     },
-    "updated_at": "2026-08-16T18:25:11.364674",
+    "updated_at": "2026-08-17T01:02:04.392350",
     "source": "data.chiayi.gov.tw"
   },
   "council": {
@@ -233,6 +233,20 @@
   },
   "citizen_stats": {},
   "social_posts": [
+    {
+      "id": "ptt-httpswwwpttccbbsChiayiM1786927800AF88html",
+      "platform": "PTT",
+      "platform_color": "#00b300",
+      "board": "Chiayi",
+      "date": "08/17",
+      "author": "PTT 鄉民",
+      "title": "[廣告] 園藝",
+      "url": "https://www.ptt.cc/bbs/Chiayi/M.1786927800.A.F88.html",
+      "reactions": 0,
+      "comments": 0,
+      "category": "市政議題",
+      "source": "ptt"
+    },
     {
       "id": "ptt-httpswwwpttccbbsChiayiM1786879969A2ABhtml",
       "platform": "PTT",
@@ -385,20 +399,6 @@
       "reactions": 0,
       "comments": 0,
       "category": "交通停車",
-      "source": "ptt"
-    },
-    {
-      "id": "ptt-httpswwwpttccbbsChiayiM1786547169A0D4html",
-      "platform": "PTT",
-      "platform_color": "#00b300",
-      "board": "Chiayi",
-      "date": "08/14",
-      "author": "PTT 鄉民",
-      "title": "[問題] 技術士證照",
-      "url": "https://www.ptt.cc/bbs/Chiayi/M.1786547169.A.0D4.html",
-      "reactions": 0,
-      "comments": 0,
-      "category": "市政議題",
       "source": "ptt"
     }
   ]
