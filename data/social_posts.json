@@ -1,5 +1,19 @@
 [
   {
+    "id": "ptt-httpswwwpttccbbsChiayiM1787033518A5CDhtml",
+    "platform": "PTT",
+    "platform_color": "#00b300",
+    "board": "Chiayi",
+    "date": "08/18",
+    "author": "PTT 鄉民",
+    "title": "[情報] 嘉義市跨越太平洋深化國際教育情誼 黃敏",
+    "url": "https://www.ptt.cc/bbs/Chiayi/M.1787033518.A.5CD.html",
+    "reactions": 0,
+    "comments": 0,
+    "category": "市政議題",
+    "source": "ptt"
+  },
+  {
     "id": "ptt-httpswwwpttccbbsChiayiM1786979407A742html",
     "platform": "PTT",
     "platform_color": "#00b300",
@@ -88,7 +102,7 @@
     "platform": "PTT",
     "platform_color": "#00b300",
     "board": "Chiayi",
-    "date": "08/16",
+    "date": "08/18",
     "author": "PTT 鄉民",
     "title": "[新聞] 煙波阿里山北門館試營運突喊卡 莫內饗宴",
     "url": "https://www.ptt.cc/bbs/Chiayi/M.1786710651.A.66C.html",
@@ -116,7 +130,7 @@
     "platform": "PTT",
     "platform_color": "#00b300",
     "board": "Chiayi",
-    "date": "08/17",
+    "date": "08/18",
     "author": "PTT 鄉民",
     "title": "[新聞] 嘉市議員選舉站街頭、苦行僧式拜票 他",
     "url": "https://www.ptt.cc/bbs/Chiayi/M.1786692921.A.590.html",
@@ -151,20 +165,6 @@
     "reactions": 0,
     "comments": 0,
     "category": "社福高齡",
-    "source": "ptt"
-  },
-  {
-    "id": "ptt-httpswwwpttccbbsChiayiM1786645323A367html",
-    "platform": "PTT",
-    "platform_color": "#00b300",
-    "board": "Chiayi",
-    "date": "08/17",
-    "author": "PTT 鄉民",
-    "title": "[買賣] 網紅老爸/喵喵博物館電影票/Kitty特展/小丸子",
-    "url": "https://www.ptt.cc/bbs/Chiayi/M.1786645323.A.367.html",
-    "reactions": 0,
-    "comments": 0,
-    "category": "市政議題",
     "source": "ptt"
   }
 ]
