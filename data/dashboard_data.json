@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-19T12:41:16.328624",
+  "updated_at": "2026-08-19T18:29:49.284409",
   "news": [
     {
       "headline": "嘉義市「2026無菸導演夢工場-3,2,1Action！」登場學童化身小小創作者用短影音為健康發聲",
@@ -87,12 +87,12 @@
     }
   ],
   "complaint_stats": {
-    "total": 79500,
-    "record_count": 534,
+    "total": 79443,
+    "record_count": 477,
     "category_counts": {
       "公共安全": 38658,
       "交通停車": 7743,
-      "道路路平": 278,
+      "道路路平": 221,
       "環境衛生": 5,
       "行政服務": 6
     },
@@ -107,11 +107,11 @@
         "公有停車場": 38
       },
       "道路路平": {
-        "電信管線": 16,
-        "自來水管線": 26,
-        "電力管線": 47,
-        "市府工程": 15,
-        "道路施工": 2,
+        "自來水管線": 23,
+        "電力管線": 8,
+        "市府工程": 11,
+        "電信管線": 3,
+        "道路施工": 4,
         "橋梁設施": 172
       },
       "環境衛生": {
@@ -128,39 +128,39 @@
       },
       {
         "road": "東區嘉義",
-        "count": 6
-      },
-      {
-        "road": "東區興安村里環興街1",
         "count": 4
       },
       {
-        "road": "東區民族村里吳鳳北路",
-        "count": 3
-      },
-      {
-        "road": "東區文雅村里大雅路一",
+        "road": "東區後庄村里林森東路",
         "count": 2
       },
       {
-        "road": "西區福安村里世賢路一",
+        "road": "東區東興村里安和街1",
         "count": 2
       },
       {
-        "road": "東區過溝村里民族路3",
+        "road": "東區太平村里新生路5",
         "count": 2
       },
       {
-        "road": "西區湖內村里健康十街",
+        "road": "親水公園",
         "count": 2
       },
       {
-        "road": "東區中山村里",
+        "road": "蘭潭水庫三信亭附近",
         "count": 2
       },
       {
-        "road": "西區垂楊村里興業西路",
+        "road": "嘉義市中山路199號",
         "count": 2
+      },
+      {
+        "road": "嘉義市山仔頂249-",
+        "count": 2
+      },
+      {
+        "road": "東區興安村里興美六路",
+        "count": 1
       }
     ],
     "top_categories": [
@@ -174,7 +174,7 @@
       },
       {
         "category": "道路路平",
-        "count": 278
+        "count": 221
       },
       {
         "category": "行政服務",
@@ -197,13 +197,12 @@
       "2022": 3112,
       "2023": 3318,
       "2024": 3270,
-      "2025": 8891,
-      "2026": 3585,
-      "2027": 1,
+      "2025": 8877,
+      "2026": 3543,
       "2012": 1,
       "2013": 1
     },
-    "updated_at": "2026-08-19T12:38:44.637032",
+    "updated_at": "2026-08-19T18:28:11.470052",
     "source": "data.chiayi.gov.tw"
   },
   "council": {
@@ -237,6 +236,20 @@
   },
   "citizen_stats": {},
   "social_posts": [
+    {
+      "id": "ptt-httpswwwpttccbbsChiayiM1787155828A2FChtml",
+      "platform": "PTT",
+      "platform_color": "#00b300",
+      "board": "Chiayi",
+      "date": "08/20",
+      "author": "PTT 鄉民",
+      "title": "誠意徵求一台雙門小冰箱",
+      "url": "https://www.ptt.cc/bbs/Chiayi/M.1787155828.A.2FC.html",
+      "reactions": 0,
+      "comments": 0,
+      "category": "市政議題",
+      "source": "ptt"
+    },
     {
       "id": "ptt-httpswwwpttccbbsChiayiM1787057092A8C6html",
       "platform": "PTT",
@@ -284,7 +297,7 @@
       "platform": "PTT",
       "platform_color": "#00b300",
       "board": "Chiayi",
-      "date": "08/19",
+      "date": "08/20",
       "author": "PTT 鄉民",
       "title": "[新聞] 賴清德宣布明年普發1萬元　張啓楷批「灑",
       "url": "https://www.ptt.cc/bbs/Chiayi/M.1786970375.A.127.html",
@@ -386,20 +399,6 @@
       "author": "PTT 鄉民",
       "title": "[新聞] 嘉市議員選舉站街頭、苦行僧式拜票 他",
       "url": "https://www.ptt.cc/bbs/Chiayi/M.1786692921.A.590.html",
-      "reactions": 0,
-      "comments": 0,
-      "category": "市政議題",
-      "source": "ptt"
-    },
-    {
-      "id": "ptt-httpswwwpttccbbsChiayiM1786679650A2C2html",
-      "platform": "PTT",
-      "platform_color": "#00b300",
-      "board": "Chiayi",
-      "date": "08/14",
-      "author": "PTT 鄉民",
-      "title": "[徵求] 熊貓外送員裝備",
-      "url": "https://www.ptt.cc/bbs/Chiayi/M.1786679650.A.2C2.html",
       "reactions": 0,
       "comments": 0,
       "category": "市政議題",
