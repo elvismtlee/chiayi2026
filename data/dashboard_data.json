@@ -1,6 +1,20 @@
 {
-  "updated_at": "2026-08-18T18:34:33.710168",
+  "updated_at": "2026-08-19T01:00:24.850848",
   "news": [
+    {
+      "headline": "防範老鼠進家門全民滅鼠大作戰",
+      "source": "嘉義市政府/嘉義市政府環境保護局/清潔隊",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=948955",
+      "date": "2026/08/19",
+      "query": "市府新聞"
+    },
+    {
+      "headline": "轉知中華民國資訊軟體服務商業同業公會舉辦全球AI高峰會(WITSAGlobalAISummit)，敬請踴躍報名參加。",
+      "source": "嘉義市政府/企劃處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=949708",
+      "date": "2026/08/18",
+      "query": "市府新聞"
+    },
     {
       "headline": "嘉市擴大抽驗市售苦茶油品結果全數合格",
       "source": "嘉義市政府/衛生局/觀光新聞處",
@@ -69,20 +83,6 @@
       "source": "嘉義市政府/都市發展處/觀光新聞處",
       "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=949284",
       "date": "2026/08/17",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "本市博東路段（博東路169巷至博東路43巷）南側貨車裝卸貨專用停車位，自115年8月24日起實施高費率（每半小時25元）收費管理。",
-      "source": "嘉義市政府/交通處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=949271",
-      "date": "2026/08/17",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "嘉義市首度推出「321ACTION+1電影故事徵件」邀全台創作者從嘉義出發讓好故事走向大銀幕",
-      "source": "嘉義市政府/文化局/觀光新聞處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=949249",
-      "date": "2026/08/16",
       "query": "市府新聞"
     }
   ],
@@ -203,7 +203,7 @@
       "2012": 1,
       "2013": 1
     },
-    "updated_at": "2026-08-18T18:32:43.673873",
+    "updated_at": "2026-08-19T00:58:31.828707",
     "source": "data.chiayi.gov.tw"
   },
   "council": {
