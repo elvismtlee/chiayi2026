@@ -1,6 +1,27 @@
 {
-  "updated_at": "2026-08-19T06:41:38.537459",
+  "updated_at": "2026-08-19T12:41:16.328624",
   "news": [
+    {
+      "headline": "嘉義市「2026無菸導演夢工場-3,2,1Action！」登場學童化身小小創作者用短影音為健康發聲",
+      "source": "嘉義市政府/衛生局/觀光新聞處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=949814",
+      "date": "2026/08/19",
+      "query": "市府新聞"
+    },
+    {
+      "headline": "《文化＋1串！》嘉義市文化基地品牌成果展登場走進「文化串燒店」一次打包27處文化風景邀市民旅人串起嘉義文化小旅行",
+      "source": "嘉義市政府/文化局/觀光新聞處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=949813",
+      "date": "2026/08/19",
+      "query": "市府新聞"
+    },
+    {
+      "headline": "七夕浪漫更要安心選購醫療器材牢記「一認、二看、三會用」",
+      "source": "嘉義市政府/衛生局",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=949809",
+      "date": "2026/08/19",
+      "query": "市府新聞"
+    },
     {
       "headline": "防範老鼠進家門全民滅鼠大作戰",
       "source": "嘉義市政府/嘉義市政府環境保護局/清潔隊",
@@ -61,27 +82,6 @@
       "headline": "九華山地藏庵「放水燈船法會」及「普施法會」活動將登場！交管資訊公開",
       "source": "嘉義市政府/警察局/觀光新聞處",
       "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=949311",
-      "date": "2026/08/17",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "逆勢突圍！嘉市114年家庭可支配所得連7年創新高平均每人所得全台第五",
-      "source": "嘉義市政府/觀光新聞處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=949288",
-      "date": "2026/08/17",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "亞洲青年管弦樂團攜手嘉義子弟十度音緣交會圓滿落幕",
-      "source": "嘉義市政府/文化局/觀光新聞處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=949286",
-      "date": "2026/08/17",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "嘉義市打造非六都首座高溫調適管制城市綠蔭、風廊正式成為都市開發新標準",
-      "source": "嘉義市政府/都市發展處/觀光新聞處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=949284",
       "date": "2026/08/17",
       "query": "市府新聞"
     }
@@ -203,7 +203,7 @@
       "2012": 1,
       "2013": 1
     },
-    "updated_at": "2026-08-19T06:39:08.421925",
+    "updated_at": "2026-08-19T12:38:44.637032",
     "source": "data.chiayi.gov.tw"
   },
   "council": {
@@ -256,7 +256,7 @@
       "platform": "PTT",
       "platform_color": "#00b300",
       "board": "Chiayi",
-      "date": "08/18",
+      "date": "08/19",
       "author": "PTT 鄉民",
       "title": "[情報] 嘉義市跨越太平洋深化國際教育情誼 黃敏",
       "url": "https://www.ptt.cc/bbs/Chiayi/M.1787033518.A.5CD.html",
