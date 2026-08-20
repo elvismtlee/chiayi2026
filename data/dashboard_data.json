@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-20T12:40:11.682215",
+  "updated_at": "2026-08-20T18:35:27.018919",
   "news": [
     {
       "headline": "傳承KANO棒球精神！嘉義市立民生國中棒球隊睽違多年遠征沖繩",
@@ -87,12 +87,12 @@
     }
   ],
   "complaint_stats": {
-    "total": 79443,
-    "record_count": 477,
+    "total": 79481,
+    "record_count": 515,
     "category_counts": {
       "公共安全": 38658,
       "交通停車": 7743,
-      "道路路平": 221,
+      "道路路平": 259,
       "環境衛生": 5,
       "行政服務": 6
     },
@@ -107,10 +107,10 @@
         "公有停車場": 38
       },
       "道路路平": {
-        "自來水管線": 23,
-        "電力管線": 8,
-        "市府工程": 11,
-        "電信管線": 3,
+        "自來水管線": 49,
+        "電力管線": 12,
+        "市府工程": 13,
+        "電信管線": 9,
         "道路施工": 4,
         "橋梁設施": 172
       },
@@ -128,7 +128,7 @@
       },
       {
         "road": "東區嘉義",
-        "count": 4
+        "count": 5
       },
       {
         "road": "東區後庄村里林森東路",
@@ -140,6 +140,10 @@
       },
       {
         "road": "東區太平村里新生路5",
+        "count": 2
+      },
+      {
+        "road": "東區荖藤村里忠孝北街",
         "count": 2
       },
       {
@@ -157,10 +161,6 @@
       {
         "road": "嘉義市山仔頂249-",
         "count": 2
-      },
-      {
-        "road": "東區興安村里興美六路",
-        "count": 1
       }
     ],
     "top_categories": [
@@ -174,7 +174,7 @@
       },
       {
         "category": "道路路平",
-        "count": 221
+        "count": 259
       },
       {
         "category": "行政服務",
@@ -197,12 +197,12 @@
       "2022": 3112,
       "2023": 3318,
       "2024": 3270,
-      "2025": 8877,
-      "2026": 3543,
+      "2025": 8880,
+      "2026": 3578,
       "2012": 1,
       "2013": 1
     },
-    "updated_at": "2026-08-20T12:38:23.025990",
+    "updated_at": "2026-08-20T18:33:40.167250",
     "source": "data.chiayi.gov.tw"
   },
   "council": {
@@ -236,6 +236,20 @@
   },
   "citizen_stats": {},
   "social_posts": [
+    {
+      "id": "ptt-httpswwwpttccbbsGossipingM1787246404A355html",
+      "platform": "PTT",
+      "platform_color": "#00b300",
+      "board": "Gossiping",
+      "date": "08/21",
+      "author": "PTT 鄉民",
+      "title": "[問卦] 台北市垃圾袋是有變化了嗎",
+      "url": "https://www.ptt.cc/bbs/Gossiping/M.1787246404.A.355.html",
+      "reactions": 0,
+      "comments": 0,
+      "category": "環境衛生",
+      "source": "ptt"
+    },
     {
       "id": "ptt-httpswwwpttccbbsChiayiM1787196923A8FAhtml",
       "platform": "PTT",
@@ -388,20 +402,6 @@
       "reactions": 0,
       "comments": 0,
       "category": "市政議題",
-      "source": "ptt"
-    },
-    {
-      "id": "ptt-httpswwwpttccbbsChiayiM1786760290A438html",
-      "platform": "PTT",
-      "platform_color": "#00b300",
-      "board": "Chiayi",
-      "date": "08/15",
-      "author": "PTT 鄉民",
-      "title": "[新聞] 毒駕車禍致死非肇責主因仍難卸責 嘉義",
-      "url": "https://www.ptt.cc/bbs/Chiayi/M.1786760290.A.438.html",
-      "reactions": 0,
-      "comments": 0,
-      "category": "交通停車",
       "source": "ptt"
     }
   ]
