@@ -1,6 +1,20 @@
 {
-  "updated_at": "2026-08-20T00:59:39.348865",
+  "updated_at": "2026-08-20T06:40:03.580523",
   "news": [
+    {
+      "headline": "傳承KANO棒球精神！嘉義市立民生國中棒球隊睽違多年遠征沖繩",
+      "source": "嘉義市政府/教育處/觀光新聞處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=949887",
+      "date": "2026/08/20",
+      "query": "市府新聞"
+    },
+    {
+      "headline": "小小聲音創作者上線嘉市兒童Podcast營培養永續力",
+      "source": "嘉義市政府/環保局/觀光新聞處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=949874",
+      "date": "2026/08/20",
+      "query": "市府新聞"
+    },
     {
       "headline": "加強環境整備共同維護整潔家園",
       "source": "嘉義市政府/嘉義市政府環境保護局/資源循環管理科",
@@ -69,20 +83,6 @@
       "source": "嘉義市政府/環保局/觀光新聞處",
       "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=949681",
       "date": "2026/08/18",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "嘉義市跨越太平洋深化國際教育情誼黃敏惠市長率團赴美國加州洪堡郡拓展城市與校際交流",
-      "source": "嘉義市政府/教育處/觀光新聞處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=949668",
-      "date": "2026/08/18",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "115年度清潔隊約用隊員甄試-公告錄取名單",
-      "source": "嘉義市政府/嘉義市政府環境保護局/清潔隊",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=949317",
-      "date": "2026/08/17",
       "query": "市府新聞"
     }
   ],
@@ -202,7 +202,7 @@
       "2012": 1,
       "2013": 1
     },
-    "updated_at": "2026-08-20T00:58:01.290514",
+    "updated_at": "2026-08-20T06:38:18.004887",
     "source": "data.chiayi.gov.tw"
   },
   "council": {
@@ -236,6 +236,48 @@
   },
   "citizen_stats": {},
   "social_posts": [
+    {
+      "id": "ptt-httpswwwpttccbbsGossipingM1787207546A9B3html",
+      "platform": "PTT",
+      "platform_color": "#00b300",
+      "board": "Gossiping",
+      "date": "08/20",
+      "author": "PTT 鄉民",
+      "title": "[新聞] 花盆竟成「槍彈庫」！嘉義海巡聯手警方查",
+      "url": "https://www.ptt.cc/bbs/Gossiping/M.1787207546.A.9B3.html",
+      "reactions": 0,
+      "comments": 0,
+      "category": "市政議題",
+      "source": "ptt"
+    },
+    {
+      "id": "ptt-httpswwwpttccbbsChiayiM1787196923A8FAhtml",
+      "platform": "PTT",
+      "platform_color": "#00b300",
+      "board": "Chiayi",
+      "date": "01/01",
+      "author": "PTT 鄉民",
+      "title": "Fw: [情報] 8月21日起 嘉義市YouBike新增1個站點",
+      "url": "https://www.ptt.cc/bbs/Chiayi/M.1787196923.A.8FA.html",
+      "reactions": 0,
+      "comments": 0,
+      "category": "市政議題",
+      "source": "ptt"
+    },
+    {
+      "id": "ptt-httpswwwpttccbbsChiayiM1787191993A516html",
+      "platform": "PTT",
+      "platform_color": "#00b300",
+      "board": "Chiayi",
+      "date": "08/20",
+      "author": "PTT 鄉民",
+      "title": "［買賣］嘉市、太保市尿布出售",
+      "url": "https://www.ptt.cc/bbs/Chiayi/M.1787191993.A.516.html",
+      "reactions": 0,
+      "comments": 0,
+      "category": "市政議題",
+      "source": "ptt"
+    },
     {
       "id": "ptt-httpswwwpttccbbsChiayiM1787164762A88Bhtml",
       "platform": "PTT",
@@ -357,48 +399,6 @@
       "author": "PTT 鄉民",
       "title": "[新聞] 城市外交「打」進日本視野　黃敏惠市長",
       "url": "https://www.ptt.cc/bbs/Chiayi/M.1786863381.A.61A.html",
-      "reactions": 0,
-      "comments": 0,
-      "category": "市政議題",
-      "source": "ptt"
-    },
-    {
-      "id": "ptt-httpswwwpttccbbsChiayiM1786760290A438html",
-      "platform": "PTT",
-      "platform_color": "#00b300",
-      "board": "Chiayi",
-      "date": "08/15",
-      "author": "PTT 鄉民",
-      "title": "[新聞] 毒駕車禍致死非肇責主因仍難卸責 嘉義",
-      "url": "https://www.ptt.cc/bbs/Chiayi/M.1786760290.A.438.html",
-      "reactions": 0,
-      "comments": 0,
-      "category": "交通停車",
-      "source": "ptt"
-    },
-    {
-      "id": "ptt-httpswwwpttccbbsChiayiM1786710651A66Chtml",
-      "platform": "PTT",
-      "platform_color": "#00b300",
-      "board": "Chiayi",
-      "date": "08/18",
-      "author": "PTT 鄉民",
-      "title": "[新聞] 煙波阿里山北門館試營運突喊卡 莫內饗宴",
-      "url": "https://www.ptt.cc/bbs/Chiayi/M.1786710651.A.66C.html",
-      "reactions": 0,
-      "comments": 0,
-      "category": "市政議題",
-      "source": "ptt"
-    },
-    {
-      "id": "ptt-httpswwwpttccbbsChiayiM1786696660AA08html",
-      "platform": "PTT",
-      "platform_color": "#00b300",
-      "board": "Chiayi",
-      "date": "08/14",
-      "author": "PTT 鄉民",
-      "title": "[買賣] 霜淇淋 快煮壺 西堤 陶板屋 麥當勞 拿鐵",
-      "url": "https://www.ptt.cc/bbs/Chiayi/M.1786696660.A.A08.html",
       "reactions": 0,
       "comments": 0,
       "category": "市政議題",
