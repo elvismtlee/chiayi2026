@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-20T06:40:03.580523",
+  "updated_at": "2026-08-20T12:40:11.682215",
   "news": [
     {
       "headline": "傳承KANO棒球精神！嘉義市立民生國中棒球隊睽違多年遠征沖繩",
@@ -202,7 +202,7 @@
       "2012": 1,
       "2013": 1
     },
-    "updated_at": "2026-08-20T06:38:18.004887",
+    "updated_at": "2026-08-20T12:38:23.025990",
     "source": "data.chiayi.gov.tw"
   },
   "council": {
@@ -236,20 +236,6 @@
   },
   "citizen_stats": {},
   "social_posts": [
-    {
-      "id": "ptt-httpswwwpttccbbsGossipingM1787207546A9B3html",
-      "platform": "PTT",
-      "platform_color": "#00b300",
-      "board": "Gossiping",
-      "date": "08/20",
-      "author": "PTT 鄉民",
-      "title": "[新聞] 花盆竟成「槍彈庫」！嘉義海巡聯手警方查",
-      "url": "https://www.ptt.cc/bbs/Gossiping/M.1787207546.A.9B3.html",
-      "reactions": 0,
-      "comments": 0,
-      "category": "市政議題",
-      "source": "ptt"
-    },
     {
       "id": "ptt-httpswwwpttccbbsChiayiM1787196923A8FAhtml",
       "platform": "PTT",
@@ -402,6 +388,20 @@
       "reactions": 0,
       "comments": 0,
       "category": "市政議題",
+      "source": "ptt"
+    },
+    {
+      "id": "ptt-httpswwwpttccbbsChiayiM1786760290A438html",
+      "platform": "PTT",
+      "platform_color": "#00b300",
+      "board": "Chiayi",
+      "date": "08/15",
+      "author": "PTT 鄉民",
+      "title": "[新聞] 毒駕車禍致死非肇責主因仍難卸責 嘉義",
+      "url": "https://www.ptt.cc/bbs/Chiayi/M.1786760290.A.438.html",
+      "reactions": 0,
+      "comments": 0,
+      "category": "交通停車",
       "source": "ptt"
     }
   ]
