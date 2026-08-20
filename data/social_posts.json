@@ -1,5 +1,19 @@
 [
   {
+    "id": "ptt-httpswwwpttccbbsChiayiM1787164762A88Bhtml",
+    "platform": "PTT",
+    "platform_color": "#00b300",
+    "board": "Chiayi",
+    "date": "08/20",
+    "author": "PTT 鄉民",
+    "title": "[問題] 請問買手機",
+    "url": "https://www.ptt.cc/bbs/Chiayi/M.1787164762.A.88B.html",
+    "reactions": 0,
+    "comments": 0,
+    "category": "市政議題",
+    "source": "ptt"
+  },
+  {
     "id": "ptt-httpswwwpttccbbsChiayiM1787155828A2FChtml",
     "platform": "PTT",
     "platform_color": "#00b300",
@@ -148,20 +162,6 @@
     "author": "PTT 鄉民",
     "title": "[買賣] 霜淇淋 快煮壺 西堤 陶板屋 麥當勞 拿鐵",
     "url": "https://www.ptt.cc/bbs/Chiayi/M.1786696660.A.A08.html",
-    "reactions": 0,
-    "comments": 0,
-    "category": "市政議題",
-    "source": "ptt"
-  },
-  {
-    "id": "ptt-httpswwwpttccbbsChiayiM1786692921A590html",
-    "platform": "PTT",
-    "platform_color": "#00b300",
-    "board": "Chiayi",
-    "date": "08/19",
-    "author": "PTT 鄉民",
-    "title": "[新聞] 嘉市議員選舉站街頭、苦行僧式拜票 他",
-    "url": "https://www.ptt.cc/bbs/Chiayi/M.1786692921.A.590.html",
     "reactions": 0,
     "comments": 0,
     "category": "市政議題",

@@ -1,6 +1,13 @@
 {
-  "updated_at": "2026-08-19T18:29:49.284409",
+  "updated_at": "2026-08-20T00:59:39.348865",
   "news": [
+    {
+      "headline": "加強環境整備共同維護整潔家園",
+      "source": "嘉義市政府/嘉義市政府環境保護局/資源循環管理科",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=949779",
+      "date": "2026/08/20",
+      "query": "市府新聞"
+    },
     {
       "headline": "嘉義市「2026無菸導演夢工場-3,2,1Action！」登場學童化身小小創作者用短影音為健康發聲",
       "source": "嘉義市政府/衛生局/觀光新聞處",
@@ -75,13 +82,6 @@
       "headline": "115年度清潔隊約用隊員甄試-公告錄取名單",
       "source": "嘉義市政府/嘉義市政府環境保護局/清潔隊",
       "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=949317",
-      "date": "2026/08/17",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "九華山地藏庵「放水燈船法會」及「普施法會」活動將登場！交管資訊公開",
-      "source": "嘉義市政府/警察局/觀光新聞處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=949311",
       "date": "2026/08/17",
       "query": "市府新聞"
     }
@@ -202,7 +202,7 @@
       "2012": 1,
       "2013": 1
     },
-    "updated_at": "2026-08-19T18:28:11.470052",
+    "updated_at": "2026-08-20T00:58:01.290514",
     "source": "data.chiayi.gov.tw"
   },
   "council": {
@@ -236,6 +236,20 @@
   },
   "citizen_stats": {},
   "social_posts": [
+    {
+      "id": "ptt-httpswwwpttccbbsChiayiM1787164762A88Bhtml",
+      "platform": "PTT",
+      "platform_color": "#00b300",
+      "board": "Chiayi",
+      "date": "08/20",
+      "author": "PTT 鄉民",
+      "title": "[問題] 請問買手機",
+      "url": "https://www.ptt.cc/bbs/Chiayi/M.1787164762.A.88B.html",
+      "reactions": 0,
+      "comments": 0,
+      "category": "市政議題",
+      "source": "ptt"
+    },
     {
       "id": "ptt-httpswwwpttccbbsChiayiM1787155828A2FChtml",
       "platform": "PTT",
@@ -385,20 +399,6 @@
       "author": "PTT 鄉民",
       "title": "[買賣] 霜淇淋 快煮壺 西堤 陶板屋 麥當勞 拿鐵",
       "url": "https://www.ptt.cc/bbs/Chiayi/M.1786696660.A.A08.html",
-      "reactions": 0,
-      "comments": 0,
-      "category": "市政議題",
-      "source": "ptt"
-    },
-    {
-      "id": "ptt-httpswwwpttccbbsChiayiM1786692921A590html",
-      "platform": "PTT",
-      "platform_color": "#00b300",
-      "board": "Chiayi",
-      "date": "08/19",
-      "author": "PTT 鄉民",
-      "title": "[新聞] 嘉市議員選舉站街頭、苦行僧式拜票 他",
-      "url": "https://www.ptt.cc/bbs/Chiayi/M.1786692921.A.590.html",
       "reactions": 0,
       "comments": 0,
       "category": "市政議題",
