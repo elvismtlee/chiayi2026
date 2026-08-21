@@ -14,20 +14,6 @@
     "source": "ptt"
   },
   {
-    "id": "ptt-httpswwwpttccbbsChiayiM1787191993A516html",
-    "platform": "PTT",
-    "platform_color": "#00b300",
-    "board": "Chiayi",
-    "date": "08/20",
-    "author": "PTT 鄉民",
-    "title": "［買賣］嘉市、太保市尿布出售",
-    "url": "https://www.ptt.cc/bbs/Chiayi/M.1787191993.A.516.html",
-    "reactions": 0,
-    "comments": 0,
-    "category": "市政議題",
-    "source": "ptt"
-  },
-  {
     "id": "ptt-httpswwwpttccbbsChiayiM1787164762A88Bhtml",
     "platform": "PTT",
     "platform_color": "#00b300",
@@ -36,20 +22,6 @@
     "author": "PTT 鄉民",
     "title": "[問題] 請問買手機",
     "url": "https://www.ptt.cc/bbs/Chiayi/M.1787164762.A.88B.html",
-    "reactions": 0,
-    "comments": 0,
-    "category": "市政議題",
-    "source": "ptt"
-  },
-  {
-    "id": "ptt-httpswwwpttccbbsChiayiM1787155828A2FChtml",
-    "platform": "PTT",
-    "platform_color": "#00b300",
-    "board": "Chiayi",
-    "date": "08/20",
-    "author": "PTT 鄉民",
-    "title": "誠意徵求一台雙門小冰箱",
-    "url": "https://www.ptt.cc/bbs/Chiayi/M.1787155828.A.2FC.html",
     "reactions": 0,
     "comments": 0,
     "category": "市政議題",
@@ -165,6 +137,34 @@
     "reactions": 0,
     "comments": 0,
     "category": "交通停車",
+    "source": "ptt"
+  },
+  {
+    "id": "ptt-httpswwwpttccbbsChiayiM1786710651A66Chtml",
+    "platform": "PTT",
+    "platform_color": "#00b300",
+    "board": "Chiayi",
+    "date": "08/20",
+    "author": "PTT 鄉民",
+    "title": "[新聞] 煙波阿里山北門館試營運突喊卡 莫內饗宴",
+    "url": "https://www.ptt.cc/bbs/Chiayi/M.1786710651.A.66C.html",
+    "reactions": 0,
+    "comments": 0,
+    "category": "市政議題",
+    "source": "ptt"
+  },
+  {
+    "id": "ptt-httpswwwpttccbbsChiayiM1786696660AA08html",
+    "platform": "PTT",
+    "platform_color": "#00b300",
+    "board": "Chiayi",
+    "date": "08/14",
+    "author": "PTT 鄉民",
+    "title": "[買賣] 霜淇淋 快煮壺 西堤 陶板屋 麥當勞 拿鐵",
+    "url": "https://www.ptt.cc/bbs/Chiayi/M.1786696660.A.A08.html",
+    "reactions": 0,
+    "comments": 0,
+    "category": "市政議題",
     "source": "ptt"
   }
 ]

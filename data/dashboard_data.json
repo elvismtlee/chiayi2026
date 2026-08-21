@@ -1,6 +1,27 @@
 {
-  "updated_at": "2026-08-21T06:41:57.765979",
+  "updated_at": "2026-08-21T12:38:55.501940",
   "news": [
+    {
+      "headline": "旅宿減塑新選擇嘉遊減塑我+1",
+      "source": "嘉義市政府/嘉義市政府環境保護局/資源循環管理科",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=950027",
+      "date": "2026/08/21",
+      "query": "市府新聞"
+    },
+    {
+      "headline": "17歲高中生把夢想變展覽《Between｜之間》用創作看見情緒",
+      "source": "嘉義市政府/文化局/觀光新聞處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=950024",
+      "date": "2026/08/21",
+      "query": "市府新聞"
+    },
+    {
+      "headline": "嘉義沒有聯外軌道哪來好生活？籲中央信守承諾、補齊全台交通運輸關鍵拼圖",
+      "source": "嘉義市政府/交通處/觀光新聞處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=950017",
+      "date": "2026/08/21",
+      "query": "市府新聞"
+    },
     {
       "headline": "嘉義市1.8億元不動產逾期未辦繼承長期無人申辦恐歸國庫",
       "source": "嘉義市政府/地政處/觀光新聞處",
@@ -61,27 +82,6 @@
       "headline": "嘉義市「2026無菸導演夢工場-3,2,1Action！」登場學童化身小小創作者用短影音為健康發聲",
       "source": "嘉義市政府/衛生局/觀光新聞處",
       "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=949814",
-      "date": "2026/08/19",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "《文化＋1串！》嘉義市文化基地品牌成果展登場走進「文化串燒店」一次打包27處文化風景邀市民旅人串起嘉義文化小旅行",
-      "source": "嘉義市政府/文化局/觀光新聞處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=949813",
-      "date": "2026/08/19",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "七夕浪漫更要安心選購醫療器材牢記「一認、二看、三會用」",
-      "source": "嘉義市政府/衛生局",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=949809",
-      "date": "2026/08/19",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "和解、調解或判決確定移轉房屋記得要做「這件事」！",
-      "source": "嘉義市政府/財政稅務局",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=949991",
       "date": "2026/08/19",
       "query": "市府新聞"
     }
@@ -202,7 +202,7 @@
       "2012": 1,
       "2013": 1
     },
-    "updated_at": "2026-08-21T06:39:27.773997",
+    "updated_at": "2026-08-21T12:37:11.495273",
     "source": "data.chiayi.gov.tw"
   },
   "council": {
@@ -251,20 +251,6 @@
       "source": "ptt"
     },
     {
-      "id": "ptt-httpswwwpttccbbsChiayiM1787191993A516html",
-      "platform": "PTT",
-      "platform_color": "#00b300",
-      "board": "Chiayi",
-      "date": "08/20",
-      "author": "PTT 鄉民",
-      "title": "［買賣］嘉市、太保市尿布出售",
-      "url": "https://www.ptt.cc/bbs/Chiayi/M.1787191993.A.516.html",
-      "reactions": 0,
-      "comments": 0,
-      "category": "市政議題",
-      "source": "ptt"
-    },
-    {
       "id": "ptt-httpswwwpttccbbsChiayiM1787164762A88Bhtml",
       "platform": "PTT",
       "platform_color": "#00b300",
@@ -273,20 +259,6 @@
       "author": "PTT 鄉民",
       "title": "[問題] 請問買手機",
       "url": "https://www.ptt.cc/bbs/Chiayi/M.1787164762.A.88B.html",
-      "reactions": 0,
-      "comments": 0,
-      "category": "市政議題",
-      "source": "ptt"
-    },
-    {
-      "id": "ptt-httpswwwpttccbbsChiayiM1787155828A2FChtml",
-      "platform": "PTT",
-      "platform_color": "#00b300",
-      "board": "Chiayi",
-      "date": "08/20",
-      "author": "PTT 鄉民",
-      "title": "誠意徵求一台雙門小冰箱",
-      "url": "https://www.ptt.cc/bbs/Chiayi/M.1787155828.A.2FC.html",
       "reactions": 0,
       "comments": 0,
       "category": "市政議題",
@@ -402,6 +374,34 @@
       "reactions": 0,
       "comments": 0,
       "category": "交通停車",
+      "source": "ptt"
+    },
+    {
+      "id": "ptt-httpswwwpttccbbsChiayiM1786710651A66Chtml",
+      "platform": "PTT",
+      "platform_color": "#00b300",
+      "board": "Chiayi",
+      "date": "08/20",
+      "author": "PTT 鄉民",
+      "title": "[新聞] 煙波阿里山北門館試營運突喊卡 莫內饗宴",
+      "url": "https://www.ptt.cc/bbs/Chiayi/M.1786710651.A.66C.html",
+      "reactions": 0,
+      "comments": 0,
+      "category": "市政議題",
+      "source": "ptt"
+    },
+    {
+      "id": "ptt-httpswwwpttccbbsChiayiM1786696660AA08html",
+      "platform": "PTT",
+      "platform_color": "#00b300",
+      "board": "Chiayi",
+      "date": "08/14",
+      "author": "PTT 鄉民",
+      "title": "[買賣] 霜淇淋 快煮壺 西堤 陶板屋 麥當勞 拿鐵",
+      "url": "https://www.ptt.cc/bbs/Chiayi/M.1786696660.A.A08.html",
+      "reactions": 0,
+      "comments": 0,
+      "category": "市政議題",
       "source": "ptt"
     }
   ]
