@@ -1,10 +1,38 @@
 {
-  "updated_at": "2026-08-21T01:05:35.665594",
+  "updated_at": "2026-08-21T06:41:57.765979",
   "news": [
+    {
+      "headline": "嘉義市1.8億元不動產逾期未辦繼承長期無人申辦恐歸國庫",
+      "source": "嘉義市政府/地政處/觀光新聞處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=949979",
+      "date": "2026/08/21",
+      "query": "市府新聞"
+    },
+    {
+      "headline": "搶搭暑假尾班車！台灣好行「Chill遊嘉義」百元搭公車走讀嘉市人文風貌",
+      "source": "嘉義市政府/交通處/觀光新聞處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=949961",
+      "date": "2026/08/21",
+      "query": "市府新聞"
+    },
     {
       "headline": "國土計畫到底在「畫」什麼？帶您認識國土功能分區",
       "source": "嘉義市政府/地政處/地用及重劃科",
       "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=949687",
+      "date": "2026/08/21",
+      "query": "市府新聞"
+    },
+    {
+      "headline": "8月31日是關鍵！決定當年度地價稅由誰負擔",
+      "source": "嘉義市政府/財政稅務局",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=949994",
+      "date": "2026/08/21",
+      "query": "市府新聞"
+    },
+    {
+      "headline": "落實婚姻平權，同享租稅優惠",
+      "source": "嘉義市政府/財政稅務局",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=949992",
       "date": "2026/08/21",
       "query": "市府新聞"
     },
@@ -51,38 +79,10 @@
       "query": "市府新聞"
     },
     {
-      "headline": "防範老鼠進家門全民滅鼠大作戰",
-      "source": "嘉義市政府/嘉義市政府環境保護局/清潔隊",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=948955",
+      "headline": "和解、調解或判決確定移轉房屋記得要做「這件事」！",
+      "source": "嘉義市政府/財政稅務局",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=949991",
       "date": "2026/08/19",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "轉知中華民國資訊軟體服務商業同業公會舉辦全球AI高峰會(WITSAGlobalAISummit)，敬請踴躍報名參加",
-      "source": "嘉義市政府/企劃處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=949708",
-      "date": "2026/08/18",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "嘉市擴大抽驗市售苦茶油品結果全數合格",
-      "source": "嘉義市政府/衛生局/觀光新聞處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=949706",
-      "date": "2026/08/18",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "七夕傳情有一套為「愛」篩檢不俗套",
-      "source": "嘉義市政府/衛生局/觀光新聞處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=949699",
-      "date": "2026/08/18",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "嘉市擴大辦理利衝法宣導說明會攜手民間落實陽光法案",
-      "source": "嘉義市政府/政風處/觀光新聞處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=949682",
-      "date": "2026/08/18",
       "query": "市府新聞"
     }
   ],
@@ -202,7 +202,7 @@
       "2012": 1,
       "2013": 1
     },
-    "updated_at": "2026-08-21T01:02:58.877268",
+    "updated_at": "2026-08-21T06:39:27.773997",
     "source": "data.chiayi.gov.tw"
   },
   "council": {
@@ -269,7 +269,7 @@
       "platform": "PTT",
       "platform_color": "#00b300",
       "board": "Chiayi",
-      "date": "08/20",
+      "date": "08/21",
       "author": "PTT 鄉民",
       "title": "[問題] 請問買手機",
       "url": "https://www.ptt.cc/bbs/Chiayi/M.1787164762.A.88B.html",
@@ -339,7 +339,7 @@
       "platform": "PTT",
       "platform_color": "#00b300",
       "board": "Chiayi",
-      "date": "08/20",
+      "date": "08/21",
       "author": "PTT 鄉民",
       "title": "[新聞] 賴清德宣布明年普發1萬元　張啓楷批「灑",
       "url": "https://www.ptt.cc/bbs/Chiayi/M.1786970375.A.127.html",
