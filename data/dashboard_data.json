@@ -1,6 +1,27 @@
 {
-  "updated_at": "2026-08-22T06:39:33.039751",
+  "updated_at": "2026-08-22T12:32:27.717105",
   "news": [
+    {
+      "headline": "十年陪伴築夢不間斷嘉市鳳梨會社攜手各界守護兒少成長",
+      "source": "嘉義市政府/社會處/觀光新聞處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=950106",
+      "date": "2026/08/22",
+      "query": "市府新聞"
+    },
+    {
+      "headline": "嘉市青少年暨親子三對三籃球賽熱血登場以球會友促進親子共融",
+      "source": "嘉義市政府/社會處/觀光新聞處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=950105",
+      "date": "2026/08/22",
+      "query": "市府新聞"
+    },
+    {
+      "headline": "99歲阿嬤秀太極！嘉義市運動嘉年華展現「勇壯」新活力",
+      "source": "嘉義市政府/教育處/觀光新聞處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=950104",
+      "date": "2026/08/22",
+      "query": "市府新聞"
+    },
     {
       "headline": "腦齡逆轉不是夢！MIT博士曾文毅嘉義開講300市民齊聚解密護腦關鍵",
       "source": "嘉義市政府/衛生局",
@@ -62,27 +83,6 @@
       "source": "嘉義市政府/財政稅務局",
       "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=949994",
       "date": "2026/08/21",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "落實婚姻平權，同享租稅優惠",
-      "source": "嘉義市政府/財政稅務局",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=949992",
-      "date": "2026/08/21",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "傳承KANO棒球精神！嘉義市立民生國中棒球隊睽違多年遠征沖繩",
-      "source": "嘉義市政府/教育處/觀光新聞處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=949887",
-      "date": "2026/08/20",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "小小聲音創作者上線嘉市兒童Podcast營培養永續力",
-      "source": "嘉義市政府/環保局/觀光新聞處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=949874",
-      "date": "2026/08/20",
       "query": "市府新聞"
     }
   ],
@@ -202,7 +202,7 @@
       "2012": 1,
       "2013": 1
     },
-    "updated_at": "2026-08-22T06:37:18.583058",
+    "updated_at": "2026-08-22T12:30:44.322250",
     "source": "data.chiayi.gov.tw"
   },
   "council": {
@@ -237,14 +237,14 @@
   "citizen_stats": {},
   "social_posts": [
     {
-      "id": "ptt-httpswwwpttccbbsGossipingM1787379661AF27html",
+      "id": "ptt-httpswwwpttccbbsGossipingM1787401775A60Fhtml",
       "platform": "PTT",
       "platform_color": "#00b300",
       "board": "Gossiping",
       "date": "08/22",
       "author": "PTT 鄉民",
-      "title": "Re: [問卦] 脆熱議：台南高雄大淹水",
-      "url": "https://www.ptt.cc/bbs/Gossiping/M.1787379661.A.F27.html",
+      "title": "[問卦] 光頭: 神明很公平 做不好 就淹水 應驗了?",
+      "url": "https://www.ptt.cc/bbs/Gossiping/M.1787401775.A.60F.html",
       "reactions": 0,
       "comments": 0,
       "category": "排水水利",
