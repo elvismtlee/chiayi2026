@@ -1,6 +1,13 @@
 {
-  "updated_at": "2026-08-21T18:31:40.540367",
+  "updated_at": "2026-08-22T01:00:49.693701",
   "news": [
+    {
+      "headline": "「幸福嘉義館」集結21家在地品牌，一起吃遍嘉義好味道",
+      "source": "嘉義市政府/西區公所",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=950019",
+      "date": "2026/08/22",
+      "query": "市府新聞"
+    },
     {
       "headline": "旅宿減塑新選擇嘉遊減塑我+1",
       "source": "嘉義市政府/嘉義市政府環境保護局/資源循環管理科",
@@ -76,13 +83,6 @@
       "source": "嘉義市政府/嘉義市政府環境保護局/資源循環管理科",
       "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=949779",
       "date": "2026/08/20",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "嘉義市「2026無菸導演夢工場-3,2,1Action！」登場學童化身小小創作者用短影音為健康發聲",
-      "source": "嘉義市政府/衛生局/觀光新聞處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=949814",
-      "date": "2026/08/19",
       "query": "市府新聞"
     }
   ],
@@ -202,7 +202,7 @@
       "2012": 1,
       "2013": 1
     },
-    "updated_at": "2026-08-21T18:29:59.704212",
+    "updated_at": "2026-08-22T00:58:30.664427",
     "source": "data.chiayi.gov.tw"
   },
   "council": {
@@ -237,17 +237,17 @@
   "citizen_stats": {},
   "social_posts": [
     {
-      "id": "ptt-httpswwwpttccbbsGossipingM1787333952A532html",
+      "id": "ptt-httpswwwpttccbbsGossipingM1787359644A697html",
       "platform": "PTT",
       "platform_color": "#00b300",
       "board": "Gossiping",
       "date": "08/22",
       "author": "PTT 鄉民",
-      "title": "[新聞] 美議員參選人不懂台灣議題 方恩格：真心",
-      "url": "https://www.ptt.cc/bbs/Gossiping/M.1787333952.A.532.html",
+      "title": "[問卦] 脆打開一堆台南淹水的文章",
+      "url": "https://www.ptt.cc/bbs/Gossiping/M.1787359644.A.697.html",
       "reactions": 0,
       "comments": 0,
-      "category": "市政議題",
+      "category": "排水水利",
       "source": "ptt"
     },
     {
