@@ -1,6 +1,13 @@
 {
-  "updated_at": "2026-08-22T01:00:49.693701",
+  "updated_at": "2026-08-22T06:39:33.039751",
   "news": [
+    {
+      "headline": "腦齡逆轉不是夢！MIT博士曾文毅嘉義開講300市民齊聚解密護腦關鍵",
+      "source": "嘉義市政府/衛生局",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=949831",
+      "date": "2026/08/22",
+      "query": "市府新聞"
+    },
     {
       "headline": "「幸福嘉義館」集結21家在地品牌，一起吃遍嘉義好味道",
       "source": "嘉義市政府/西區公所",
@@ -75,13 +82,6 @@
       "headline": "小小聲音創作者上線嘉市兒童Podcast營培養永續力",
       "source": "嘉義市政府/環保局/觀光新聞處",
       "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=949874",
-      "date": "2026/08/20",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "加強環境整備共同維護整潔家園",
-      "source": "嘉義市政府/嘉義市政府環境保護局/資源循環管理科",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=949779",
       "date": "2026/08/20",
       "query": "市府新聞"
     }
@@ -202,7 +202,7 @@
       "2012": 1,
       "2013": 1
     },
-    "updated_at": "2026-08-22T00:58:30.664427",
+    "updated_at": "2026-08-22T06:37:18.583058",
     "source": "data.chiayi.gov.tw"
   },
   "council": {
@@ -237,14 +237,14 @@
   "citizen_stats": {},
   "social_posts": [
     {
-      "id": "ptt-httpswwwpttccbbsGossipingM1787359644A697html",
+      "id": "ptt-httpswwwpttccbbsGossipingM1787379661AF27html",
       "platform": "PTT",
       "platform_color": "#00b300",
       "board": "Gossiping",
       "date": "08/22",
       "author": "PTT 鄉民",
-      "title": "[問卦] 脆打開一堆台南淹水的文章",
-      "url": "https://www.ptt.cc/bbs/Gossiping/M.1787359644.A.697.html",
+      "title": "Re: [問卦] 脆熱議：台南高雄大淹水",
+      "url": "https://www.ptt.cc/bbs/Gossiping/M.1787379661.A.F27.html",
       "reactions": 0,
       "comments": 0,
       "category": "排水水利",
@@ -269,7 +269,7 @@
       "platform": "PTT",
       "platform_color": "#00b300",
       "board": "Chiayi",
-      "date": "08/21",
+      "date": "08/22",
       "author": "PTT 鄉民",
       "title": "[問題] 請問買手機",
       "url": "https://www.ptt.cc/bbs/Chiayi/M.1787164762.A.88B.html",
@@ -325,7 +325,7 @@
       "platform": "PTT",
       "platform_color": "#00b300",
       "board": "Chiayi",
-      "date": "08/21",
+      "date": "08/22",
       "author": "PTT 鄉民",
       "title": "[新聞] 賴清德宣布明年普發1萬元　張啓楷批「灑",
       "url": "https://www.ptt.cc/bbs/Chiayi/M.1786970375.A.127.html",

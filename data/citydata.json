@@ -1,21 +1,28 @@
 {
-  "updated_at": "2026-08-22T00:59:19.711948",
+  "updated_at": "2026-08-22T06:37:33.622015",
   "aqi_realtime": [
     {
       "station": "嘉義市（Open-Meteo 模型）",
-      "aqi": 13,
-      "pm25": 9.5,
-      "pm10": 9.6,
-      "o3": 9.0,
-      "no2": 45.5,
+      "aqi": 10,
+      "pm25": 7.4,
+      "pm10": 7.7,
+      "o3": 32.0,
+      "no2": 38.5,
       "status": "良好",
       "pollutant": "PM2.5",
-      "time": "2026-08-22T08:00",
+      "time": "2026-08-22T14:00",
       "source": "Open-Meteo"
     }
   ],
   "aqi_history": [],
   "earthquake": [
+    {
+      "title": "規模 4.4・49 km SE of Yilan, Taiwan",
+      "desc": "深度 38 km",
+      "date": "2026-08-22 03:40",
+      "link": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tmqf",
+      "mag": 4.4
+    },
     {
       "title": "規模 4.9・63 km ESE of Yilan, Taiwan",
       "desc": "深度 66 km",
@@ -29,21 +36,21 @@
       "station": "嘉義市（Open-Meteo）",
       "temp": "26.4",
       "apparent_temp": "31.4",
-      "humidity": "89",
-      "rainfall": "0.4",
-      "wind_speed": "9.1",
-      "wind_dir": "173",
-      "cloud": "96",
-      "weather": "陣雨",
-      "time": "2026-08-22 08:45",
+      "humidity": "94",
+      "rainfall": "1.4",
+      "wind_speed": "12.5",
+      "wind_dir": "191",
+      "cloud": "100",
+      "weather": "雷雨",
+      "time": "2026-08-22 14:30",
       "source": "Open-Meteo"
     }
   ],
   "announcements": [
     {
-      "title": "嘉義市政府第1256次市務會議紀錄 - chiayi.gov.tw",
-      "date": "Thu, 20 Aug 2026",
-      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBsVDMtVVEyVW1oMF82Z1RHaUVZTFdPeV9fLTNhOVZrN3gtaGE5b2tUQ2htZmNfUVdXTVRFc3Z1WFJCWU5jRGl1OVVsSVUteXo4aEVhUGlJSjVNUXgzSlpOV1BGNnZDZTUtcVE?oc=5",
+      "title": "嘉義市政府115年赴美國紐約地區參訪交流(NGO CSW70平行論壇) - chiayi.gov.tw",
+      "date": "Fri, 21 Aug 2026",
+      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPQlBndjlvc2tuNkd0c2U5TjJNam9mOWEwMDgtbTdZSDdKdXZ0T3VzaXRkSkVXZlRidWNTSWZweUtmdVhpVEk2bGhvUnVRamlWdzRiVTdCcm84Y2RESmhwN3phNWFtRGFDdVZoMmYtS0VlNmpNaUZmY1ZObm5laFQxRVhWRjNaT1V3N0tkVGFxLTBXZw?oc=5",
       "desc": "",
       "source": "Google新聞"
     },
@@ -62,13 +69,6 @@
       "source": "Google新聞"
     },
     {
-      "title": "嘉義沒有聯外軌道 哪來好生活？ 市政府籲中央信守承諾、補齊全台交通運輸關鍵拼圖！ - 台灣華報",
-      "date": "Fri, 21 Aug 2026",
-      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE12Mk5Ud2Rzby1GZVRHeHNkLVIzcGpTRFhyNXJndmtMeEhPeExSZU5KZ3dsZUFvNnJkYWJmWGlscEpqWFlhZFVDbWtGMkZTZlZfczc3S1NXOF9QX0tTR1BMMVVodkZjcWVXWjlR?oc=5",
-      "desc": "",
-      "source": "Google新聞"
-    },
-    {
       "title": "115年嘉義市弱勢族群能源效率改善計畫開跑囉 - 嘉義市政府環境保護局",
       "date": "Wed, 19 Aug 2026",
       "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBjNUh2WTNFTnZOQVVuckZPUV9nRlhkSU9IUmxUd0Z4R0N5NUgyX2xtZmwwQkU3U0pzV2YxYnU2UDBhTkV3cFEzUnJFM2J3U212amxVNGZQWm41UUtSc3AzaV9RbUZWSXRIM2VMT3RLQTBuMkV2NXFyeA?oc=5",
@@ -79,6 +79,13 @@
       "title": "嘉義市第二屆節能知識線上競賽即將開跑 邀全民一起學節電、拿好禮 - 嘉義市政府環境保護局",
       "date": "Wed, 19 Aug 2026",
       "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBET2lCTmlYTlB1TXQ1SHpWbTNab1NsNE9fQWFkTDVQYnBtaGFyWW00Y2NyUUlSU3FXdDR1X0RUQ0xZSi1mV2t1YWhKUTh2YXVjZWdUWnlOekpyZVhhcjhlcnNsZnBvVjJmZjFfZjVqVXpzWEFmUk1RMw?oc=5",
+      "desc": "",
+      "source": "Google新聞"
+    },
+    {
+      "title": "115年嘉義市環境知識競賽，報名開始囉! - 嘉義市政府環境保護局",
+      "date": "Wed, 19 Aug 2026",
+      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5IenVZdTVPNmc1VllVM3Z1UFZiazgzX3NJaWJuRS1BdlljaDhPQkxMSTZ2b0tKdW9LdVlRODRTTWpkZXYwaXFWT3lBNXpsY183N1J0Uml0RHNtcWlURFpvdV9pQUs3d1JxTUtkMUM4bVIxSlVjNmlDVQ?oc=5",
       "desc": "",
       "source": "Google新聞"
     }
@@ -106,13 +113,6 @@
       "source": "Google新聞"
     },
     {
-      "title": "嘉義市前瞻停車場建設再獲肯定 國家卓越建設獎勇奪3金1優質獎 - 樂聯網",
-      "date": "Tue, 04 Aug 2026",
-      "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE1oZFoxUjh5MXJsenJGUHZZQjVWODVhbGpSdFR3Nk1FX1dIU3pJTG9hTE5XRW9nMjFjTUJuQ3VGZmVJY29ZRThrSFgxVQ?oc=5",
-      "org": "新聞資訊",
-      "source": "Google新聞"
-    },
-    {
       "title": "嘉義市前瞻停車場建設勇奪國家卓越建設獎3金1優質 打造人本永續城市 - PChome Online 新聞",
       "date": "Tue, 04 Aug 2026",
       "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNQzNqdWpYVk05WTROSTJjSUJZTk8wQTB2bU15OE1xTWFUWXlyelNGU1YybWZUcFZwVHpnYzZ4amJCLW1rMVN2cV9MTzhoX3o1RnI4cWJZbENxZDZwZndmUUtLamdGZVRlVjVQbm5lX2ItRlpYeWZ3VUh4NTY5WWJyakYzUy1TSG43MHZTNlJOUQ?oc=5",
@@ -130,6 +130,13 @@
       "title": "阿里山貴賓館整修工程獲獎 展現文化資產保存成果 - 信吉衛視+",
       "date": "Sun, 09 Aug 2026",
       "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBVaWYtWU4xeFItMmNJc1lmREl3T0EyLS1MaTZqa3c3YzFaRVR1S2VuNHYzbFpudERKWDBWQ2dSc0RnVUJYeEs3RG5iQ3N4V2ZoelZQazZoM0ZrZw?oc=5",
+      "org": "新聞資訊",
+      "source": "Google新聞"
+    },
+    {
+      "title": "嘉市公共建設再傳捷報 國家卓越建設獎摘3金1優質 - 社會新聞 - PChome Online 新聞 - PChome Online 新聞",
+      "date": "Tue, 04 Aug 2026",
+      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOTWhHZDYyVTVXeGJRZTBtMHk0UnNrdmVqZmZpRGQxZXlPRDNvVDlFUGM5WkNOSm1BTDZWZWxjdXpXYXJ0Slo5NkE4dUV1Rm0zdHFCYWRfX2lDUWhUZ3piMWpaMFYzZXV2V0N1SlI3TDNhUVZZWUMtamhlN3RjZkY1YkVXc0tpRW9YcXRwcA?oc=5",
       "org": "新聞資訊",
       "source": "Google新聞"
     },
@@ -246,7 +253,7 @@
       "lat": 23.481634,
       "lng": 120.453745,
       "total": 45,
-      "available": 8,
+      "available": 21,
       "addr": "中山路199號(對面)"
     },
     {
@@ -255,7 +262,7 @@
       "lat": 23.482012,
       "lng": 120.457342,
       "total": 22,
-      "available": 11,
+      "available": 10,
       "addr": "中山路98號(前)"
     },
     {
@@ -264,7 +271,7 @@
       "lat": 23.482663,
       "lng": 120.462988,
       "total": 25,
-      "available": 11,
+      "available": 13,
       "addr": "中山路2號(前)"
     },
     {
@@ -273,7 +280,7 @@
       "lat": 23.478707,
       "lng": 120.462594,
       "total": 38,
-      "available": 11,
+      "available": 10,
       "addr": "啟明路122號(前)"
     },
     {
@@ -282,7 +289,7 @@
       "lat": 23.477031,
       "lng": 120.465573,
       "total": 34,
-      "available": 7,
+      "available": 20,
       "addr": "大雅路二段738號(前)"
     },
     {
@@ -291,7 +298,7 @@
       "lat": 23.4798596,
       "lng": 120.4488291,
       "total": 20,
-      "available": 8,
+      "available": 13,
       "addr": "中山路306號"
     },
     {
@@ -300,7 +307,7 @@
       "lat": 23.47963,
       "lng": 120.44583,
       "total": 20,
-      "available": 6,
+      "available": 5,
       "addr": "中山路386號"
     },
     {
@@ -309,7 +316,7 @@
       "lat": 23.47917,
       "lng": 120.44186,
       "total": 99,
-      "available": 77,
+      "available": 72,
       "addr": "中山路524號"
     },
     {
@@ -318,7 +325,7 @@
       "lat": 23.47877,
       "lng": 120.44089,
       "total": 42,
-      "available": 38,
+      "available": 21,
       "addr": "中山路528號"
     },
     {
@@ -336,7 +343,7 @@
       "lat": 23.47336,
       "lng": 120.44604,
       "total": 14,
-      "available": 8,
+      "available": 4,
       "addr": "垂楊路351號"
     },
     {
@@ -354,7 +361,7 @@
       "lat": 23.47918,
       "lng": 120.43182,
       "total": 15,
-      "available": 7,
+      "available": 6,
       "addr": "北港路278號"
     },
     {
@@ -363,7 +370,7 @@
       "lat": 23.486138,
       "lng": 120.453829,
       "total": 20,
-      "available": 4,
+      "available": 2,
       "addr": "忠孝路284號(旁)"
     },
     {
@@ -372,7 +379,7 @@
       "lat": 23.48091,
       "lng": 120.43012,
       "total": 20,
-      "available": 5,
+      "available": 7,
       "addr": "北港路312號東側"
     },
     {
@@ -381,7 +388,7 @@
       "lat": 23.48465,
       "lng": 120.43354,
       "total": 14,
-      "available": 10,
+      "available": 6,
       "addr": "友愛興達路口"
     },
     {
@@ -390,7 +397,7 @@
       "lat": 23.48931,
       "lng": 120.4361,
       "total": 15,
-      "available": 6,
+      "available": 4,
       "addr": "自由路298號"
     },
     {
@@ -408,7 +415,7 @@
       "lat": 23.478941,
       "lng": 120.437805,
       "total": 23,
-      "available": 4,
+      "available": 3,
       "addr": "博愛路二段281號"
     },
     {
@@ -422,5 +429,5 @@
     }
   ],
   "water": [],
-  "fetch_seconds": 90.0
+  "fetch_seconds": 119.4
 }
