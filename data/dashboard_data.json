@@ -1,6 +1,13 @@
 {
-  "updated_at": "2026-08-23T01:04:38.663777",
+  "updated_at": "2026-08-23T06:35:07.251386",
   "news": [
+    {
+      "headline": "嘉義市深化國際教育交流攜手WW-P拓展國際夥伴",
+      "source": "嘉義市政府/教育處/觀光新聞處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=950132",
+      "date": "2026/08/23",
+      "query": "市府新聞"
+    },
     {
       "headline": "嘉義市全國污水評鑑再奪第三組第1名！締造五連霸佳績",
       "source": "嘉義市政府/工務處/觀光新聞處",
@@ -75,13 +82,6 @@
       "headline": "搶搭暑假尾班車！台灣好行「Chill遊嘉義」百元搭公車走讀嘉市人文風貌",
       "source": "嘉義市政府/交通處/觀光新聞處",
       "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=949961",
-      "date": "2026/08/21",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "國土計畫到底在「畫」什麼？帶您認識國土功能分區",
-      "source": "嘉義市政府/地政處/地用及重劃科",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=949687",
       "date": "2026/08/21",
       "query": "市府新聞"
     }
@@ -202,7 +202,7 @@
       "2012": 1,
       "2013": 1
     },
-    "updated_at": "2026-08-23T01:02:55.387381",
+    "updated_at": "2026-08-23T06:32:49.614428",
     "source": "data.chiayi.gov.tw"
   },
   "council": {
@@ -237,17 +237,59 @@
   "citizen_stats": {},
   "social_posts": [
     {
-      "id": "ptt-httpswwwpttccbbsGossipingM1787446924A1FChtml",
+      "id": "ptt-httpswwwpttccbbsGossipingM1787466530A4BDhtml",
       "platform": "PTT",
       "platform_color": "#00b300",
       "board": "Gossiping",
       "date": "08/23",
       "author": "PTT 鄉民",
-      "title": "[問卦] 為何淹水爆炸台南人都不生氣？",
-      "url": "https://www.ptt.cc/bbs/Gossiping/M.1787446924.A.1FC.html",
+      "title": "[問卦] 淹水好像沒很嚴重啊？",
+      "url": "https://www.ptt.cc/bbs/Gossiping/M.1787466530.A.4BD.html",
       "reactions": 0,
       "comments": 0,
       "category": "排水水利",
+      "source": "ptt"
+    },
+    {
+      "id": "ptt-httpswwwpttccbbsGossipingM1787466521A5BAhtml",
+      "platform": "PTT",
+      "platform_color": "#00b300",
+      "board": "Gossiping",
+      "date": "08/23",
+      "author": "PTT 鄉民",
+      "title": "[問卦] 淹水可以有效阻滯共軍？",
+      "url": "https://www.ptt.cc/bbs/Gossiping/M.1787466521.A.5BA.html",
+      "reactions": 0,
+      "comments": 0,
+      "category": "排水水利",
+      "source": "ptt"
+    },
+    {
+      "id": "ptt-httpswwwpttccbbsChiayiM1787461204AE52html",
+      "platform": "PTT",
+      "platform_color": "#00b300",
+      "board": "Chiayi",
+      "date": "08/23",
+      "author": "PTT 鄉民",
+      "title": "[買賣]  三井健身腳踏車",
+      "url": "https://www.ptt.cc/bbs/Chiayi/M.1787461204.A.E52.html",
+      "reactions": 0,
+      "comments": 0,
+      "category": "市政議題",
+      "source": "ptt"
+    },
+    {
+      "id": "ptt-httpswwwpttccbbsChiayiM1787455029A2D4html",
+      "platform": "PTT",
+      "platform_color": "#00b300",
+      "board": "Chiayi",
+      "date": "08/23",
+      "author": "PTT 鄉民",
+      "title": "[新聞] 蔣萬安週末各地跑 今到嘉義為民眾黨站台",
+      "url": "https://www.ptt.cc/bbs/Chiayi/M.1787455029.A.2D4.html",
+      "reactions": 0,
+      "comments": 0,
+      "category": "市政議題",
       "source": "ptt"
     },
     {
@@ -357,48 +399,6 @@
       "author": "PTT 鄉民",
       "title": "[買賣] 嘉義市 小孩長大物品出清",
       "url": "https://www.ptt.cc/bbs/Chiayi/M.1786879969.A.2AB.html",
-      "reactions": 0,
-      "comments": 0,
-      "category": "市政議題",
-      "source": "ptt"
-    },
-    {
-      "id": "ptt-httpswwwpttccbbsChiayiM1786863381A61Ahtml",
-      "platform": "PTT",
-      "platform_color": "#00b300",
-      "board": "Chiayi",
-      "date": "08/17",
-      "author": "PTT 鄉民",
-      "title": "[新聞] 城市外交「打」進日本視野　黃敏惠市長",
-      "url": "https://www.ptt.cc/bbs/Chiayi/M.1786863381.A.61A.html",
-      "reactions": 0,
-      "comments": 0,
-      "category": "市政議題",
-      "source": "ptt"
-    },
-    {
-      "id": "ptt-httpswwwpttccbbsChiayiM1786760290A438html",
-      "platform": "PTT",
-      "platform_color": "#00b300",
-      "board": "Chiayi",
-      "date": "08/15",
-      "author": "PTT 鄉民",
-      "title": "[新聞] 毒駕車禍致死非肇責主因仍難卸責 嘉義",
-      "url": "https://www.ptt.cc/bbs/Chiayi/M.1786760290.A.438.html",
-      "reactions": 0,
-      "comments": 0,
-      "category": "交通停車",
-      "source": "ptt"
-    },
-    {
-      "id": "ptt-httpswwwpttccbbsChiayiM1786710651A66Chtml",
-      "platform": "PTT",
-      "platform_color": "#00b300",
-      "board": "Chiayi",
-      "date": "08/20",
-      "author": "PTT 鄉民",
-      "title": "[新聞] 煙波阿里山北門館試營運突喊卡 莫內饗宴",
-      "url": "https://www.ptt.cc/bbs/Chiayi/M.1786710651.A.66C.html",
       "reactions": 0,
       "comments": 0,
       "category": "市政議題",
