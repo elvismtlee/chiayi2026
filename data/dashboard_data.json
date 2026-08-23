@@ -1,6 +1,20 @@
 {
-  "updated_at": "2026-08-23T06:35:07.251386",
+  "updated_at": "2026-08-23T12:35:44.637518",
   "news": [
+    {
+      "headline": "中央承諾「講甲一畚箕，做無一湯匙」籲請中央主政興建高鐵聯外軌道建設還給嘉義交通平權",
+      "source": "嘉義市政府/交通處/觀光新聞處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=950134",
+      "date": "2026/08/23",
+      "query": "市府新聞"
+    },
+    {
+      "headline": "諸羅搖滾攜手北流、搖滾台中讓新聲從嘉義走向全臺",
+      "source": "嘉義市政府/文化局/觀光新聞處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=950133",
+      "date": "2026/08/23",
+      "query": "市府新聞"
+    },
     {
       "headline": "嘉義市深化國際教育交流攜手WW-P拓展國際夥伴",
       "source": "嘉義市政府/教育處/觀光新聞處",
@@ -68,20 +82,6 @@
       "headline": "嘉義沒有聯外軌道哪來好生活？籲中央信守承諾、補齊全台交通運輸關鍵拼圖",
       "source": "嘉義市政府/交通處/觀光新聞處",
       "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=950017",
-      "date": "2026/08/21",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "嘉義市1.8億元不動產逾期未辦繼承長期無人申辦恐歸國庫",
-      "source": "嘉義市政府/地政處/觀光新聞處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=949979",
-      "date": "2026/08/21",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "搶搭暑假尾班車！台灣好行「Chill遊嘉義」百元搭公車走讀嘉市人文風貌",
-      "source": "嘉義市政府/交通處/觀光新聞處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=949961",
       "date": "2026/08/21",
       "query": "市府新聞"
     }
@@ -202,7 +202,7 @@
       "2012": 1,
       "2013": 1
     },
-    "updated_at": "2026-08-23T06:32:49.614428",
+    "updated_at": "2026-08-23T12:33:13.453747",
     "source": "data.chiayi.gov.tw"
   },
   "council": {
@@ -237,31 +237,17 @@
   "citizen_stats": {},
   "social_posts": [
     {
-      "id": "ptt-httpswwwpttccbbsGossipingM1787466530A4BDhtml",
+      "id": "ptt-httpswwwpttccbbsChiayiM1787483120A99Chtml",
       "platform": "PTT",
       "platform_color": "#00b300",
-      "board": "Gossiping",
+      "board": "Chiayi",
       "date": "08/23",
       "author": "PTT 鄉民",
-      "title": "[問卦] 淹水好像沒很嚴重啊？",
-      "url": "https://www.ptt.cc/bbs/Gossiping/M.1787466530.A.4BD.html",
+      "title": "[問題] 請問嘉義是否有做黃金的金工師傅在收學徒",
+      "url": "https://www.ptt.cc/bbs/Chiayi/M.1787483120.A.99C.html",
       "reactions": 0,
       "comments": 0,
-      "category": "排水水利",
-      "source": "ptt"
-    },
-    {
-      "id": "ptt-httpswwwpttccbbsGossipingM1787466521A5BAhtml",
-      "platform": "PTT",
-      "platform_color": "#00b300",
-      "board": "Gossiping",
-      "date": "08/23",
-      "author": "PTT 鄉民",
-      "title": "[問卦] 淹水可以有效阻滯共軍？",
-      "url": "https://www.ptt.cc/bbs/Gossiping/M.1787466521.A.5BA.html",
-      "reactions": 0,
-      "comments": 0,
-      "category": "排水水利",
+      "category": "市政議題",
       "source": "ptt"
     },
     {
@@ -353,7 +339,7 @@
       "platform": "PTT",
       "platform_color": "#00b300",
       "board": "Chiayi",
-      "date": "08/17",
+      "date": "08/23",
       "author": "PTT 鄉民",
       "title": "[徵求]買200公升左右二手冰箱",
       "url": "https://www.ptt.cc/bbs/Chiayi/M.1786979407.A.742.html",
@@ -399,6 +385,20 @@
       "author": "PTT 鄉民",
       "title": "[買賣] 嘉義市 小孩長大物品出清",
       "url": "https://www.ptt.cc/bbs/Chiayi/M.1786879969.A.2AB.html",
+      "reactions": 0,
+      "comments": 0,
+      "category": "市政議題",
+      "source": "ptt"
+    },
+    {
+      "id": "ptt-httpswwwpttccbbsChiayiM1786863381A61Ahtml",
+      "platform": "PTT",
+      "platform_color": "#00b300",
+      "board": "Chiayi",
+      "date": "08/17",
+      "author": "PTT 鄉民",
+      "title": "[新聞] 城市外交「打」進日本視野　黃敏惠市長",
+      "url": "https://www.ptt.cc/bbs/Chiayi/M.1786863381.A.61A.html",
       "reactions": 0,
       "comments": 0,
       "category": "市政議題",
