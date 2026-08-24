@@ -1,6 +1,13 @@
 {
-  "updated_at": "2026-08-24T06:48:04.551930",
+  "updated_at": "2026-08-24T12:41:18.943111",
   "news": [
+    {
+      "headline": "《諸羅百業》記錄職人故事TeamChiayi讓嘉義產業被看見",
+      "source": "嘉義市政府/建設處/觀光新聞處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=950177",
+      "date": "2026/08/24",
+      "query": "市府新聞"
+    },
     {
       "headline": "嘉義市藝文能量週末齊發音樂影視文學多元創作接力登場",
       "source": "嘉義市政府/文化局/觀光新聞處",
@@ -76,13 +83,6 @@
       "source": "嘉義市政府/西區公所",
       "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=950019",
       "date": "2026/08/22",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "旅宿減塑新選擇嘉遊減塑我+1",
-      "source": "嘉義市政府/嘉義市政府環境保護局/資源循環管理科",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=950027",
-      "date": "2026/08/21",
       "query": "市府新聞"
     }
   ],
@@ -198,7 +198,7 @@
       "2012": 1,
       "2013": 1
     },
-    "updated_at": "2026-08-24T06:46:21.576361",
+    "updated_at": "2026-08-24T12:39:05.623539",
     "source": "data.chiayi.gov.tw"
   },
   "council": {
@@ -233,31 +233,31 @@
   "citizen_stats": {},
   "social_posts": [
     {
-      "id": "ptt-httpswwwpttccbbsGossipingM1787553454A930html",
+      "id": "ptt-httpswwwpttccbbsGossipingM1787574451AB49html",
       "platform": "PTT",
       "platform_color": "#00b300",
       "board": "Gossiping",
       "date": "08/24",
       "author": "PTT 鄉民",
-      "title": "Re: [新聞] 台南淹水「清澈到見底」！畫面太驚人：",
-      "url": "https://www.ptt.cc/bbs/Gossiping/M.1787553454.A.930.html",
+      "title": "[問卦] 嚴重積水算不算類淹水?",
+      "url": "https://www.ptt.cc/bbs/Gossiping/M.1787574451.A.B49.html",
       "reactions": 0,
       "comments": 0,
       "category": "排水水利",
       "source": "ptt"
     },
     {
-      "id": "ptt-httpswwwpttccbbsGossipingM1787553296A38Dhtml",
+      "id": "ptt-httpswwwpttccbbsChiayiM1787561970AF9Chtml",
       "platform": "PTT",
       "platform_color": "#00b300",
-      "board": "Gossiping",
+      "board": "Chiayi",
       "date": "08/24",
       "author": "PTT 鄉民",
-      "title": "[新聞] 嘉義翁不滿鄰居噪音持槍殺人 判14年6月定",
-      "url": "https://www.ptt.cc/bbs/Gossiping/M.1787553296.A.38D.html",
+      "title": "[自介] 到府收納不會整理捨不得丟？我來幫你！",
+      "url": "https://www.ptt.cc/bbs/Chiayi/M.1787561970.A.F9C.html",
       "reactions": 0,
       "comments": 0,
-      "category": "環境衛生",
+      "category": "市政議題",
       "source": "ptt"
     },
     {
