@@ -1,6 +1,20 @@
 {
-  "updated_at": "2026-08-24T01:05:34.350316",
+  "updated_at": "2026-08-24T06:48:04.551930",
   "news": [
+    {
+      "headline": "嘉義市藝文能量週末齊發音樂影視文學多元創作接力登場",
+      "source": "嘉義市政府/文化局/觀光新聞處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=950159",
+      "date": "2026/08/24",
+      "query": "市府新聞"
+    },
+    {
+      "headline": "中臺灣副首長會議竹市登場林瑞彥：八縣市彼此接住、讓合作成為治理的力量",
+      "source": "嘉義市政府/企劃處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=950141",
+      "date": "2026/08/24",
+      "query": "市府新聞"
+    },
     {
       "headline": "中央承諾「講甲一畚箕，做無一湯匙」籲請中央主政興建高鐵聯外軌道建設還給嘉義交通平權",
       "source": "嘉義市政府/交通處/觀光新聞處",
@@ -68,20 +82,6 @@
       "headline": "旅宿減塑新選擇嘉遊減塑我+1",
       "source": "嘉義市政府/嘉義市政府環境保護局/資源循環管理科",
       "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=950027",
-      "date": "2026/08/21",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "17歲高中生把夢想變展覽《Between｜之間》用創作看見情緒",
-      "source": "嘉義市政府/文化局/觀光新聞處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=950024",
-      "date": "2026/08/21",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "嘉義沒有聯外軌道哪來好生活？籲中央信守承諾、補齊全台交通運輸關鍵拼圖",
-      "source": "嘉義市政府/交通處/觀光新聞處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=950017",
       "date": "2026/08/21",
       "query": "市府新聞"
     }
@@ -198,7 +198,7 @@
       "2012": 1,
       "2013": 1
     },
-    "updated_at": "2026-08-24T01:03:49.982538",
+    "updated_at": "2026-08-24T06:46:21.576361",
     "source": "data.chiayi.gov.tw"
   },
   "council": {
@@ -233,14 +233,56 @@
   "citizen_stats": {},
   "social_posts": [
     {
-      "id": "ptt-httpswwwpttccbbsGossipingM1787532758A82Bhtml",
+      "id": "ptt-httpswwwpttccbbsGossipingM1787553454A930html",
       "platform": "PTT",
       "platform_color": "#00b300",
       "board": "Gossiping",
       "date": "08/24",
       "author": "PTT 鄉民",
-      "title": "[問卦] 有沒有外勞直播南部淹水的八卦？",
-      "url": "https://www.ptt.cc/bbs/Gossiping/M.1787532758.A.82B.html",
+      "title": "Re: [新聞] 台南淹水「清澈到見底」！畫面太驚人：",
+      "url": "https://www.ptt.cc/bbs/Gossiping/M.1787553454.A.930.html",
+      "reactions": 0,
+      "comments": 0,
+      "category": "排水水利",
+      "source": "ptt"
+    },
+    {
+      "id": "ptt-httpswwwpttccbbsGossipingM1787553296A38Dhtml",
+      "platform": "PTT",
+      "platform_color": "#00b300",
+      "board": "Gossiping",
+      "date": "08/24",
+      "author": "PTT 鄉民",
+      "title": "[新聞] 嘉義翁不滿鄰居噪音持槍殺人 判14年6月定",
+      "url": "https://www.ptt.cc/bbs/Gossiping/M.1787553296.A.38D.html",
+      "reactions": 0,
+      "comments": 0,
+      "category": "環境衛生",
+      "source": "ptt"
+    },
+    {
+      "id": "ptt-httpswwwpttccbbsChiayiM1787549422A39Bhtml",
+      "platform": "PTT",
+      "platform_color": "#00b300",
+      "board": "Chiayi",
+      "date": "01/01",
+      "author": "PTT 鄉民",
+      "title": "Fw: [情報] 8月25日起 嘉義縣YouBike新增15個站點",
+      "url": "https://www.ptt.cc/bbs/Chiayi/M.1787549422.A.39B.html",
+      "reactions": 0,
+      "comments": 0,
+      "category": "市政議題",
+      "source": "ptt"
+    },
+    {
+      "id": "ptt-httpswwwpttccbbsChiayiM1787539113AE00html",
+      "platform": "PTT",
+      "platform_color": "#00b300",
+      "board": "Chiayi",
+      "date": "08/24",
+      "author": "PTT 鄉民",
+      "title": "[新聞] 嘉義縣豪雨假…網友狂讚縣長「今世最帥",
+      "url": "https://www.ptt.cc/bbs/Chiayi/M.1787539113.A.E00.html",
       "reactions": 0,
       "comments": 0,
       "category": "排水水利",
@@ -265,7 +307,7 @@
       "platform": "PTT",
       "platform_color": "#00b300",
       "board": "Chiayi",
-      "date": "08/23",
+      "date": "08/24",
       "author": "PTT 鄉民",
       "title": "[問題] 請問嘉義是否有做黃金的金工師傅在收學徒",
       "url": "https://www.ptt.cc/bbs/Chiayi/M.1787483120.A.99C.html",
@@ -353,48 +395,6 @@
       "author": "PTT 鄉民",
       "title": "[情報] 嘉義市跨越太平洋深化國際教育情誼 黃敏",
       "url": "https://www.ptt.cc/bbs/Chiayi/M.1787033518.A.5CD.html",
-      "reactions": 0,
-      "comments": 0,
-      "category": "市政議題",
-      "source": "ptt"
-    },
-    {
-      "id": "ptt-httpswwwpttccbbsChiayiM1786979407A742html",
-      "platform": "PTT",
-      "platform_color": "#00b300",
-      "board": "Chiayi",
-      "date": "08/23",
-      "author": "PTT 鄉民",
-      "title": "[徵求]買200公升左右二手冰箱",
-      "url": "https://www.ptt.cc/bbs/Chiayi/M.1786979407.A.742.html",
-      "reactions": 0,
-      "comments": 0,
-      "category": "市政議題",
-      "source": "ptt"
-    },
-    {
-      "id": "ptt-httpswwwpttccbbsChiayiM1786970375A127html",
-      "platform": "PTT",
-      "platform_color": "#00b300",
-      "board": "Chiayi",
-      "date": "08/23",
-      "author": "PTT 鄉民",
-      "title": "[新聞] 賴清德宣布明年普發1萬元　張啓楷批「灑",
-      "url": "https://www.ptt.cc/bbs/Chiayi/M.1786970375.A.127.html",
-      "reactions": 0,
-      "comments": 0,
-      "category": "市政議題",
-      "source": "ptt"
-    },
-    {
-      "id": "ptt-httpswwwpttccbbsChiayiM1786927800AF88html",
-      "platform": "PTT",
-      "platform_color": "#00b300",
-      "board": "Chiayi",
-      "date": "08/17",
-      "author": "PTT 鄉民",
-      "title": "[廣告] 園藝",
-      "url": "https://www.ptt.cc/bbs/Chiayi/M.1786927800.A.F88.html",
       "reactions": 0,
       "comments": 0,
       "category": "市政議題",
