@@ -1,19 +1,5 @@
 [
   {
-    "id": "ptt-httpswwwpttccbbsGossipingM1787574451AB49html",
-    "platform": "PTT",
-    "platform_color": "#00b300",
-    "board": "Gossiping",
-    "date": "08/24",
-    "author": "PTT 鄉民",
-    "title": "[問卦] 嚴重積水算不算類淹水?",
-    "url": "https://www.ptt.cc/bbs/Gossiping/M.1787574451.A.B49.html",
-    "reactions": 0,
-    "comments": 0,
-    "category": "排水水利",
-    "source": "ptt"
-  },
-  {
     "id": "ptt-httpswwwpttccbbsChiayiM1787561970AF9Chtml",
     "platform": "PTT",
     "platform_color": "#00b300",
@@ -84,20 +70,6 @@
     "source": "ptt"
   },
   {
-    "id": "ptt-httpswwwpttccbbsChiayiM1787461204AE52html",
-    "platform": "PTT",
-    "platform_color": "#00b300",
-    "board": "Chiayi",
-    "date": "08/23",
-    "author": "PTT 鄉民",
-    "title": "[買賣]  三井健身腳踏車",
-    "url": "https://www.ptt.cc/bbs/Chiayi/M.1787461204.A.E52.html",
-    "reactions": 0,
-    "comments": 0,
-    "category": "市政議題",
-    "source": "ptt"
-  },
-  {
     "id": "ptt-httpswwwpttccbbsChiayiM1787455029A2D4html",
     "platform": "PTT",
     "platform_color": "#00b300",
@@ -162,6 +134,34 @@
     "author": "PTT 鄉民",
     "title": "[情報] 嘉義市跨越太平洋深化國際教育情誼 黃敏",
     "url": "https://www.ptt.cc/bbs/Chiayi/M.1787033518.A.5CD.html",
+    "reactions": 0,
+    "comments": 0,
+    "category": "市政議題",
+    "source": "ptt"
+  },
+  {
+    "id": "ptt-httpswwwpttccbbsChiayiM1786979407A742html",
+    "platform": "PTT",
+    "platform_color": "#00b300",
+    "board": "Chiayi",
+    "date": "08/23",
+    "author": "PTT 鄉民",
+    "title": "[徵求]買200公升左右二手冰箱",
+    "url": "https://www.ptt.cc/bbs/Chiayi/M.1786979407.A.742.html",
+    "reactions": 0,
+    "comments": 0,
+    "category": "市政議題",
+    "source": "ptt"
+  },
+  {
+    "id": "ptt-httpswwwpttccbbsChiayiM1786970375A127html",
+    "platform": "PTT",
+    "platform_color": "#00b300",
+    "board": "Chiayi",
+    "date": "08/25",
+    "author": "PTT 鄉民",
+    "title": "[新聞] 賴清德宣布明年普發1萬元　張啓楷批「灑",
+    "url": "https://www.ptt.cc/bbs/Chiayi/M.1786970375.A.127.html",
     "reactions": 0,
     "comments": 0,
     "category": "市政議題",

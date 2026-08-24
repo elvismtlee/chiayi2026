@@ -1,16 +1,16 @@
 {
-  "updated_at": "2026-08-24T12:39:54.549941",
+  "updated_at": "2026-08-24T18:33:57.964357",
   "aqi_realtime": [
     {
       "station": "嘉義市（Open-Meteo 模型）",
-      "aqi": 6,
-      "pm25": 4.7,
-      "pm10": 4.7,
-      "o3": 24.0,
-      "no2": 47.1,
+      "aqi": 3,
+      "pm25": 2.3,
+      "pm10": 2.3,
+      "o3": 48.0,
+      "no2": 19.4,
       "status": "良好",
       "pollutant": "PM2.5",
-      "time": "2026-08-24T20:00",
+      "time": "2026-08-25T02:00",
       "source": "Open-Meteo"
     }
   ],
@@ -27,15 +27,15 @@
   "weather": [
     {
       "station": "嘉義市（Open-Meteo）",
-      "temp": "25.1",
-      "apparent_temp": "27.7",
-      "humidity": "88",
-      "rainfall": "4.8",
-      "wind_speed": "19.9",
-      "wind_dir": "153",
+      "temp": "24.7",
+      "apparent_temp": "28.1",
+      "humidity": "93",
+      "rainfall": "0.7",
+      "wind_speed": "16.3",
+      "wind_dir": "162",
       "cloud": "100",
-      "weather": "暴雨",
-      "time": "2026-08-24 20:30",
+      "weather": "陣雨",
+      "time": "2026-08-25 02:30",
       "source": "Open-Meteo"
     }
   ],
@@ -55,13 +55,6 @@
       "source": "Google新聞"
     },
     {
-      "title": "嘉義縣豪雨假…網友狂讚縣長「今世最帥男人」 嘉義市沒跟進掀熱議 - UDN",
-      "date": "Mon, 24 Aug 2026",
-      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9ic1c4ZGNCR1h5ejFwS284NmtJYU5ydUNXekNrWlhDejcwekFsTjN2dXRXS2hYTDBQOXoxRkwzc1cyRUluT3phMy1XckRzNVdv0gFWQVVfeXFMTks0cnp6RGdHTXdhNmhFU2tTR3Nob3hxcHVrQXFUOEtfMTA0Zm0yVDJCUnpROW92RnpJMDJzR3FGaVBFVkt4eEJ3ak8ydkc2aWtzNkRjR0E?oc=5",
-      "desc": "",
-      "source": "Google新聞"
-    },
-    {
       "title": "兩樣情! 嘉義縣週一停班課 嘉義市民眾購物節搶好康 - Yahoo新聞",
       "date": "Mon, 24 Aug 2026",
       "link": "https://news.google.com/rss/articles/CBMi0wJBVV95cUxORV9SWms4QjRFWjhERHFDWmVpZ1hvYVJwcDljZm5LWUdPMW1lWHRYTkh2bGtLZDBPaThhRnMtQWc3TEw0WUJ1SFdhbGhOUHB4bWZpS0ZwekVPZGtCMF9PcFh2SnFRVlBTUUxjOGtLMjB1VXRHeXEzdWI2V3BjTFZzTUthSENEa2dCbDA1cjVZT2ZjR0R0dFBFVjNXd0R5V0lJVlF2T0ozYURianVKZjR0QVhVV1I4ems4X0Z5ejFVUXRQTE1Zci0yQ2U2WXMwQVgxdXU0QnYxMVdJQkJCQ2VxWnVPNElJMEl0cmJkSFhMak53aGFaUHlWclducjFXMTVpSWluNTFyWExsR3RDVFhlTk9wMUhrMmdHQThQVUYzbC1QR0RGcm1xWjNCYURvanExWUwzSTU5bU4wZHJ3bHlJaDRlV29hOThMQ3dYcnZkOHRiSW8?oc=5",
@@ -69,16 +62,23 @@
       "source": "Google新聞"
     },
     {
-      "title": "嘉義輕軌卡關20個月 交通部長陳世凱指出嘉義市政府卡關 - 台灣新聞雲",
-      "date": "Mon, 24 Aug 2026",
-      "link": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE9ZbzNQamZoWmhidVRBaGNtNzIxejljclU0UFhtS2NLcko3M0s4SEx3bUd4bjhmUlBGMWlmS1BZTllqb09tNGxR?oc=5",
+      "title": "嘉義市政府第1256次市務會議紀錄 - chiayi.gov.tw",
+      "date": "Thu, 20 Aug 2026",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBsVDMtVVEyVW1oMF82Z1RHaUVZTFdPeV9fLTNhOVZrN3gtaGE5b2tUQ2htZmNfUVdXTVRFc3Z1WFJCWU5jRGl1OVVsSVUteXo4aEVhUGlJSjVNUXgzSlpOV1BGNnZDZTUtcVE?oc=5",
       "desc": "",
       "source": "Google新聞"
     },
     {
-      "title": "嘉義市政府第1256次市務會議紀錄 - chiayi.gov.tw",
-      "date": "Thu, 20 Aug 2026",
-      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBsVDMtVVEyVW1oMF82Z1RHaUVZTFdPeV9fLTNhOVZrN3gtaGE5b2tUQ2htZmNfUVdXTVRFc3Z1WFJCWU5jRGl1OVVsSVUteXo4aEVhUGlJSjVNUXgzSlpOV1BGNnZDZTUtcVE?oc=5",
+      "title": "嘉義市石綿清運補助至6月30日 請把握時間申請 - 嘉義市政府環境保護局",
+      "date": "Wed, 19 Aug 2026",
+      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE10bXloQS1BQkFBaXJ6RHVjRm81RHVkYWh4QUViYjVRVngtY0ZWZXY0NENxLVd3TVpnalowVkpGbEFMOWVoOVk0TjMteWd2ZmFFaFAwMjU4YlZsYTBJaS1IeHFabTVob3JidG9odWRHR2d0ZmV4SzFHVg?oc=5",
+      "desc": "",
+      "source": "Google新聞"
+    },
+    {
+      "title": "115年嘉義市弱勢族群能源效率改善計畫開跑囉 - 嘉義市政府環境保護局",
+      "date": "Wed, 19 Aug 2026",
+      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBjNUh2WTNFTnZOQVVuckZPUV9nRlhkSU9IUmxUd0Z4R0N5NUgyX2xtZmwwQkU3U0pzV2YxYnU2UDBhTkV3cFEzUnJFM2J3U212amxVNGZQWm41UUtSc3AzaV9RbUZWSXRIM2VMT3RLQTBuMkV2NXFyeA?oc=5",
       "desc": "",
       "source": "Google新聞"
     }
@@ -92,16 +92,9 @@
       "source": "Google新聞"
     },
     {
-      "title": "太猛！嘉義污水建設「5連霸」全國第一 設施營運再拿優等 - 台灣新聞雲報",
+      "title": "嘉義市污水建設再奪全國第一 締造五連霸佳績 - 社會新聞 - PChome Online 新聞 - PChome Online 新聞",
       "date": "Sun, 23 Aug 2026",
-      "link": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE1CaXRNV1BjdUZGRFZTLU42X3VDcXl2Y0xMRDBlc0VyZUZ5MlJ0Y09BLUluUE96VzUzQ29YWXpuMnhaQ1RjT0E?oc=5",
-      "org": "新聞資訊",
-      "source": "Google新聞"
-    },
-    {
-      "title": "嘉義市污水建設再奪全國第一 締造五連霸佳績 - 蕃新聞",
-      "date": "Sun, 23 Aug 2026",
-      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9lYjRucFBXZk5GZEJydGZ4SVJSTmpEMFNSbGtndHY1dWtHRXhhUVk3VmJOTkZwWUpCOGM4dW9pc1BGMExlMVNUaVQtRVhlYktwUGc?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNYTVvR3g5aDZUTVlkemk5b09KZlMtMEs3Tkh5RG1feWc5ZWhSV0laVU9BZ0VnbUhzUEhfUFVQMEpfUmx2SXF0UkRFUTV0bndCajh5d2lpVzA0UmlZay1naHBJWENJQ3pFdlo2cTJjbFNfbjVXaUdTcWtDTzg3eVNieXdlOWFPQlRtbjM2NkFBOA?oc=5",
       "org": "新聞資訊",
       "source": "Google新聞"
     },
@@ -120,9 +113,23 @@
       "source": "Google新聞"
     },
     {
-      "title": "嘉義市前瞻停車場建設再獲肯定 國家卓越建設獎勇奪3金1優質獎 - 樂聯網",
+      "title": "嘉市東門圓環施工改善疑挖到古城門遺構暫時停工- 生活 - 自由時報",
+      "date": "Wed, 12 Aug 2026",
+      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBvbGFmN1JTOEJLM19EYlpmSGFBUVJaVnVFVnQ2b0xhdjdGVkFIdHZzVjIxdm1mdWpBaXlEdUJ0UzBoSW5BYU1RR2JQUHdsM3BFM1V3Xy1BalV1d0hkQms3UWtKeHk?oc=5",
+      "org": "新聞資訊",
+      "source": "Google新聞"
+    },
+    {
+      "title": "嘉義市前瞻停車場建設 獲2026年國家卓越建設獎肯定 - 蕃新聞",
       "date": "Tue, 04 Aug 2026",
-      "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE1oZFoxUjh5MXJsenJGUHZZQjVWODVhbGpSdFR3Nk1FX1dIU3pJTG9hTE5XRW9nMjFjTUJuQ3VGZmVJY29ZRThrSFgxVQ?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1rRGxjYzU1LUtnaDZYNnVlbXdWU2NmX3dOc0lOZWdreFdTQXhFWG5oUVc4YzVOVzdyZGd1dE9jcm1wakd5LTJic0hZdDNnbVBPaVE?oc=5",
+      "org": "新聞資訊",
+      "source": "Google新聞"
+    },
+    {
+      "title": "嘉義市人本交通再獲肯定 「馬路好行」一口氣拿下3項工程獎 - 索引新聞",
+      "date": "Sun, 09 Aug 2026",
+      "link": "https://news.google.com/rss/articles/CBMiwAJBVV95cUxORUhLc3hnZkQ1ek1Yeko4R0lYekRXMXN6WWtmaExBa1dCR1U3TjlCazlHZmR1RmN4OTRmbXc0TG5zNDBTMDJfUnVVeFNVaENKWW5LQk03SHZaeElWVl9fZkNQNC1qUFd5M1BNb1UyX1VpREFqWENjdmlDaDl6TC1oTGZlX3VESS1YbnFUX2tkZGtRb0Z1YUpUQVh4U2VBdTdnYWR4eU5qNVdlb09TdlFnbHRfSncwejFGTHBpUEYtR2JTMnFoMTBGa1BObTJUcVB2VnNvZmdaNHQ3bW54MmQyaS1mUXlFVjFXX0g1NkpEV1c0d2Y4Nk05QUtQRm5tMEpPUzVEZkY5S1JNY29MYkM3dXQ5YkZGaENQaXdnLTFxREoxSVpFaV94NE81N3J0Rkd0RjdvcXlES1liTUxHZHFmVw?oc=5",
       "org": "新聞資訊",
       "source": "Google新聞"
     },
@@ -130,13 +137,6 @@
       "title": "嘉義市前瞻停車場建設勇奪國家卓越建設獎3金1優質 打造人本永續城市 - PChome Online 新聞",
       "date": "Tue, 04 Aug 2026",
       "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNQzNqdWpYVk05WTROSTJjSUJZTk8wQTB2bU15OE1xTWFUWXlyelNGU1YybWZUcFZwVHpnYzZ4amJCLW1rMVN2cV9MTzhoX3o1RnI4cWJZbENxZDZwZndmUUtLamdGZVRlVjVQbm5lX2ItRlpYeWZ3VUh4NTY5WWJyakYzUy1TSG43MHZTNlJOUQ?oc=5",
-      "org": "新聞資訊",
-      "source": "Google新聞"
-    },
-    {
-      "title": "嘉市東門圓環施工改善疑挖到古城門遺構暫時停工- 生活 - 自由時報",
-      "date": "Wed, 12 Aug 2026",
-      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBvbGFmN1JTOEJLM19EYlpmSGFBUVJaVnVFVnQ2b0xhdjdGVkFIdHZzVjIxdm1mdWpBaXlEdUJ0UzBoSW5BYU1RR2JQUHdsM3BFM1V3Xy1BalV1d0hkQms3UWtKeHk?oc=5",
       "org": "新聞資訊",
       "source": "Google新聞"
     }
@@ -246,7 +246,7 @@
       "lat": 23.481634,
       "lng": 120.453745,
       "total": 45,
-      "available": 18,
+      "available": 19,
       "addr": "中山路199號(對面)"
     },
     {
@@ -264,7 +264,7 @@
       "lat": 23.482663,
       "lng": 120.462988,
       "total": 25,
-      "available": 6,
+      "available": 8,
       "addr": "中山路2號(前)"
     },
     {
@@ -273,7 +273,7 @@
       "lat": 23.478707,
       "lng": 120.462594,
       "total": 38,
-      "available": 11,
+      "available": 10,
       "addr": "啟明路122號(前)"
     },
     {
@@ -282,7 +282,7 @@
       "lat": 23.477031,
       "lng": 120.465573,
       "total": 34,
-      "available": 10,
+      "available": 11,
       "addr": "大雅路二段738號(前)"
     },
     {
@@ -291,7 +291,7 @@
       "lat": 23.4798596,
       "lng": 120.4488291,
       "total": 20,
-      "available": 8,
+      "available": 4,
       "addr": "中山路306號"
     },
     {
@@ -300,7 +300,7 @@
       "lat": 23.47963,
       "lng": 120.44583,
       "total": 20,
-      "available": 15,
+      "available": 8,
       "addr": "中山路386號"
     },
     {
@@ -309,7 +309,7 @@
       "lat": 23.47917,
       "lng": 120.44186,
       "total": 99,
-      "available": 38,
+      "available": 74,
       "addr": "中山路524號"
     },
     {
@@ -318,7 +318,7 @@
       "lat": 23.47877,
       "lng": 120.44089,
       "total": 42,
-      "available": 2,
+      "available": 30,
       "addr": "中山路528號"
     },
     {
@@ -327,7 +327,7 @@
       "lat": 23.47283,
       "lng": 120.44029,
       "total": 5,
-      "available": 3,
+      "available": 1,
       "addr": "垂楊路575號"
     },
     {
@@ -345,7 +345,7 @@
       "lat": 23.4738724,
       "lng": 120.4493073,
       "total": 20,
-      "available": 16,
+      "available": 9,
       "addr": "垂楊路434號"
     },
     {
@@ -354,7 +354,7 @@
       "lat": 23.47918,
       "lng": 120.43182,
       "total": 15,
-      "available": 6,
+      "available": 5,
       "addr": "北港路278號"
     },
     {
@@ -381,7 +381,7 @@
       "lat": 23.48465,
       "lng": 120.43354,
       "total": 14,
-      "available": 8,
+      "available": 4,
       "addr": "友愛興達路口"
     },
     {
@@ -390,7 +390,7 @@
       "lat": 23.48931,
       "lng": 120.4361,
       "total": 15,
-      "available": 3,
+      "available": 6,
       "addr": "自由路298號"
     },
     {
@@ -399,7 +399,7 @@
       "lat": 23.49265,
       "lng": 120.43191,
       "total": 15,
-      "available": 10,
+      "available": 6,
       "addr": "自由路492號"
     },
     {
@@ -408,7 +408,7 @@
       "lat": 23.478941,
       "lng": 120.437805,
       "total": 23,
-      "available": 5,
+      "available": 4,
       "addr": "博愛路二段281號"
     },
     {
@@ -417,10 +417,10 @@
       "lat": 23.47165,
       "lng": 120.43119,
       "total": 15,
-      "available": 9,
+      "available": 5,
       "addr": "博愛路二段461號"
     }
   ],
   "water": [],
-  "fetch_seconds": 84.4
+  "fetch_seconds": 93.5
 }
