@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-25T06:42:43.394382",
+  "updated_at": "2026-08-25T12:45:07.007249",
   "news": [
     {
       "headline": "打破文學框架桃城文學盛夏營「繪本越獄」帶青年撕下標籤掌舵自我",
@@ -16,7 +16,7 @@
       "query": "市府新聞"
     },
     {
-      "headline": "嘉義市北社尾10米計畫道路開闢工程用地徵收案，自115年8月25日起公告30日，預訂於同年10月5日發放補償費",
+      "headline": "📢土地徵收公告與補償費發放通知",
       "source": "嘉義市政府/地政處/地用及重劃科",
       "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=950162",
       "date": "2026/08/25",
@@ -202,7 +202,7 @@
       "2012": 1,
       "2013": 1
     },
-    "updated_at": "2026-08-25T06:40:59.849902",
+    "updated_at": "2026-08-25T12:43:13.843392",
     "source": "data.chiayi.gov.tw"
   },
   "council": {
@@ -237,31 +237,17 @@
   "citizen_stats": {},
   "social_posts": [
     {
-      "id": "ptt-httpswwwpttccbbsGossipingM1787638974A9AFhtml",
+      "id": "ptt-httpswwwpttccbbsChiayiM1787658387A06Dhtml",
       "platform": "PTT",
       "platform_color": "#00b300",
-      "board": "Gossiping",
+      "board": "Chiayi",
       "date": "08/25",
       "author": "PTT 鄉民",
-      "title": "Re: [新聞] 南部治水預算比台北多還淹水？經部澄清：",
-      "url": "https://www.ptt.cc/bbs/Gossiping/M.1787638974.A.9AF.html",
+      "title": "[買賣] 洗衣機及其他出售",
+      "url": "https://www.ptt.cc/bbs/Chiayi/M.1787658387.A.06D.html",
       "reactions": 0,
       "comments": 0,
-      "category": "排水水利",
-      "source": "ptt"
-    },
-    {
-      "id": "ptt-httpswwwpttccbbsGossipingM1787638674A324html",
-      "platform": "PTT",
-      "platform_color": "#00b300",
-      "board": "Gossiping",
-      "date": "08/25",
-      "author": "PTT 鄉民",
-      "title": "Re: [新聞] 中南部淹水就罵 賴清德嘆「情何以堪」",
-      "url": "https://www.ptt.cc/bbs/Gossiping/M.1787638674.A.324.html",
-      "reactions": 0,
-      "comments": 0,
-      "category": "排水水利",
+      "category": "市政議題",
       "source": "ptt"
     },
     {
@@ -339,7 +325,7 @@
       "platform": "PTT",
       "platform_color": "#00b300",
       "board": "Chiayi",
-      "date": "08/24",
+      "date": "08/25",
       "author": "PTT 鄉民",
       "title": "[新聞] 蔣萬安週末各地跑 今到嘉義為民眾黨站台",
       "url": "https://www.ptt.cc/bbs/Chiayi/M.1787455029.A.2D4.html",
@@ -399,6 +385,20 @@
       "author": "PTT 鄉民",
       "title": "[情報] 嘉義市跨越太平洋深化國際教育情誼 黃敏",
       "url": "https://www.ptt.cc/bbs/Chiayi/M.1787033518.A.5CD.html",
+      "reactions": 0,
+      "comments": 0,
+      "category": "市政議題",
+      "source": "ptt"
+    },
+    {
+      "id": "ptt-httpswwwpttccbbsChiayiM1786979407A742html",
+      "platform": "PTT",
+      "platform_color": "#00b300",
+      "board": "Chiayi",
+      "date": "08/23",
+      "author": "PTT 鄉民",
+      "title": "[徵求]買200公升左右二手冰箱",
+      "url": "https://www.ptt.cc/bbs/Chiayi/M.1786979407.A.742.html",
       "reactions": 0,
       "comments": 0,
       "category": "市政議題",
