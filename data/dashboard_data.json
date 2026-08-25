@@ -1,6 +1,20 @@
 {
-  "updated_at": "2026-08-25T01:06:09.260308",
+  "updated_at": "2026-08-25T06:42:43.394382",
   "news": [
+    {
+      "headline": "打破文學框架桃城文學盛夏營「繪本越獄」帶青年撕下標籤掌舵自我",
+      "source": "嘉義市政府/文化局/觀光新聞處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=950221",
+      "date": "2026/08/25",
+      "query": "市府新聞"
+    },
+    {
+      "headline": "新加坡躍嘉義市外籍客第3！嘉市府連兩年赴星搶客27場商洽力拚「留嘉」",
+      "source": "嘉義市政府/觀光新聞處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=950211",
+      "date": "2026/08/25",
+      "query": "市府新聞"
+    },
     {
       "headline": "嘉義市北社尾10米計畫道路開闢工程用地徵收案，自115年8月25日起公告30日，預訂於同年10月5日發放補償費",
       "source": "嘉義市政府/地政處/地用及重劃科",
@@ -68,20 +82,6 @@
       "headline": "嘉市青少年暨親子三對三籃球賽熱血登場以球會友促進親子共融",
       "source": "嘉義市政府/社會處/觀光新聞處",
       "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=950105",
-      "date": "2026/08/22",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "99歲阿嬤秀太極！嘉義市運動嘉年華展現「勇壯」新活力",
-      "source": "嘉義市政府/教育處/觀光新聞處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=950104",
-      "date": "2026/08/22",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "腦齡逆轉不是夢！MIT博士曾文毅嘉義開講300市民齊聚解密護腦關鍵",
-      "source": "嘉義市政府/衛生局",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=949831",
       "date": "2026/08/22",
       "query": "市府新聞"
     }
@@ -202,7 +202,7 @@
       "2012": 1,
       "2013": 1
     },
-    "updated_at": "2026-08-25T01:01:18.183336",
+    "updated_at": "2026-08-25T06:40:59.849902",
     "source": "data.chiayi.gov.tw"
   },
   "council": {
@@ -237,14 +237,28 @@
   "citizen_stats": {},
   "social_posts": [
     {
-      "id": "ptt-httpswwwpttccbbsGossipingM1787619050AB53html",
+      "id": "ptt-httpswwwpttccbbsGossipingM1787638974A9AFhtml",
       "platform": "PTT",
       "platform_color": "#00b300",
       "board": "Gossiping",
       "date": "08/25",
       "author": "PTT 鄉民",
-      "title": "[問卦] 為啥南部淹水沒有抽水超人？",
-      "url": "https://www.ptt.cc/bbs/Gossiping/M.1787619050.A.B53.html",
+      "title": "Re: [新聞] 南部治水預算比台北多還淹水？經部澄清：",
+      "url": "https://www.ptt.cc/bbs/Gossiping/M.1787638974.A.9AF.html",
+      "reactions": 0,
+      "comments": 0,
+      "category": "排水水利",
+      "source": "ptt"
+    },
+    {
+      "id": "ptt-httpswwwpttccbbsGossipingM1787638674A324html",
+      "platform": "PTT",
+      "platform_color": "#00b300",
+      "board": "Gossiping",
+      "date": "08/25",
+      "author": "PTT 鄉民",
+      "title": "Re: [新聞] 中南部淹水就罵 賴清德嘆「情何以堪」",
+      "url": "https://www.ptt.cc/bbs/Gossiping/M.1787638674.A.324.html",
       "reactions": 0,
       "comments": 0,
       "category": "排水水利",
@@ -385,20 +399,6 @@
       "author": "PTT 鄉民",
       "title": "[情報] 嘉義市跨越太平洋深化國際教育情誼 黃敏",
       "url": "https://www.ptt.cc/bbs/Chiayi/M.1787033518.A.5CD.html",
-      "reactions": 0,
-      "comments": 0,
-      "category": "市政議題",
-      "source": "ptt"
-    },
-    {
-      "id": "ptt-httpswwwpttccbbsChiayiM1786979407A742html",
-      "platform": "PTT",
-      "platform_color": "#00b300",
-      "board": "Chiayi",
-      "date": "08/23",
-      "author": "PTT 鄉民",
-      "title": "[徵求]買200公升左右二手冰箱",
-      "url": "https://www.ptt.cc/bbs/Chiayi/M.1786979407.A.742.html",
       "reactions": 0,
       "comments": 0,
       "category": "市政議題",
