@@ -1,6 +1,13 @@
 {
-  "updated_at": "2026-08-24T18:35:31.491040",
+  "updated_at": "2026-08-25T01:06:09.260308",
   "news": [
+    {
+      "headline": "嘉義市北社尾10米計畫道路開闢工程用地徵收案，自115年8月25日起公告30日，預訂於同年10月5日發放補償費",
+      "source": "嘉義市政府/地政處/地用及重劃科",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=950162",
+      "date": "2026/08/25",
+      "query": "市府新聞"
+    },
     {
       "headline": "《諸羅百業》記錄職人故事TeamChiayi讓嘉義產業被看見",
       "source": "嘉義市政府/建設處/觀光新聞處",
@@ -75,13 +82,6 @@
       "headline": "腦齡逆轉不是夢！MIT博士曾文毅嘉義開講300市民齊聚解密護腦關鍵",
       "source": "嘉義市政府/衛生局",
       "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=949831",
-      "date": "2026/08/22",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "「幸福嘉義館」集結21家在地品牌，一起吃遍嘉義好味道",
-      "source": "嘉義市政府/西區公所",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=950019",
       "date": "2026/08/22",
       "query": "市府新聞"
     }
@@ -202,7 +202,7 @@
       "2012": 1,
       "2013": 1
     },
-    "updated_at": "2026-08-24T18:33:43.843032",
+    "updated_at": "2026-08-25T01:01:18.183336",
     "source": "data.chiayi.gov.tw"
   },
   "council": {
@@ -237,11 +237,25 @@
   "citizen_stats": {},
   "social_posts": [
     {
+      "id": "ptt-httpswwwpttccbbsGossipingM1787619050AB53html",
+      "platform": "PTT",
+      "platform_color": "#00b300",
+      "board": "Gossiping",
+      "date": "08/25",
+      "author": "PTT 鄉民",
+      "title": "[問卦] 為啥南部淹水沒有抽水超人？",
+      "url": "https://www.ptt.cc/bbs/Gossiping/M.1787619050.A.B53.html",
+      "reactions": 0,
+      "comments": 0,
+      "category": "排水水利",
+      "source": "ptt"
+    },
+    {
       "id": "ptt-httpswwwpttccbbsChiayiM1787561970AF9Chtml",
       "platform": "PTT",
       "platform_color": "#00b300",
       "board": "Chiayi",
-      "date": "08/24",
+      "date": "08/25",
       "author": "PTT 鄉民",
       "title": "[自介] 到府收納不會整理捨不得丟？我來幫你！",
       "url": "https://www.ptt.cc/bbs/Chiayi/M.1787561970.A.F9C.html",
@@ -339,7 +353,7 @@
       "platform": "PTT",
       "platform_color": "#00b300",
       "board": "Chiayi",
-      "date": "08/23",
+      "date": "08/25",
       "author": "PTT 鄉民",
       "title": "[問題] 請問買手機",
       "url": "https://www.ptt.cc/bbs/Chiayi/M.1787164762.A.88B.html",
@@ -385,20 +399,6 @@
       "author": "PTT 鄉民",
       "title": "[徵求]買200公升左右二手冰箱",
       "url": "https://www.ptt.cc/bbs/Chiayi/M.1786979407.A.742.html",
-      "reactions": 0,
-      "comments": 0,
-      "category": "市政議題",
-      "source": "ptt"
-    },
-    {
-      "id": "ptt-httpswwwpttccbbsChiayiM1786970375A127html",
-      "platform": "PTT",
-      "platform_color": "#00b300",
-      "board": "Chiayi",
-      "date": "08/25",
-      "author": "PTT 鄉民",
-      "title": "[新聞] 賴清德宣布明年普發1萬元　張啓楷批「灑",
-      "url": "https://www.ptt.cc/bbs/Chiayi/M.1786970375.A.127.html",
       "reactions": 0,
       "comments": 0,
       "category": "市政議題",
