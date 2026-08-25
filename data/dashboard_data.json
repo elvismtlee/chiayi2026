@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-25T12:45:07.007249",
+  "updated_at": "2026-08-25T18:37:34.906982",
   "news": [
     {
       "headline": "打破文學框架桃城文學盛夏營「繪本越獄」帶青年撕下標籤掌舵自我",
@@ -87,12 +87,12 @@
     }
   ],
   "complaint_stats": {
-    "total": 79452,
-    "record_count": 486,
+    "total": 79518,
+    "record_count": 552,
     "category_counts": {
       "公共安全": 38658,
       "交通停車": 7743,
-      "道路路平": 230,
+      "道路路平": 296,
       "環境衛生": 5,
       "行政服務": 6
     },
@@ -107,11 +107,11 @@
         "公有停車場": 38
       },
       "道路路平": {
-        "電力管線": 21,
-        "自來水管線": 28,
-        "市府工程": 2,
-        "道路施工": 2,
-        "電信管線": 5,
+        "電力管線": 46,
+        "自來水管線": 59,
+        "道路施工": 6,
+        "電信管線": 8,
+        "市府工程": 5,
         "橋梁設施": 172
       },
       "環境衛生": {
@@ -124,43 +124,43 @@
     "top_roads": [
       {
         "road": "東區嘉義",
-        "count": 14
+        "count": 19
       },
       {
         "road": "蘭潭水庫",
         "count": 12
       },
       {
-        "road": "親水公園",
+        "road": "東區太平村里新生路5",
         "count": 2
       },
       {
-        "road": "蘭潭水庫三信亭附近",
+        "road": "西區湖內村里健康十三",
         "count": 2
       },
       {
-        "road": "嘉義市中山路199號",
+        "road": "西區頭港村里育人路6",
         "count": 2
       },
       {
-        "road": "嘉義市山仔頂249-",
+        "road": "西區光路村里南京東街",
         "count": 2
       },
       {
-        "road": "西區保安村里自由路3",
-        "count": 1
+        "road": "西區湖內村里健康十街",
+        "count": 2
       },
       {
-        "road": "東區荖藤村里文化路8",
-        "count": 1
+        "road": "西區湖內村里湖美八路",
+        "count": 2
       },
       {
-        "road": "西區番社村里新榮路2",
-        "count": 1
+        "road": "西區紅瓦村里重慶六街",
+        "count": 2
       },
       {
-        "road": "東區太平村里博東路3",
-        "count": 1
+        "road": "西區湖內村里健康一街",
+        "count": 2
       }
     ],
     "top_categories": [
@@ -174,7 +174,7 @@
       },
       {
         "category": "道路路平",
-        "count": 230
+        "count": 296
       },
       {
         "category": "行政服務",
@@ -197,12 +197,12 @@
       "2022": 3112,
       "2023": 3318,
       "2024": 3270,
-      "2025": 8886,
-      "2026": 3543,
+      "2025": 8896,
+      "2026": 3599,
       "2012": 1,
       "2013": 1
     },
-    "updated_at": "2026-08-25T12:43:13.843392",
+    "updated_at": "2026-08-25T18:34:15.369404",
     "source": "data.chiayi.gov.tw"
   },
   "council": {
@@ -236,6 +236,34 @@
   },
   "citizen_stats": {},
   "social_posts": [
+    {
+      "id": "ptt-httpswwwpttccbbsChiayiM1787673299A390html",
+      "platform": "PTT",
+      "platform_color": "#00b300",
+      "board": "Chiayi",
+      "date": "08/25",
+      "author": "PTT 鄉民",
+      "title": "[問題] 關於老房子佈網路線",
+      "url": "https://www.ptt.cc/bbs/Chiayi/M.1787673299.A.390.html",
+      "reactions": 0,
+      "comments": 0,
+      "category": "市政議題",
+      "source": "ptt"
+    },
+    {
+      "id": "ptt-httpswwwpttccbbsChiayiM1787667665A316html",
+      "platform": "PTT",
+      "platform_color": "#00b300",
+      "board": "Chiayi",
+      "date": "08/26",
+      "author": "PTT 鄉民",
+      "title": "[買賣]  寵物的飼料跟南極磷蝦粉",
+      "url": "https://www.ptt.cc/bbs/Chiayi/M.1787667665.A.316.html",
+      "reactions": 0,
+      "comments": 0,
+      "category": "市政議題",
+      "source": "ptt"
+    },
     {
       "id": "ptt-httpswwwpttccbbsChiayiM1787658387A06Dhtml",
       "platform": "PTT",
@@ -371,34 +399,6 @@
       "author": "PTT 鄉民",
       "title": "[徵求] 氣炸鍋 ",
       "url": "https://www.ptt.cc/bbs/Chiayi/M.1787057092.A.8C6.html",
-      "reactions": 0,
-      "comments": 0,
-      "category": "市政議題",
-      "source": "ptt"
-    },
-    {
-      "id": "ptt-httpswwwpttccbbsChiayiM1787033518A5CDhtml",
-      "platform": "PTT",
-      "platform_color": "#00b300",
-      "board": "Chiayi",
-      "date": "08/19",
-      "author": "PTT 鄉民",
-      "title": "[情報] 嘉義市跨越太平洋深化國際教育情誼 黃敏",
-      "url": "https://www.ptt.cc/bbs/Chiayi/M.1787033518.A.5CD.html",
-      "reactions": 0,
-      "comments": 0,
-      "category": "市政議題",
-      "source": "ptt"
-    },
-    {
-      "id": "ptt-httpswwwpttccbbsChiayiM1786979407A742html",
-      "platform": "PTT",
-      "platform_color": "#00b300",
-      "board": "Chiayi",
-      "date": "08/23",
-      "author": "PTT 鄉民",
-      "title": "[徵求]買200公升左右二手冰箱",
-      "url": "https://www.ptt.cc/bbs/Chiayi/M.1786979407.A.742.html",
       "reactions": 0,
       "comments": 0,
       "category": "市政議題",
