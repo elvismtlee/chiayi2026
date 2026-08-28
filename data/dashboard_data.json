@@ -1,6 +1,27 @@
 {
-  "updated_at": "2026-08-27T21:41:20.594029",
+  "updated_at": "2026-08-28T08:47:28.580773",
   "news": [
+    {
+      "headline": "嘉義市辦理懸浮微粒物質災害應變演練，提升防災應變能力",
+      "source": "嘉義市政府/嘉義市政府環境保護局/環境品質管理科",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=950630",
+      "date": "2026/08/28",
+      "query": "市府新聞"
+    },
+    {
+      "headline": "用行動展現不老活力嘉義市「肌力全開運動會」勇壯族不畏風雨熱力登場",
+      "source": "嘉義市政府/衛生局/觀光新聞處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=950626",
+      "date": "2026/08/28",
+      "query": "市府新聞"
+    },
+    {
+      "headline": "「2026光織影舞」主視覺搶先曝光《小熊維尼》100週年主題打造溫暖療癒「光影森林」",
+      "source": "嘉義市政府/觀光新聞處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=950620",
+      "date": "2026/08/28",
+      "query": "市府新聞"
+    },
     {
       "headline": "嘉義市即日起受理【115年8月下旬豪雨】農業天然災害現金救助申請及低利貸款",
       "source": "嘉義市政府/建設處",
@@ -62,27 +83,6 @@
       "source": "嘉義市政府/民政處/觀光新聞處",
       "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=950447",
       "date": "2026/08/27",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "嘉義市西區第12屆里長候選人領表及登記期程",
-      "source": "嘉義市政府/西區公所",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=950432",
-      "date": "2026/08/27",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "嘉義市代表隊秀管樂、舞家將、東京大冒險！震撼南區活力SHOW",
-      "source": "嘉義市政府/衛生局",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=950209",
-      "date": "2026/08/26",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "嘉市辦理菸害防制法規講習聚焦電子煙、菸品廣告與無菸環境",
-      "source": "嘉義市政府/衛生局",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=949754",
-      "date": "2026/08/26",
       "query": "市府新聞"
     }
   ],
@@ -202,7 +202,7 @@
       "2012": 1,
       "2013": 1
     },
-    "updated_at": "2026-08-27T21:39:45.231278",
+    "updated_at": "2026-08-28T08:45:43.649014",
     "source": "data.chiayi.gov.tw"
   },
   "council": {
@@ -237,6 +237,20 @@
   "citizen_stats": {},
   "social_posts": [
     {
+      "id": "ptt-httpswwwpttccbbsChiayiM1787898975ADB1html",
+      "platform": "PTT",
+      "platform_color": "#00b300",
+      "board": "Chiayi",
+      "date": "08/28",
+      "author": "PTT 鄉民",
+      "title": "[贈送] 贈送棉被枕頭",
+      "url": "https://www.ptt.cc/bbs/Chiayi/M.1787898975.A.DB1.html",
+      "reactions": 0,
+      "comments": 0,
+      "category": "市政議題",
+      "source": "ptt"
+    },
+    {
       "id": "ptt-httpswwwpttccbbsChiayiM1787845690AFFFhtml",
       "platform": "PTT",
       "platform_color": "#00b300",
@@ -255,7 +269,7 @@
       "platform": "PTT",
       "platform_color": "#00b300",
       "board": "Chiayi",
-      "date": "08/27",
+      "date": "08/28",
       "author": "PTT 鄉民",
       "title": "[問題] 今天的自來水怪怪的",
       "url": "https://www.ptt.cc/bbs/Chiayi/M.1787827565.A.7CE.html",
@@ -297,7 +311,7 @@
       "platform": "PTT",
       "platform_color": "#00b300",
       "board": "Chiayi",
-      "date": "08/27",
+      "date": "08/28",
       "author": "PTT 鄉民",
       "title": "[新聞] 嘉義輕軌誰負責中央地方互批 陳世凱南下",
       "url": "https://www.ptt.cc/bbs/Chiayi/M.1787713136.A.608.html",
@@ -385,20 +399,6 @@
       "author": "PTT 鄉民",
       "title": "[情報] 嘉義縣宣布8/24停班停課",
       "url": "https://www.ptt.cc/bbs/Chiayi/M.1787501330.A.68A.html",
-      "reactions": 0,
-      "comments": 0,
-      "category": "市政議題",
-      "source": "ptt"
-    },
-    {
-      "id": "ptt-httpswwwpttccbbsChiayiM1787483120A99Chtml",
-      "platform": "PTT",
-      "platform_color": "#00b300",
-      "board": "Chiayi",
-      "date": "08/24",
-      "author": "PTT 鄉民",
-      "title": "[問題] 請問嘉義是否有做黃金的金工師傅在收學徒",
-      "url": "https://www.ptt.cc/bbs/Chiayi/M.1787483120.A.99C.html",
       "reactions": 0,
       "comments": 0,
       "category": "市政議題",
