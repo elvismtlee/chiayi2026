@@ -1,5 +1,19 @@
 [
   {
+    "id": "ptt-httpswwwpttccbbsGossipingM1787945596AAF3html",
+    "platform": "PTT",
+    "platform_color": "#00b300",
+    "board": "Gossiping",
+    "date": "08/29",
+    "author": "PTT 鄉民",
+    "title": "[問卦] 竹北市長位階是區長嗎",
+    "url": "https://www.ptt.cc/bbs/Gossiping/M.1787945596.A.AF3.html",
+    "reactions": 0,
+    "comments": 0,
+    "category": "市政議題",
+    "source": "ptt"
+  },
+  {
     "id": "ptt-httpswwwpttccbbsChiayiM1787898975ADB1html",
     "platform": "PTT",
     "platform_color": "#00b300",
@@ -32,7 +46,7 @@
     "platform": "PTT",
     "platform_color": "#00b300",
     "board": "Chiayi",
-    "date": "08/28",
+    "date": "08/29",
     "author": "PTT 鄉民",
     "title": "[問題] 今天的自來水怪怪的",
     "url": "https://www.ptt.cc/bbs/Chiayi/M.1787827565.A.7CE.html",
@@ -46,7 +60,7 @@
     "platform": "PTT",
     "platform_color": "#00b300",
     "board": "Chiayi",
-    "date": "08/28",
+    "date": "08/29",
     "author": "PTT 鄉民",
     "title": "[新聞] 賴清德不買「我們來買」！張啓楷採購5萬",
     "url": "https://www.ptt.cc/bbs/Chiayi/M.1787820603.A.EC2.html",
@@ -102,7 +116,7 @@
     "platform": "PTT",
     "platform_color": "#00b300",
     "board": "Chiayi",
-    "date": "08/27",
+    "date": "08/28",
     "author": "PTT 鄉民",
     "title": "[問題] 關於老房子佈網路線",
     "url": "https://www.ptt.cc/bbs/Chiayi/M.1787673299.A.390.html",
@@ -151,20 +165,6 @@
     "reactions": 0,
     "comments": 0,
     "category": "排水水利",
-    "source": "ptt"
-  },
-  {
-    "id": "ptt-httpswwwpttccbbsChiayiM1787501330A68Ahtml",
-    "platform": "PTT",
-    "platform_color": "#00b300",
-    "board": "Chiayi",
-    "date": "08/24",
-    "author": "PTT 鄉民",
-    "title": "[情報] 嘉義縣宣布8/24停班停課",
-    "url": "https://www.ptt.cc/bbs/Chiayi/M.1787501330.A.68A.html",
-    "reactions": 0,
-    "comments": 0,
-    "category": "市政議題",
     "source": "ptt"
   }
 ]
