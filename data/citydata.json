@@ -1,16 +1,16 @@
 {
-  "updated_at": "2026-08-28T21:45:27.484982",
+  "updated_at": "2026-08-29T05:22:05.608101",
   "aqi_realtime": [
     {
       "station": "嘉義市（Open-Meteo 模型）",
-      "aqi": 11,
-      "pm25": 8.2,
-      "pm10": 8.5,
-      "o3": 20.0,
-      "no2": 40.8,
+      "aqi": 12,
+      "pm25": 8.7,
+      "pm10": 9.4,
+      "o3": 126.0,
+      "no2": 8.4,
       "status": "良好",
       "pollutant": "PM2.5",
-      "time": "2026-08-29T05:00",
+      "time": "2026-08-29T13:00",
       "source": "Open-Meteo"
     }
   ],
@@ -43,27 +43,20 @@
       "date": "2026-08-25 07:00",
       "link": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tnbm",
       "mag": 5.5
-    },
-    {
-      "title": "規模 4.4・49 km SE of Yilan, Taiwan",
-      "desc": "深度 38 km",
-      "date": "2026-08-22 03:40",
-      "link": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tmqf",
-      "mag": 4.4
     }
   ],
   "weather": [
     {
       "station": "嘉義市（Open-Meteo）",
-      "temp": "24.9",
-      "apparent_temp": "28.3",
-      "humidity": "86",
-      "rainfall": "0.0",
-      "wind_speed": "11.8",
-      "wind_dir": "157",
-      "cloud": "15",
-      "weather": "晴",
-      "time": "2026-08-29 05:45",
+      "temp": "28.8",
+      "apparent_temp": "33.8",
+      "humidity": "83",
+      "rainfall": "3.4",
+      "wind_speed": "14.6",
+      "wind_dir": "209",
+      "cloud": "81",
+      "weather": "雷暴",
+      "time": "2026-08-29 13:15",
       "source": "Open-Meteo"
     }
   ],
@@ -77,15 +70,8 @@
     },
     {
       "title": "國內首出現「麻油」苯駢芘超標 台北市、嘉義市下架回收 - 公視新聞網PNN",
-      "date": "Fri, 28 Aug 2026",
+      "date": "Sat, 29 Aug 2026",
       "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBQUzR3dUQ3UHRldXdtSkdXQXhmZE5NNlFiRXNRYkdhc3AyNzNueG84ZW1GSUMtM3hJeFdvdlUzMWcxUzViRlVXYzFvX2dyRXM?oc=5",
-      "desc": "",
-      "source": "Google新聞"
-    },
-    {
-      "title": "嘉義市「2026光織影舞」 主視覺《小熊維尼》搶先曝光 - 台灣好新聞",
-      "date": "Fri, 28 Aug 2026",
-      "link": "https://news.google.com/rss/articles/CBMi3wJBVV95cUxQZm1WNUdqZEt2ZDlWY2Q3SEJ2QTJLSk5hUjJHTGdCRHNCSEh3MkxjRzliNk5ZbUNjZE5BMkpBUHdBQURZRVlpS05MWmI5Sk9RbmhkbVdNRGh3a01LLXpSZXJ1RWxQM21pT3A5OHRxM1pVY0JzMTh5RGlsRjUwYmltU2NjLXlFTUFMN0V2eU91TmRmSXB1cW5TemI3TnJfVV84ekxSdjItY2RrbVQwaEhETVRNdDdjcGt0UmpXT1hzUE5na2dIbHAtcmRudlBKdDFqNmQ2ZGZVZEdYUFAyZjBEbkxNVzRuNUI3ckhiVHFLbWtZYkxNRlo2elZ5SDhQUmNvVEVnMHFNREtkUUJReTBZa2RlU3VpRmJmYl95b09CUFlmSC10enhBWVplYTU0cnA4OVVVM0I0bTZfZjZYenhjaEZ6T1VtamRGdUJ4dzctSmwwWEpqRU10NHd2WmF0TDA?oc=5",
       "desc": "",
       "source": "Google新聞"
     },
@@ -97,16 +83,23 @@
       "source": "Google新聞"
     },
     {
-      "title": "嘉義市辦理懸浮微粒物質災害應變演練，提升防災應變能力 - chiayi.gov.tw",
-      "date": "Fri, 28 Aug 2026",
-      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE0taFJyYTd2bWFsZmxXQmJudW11QXFZS0Z4dGs4WnVzdWFjSlgyX0QzaFh1bjZHeHhER3JYa1BoTjUwd2ZiZ2EyR19IVVZZczRNa0NlZFNPQUhRVGliR2loclFDbVdlV3FsUWc?oc=5",
+      "title": "嘉義市「病主法」註記人數冠全台 打造尊嚴善終模範城 - 嘉義市政府衛生局",
+      "date": "Tue, 25 Aug 2026",
+      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5Xb25WdzJOZUh3QW5mMThBV2tocWRCM0VvbmxVNlluUkkxUWNEZXp2UTZFSWhQbndSZU5YUTl2Zi1mXzlOWTNhWXJZMDk2bGdMXzkwei10MUhfLXZULXg4Q1lGWGhFNVZHUnBrX2NLMA?oc=5",
       "desc": "",
       "source": "Google新聞"
     },
     {
-      "title": "嘉義市「病主法」註記人數冠全台 打造尊嚴善終模範城 - 嘉義市政府衛生局",
+      "title": "嘉義市環保局邀您一起自備減塑3寶享優惠 - 嘉義市政府環境保護局",
       "date": "Tue, 25 Aug 2026",
-      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5Xb25WdzJOZUh3QW5mMThBV2tocWRCM0VvbmxVNlluUkkxUWNEZXp2UTZFSWhQbndSZU5YUTl2Zi1mXzlOWTNhWXJZMDk2bGdMXzkwei10MUhfLXZULXg4Q1lGWGhFNVZHUnBrX2NLMA?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1vVlpoQi1BTnp3OXpLaGloM3hDUVREb3RLZDEtZ2xMYTYxUkZtaDByYW9wSWw1em9ockMwOVRubkJrSDBWRjlNSkhIc19PUTEtc1RqcG1obm5XMGZiZkdnTG0xRzRMRnJjVXlN?oc=5",
+      "desc": "",
+      "source": "Google新聞"
+    },
+    {
+      "title": "嘉義市辦理懸浮微粒物質災害應變演練，提升防災應變能力 - chiayi.gov.tw",
+      "date": "Fri, 28 Aug 2026",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE0taFJyYTd2bWFsZmxXQmJudW11QXFZS0Z4dGs4WnVzdWFjSlgyX0QzaFh1bjZHeHhER3JYa1BoTjUwd2ZiZ2EyR19IVVZZczRNa0NlZFNPQUhRVGliR2loclFDbVdlV3FsUWc?oc=5",
       "desc": "",
       "source": "Google新聞"
     }
@@ -172,7 +165,7 @@
   "disease": {
     "dengue": [],
     "enterovirus": [],
-    "updated": "2026-08-28"
+    "updated": "2026-08-29"
   },
   "fire": {
     "chiayi_datasets": [
@@ -450,5 +443,5 @@
     }
   ],
   "water": [],
-  "fetch_seconds": 120.0
+  "fetch_seconds": 88.6
 }
