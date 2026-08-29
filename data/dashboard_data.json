@@ -1,6 +1,48 @@
 {
-  "updated_at": "2026-08-29T05:23:34.242051",
+  "updated_at": "2026-08-29T12:16:49.161145",
   "news": [
+    {
+      "headline": "第18屆雲嘉地區傑出經理人獎揭曉黃敏惠市長肯定產業人才創新實力",
+      "source": "嘉義市政府/建設處/觀光新聞處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=950722",
+      "date": "2026/08/29",
+      "query": "市府新聞"
+    },
+    {
+      "headline": "嘉義市「肌力全開運動會」六大關卡「肌」戰體能活力滿載",
+      "source": "嘉義市政府/衛生局/觀光新聞處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=950721",
+      "date": "2026/08/29",
+      "query": "市府新聞"
+    },
+    {
+      "headline": "「文化＋1串」串起27處文化基地！石猴、企業攜手添亮點藝術走進街區與日常",
+      "source": "嘉義市政府/文化局/觀光新聞處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=950720",
+      "date": "2026/08/29",
+      "query": "市府新聞"
+    },
+    {
+      "headline": "僑平國小情緒小勇士勇闖心樂園小一新生踏出幸福學習第一步",
+      "source": "嘉義市政府/教育處/觀光新聞處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=950719",
+      "date": "2026/08/29",
+      "query": "市府新聞"
+    },
+    {
+      "headline": "崇文國小小芽精靈大冒險新生勇闖崇文新世界展開成長旅程",
+      "source": "嘉義市政府/教育處/觀光新聞處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=950717",
+      "date": "2026/08/29",
+      "query": "市府新聞"
+    },
+    {
+      "headline": "勇敢就是你的超能力！志航國小125位小一新生飛向GRIT王國",
+      "source": "嘉義市政府/教育處/觀光新聞處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=950716",
+      "date": "2026/08/29",
+      "query": "市府新聞"
+    },
     {
       "headline": "公園怎麼來的？從土地規劃開始認識公共空間",
       "source": "嘉義市政府/地政處/地用及重劃科",
@@ -40,48 +82,6 @@
       "headline": "嘉義市中央噴水圓環重開幕！交管資訊公開",
       "source": "嘉義市政府/警察局/觀光新聞處",
       "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=950493",
-      "date": "2026/08/27",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "嘉義市府與國稅局中元普渡同仁巧思祈平安",
-      "source": "嘉義市政府/觀光新聞處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=950490",
-      "date": "2026/08/27",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "從生命起點到樂齡健康嘉義市政府衛生局勇奪2026台灣永續行動獎1銀2銅",
-      "source": "嘉義市政府/衛生局",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=950476",
-      "date": "2026/08/27",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "2026台灣永續行動獎揭曉嘉義市勇奪17獎展現永續治理成果",
-      "source": "嘉義市政府/嘉義市政府環境保護局/綜合計畫科",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=950171",
-      "date": "2026/08/27",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "嘉市教育迎向AI新世代！黃敏惠市長勉教育夥伴傳承經驗「一起走過，更要一起向前」",
-      "source": "嘉義市政府/教育處/觀光新聞處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=950479",
-      "date": "2026/08/27",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "風雨延期熱度不減！「2026街舞首都」熱力落幕頂尖舞者齊聚嘉義尬舞",
-      "source": "嘉義市政府/文化局/觀光新聞處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=950467",
-      "date": "2026/08/27",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "蘭潭音樂噴泉8月28日復演大白熊陪你賞湖光水舞",
-      "source": "嘉義市政府/觀光新聞處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=950457",
       "date": "2026/08/27",
       "query": "市府新聞"
     }
@@ -202,7 +202,7 @@
       "2012": 1,
       "2013": 1
     },
-    "updated_at": "2026-08-29T05:21:53.173082",
+    "updated_at": "2026-08-29T12:14:19.954578",
     "source": "data.chiayi.gov.tw"
   },
   "council": {

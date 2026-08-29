@@ -1,16 +1,16 @@
 {
-  "updated_at": "2026-08-29T05:22:05.608101",
+  "updated_at": "2026-08-29T12:15:19.043560",
   "aqi_realtime": [
     {
       "station": "嘉義市（Open-Meteo 模型）",
-      "aqi": 12,
-      "pm25": 8.7,
-      "pm10": 9.4,
-      "o3": 126.0,
-      "no2": 8.4,
+      "aqi": 23,
+      "pm25": 16.4,
+      "pm10": 16.4,
+      "o3": 1.0,
+      "no2": 61.2,
       "status": "良好",
       "pollutant": "PM2.5",
-      "time": "2026-08-29T13:00",
+      "time": "2026-08-29T20:00",
       "source": "Open-Meteo"
     }
   ],
@@ -48,58 +48,58 @@
   "weather": [
     {
       "station": "嘉義市（Open-Meteo）",
-      "temp": "28.8",
-      "apparent_temp": "33.8",
-      "humidity": "83",
-      "rainfall": "3.4",
-      "wind_speed": "14.6",
-      "wind_dir": "209",
-      "cloud": "81",
-      "weather": "雷暴",
-      "time": "2026-08-29 13:15",
+      "temp": "26.5",
+      "apparent_temp": "31.6",
+      "humidity": "89",
+      "rainfall": "0.0",
+      "wind_speed": "9.0",
+      "wind_dir": "178",
+      "cloud": "100",
+      "weather": "陰天",
+      "time": "2026-08-29 20:15",
       "source": "Open-Meteo"
     }
   ],
   "announcements": [
     {
+      "title": "115年嘉義市弱勢族群能源效率改善計畫開跑囉 - 嘉義市政府環境保護局",
+      "date": "Sat, 29 Aug 2026",
+      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBjNUh2WTNFTnZOQVVuckZPUV9nRlhkSU9IUmxUd0Z4R0N5NUgyX2xtZmwwQkU3U0pzV2YxYnU2UDBhTkV3cFEzUnJFM2J3U212amxVNGZQWm41UUtSc3AzaV9RbUZWSXRIM2VMT3RLQTBuMkV2NXFyeA?oc=5",
+      "desc": "",
+      "source": "Google新聞"
+    },
+    {
+      "title": "「自備食器easy購」百店響應現折超有感，減廢吃美食還能抽大獎！ - 嘉義市政府環境保護局",
+      "date": "Sat, 29 Aug 2026",
+      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1lOXFmdHRUZ2lQVUtEeUF6aENiQXNFZkhMUXk0dU9sSHhUdVlFS2h2a3JDVlRpbzZNSFhTLUU4a2pod2h5T3ltaU9LQlJmem5GaGxMdWRPVS0yZTd3QVRDOFFtTW02QXhPX3FLeTRNMS1Qd3A0Ykp2UQ?oc=5",
+      "desc": "",
+      "source": "Google新聞"
+    },
+    {
+      "title": "勇敢就是你的超能力！志航國小125位小一新生飛向GRIT王國 - cna.com.tw",
+      "date": "Sat, 29 Aug 2026",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE41ZjJPZnQyQVRGVFczaHlTdWVpSGZaS1lQUUZPRHdvaExVdHhLUG5JRFFuZ2JZOVJIOTVDUF96R0E4UWpoUlVEZktlRUR2UDlaUFJrRVNB?oc=5",
+      "desc": "",
+      "source": "Google新聞"
+    },
+    {
+      "title": "嘉義市「肌力全開運動會」六大關卡「肌」戰體能 活力滿載 - chiayi.gov.tw",
+      "date": "Sat, 29 Aug 2026",
+      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBIdERRcEZVZFR5TVlENU1mZFRVZDhXYTU4R01GUDBYTHZodFR5N1Noa3hVdjJrWjR2X01GQXFFeG1Jc1RObFRoT3c4UEhab0lxOGF1dUFCcTQxbVUxTmtmNW1SQzRfcS1HQzV3NmE4NU4yLWZVaEE?oc=5",
+      "desc": "",
+      "source": "Google新聞"
+    },
+    {
+      "title": "僑平國小情緒小勇士勇闖心樂園 小一新生踏出幸福學習第一步 - chiayi.gov.tw",
+      "date": "Sat, 29 Aug 2026",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9hQ1MzM21HX1VuYlByQmM3M2g5S3dZSmdPVXdCa1otT1c5OUpldG92S1RVV2hVUmJFNHRGV2JGZUZoTWNJUUJ3dTk2SmNZOHpnaDV1d1liMnU2MG90TnVvcDFoeTRac0c4SVE?oc=5",
+      "desc": "",
+      "source": "Google新聞"
+    },
+    {
       "title": "出國報告 - chiayi.gov.tw",
       "date": "Tue, 25 Aug 2026",
       "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNcVo0RjhxY3NtekpiRmtSaDB4WFZueXdDa0xvZWFKdjNpN0xNSkpQWFRjY0RsVGpaUEZLZkhmSUVieFhZVWhrQlNRcUVsQ21ldldheENyc05WTkdwazE5YVhvMmRIZVFiYzIwcHV5aUJRR1lhRFN4cGh1WklHMEdCVXhTWTVJUEtCOFRrTFpqRWpHQQ?oc=5",
-      "desc": "",
-      "source": "Google新聞"
-    },
-    {
-      "title": "國內首出現「麻油」苯駢芘超標 台北市、嘉義市下架回收 - 公視新聞網PNN",
-      "date": "Sat, 29 Aug 2026",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBQUzR3dUQ3UHRldXdtSkdXQXhmZE5NNlFiRXNRYkdhc3AyNzNueG84ZW1GSUMtM3hJeFdvdlUzMWcxUzViRlVXYzFvX2dyRXM?oc=5",
-      "desc": "",
-      "source": "Google新聞"
-    },
-    {
-      "title": "嘉義市政府第1253次市務會議紀錄 - chiayi.gov.tw",
-      "date": "Mon, 24 Aug 2026",
-      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE45aGM3ZmRzZVh0NlQtTUJWUWY4Q2VBSWU5TU1aMnE5bGo3eW11TlY4YjRDNGJQeVpNNlExSkFacVVlQkJKenNydzFBWGlwUUVJd3Jiek92UEs4cjlFMWxQQ3lFU0pGNE1kTWc?oc=5",
-      "desc": "",
-      "source": "Google新聞"
-    },
-    {
-      "title": "嘉義市「病主法」註記人數冠全台 打造尊嚴善終模範城 - 嘉義市政府衛生局",
-      "date": "Tue, 25 Aug 2026",
-      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5Xb25WdzJOZUh3QW5mMThBV2tocWRCM0VvbmxVNlluUkkxUWNEZXp2UTZFSWhQbndSZU5YUTl2Zi1mXzlOWTNhWXJZMDk2bGdMXzkwei10MUhfLXZULXg4Q1lGWGhFNVZHUnBrX2NLMA?oc=5",
-      "desc": "",
-      "source": "Google新聞"
-    },
-    {
-      "title": "嘉義市環保局邀您一起自備減塑3寶享優惠 - 嘉義市政府環境保護局",
-      "date": "Tue, 25 Aug 2026",
-      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1vVlpoQi1BTnp3OXpLaGloM3hDUVREb3RLZDEtZ2xMYTYxUkZtaDByYW9wSWw1em9ockMwOVRubkJrSDBWRjlNSkhIc19PUTEtc1RqcG1obm5XMGZiZkdnTG0xRzRMRnJjVXlN?oc=5",
-      "desc": "",
-      "source": "Google新聞"
-    },
-    {
-      "title": "嘉義市辦理懸浮微粒物質災害應變演練，提升防災應變能力 - chiayi.gov.tw",
-      "date": "Fri, 28 Aug 2026",
-      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE0taFJyYTd2bWFsZmxXQmJudW11QXFZS0Z4dGs4WnVzdWFjSlgyX0QzaFh1bjZHeHhER3JYa1BoTjUwd2ZiZ2EyR19IVVZZczRNa0NlZFNPQUhRVGliR2loclFDbVdlV3FsUWc?oc=5",
       "desc": "",
       "source": "Google新聞"
     }
@@ -113,13 +113,6 @@
       "source": "Google新聞"
     },
     {
-      "title": "北社尾交通建設再推進！嘉市10米計畫道路徵收公告 10月5日發放補償費 - yesmedia.com.tw",
-      "date": "Tue, 25 Aug 2026",
-      "link": "https://news.google.com/rss/articles/CBMizgJBVV95cUxOMEVLdGRONDNwQXU0Y2hxQnFBQWMxeGc4enl5OW1abjJFSVFhMGc1ZEEwdFRaUGt2anhQWjlMN0hwNjFZSXgxSUZET3lQdXBLQlZGZkZqN0JNWVpFNE94QVpYQ3M2d3hweEV4a3ZnalcyX2s2NHZVUnBfeTV3Vkk5ckNJSUdHT1k2VHUxUFFRRkxNOXl3YUQ5c19aX0hBSWE1LTlqcXFDemcxZjU5OG10WnpjbFVxc0dHZ3lyZXFCNEtkaV9ibmtyY1kxLW94S2hST2N3YzBhX2RELTh4THNpNjNrV2lDY1pQZjNNRk1fel9wc3JXWUJNX2tueS1MVExrMmIyWGdUNEwwT0tyTmViNzl1NVJ2MmxWRWNMTDB2c3pyZjNSc3g4VHRuU2JkaktQYXNFbm1YZExnbGpWdGJVMzd6NlZBY2NHUEZpTlpn?oc=5",
-      "org": "新聞資訊",
-      "source": "Google新聞"
-    },
-    {
       "title": "嘉義市污水建設再奪全國第一 締造五連霸佳績 - 新頭條",
       "date": "Sun, 23 Aug 2026",
       "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBMYkdOb1FsQWdJQlJVSHU1eUVPaXJJaUpCX2lmTUJ1UFN5cndoekV5eFQ3Zk81bFo2MGNiT0xnZEUxajVmcWNfN1VqbThRQ2R1ODFpMQ?oc=5",
@@ -127,16 +120,16 @@
       "source": "Google新聞"
     },
     {
-      "title": "嘉義市污水建設再奪全國第一 締造五連霸佳績 - 蕃新聞",
-      "date": "Sun, 23 Aug 2026",
-      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9lYjRucFBXZk5GZEJydGZ4SVJSTmpEMFNSbGtndHY1dWtHRXhhUVk3VmJOTkZwWUpCOGM4dW9pc1BGMExlMVNUaVQtRVhlYktwUGc?oc=5",
+      "title": "嘉義市勇奪國家卓越建設獎3金1優質獎 打造人本永續城市新典範 | 熱門亮點 | 商情 - 經濟日報",
+      "date": "Wed, 05 Aug 2026",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9QSDdiLTFqeTNIbmZPQ2luNE9MbkFRdHBGRTIxVFJoa1pRaVBRRDhZT1YzUkdSMGktZGdvcFp6bmh3VThwVndhbVYzaEZSSmN5SlExamxNazA5QQ?oc=5",
       "org": "新聞資訊",
       "source": "Google新聞"
     },
     {
-      "title": "嘉義市勇奪國家卓越建設獎3金1優質獎 打造人本永續城市新典範 | 熱門亮點 | 商情 - 經濟日報",
-      "date": "Wed, 05 Aug 2026",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9QSDdiLTFqeTNIbmZPQ2luNE9MbkFRdHBGRTIxVFJoa1pRaVBRRDhZT1YzUkdSMGktZGdvcFp6bmh3VThwVndhbVYzaEZSSmN5SlExamxNazA5QQ?oc=5",
+      "title": "嘉義市污水建設再奪全國第一 締造五連霸佳績 - 蕃新聞",
+      "date": "Sun, 23 Aug 2026",
+      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9lYjRucFBXZk5GZEJydGZ4SVJSTmpEMFNSbGtndHY1dWtHRXhhUVk3VmJOTkZwWUpCOGM4dW9pc1BGMExlMVNUaVQtRVhlYktwUGc?oc=5",
       "org": "新聞資訊",
       "source": "Google新聞"
     },
@@ -151,6 +144,13 @@
       "title": "嘉市東門圓環施工改善疑挖到古城門遺構暫時停工- 生活 - 自由時報",
       "date": "Wed, 12 Aug 2026",
       "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBvbGFmN1JTOEJLM19EYlpmSGFBUVJaVnVFVnQ2b0xhdjdGVkFIdHZzVjIxdm1mdWpBaXlEdUJ0UzBoSW5BYU1RR2JQUHdsM3BFM1V3Xy1BalV1d0hkQms3UWtKeHk?oc=5",
+      "org": "新聞資訊",
+      "source": "Google新聞"
+    },
+    {
+      "title": "嘉義市人本交通再獲肯定 「馬路好行」一口氣拿下3項工程獎 - 索引新聞",
+      "date": "Sun, 09 Aug 2026",
+      "link": "https://news.google.com/rss/articles/CBMiwAJBVV95cUxORUhLc3hnZkQ1ek1Yeko4R0lYekRXMXN6WWtmaExBa1dCR1U3TjlCazlHZmR1RmN4OTRmbXc0TG5zNDBTMDJfUnVVeFNVaENKWW5LQk03SHZaeElWVl9fZkNQNC1qUFd5M1BNb1UyX1VpREFqWENjdmlDaDl6TC1oTGZlX3VESS1YbnFUX2tkZGtRb0Z1YUpUQVh4U2VBdTdnYWR4eU5qNVdlb09TdlFnbHRfSncwejFGTHBpUEYtR2JTMnFoMTBGa1BObTJUcVB2VnNvZmdaNHQ3bW54MmQyaS1mUXlFVjFXX0g1NkpEV1c0d2Y4Nk05QUtQRm5tMEpPUzVEZkY5S1JNY29MYkM3dXQ5YkZGaENQaXdnLTFxREoxSVpFaV94NE81N3J0Rkd0RjdvcXlES1liTUxHZHFmVw?oc=5",
       "org": "新聞資訊",
       "source": "Google新聞"
     },
@@ -443,5 +443,5 @@
     }
   ],
   "water": [],
-  "fetch_seconds": 88.6
+  "fetch_seconds": 90.1
 }
