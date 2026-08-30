@@ -1,16 +1,16 @@
 {
-  "updated_at": "2026-08-30T03:22:12.903744",
+  "updated_at": "2026-08-30T11:11:23.960049",
   "aqi_realtime": [
     {
       "station": "嘉義市（Open-Meteo 模型）",
-      "aqi": 16,
-      "pm25": 11.5,
-      "pm10": 12.0,
-      "o3": 94.0,
-      "no2": 17.7,
+      "aqi": 15,
+      "pm25": 11.0,
+      "pm10": 11.9,
+      "o3": 36.0,
+      "no2": 41.3,
       "status": "良好",
       "pollutant": "PM2.5",
-      "time": "2026-08-30T11:00",
+      "time": "2026-08-30T19:00",
       "source": "Open-Meteo"
     }
   ],
@@ -48,23 +48,44 @@
   "weather": [
     {
       "station": "嘉義市（Open-Meteo）",
-      "temp": "28.0",
-      "apparent_temp": "34.5",
-      "humidity": "87",
-      "rainfall": "1.6",
-      "wind_speed": "4.6",
-      "wind_dir": "198",
-      "cloud": "97",
-      "weather": "雷暴",
-      "time": "2026-08-30 11:15",
+      "temp": "26.8",
+      "apparent_temp": "33.0",
+      "humidity": "90",
+      "rainfall": "0.0",
+      "wind_speed": "3.4",
+      "wind_dir": "115",
+      "cloud": "94",
+      "weather": "陰天",
+      "time": "2026-08-30 19:00",
       "source": "Open-Meteo"
     }
   ],
   "announcements": [
     {
+      "title": "黃敏惠市長視察崇文國小地下停車場工程 打造安全通學與校園共融新地標 - chiayi.gov.tw",
+      "date": "Sun, 30 Aug 2026",
+      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE8wdXB0Rk1xS0FOMTNtRnM2TG1HYTN5S29hSTBuSWFwN25STkl4VU5FZzFsemM3NkFxM19rUW1WcXJEMWRkZHpacDJ0dFdFMERxbEpXLThoMDZueWtkRFhzQWtvNnNQRHZDam96czRRWHZwRHREV0E?oc=5",
+      "desc": "",
+      "source": "Google新聞"
+    },
+    {
+      "title": "嘉義市中心停車場熬過19次流標 崇文國小207席車位10月啟用 - UDN",
+      "date": "Sun, 30 Aug 2026",
+      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1WdlNITmlnM2w5eGp2RDRGVHE2UHF0LXBKSFp2T3NNaGg0aF9lWkprTkgxTXFpYjRJaENDTTh1b1kzaWdKVDJ1QjFRdF93b3c30gFWQVVfeXFMTkk1eDZZRURJSm9IQzVWNkQzaFduUHN1Yk9iazdNQTFDcEdLT1daNXdxNy0ySmw2VExUT01faEw2akRYV3VLQVktOWw2YjdNS2ZzS2g2dEE?oc=5",
+      "desc": "",
+      "source": "Google新聞"
+    },
+    {
       "title": "115年嘉義市弱勢族群能源效率改善計畫開跑囉 - 嘉義市政府環境保護局",
       "date": "Sat, 29 Aug 2026",
       "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBjNUh2WTNFTnZOQVVuckZPUV9nRlhkSU9IUmxUd0Z4R0N5NUgyX2xtZmwwQkU3U0pzV2YxYnU2UDBhTkV3cFEzUnJFM2J3U212amxVNGZQWm41UUtSc3AzaV9RbUZWSXRIM2VMT3RLQTBuMkV2NXFyeA?oc=5",
+      "desc": "",
+      "source": "Google新聞"
+    },
+    {
+      "title": "手刀要快！嘉義市古蹟日「馬嘻・搜遊」 9/1全活動報名開跑 - 墨新聞-MORE News",
+      "date": "Sun, 30 Aug 2026",
+      "link": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE5DX3JUcVBvS1JPRUYwSVNaSW1JOGF4NFZVMkR1V0J2VGZBc2lRWTZGRDBIdVJTcm96MFpmYmJGMVJOUQ?oc=5",
       "desc": "",
       "source": "Google新聞"
     },
@@ -76,30 +97,9 @@
       "source": "Google新聞"
     },
     {
-      "title": "第18屆雲嘉地區傑出經理人獎揭曉 嘉市3位獲獎 - 大纪元",
-      "date": "Sat, 29 Aug 2026",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE41bm1aUVFfY1VZbDhqaFJ0UmgxZzZaWlJuNy0xcjRDYUNLVmpBSldqLUt1RzdKdnBwQk82Z2Z5dFdCYkk1MWFLNW1kQ0Z5QTZ3bWZwWE4yT2dXaGQzWjBoTtIBZkFVX3lxTE0zRkwyYk15ajFGeDE5THNWMUNOcVFyQ04wTUJ1QkRaSGtXZFBzU0J4Qy0wQldKNldHRWdRT0lTYm9tNXVVV2lMMXA0VlE4N05Eb084ODdidkRkbERhdk83ZmxGS0FYZw?oc=5",
-      "desc": "",
-      "source": "Google新聞"
-    },
-    {
       "title": "嘉義市政府衛生局「健康知識+」【「瘦瘦針真的適合每個人嗎？從減重談代謝症候群防治」】 - 嘉義市政府衛生局",
       "date": "Sat, 29 Aug 2026",
       "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPalNfYVlQN2U2cDV4Z2Z3WERjQkEybEhCSVlmOWM4OFVBTUlXdVBzbUtGS0dnYUdhM3pOSmZjbUYtZlJ3NzdRRm4tZmdUVXNuaWFEQzMwMERSYS1oQmprR1MwYzFmQzNCRjM5dmZDZXJGRXk1bXNBQ1RZQmtNUW8wVEl5dUE?oc=5",
-      "desc": "",
-      "source": "Google新聞"
-    },
-    {
-      "title": "「自備食器easy購」百店響應現折超有感，減廢吃美食還能抽大獎！ - 嘉義市政府環境保護局",
-      "date": "Sat, 29 Aug 2026",
-      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1lOXFmdHRUZ2lQVUtEeUF6aENiQXNFZkhMUXk0dU9sSHhUdVlFS2h2a3JDVlRpbzZNSFhTLUU4a2pod2h5T3ltaU9LQlJmem5GaGxMdWRPVS0yZTd3QVRDOFFtTW02QXhPX3FLeTRNMS1Qd3A0Ykp2UQ?oc=5",
-      "desc": "",
-      "source": "Google新聞"
-    },
-    {
-      "title": "嘉義市「肌力全開運動會」六大關卡「肌」戰體能 活力滿載 - chiayi.gov.tw",
-      "date": "Sat, 29 Aug 2026",
-      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBIdERRcEZVZFR5TVlENU1mZFRVZDhXYTU4R01GUDBYTHZodFR5N1Noa3hVdjJrWjR2X01GQXFFeG1Jc1RObFRoT3c4UEhab0lxOGF1dUFCcTQxbVUxTmtmNW1SQzRfcS1HQzV3NmE4NU4yLWZVaEE?oc=5",
       "desc": "",
       "source": "Google新聞"
     }
@@ -109,13 +109,6 @@
       "title": "嘉義市全國污水評鑑再奪第三組第1名！締造五連霸佳績 - 三星傳媒",
       "date": "Mon, 24 Aug 2026",
       "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1Nclg3ZEQ1ZTBUcFZvM1ZoQ1RHZE1mdzc3SHcwUjRoZjV2aEZZYWk0U20wWjR3SkppTGFuUlBJZkE4ZzdabnlJN21pS2hTLXNMMGZ3NUp5UHJPT3dQUUwwWDN3?oc=5",
-      "org": "新聞資訊",
-      "source": "Google新聞"
-    },
-    {
-      "title": "北社尾交通建設再推進！嘉市10米計畫道路徵收公告 10月5日發放補償費 - yesmedia.com.tw",
-      "date": "Tue, 25 Aug 2026",
-      "link": "https://news.google.com/rss/articles/CBMizgJBVV95cUxOMEVLdGRONDNwQXU0Y2hxQnFBQWMxeGc4enl5OW1abjJFSVFhMGc1ZEEwdFRaUGt2anhQWjlMN0hwNjFZSXgxSUZET3lQdXBLQlZGZkZqN0JNWVpFNE94QVpYQ3M2d3hweEV4a3ZnalcyX2s2NHZVUnBfeTV3Vkk5ckNJSUdHT1k2VHUxUFFRRkxNOXl3YUQ5c19aX0hBSWE1LTlqcXFDemcxZjU5OG10WnpjbFVxc0dHZ3lyZXFCNEtkaV9ibmtyY1kxLW94S2hST2N3YzBhX2RELTh4THNpNjNrV2lDY1pQZjNNRk1fel9wc3JXWUJNX2tueS1MVExrMmIyWGdUNEwwT0tyTmViNzl1NVJ2MmxWRWNMTDB2c3pyZjNSc3g4VHRuU2JkaktQYXNFbm1YZExnbGpWdGJVMzd6NlZBY2NHUEZpTlpn?oc=5",
       "org": "新聞資訊",
       "source": "Google新聞"
     },
@@ -141,9 +134,9 @@
       "source": "Google新聞"
     },
     {
-      "title": "嘉義市污水建設再奪全國第一 締造五連霸佳績 - 蕃新聞",
-      "date": "Sun, 23 Aug 2026",
-      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9lYjRucFBXZk5GZEJydGZ4SVJSTmpEMFNSbGtndHY1dWtHRXhhUVk3VmJOTkZwWUpCOGM4dW9pc1BGMExlMVNUaVQtRVhlYktwUGc?oc=5",
+      "title": "嘉義市前瞻停車場建設 獲2026年國家卓越建設獎肯定 - 蕃新聞",
+      "date": "Tue, 04 Aug 2026",
+      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1rRGxjYzU1LUtnaDZYNnVlbXdWU2NmX3dOc0lOZWdreFdTQXhFWG5oUVc4YzVOVzdyZGd1dE9jcm1wakd5LTJic0hZdDNnbVBPaVE?oc=5",
       "org": "新聞資訊",
       "source": "Google新聞"
     },
@@ -155,9 +148,16 @@
       "source": "Google新聞"
     },
     {
-      "title": "嘉義市前瞻停車場建設 獲2026年國家卓越建設獎肯定 - 台灣好新聞",
+      "title": "嘉義市污水建設再奪全國第一 締造五連霸佳績 - 社會新聞 - PChome Online 新聞 - PChome Online 新聞",
+      "date": "Sun, 23 Aug 2026",
+      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNYTVvR3g5aDZUTVlkemk5b09KZlMtMEs3Tkh5RG1feWc5ZWhSV0laVU9BZ0VnbUhzUEhfUFVQMEpfUmx2SXF0UkRFUTV0bndCajh5d2lpVzA0UmlZay1naHBJWENJQ3pFdlo2cTJjbFNfbjVXaUdTcWtDTzg3eVNieXdlOWFPQlRtbjM2NkFBOA?oc=5",
+      "org": "新聞資訊",
+      "source": "Google新聞"
+    },
+    {
+      "title": "嘉義市前瞻停車場建設勇奪國家卓越建設獎3金1優質 打造人本永續城市 - 蕃新聞",
       "date": "Tue, 04 Aug 2026",
-      "link": "https://news.google.com/rss/articles/CBMi-gJBVV95cUxOMGFsbzhXVEwzQUhNSmgyQXBNYkhjU1BSY1VkSkQ5X2N5OGlEa1ZpUl9jM1E1UXhXb0FiOEVKcGxlcjl2R01mVGxFbmRoZHZBdVpQam1Oa18tTi1RcTBibEdXdjhRNnMyNndlTF9PdUVQZVY3TmdfMWdIa0I5bGYwWGVtdGVnZnUyLUVPYURUaVlTekVxT0RnMFFmSGY3Umt6UnZHTVFUWlVydDFMeldjWENBVXc1UTl5UHEtb2s3eFc2UUt0b1lkVENKSTRtdXlsVk45bzV4aGluVEM4enhCZ0hFMTA0MHZISXJCRTVuY3RLOGxicjR1SWhOS2tQRnNnMS10UWhqTFMtNWlQWUFpVllxTEd0WVBFVm4zV3dKckFaOTJDeklnUUM0ZEE5UG9NMVBkWGVsekNwZ1JBNjFVY2JRNnRoUjF1ZFFHSE1xUG1fTG1UZndmM0VEMlJJUDllNlF2bHNVYm4wU2tqQnkybUVNZzQyb2dob2c?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9tUmVkTTBucnN4ZWNOTHdBdXFxMDFjTDJNbm15UV9iZ212MmRSallWX2NiLTRJeXdxbmRSMnBOc2U3SF96Z2dCcUhRZC1yb2FINEE?oc=5",
       "org": "新聞資訊",
       "source": "Google新聞"
     }
@@ -443,5 +443,5 @@
     }
   ],
   "water": [],
-  "fetch_seconds": 131.0
+  "fetch_seconds": 94.3
 }
