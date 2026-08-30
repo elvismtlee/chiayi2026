@@ -1,51 +1,20 @@
 {
-  "updated_at": "2026-08-30T16:00:16.771311",
+  "updated_at": "2026-08-30T20:28:31.518043",
   "aqi_realtime": [
     {
-      "station": "",
-      "aqi": 0,
-      "pm25": 0.0,
-      "pm10": 0.0,
-      "o3": 0.0,
-      "no2": 0.0,
-      "status": "",
-      "pollutant": "",
-      "time": "2026-08-30 22:00",
-      "source": "環境部"
-    },
-    {
-      "station": "",
-      "aqi": 0,
-      "pm25": 0.0,
-      "pm10": 0.0,
-      "o3": 0.0,
-      "no2": 0.0,
-      "status": "",
-      "pollutant": "",
-      "time": "2026-08-30 22:00",
-      "source": "環境部"
-    },
-    {
-      "station": "",
-      "aqi": 0,
-      "pm25": 0.0,
-      "pm10": 0.0,
-      "o3": 0.0,
-      "no2": 0.0,
-      "status": "",
-      "pollutant": "",
-      "time": "2026-08-30 22:00",
-      "source": "環境部"
+      "station": "嘉義市（Open-Meteo 模型）",
+      "aqi": 12,
+      "pm25": 9.1,
+      "pm10": 9.1,
+      "o3": 10.0,
+      "no2": 29.6,
+      "status": "良好",
+      "pollutant": "PM2.5",
+      "time": "2026-08-31T04:00",
+      "source": "Open-Meteo"
     }
   ],
-  "aqi_history": [
-    {
-      "month": "",
-      "aqi": 0.0,
-      "pm25": 0.0,
-      "station": "嘉義"
-    }
-  ],
+  "aqi_history": [],
   "earthquake": [
     {
       "title": "規模 4.4・39 km W of Hengchun, Taiwan",
@@ -79,15 +48,15 @@
   "weather": [
     {
       "station": "嘉義市（Open-Meteo）",
-      "temp": "24.9",
-      "apparent_temp": "30.3",
-      "humidity": "93",
+      "temp": "24.5",
+      "apparent_temp": "29.8",
+      "humidity": "95",
       "rainfall": "0.0",
-      "wind_speed": "3.2",
-      "wind_dir": "90",
-      "cloud": "100",
+      "wind_speed": "3.7",
+      "wind_dir": "67",
+      "cloud": "99",
       "weather": "陰天",
-      "time": "2026-08-31 00:00",
+      "time": "2026-08-31 04:15",
       "source": "Open-Meteo"
     }
   ],
@@ -100,9 +69,9 @@
       "source": "Google新聞"
     },
     {
-      "title": "手刀要快！嘉義市古蹟日「馬嘻・搜遊」 9/1全活動報名開跑 - 墨新聞-MORE News",
+      "title": "嘉義市2026光織影舞搶先看 小熊維尼陪伴一起過中秋 - 城市學",
       "date": "Sun, 30 Aug 2026",
-      "link": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE5DX3JUcVBvS1JPRUYwSVNaSW1JOGF4NFZVMkR1V0J2VGZBc2lRWTZGRDBIdVJTcm96MFpmYmJGMVJOUQ?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNbFl1ei12a1hLMHVpMF9UVUZtVmVIUV9vNF9ma3U1MDBONWJyZWwwdnFSOXB5WGY3SVRmZ01wUzlERjZZTjB0eEllTEF0WVJQamNRX25nQTVGZ09MVE5JYmd2bER3X2xlQ2RxMm4wM3NlbXh2aXk0UHQxVVF2X0J0NjZ6MnIwbUdWVlMxY0h5NXlOT3lxcHc?oc=5",
       "desc": "",
       "source": "Google新聞"
     },
@@ -114,9 +83,9 @@
       "source": "Google新聞"
     },
     {
-      "title": "從生命起點到樂齡健康 嘉義市政府衛生局勇奪2026台灣永續行動獎1銀2銅 - 嘉義市政府衛生局",
+      "title": "「自備食器easy購」百店響應現折超有感，減廢吃美食還能抽大獎！ - 嘉義市政府環境保護局",
       "date": "Sat, 29 Aug 2026",
-      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBzbk9ZNXdGVURRa2p2cTZUSkFDMkxvZjFZYUlTUGFzU2VmTHpfMllaelhSVzlPSWFnOHlzSC14T0otcWR5d3RIVXpsQ0ZNc21wUXh6cWlWMHc3OWxneEo3Y2JKQmhDSzZ1cWs3QjZvSjFYRTNTbG1Ydkhna3I?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1lOXFmdHRUZ2lQVUtEeUF6aENiQXNFZkhMUXk0dU9sSHhUdVlFS2h2a3JDVlRpbzZNSFhTLUU4a2pod2h5T3ltaU9LQlJmem5GaGxMdWRPVS0yZTd3QVRDOFFtTW02QXhPX3FLeTRNMS1Qd3A0Ykp2UQ?oc=5",
       "desc": "",
       "source": "Google新聞"
     },
@@ -128,9 +97,9 @@
       "source": "Google新聞"
     },
     {
-      "title": "「自備食器easy購」百店響應現折超有感，減廢吃美食還能抽大獎！ - 嘉義市政府環境保護局",
-      "date": "Sat, 29 Aug 2026",
-      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1lOXFmdHRUZ2lQVUtEeUF6aENiQXNFZkhMUXk0dU9sSHhUdVlFS2h2a3JDVlRpbzZNSFhTLUU4a2pod2h5T3ltaU9LQlJmem5GaGxMdWRPVS0yZTd3QVRDOFFtTW02QXhPX3FLeTRNMS1Qd3A0Ykp2UQ?oc=5",
+      "title": "嘉義市黃敏惠市長啟動物資韌性應變計畫穩物價、設28處二手袋取用點推環保 - 嘉義市政府環境保護局",
+      "date": "Fri, 28 Aug 2026",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9DaTM4bGY2TlBNOE96LVkwbTVLcFBHNkVuY1lxNTM4N3Qwa2F5Y21ReFR4U3lKRFFmYjRhQlNLbklvdk1BcmU1OUVQQnZsR0hZX2duTUVUeFlSa29HNVA5ZDBDbi1TQWcxNEpr?oc=5",
       "desc": "",
       "source": "Google新聞"
     }
@@ -151,6 +120,13 @@
       "source": "Google新聞"
     },
     {
+      "title": "嘉義市污水建設再奪全國第一 締造五連霸佳績 - 社會新聞 - PChome Online 新聞 - PChome Online 新聞",
+      "date": "Sun, 23 Aug 2026",
+      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNYTVvR3g5aDZUTVlkemk5b09KZlMtMEs3Tkh5RG1feWc5ZWhSV0laVU9BZ0VnbUhzUEhfUFVQMEpfUmx2SXF0UkRFUTV0bndCajh5d2lpVzA0UmlZay1naHBJWENJQ3pFdlo2cTJjbFNfbjVXaUdTcWtDTzg3eVNieXdlOWFPQlRtbjM2NkFBOA?oc=5",
+      "org": "新聞資訊",
+      "source": "Google新聞"
+    },
+    {
       "title": "嘉義市前瞻停車場建設再獲肯定 國家卓越建設獎勇奪3金1優質獎 - cna.com.tw",
       "date": "Tue, 04 Aug 2026",
       "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5zbUtScWlFdUltUUdmZFpVSDFGbTBvTnpWRzZjY193Wjg1dFZVaF9rdmhGemxXbUtFVmQ1ZDkyN2ViejRQaHJ0T3BLdzFlU0ozRzZSNEZR?oc=5",
@@ -165,13 +141,6 @@
       "source": "Google新聞"
     },
     {
-      "title": "嘉義市前瞻停車場建設 獲2026年國家卓越建設獎肯定 - 蕃新聞",
-      "date": "Tue, 04 Aug 2026",
-      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1rRGxjYzU1LUtnaDZYNnVlbXdWU2NmX3dOc0lOZWdreFdTQXhFWG5oUVc4YzVOVzdyZGd1dE9jcm1wakd5LTJic0hZdDNnbVBPaVE?oc=5",
-      "org": "新聞資訊",
-      "source": "Google新聞"
-    },
-    {
       "title": "嘉市東門圓環施工改善疑挖到古城門遺構暫時停工- 生活 - 自由時報",
       "date": "Wed, 12 Aug 2026",
       "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBvbGFmN1JTOEJLM19EYlpmSGFBUVJaVnVFVnQ2b0xhdjdGVkFIdHZzVjIxdm1mdWpBaXlEdUJ0UzBoSW5BYU1RR2JQUHdsM3BFM1V3Xy1BalV1d0hkQms3UWtKeHk?oc=5",
@@ -179,16 +148,16 @@
       "source": "Google新聞"
     },
     {
-      "title": "嘉義市污水建設再奪全國第一 締造五連霸佳績 - 社會新聞 - PChome Online 新聞 - PChome Online 新聞",
-      "date": "Sun, 23 Aug 2026",
-      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNYTVvR3g5aDZUTVlkemk5b09KZlMtMEs3Tkh5RG1feWc5ZWhSV0laVU9BZ0VnbUhzUEhfUFVQMEpfUmx2SXF0UkRFUTV0bndCajh5d2lpVzA0UmlZay1naHBJWENJQ3pFdlo2cTJjbFNfbjVXaUdTcWtDTzg3eVNieXdlOWFPQlRtbjM2NkFBOA?oc=5",
+      "title": "嘉義市人本交通再獲肯定 「馬路好行」一口氣拿下3項工程獎 - 索引新聞",
+      "date": "Sun, 09 Aug 2026",
+      "link": "https://news.google.com/rss/articles/CBMiwAJBVV95cUxORUhLc3hnZkQ1ek1Yeko4R0lYekRXMXN6WWtmaExBa1dCR1U3TjlCazlHZmR1RmN4OTRmbXc0TG5zNDBTMDJfUnVVeFNVaENKWW5LQk03SHZaeElWVl9fZkNQNC1qUFd5M1BNb1UyX1VpREFqWENjdmlDaDl6TC1oTGZlX3VESS1YbnFUX2tkZGtRb0Z1YUpUQVh4U2VBdTdnYWR4eU5qNVdlb09TdlFnbHRfSncwejFGTHBpUEYtR2JTMnFoMTBGa1BObTJUcVB2VnNvZmdaNHQ3bW54MmQyaS1mUXlFVjFXX0g1NkpEV1c0d2Y4Nk05QUtQRm5tMEpPUzVEZkY5S1JNY29MYkM3dXQ5YkZGaENQaXdnLTFxREoxSVpFaV94NE81N3J0Rkd0RjdvcXlES1liTUxHZHFmVw?oc=5",
       "org": "新聞資訊",
       "source": "Google新聞"
     },
     {
-      "title": "嘉義市前瞻停車場建設勇奪國家卓越建設獎3金1優質 打造人本永續城市 - 蕃新聞",
+      "title": "嘉義市前瞻停車場建設勇奪國家卓越建設獎3金1優質 打造人本永續城市 - PChome Online 新聞",
       "date": "Tue, 04 Aug 2026",
-      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9tUmVkTTBucnN4ZWNOTHdBdXFxMDFjTDJNbm15UV9iZ212MmRSallWX2NiLTRJeXdxbmRSMnBOc2U3SF96Z2dCcUhRZC1yb2FINEE?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNQzNqdWpYVk05WTROSTJjSUJZTk8wQTB2bU15OE1xTWFUWXlyelNGU1YybWZUcFZwVHpnYzZ4amJCLW1rMVN2cV9MTzhoX3o1RnI4cWJZbENxZDZwZndmUUtLamdGZVRlVjVQbm5lX2ItRlpYeWZ3VUh4NTY5WWJyakYzUy1TSG43MHZTNlJOUQ?oc=5",
       "org": "新聞資訊",
       "source": "Google新聞"
     }
@@ -474,5 +443,5 @@
     }
   ],
   "water": [],
-  "fetch_seconds": 93.4
+  "fetch_seconds": 88.7
 }
