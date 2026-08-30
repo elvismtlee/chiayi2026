@@ -1,20 +1,51 @@
 {
-  "updated_at": "2026-08-30T11:11:23.960049",
+  "updated_at": "2026-08-30T16:00:16.771311",
   "aqi_realtime": [
     {
-      "station": "嘉義市（Open-Meteo 模型）",
-      "aqi": 15,
-      "pm25": 11.0,
-      "pm10": 11.9,
-      "o3": 36.0,
-      "no2": 41.3,
-      "status": "良好",
-      "pollutant": "PM2.5",
-      "time": "2026-08-30T19:00",
-      "source": "Open-Meteo"
+      "station": "",
+      "aqi": 0,
+      "pm25": 0.0,
+      "pm10": 0.0,
+      "o3": 0.0,
+      "no2": 0.0,
+      "status": "",
+      "pollutant": "",
+      "time": "2026-08-30 22:00",
+      "source": "環境部"
+    },
+    {
+      "station": "",
+      "aqi": 0,
+      "pm25": 0.0,
+      "pm10": 0.0,
+      "o3": 0.0,
+      "no2": 0.0,
+      "status": "",
+      "pollutant": "",
+      "time": "2026-08-30 22:00",
+      "source": "環境部"
+    },
+    {
+      "station": "",
+      "aqi": 0,
+      "pm25": 0.0,
+      "pm10": 0.0,
+      "o3": 0.0,
+      "no2": 0.0,
+      "status": "",
+      "pollutant": "",
+      "time": "2026-08-30 22:00",
+      "source": "環境部"
     }
   ],
-  "aqi_history": [],
+  "aqi_history": [
+    {
+      "month": "",
+      "aqi": 0.0,
+      "pm25": 0.0,
+      "station": "嘉義"
+    }
+  ],
   "earthquake": [
     {
       "title": "規模 4.4・39 km W of Hengchun, Taiwan",
@@ -48,33 +79,19 @@
   "weather": [
     {
       "station": "嘉義市（Open-Meteo）",
-      "temp": "26.8",
-      "apparent_temp": "33.0",
-      "humidity": "90",
+      "temp": "24.9",
+      "apparent_temp": "30.3",
+      "humidity": "93",
       "rainfall": "0.0",
-      "wind_speed": "3.4",
-      "wind_dir": "115",
-      "cloud": "94",
+      "wind_speed": "3.2",
+      "wind_dir": "90",
+      "cloud": "100",
       "weather": "陰天",
-      "time": "2026-08-30 19:00",
+      "time": "2026-08-31 00:00",
       "source": "Open-Meteo"
     }
   ],
   "announcements": [
-    {
-      "title": "黃敏惠市長視察崇文國小地下停車場工程 打造安全通學與校園共融新地標 - chiayi.gov.tw",
-      "date": "Sun, 30 Aug 2026",
-      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE8wdXB0Rk1xS0FOMTNtRnM2TG1HYTN5S29hSTBuSWFwN25STkl4VU5FZzFsemM3NkFxM19rUW1WcXJEMWRkZHpacDJ0dFdFMERxbEpXLThoMDZueWtkRFhzQWtvNnNQRHZDam96czRRWHZwRHREV0E?oc=5",
-      "desc": "",
-      "source": "Google新聞"
-    },
-    {
-      "title": "嘉義市中心停車場熬過19次流標 崇文國小207席車位10月啟用 - UDN",
-      "date": "Sun, 30 Aug 2026",
-      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1WdlNITmlnM2w5eGp2RDRGVHE2UHF0LXBKSFp2T3NNaGg0aF9lWkprTkgxTXFpYjRJaENDTTh1b1kzaWdKVDJ1QjFRdF93b3c30gFWQVVfeXFMTkk1eDZZRURJSm9IQzVWNkQzaFduUHN1Yk9iazdNQTFDcEdLT1daNXdxNy0ySmw2VExUT01faEw2akRYV3VLQVktOWw2YjdNS2ZzS2g2dEE?oc=5",
-      "desc": "",
-      "source": "Google新聞"
-    },
     {
       "title": "115年嘉義市弱勢族群能源效率改善計畫開跑囉 - 嘉義市政府環境保護局",
       "date": "Sat, 29 Aug 2026",
@@ -90,6 +107,13 @@
       "source": "Google新聞"
     },
     {
+      "title": "出國報告 - chiayi.gov.tw",
+      "date": "Tue, 25 Aug 2026",
+      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNcVo0RjhxY3NtekpiRmtSaDB4WFZueXdDa0xvZWFKdjNpN0xNSkpQWFRjY0RsVGpaUEZLZkhmSUVieFhZVWhrQlNRcUVsQ21ldldheENyc05WTkdwazE5YVhvMmRIZVFiYzIwcHV5aUJRR1lhRFN4cGh1WklHMEdCVXhTWTVJUEtCOFRrTFpqRWpHQQ?oc=5",
+      "desc": "",
+      "source": "Google新聞"
+    },
+    {
       "title": "從生命起點到樂齡健康 嘉義市政府衛生局勇奪2026台灣永續行動獎1銀2銅 - 嘉義市政府衛生局",
       "date": "Sat, 29 Aug 2026",
       "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBzbk9ZNXdGVURRa2p2cTZUSkFDMkxvZjFZYUlTUGFzU2VmTHpfMllaelhSVzlPSWFnOHlzSC14T0otcWR5d3RIVXpsQ0ZNc21wUXh6cWlWMHc3OWxneEo3Y2JKQmhDSzZ1cWs3QjZvSjFYRTNTbG1Ydkhna3I?oc=5",
@@ -97,9 +121,16 @@
       "source": "Google新聞"
     },
     {
-      "title": "嘉義市政府衛生局「健康知識+」【「瘦瘦針真的適合每個人嗎？從減重談代謝症候群防治」】 - 嘉義市政府衛生局",
+      "title": "嘉義市環保局邀您一起自備減塑3寶享優惠 - 嘉義市政府環境保護局",
+      "date": "Fri, 28 Aug 2026",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1vVlpoQi1BTnp3OXpLaGloM3hDUVREb3RLZDEtZ2xMYTYxUkZtaDByYW9wSWw1em9ockMwOVRubkJrSDBWRjlNSkhIc19PUTEtc1RqcG1obm5XMGZiZkdnTG0xRzRMRnJjVXlN?oc=5",
+      "desc": "",
+      "source": "Google新聞"
+    },
+    {
+      "title": "「自備食器easy購」百店響應現折超有感，減廢吃美食還能抽大獎！ - 嘉義市政府環境保護局",
       "date": "Sat, 29 Aug 2026",
-      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPalNfYVlQN2U2cDV4Z2Z3WERjQkEybEhCSVlmOWM4OFVBTUlXdVBzbUtGS0dnYUdhM3pOSmZjbUYtZlJ3NzdRRm4tZmdUVXNuaWFEQzMwMERSYS1oQmprR1MwYzFmQzNCRjM5dmZDZXJGRXk1bXNBQ1RZQmtNUW8wVEl5dUE?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1lOXFmdHRUZ2lQVUtEeUF6aENiQXNFZkhMUXk0dU9sSHhUdVlFS2h2a3JDVlRpbzZNSFhTLUU4a2pod2h5T3ltaU9LQlJmem5GaGxMdWRPVS0yZTd3QVRDOFFtTW02QXhPX3FLeTRNMS1Qd3A0Ykp2UQ?oc=5",
       "desc": "",
       "source": "Google新聞"
     }
@@ -443,5 +474,5 @@
     }
   ],
   "water": [],
-  "fetch_seconds": 94.3
+  "fetch_seconds": 93.4
 }

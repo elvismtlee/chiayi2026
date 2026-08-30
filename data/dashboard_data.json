@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-30T11:12:58.280852",
+  "updated_at": "2026-08-30T16:01:50.196206",
   "news": [
     {
       "headline": "2026嘉義市古蹟日「馬嘻・搜遊」9月1日全活動報名開跑",
@@ -202,7 +202,7 @@
       "2012": 1,
       "2013": 1
     },
-    "updated_at": "2026-08-30T11:10:25.504620",
+    "updated_at": "2026-08-30T15:59:21.518934",
     "source": "data.chiayi.gov.tw"
   },
   "council": {
@@ -236,6 +236,34 @@
   },
   "citizen_stats": {},
   "social_posts": [
+    {
+      "id": "ptt-httpswwwpttccbbsChiayiM1788096239ACEFhtml",
+      "platform": "PTT",
+      "platform_color": "#00b300",
+      "board": "Chiayi",
+      "date": "08/30",
+      "author": "PTT 鄉民",
+      "title": "Re: [廣告] 嘉義園藝工程",
+      "url": "https://www.ptt.cc/bbs/Chiayi/M.1788096239.A.CEF.html",
+      "reactions": 0,
+      "comments": 0,
+      "category": "市政議題",
+      "source": "ptt"
+    },
+    {
+      "id": "ptt-httpswwwpttccbbsChiayiM1788093260AE2Fhtml",
+      "platform": "PTT",
+      "platform_color": "#00b300",
+      "board": "Chiayi",
+      "date": "08/30",
+      "author": "PTT 鄉民",
+      "title": "[問題] 嘉義免費法律諮詢",
+      "url": "https://www.ptt.cc/bbs/Chiayi/M.1788093260.A.E2F.html",
+      "reactions": 0,
+      "comments": 0,
+      "category": "市政議題",
+      "source": "ptt"
+    },
     {
       "id": "ptt-httpswwwpttccbbsChiayiM1788084122AA04html",
       "platform": "PTT",
@@ -371,34 +399,6 @@
       "author": "PTT 鄉民",
       "title": "[廣告] 嘉義園藝工程",
       "url": "https://www.ptt.cc/bbs/Chiayi/M.1787720807.A.306.html",
-      "reactions": 0,
-      "comments": 0,
-      "category": "市政議題",
-      "source": "ptt"
-    },
-    {
-      "id": "ptt-httpswwwpttccbbsChiayiM1787713136A608html",
-      "platform": "PTT",
-      "platform_color": "#00b300",
-      "board": "Chiayi",
-      "date": "08/29",
-      "author": "PTT 鄉民",
-      "title": "[新聞] 嘉義輕軌誰負責中央地方互批 陳世凱南下",
-      "url": "https://www.ptt.cc/bbs/Chiayi/M.1787713136.A.608.html",
-      "reactions": 0,
-      "comments": 0,
-      "category": "市政議題",
-      "source": "ptt"
-    },
-    {
-      "id": "ptt-httpswwwpttccbbsChiayiM1787709928A76Bhtml",
-      "platform": "PTT",
-      "platform_color": "#00b300",
-      "board": "Chiayi",
-      "date": "08/27",
-      "author": "PTT 鄉民",
-      "title": "Re: [問題] 關於老房子佈網路線",
-      "url": "https://www.ptt.cc/bbs/Chiayi/M.1787709928.A.76B.html",
       "reactions": 0,
       "comments": 0,
       "category": "市政議題",
