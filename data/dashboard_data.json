@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-31T12:33:42.641951",
+  "updated_at": "2026-08-31T22:23:30.704120",
   "news": [
     {
       "headline": "公告「嘉義市崇文國小地下停車場」月票登記、抽籤及注意事項",
@@ -87,12 +87,12 @@
     }
   ],
   "complaint_stats": {
-    "total": 79485,
-    "record_count": 519,
+    "total": 79524,
+    "record_count": 558,
     "category_counts": {
       "公共安全": 38658,
       "交通停車": 7743,
-      "道路路平": 263,
+      "道路路平": 302,
       "環境衛生": 5,
       "行政服務": 6
     },
@@ -107,11 +107,11 @@
         "公有停車場": 38
       },
       "道路路平": {
-        "電力管線": 42,
-        "自來水管線": 33,
-        "電信管線": 12,
-        "市府工程": 3,
-        "道路施工": 1,
+        "電力管線": 68,
+        "自來水管線": 40,
+        "電信管線": 16,
+        "市府工程": 4,
+        "道路施工": 2,
         "橋梁設施": 172
       },
       "環境衛生": {
@@ -127,6 +127,10 @@
         "count": 12
       },
       {
+        "road": "東區嘉義",
+        "count": 6
+      },
+      {
         "road": "東區安業村里安業街3",
         "count": 2
       },
@@ -135,7 +139,7 @@
         "count": 2
       },
       {
-        "road": "東區嘉義",
+        "road": "西區湖內村里湖子內路",
         "count": 2
       },
       {
@@ -157,10 +161,6 @@
       {
         "road": "西區劉厝村里劉厝路",
         "count": 2
-      },
-      {
-        "road": "親水公園",
-        "count": 2
       }
     ],
     "top_categories": [
@@ -174,7 +174,7 @@
       },
       {
         "category": "道路路平",
-        "count": 263
+        "count": 302
       },
       {
         "category": "行政服務",
@@ -197,12 +197,12 @@
       "2022": 3112,
       "2023": 3318,
       "2024": 3270,
-      "2025": 8874,
-      "2026": 3588,
+      "2025": 8889,
+      "2026": 3612,
       "2012": 1,
       "2013": 1
     },
-    "updated_at": "2026-08-31T12:32:02.609300",
+    "updated_at": "2026-08-31T22:21:46.807765",
     "source": "data.chiayi.gov.tw"
   },
   "council": {
@@ -237,28 +237,14 @@
   "citizen_stats": {},
   "social_posts": [
     {
-      "id": "ptt-httpswwwpttccbbsGossipingM1788179250AD1Dhtml",
+      "id": "ptt-httpswwwpttccbbsChiayiM1788190190A5CBhtml",
       "platform": "PTT",
       "platform_color": "#00b300",
-      "board": "Gossiping",
-      "date": "08/31",
+      "board": "Chiayi",
+      "date": "09/01",
       "author": "PTT 鄉民",
-      "title": "[爆卦] 日本議員發文歧視外國人反被嗆爆",
-      "url": "https://www.ptt.cc/bbs/Gossiping/M.1788179250.A.D1D.html",
-      "reactions": 0,
-      "comments": 0,
-      "category": "市政議題",
-      "source": "ptt"
-    },
-    {
-      "id": "ptt-httpswwwpttccbbsGossipingM1788177824A341html",
-      "platform": "PTT",
-      "platform_color": "#00b300",
-      "board": "Gossiping",
-      "date": "08/31",
-      "author": "PTT 鄉民",
-      "title": "[新聞] 高雄鬧區又出現巨大天坑 議員嘆：高雄人",
-      "url": "https://www.ptt.cc/bbs/Gossiping/M.1788177824.A.341.html",
+      "title": "[徵求] 即將到期的7-11點數",
+      "url": "https://www.ptt.cc/bbs/Chiayi/M.1788190190.A.5CB.html",
       "reactions": 0,
       "comments": 0,
       "category": "市政議題",
@@ -283,7 +269,7 @@
       "platform": "PTT",
       "platform_color": "#00b300",
       "board": "Chiayi",
-      "date": "08/31",
+      "date": "09/01",
       "author": "PTT 鄉民",
       "title": "Re: [新聞] 嘉義輕軌誰負責中央地方互批 陳世凱南下",
       "url": "https://www.ptt.cc/bbs/Chiayi/M.1788143228.A.A55.html",
@@ -399,6 +385,20 @@
       "author": "PTT 鄉民",
       "title": "[新聞] 嘉義輕軌誰負責中央地方互批 陳世凱南下",
       "url": "https://www.ptt.cc/bbs/Chiayi/M.1787713136.A.608.html",
+      "reactions": 0,
+      "comments": 0,
+      "category": "市政議題",
+      "source": "ptt"
+    },
+    {
+      "id": "ptt-httpswwwpttccbbsChiayiM1787709928A76Bhtml",
+      "platform": "PTT",
+      "platform_color": "#00b300",
+      "board": "Chiayi",
+      "date": "08/27",
+      "author": "PTT 鄉民",
+      "title": "Re: [問題] 關於老房子佈網路線",
+      "url": "https://www.ptt.cc/bbs/Chiayi/M.1787709928.A.76B.html",
       "reactions": 0,
       "comments": 0,
       "category": "市政議題",
