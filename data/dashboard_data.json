@@ -1,6 +1,34 @@
 {
-  "updated_at": "2026-09-01T03:19:10.714156",
+  "updated_at": "2026-09-01T11:03:56.655967",
   "news": [
+    {
+      "headline": "嘉市第10屆調解委員正式上任黃敏惠市長感謝守護地方和諧",
+      "source": "嘉義市政府/民政處/觀光新聞處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=951169",
+      "date": "2026/09/01",
+      "query": "市府新聞"
+    },
+    {
+      "headline": "嘉義市勇奪2026《康健》永續健康城市非六都金獎黃敏惠市長：讓健康融入日常，打造全齡幸福城市",
+      "source": "嘉義市政府/衛生局",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=950837",
+      "date": "2026/09/01",
+      "query": "市府新聞"
+    },
+    {
+      "headline": "嘉義市115學年度公立國中小及私校國中部午餐免費造福2.2萬師生",
+      "source": "嘉義市政府/教育處/觀光新聞處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=951084",
+      "date": "2026/09/01",
+      "query": "市府新聞"
+    },
+    {
+      "headline": "嘉義市政府衛生局公布「115年燒臘料理餐飲業稽查專案」執行結果",
+      "source": "嘉義市政府/衛生局",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=951073",
+      "date": "2026/09/01",
+      "query": "市府新聞"
+    },
     {
       "headline": "嘉義市攜手Fulbright邁入第三年頂尖學人完成職前培訓國際及雙語教育再添生力軍",
       "source": "嘉義市政府/教育處/觀光新聞處",
@@ -55,34 +83,6 @@
       "source": "嘉義市政府/衛生局/觀光新聞處",
       "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=950870",
       "date": "2026/08/31",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "故事劇與體感闖關！大溪厝水環境園區「環保永續說故事」寓教於樂扎根永續循環",
-      "source": "嘉義市政府/嘉義市政府環境保護局/環保設施管理科",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=950841",
-      "date": "2026/08/31",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "黃敏惠市長視察崇文國小地下停車場工程打造安全通學與校園共融新地標",
-      "source": "嘉義市政府/企劃處/觀光新聞處/交通處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=950825",
-      "date": "2026/08/31",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "廢四機回收新制即將上路！紙本聯單116年退場免費回收權益不變",
-      "source": "嘉義市政府/嘉義市政府環境保護局/資源循環管理科",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=950599",
-      "date": "2026/08/31",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "2026嘉義市古蹟日「馬嘻・搜遊」9月1日全活動報名開跑",
-      "source": "嘉義市政府/文化局/觀光新聞處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=950790",
-      "date": "2026/08/30",
       "query": "市府新聞"
     }
   ],
@@ -202,7 +202,7 @@
       "2012": 1,
       "2013": 1
     },
-    "updated_at": "2026-09-01T03:17:24.047177",
+    "updated_at": "2026-09-01T11:02:19.725610",
     "source": "data.chiayi.gov.tw"
   },
   "council": {
@@ -237,14 +237,42 @@
   "citizen_stats": {},
   "social_posts": [
     {
-      "id": "ptt-httpswwwpttccbbsGossipingM1788231018A15Ahtml",
+      "id": "ptt-httpswwwpttccbbsGossipingM1788260120AAD6html",
       "platform": "PTT",
       "platform_color": "#00b300",
       "board": "Gossiping",
       "date": "09/01",
       "author": "PTT 鄉民",
-      "title": "[新聞] 新北市長選舉民調：蘇巧慧微領先李四川",
-      "url": "https://www.ptt.cc/bbs/Gossiping/M.1788231018.A.15A.html",
+      "title": "[問卦] 台灣的漁港為何總是垃圾滿地呢？",
+      "url": "https://www.ptt.cc/bbs/Gossiping/M.1788260120.A.AD6.html",
+      "reactions": 0,
+      "comments": 0,
+      "category": "環境衛生",
+      "source": "ptt"
+    },
+    {
+      "id": "ptt-httpswwwpttccbbsGossipingM1788259200A857html",
+      "platform": "PTT",
+      "platform_color": "#00b300",
+      "board": "Gossiping",
+      "date": "09/01",
+      "author": "PTT 鄉民",
+      "title": "Re: [新聞] 新北市長選舉民調：蘇巧慧微領先李四川",
+      "url": "https://www.ptt.cc/bbs/Gossiping/M.1788259200.A.857.html",
+      "reactions": 0,
+      "comments": 0,
+      "category": "市政議題",
+      "source": "ptt"
+    },
+    {
+      "id": "ptt-httpswwwpttccbbsChiayiM1788259738AD5Ahtml",
+      "platform": "PTT",
+      "platform_color": "#00b300",
+      "board": "Chiayi",
+      "date": "09/01",
+      "author": "PTT 鄉民",
+      "title": "[買賣] DJI Pocket 3手持攝影機/多樣",
+      "url": "https://www.ptt.cc/bbs/Chiayi/M.1788259738.A.D5A.html",
       "reactions": 0,
       "comments": 0,
       "category": "市政議題",
@@ -311,7 +339,7 @@
       "platform": "PTT",
       "platform_color": "#00b300",
       "board": "Chiayi",
-      "date": "08/30",
+      "date": "09/01",
       "author": "PTT 鄉民",
       "title": "[亂入] 有工廠假日偷排廢氣？",
       "url": "https://www.ptt.cc/bbs/Chiayi/M.1788084122.A.A04.html",
@@ -371,34 +399,6 @@
       "author": "PTT 鄉民",
       "title": "[問題] 今天的自來水怪怪的",
       "url": "https://www.ptt.cc/bbs/Chiayi/M.1787827565.A.7CE.html",
-      "reactions": 0,
-      "comments": 0,
-      "category": "市政議題",
-      "source": "ptt"
-    },
-    {
-      "id": "ptt-httpswwwpttccbbsChiayiM1787820603AEC2html",
-      "platform": "PTT",
-      "platform_color": "#00b300",
-      "board": "Chiayi",
-      "date": "08/31",
-      "author": "PTT 鄉民",
-      "title": "[新聞] 賴清德不買「我們來買」！張啓楷採購5萬",
-      "url": "https://www.ptt.cc/bbs/Chiayi/M.1787820603.A.EC2.html",
-      "reactions": 0,
-      "comments": 0,
-      "category": "市政議題",
-      "source": "ptt"
-    },
-    {
-      "id": "ptt-httpswwwpttccbbsChiayiM1787720807A306html",
-      "platform": "PTT",
-      "platform_color": "#00b300",
-      "board": "Chiayi",
-      "date": "08/26",
-      "author": "PTT 鄉民",
-      "title": "[廣告] 嘉義園藝工程",
-      "url": "https://www.ptt.cc/bbs/Chiayi/M.1787720807.A.306.html",
       "reactions": 0,
       "comments": 0,
       "category": "市政議題",
