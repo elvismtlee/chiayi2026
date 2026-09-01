@@ -1,16 +1,16 @@
 {
-  "updated_at": "2026-09-01T11:02:30.479913",
+  "updated_at": "2026-09-01T15:59:41.364582",
   "aqi_realtime": [
     {
       "station": "嘉義市（Open-Meteo 模型）",
-      "aqi": 16,
-      "pm25": 11.9,
-      "pm10": 12.0,
-      "o3": 3.0,
-      "no2": 57.6,
+      "aqi": 20,
+      "pm25": 14.4,
+      "pm10": 15.2,
+      "o3": 2.0,
+      "no2": 54.9,
       "status": "良好",
       "pollutant": "PM2.5",
-      "time": "2026-09-01T19:00",
+      "time": "2026-09-01T23:00",
       "source": "Open-Meteo"
     }
   ],
@@ -41,15 +41,15 @@
   "weather": [
     {
       "station": "嘉義市（Open-Meteo）",
-      "temp": "25.3",
-      "apparent_temp": "30.4",
+      "temp": "24.5",
+      "apparent_temp": "29.1",
       "humidity": "93",
-      "rainfall": "0.1",
-      "wind_speed": "6.7",
-      "wind_dir": "149",
+      "rainfall": "0.0",
+      "wind_speed": "6.5",
+      "wind_dir": "129",
       "cloud": "100",
-      "weather": "毛雨",
-      "time": "2026-09-01 19:00",
+      "weather": "陰天",
+      "time": "2026-09-01 23:45",
       "source": "Open-Meteo"
     }
   ],
@@ -57,14 +57,14 @@
     {
       "title": "嘉義市勇奪2026《康健》永續健康城市非六都金獎黃敏惠市長：讓健康融入日常，打造全齡幸福城市 - chiayi.gov.tw",
       "date": "Tue, 01 Sep 2026",
-      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5lSnk3aXo3X2gyR3dEU1hnY1BsQXkxV3doVEU5M1hYT0VHa0w4U2t2bHctSDM3bHQzUFB1ZVh4ME5aUHFRM2Mzb0k5MURDM0tJU0c5a195QjRycThfTW02cDJvcGN3SXI3RXc?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9wbnFSbnJKZEdNVXJVTFdUbEY0TDRib21lSXFONlp2bkFwVEJYZDU3OUpORV84b0doQ0g2OHJUblhuYW1FYnVTanJDRXZFOENxZlh6OXZSYnV6S2FTMU9MRkJ2SW02X1V1QTJtWW1aeUJsSjAtaXc?oc=5",
       "desc": "",
       "source": "Google新聞"
     },
     {
-      "title": "嘉義市推「三金」好店 消費加碼抽日本雙人遊 - 自由時報",
+      "title": "【公關中心】興大森林系攜手嘉義市政府、瑞竣科技打造智慧樹木管理平台榮獲空間資訊永續應用獎優良獎 - 中興大學",
       "date": "Tue, 01 Sep 2026",
-      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE90c0FSR214NlJ3Q3g0V1lTWU9sM2N6a0NmbWh0SExZSGRpSEpVa2FoMHk2TGFTYmlEWDVMMUdmX3kyRzF3UTJoM2I3amlZYk5NM21XcVdCb1g4VUlDZHMwRDZFcEPSAWpBVV95cUxNTXhVbzZRbklMdkFfMDBGRThyZ0JtTTZ4LTh1VW1tZVZXeWVxbW1RbTRhMjlRaHRfaUJDOVd2c3g4YjU0UmdPSUxOTG1vUUExMnpmNnRNczZZTHFaeEhSbWFTN29jNDNhYk9B?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBlLU1DRGNvZmRoeUROY2d2U2w4SVZMT0diUEk3aWFiYk96RXJ5MTJ1aXJOblBUVEcxSHRtbGU4N2F5akgyVXJhQlc2OEViX1R5aXVUUWhaZWQ?oc=5",
       "desc": "",
       "source": "Google新聞"
     },
@@ -120,7 +120,7 @@
       "source": "Google新聞"
     },
     {
-      "title": "嘉義市污水建設再奪全國第一 締造五連霸佳績 - 社會新聞 - PChome Online 新聞 - news.pchome.com.tw",
+      "title": "嘉義市污水建設再奪全國第一 締造五連霸佳績 - 社會新聞 - PChome Online 新聞 - PChome Online 新聞",
       "date": "Sun, 23 Aug 2026",
       "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNYTVvR3g5aDZUTVlkemk5b09KZlMtMEs3Tkh5RG1feWc5ZWhSV0laVU9BZ0VnbUhzUEhfUFVQMEpfUmx2SXF0UkRFUTV0bndCajh5d2lpVzA0UmlZay1naHBJWENJQ3pFdlo2cTJjbFNfbjVXaUdTcWtDTzg3eVNieXdlOWFPQlRtbjM2NkFBOA?oc=5",
       "org": "新聞資訊",
@@ -141,7 +141,7 @@
       "source": "Google新聞"
     },
     {
-      "title": "嘉市東門圓環施工改善疑挖到古城門遺構暫時停工- 生活 - 自由時報",
+      "title": "嘉市東門圓環施工改善疑挖到古城門遺構暫時停工- 生活 - news.ltn.com.tw",
       "date": "Wed, 12 Aug 2026",
       "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBvbGFmN1JTOEJLM19EYlpmSGFBUVJaVnVFVnQ2b0xhdjdGVkFIdHZzVjIxdm1mdWpBaXlEdUJ0UzBoSW5BYU1RR2JQUHdsM3BFM1V3Xy1BalV1d0hkQms3UWtKeHk?oc=5",
       "org": "新聞資訊",
@@ -260,7 +260,7 @@
       "lat": 23.481634,
       "lng": 120.453745,
       "total": 45,
-      "available": 27,
+      "available": 21,
       "addr": "中山路199號(對面)"
     },
     {
@@ -269,7 +269,7 @@
       "lat": 23.482012,
       "lng": 120.457342,
       "total": 22,
-      "available": 9,
+      "available": 11,
       "addr": "中山路98號(前)"
     },
     {
@@ -278,7 +278,7 @@
       "lat": 23.482663,
       "lng": 120.462988,
       "total": 25,
-      "available": 8,
+      "available": 14,
       "addr": "中山路2號(前)"
     },
     {
@@ -287,7 +287,7 @@
       "lat": 23.478707,
       "lng": 120.462594,
       "total": 38,
-      "available": 5,
+      "available": 3,
       "addr": "啟明路122號(前)"
     },
     {
@@ -296,7 +296,7 @@
       "lat": 23.477031,
       "lng": 120.465573,
       "total": 34,
-      "available": 17,
+      "available": 9,
       "addr": "大雅路二段738號(前)"
     },
     {
@@ -305,7 +305,7 @@
       "lat": 23.4798596,
       "lng": 120.4488291,
       "total": 20,
-      "available": 9,
+      "available": 1,
       "addr": "中山路306號"
     },
     {
@@ -314,7 +314,7 @@
       "lat": 23.47963,
       "lng": 120.44583,
       "total": 20,
-      "available": 12,
+      "available": 6,
       "addr": "中山路386號"
     },
     {
@@ -323,7 +323,7 @@
       "lat": 23.47917,
       "lng": 120.44186,
       "total": 99,
-      "available": 52,
+      "available": 78,
       "addr": "中山路524號"
     },
     {
@@ -332,7 +332,7 @@
       "lat": 23.47877,
       "lng": 120.44089,
       "total": 42,
-      "available": 25,
+      "available": 30,
       "addr": "中山路528號"
     },
     {
@@ -359,7 +359,7 @@
       "lat": 23.4738724,
       "lng": 120.4493073,
       "total": 20,
-      "available": 18,
+      "available": 8,
       "addr": "垂楊路434號"
     },
     {
@@ -368,7 +368,7 @@
       "lat": 23.47918,
       "lng": 120.43182,
       "total": 15,
-      "available": 10,
+      "available": 7,
       "addr": "北港路278號"
     },
     {
@@ -377,7 +377,7 @@
       "lat": 23.486138,
       "lng": 120.453829,
       "total": 20,
-      "available": 6,
+      "available": 8,
       "addr": "忠孝路284號(旁)"
     },
     {
@@ -386,7 +386,7 @@
       "lat": 23.48091,
       "lng": 120.43012,
       "total": 20,
-      "available": 7,
+      "available": 4,
       "addr": "北港路312號東側"
     },
     {
@@ -404,7 +404,7 @@
       "lat": 23.48931,
       "lng": 120.4361,
       "total": 15,
-      "available": 2,
+      "available": 3,
       "addr": "自由路298號"
     },
     {
@@ -431,10 +431,10 @@
       "lat": 23.47165,
       "lng": 120.43119,
       "total": 15,
-      "available": 7,
+      "available": 6,
       "addr": "博愛路二段461號"
     }
   ],
   "water": [],
-  "fetch_seconds": 86.2
+  "fetch_seconds": 93.2
 }
