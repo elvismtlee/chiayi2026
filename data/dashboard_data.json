@@ -1,6 +1,13 @@
 {
-  "updated_at": "2026-08-31T22:23:30.704120",
+  "updated_at": "2026-09-01T03:19:10.714156",
   "news": [
+    {
+      "headline": "嘉義市攜手Fulbright邁入第三年頂尖學人完成職前培訓國際及雙語教育再添生力軍",
+      "source": "嘉義市政府/教育處/觀光新聞處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=951069",
+      "date": "2026/09/01",
+      "query": "市府新聞"
+    },
     {
       "headline": "公告「嘉義市崇文國小地下停車場」月票登記、抽籤及注意事項",
       "source": "嘉義市政府/交通處",
@@ -76,13 +83,6 @@
       "source": "嘉義市政府/文化局/觀光新聞處",
       "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=950790",
       "date": "2026/08/30",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "第18屆雲嘉地區傑出經理人獎揭曉黃敏惠市長肯定產業人才創新實力",
-      "source": "嘉義市政府/建設處/觀光新聞處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=950722",
-      "date": "2026/08/29",
       "query": "市府新聞"
     }
   ],
@@ -202,7 +202,7 @@
       "2012": 1,
       "2013": 1
     },
-    "updated_at": "2026-08-31T22:21:46.807765",
+    "updated_at": "2026-09-01T03:17:24.047177",
     "source": "data.chiayi.gov.tw"
   },
   "council": {
@@ -237,13 +237,41 @@
   "citizen_stats": {},
   "social_posts": [
     {
+      "id": "ptt-httpswwwpttccbbsGossipingM1788231018A15Ahtml",
+      "platform": "PTT",
+      "platform_color": "#00b300",
+      "board": "Gossiping",
+      "date": "09/01",
+      "author": "PTT 鄉民",
+      "title": "[新聞] 新北市長選舉民調：蘇巧慧微領先李四川",
+      "url": "https://www.ptt.cc/bbs/Gossiping/M.1788231018.A.15A.html",
+      "reactions": 0,
+      "comments": 0,
+      "category": "市政議題",
+      "source": "ptt"
+    },
+    {
+      "id": "ptt-httpswwwpttccbbsChiayiM1788225823A490html",
+      "platform": "PTT",
+      "platform_color": "#00b300",
+      "board": "Chiayi",
+      "date": "09/01",
+      "author": "PTT 鄉民",
+      "title": "[新聞] 430毫米雨量嘉義市少見積淹水 71處滯洪",
+      "url": "https://www.ptt.cc/bbs/Chiayi/M.1788225823.A.490.html",
+      "reactions": 0,
+      "comments": 0,
+      "category": "排水水利",
+      "source": "ptt"
+    },
+    {
       "id": "ptt-httpswwwpttccbbsChiayiM1788190190A5CBhtml",
       "platform": "PTT",
       "platform_color": "#00b300",
       "board": "Chiayi",
       "date": "09/01",
       "author": "PTT 鄉民",
-      "title": "[徵求] 即將到期的7-11點數",
+      "title": "[徵求] 今天到期的7-11點數",
       "url": "https://www.ptt.cc/bbs/Chiayi/M.1788190190.A.5CB.html",
       "reactions": 0,
       "comments": 0,
@@ -255,7 +283,7 @@
       "platform": "PTT",
       "platform_color": "#00b300",
       "board": "Chiayi",
-      "date": "08/31",
+      "date": "09/01",
       "author": "PTT 鄉民",
       "title": "[新聞] 嘉義火雞肉飯遭疑沒熟11人腹瀉　業者：",
       "url": "https://www.ptt.cc/bbs/Chiayi/M.1788177613.A.96B.html",
@@ -297,7 +325,7 @@
       "platform": "PTT",
       "platform_color": "#00b300",
       "board": "Chiayi",
-      "date": "08/31",
+      "date": "09/01",
       "author": "PTT 鄉民",
       "title": "[新聞] 嘉義妻車內藏GPS抓外遇 丈夫確實偷",
       "url": "https://www.ptt.cc/bbs/Chiayi/M.1788066014.A.CAE.html",
@@ -371,34 +399,6 @@
       "author": "PTT 鄉民",
       "title": "[廣告] 嘉義園藝工程",
       "url": "https://www.ptt.cc/bbs/Chiayi/M.1787720807.A.306.html",
-      "reactions": 0,
-      "comments": 0,
-      "category": "市政議題",
-      "source": "ptt"
-    },
-    {
-      "id": "ptt-httpswwwpttccbbsChiayiM1787713136A608html",
-      "platform": "PTT",
-      "platform_color": "#00b300",
-      "board": "Chiayi",
-      "date": "08/30",
-      "author": "PTT 鄉民",
-      "title": "[新聞] 嘉義輕軌誰負責中央地方互批 陳世凱南下",
-      "url": "https://www.ptt.cc/bbs/Chiayi/M.1787713136.A.608.html",
-      "reactions": 0,
-      "comments": 0,
-      "category": "市政議題",
-      "source": "ptt"
-    },
-    {
-      "id": "ptt-httpswwwpttccbbsChiayiM1787709928A76Bhtml",
-      "platform": "PTT",
-      "platform_color": "#00b300",
-      "board": "Chiayi",
-      "date": "08/27",
-      "author": "PTT 鄉民",
-      "title": "Re: [問題] 關於老房子佈網路線",
-      "url": "https://www.ptt.cc/bbs/Chiayi/M.1787709928.A.76B.html",
       "reactions": 0,
       "comments": 0,
       "category": "市政議題",
