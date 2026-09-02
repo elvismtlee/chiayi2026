@@ -1,16 +1,16 @@
 {
-  "updated_at": "2026-09-02T15:59:12.862203",
+  "updated_at": "2026-09-02T20:27:43.120059",
   "aqi_realtime": [
     {
       "station": "嘉義市（Open-Meteo 模型）",
-      "aqi": 38,
-      "pm25": 27.1,
-      "pm10": 27.3,
-      "o3": 1.0,
-      "no2": 51.2,
+      "aqi": 17,
+      "pm25": 12.3,
+      "pm10": 12.3,
+      "o3": 14.0,
+      "no2": 46.5,
       "status": "良好",
       "pollutant": "PM2.5",
-      "time": "2026-09-02T23:00",
+      "time": "2026-09-03T04:00",
       "source": "Open-Meteo"
     }
   ],
@@ -34,19 +34,26 @@
   "weather": [
     {
       "station": "嘉義市（Open-Meteo）",
-      "temp": "26.1",
-      "apparent_temp": "30.4",
-      "humidity": "90",
+      "temp": "27.0",
+      "apparent_temp": "30.7",
+      "humidity": "80",
       "rainfall": "0.0",
-      "wind_speed": "13.6",
-      "wind_dir": "158",
-      "cloud": "99",
+      "wind_speed": "13.7",
+      "wind_dir": "164",
+      "cloud": "94",
       "weather": "陰天",
-      "time": "2026-09-02 23:45",
+      "time": "2026-09-03 04:15",
       "source": "Open-Meteo"
     }
   ],
   "announcements": [
+    {
+      "title": "內政部戶政司全球資訊網115年9月4日19時30分至23時進行系統版本更新作業，該時段各項服務均暫停! - chiayi.gov.tw",
+      "date": "Wed, 02 Sep 2026",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE96Vk1sTHBZUnpZVkhweTNNY2I5OUpzaFVQS1d3NnppZmNodHJGXzRqcmFOWHo2aVZsT1Raa0hpX015YWdkQXA4LWZtV1dST3hXWGVWTVZqMkJ1TEpTRFF1bUtSRnI3NnhZMGc?oc=5",
+      "desc": "",
+      "source": "Google新聞"
+    },
     {
       "title": "市府推動「嘉有木屋」三年有成 串聯7棟老屋舉辦「內面風景」公益回饋活動 - chiayi.gov.tw",
       "date": "Wed, 02 Sep 2026",
@@ -55,16 +62,16 @@
       "source": "Google新聞"
     },
     {
-      "title": "115年嘉義市弱勢族群能源效率改善計畫開跑囉 - 嘉義市政府環境保護局",
-      "date": "Sat, 29 Aug 2026",
-      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBjNUh2WTNFTnZOQVVuckZPUV9nRlhkSU9IUmxUd0Z4R0N5NUgyX2xtZmwwQkU3U0pzV2YxYnU2UDBhTkV3cFEzUnJFM2J3U212amxVNGZQWm41UUtSc3AzaV9RbUZWSXRIM2VMT3RLQTBuMkV2NXFyeA?oc=5",
+      "title": "繪本《顧「嘉」的城隍爺公》出版 孩子用台語認識嘉義市文化 - chiayi.gov.tw",
+      "date": "Wed, 02 Sep 2026",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE83c0ZNbTU3c0xDSDRZU3BadUg2SXJGQXRxV2JpWmVZYkk5NXkzVXJnRThtSGtBTUhqUloxZGpKRF9qLXhtenM4bVRjeE1PSWhpS3FkUlFibUNyb1pST21JVm1jbndqbXI0NlE?oc=5",
       "desc": "",
       "source": "Google新聞"
     },
     {
-      "title": "《望風亭戀歌》歌劇音樂會 - chiayi.gov.tw",
-      "date": "Wed, 02 Sep 2026",
-      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1yVV9DSGFCbEYxTXhmY3hmWmdmRWlUNEduR1dKOFI1dWw2ZVoxdlBOV3VnVEhWaE9RM05CeThRS2Y2Sjc4aXVRelR0MXVONlNOSEp5Q3luZk0yMTlxWEFFTVNfZHAzemc3X2Zua3VybjEwZHp6VWQ4?oc=5",
+      "title": "2026嘉義市古蹟日「馬嘻・搜遊」 9月1日全活動報名開跑 - chiayi.gov.tw",
+      "date": "Sun, 30 Aug 2026",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5CeE5ZdkxmZy1scXA0ajhWdG1LN3BpM2liWHVZMy1JLWV0VjZ5b1hBTUF4LUVDZ3ZHNlU5QWtxdnVhSm5HRnBEWG9XV3ZrWlJFNWdXem5OWTlKWnMteGZObzBKdU1DM2x1VkE?oc=5",
       "desc": "",
       "source": "Google新聞"
     },
@@ -76,16 +83,9 @@
       "source": "Google新聞"
     },
     {
-      "title": "115年記者節大會暨第22屆第1次會員大會 黃敏惠市長：讓城市努力被看見、讓市民聲音被聽見 - chiayi.gov.tw",
-      "date": "Tue, 01 Sep 2026",
-      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1VdWxrYWxZWE1kNUlaYXJGWUlKbXJPbkRMOV90SXQ4ZWgwNTYySkktZmp6M1NoV0N2bmxPOWdXdEpnM1B3RFFiMmtYMWtkMWd5bERIOWpMVkRLVHJvNWJPc0ZHTk9kZ2QwSVE?oc=5",
-      "desc": "",
-      "source": "Google新聞"
-    },
-    {
-      "title": "嘉義市勇奪2026《康健》永續健康城市非六都金獎黃敏惠市長：讓健康融入日常，打造全齡幸福城市 - chiayi.gov.tw",
-      "date": "Tue, 01 Sep 2026",
-      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5lSnk3aXo3X2gyR3dEU1hnY1BsQXkxV3doVEU5M1hYT0VHa0w4U2t2bHctSDM3bHQzUFB1ZVh4ME5aUHFRM2Mzb0k5MURDM0tJU0c5a195QjRycThfTW02cDJvcGN3SXI3RXc?oc=5",
+      "title": "《望風亭戀歌》歌劇音樂會 - chiayi.gov.tw",
+      "date": "Wed, 02 Sep 2026",
+      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1yVV9DSGFCbEYxTXhmY3hmWmdmRWlUNEduR1dKOFI1dWw2ZVoxdlBOV3VnVEhWaE9RM05CeThRS2Y2Sjc4aXVRelR0MXVONlNOSEp5Q3luZk0yMTlxWEFFTVNfZHAzemc3X2Zua3VybjEwZHp6VWQ4?oc=5",
       "desc": "",
       "source": "Google新聞"
     }
@@ -99,7 +99,7 @@
       "source": "Google新聞"
     },
     {
-      "title": "全國污水評鑑五連霸 嘉義市再奪第三組第1名 - 台灣好新聞",
+      "title": "全國污水評鑑五連霸 嘉義市再奪第三組第1名 - taiwanhot.net",
       "date": "Sun, 23 Aug 2026",
       "link": "https://news.google.com/rss/articles/CBMitwJBVV95cUxOOHo0ZzhTdXBLa251RXY3ZnJnYk1hQTRadnpHZkFYMGR0X3FsYVYtT3lBZERibU9hYmM2d0lVSWgtbzRmUmR3UjJRblQwQVA4aUE0bXJSWTlPZnE2VlVmVXNRMW1mM09YUmlNUHJodVBFSDEzb0EyM1pOZTU5NndaV1dCdjNNN2JOZV9Ka1RLZlJTWUo5d3lZUGtsQVhjN0NPalA4MnpRNVFiSGlJUXQxeURWMm5kRkRLdERmTTBuMkpWbm1DVGoweW0yV2hOZ1lSTTBIREJld25UYndJenN4OUVZM2N5SG1RTGZKdGFKYnk2X1ZpSXg2V3EySmsxZF9Vaklnb3NVWVJXR29NUDlfaF9FLU56UkdGUW1na3A3YkFCSjZ6QnpQUzFaVTAydW8xbnJ6U0JfWQ?oc=5",
       "org": "新聞資訊",
@@ -141,7 +141,7 @@
       "source": "Google新聞"
     },
     {
-      "title": "阿里山貴賓館整修工程獲獎 展現文化資產保存成果 - sjtv.com.tw",
+      "title": "阿里山貴賓館整修工程獲獎 展現文化資產保存成果 - 信吉衛視+",
       "date": "Mon, 10 Aug 2026",
       "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9zWmJuU013blNSRFg2TmNPRGxha1F2cjhXOFJPVUh4VHZRWWhNRkFoSXBhT081M0xTZDAtU1NMTGU3Q1ctUnpyWWxCSGFNdVk?oc=5",
       "org": "新聞資訊",
@@ -271,7 +271,7 @@
       "lat": 23.482663,
       "lng": 120.462988,
       "total": 25,
-      "available": 14,
+      "available": 13,
       "addr": "中山路2號(前)"
     },
     {
@@ -280,7 +280,7 @@
       "lat": 23.478707,
       "lng": 120.462594,
       "total": 38,
-      "available": 2,
+      "available": 3,
       "addr": "啟明路122號(前)"
     },
     {
@@ -298,7 +298,7 @@
       "lat": 23.4798596,
       "lng": 120.4488291,
       "total": 20,
-      "available": 6,
+      "available": 5,
       "addr": "中山路306號"
     },
     {
@@ -307,7 +307,7 @@
       "lat": 23.47963,
       "lng": 120.44583,
       "total": 20,
-      "available": 12,
+      "available": 13,
       "addr": "中山路386號"
     },
     {
@@ -316,7 +316,7 @@
       "lat": 23.47917,
       "lng": 120.44186,
       "total": 99,
-      "available": 71,
+      "available": 85,
       "addr": "中山路524號"
     },
     {
@@ -325,7 +325,7 @@
       "lat": 23.47877,
       "lng": 120.44089,
       "total": 42,
-      "available": 3,
+      "available": 31,
       "addr": "中山路528號"
     },
     {
@@ -352,7 +352,7 @@
       "lat": 23.4738724,
       "lng": 120.4493073,
       "total": 20,
-      "available": 2,
+      "available": 11,
       "addr": "垂楊路434號"
     },
     {
@@ -388,7 +388,7 @@
       "lat": 23.48465,
       "lng": 120.43354,
       "total": 14,
-      "available": 3,
+      "available": 2,
       "addr": "友愛興達路口"
     },
     {
@@ -406,7 +406,7 @@
       "lat": 23.49265,
       "lng": 120.43191,
       "total": 15,
-      "available": 7,
+      "available": 8,
       "addr": "自由路492號"
     },
     {
@@ -429,5 +429,5 @@
     }
   ],
   "water": [],
-  "fetch_seconds": 103.8
+  "fetch_seconds": 86.9
 }
