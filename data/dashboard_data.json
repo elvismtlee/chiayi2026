@@ -1,6 +1,48 @@
 {
-  "updated_at": "2026-09-02T02:38:49.153706",
+  "updated_at": "2026-09-02T10:31:22.024106",
   "news": [
+    {
+      "headline": "繪本《顧「嘉」的城隍爺公》出版孩子用台語認識嘉義市文化",
+      "source": "嘉義市政府/教育處/觀光新聞處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=951273",
+      "date": "2026/09/02",
+      "query": "市府新聞"
+    },
+    {
+      "headline": "穿上歲月走秀！嘉義「時尚老人」翻開衣櫥時光寶盒",
+      "source": "嘉義市政府/衛生局/觀光新聞處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=951272",
+      "date": "2026/09/02",
+      "query": "市府新聞"
+    },
+    {
+      "headline": "市府推動「嘉有木屋」三年有成串聯7棟老屋舉辦「內面風景」公益回饋活動",
+      "source": "嘉義市政府/都市更新科",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=951266",
+      "date": "2026/09/02",
+      "query": "市府新聞"
+    },
+    {
+      "headline": "內政部戶政司全球資訊網115年9月4日19時30分至23時進行系統版本更新作業，該時段各項服務均暫停!",
+      "source": "嘉義市政府/民政處/嘉義市東區戶政事務所/嘉義市西區戶政事務所",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=951254",
+      "date": "2026/09/02",
+      "query": "市府新聞"
+    },
+    {
+      "headline": "交通安全嘉遊讚周周活動獎不完",
+      "source": "嘉義市政府/交通處/觀光新聞處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=951252",
+      "date": "2026/09/02",
+      "query": "市府新聞"
+    },
+    {
+      "headline": "嘉市財稅局連獲財政部肯定促參疏減訟源房屋稅稅基考評三項佳績展現治理成果",
+      "source": "嘉義市政府/財政稅務局/觀光新聞處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=951244",
+      "date": "2026/09/02",
+      "query": "市府新聞"
+    },
     {
       "headline": "嘉義義民文化節登場！黃敏惠市長主祭祈福盼傳承客家硬頸、團結精神",
       "source": "嘉義市政府/民政處/觀光新聞處",
@@ -41,48 +83,6 @@
       "source": "嘉義市政府/衛生局",
       "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=951073",
       "date": "2026/09/01",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "嘉義市攜手Fulbright邁入第三年頂尖學人完成職前培訓國際及雙語教育再添生力軍",
-      "source": "嘉義市政府/教育處/觀光新聞處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=951069",
-      "date": "2026/09/01",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "公告「嘉義市崇文國小地下停車場」月票登記、抽籤及注意事項",
-      "source": "嘉義市政府/交通處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=950895",
-      "date": "2026/08/31",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "青春好「嘉」在暑期工讀生滿載收穫再出發",
-      "source": "嘉義市政府/勞工及青年發展處/觀光新聞處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=950896",
-      "date": "2026/08/31",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "嘉義市政府衛生局公布「115年素食餐飲業稽查專案」執行結果",
-      "source": "嘉義市政府/衛生局",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=950334",
-      "date": "2026/08/31",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "嘉義市「老宅延壽計畫」9月1日重磅開跑首創「嘉屋」理念加分",
-      "source": "嘉義市政府/都市發展處/觀光新聞處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=950875",
-      "date": "2026/08/31",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "安心開學、智慧啟航！嘉義市親師共同打造優質學習環境陪伴學子放眼世界",
-      "source": "嘉義市政府/教育處/觀光新聞處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=950873",
-      "date": "2026/08/31",
       "query": "市府新聞"
     }
   ],
@@ -202,7 +202,7 @@
       "2012": 1,
       "2013": 1
     },
-    "updated_at": "2026-09-02T02:36:26.318107",
+    "updated_at": "2026-09-02T10:29:42.153540",
     "source": "data.chiayi.gov.tw"
   },
   "council": {
@@ -265,20 +265,6 @@
       "source": "ptt"
     },
     {
-      "id": "ptt-httpswwwpttccbbsChiayiM1788260718A0F4html",
-      "platform": "PTT",
-      "platform_color": "#00b300",
-      "board": "Chiayi",
-      "date": "09/02",
-      "author": "PTT 鄉民",
-      "title": "[廣告] 嘉義園藝",
-      "url": "https://www.ptt.cc/bbs/Chiayi/M.1788260718.A.0F4.html",
-      "reactions": 0,
-      "comments": 0,
-      "category": "市政議題",
-      "source": "ptt"
-    },
-    {
       "id": "ptt-httpswwwpttccbbsChiayiM1788259738AD5Ahtml",
       "platform": "PTT",
       "platform_color": "#00b300",
@@ -297,7 +283,7 @@
       "platform": "PTT",
       "platform_color": "#00b300",
       "board": "Chiayi",
-      "date": "09/01",
+      "date": "09/02",
       "author": "PTT 鄉民",
       "title": "[新聞] 430毫米雨量嘉義市少見積淹水 71處滯洪",
       "url": "https://www.ptt.cc/bbs/Chiayi/M.1788225823.A.490.html",
@@ -399,6 +385,20 @@
       "author": "PTT 鄉民",
       "title": "[問題] 今天的自來水怪怪的",
       "url": "https://www.ptt.cc/bbs/Chiayi/M.1787827565.A.7CE.html",
+      "reactions": 0,
+      "comments": 0,
+      "category": "市政議題",
+      "source": "ptt"
+    },
+    {
+      "id": "ptt-httpswwwpttccbbsChiayiM1787820603AEC2html",
+      "platform": "PTT",
+      "platform_color": "#00b300",
+      "board": "Chiayi",
+      "date": "09/01",
+      "author": "PTT 鄉民",
+      "title": "[新聞] 賴清德不買「我們來買」！張啓楷採購5萬",
+      "url": "https://www.ptt.cc/bbs/Chiayi/M.1787820603.A.EC2.html",
       "reactions": 0,
       "comments": 0,
       "category": "市政議題",
