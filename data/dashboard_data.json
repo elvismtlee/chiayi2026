@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-03T15:43:58.259663",
+  "updated_at": "2026-09-03T20:28:37.537154",
   "news": [
     {
       "headline": "嘉義市污水二期第2標動土！跨越鐵路向東延伸擴大版圖挺進湖子內",
@@ -87,12 +87,12 @@
     }
   ],
   "complaint_stats": {
-    "total": 80221,
-    "record_count": 569,
+    "total": 80181,
+    "record_count": 529,
     "category_counts": {
       "公共安全": 39345,
       "交通停車": 7743,
-      "道路路平": 312,
+      "道路路平": 272,
       "環境衛生": 5,
       "行政服務": 6
     },
@@ -107,11 +107,11 @@
         "公有停車場": 38
       },
       "道路路平": {
-        "電力管線": 85,
-        "自來水管線": 32,
-        "電信管線": 12,
-        "市府工程": 6,
-        "道路施工": 5,
+        "電力管線": 56,
+        "市府工程": 3,
+        "自來水管線": 30,
+        "電信管線": 3,
+        "道路施工": 8,
         "橋梁設施": 172
       },
       "環境衛生": {
@@ -128,39 +128,39 @@
       },
       {
         "road": "東區嘉義",
-        "count": 7
+        "count": 11
+      },
+      {
+        "road": "西區頭港村里育人路6",
+        "count": 2
       },
       {
         "road": "西區湖內村里湖子內路",
-        "count": 4
-      },
-      {
-        "road": "東區過溝村里吳鳳北路",
         "count": 2
       },
       {
-        "road": "西區新富村里民生北路",
+        "road": "親水公園",
         "count": 2
       },
       {
-        "road": "西區保生村里通化四街",
+        "road": "蘭潭水庫三信亭附近",
         "count": 2
       },
       {
-        "road": "西區福安村里世賢路一",
+        "road": "嘉義市中山路199號",
         "count": 2
       },
       {
-        "road": "西區保生村里友愛路5",
+        "road": "嘉義市山仔頂249-",
         "count": 2
       },
       {
-        "road": "西區湖內村里湖美八路",
-        "count": 2
+        "road": "東區林森村里維和54",
+        "count": 1
       },
       {
-        "road": "西區湖內村里健康八街",
-        "count": 2
+        "road": "西區垂楊村里垂楊路5",
+        "count": 1
       }
     ],
     "top_categories": [
@@ -174,7 +174,7 @@
       },
       {
         "category": "道路路平",
-        "count": 312
+        "count": 272
       },
       {
         "category": "行政服務",
@@ -197,12 +197,12 @@
       "2022": 3112,
       "2023": 3318,
       "2024": 3270,
-      "2025": 8915,
-      "2026": 4283,
+      "2025": 8903,
+      "2026": 4255,
       "2012": 1,
       "2013": 1
     },
-    "updated_at": "2026-09-03T15:42:17.402840",
+    "updated_at": "2026-09-03T20:27:00.035432",
     "source": "data.chiayi.gov.tw"
   },
   "council": {
@@ -236,6 +236,20 @@
   },
   "citizen_stats": {},
   "social_posts": [
+    {
+      "id": "ptt-httpswwwpttccbbsGossipingM1788457481A02Bhtml",
+      "platform": "PTT",
+      "platform_color": "#00b300",
+      "board": "Gossiping",
+      "date": "09/04",
+      "author": "PTT 鄉民",
+      "title": "[問卦] PiTT是什麼垃圾APP? ",
+      "url": "https://www.ptt.cc/bbs/Gossiping/M.1788457481.A.02B.html",
+      "reactions": 0,
+      "comments": 0,
+      "category": "環境衛生",
+      "source": "ptt"
+    },
     {
       "id": "ptt-httpswwwpttccbbsChiayiM1788438177ACDChtml",
       "platform": "PTT",
@@ -283,7 +297,7 @@
       "platform": "PTT",
       "platform_color": "#00b300",
       "board": "Chiayi",
-      "date": "09/03",
+      "date": "09/04",
       "author": "PTT 鄉民",
       "title": "[新聞] 四年服務超過2000件 專職的王浩登記參選",
       "url": "https://www.ptt.cc/bbs/Chiayi/M.1788371231.A.F91.html",
@@ -385,20 +399,6 @@
       "author": "PTT 鄉民",
       "title": "[亂入] 有工廠假日偷排廢氣？",
       "url": "https://www.ptt.cc/bbs/Chiayi/M.1788084122.A.A04.html",
-      "reactions": 0,
-      "comments": 0,
-      "category": "市政議題",
-      "source": "ptt"
-    },
-    {
-      "id": "ptt-httpswwwpttccbbsChiayiM1788066014ACAEhtml",
-      "platform": "PTT",
-      "platform_color": "#00b300",
-      "board": "Chiayi",
-      "date": "09/01",
-      "author": "PTT 鄉民",
-      "title": "[新聞] 嘉義妻車內藏GPS抓外遇 丈夫確實偷",
-      "url": "https://www.ptt.cc/bbs/Chiayi/M.1788066014.A.CAE.html",
       "reactions": 0,
       "comments": 0,
       "category": "市政議題",
