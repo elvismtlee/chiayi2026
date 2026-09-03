@@ -2088,6 +2088,20 @@
   {
     "date": "2026/06",
     "year": "2026",
+    "month": "06",
+    "category": "公共安全",
+    "subcategory": "交通事故",
+    "location": "嘉義市",
+    "count": 687,
+    "deaths": 4,
+    "injuries": 901,
+    "source": "data.chiayi.gov.tw",
+    "title": "道路交通事故（2026/06）",
+    "source_url": "https://data.chiayi.gov.tw/opendata/"
+  },
+  {
+    "date": "2026/06",
+    "year": "2026",
     "category": "道路路平",
     "subcategory": "電力管線",
     "location": "西區港坪村里育人路303號",
