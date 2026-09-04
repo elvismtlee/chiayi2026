@@ -1,6 +1,55 @@
 {
-  "updated_at": "2026-09-04T02:40:26.451255",
+  "updated_at": "2026-09-04T10:33:05.210056",
   "news": [
+    {
+      "headline": "配合「嘉義市射日塔、忠烈祠及孔廟修繕工程」案，射日塔暫停開放。",
+      "source": "嘉義市政府/民政處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=951522",
+      "date": "2026/09/04",
+      "query": "市府新聞"
+    },
+    {
+      "headline": "115年地方公職人員選舉候選人登記截止嘉義市各類選舉候選人登記結果及人數",
+      "source": "嘉義市政府/嘉義市選委會",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=951539",
+      "date": "2026/09/04",
+      "query": "市府新聞"
+    },
+    {
+      "headline": "從震驚事件看見被忽略的警訊陳柏熹司長來嘉開講《桃城無毒Chill嗨嗨》深談藥物濫用與社會安全",
+      "source": "嘉義市政府/衛生局",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=951089",
+      "date": "2026/09/04",
+      "query": "市府新聞"
+    },
+    {
+      "headline": "嘉義市政府衛生局公布「115年連鎖通路及量販業稽查專案」執行結果",
+      "source": "嘉義市政府/衛生局",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=950482",
+      "date": "2026/09/04",
+      "query": "市府新聞"
+    },
+    {
+      "headline": "借杯結善緣、還杯留福氣！嘉市城隍廟「淨杯儀式」為環保杯過火加持",
+      "source": "嘉義市政府/嘉義市政府環境保護局/綜合計畫科",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=951529",
+      "date": "2026/09/04",
+      "query": "市府新聞"
+    },
+    {
+      "headline": "嘉義市推動防制酒駕獲肯定響應八縣市倡議並獲頒永續治理獎",
+      "source": "嘉義市政府/交通處/觀光新聞處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=951526",
+      "date": "2026/09/04",
+      "query": "市府新聞"
+    },
+    {
+      "headline": "「城隍夜巡」影片獲國際雙獎肯定《綏靖祐民–嘉義城隍廟中元祭典暨夜巡諸羅城》新書同步發表",
+      "source": "嘉義市政府/文化局/觀光新聞處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=951515",
+      "date": "2026/09/04",
+      "query": "市府新聞"
+    },
     {
       "headline": "【台灣土地管理制度史上最大變革??】國土計畫法實施後，嘉義市土地還能辦區段徵收、市地重劃？",
       "source": "嘉義市政府/地政處/地用及重劃科",
@@ -34,55 +83,6 @@
       "source": "嘉義市政府/衛生局",
       "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=951235",
       "date": "2026/09/03",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "嘉義市太陽能推廣！咖啡、爆米花體驗永續綠生活",
-      "source": "嘉義市政府/嘉義市政府環境保護局/綜合計畫科",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=951404",
-      "date": "2026/09/03",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "嘉義市115年8月份人口統計資料",
-      "source": "嘉義市政府/民政處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=951403",
-      "date": "2026/09/03",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "「從社區出發讓支持走進日常」嘉義市115年心理健康月暖心啟動",
-      "source": "嘉義市政府/衛生局/觀光新聞處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=951396",
-      "date": "2026/09/03",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "嘉市秋祭追思英烈黃敏惠市長緬懷忠義精神",
-      "source": "嘉義市政府/民政處/觀光新聞處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=951389",
-      "date": "2026/09/03",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "繪本《顧「嘉」的城隍爺公》出版孩子用台語認識嘉義市文化",
-      "source": "嘉義市政府/教育處/觀光新聞處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=951273",
-      "date": "2026/09/02",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "穿上歲月走秀！嘉義「時尚老人」翻開衣櫥時光寶盒",
-      "source": "嘉義市政府/衛生局/觀光新聞處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=951272",
-      "date": "2026/09/02",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "市府推動「嘉有木屋」三年有成串聯7棟老屋舉辦「內面風景」公益回饋活動",
-      "source": "嘉義市政府/都市發展處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=951266",
-      "date": "2026/09/02",
       "query": "市府新聞"
     }
   ],
@@ -202,7 +202,7 @@
       "2012": 1,
       "2013": 1
     },
-    "updated_at": "2026-09-04T02:38:40.031378",
+    "updated_at": "2026-09-04T10:30:20.718903",
     "source": "data.chiayi.gov.tw"
   },
   "council": {
@@ -236,20 +236,6 @@
   },
   "citizen_stats": {},
   "social_posts": [
-    {
-      "id": "ptt-httpswwwpttccbbsGossipingM1788488559A5A4html",
-      "platform": "PTT",
-      "platform_color": "#00b300",
-      "board": "Gossiping",
-      "date": "09/04",
-      "author": "PTT 鄉民",
-      "title": "[問卦] 台北有地區淹水了嗎？",
-      "url": "https://www.ptt.cc/bbs/Gossiping/M.1788488559.A.5A4.html",
-      "reactions": 0,
-      "comments": 0,
-      "category": "排水水利",
-      "source": "ptt"
-    },
     {
       "id": "ptt-httpswwwpttccbbsChiayiM1788438177ACDChtml",
       "platform": "PTT",
@@ -395,10 +381,24 @@
       "platform": "PTT",
       "platform_color": "#00b300",
       "board": "Chiayi",
-      "date": "09/01",
+      "date": "09/04",
       "author": "PTT 鄉民",
       "title": "[亂入] 有工廠假日偷排廢氣？",
       "url": "https://www.ptt.cc/bbs/Chiayi/M.1788084122.A.A04.html",
+      "reactions": 0,
+      "comments": 0,
+      "category": "市政議題",
+      "source": "ptt"
+    },
+    {
+      "id": "ptt-httpswwwpttccbbsChiayiM1788066014ACAEhtml",
+      "platform": "PTT",
+      "platform_color": "#00b300",
+      "board": "Chiayi",
+      "date": "09/01",
+      "author": "PTT 鄉民",
+      "title": "[新聞] 嘉義妻車內藏GPS抓外遇 丈夫確實偷",
+      "url": "https://www.ptt.cc/bbs/Chiayi/M.1788066014.A.CAE.html",
       "reactions": 0,
       "comments": 0,
       "category": "市政議題",
