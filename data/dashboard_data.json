@@ -1,6 +1,20 @@
 {
-  "updated_at": "2026-09-03T20:28:37.537154",
+  "updated_at": "2026-09-04T02:40:26.451255",
   "news": [
+    {
+      "headline": "【台灣土地管理制度史上最大變革??】國土計畫法實施後，嘉義市土地還能辦區段徵收、市地重劃？",
+      "source": "嘉義市政府/地政處/地用及重劃科",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=950653",
+      "date": "2026/09/04",
+      "query": "市府新聞"
+    },
+    {
+      "headline": "嘉義大車站計畫重大突破！小澎湖地區公辦都市更新獲地主熱烈響應參與意願破五成",
+      "source": "嘉義市政府/都市發展處/觀光新聞處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=951487",
+      "date": "2026/09/04",
+      "query": "市府新聞"
+    },
     {
       "headline": "嘉義市污水二期第2標動土！跨越鐵路向東延伸擴大版圖挺進湖子內",
       "source": "嘉義市政府/工務處/觀光新聞處",
@@ -68,20 +82,6 @@
       "headline": "市府推動「嘉有木屋」三年有成串聯7棟老屋舉辦「內面風景」公益回饋活動",
       "source": "嘉義市政府/都市發展處",
       "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=951266",
-      "date": "2026/09/02",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "內政部戶政司全球資訊網115年9月4日19時30分至23時進行系統版本更新作業，該時段各項服務均暫停!",
-      "source": "嘉義市政府/民政處/嘉義市東區戶政事務所/嘉義市西區戶政事務所",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=951254",
-      "date": "2026/09/02",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "交通安全嘉遊讚周周活動獎不完",
-      "source": "嘉義市政府/交通處/觀光新聞處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=951252",
       "date": "2026/09/02",
       "query": "市府新聞"
     }
@@ -202,7 +202,7 @@
       "2012": 1,
       "2013": 1
     },
-    "updated_at": "2026-09-03T20:27:00.035432",
+    "updated_at": "2026-09-04T02:38:40.031378",
     "source": "data.chiayi.gov.tw"
   },
   "council": {
@@ -237,17 +237,17 @@
   "citizen_stats": {},
   "social_posts": [
     {
-      "id": "ptt-httpswwwpttccbbsGossipingM1788457481A02Bhtml",
+      "id": "ptt-httpswwwpttccbbsGossipingM1788488559A5A4html",
       "platform": "PTT",
       "platform_color": "#00b300",
       "board": "Gossiping",
       "date": "09/04",
       "author": "PTT 鄉民",
-      "title": "[問卦] PiTT是什麼垃圾APP? ",
-      "url": "https://www.ptt.cc/bbs/Gossiping/M.1788457481.A.02B.html",
+      "title": "[問卦] 台北有地區淹水了嗎？",
+      "url": "https://www.ptt.cc/bbs/Gossiping/M.1788488559.A.5A4.html",
       "reactions": 0,
       "comments": 0,
-      "category": "環境衛生",
+      "category": "排水水利",
       "source": "ptt"
     },
     {
@@ -255,7 +255,7 @@
       "platform": "PTT",
       "platform_color": "#00b300",
       "board": "Chiayi",
-      "date": "09/03",
+      "date": "09/04",
       "author": "PTT 鄉民",
       "title": "Re: [新聞] 四年服務超過2000件 專職的王浩登記參選",
       "url": "https://www.ptt.cc/bbs/Chiayi/M.1788438177.A.CDC.html",
