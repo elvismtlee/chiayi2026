@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-04T10:33:05.210056",
+  "updated_at": "2026-09-04T15:45:16.977858",
   "news": [
     {
       "headline": "配合「嘉義市射日塔、忠烈祠及孔廟修繕工程」案，射日塔暫停開放。",
@@ -202,7 +202,7 @@
       "2012": 1,
       "2013": 1
     },
-    "updated_at": "2026-09-04T10:30:20.718903",
+    "updated_at": "2026-09-04T15:42:56.785969",
     "source": "data.chiayi.gov.tw"
   },
   "council": {
@@ -248,20 +248,6 @@
       "reactions": 0,
       "comments": 0,
       "category": "行政服務",
-      "source": "ptt"
-    },
-    {
-      "id": "ptt-httpswwwpttccbbsChiayiM1788423338AB69html",
-      "platform": "PTT",
-      "platform_color": "#00b300",
-      "board": "Chiayi",
-      "date": "09/03",
-      "author": "PTT 鄉民",
-      "title": "售韓國熱門CU咖啡糖",
-      "url": "https://www.ptt.cc/bbs/Chiayi/M.1788423338.A.B69.html",
-      "reactions": 0,
-      "comments": 0,
-      "category": "市政議題",
       "source": "ptt"
     },
     {
@@ -399,6 +385,20 @@
       "author": "PTT 鄉民",
       "title": "[新聞] 嘉義妻車內藏GPS抓外遇 丈夫確實偷",
       "url": "https://www.ptt.cc/bbs/Chiayi/M.1788066014.A.CAE.html",
+      "reactions": 0,
+      "comments": 0,
+      "category": "市政議題",
+      "source": "ptt"
+    },
+    {
+      "id": "ptt-httpswwwpttccbbsChiayiM1788056179A7F2html",
+      "platform": "PTT",
+      "platform_color": "#00b300",
+      "board": "Chiayi",
+      "date": "08/31",
+      "author": "PTT 鄉民",
+      "title": "[新聞] 鄭麗文助陣張啟楷喊藍白合「地方選舉不能只顧著一黨之私」",
+      "url": "https://www.ptt.cc/bbs/Chiayi/M.1788056179.A.7F2.html",
       "reactions": 0,
       "comments": 0,
       "category": "市政議題",
