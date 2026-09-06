@@ -1,6 +1,20 @@
 {
-  "updated_at": "2026-09-06T02:38:51.875742",
+  "updated_at": "2026-09-06T10:13:59.070690",
   "news": [
+    {
+      "headline": "600高手「棋」聚！市長盃圍棋賽登場黃敏惠市長勉「不怕輸、從對弈中成長」",
+      "source": "嘉義市政府/教育處/觀光新聞處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=951622",
+      "date": "2026/09/06",
+      "query": "市府新聞"
+    },
+    {
+      "headline": "嘉義市115年祖父母節慶祝大會溫馨登場！邀祖孫共作植栽讓陪伴延續至家庭日常",
+      "source": "嘉義市政府/教育處/觀光新聞處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=951620",
+      "date": "2026/09/06",
+      "query": "市府新聞"
+    },
     {
       "headline": "國家防災日將至嘉義市政府消防局攜手大九九賣場設置防災專區",
       "source": "嘉義市政府/消防局",
@@ -68,20 +82,6 @@
       "headline": "從震驚事件看見被忽略的警訊陳柏熹司長來嘉開講《桃城無毒Chill嗨嗨》深談藥物濫用與社會安全",
       "source": "嘉義市政府/衛生局",
       "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=951089",
-      "date": "2026/09/04",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "嘉義市政府衛生局公布「115年連鎖通路及量販業稽查專案」執行結果",
-      "source": "嘉義市政府/衛生局",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=950482",
-      "date": "2026/09/04",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "借杯結善緣、還杯留福氣！嘉市城隍廟「淨杯儀式」為環保杯過火加持",
-      "source": "嘉義市政府/嘉義市政府環境保護局/綜合計畫科",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=951529",
       "date": "2026/09/04",
       "query": "市府新聞"
     }
@@ -202,7 +202,7 @@
       "2012": 1,
       "2013": 1
     },
-    "updated_at": "2026-09-06T02:37:10.023545",
+    "updated_at": "2026-09-06T10:11:34.188872",
     "source": "data.chiayi.gov.tw"
   },
   "council": {
@@ -236,6 +236,48 @@
   },
   "citizen_stats": {},
   "social_posts": [
+    {
+      "id": "ptt-httpswwwpttccbbsChiayiM1788678535A0C6html",
+      "platform": "PTT",
+      "platform_color": "#00b300",
+      "board": "Chiayi",
+      "date": "09/06",
+      "author": "PTT 鄉民",
+      "title": "[問題] 火車站後站的商店全收了？",
+      "url": "https://www.ptt.cc/bbs/Chiayi/M.1788678535.A.0C6.html",
+      "reactions": 0,
+      "comments": 0,
+      "category": "市政議題",
+      "source": "ptt"
+    },
+    {
+      "id": "ptt-httpswwwpttccbbsChiayiM1788671501A11Fhtml",
+      "platform": "PTT",
+      "platform_color": "#00b300",
+      "board": "Chiayi",
+      "date": "09/06",
+      "author": "PTT 鄉民",
+      "title": "[轉讓] 9/19-9/21澎湖住宿",
+      "url": "https://www.ptt.cc/bbs/Chiayi/M.1788671501.A.11F.html",
+      "reactions": 0,
+      "comments": 0,
+      "category": "市政議題",
+      "source": "ptt"
+    },
+    {
+      "id": "ptt-httpswwwpttccbbsChiayiM1788668495AC05html",
+      "platform": "PTT",
+      "platform_color": "#00b300",
+      "board": "Chiayi",
+      "date": "09/06",
+      "author": "PTT 鄉民",
+      "title": "[新聞] 嘉市交安月出招！82項行動護行人 闖紅燈",
+      "url": "https://www.ptt.cc/bbs/Chiayi/M.1788668495.A.C05.html",
+      "reactions": 0,
+      "comments": 0,
+      "category": "交通停車",
+      "source": "ptt"
+    },
     {
       "id": "ptt-httpswwwpttccbbsChiayiM1788615244AC1Chtml",
       "platform": "PTT",
@@ -311,7 +353,7 @@
       "platform": "PTT",
       "platform_color": "#00b300",
       "board": "Chiayi",
-      "date": "09/05",
+      "date": "09/06",
       "author": "PTT 鄉民",
       "title": "[新聞] 四年服務超過2000件 專職的王浩登記參選",
       "url": "https://www.ptt.cc/bbs/Chiayi/M.1788371231.A.F91.html",
@@ -357,48 +399,6 @@
       "author": "PTT 鄉民",
       "title": "[買賣] DJI Pocket 3手持攝影機/多樣",
       "url": "https://www.ptt.cc/bbs/Chiayi/M.1788259738.A.D5A.html",
-      "reactions": 0,
-      "comments": 0,
-      "category": "市政議題",
-      "source": "ptt"
-    },
-    {
-      "id": "ptt-httpswwwpttccbbsChiayiM1788225823A490html",
-      "platform": "PTT",
-      "platform_color": "#00b300",
-      "board": "Chiayi",
-      "date": "09/05",
-      "author": "PTT 鄉民",
-      "title": "[新聞] 430毫米雨量嘉義市少見積淹水 71處滯洪",
-      "url": "https://www.ptt.cc/bbs/Chiayi/M.1788225823.A.490.html",
-      "reactions": 0,
-      "comments": 0,
-      "category": "排水水利",
-      "source": "ptt"
-    },
-    {
-      "id": "ptt-httpswwwpttccbbsChiayiM1788177613A96Bhtml",
-      "platform": "PTT",
-      "platform_color": "#00b300",
-      "board": "Chiayi",
-      "date": "09/03",
-      "author": "PTT 鄉民",
-      "title": "[新聞] 嘉義火雞肉飯遭疑沒熟11人腹瀉　業者：",
-      "url": "https://www.ptt.cc/bbs/Chiayi/M.1788177613.A.96B.html",
-      "reactions": 0,
-      "comments": 0,
-      "category": "市政議題",
-      "source": "ptt"
-    },
-    {
-      "id": "ptt-httpswwwpttccbbsChiayiM1788143228AA55html",
-      "platform": "PTT",
-      "platform_color": "#00b300",
-      "board": "Chiayi",
-      "date": "09/01",
-      "author": "PTT 鄉民",
-      "title": "Re: [新聞] 嘉義輕軌誰負責中央地方互批 陳世凱南下",
-      "url": "https://www.ptt.cc/bbs/Chiayi/M.1788143228.A.A55.html",
       "reactions": 0,
       "comments": 0,
       "category": "市政議題",
