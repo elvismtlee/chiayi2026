@@ -1,6 +1,27 @@
 {
-  "updated_at": "2026-09-05T19:57:00.388243",
+  "updated_at": "2026-09-06T02:38:51.875742",
   "news": [
+    {
+      "headline": "國家防災日將至嘉義市政府消防局攜手大九九賣場設置防災專區",
+      "source": "嘉義市政府/消防局",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=951617",
+      "date": "2026/09/06",
+      "query": "市府新聞"
+    },
+    {
+      "headline": "嘉市消防80年與您同在—安心防災露營趣",
+      "source": "嘉義市政府/消防局",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=951615",
+      "date": "2026/09/06",
+      "query": "市府新聞"
+    },
+    {
+      "headline": "嘉市青創團隊「川埕」打造一人食川菜嘉義老屋飄出日常川味新風貌",
+      "source": "嘉義市政府/勞工及青年發展處/觀光新聞處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=951614",
+      "date": "2026/09/06",
+      "query": "市府新聞"
+    },
     {
       "headline": "聽見愛的聲音嘉市以音樂處方箋打造失智友善社區",
       "source": "嘉義市政府/衛生局",
@@ -61,27 +82,6 @@
       "headline": "借杯結善緣、還杯留福氣！嘉市城隍廟「淨杯儀式」為環保杯過火加持",
       "source": "嘉義市政府/嘉義市政府環境保護局/綜合計畫科",
       "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=951529",
-      "date": "2026/09/04",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "嘉義市推動防制酒駕獲肯定響應八縣市倡議並獲頒永續治理獎",
-      "source": "嘉義市政府/交通處/觀光新聞處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=951526",
-      "date": "2026/09/04",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "「城隍夜巡」影片獲國際雙獎肯定《綏靖祐民–嘉義城隍廟中元祭典暨夜巡諸羅城》新書同步發表",
-      "source": "嘉義市政府/文化局/觀光新聞處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=951515",
-      "date": "2026/09/04",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "【台灣土地管理制度史上最大變革??】國土計畫法實施後，嘉義市土地還能辦區段徵收、市地重劃？",
-      "source": "嘉義市政府/地政處/地用及重劃科",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=950653",
       "date": "2026/09/04",
       "query": "市府新聞"
     }
@@ -202,7 +202,7 @@
       "2012": 1,
       "2013": 1
     },
-    "updated_at": "2026-09-05T19:54:29.191455",
+    "updated_at": "2026-09-06T02:37:10.023545",
     "source": "data.chiayi.gov.tw"
   },
   "council": {
