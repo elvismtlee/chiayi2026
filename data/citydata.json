@@ -1,51 +1,20 @@
 {
-  "updated_at": "2026-09-07T17:08:45.335601",
+  "updated_at": "2026-09-07T21:06:31.937973",
   "aqi_realtime": [
     {
-      "station": "",
-      "aqi": 0,
-      "pm25": 0.0,
-      "pm10": 0.0,
-      "o3": 0.0,
-      "no2": 0.0,
-      "status": "",
-      "pollutant": "",
-      "time": "2026-09-07 22:00",
-      "source": "環境部"
-    },
-    {
-      "station": "",
-      "aqi": 0,
-      "pm25": 0.0,
-      "pm10": 0.0,
-      "o3": 0.0,
-      "no2": 0.0,
-      "status": "",
-      "pollutant": "",
-      "time": "2026-09-07 22:00",
-      "source": "環境部"
-    },
-    {
-      "station": "",
-      "aqi": 0,
-      "pm25": 0.0,
-      "pm10": 0.0,
-      "o3": 0.0,
-      "no2": 0.0,
-      "status": "",
-      "pollutant": "",
-      "time": "2026-09-07 22:00",
-      "source": "環境部"
+      "station": "嘉義市（Open-Meteo 模型）",
+      "aqi": 113,
+      "pm25": 58.0,
+      "pm10": 58.4,
+      "o3": 3.0,
+      "no2": 48.3,
+      "status": "對敏感族群不健康",
+      "pollutant": "PM2.5",
+      "time": "2026-09-08T05:00",
+      "source": "Open-Meteo"
     }
   ],
-  "aqi_history": [
-    {
-      "month": "",
-      "aqi": 0.0,
-      "pm25": 0.0,
-      "station": "嘉義"
-    }
-  ],
+  "aqi_history": [],
   "earthquake": [
     {
       "title": "規模 4.5・98 km ENE of Donggang, Taiwan",
@@ -72,19 +41,26 @@
   "weather": [
     {
       "station": "嘉義市（Open-Meteo）",
-      "temp": "22.8",
-      "apparent_temp": "26.4",
-      "humidity": "89",
+      "temp": "20.4",
+      "apparent_temp": "22.5",
+      "humidity": "90",
       "rainfall": "0.0",
-      "wind_speed": "5.0",
-      "wind_dir": "128",
-      "cloud": "2",
+      "wind_speed": "6.9",
+      "wind_dir": "127",
+      "cloud": "9",
       "weather": "晴",
-      "time": "2026-09-08 01:00",
+      "time": "2026-09-08 05:00",
       "source": "Open-Meteo"
     }
   ],
   "announcements": [
+    {
+      "title": "115年嘉義市弱勢族群能源效率改善計畫開跑囉 - 嘉義市政府環境保護局",
+      "date": "Mon, 07 Sep 2026",
+      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBjNUh2WTNFTnZOQVVuckZPUV9nRlhkSU9IUmxUd0Z4R0N5NUgyX2xtZmwwQkU3U0pzV2YxYnU2UDBhTkV3cFEzUnJFM2J3U212amxVNGZQWm41UUtSc3AzaV9RbUZWSXRIM2VMT3RLQTBuMkV2NXFyeA?oc=5",
+      "desc": "",
+      "source": "Google新聞"
+    },
     {
       "title": "嘉義市政府衛生局「健康知識+」【「瘦瘦針真的適合每個人嗎？從減重談代謝症候群防治」】 - 嘉義市政府衛生局",
       "date": "Mon, 07 Sep 2026",
@@ -96,13 +72,6 @@
       "title": "嘉義市政府衛生局「健康知識+」《看起來不胖，為什麼膽固醇還是有問題？小心「瘦子中的胖子」！》 - 嘉義市政府衛生局",
       "date": "Mon, 07 Sep 2026",
       "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPdk1nVFdiTHUxWW9xZ1VKZWxkNHc0LXBiSXgzMkZVdnJhZmo1QUMzUl8wckdlWjlURkhDdTdYWkhISExZc3JSbGZPSDZKUERZeFl2YWZXR0ZjNVZRLXpZLU1jc3VNUno3b2xkNW9PcHBXNF96bmZKc1FDbno1Q052VmVDR1Y?oc=5",
-      "desc": "",
-      "source": "Google新聞"
-    },
-    {
-      "title": "9米高「巨型小熊維尼」夜拍新地標！ 「2026光織影舞」水上巨月+發光繪本夢幻點燈「10大童話展區」中秋嘉義同樂 - UDN",
-      "date": "Mon, 07 Sep 2026",
-      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5sdkRuNHpFUVZjdUZHRTk3WDlNYnlZU0tFdDlaMVhFRUQxXzBfdXJocVFqVExnNl9iSnh5bi1tcVJmR3h5dFFWQW5tY052Z3AxeTBxY01kTWF4SDdn?oc=5",
       "desc": "",
       "source": "Google新聞"
     },
@@ -130,9 +99,9 @@
   ],
   "procurement": [
     {
-      "title": "嘉義市污水二期第2標動土！黃敏惠：建設腳步不停歇、連續5年評鑑第一 - 墨新聞-MORE News",
+      "title": "嘉義市污水二期第2標動土！黃敏惠：建設腳步不停歇、連續5年評鑑第一 - 樂聯網",
       "date": "Thu, 03 Sep 2026",
-      "link": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE1pOTY1LWFiWTRxbUk5Z0VfX0VwdUFfZ3ItRWRfWGVFMlJzVGpvWkEyWmlBRHkzbHFYZVI0bGN6dzE3UQ?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE4tUEpZdFVQak5oUFZVTWZETUJndjhMWjJrdkl6M0lIMlcwV09sSmpJSFc5Nk93UFFWaXEyM0RoRS1HYW1hS09UYkx4RQ?oc=5",
       "org": "新聞資訊",
       "source": "Google新聞"
     },
@@ -158,9 +127,23 @@
       "source": "Google新聞"
     },
     {
-      "title": "全國污水評鑑五連霸 嘉義市再奪第三組第1名 - 台灣好新聞",
+      "title": "嘉義市全國污水評鑑再奪第三組第1名！締造五連霸佳績 - 三星傳媒",
       "date": "Sun, 23 Aug 2026",
-      "link": "https://news.google.com/rss/articles/CBMitwJBVV95cUxOOHo0ZzhTdXBLa251RXY3ZnJnYk1hQTRadnpHZkFYMGR0X3FsYVYtT3lBZERibU9hYmM2d0lVSWgtbzRmUmR3UjJRblQwQVA4aUE0bXJSWTlPZnE2VlVmVXNRMW1mM09YUmlNUHJodVBFSDEzb0EyM1pOZTU5NndaV1dCdjNNN2JOZV9Ka1RLZlJTWUo5d3lZUGtsQVhjN0NPalA4MnpRNVFiSGlJUXQxeURWMm5kRkRLdERmTTBuMkpWbm1DVGoweW0yV2hOZ1lSTTBIREJld25UYndJenN4OUVZM2N5SG1RTGZKdGFKYnk2X1ZpSXg2V3EySmsxZF9Vaklnb3NVWVJXR29NUDlfaF9FLU56UkdGUW1na3A3YkFCSjZ6QnpQUzFaVTAydW8xbnJ6U0JfWQ?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1Nclg3ZEQ1ZTBUcFZvM1ZoQ1RHZE1mdzc3SHcwUjRoZjV2aEZZYWk0U20wWjR3SkppTGFuUlBJZkE4ZzdabnlJN21pS2hTLXNMMGZ3NUp5UHJPT3dQUUwwWDN3?oc=5",
+      "org": "新聞資訊",
+      "source": "Google新聞"
+    },
+    {
+      "title": "嘉義市勇奪國家卓越建設獎3金1優質獎 打造人本永續城市新典範 | 熱門亮點 | 商情 - 經濟日報",
+      "date": "Wed, 05 Aug 2026",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9QSDdiLTFqeTNIbmZPQ2luNE9MbkFRdHBGRTIxVFJoa1pRaVBRRDhZT1YzUkdSMGktZGdvcFp6bmh3VThwVndhbVYzaEZSSmN5SlExamxNazA5QQ?oc=5",
+      "org": "新聞資訊",
+      "source": "Google新聞"
+    },
+    {
+      "title": "嘉義市前瞻停車場建設再獲肯定 國家卓越建設獎勇奪3金1優質獎 - 台灣民眾電子報",
+      "date": "Tue, 04 Aug 2026",
+      "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE9VaGxudGtmcm1jcXJmeW9SVU53VFozRWhNTUtuU1lPalZIN2JwTEROZ2lUemNsRzlNZW9XZ1BhbEJZLTFjX3R2TA?oc=5",
       "org": "新聞資訊",
       "source": "Google新聞"
     },
@@ -168,20 +151,6 @@
       "title": "嘉義市污水建設再奪全國第一 締造五連霸佳績 - 社會新聞 - PChome Online 新聞 - PChome Online 新聞",
       "date": "Sun, 23 Aug 2026",
       "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNYTVvR3g5aDZUTVlkemk5b09KZlMtMEs3Tkh5RG1feWc5ZWhSV0laVU9BZ0VnbUhzUEhfUFVQMEpfUmx2SXF0UkRFUTV0bndCajh5d2lpVzA0UmlZay1naHBJWENJQ3pFdlo2cTJjbFNfbjVXaUdTcWtDTzg3eVNieXdlOWFPQlRtbjM2NkFBOA?oc=5",
-      "org": "新聞資訊",
-      "source": "Google新聞"
-    },
-    {
-      "title": "19度流標終於走到最後一哩路！嘉義崇文國小地下停車場拚10月啟用 207席車位、接送動線全面地下化 - yesmedia.com.tw",
-      "date": "Mon, 31 Aug 2026",
-      "link": "https://news.google.com/rss/articles/CBMizgJBVV95cUxNcG5CUmpaalo2dlkxcU5ZWUo3WlYwRlR2Ykp5X3dxQmlvSTQzODJOVDN6bWhJQnNvQlpWQ0s3bS1ya1RjNHc3ZkdjWC1udldWWHlmRUVzVllkZW9FOEtiaGhxSm1idU9USmFNU2RyNVR1MWpVRUtFLU1vODFDUG94bU96aUtwd21SMmdrel9YQTVLMlhiUDZGN2cwN2c4TEI2NnpvVFd6TU5td05GU2tBLU1tQVVrNDNxYTF0NVNZdUlVaHlpNFdLaC1XY1dJNjJKaXR3Rmh1WlpEb2U3MWtRbnNvRnIxa2FLUGtBNE1nNGl5ZXNLaGpueUNTTnEtbGZqVEI5eWd6Q1VoQk43UlRabXkzN0wwSzN2VU42a1VJdUF5RGVEWmswcEpRazd0NGh2dHh6TzFuU282UEdCUG4tUVppakd1eVZqeTB3WU9n?oc=5",
-      "org": "新聞資訊",
-      "source": "Google新聞"
-    },
-    {
-      "title": "嘉市東門圓環施工改善疑挖到古城門遺構暫時停工- 生活 - 自由時報",
-      "date": "Wed, 12 Aug 2026",
-      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBvbGFmN1JTOEJLM19EYlpmSGFBUVJaVnVFVnQ2b0xhdjdGVkFIdHZzVjIxdm1mdWpBaXlEdUJ0UzBoSW5BYU1RR2JQUHdsM3BFM1V3Xy1BalV1d0hkQms3UWtKeHk?oc=5",
       "org": "新聞資訊",
       "source": "Google新聞"
     }
@@ -300,7 +269,7 @@
       "lat": 23.482012,
       "lng": 120.457342,
       "total": 22,
-      "available": 1,
+      "available": 4,
       "addr": "中山路98號(前)"
     },
     {
@@ -309,7 +278,7 @@
       "lat": 23.482663,
       "lng": 120.462988,
       "total": 25,
-      "available": 11,
+      "available": 7,
       "addr": "中山路2號(前)"
     },
     {
@@ -318,7 +287,7 @@
       "lat": 23.478707,
       "lng": 120.462594,
       "total": 38,
-      "available": 7,
+      "available": 8,
       "addr": "啟明路122號(前)"
     },
     {
@@ -336,7 +305,7 @@
       "lat": 23.4798596,
       "lng": 120.4488291,
       "total": 20,
-      "available": 1,
+      "available": 3,
       "addr": "中山路306號"
     },
     {
@@ -354,7 +323,7 @@
       "lat": 23.47917,
       "lng": 120.44186,
       "total": 99,
-      "available": 74,
+      "available": 67,
       "addr": "中山路524號"
     },
     {
@@ -363,7 +332,7 @@
       "lat": 23.47877,
       "lng": 120.44089,
       "total": 42,
-      "available": 21,
+      "available": 31,
       "addr": "中山路528號"
     },
     {
@@ -390,7 +359,7 @@
       "lat": 23.4738724,
       "lng": 120.4493073,
       "total": 20,
-      "available": 2,
+      "available": 10,
       "addr": "垂楊路434號"
     },
     {
@@ -417,7 +386,7 @@
       "lat": 23.48091,
       "lng": 120.43012,
       "total": 20,
-      "available": 4,
+      "available": 3,
       "addr": "北港路312號東側"
     },
     {
@@ -426,7 +395,7 @@
       "lat": 23.48465,
       "lng": 120.43354,
       "total": 14,
-      "available": 6,
+      "available": 4,
       "addr": "友愛興達路口"
     },
     {
@@ -435,7 +404,7 @@
       "lat": 23.48931,
       "lng": 120.4361,
       "total": 15,
-      "available": 8,
+      "available": 9,
       "addr": "自由路298號"
     },
     {
@@ -444,7 +413,7 @@
       "lat": 23.49265,
       "lng": 120.43191,
       "total": 15,
-      "available": 9,
+      "available": 10,
       "addr": "自由路492號"
     },
     {
@@ -467,5 +436,5 @@
     }
   ],
   "water": [],
-  "fetch_seconds": 86.9
+  "fetch_seconds": 89.5
 }
