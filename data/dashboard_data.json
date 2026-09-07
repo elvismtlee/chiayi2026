@@ -1,6 +1,20 @@
 {
-  "updated_at": "2026-09-07T02:38:20.845835",
+  "updated_at": "2026-09-07T11:30:58.395256",
   "news": [
+    {
+      "headline": "電子煙別再留！嘉市9月8日起開放免具名回收",
+      "source": "嘉義市政府/衛生局",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=951666",
+      "date": "2026/09/07",
+      "query": "市府新聞"
+    },
+    {
+      "headline": "市府推動「嘉有木屋」三年有成串聯7棟老屋舉辦「內面風景」公益回饋活動",
+      "source": "嘉義市政府/都市發展處/觀光新聞處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=951685",
+      "date": "2026/09/07",
+      "query": "市府新聞"
+    },
     {
       "headline": "「2026嘉義市光織影舞」10大夢幻展區亮相邀您走進「光影森林」",
       "source": "嘉義市政府/觀光新聞處",
@@ -12,6 +26,13 @@
       "headline": "【轉知】交通部中央氣象署古坑氣象站「氣象鄰距離，防災不NG」防災與環境教育闖關活動",
       "source": "嘉義市政府/企劃處",
       "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=951661",
+      "date": "2026/09/07",
+      "query": "市府新聞"
+    },
+    {
+      "headline": "地價稅自用住宅優惠稅率申請倒數9月22日前提出，稅金可省4倍！",
+      "source": "嘉義市政府/財政稅務局",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=951678",
       "date": "2026/09/07",
       "query": "市府新聞"
     },
@@ -62,27 +83,6 @@
       "source": "嘉義市政府/民政處/觀光新聞處",
       "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=951590",
       "date": "2026/09/05",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "嘉市表揚11名績優托育人員托育布建再升級！年底增2處公托設施",
-      "source": "嘉義市政府/社會處/觀光新聞處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=951589",
-      "date": "2026/09/05",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "火砲聲響別驚慌！9、10月實彈射擊訓練公告",
-      "source": "嘉義市政府/西區公所",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=951535",
-      "date": "2026/09/05",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "配合「嘉義市射日塔、忠烈祠及孔廟修繕工程」案，射日塔暫停開放。",
-      "source": "嘉義市政府/民政處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=951522",
-      "date": "2026/09/04",
       "query": "市府新聞"
     }
   ],
@@ -202,7 +202,7 @@
       "2012": 1,
       "2013": 1
     },
-    "updated_at": "2026-09-07T02:36:01.029917",
+    "updated_at": "2026-09-07T11:28:33.790015",
     "source": "data.chiayi.gov.tw"
   },
   "council": {
@@ -236,6 +236,34 @@
   },
   "citizen_stats": {},
   "social_posts": [
+    {
+      "id": "ptt-httpswwwpttccbbsChiayiM1788762166A67Dhtml",
+      "platform": "PTT",
+      "platform_color": "#00b300",
+      "board": "Chiayi",
+      "date": "09/07",
+      "author": "PTT 鄉民",
+      "title": "[買賣] Surface筆電、FB視訊通話器、Kindle...",
+      "url": "https://www.ptt.cc/bbs/Chiayi/M.1788762166.A.67D.html",
+      "reactions": 0,
+      "comments": 0,
+      "category": "市政議題",
+      "source": "ptt"
+    },
+    {
+      "id": "ptt-httpswwwpttccbbsChiayiM1788752179A4EDhtml",
+      "platform": "PTT",
+      "platform_color": "#00b300",
+      "board": "Chiayi",
+      "date": "09/07",
+      "author": "PTT 鄉民",
+      "title": "[問題] 嘉義生豆包吃到飽的火鍋店",
+      "url": "https://www.ptt.cc/bbs/Chiayi/M.1788752179.A.4ED.html",
+      "reactions": 0,
+      "comments": 0,
+      "category": "市政議題",
+      "source": "ptt"
+    },
     {
       "id": "ptt-httpswwwpttccbbsChiayiM1788741894A21Bhtml",
       "platform": "PTT",
@@ -325,7 +353,7 @@
       "platform": "PTT",
       "platform_color": "#00b300",
       "board": "Chiayi",
-      "date": "09/06",
+      "date": "09/07",
       "author": "PTT 鄉民",
       "title": "[討論] 張啓楷嘉義市競選總部前人行道超級讚",
       "url": "https://www.ptt.cc/bbs/Chiayi/M.1788610102.A.A73.html",
@@ -371,34 +399,6 @@
       "author": "PTT 鄉民",
       "title": "[廣告]夫妻精油按摩工作坊-含手作按摩精油30ml",
       "url": "https://www.ptt.cc/bbs/Chiayi/M.1788407010.A.C1C.html",
-      "reactions": 0,
-      "comments": 0,
-      "category": "市政議題",
-      "source": "ptt"
-    },
-    {
-      "id": "ptt-httpswwwpttccbbsChiayiM1788371231AF91html",
-      "platform": "PTT",
-      "platform_color": "#00b300",
-      "board": "Chiayi",
-      "date": "09/07",
-      "author": "PTT 鄉民",
-      "title": "[新聞] 四年服務超過2000件 專職的王浩登記參選",
-      "url": "https://www.ptt.cc/bbs/Chiayi/M.1788371231.A.F91.html",
-      "reactions": 0,
-      "comments": 0,
-      "category": "行政服務",
-      "source": "ptt"
-    },
-    {
-      "id": "ptt-httpswwwpttccbbsChiayiM1788315502A153html",
-      "platform": "PTT",
-      "platform_color": "#00b300",
-      "board": "Chiayi",
-      "date": "09/05",
-      "author": "PTT 鄉民",
-      "title": "[買賣] 全國/二手/品牌小孩玩具-用品-童書",
-      "url": "https://www.ptt.cc/bbs/Chiayi/M.1788315502.A.153.html",
       "reactions": 0,
       "comments": 0,
       "category": "市政議題",

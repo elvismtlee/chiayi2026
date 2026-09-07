@@ -1,16 +1,16 @@
 {
-  "updated_at": "2026-09-07T02:36:57.086399",
+  "updated_at": "2026-09-07T11:29:31.229446",
   "aqi_realtime": [
     {
       "station": "嘉義市（Open-Meteo 模型）",
-      "aqi": 29,
-      "pm25": 21.2,
-      "pm10": 26.4,
-      "o3": 106.0,
-      "no2": 17.7,
+      "aqi": 40,
+      "pm25": 28.8,
+      "pm10": 30.7,
+      "o3": 71.0,
+      "no2": 58.6,
       "status": "良好",
       "pollutant": "PM2.5",
-      "time": "2026-09-07T10:00",
+      "time": "2026-09-07T19:00",
       "source": "Open-Meteo"
     }
   ],
@@ -41,58 +41,58 @@
   "weather": [
     {
       "station": "嘉義市（Open-Meteo）",
-      "temp": "29.9",
-      "apparent_temp": "37.3",
-      "humidity": "69",
+      "temp": "25.4",
+      "apparent_temp": "30.4",
+      "humidity": "87",
       "rainfall": "0.0",
-      "wind_speed": "1.6",
-      "wind_dir": "264",
-      "cloud": "11",
+      "wind_speed": "3.6",
+      "wind_dir": "360",
+      "cloud": "0",
       "weather": "晴",
-      "time": "2026-09-07 10:30",
+      "time": "2026-09-07 19:15",
       "source": "Open-Meteo"
     }
   ],
   "announcements": [
     {
-      "title": "嘉義市推動智慧回收機佈建再增3處！明(6/24)起推廣活動起跑 揪你回收兌優惠 - 嘉義市政府環境保護局",
+      "title": "嘉義市政府衛生局「健康知識+」《看起來不胖，為什麼膽固醇還是有問題？小心「瘦子中的胖子」！》 - 嘉義市政府衛生局",
+      "date": "Mon, 07 Sep 2026",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPdk1nVFdiTHUxWW9xZ1VKZWxkNHc0LXBiSXgzMkZVdnJhZmo1QUMzUl8wckdlWjlURkhDdTdYWkhISExZc3JSbGZPSDZKUERZeFl2YWZXR0ZjNVZRLXpZLU1jc3VNUno3b2xkNW9PcHBXNF96bmZKc1FDbno1Q052VmVDR1Y?oc=5",
+      "desc": "",
+      "source": "Google新聞"
+    },
+    {
+      "title": "嘉義市街頭藏7棟「老木屋」！修繕後變咖啡廳、展演空間 黃敏惠邀民眾探秘 - 墨新聞-MORE News",
+      "date": "Mon, 07 Sep 2026",
+      "link": "https://news.google.com/rss/articles/CBMiQkFVX3lxTFBzVGJBaEM3dXZhS2c0Y1NHMDJpWFZfX0IzdnptUlF0UUhNVm5xb0ZBM24zSC1mUVFBUGkzeUQyNkNNQQ?oc=5",
+      "desc": "",
+      "source": "Google新聞"
+    },
+    {
+      "title": "嘉義市推動智慧回收機佈建再增3處！明(6/24)起推廣活動起跑 揪你回收兌優惠 - epb.chiayi.gov.tw",
       "date": "Thu, 03 Sep 2026",
       "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5QT2NIVDRNd0hqalRNLU01Um40YjRtTk0ycVNZX0Y5SGltRllMZGZDZlNRVC1aLWF5dDkxWTU2RXRpbWNkb2RMV1BNUjZuMjhTcVJUY2RSY0dfSDZaaG5qTmFPdmFUa2RHeW5RWE5vMHdMTnFBRTVBRA?oc=5",
       "desc": "",
       "source": "Google新聞"
     },
     {
-      "title": "嘉義市長盃圍棋賽登場！黃敏惠市長勉「不怕輸、從對弈中成長」 - 中央社 CNA",
-      "date": "Mon, 07 Sep 2026",
-      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBuM2ZaNkdNZGkwMzkxY1JiWFFLNm4tb0ExUzJWSWx0b1NlRGtrRXZ3SUpvRm04T0Q1TzZ2ZVd4RWE3LVlYWkJ4TDlEQ2pITnJiWVdraXpB?oc=5",
+      "title": "嘉義市再增8個單位通過親善哺（集）乳室認證 持續打造母嬰友善城市 - 嘉義市政府衛生局",
+      "date": "Fri, 04 Sep 2026",
+      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBJQk5aNmhRZHRiRmFnWTJRbUJmQjdEbFVxV19yM3lpdmtXMmp6VFo5UHdlcEd3bEdSdG83NFdzRUNKTWk4eUJMSjNIdkxTSjZIYVNjeGRnZ1dWUk54aTFOaE1XZWFsbFpDVG9ubnI2V2VSdENTVVVBQzVtM18?oc=5",
       "desc": "",
       "source": "Google新聞"
     },
     {
-      "title": "9米高小熊維尼坐鎮北香湖 嘉義市「光織影舞」10大裝置迎秋夜 - 墨新聞-MORE News",
-      "date": "Mon, 07 Sep 2026",
-      "link": "https://news.google.com/rss/articles/CBMiQkFVX3lxTFBIdE40dzBLUk5uQlFSVW1VQS1rcnJodVJEVU94WWdmMUdxcmJzWjRIUVRBdzRfdjZwR2wxbHhRX2prdw?oc=5",
-      "desc": "",
-      "source": "Google新聞"
-    },
-    {
-      "title": "嘉義市第二屆節能知識線上競賽即將開跑 邀全民一起學節電、拿好禮 - 嘉義市政府環境保護局",
+      "title": "嘉義市第二屆節能知識線上競賽即將開跑 邀全民一起學節電、拿好禮 - epb.chiayi.gov.tw",
       "date": "Wed, 02 Sep 2026",
       "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBET2lCTmlYTlB1TXQ1SHpWbTNab1NsNE9fQWFkTDVQYnBtaGFyWW00Y2NyUUlSU3FXdDR1X0RUQ0xZSi1mV2t1YWhKUTh2YXVjZWdUWnlOekpyZVhhcjhlcnNsZnBvVjJmZjFfZjVqVXpzWEFmUk1RMw?oc=5",
       "desc": "",
       "source": "Google新聞"
     },
     {
-      "title": "嘉義市推動智慧回收機佈建再進化 擴點結合活動提升市民參與 - 嘉義市政府環境保護局",
+      "title": "嘉義市推動智慧回收機佈建再進化 擴點結合活動提升市民參與 - epb.chiayi.gov.tw",
       "date": "Thu, 03 Sep 2026",
       "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE0yT0xzRGxzR2tVNFF1MTFJQ1k2WkRrVWtKRlBVYTBTZzlQbG9mRGY3eEgxanRFQmloMW9MbG1oZmRkbFVoSF9aODdBOHZjZVlZamY0ZnBqLWIwZnlDSENvejlSSVh0ODFKdmpwOEtRWDQweFdUUld2eA?oc=5",
-      "desc": "",
-      "source": "Google新聞"
-    },
-    {
-      "title": "【轉知】交通部中央氣象署古坑氣象站「氣象鄰距離，防災不NG」防災與環境教育闖關活動 - chiayi.gov.tw",
-      "date": "Mon, 07 Sep 2026",
-      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE52S0NHdHk1aGVXVmpQZE01eEZHbHhQT3o0d3J4UFR0TVZ6NjlZNjVIdzNWN3lORUxZeElva0xzb0NBTmNIT2pFR2doYVgxNVUxc3NnaHJ1YWM2N1d5NEdvaGVPaW8ybjdQUHc?oc=5",
       "desc": "",
       "source": "Google新聞"
     }
@@ -260,7 +260,7 @@
       "lat": 23.481634,
       "lng": 120.453745,
       "total": 45,
-      "available": 30,
+      "available": 18,
       "addr": "中山路199號(對面)"
     },
     {
@@ -269,7 +269,7 @@
       "lat": 23.482012,
       "lng": 120.457342,
       "total": 22,
-      "available": 14,
+      "available": 3,
       "addr": "中山路98號(前)"
     },
     {
@@ -278,7 +278,7 @@
       "lat": 23.482663,
       "lng": 120.462988,
       "total": 25,
-      "available": 16,
+      "available": 7,
       "addr": "中山路2號(前)"
     },
     {
@@ -287,7 +287,7 @@
       "lat": 23.478707,
       "lng": 120.462594,
       "total": 38,
-      "available": 28,
+      "available": 8,
       "addr": "啟明路122號(前)"
     },
     {
@@ -296,7 +296,7 @@
       "lat": 23.477031,
       "lng": 120.465573,
       "total": 34,
-      "available": 15,
+      "available": 14,
       "addr": "大雅路二段738號(前)"
     },
     {
@@ -305,7 +305,7 @@
       "lat": 23.4798596,
       "lng": 120.4488291,
       "total": 20,
-      "available": 10,
+      "available": 16,
       "addr": "中山路306號"
     },
     {
@@ -314,7 +314,7 @@
       "lat": 23.47963,
       "lng": 120.44583,
       "total": 20,
-      "available": 18,
+      "available": 11,
       "addr": "中山路386號"
     },
     {
@@ -323,7 +323,7 @@
       "lat": 23.47917,
       "lng": 120.44186,
       "total": 99,
-      "available": 14,
+      "available": 26,
       "addr": "中山路524號"
     },
     {
@@ -332,7 +332,7 @@
       "lat": 23.47877,
       "lng": 120.44089,
       "total": 42,
-      "available": 23,
+      "available": 20,
       "addr": "中山路528號"
     },
     {
@@ -341,7 +341,7 @@
       "lat": 23.47283,
       "lng": 120.44029,
       "total": 5,
-      "available": 4,
+      "available": 1,
       "addr": "垂楊路575號"
     },
     {
@@ -350,7 +350,7 @@
       "lat": 23.47336,
       "lng": 120.44604,
       "total": 14,
-      "available": 6,
+      "available": 14,
       "addr": "垂楊路351號"
     },
     {
@@ -359,7 +359,7 @@
       "lat": 23.4738724,
       "lng": 120.4493073,
       "total": 20,
-      "available": 10,
+      "available": 13,
       "addr": "垂楊路434號"
     },
     {
@@ -377,7 +377,7 @@
       "lat": 23.486138,
       "lng": 120.453829,
       "total": 20,
-      "available": 16,
+      "available": 6,
       "addr": "忠孝路284號(旁)"
     },
     {
@@ -386,7 +386,7 @@
       "lat": 23.48091,
       "lng": 120.43012,
       "total": 20,
-      "available": 12,
+      "available": 3,
       "addr": "北港路312號東側"
     },
     {
@@ -395,7 +395,7 @@
       "lat": 23.48465,
       "lng": 120.43354,
       "total": 14,
-      "available": 4,
+      "available": 13,
       "addr": "友愛興達路口"
     },
     {
@@ -404,7 +404,7 @@
       "lat": 23.48931,
       "lng": 120.4361,
       "total": 15,
-      "available": 8,
+      "available": 3,
       "addr": "自由路298號"
     },
     {
@@ -413,7 +413,7 @@
       "lat": 23.49265,
       "lng": 120.43191,
       "total": 15,
-      "available": 3,
+      "available": 6,
       "addr": "自由路492號"
     },
     {
@@ -422,7 +422,7 @@
       "lat": 23.478941,
       "lng": 120.437805,
       "total": 23,
-      "available": 9,
+      "available": 2,
       "addr": "博愛路二段281號"
     },
     {
@@ -431,10 +431,10 @@
       "lat": 23.47165,
       "lng": 120.43119,
       "total": 15,
-      "available": 8,
+      "available": 12,
       "addr": "博愛路二段461號"
     }
   ],
   "water": [],
-  "fetch_seconds": 83.8
+  "fetch_seconds": 87.2
 }
