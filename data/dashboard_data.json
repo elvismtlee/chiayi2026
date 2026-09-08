@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-08T15:55:16.916917",
+  "updated_at": "2026-09-08T20:38:54.505985",
   "news": [
     {
       "headline": "嘉義市持續追查麻油車冷壓黑麻油苯駢芘超標案之產品流向及下架回收情形",
@@ -87,12 +87,12 @@
     }
   ],
   "complaint_stats": {
-    "total": 80205,
-    "record_count": 553,
+    "total": 80218,
+    "record_count": 566,
     "category_counts": {
       "公共安全": 39345,
       "交通停車": 7743,
-      "道路路平": 296,
+      "道路路平": 309,
       "環境衛生": 5,
       "行政服務": 6
     },
@@ -107,11 +107,11 @@
         "公有停車場": 38
       },
       "道路路平": {
-        "電力管線": 56,
-        "道路施工": 6,
-        "自來水管線": 20,
-        "電信管線": 38,
-        "市府工程": 4,
+        "電力管線": 65,
+        "道路施工": 2,
+        "市府工程": 5,
+        "自來水管線": 25,
+        "電信管線": 40,
         "橋梁設施": 172
       },
       "環境衛生": {
@@ -127,27 +127,31 @@
         "count": 12
       },
       {
+        "road": "西區湖內村里健康七街",
+        "count": 4
+      },
+      {
         "road": "東區嘉義",
-        "count": 10
-      },
-      {
-        "road": "東區過溝村里吳鳳北路",
-        "count": 2
-      },
-      {
-        "road": "東區太平村里林森東路",
-        "count": 2
+        "count": 4
       },
       {
         "road": "西區湖內村里湖子內路",
+        "count": 3
+      },
+      {
+        "road": "東區太平村里林森東路",
+        "count": 3
+      },
+      {
+        "road": "西區新西村里上海路3",
         "count": 2
       },
       {
-        "road": "東區圳頭村里林森東路",
+        "road": "東區太平村里新生路3",
         "count": 2
       },
       {
-        "road": "東區新店村里林森東路",
+        "road": "西區竹圍村里友愛路3",
         "count": 2
       },
       {
@@ -155,11 +159,7 @@
         "count": 2
       },
       {
-        "road": "西區新西村里上海路3",
-        "count": 2
-      },
-      {
-        "road": "西區湖內村里健康七街",
+        "road": "東區東興村里安和街1",
         "count": 2
       }
     ],
@@ -174,7 +174,7 @@
       },
       {
         "category": "道路路平",
-        "count": 296
+        "count": 309
       },
       {
         "category": "行政服務",
@@ -198,11 +198,11 @@
       "2023": 3318,
       "2024": 3270,
       "2025": 8899,
-      "2026": 4283,
+      "2026": 4296,
       "2012": 1,
       "2013": 1
     },
-    "updated_at": "2026-09-08T15:53:41.881163",
+    "updated_at": "2026-09-08T20:37:14.180926",
     "source": "data.chiayi.gov.tw"
   },
   "council": {
@@ -236,48 +236,6 @@
   },
   "citizen_stats": {},
   "social_posts": [
-    {
-      "id": "ptt-httpswwwpttccbbsGossipingM1788882458AE9Ahtml",
-      "platform": "PTT",
-      "platform_color": "#00b300",
-      "board": "Gossiping",
-      "date": "09/08",
-      "author": "PTT 鄉民",
-      "title": "Re: [新聞] 北市議員李柏毅急診室咆哮醫護 淚崩認錯、",
-      "url": "https://www.ptt.cc/bbs/Gossiping/M.1788882458.A.E9A.html",
-      "reactions": 0,
-      "comments": 0,
-      "category": "市政議題",
-      "source": "ptt"
-    },
-    {
-      "id": "ptt-httpswwwpttccbbsGossipingM1788882400AA1Bhtml",
-      "platform": "PTT",
-      "platform_color": "#00b300",
-      "board": "Gossiping",
-      "date": "09/08",
-      "author": "PTT 鄉民",
-      "title": "[新聞] 盧秀燕繼卓榮泰視察中火 綠議員籲勿",
-      "url": "https://www.ptt.cc/bbs/Gossiping/M.1788882400.A.A1B.html",
-      "reactions": 0,
-      "comments": 0,
-      "category": "市政議題",
-      "source": "ptt"
-    },
-    {
-      "id": "ptt-httpswwwpttccbbsGossipingM1788882287AAEDhtml",
-      "platform": "PTT",
-      "platform_color": "#00b300",
-      "board": "Gossiping",
-      "date": "09/08",
-      "author": "PTT 鄉民",
-      "title": "[新聞] 花蓮秀林鄉長夫妻參選縣議員、鄉長涉現金",
-      "url": "https://www.ptt.cc/bbs/Gossiping/M.1788882287.A.AED.html",
-      "reactions": 0,
-      "comments": 0,
-      "category": "市政議題",
-      "source": "ptt"
-    },
     {
       "id": "ptt-httpswwwpttccbbsChiayiM1788752179A4EDhtml",
       "platform": "PTT",
@@ -399,6 +357,48 @@
       "author": "PTT 鄉民",
       "title": "[廣告]夫妻精油按摩工作坊-含手作按摩精油30ml",
       "url": "https://www.ptt.cc/bbs/Chiayi/M.1788407010.A.C1C.html",
+      "reactions": 0,
+      "comments": 0,
+      "category": "市政議題",
+      "source": "ptt"
+    },
+    {
+      "id": "ptt-httpswwwpttccbbsChiayiM1788371231AF91html",
+      "platform": "PTT",
+      "platform_color": "#00b300",
+      "board": "Chiayi",
+      "date": "09/08",
+      "author": "PTT 鄉民",
+      "title": "[新聞] 四年服務超過2000件 專職的王浩登記參選",
+      "url": "https://www.ptt.cc/bbs/Chiayi/M.1788371231.A.F91.html",
+      "reactions": 0,
+      "comments": 0,
+      "category": "行政服務",
+      "source": "ptt"
+    },
+    {
+      "id": "ptt-httpswwwpttccbbsChiayiM1788315502A153html",
+      "platform": "PTT",
+      "platform_color": "#00b300",
+      "board": "Chiayi",
+      "date": "09/05",
+      "author": "PTT 鄉民",
+      "title": "[買賣] 全國/二手/品牌小孩玩具-用品-童書",
+      "url": "https://www.ptt.cc/bbs/Chiayi/M.1788315502.A.153.html",
+      "reactions": 0,
+      "comments": 0,
+      "category": "市政議題",
+      "source": "ptt"
+    },
+    {
+      "id": "ptt-httpswwwpttccbbsChiayiM1788301428A377html",
+      "platform": "PTT",
+      "platform_color": "#00b300",
+      "board": "Chiayi",
+      "date": "09/02",
+      "author": "PTT 鄉民",
+      "title": "[問題] 請問大林火車站附近計程車好叫嗎",
+      "url": "https://www.ptt.cc/bbs/Chiayi/M.1788301428.A.377.html",
       "reactions": 0,
       "comments": 0,
       "category": "市政議題",
