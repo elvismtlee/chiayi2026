@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-09T15:53:38.111977",
+  "updated_at": "2026-09-09T20:21:14.264256",
   "news": [
     {
       "headline": "失智長者躍上舞台變身表演者！「當我們同在憶起」音樂會串起據點、機構與志工共融力量",
@@ -87,12 +87,12 @@
     }
   ],
   "complaint_stats": {
-    "total": 80218,
-    "record_count": 566,
+    "total": 80224,
+    "record_count": 572,
     "category_counts": {
       "公共安全": 39345,
       "交通停車": 7743,
-      "道路路平": 309,
+      "道路路平": 315,
       "環境衛生": 5,
       "行政服務": 6
     },
@@ -107,11 +107,11 @@
         "公有停車場": 38
       },
       "道路路平": {
-        "電力管線": 65,
+        "電力管線": 68,
+        "自來水管線": 30,
+        "電信管線": 37,
+        "市府工程": 6,
         "道路施工": 2,
-        "市府工程": 5,
-        "自來水管線": 25,
-        "電信管線": 40,
         "橋梁設施": 172
       },
       "環境衛生": {
@@ -127,39 +127,39 @@
         "count": 12
       },
       {
+        "road": "東區嘉義",
+        "count": 6
+      },
+      {
         "road": "西區湖內村里健康七街",
         "count": 4
-      },
-      {
-        "road": "東區嘉義",
-        "count": 4
-      },
-      {
-        "road": "西區湖內村里湖子內路",
-        "count": 3
       },
       {
         "road": "東區太平村里林森東路",
         "count": 3
       },
       {
-        "road": "西區新西村里上海路3",
-        "count": 2
+        "road": "西區保安村里世賢路一",
+        "count": 3
       },
       {
-        "road": "東區太平村里新生路3",
-        "count": 2
-      },
-      {
-        "road": "西區竹圍村里友愛路3",
-        "count": 2
-      },
-      {
-        "road": "東區太平村里新生路4",
-        "count": 2
+        "road": "西區湖內村里湖子內路",
+        "count": 3
       },
       {
         "road": "東區東興村里安和街1",
+        "count": 2
+      },
+      {
+        "road": "東區華南村里維新路2",
+        "count": 2
+      },
+      {
+        "road": "東區圳頭村里林森東路",
+        "count": 2
+      },
+      {
+        "road": "東區新店村里林森東路",
         "count": 2
       }
     ],
@@ -174,7 +174,7 @@
       },
       {
         "category": "道路路平",
-        "count": 309
+        "count": 315
       },
       {
         "category": "行政服務",
@@ -196,13 +196,13 @@
       "2021": 3035,
       "2022": 3112,
       "2023": 3318,
-      "2024": 3270,
-      "2025": 8899,
-      "2026": 4296,
+      "2024": 3271,
+      "2025": 8903,
+      "2026": 4297,
       "2012": 1,
       "2013": 1
     },
-    "updated_at": "2026-09-09T15:51:10.892555",
+    "updated_at": "2026-09-09T20:19:25.986409",
     "source": "data.chiayi.gov.tw"
   },
   "council": {
@@ -237,11 +237,25 @@
   "citizen_stats": {},
   "social_posts": [
     {
+      "id": "ptt-httpswwwpttccbbsGossipingM1788981167AC15html",
+      "platform": "PTT",
+      "platform_color": "#00b300",
+      "board": "Gossiping",
+      "date": "09/10",
+      "author": "PTT 鄉民",
+      "title": "[問卦] 為何1999美金是74900台幣",
+      "url": "https://www.ptt.cc/bbs/Gossiping/M.1788981167.A.C15.html",
+      "reactions": 0,
+      "comments": 0,
+      "category": "行政服務",
+      "source": "ptt"
+    },
+    {
       "id": "ptt-httpswwwpttccbbsChiayiM1788962928AC7Bhtml",
       "platform": "PTT",
       "platform_color": "#00b300",
       "board": "Chiayi",
-      "date": "09/09",
+      "date": "09/10",
       "author": "PTT 鄉民",
       "title": "[討論] 嘉義多一點粉專分享今年底議員選舉",
       "url": "https://www.ptt.cc/bbs/Chiayi/M.1788962928.A.C7B.html",
@@ -269,7 +283,7 @@
       "platform": "PTT",
       "platform_color": "#00b300",
       "board": "Chiayi",
-      "date": "09/09",
+      "date": "09/10",
       "author": "PTT 鄉民",
       "title": "[新聞] 藍白竹縣破局、嘉義市續合作　張啓楷：黃國昌、鄭麗文任雙主",
       "url": "https://www.ptt.cc/bbs/Chiayi/M.1788947352.A.50B.html",
@@ -339,7 +353,7 @@
       "platform": "PTT",
       "platform_color": "#00b300",
       "board": "Chiayi",
-      "date": "09/09",
+      "date": "09/10",
       "author": "PTT 鄉民",
       "title": "[問題] 嘉義生豆包吃到飽的火鍋店",
       "url": "https://www.ptt.cc/bbs/Chiayi/M.1788752179.A.4ED.html",
@@ -388,20 +402,6 @@
       "reactions": 0,
       "comments": 0,
       "category": "交通停車",
-      "source": "ptt"
-    },
-    {
-      "id": "ptt-httpswwwpttccbbsChiayiM1788615244AC1Chtml",
-      "platform": "PTT",
-      "platform_color": "#00b300",
-      "board": "Chiayi",
-      "date": "09/05",
-      "author": "PTT 鄉民",
-      "title": "[贈送] 少穿女洋裝",
-      "url": "https://www.ptt.cc/bbs/Chiayi/M.1788615244.A.C1C.html",
-      "reactions": 0,
-      "comments": 0,
-      "category": "市政議題",
       "source": "ptt"
     }
   ]
