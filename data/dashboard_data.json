@@ -1,6 +1,34 @@
 {
-  "updated_at": "2026-09-09T02:48:29.396394",
+  "updated_at": "2026-09-09T10:45:45.993014",
   "news": [
+    {
+      "headline": "失智長者躍上舞台變身表演者！「當我們同在憶起」音樂會串起據點、機構與志工共融力量",
+      "source": "嘉義市政府/衛生局",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=951945",
+      "date": "2026/09/09",
+      "query": "市府新聞"
+    },
+    {
+      "headline": "推動「文化新絲路」再升級！黃敏惠市長率隊參訪臺中交流公共建設經驗",
+      "source": "嘉義市政府/工務處/觀光新聞處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=951955",
+      "date": "2026/09/09",
+      "query": "市府新聞"
+    },
+    {
+      "headline": "嘉義市28家特定寵物業獲評優良17家更獲優等肯定!",
+      "source": "嘉義市政府/建設處/農林畜牧科",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=951953",
+      "date": "2026/09/09",
+      "query": "市府新聞"
+    },
+    {
+      "headline": "總獎金200萬元!2027嘉義市國際三分鐘影片大賽開放徵件",
+      "source": "嘉義市政府/文化局/觀光新聞處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=951942",
+      "date": "2026/09/09",
+      "query": "市府新聞"
+    },
     {
       "headline": "嘉義市持續追查麻油車冷壓黑麻油苯駢芘超標案之產品流向及下架回收情形",
       "source": "嘉義市政府/衛生局",
@@ -55,34 +83,6 @@
       "source": "嘉義市政府/財政稅務局",
       "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=951678",
       "date": "2026/09/07",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "600高手「棋」聚！市長盃圍棋賽登場黃敏惠市長勉「不怕輸、從對弈中成長」",
-      "source": "嘉義市政府/教育處/觀光新聞處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=951622",
-      "date": "2026/09/06",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "嘉義市115年祖父母節慶祝大會溫馨登場！邀祖孫共作植栽讓陪伴延續至家庭日常",
-      "source": "嘉義市政府/教育處/觀光新聞處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=951620",
-      "date": "2026/09/06",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "國家防災日將至嘉義市政府消防局攜手大九九賣場設置防災專區",
-      "source": "嘉義市政府/消防局",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=951617",
-      "date": "2026/09/06",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "嘉市消防80年與您同在—安心防災露營趣",
-      "source": "嘉義市政府/消防局",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=951615",
-      "date": "2026/09/06",
       "query": "市府新聞"
     }
   ],
@@ -202,7 +202,7 @@
       "2012": 1,
       "2013": 1
     },
-    "updated_at": "2026-09-09T02:46:47.175754",
+    "updated_at": "2026-09-09T10:43:20.541145",
     "source": "data.chiayi.gov.tw"
   },
   "council": {
@@ -237,31 +237,59 @@
   "citizen_stats": {},
   "social_posts": [
     {
-      "id": "ptt-httpswwwpttccbbsGossipingM1788921618A59Ehtml",
+      "id": "ptt-httpswwwpttccbbsChiayiM1788947352A50Bhtml",
       "platform": "PTT",
       "platform_color": "#00b300",
-      "board": "Gossiping",
+      "board": "Chiayi",
       "date": "09/09",
       "author": "PTT 鄉民",
-      "title": "[問卦] 日本有防洪排水設施 淹水頻率怎麼高？",
-      "url": "https://www.ptt.cc/bbs/Gossiping/M.1788921618.A.59E.html",
-      "reactions": 0,
-      "comments": 0,
-      "category": "排水水利",
-      "source": "ptt"
-    },
-    {
-      "id": "ptt-httpswwwpttccbbsGossipingM1788921070ADF0html",
-      "platform": "PTT",
-      "platform_color": "#00b300",
-      "board": "Gossiping",
-      "date": "09/09",
-      "author": "PTT 鄉民",
-      "title": "Re: [新聞] 高雄雨後路坑想修「沒錢」 議員疑錢花到",
-      "url": "https://www.ptt.cc/bbs/Gossiping/M.1788921070.A.DF0.html",
+      "title": "[新聞] 藍白竹縣破局、嘉義市續合作　張啓楷：黃國昌、鄭麗文任雙主",
+      "url": "https://www.ptt.cc/bbs/Chiayi/M.1788947352.A.50B.html",
       "reactions": 0,
       "comments": 0,
       "category": "市政議題",
+      "source": "ptt"
+    },
+    {
+      "id": "ptt-httpswwwpttccbbsChiayiM1788944039AF22html",
+      "platform": "PTT",
+      "platform_color": "#00b300",
+      "board": "Chiayi",
+      "date": "09/09",
+      "author": "PTT 鄉民",
+      "title": "[問題] 乾淨便宜的旅館(飯店)",
+      "url": "https://www.ptt.cc/bbs/Chiayi/M.1788944039.A.F22.html",
+      "reactions": 0,
+      "comments": 0,
+      "category": "市政議題",
+      "source": "ptt"
+    },
+    {
+      "id": "ptt-httpswwwpttccbbsChiayiM1788942628ACF6html",
+      "platform": "PTT",
+      "platform_color": "#00b300",
+      "board": "Chiayi",
+      "date": "09/09",
+      "author": "PTT 鄉民",
+      "title": "布袋小旅行-賞鳥菜脯DIY",
+      "url": "https://www.ptt.cc/bbs/Chiayi/M.1788942628.A.CF6.html",
+      "reactions": 0,
+      "comments": 0,
+      "category": "市政議題",
+      "source": "ptt"
+    },
+    {
+      "id": "ptt-httpswwwpttccbbsChiayiM1788939386AD13html",
+      "platform": "PTT",
+      "platform_color": "#00b300",
+      "board": "Chiayi",
+      "date": "09/09",
+      "author": "PTT 鄉民",
+      "title": "[新聞] 機車撞上無人機女騎士摔倒送醫 農用剛起",
+      "url": "https://www.ptt.cc/bbs/Chiayi/M.1788939386.A.D13.html",
+      "reactions": 0,
+      "comments": 0,
+      "category": "交通停車",
       "source": "ptt"
     },
     {
@@ -353,7 +381,7 @@
       "platform": "PTT",
       "platform_color": "#00b300",
       "board": "Chiayi",
-      "date": "09/08",
+      "date": "09/09",
       "author": "PTT 鄉民",
       "title": "[討論] 張啓楷嘉義市競選總部前人行道超級讚",
       "url": "https://www.ptt.cc/bbs/Chiayi/M.1788610102.A.A73.html",
@@ -371,34 +399,6 @@
       "author": "PTT 鄉民",
       "title": "[揪團] 9/11 中秋烤肉",
       "url": "https://www.ptt.cc/bbs/Chiayi/M.1788606071.A.9DA.html",
-      "reactions": 0,
-      "comments": 0,
-      "category": "市政議題",
-      "source": "ptt"
-    },
-    {
-      "id": "ptt-httpswwwpttccbbsChiayiM1788438177ACDChtml",
-      "platform": "PTT",
-      "platform_color": "#00b300",
-      "board": "Chiayi",
-      "date": "09/04",
-      "author": "PTT 鄉民",
-      "title": "Re: [新聞] 四年服務超過2000件 專職的王浩登記參選",
-      "url": "https://www.ptt.cc/bbs/Chiayi/M.1788438177.A.CDC.html",
-      "reactions": 0,
-      "comments": 0,
-      "category": "行政服務",
-      "source": "ptt"
-    },
-    {
-      "id": "ptt-httpswwwpttccbbsChiayiM1788407010AC1Chtml",
-      "platform": "PTT",
-      "platform_color": "#00b300",
-      "board": "Chiayi",
-      "date": "09/03",
-      "author": "PTT 鄉民",
-      "title": "[廣告]夫妻精油按摩工作坊-含手作按摩精油30ml",
-      "url": "https://www.ptt.cc/bbs/Chiayi/M.1788407010.A.C1C.html",
       "reactions": 0,
       "comments": 0,
       "category": "市政議題",
