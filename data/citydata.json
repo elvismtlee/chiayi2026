@@ -1,21 +1,28 @@
 {
-  "updated_at": "2026-09-08T20:37:25.662068",
+  "updated_at": "2026-09-09T02:46:58.779932",
   "aqi_realtime": [
     {
       "station": "嘉義市（Open-Meteo 模型）",
-      "aqi": 147,
-      "pm25": 69.6,
-      "pm10": 69.8,
-      "o3": 0.0,
-      "no2": 53.9,
-      "status": "對敏感族群不健康",
+      "aqi": 72,
+      "pm25": 43.5,
+      "pm10": 45.2,
+      "o3": 132.0,
+      "no2": 25.3,
+      "status": "普通",
       "pollutant": "PM2.5",
-      "time": "2026-09-09T04:00",
+      "time": "2026-09-09T10:00",
       "source": "Open-Meteo"
     }
   ],
   "aqi_history": [],
   "earthquake": [
+    {
+      "title": "規模 4.3・57 km W of Yonakuni, Japan",
+      "desc": "深度 51 km",
+      "date": "2026-09-08 22:32",
+      "link": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tfxp",
+      "mag": 4.3
+    },
     {
       "title": "規模 4.5・98 km ENE of Donggang, Taiwan",
       "desc": "深度 33 km",
@@ -41,15 +48,15 @@
   "weather": [
     {
       "station": "嘉義市（Open-Meteo）",
-      "temp": "21.7",
-      "apparent_temp": "23.8",
-      "humidity": "83",
-      "rainfall": "0.0",
-      "wind_speed": "7.7",
-      "wind_dir": "149",
-      "cloud": "23",
-      "weather": "多雲",
-      "time": "2026-09-09 04:30",
+      "temp": "28.9",
+      "apparent_temp": "34.9",
+      "humidity": "67",
+      "rainfall": "0.5",
+      "wind_speed": "5.0",
+      "wind_dir": "334",
+      "cloud": "24",
+      "weather": "陣雨",
+      "time": "2026-09-09 10:45",
       "source": "Open-Meteo"
     }
   ],
@@ -99,7 +106,7 @@
   ],
   "procurement": [
     {
-      "title": "嘉義市污水二期第2標動土！黃敏惠：建設腳步不停歇、連續5年評鑑第一 - 樂聯網",
+      "title": "嘉義市污水二期第2標動土！黃敏惠：建設腳步不停歇、連續5年評鑑第一 - leho.com.tw",
       "date": "Thu, 03 Sep 2026",
       "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE4tUEpZdFVQak5oUFZVTWZETUJndjhMWjJrdkl6M0lIMlcwV09sSmpJSFc5Nk93UFFWaXEyM0RoRS1HYW1hS09UYkx4RQ?oc=5",
       "org": "新聞資訊",
@@ -127,23 +134,9 @@
       "source": "Google新聞"
     },
     {
-      "title": "太猛！嘉義污水建設「5連霸」全國第一 設施營運再拿優等 - 樂聯網",
+      "title": "太猛！嘉義污水建設「5連霸」全國第一 設施營運再拿優等 - leho.com.tw",
       "date": "Sun, 23 Aug 2026",
       "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBWUDIxR050dkVqdzk0VTdEY21hQUNxZ3lLTU9YakhzN2p2bDJDTjI4ejZWeXlBcjdjcExvekRqQzFOa2ptNTMzYzVGZw?oc=5",
-      "org": "新聞資訊",
-      "source": "Google新聞"
-    },
-    {
-      "title": "嘉義市勇奪國家卓越建設獎3金1優質獎 打造人本永續城市新典範 | 熱門亮點 | 商情 - 經濟日報",
-      "date": "Wed, 05 Aug 2026",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9QSDdiLTFqeTNIbmZPQ2luNE9MbkFRdHBGRTIxVFJoa1pRaVBRRDhZT1YzUkdSMGktZGdvcFp6bmh3VThwVndhbVYzaEZSSmN5SlExamxNazA5QQ?oc=5",
-      "org": "新聞資訊",
-      "source": "Google新聞"
-    },
-    {
-      "title": "嘉義市前瞻停車場建設再獲肯定 國家卓越建設獎勇奪3金1優質獎 - 台灣民眾電子報",
-      "date": "Tue, 04 Aug 2026",
-      "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE9VaGxudGtmcm1jcXJmeW9SVU53VFozRWhNTUtuU1lPalZIN2JwTEROZ2lUemNsRzlNZW9XZ1BhbEJZLTFjX3R2TA?oc=5",
       "org": "新聞資訊",
       "source": "Google新聞"
     },
@@ -153,12 +146,26 @@
       "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNYTVvR3g5aDZUTVlkemk5b09KZlMtMEs3Tkh5RG1feWc5ZWhSV0laVU9BZ0VnbUhzUEhfUFVQMEpfUmx2SXF0UkRFUTV0bndCajh5d2lpVzA0UmlZay1naHBJWENJQ3pFdlo2cTJjbFNfbjVXaUdTcWtDTzg3eVNieXdlOWFPQlRtbjM2NkFBOA?oc=5",
       "org": "新聞資訊",
       "source": "Google新聞"
+    },
+    {
+      "title": "19度流標終於走到最後一哩路！嘉義崇文國小地下停車場拚10月啟用 207席車位、接送動線全面地下化 - yesmedia.com.tw",
+      "date": "Mon, 31 Aug 2026",
+      "link": "https://news.google.com/rss/articles/CBMizgJBVV95cUxNcG5CUmpaalo2dlkxcU5ZWUo3WlYwRlR2Ykp5X3dxQmlvSTQzODJOVDN6bWhJQnNvQlpWQ0s3bS1ya1RjNHc3ZkdjWC1udldWWHlmRUVzVllkZW9FOEtiaGhxSm1idU9USmFNU2RyNVR1MWpVRUtFLU1vODFDUG94bU96aUtwd21SMmdrel9YQTVLMlhiUDZGN2cwN2c4TEI2NnpvVFd6TU5td05GU2tBLU1tQVVrNDNxYTF0NVNZdUlVaHlpNFdLaC1XY1dJNjJKaXR3Rmh1WlpEb2U3MWtRbnNvRnIxa2FLUGtBNE1nNGl5ZXNLaGpueUNTTnEtbGZqVEI5eWd6Q1VoQk43UlRabXkzN0wwSzN2VU42a1VJdUF5RGVEWmswcEpRazd0NGh2dHh6TzFuU282UEdCUG4tUVppakd1eVZqeTB3WU9n?oc=5",
+      "org": "新聞資訊",
+      "source": "Google新聞"
+    },
+    {
+      "title": "嘉市東門圓環施工改善疑挖到古城門遺構暫時停工- 生活 - 自由時報",
+      "date": "Wed, 12 Aug 2026",
+      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBvbGFmN1JTOEJLM19EYlpmSGFBUVJaVnVFVnQ2b0xhdjdGVkFIdHZzVjIxdm1mdWpBaXlEdUJ0UzBoSW5BYU1RR2JQUHdsM3BFM1V3Xy1BalV1d0hkQms3UWtKeHk?oc=5",
+      "org": "新聞資訊",
+      "source": "Google新聞"
     }
   ],
   "disease": {
     "dengue": [],
     "enterovirus": [],
-    "updated": "2026-09-08"
+    "updated": "2026-09-09"
   },
   "fire": {
     "chiayi_datasets": [
@@ -260,7 +267,7 @@
       "lat": 23.481634,
       "lng": 120.453745,
       "total": 45,
-      "available": 11,
+      "available": 35,
       "addr": "中山路199號(對面)"
     },
     {
@@ -269,7 +276,7 @@
       "lat": 23.482012,
       "lng": 120.457342,
       "total": 22,
-      "available": 4,
+      "available": 7,
       "addr": "中山路98號(前)"
     },
     {
@@ -278,7 +285,7 @@
       "lat": 23.482663,
       "lng": 120.462988,
       "total": 25,
-      "available": 6,
+      "available": 18,
       "addr": "中山路2號(前)"
     },
     {
@@ -287,7 +294,7 @@
       "lat": 23.478707,
       "lng": 120.462594,
       "total": 38,
-      "available": 6,
+      "available": 30,
       "addr": "啟明路122號(前)"
     },
     {
@@ -296,7 +303,7 @@
       "lat": 23.477031,
       "lng": 120.465573,
       "total": 34,
-      "available": 12,
+      "available": 13,
       "addr": "大雅路二段738號(前)"
     },
     {
@@ -305,7 +312,7 @@
       "lat": 23.4798596,
       "lng": 120.4488291,
       "total": 20,
-      "available": 9,
+      "available": 6,
       "addr": "中山路306號"
     },
     {
@@ -314,7 +321,7 @@
       "lat": 23.47963,
       "lng": 120.44583,
       "total": 20,
-      "available": 2,
+      "available": 17,
       "addr": "中山路386號"
     },
     {
@@ -323,7 +330,7 @@
       "lat": 23.47917,
       "lng": 120.44186,
       "total": 99,
-      "available": 66,
+      "available": 18,
       "addr": "中山路524號"
     },
     {
@@ -332,7 +339,7 @@
       "lat": 23.47877,
       "lng": 120.44089,
       "total": 42,
-      "available": 30,
+      "available": 31,
       "addr": "中山路528號"
     },
     {
@@ -341,7 +348,7 @@
       "lat": 23.47283,
       "lng": 120.44029,
       "total": 5,
-      "available": 2,
+      "available": 4,
       "addr": "垂楊路575號"
     },
     {
@@ -350,7 +357,7 @@
       "lat": 23.47336,
       "lng": 120.44604,
       "total": 14,
-      "available": 9,
+      "available": 6,
       "addr": "垂楊路351號"
     },
     {
@@ -359,7 +366,7 @@
       "lat": 23.4738724,
       "lng": 120.4493073,
       "total": 20,
-      "available": 0,
+      "available": 16,
       "addr": "垂楊路434號"
     },
     {
@@ -368,7 +375,7 @@
       "lat": 23.47918,
       "lng": 120.43182,
       "total": 15,
-      "available": 9,
+      "available": 4,
       "addr": "北港路278號"
     },
     {
@@ -377,7 +384,7 @@
       "lat": 23.486138,
       "lng": 120.453829,
       "total": 20,
-      "available": 5,
+      "available": 7,
       "addr": "忠孝路284號(旁)"
     },
     {
@@ -386,7 +393,7 @@
       "lat": 23.48091,
       "lng": 120.43012,
       "total": 20,
-      "available": 7,
+      "available": 15,
       "addr": "北港路312號東側"
     },
     {
@@ -395,7 +402,7 @@
       "lat": 23.48465,
       "lng": 120.43354,
       "total": 14,
-      "available": 7,
+      "available": 4,
       "addr": "友愛興達路口"
     },
     {
@@ -413,7 +420,7 @@
       "lat": 23.49265,
       "lng": 120.43191,
       "total": 15,
-      "available": 10,
+      "available": 6,
       "addr": "自由路492號"
     },
     {
@@ -422,7 +429,7 @@
       "lat": 23.478941,
       "lng": 120.437805,
       "total": 23,
-      "available": 3,
+      "available": 11,
       "addr": "博愛路二段281號"
     },
     {
@@ -431,10 +438,10 @@
       "lat": 23.47165,
       "lng": 120.43119,
       "total": 15,
-      "available": 6,
+      "available": 8,
       "addr": "博愛路二段461號"
     }
   ],
   "water": [],
-  "fetch_seconds": 88.8
+  "fetch_seconds": 90.6
 }

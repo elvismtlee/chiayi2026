@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-08T20:38:54.505985",
+  "updated_at": "2026-09-09T02:48:29.396394",
   "news": [
     {
       "headline": "嘉義市持續追查麻油車冷壓黑麻油苯駢芘超標案之產品流向及下架回收情形",
@@ -202,7 +202,7 @@
       "2012": 1,
       "2013": 1
     },
-    "updated_at": "2026-09-08T20:37:14.180926",
+    "updated_at": "2026-09-09T02:46:47.175754",
     "source": "data.chiayi.gov.tw"
   },
   "council": {
@@ -237,11 +237,53 @@
   "citizen_stats": {},
   "social_posts": [
     {
+      "id": "ptt-httpswwwpttccbbsGossipingM1788921618A59Ehtml",
+      "platform": "PTT",
+      "platform_color": "#00b300",
+      "board": "Gossiping",
+      "date": "09/09",
+      "author": "PTT 鄉民",
+      "title": "[問卦] 日本有防洪排水設施 淹水頻率怎麼高？",
+      "url": "https://www.ptt.cc/bbs/Gossiping/M.1788921618.A.59E.html",
+      "reactions": 0,
+      "comments": 0,
+      "category": "排水水利",
+      "source": "ptt"
+    },
+    {
+      "id": "ptt-httpswwwpttccbbsGossipingM1788921070ADF0html",
+      "platform": "PTT",
+      "platform_color": "#00b300",
+      "board": "Gossiping",
+      "date": "09/09",
+      "author": "PTT 鄉民",
+      "title": "Re: [新聞] 高雄雨後路坑想修「沒錢」 議員疑錢花到",
+      "url": "https://www.ptt.cc/bbs/Gossiping/M.1788921070.A.DF0.html",
+      "reactions": 0,
+      "comments": 0,
+      "category": "市政議題",
+      "source": "ptt"
+    },
+    {
+      "id": "ptt-httpswwwpttccbbsChiayiM1788906259A8EBhtml",
+      "platform": "PTT",
+      "platform_color": "#00b300",
+      "board": "Chiayi",
+      "date": "09/09",
+      "author": "PTT 鄉民",
+      "title": "[贈送] Epson LQ-690C印表機黑白色帶",
+      "url": "https://www.ptt.cc/bbs/Chiayi/M.1788906259.A.8EB.html",
+      "reactions": 0,
+      "comments": 0,
+      "category": "市政議題",
+      "source": "ptt"
+    },
+    {
       "id": "ptt-httpswwwpttccbbsChiayiM1788752179A4EDhtml",
       "platform": "PTT",
       "platform_color": "#00b300",
       "board": "Chiayi",
-      "date": "09/08",
+      "date": "09/09",
       "author": "PTT 鄉民",
       "title": "[問題] 嘉義生豆包吃到飽的火鍋店",
       "url": "https://www.ptt.cc/bbs/Chiayi/M.1788752179.A.4ED.html",
@@ -357,48 +399,6 @@
       "author": "PTT 鄉民",
       "title": "[廣告]夫妻精油按摩工作坊-含手作按摩精油30ml",
       "url": "https://www.ptt.cc/bbs/Chiayi/M.1788407010.A.C1C.html",
-      "reactions": 0,
-      "comments": 0,
-      "category": "市政議題",
-      "source": "ptt"
-    },
-    {
-      "id": "ptt-httpswwwpttccbbsChiayiM1788371231AF91html",
-      "platform": "PTT",
-      "platform_color": "#00b300",
-      "board": "Chiayi",
-      "date": "09/08",
-      "author": "PTT 鄉民",
-      "title": "[新聞] 四年服務超過2000件 專職的王浩登記參選",
-      "url": "https://www.ptt.cc/bbs/Chiayi/M.1788371231.A.F91.html",
-      "reactions": 0,
-      "comments": 0,
-      "category": "行政服務",
-      "source": "ptt"
-    },
-    {
-      "id": "ptt-httpswwwpttccbbsChiayiM1788315502A153html",
-      "platform": "PTT",
-      "platform_color": "#00b300",
-      "board": "Chiayi",
-      "date": "09/05",
-      "author": "PTT 鄉民",
-      "title": "[買賣] 全國/二手/品牌小孩玩具-用品-童書",
-      "url": "https://www.ptt.cc/bbs/Chiayi/M.1788315502.A.153.html",
-      "reactions": 0,
-      "comments": 0,
-      "category": "市政議題",
-      "source": "ptt"
-    },
-    {
-      "id": "ptt-httpswwwpttccbbsChiayiM1788301428A377html",
-      "platform": "PTT",
-      "platform_color": "#00b300",
-      "board": "Chiayi",
-      "date": "09/02",
-      "author": "PTT 鄉民",
-      "title": "[問題] 請問大林火車站附近計程車好叫嗎",
-      "url": "https://www.ptt.cc/bbs/Chiayi/M.1788301428.A.377.html",
       "reactions": 0,
       "comments": 0,
       "category": "市政議題",
