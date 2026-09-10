@@ -34,6 +34,16 @@
       "date": "2026/09/11",
       "type": "議員報到",
       "source": "council_schedule"
+    },
+    {
+      "date": "2026/09/14",
+      "type": "審計部嘉義市審計室",
+      "source": "council_schedule"
+    },
+    {
+      "date": "2026/09/15",
+      "type": "討論議案",
+      "source": "council_schedule"
     }
   ],
   "councilors": [
@@ -215,5 +225,5 @@
     "李忠曆",
     "王浩"
   ],
-  "updated_at": "2026-09-10T02:49:05.224413"
+  "updated_at": "2026-09-10T10:27:58.138617"
 }

@@ -1,6 +1,27 @@
 {
-  "updated_at": "2026-09-10T02:50:37.630878",
+  "updated_at": "2026-09-10T10:29:33.793064",
   "news": [
+    {
+      "headline": "落實貯存系統管理防止土壤地下水污染",
+      "source": "嘉義市政府/嘉義市政府環境保護局/環境品質管理科",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=952146",
+      "date": "2026/09/10",
+      "query": "市府新聞"
+    },
+    {
+      "headline": "健康不嚼檳，街道更美麗！環保局推動戒檳班講習",
+      "source": "嘉義市政府/嘉義市政府環境保護局/資源循環管理科",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=952124",
+      "date": "2026/09/10",
+      "query": "市府新聞"
+    },
+    {
+      "headline": "臺灣EMS界奧斯卡獎嘉義市勇獲團體「金質獎」與「績優團隊獎」雙獎肯定",
+      "source": "嘉義市政府/消防局",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=952103",
+      "date": "2026/09/10",
+      "query": "市府新聞"
+    },
     {
       "headline": "嘉義火車站前地下道就地轉型改建滯洪池提升城市防洪韌性",
       "source": "嘉義市政府/工務處/觀光新聞處",
@@ -62,27 +83,6 @@
       "source": "嘉義市政府/衛生局",
       "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=951834",
       "date": "2026/09/08",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "永續嘉義再創佳績！第六屆台灣永續行動獎勇奪4金6銀7銅展現跨局處治理成果",
-      "source": "嘉義市政府/環境保護局/觀光新聞處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=951831",
-      "date": "2026/09/08",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "健康城市典範！嘉市獲頒《康健》永續健康城市非六都第一黃敏惠市長：健康政策要「看得遠、做得早、不中斷」",
-      "source": "嘉義市政府/衛生局/觀光新聞處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=951828",
-      "date": "2026/09/08",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "電子煙別再留！嘉市9月8日起開放免具名回收",
-      "source": "嘉義市政府/衛生局",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=951666",
-      "date": "2026/09/07",
       "query": "市府新聞"
     }
   ],
@@ -202,11 +202,11 @@
       "2012": 1,
       "2013": 1
     },
-    "updated_at": "2026-09-10T02:48:22.999509",
+    "updated_at": "2026-09-10T10:27:50.248382",
     "source": "data.chiayi.gov.tw"
   },
   "council": {
-    "meetings_count": 7,
+    "meetings_count": 9,
     "councilors": [
       "傅大偉",
       "黃露慧",
@@ -236,6 +236,34 @@
   },
   "citizen_stats": {},
   "social_posts": [
+    {
+      "id": "ptt-httpswwwpttccbbsChiayiM1789030324A60Chtml",
+      "platform": "PTT",
+      "platform_color": "#00b300",
+      "board": "Chiayi",
+      "date": "09/10",
+      "author": "PTT 鄉民",
+      "title": "[新聞] 黃敏惠卸任前再送敬老大禮 65歲以上健保",
+      "url": "https://www.ptt.cc/bbs/Chiayi/M.1789030324.A.60C.html",
+      "reactions": 0,
+      "comments": 0,
+      "category": "市政議題",
+      "source": "ptt"
+    },
+    {
+      "id": "ptt-httpswwwpttccbbsChiayiM1789017672A6F4html",
+      "platform": "PTT",
+      "platform_color": "#00b300",
+      "board": "Chiayi",
+      "date": "09/10",
+      "author": "PTT 鄉民",
+      "title": "Re: [新聞] 四年服務超過2000件 專職的王浩登記參選",
+      "url": "https://www.ptt.cc/bbs/Chiayi/M.1789017672.A.6F4.html",
+      "reactions": 0,
+      "comments": 0,
+      "category": "行政服務",
+      "source": "ptt"
+    },
     {
       "id": "ptt-httpswwwpttccbbsChiayiM1788962928AC7Bhtml",
       "platform": "PTT",
@@ -371,34 +399,6 @@
       "author": "PTT 鄉民",
       "title": "[問題] 火車站後站的商店全收了？",
       "url": "https://www.ptt.cc/bbs/Chiayi/M.1788678535.A.0C6.html",
-      "reactions": 0,
-      "comments": 0,
-      "category": "市政議題",
-      "source": "ptt"
-    },
-    {
-      "id": "ptt-httpswwwpttccbbsChiayiM1788668495AC05html",
-      "platform": "PTT",
-      "platform_color": "#00b300",
-      "board": "Chiayi",
-      "date": "09/08",
-      "author": "PTT 鄉民",
-      "title": "[新聞] 嘉市交安月出招！82項行動護行人 闖紅燈",
-      "url": "https://www.ptt.cc/bbs/Chiayi/M.1788668495.A.C05.html",
-      "reactions": 0,
-      "comments": 0,
-      "category": "交通停車",
-      "source": "ptt"
-    },
-    {
-      "id": "ptt-httpswwwpttccbbsChiayiM1788615244AC1Chtml",
-      "platform": "PTT",
-      "platform_color": "#00b300",
-      "board": "Chiayi",
-      "date": "09/05",
-      "author": "PTT 鄉民",
-      "title": "[贈送] 少穿女洋裝",
-      "url": "https://www.ptt.cc/bbs/Chiayi/M.1788615244.A.C1C.html",
       "reactions": 0,
       "comments": 0,
       "category": "市政議題",
