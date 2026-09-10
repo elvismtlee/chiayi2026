@@ -1,6 +1,34 @@
 {
-  "updated_at": "2026-09-09T20:21:14.264256",
+  "updated_at": "2026-09-10T02:50:37.630878",
   "news": [
+    {
+      "headline": "嘉義火車站前地下道就地轉型改建滯洪池提升城市防洪韌性",
+      "source": "嘉義市政府/工務處/觀光新聞處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=952099",
+      "date": "2026/09/10",
+      "query": "市府新聞"
+    },
+    {
+      "headline": "租屋族注意！這些費用不能轉嫁給房客",
+      "source": "嘉義市政府/地政處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=952082",
+      "date": "2026/09/10",
+      "query": "市府新聞"
+    },
+    {
+      "headline": "116年公告土地現值作業說明會",
+      "source": "嘉義市政府/地政處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=952079",
+      "date": "2026/09/10",
+      "query": "市府新聞"
+    },
+    {
+      "headline": "您來嘉義串了嗎？石猴、音樂串起街區日常邀您漫遊嘉義市",
+      "source": "嘉義市政府/文化局/觀光新聞處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=952070",
+      "date": "2026/09/10",
+      "query": "市府新聞"
+    },
     {
       "headline": "失智長者躍上舞台變身表演者！「當我們同在憶起」音樂會串起據點、機構與志工共融力量",
       "source": "嘉義市政府/衛生局",
@@ -54,34 +82,6 @@
       "headline": "電子煙別再留！嘉市9月8日起開放免具名回收",
       "source": "嘉義市政府/衛生局",
       "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=951666",
-      "date": "2026/09/07",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "市府推動「嘉有木屋」三年有成串聯7棟老屋舉辦「內面風景」公益回饋活動",
-      "source": "嘉義市政府/都市發展處/觀光新聞處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=951685",
-      "date": "2026/09/07",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "「2026嘉義市光織影舞」10大夢幻展區亮相邀您走進「光影森林」",
-      "source": "嘉義市政府/觀光新聞處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=951676",
-      "date": "2026/09/07",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "【轉知】交通部中央氣象署古坑氣象站「氣象鄰距離，防災不NG」防災與環境教育闖關活動",
-      "source": "嘉義市政府/企劃處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=951661",
-      "date": "2026/09/07",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "地價稅自用住宅優惠稅率申請倒數9月22日前提出，稅金可省4倍！",
-      "source": "嘉義市政府/財政稅務局",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=951678",
       "date": "2026/09/07",
       "query": "市府新聞"
     }
@@ -202,7 +202,7 @@
       "2012": 1,
       "2013": 1
     },
-    "updated_at": "2026-09-09T20:19:25.986409",
+    "updated_at": "2026-09-10T02:48:22.999509",
     "source": "data.chiayi.gov.tw"
   },
   "council": {
@@ -237,20 +237,6 @@
   "citizen_stats": {},
   "social_posts": [
     {
-      "id": "ptt-httpswwwpttccbbsGossipingM1788981167AC15html",
-      "platform": "PTT",
-      "platform_color": "#00b300",
-      "board": "Gossiping",
-      "date": "09/10",
-      "author": "PTT 鄉民",
-      "title": "[問卦] 為何1999美金是74900台幣",
-      "url": "https://www.ptt.cc/bbs/Gossiping/M.1788981167.A.C15.html",
-      "reactions": 0,
-      "comments": 0,
-      "category": "行政服務",
-      "source": "ptt"
-    },
-    {
       "id": "ptt-httpswwwpttccbbsChiayiM1788962928AC7Bhtml",
       "platform": "PTT",
       "platform_color": "#00b300",
@@ -269,7 +255,7 @@
       "platform": "PTT",
       "platform_color": "#00b300",
       "board": "Chiayi",
-      "date": "09/09",
+      "date": "09/10",
       "author": "PTT 鄉民",
       "title": "[情報] 雙鋼琴琴房出租中",
       "url": "https://www.ptt.cc/bbs/Chiayi/M.1788954078.A.47B.html",
@@ -297,7 +283,7 @@
       "platform": "PTT",
       "platform_color": "#00b300",
       "board": "Chiayi",
-      "date": "09/09",
+      "date": "09/10",
       "author": "PTT 鄉民",
       "title": "[問題] 乾淨便宜的旅館(飯店)",
       "url": "https://www.ptt.cc/bbs/Chiayi/M.1788944039.A.F22.html",
@@ -402,6 +388,20 @@
       "reactions": 0,
       "comments": 0,
       "category": "交通停車",
+      "source": "ptt"
+    },
+    {
+      "id": "ptt-httpswwwpttccbbsChiayiM1788615244AC1Chtml",
+      "platform": "PTT",
+      "platform_color": "#00b300",
+      "board": "Chiayi",
+      "date": "09/05",
+      "author": "PTT 鄉民",
+      "title": "[贈送] 少穿女洋裝",
+      "url": "https://www.ptt.cc/bbs/Chiayi/M.1788615244.A.C1C.html",
+      "reactions": 0,
+      "comments": 0,
+      "category": "市政議題",
       "source": "ptt"
     }
   ]
