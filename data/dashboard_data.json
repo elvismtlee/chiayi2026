@@ -1,6 +1,20 @@
 {
-  "updated_at": "2026-09-10T20:24:57.424908",
+  "updated_at": "2026-09-11T02:45:02.159796",
   "news": [
+    {
+      "headline": "115年第2季房地產消費糾紛原因統計",
+      "source": "嘉義市政府/地政處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=952074",
+      "date": "2026/09/11",
+      "query": "市府新聞"
+    },
+    {
+      "headline": "政府自己的地，為什麼還不能直接用？認識「公地撥用」",
+      "source": "嘉義市政府/地政處/地用及重劃科",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=951968",
+      "date": "2026/09/11",
+      "query": "市府新聞"
+    },
     {
       "headline": "落實貯存系統管理防止土壤地下水污染",
       "source": "嘉義市政府/嘉義市政府環境保護局/環境品質管理科",
@@ -69,20 +83,6 @@
       "source": "嘉義市政府/建設處/農林畜牧科",
       "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=951953",
       "date": "2026/09/09",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "總獎金200萬元!2027嘉義市國際三分鐘影片大賽開放徵件",
-      "source": "嘉義市政府/文化局/觀光新聞處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=951942",
-      "date": "2026/09/09",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "嘉義市持續追查麻油車冷壓黑麻油苯駢芘超標案之產品流向及下架回收情形",
-      "source": "嘉義市政府/衛生局",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=951834",
-      "date": "2026/09/08",
       "query": "市府新聞"
     }
   ],
@@ -202,7 +202,7 @@
       "2012": 1,
       "2013": 1
     },
-    "updated_at": "2026-09-10T20:23:07.956453",
+    "updated_at": "2026-09-11T02:43:17.650366",
     "source": "data.chiayi.gov.tw"
   },
   "council": {
@@ -236,6 +236,20 @@
   },
   "citizen_stats": {},
   "social_posts": [
+    {
+      "id": "ptt-httpswwwpttccbbsChiayiM1789092225A251html",
+      "platform": "PTT",
+      "platform_color": "#00b300",
+      "board": "Chiayi",
+      "date": "09/11",
+      "author": "PTT 鄉民",
+      "title": "[新聞] 小熊維尼百年 嘉市打造光影森林  ",
+      "url": "https://www.ptt.cc/bbs/Chiayi/M.1789092225.A.251.html",
+      "reactions": 0,
+      "comments": 0,
+      "category": "市政議題",
+      "source": "ptt"
+    },
     {
       "id": "ptt-httpswwwpttccbbsChiayiM1789050349A1DAhtml",
       "platform": "PTT",
@@ -283,7 +297,7 @@
       "platform": "PTT",
       "platform_color": "#00b300",
       "board": "Chiayi",
-      "date": "09/10",
+      "date": "09/11",
       "author": "PTT 鄉民",
       "title": "[討論] 嘉義多一點粉專分享今年底議員選舉",
       "url": "https://www.ptt.cc/bbs/Chiayi/M.1788962928.A.C7B.html",
@@ -311,7 +325,7 @@
       "platform": "PTT",
       "platform_color": "#00b300",
       "board": "Chiayi",
-      "date": "09/10",
+      "date": "09/11",
       "author": "PTT 鄉民",
       "title": "[新聞] 藍白竹縣破局、嘉義市續合作　張啓楷：黃國昌、鄭麗文任雙主",
       "url": "https://www.ptt.cc/bbs/Chiayi/M.1788947352.A.50B.html",
@@ -385,20 +399,6 @@
       "author": "PTT 鄉民",
       "title": "[問題] 嘉義生豆包吃到飽的火鍋店",
       "url": "https://www.ptt.cc/bbs/Chiayi/M.1788752179.A.4ED.html",
-      "reactions": 0,
-      "comments": 0,
-      "category": "市政議題",
-      "source": "ptt"
-    },
-    {
-      "id": "ptt-httpswwwpttccbbsChiayiM1788741894A21Bhtml",
-      "platform": "PTT",
-      "platform_color": "#00b300",
-      "board": "Chiayi",
-      "date": "09/07",
-      "author": "PTT 鄉民",
-      "title": "徵一台二手小折腳踏車",
-      "url": "https://www.ptt.cc/bbs/Chiayi/M.1788741894.A.21B.html",
       "reactions": 0,
       "comments": 0,
       "category": "市政議題",
