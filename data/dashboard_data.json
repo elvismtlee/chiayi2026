@@ -1,6 +1,48 @@
 {
-  "updated_at": "2026-09-11T02:45:02.159796",
+  "updated_at": "2026-09-11T10:32:46.956847",
   "news": [
+    {
+      "headline": "迎戰超高齡社會嘉義市攜手中央推動長照3.0",
+      "source": "嘉義市政府/嘉義市長期照顧管理中心",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=952235",
+      "date": "2026/09/11",
+      "query": "市府新聞"
+    },
+    {
+      "headline": "毒鬼勾魂、滑鬼迷魂！嘉義城隍夜巡「神鬼魅影」玩出反毒新創意「毒不上身・網不迷魂」全國少見民俗踩街串聯反毒與數位健康",
+      "source": "嘉義市政府/衛生局",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=951090",
+      "date": "2026/09/11",
+      "query": "市府新聞"
+    },
+    {
+      "headline": "嘉義城隍夜巡重現百年會香！城隍爺見證黃敏惠市長爭取中央加速高鐵聯外軌道",
+      "source": "嘉義市政府/民政處/觀光新聞處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=952253",
+      "date": "2026/09/11",
+      "query": "市府新聞"
+    },
+    {
+      "headline": "115年度嘉義市社區規劃師培訓研習課程開始報名！",
+      "source": "嘉義市政府/嘉義市政府環境保護局/綜合計畫科",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=952241",
+      "date": "2026/09/11",
+      "query": "市府新聞"
+    },
+    {
+      "headline": "親子劇《燈怪》今晚嘉義登場！8公尺巨型機械偶展場現身黃敏惠市長邀親子共賞客家好戲",
+      "source": "嘉義市政府/民政處/觀光新聞處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=952236",
+      "date": "2026/09/11",
+      "query": "市府新聞"
+    },
+    {
+      "headline": "地藏王菩薩聖誕千秋！黃敏惠市長赴北嶽廟、九華山地藏庵祈福祈願安居樂業、共創嘉市好生活",
+      "source": "嘉義市政府/民政處/觀光新聞處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=952227",
+      "date": "2026/09/11",
+      "query": "市府新聞"
+    },
     {
       "headline": "115年第2季房地產消費糾紛原因統計",
       "source": "嘉義市政府/地政處",
@@ -41,48 +83,6 @@
       "source": "嘉義市政府/工務處/觀光新聞處",
       "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=952099",
       "date": "2026/09/10",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "租屋族注意！這些費用不能轉嫁給房客",
-      "source": "嘉義市政府/地政處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=952082",
-      "date": "2026/09/10",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "116年公告土地現值作業說明會",
-      "source": "嘉義市政府/地政處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=952079",
-      "date": "2026/09/10",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "您來嘉義串了嗎？石猴、音樂串起街區日常邀您漫遊嘉義市",
-      "source": "嘉義市政府/文化局/觀光新聞處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=952070",
-      "date": "2026/09/10",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "失智長者躍上舞台變身表演者！「當我們同在憶起」音樂會串起據點、機構與志工共融力量",
-      "source": "嘉義市政府/衛生局",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=951945",
-      "date": "2026/09/09",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "推動「文化新絲路」再升級！黃敏惠市長率隊參訪臺中交流公共建設經驗",
-      "source": "嘉義市政府/工務處/觀光新聞處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=951955",
-      "date": "2026/09/09",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "嘉義市28家特定寵物業獲評優良17家更獲優等肯定!",
-      "source": "嘉義市政府/建設處/農林畜牧科",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=951953",
-      "date": "2026/09/09",
       "query": "市府新聞"
     }
   ],
@@ -202,7 +202,7 @@
       "2012": 1,
       "2013": 1
     },
-    "updated_at": "2026-09-11T02:43:17.650366",
+    "updated_at": "2026-09-11T10:30:34.602517",
     "source": "data.chiayi.gov.tw"
   },
   "council": {
@@ -236,6 +236,34 @@
   },
   "citizen_stats": {},
   "social_posts": [
+    {
+      "id": "ptt-httpswwwpttccbbsChiayiM1789117395A090html",
+      "platform": "PTT",
+      "platform_color": "#00b300",
+      "board": "Chiayi",
+      "date": "09/11",
+      "author": "PTT 鄉民",
+      "title": "淘寶木箱贈送",
+      "url": "https://www.ptt.cc/bbs/Chiayi/M.1789117395.A.090.html",
+      "reactions": 0,
+      "comments": 0,
+      "category": "市政議題",
+      "source": "ptt"
+    },
+    {
+      "id": "ptt-httpswwwpttccbbsChiayiM1789102895A653html",
+      "platform": "PTT",
+      "platform_color": "#00b300",
+      "board": "Chiayi",
+      "date": "09/11",
+      "author": "PTT 鄉民",
+      "title": "[買賣] 怎麼可能我家祖先是你家的鬼電影票/海報.",
+      "url": "https://www.ptt.cc/bbs/Chiayi/M.1789102895.A.653.html",
+      "reactions": 0,
+      "comments": 0,
+      "category": "市政議題",
+      "source": "ptt"
+    },
     {
       "id": "ptt-httpswwwpttccbbsChiayiM1789092225A251html",
       "platform": "PTT",
@@ -374,34 +402,6 @@
       "reactions": 0,
       "comments": 0,
       "category": "交通停車",
-      "source": "ptt"
-    },
-    {
-      "id": "ptt-httpswwwpttccbbsChiayiM1788906259A8EBhtml",
-      "platform": "PTT",
-      "platform_color": "#00b300",
-      "board": "Chiayi",
-      "date": "09/09",
-      "author": "PTT 鄉民",
-      "title": "[贈送] Epson LQ-690C印表機黑白色帶",
-      "url": "https://www.ptt.cc/bbs/Chiayi/M.1788906259.A.8EB.html",
-      "reactions": 0,
-      "comments": 0,
-      "category": "市政議題",
-      "source": "ptt"
-    },
-    {
-      "id": "ptt-httpswwwpttccbbsChiayiM1788752179A4EDhtml",
-      "platform": "PTT",
-      "platform_color": "#00b300",
-      "board": "Chiayi",
-      "date": "09/10",
-      "author": "PTT 鄉民",
-      "title": "[問題] 嘉義生豆包吃到飽的火鍋店",
-      "url": "https://www.ptt.cc/bbs/Chiayi/M.1788752179.A.4ED.html",
-      "reactions": 0,
-      "comments": 0,
-      "category": "市政議題",
       "source": "ptt"
     }
   ]
