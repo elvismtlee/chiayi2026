@@ -1,10 +1,24 @@
 {
-  "updated_at": "2026-09-11T10:32:46.956847",
+  "updated_at": "2026-09-11T15:51:58.189751",
   "news": [
     {
       "headline": "迎戰超高齡社會嘉義市攜手中央推動長照3.0",
       "source": "嘉義市政府/嘉義市長期照顧管理中心",
       "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=952235",
+      "date": "2026/09/11",
+      "query": "市府新聞"
+    },
+    {
+      "headline": "火舞鳳凰震撼登場！嘉義城隍夜巡盛大登場睽違105年媽祖會香重現",
+      "source": "嘉義市政府/民政處/觀光新聞處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=952261",
+      "date": "2026/09/11",
+      "query": "市府新聞"
+    },
+    {
+      "headline": "嘉義市中央噴水圓環重新啟用保存城市記憶延續KANO精神",
+      "source": "嘉義市政府/建設處/觀光新聞處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=952259",
       "date": "2026/09/11",
       "query": "市府新聞"
     },
@@ -68,20 +82,6 @@
       "headline": "健康不嚼檳，街道更美麗！環保局推動戒檳班講習",
       "source": "嘉義市政府/嘉義市政府環境保護局/資源循環管理科",
       "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=952124",
-      "date": "2026/09/10",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "臺灣EMS界奧斯卡獎嘉義市勇獲團體「金質獎」與「績優團隊獎」雙獎肯定",
-      "source": "嘉義市政府/消防局",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=952103",
-      "date": "2026/09/10",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "嘉義火車站前地下道就地轉型改建滯洪池提升城市防洪韌性",
-      "source": "嘉義市政府/工務處/觀光新聞處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=952099",
       "date": "2026/09/10",
       "query": "市府新聞"
     }
@@ -202,7 +202,7 @@
       "2012": 1,
       "2013": 1
     },
-    "updated_at": "2026-09-11T10:30:34.602517",
+    "updated_at": "2026-09-11T15:49:25.717273",
     "source": "data.chiayi.gov.tw"
   },
   "council": {
@@ -237,17 +237,17 @@
   "citizen_stats": {},
   "social_posts": [
     {
-      "id": "ptt-httpswwwpttccbbsChiayiM1789117395A090html",
+      "id": "ptt-httpswwwpttccbbsGossipingM1789141579A1CFhtml",
       "platform": "PTT",
       "platform_color": "#00b300",
-      "board": "Chiayi",
+      "board": "Gossiping",
       "date": "09/11",
       "author": "PTT 鄉民",
-      "title": "淘寶木箱贈送",
-      "url": "https://www.ptt.cc/bbs/Chiayi/M.1789117395.A.090.html",
+      "title": "[新聞] 李多慧生氣了！陽明山打工見「菸蒂垃圾",
+      "url": "https://www.ptt.cc/bbs/Gossiping/M.1789141579.A.1CF.html",
       "reactions": 0,
       "comments": 0,
-      "category": "市政議題",
+      "category": "環境衛生",
       "source": "ptt"
     },
     {
