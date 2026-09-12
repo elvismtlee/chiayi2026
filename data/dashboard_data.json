@@ -1,6 +1,27 @@
 {
-  "updated_at": "2026-09-12T02:56:14.944275",
+  "updated_at": "2026-09-12T09:59:41.416702",
   "news": [
+    {
+      "headline": "健康從「動」開始！何立安博士「桃城好健康」開講帶市民從零開始練肌力",
+      "source": "嘉義市政府/衛生局",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=951683",
+      "date": "2026/09/12",
+      "query": "市府新聞"
+    },
+    {
+      "headline": "慈濟宮如意振裕堂八家將會108週年堂慶百年八家將圖修護完成重現嘉義「家將窟」珍貴文化記憶",
+      "source": "嘉義市政府/文化局/觀光新聞處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=952321",
+      "date": "2026/09/12",
+      "query": "市府新聞"
+    },
+    {
+      "headline": "蘭潭國中傑出校友黃瑞仁返母校開講分享冠心病防治守護心健康",
+      "source": "嘉義市政府/教育處/觀光新聞處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=952317",
+      "date": "2026/09/12",
+      "query": "市府新聞"
+    },
     {
       "headline": "嘉義城隍尊神聖誕祝壽大典黃敏惠市長祈願國泰民安",
       "source": "嘉義市政府/民政處/觀光新聞處",
@@ -61,27 +82,6 @@
       "headline": "115年度嘉義市社區規劃師培訓研習課程開始報名！",
       "source": "嘉義市政府/嘉義市政府環境保護局/綜合計畫科",
       "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=952241",
-      "date": "2026/09/11",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "親子劇《燈怪》今晚嘉義登場！8公尺巨型機械偶展場現身黃敏惠市長邀親子共賞客家好戲",
-      "source": "嘉義市政府/民政處/觀光新聞處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=952236",
-      "date": "2026/09/11",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "地藏王菩薩聖誕千秋！黃敏惠市長赴北嶽廟、九華山地藏庵祈福祈願安居樂業、共創嘉市好生活",
-      "source": "嘉義市政府/民政處/觀光新聞處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=952227",
-      "date": "2026/09/11",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "115年第2季房地產消費糾紛原因統計",
-      "source": "嘉義市政府/地政處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=952074",
       "date": "2026/09/11",
       "query": "市府新聞"
     }
@@ -202,7 +202,7 @@
       "2012": 1,
       "2013": 1
     },
-    "updated_at": "2026-09-12T02:53:36.862384",
+    "updated_at": "2026-09-12T09:57:59.771543",
     "source": "data.chiayi.gov.tw"
   },
   "council": {
@@ -237,6 +237,20 @@
   "citizen_stats": {},
   "social_posts": [
     {
+      "id": "ptt-httpswwwpttccbbsGossipingM1789206302A4FDhtml",
+      "platform": "PTT",
+      "platform_color": "#00b300",
+      "board": "Gossiping",
+      "date": "09/12",
+      "author": "PTT 鄉民",
+      "title": "[新聞] 發放蘿蔔糕+美金紅包賄選！新北議員參選",
+      "url": "https://www.ptt.cc/bbs/Gossiping/M.1789206302.A.4FD.html",
+      "reactions": 0,
+      "comments": 0,
+      "category": "市政議題",
+      "source": "ptt"
+    },
+    {
       "id": "ptt-httpswwwpttccbbsChiayiM1789177817AD4Ehtml",
       "platform": "PTT",
       "platform_color": "#00b300",
@@ -269,9 +283,9 @@
       "platform": "PTT",
       "platform_color": "#00b300",
       "board": "Chiayi",
-      "date": "09/11",
+      "date": "09/12",
       "author": "PTT 鄉民",
-      "title": "[買賣] 怎麼可能我家祖先是你家的鬼電影票/海報.",
+      "title": "[買賣] 怎麼可能我家祖先是你家的鬼/魔法少女小圓電影票",
       "url": "https://www.ptt.cc/bbs/Chiayi/M.1789102895.A.653.html",
       "reactions": 0,
       "comments": 0,
@@ -297,7 +311,7 @@
       "platform": "PTT",
       "platform_color": "#00b300",
       "board": "Chiayi",
-      "date": "09/11",
+      "date": "09/12",
       "author": "PTT 鄉民",
       "title": "[情報] 小心文化路的噴水池",
       "url": "https://www.ptt.cc/bbs/Chiayi/M.1789050349.A.1DA.html",
@@ -385,20 +399,6 @@
       "author": "PTT 鄉民",
       "title": "[問題] 乾淨便宜的旅館(飯店)",
       "url": "https://www.ptt.cc/bbs/Chiayi/M.1788944039.A.F22.html",
-      "reactions": 0,
-      "comments": 0,
-      "category": "市政議題",
-      "source": "ptt"
-    },
-    {
-      "id": "ptt-httpswwwpttccbbsChiayiM1788942628ACF6html",
-      "platform": "PTT",
-      "platform_color": "#00b300",
-      "board": "Chiayi",
-      "date": "09/09",
-      "author": "PTT 鄉民",
-      "title": "布袋小旅行-賞鳥菜脯DIY",
-      "url": "https://www.ptt.cc/bbs/Chiayi/M.1788942628.A.CF6.html",
       "reactions": 0,
       "comments": 0,
       "category": "市政議題",
