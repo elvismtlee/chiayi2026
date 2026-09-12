@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-12T09:59:41.416702",
+  "updated_at": "2026-09-12T14:59:04.540516",
   "news": [
     {
       "headline": "健康從「動」開始！何立安博士「桃城好健康」開講帶市民從零開始練肌力",
@@ -202,7 +202,7 @@
       "2012": 1,
       "2013": 1
     },
-    "updated_at": "2026-09-12T09:57:59.771543",
+    "updated_at": "2026-09-12T14:56:39.004606",
     "source": "data.chiayi.gov.tw"
   },
   "council": {
@@ -237,17 +237,17 @@
   "citizen_stats": {},
   "social_posts": [
     {
-      "id": "ptt-httpswwwpttccbbsGossipingM1789206302A4FDhtml",
+      "id": "ptt-httpswwwpttccbbsChiayiM1789215739AABFhtml",
       "platform": "PTT",
       "platform_color": "#00b300",
-      "board": "Gossiping",
+      "board": "Chiayi",
       "date": "09/12",
       "author": "PTT 鄉民",
-      "title": "[新聞] 發放蘿蔔糕+美金紅包賄選！新北議員參選",
-      "url": "https://www.ptt.cc/bbs/Gossiping/M.1789206302.A.4FD.html",
+      "title": "[贈送] 不鏽鋼毛巾架、土鍋、燈泡、採光罩",
+      "url": "https://www.ptt.cc/bbs/Chiayi/M.1789215739.A.ABF.html",
       "reactions": 0,
       "comments": 0,
-      "category": "市政議題",
+      "category": "公共安全",
       "source": "ptt"
     },
     {
