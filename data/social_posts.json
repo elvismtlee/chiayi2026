@@ -1,16 +1,30 @@
 [
   {
-    "id": "ptt-httpswwwpttccbbsGossipingM1789149716A12Fhtml",
+    "id": "ptt-httpswwwpttccbbsChiayiM1789177817AD4Ehtml",
     "platform": "PTT",
     "platform_color": "#00b300",
-    "board": "Gossiping",
+    "board": "Chiayi",
     "date": "09/12",
     "author": "PTT 鄉民",
-    "title": "Re: [新聞] 李多慧生氣了！陽明山打工見「菸蒂垃圾",
-    "url": "https://www.ptt.cc/bbs/Gossiping/M.1789149716.A.12F.html",
+    "title": "[新聞] 嘉義中央噴水圓環修繕完工 3600萬升級",
+    "url": "https://www.ptt.cc/bbs/Chiayi/M.1789177817.A.D4E.html",
     "reactions": 0,
     "comments": 0,
-    "category": "環境衛生",
+    "category": "市政議題",
+    "source": "ptt"
+  },
+  {
+    "id": "ptt-httpswwwpttccbbsChiayiM1789174240A97Ehtml",
+    "platform": "PTT",
+    "platform_color": "#00b300",
+    "board": "Chiayi",
+    "date": "09/12",
+    "author": "PTT 鄉民",
+    "title": "[贈送] 詩肯柚木餐椅、健身器材、英文書籍",
+    "url": "https://www.ptt.cc/bbs/Chiayi/M.1789174240.A.97E.html",
+    "reactions": 0,
+    "comments": 0,
+    "category": "市政議題",
     "source": "ptt"
   },
   {
@@ -32,7 +46,7 @@
     "platform": "PTT",
     "platform_color": "#00b300",
     "board": "Chiayi",
-    "date": "09/11",
+    "date": "09/12",
     "author": "PTT 鄉民",
     "title": "[新聞] 小熊維尼百年 嘉市打造光影森林  ",
     "url": "https://www.ptt.cc/bbs/Chiayi/M.1789092225.A.251.html",
@@ -151,20 +165,6 @@
     "reactions": 0,
     "comments": 0,
     "category": "市政議題",
-    "source": "ptt"
-  },
-  {
-    "id": "ptt-httpswwwpttccbbsChiayiM1788939386AD13html",
-    "platform": "PTT",
-    "platform_color": "#00b300",
-    "board": "Chiayi",
-    "date": "09/12",
-    "author": "PTT 鄉民",
-    "title": "[新聞] 機車撞上無人機女騎士摔倒送醫 農用剛起",
-    "url": "https://www.ptt.cc/bbs/Chiayi/M.1788939386.A.D13.html",
-    "reactions": 0,
-    "comments": 0,
-    "category": "交通停車",
     "source": "ptt"
   }
 ]

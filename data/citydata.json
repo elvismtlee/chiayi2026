@@ -1,16 +1,16 @@
 {
-  "updated_at": "2026-09-11T20:25:04.347931",
+  "updated_at": "2026-09-12T02:54:35.072441",
   "aqi_realtime": [
     {
       "station": "嘉義市（Open-Meteo 模型）",
-      "aqi": 31,
-      "pm25": 22.1,
-      "pm10": 25.0,
-      "o3": 0.0,
-      "no2": 62.8,
+      "aqi": 36,
+      "pm25": 25.7,
+      "pm10": 30.2,
+      "o3": 89.0,
+      "no2": 29.1,
       "status": "良好",
       "pollutant": "PM2.5",
-      "time": "2026-09-12T04:00",
+      "time": "2026-09-12T10:00",
       "source": "Open-Meteo"
     }
   ],
@@ -34,44 +34,44 @@
   "weather": [
     {
       "station": "嘉義市（Open-Meteo）",
-      "temp": "24.1",
-      "apparent_temp": "28.0",
-      "humidity": "87",
+      "temp": "31.1",
+      "apparent_temp": "37.9",
+      "humidity": "66",
       "rainfall": "0.0",
-      "wind_speed": "5.3",
-      "wind_dir": "125",
-      "cloud": "52",
+      "wind_speed": "6.8",
+      "wind_dir": "287",
+      "cloud": "34",
       "weather": "多雲",
-      "time": "2026-09-12 04:15",
+      "time": "2026-09-12 10:45",
       "source": "Open-Meteo"
     }
   ],
   "announcements": [
     {
+      "title": "從豬肉湯飯到火雞肉飯 海港城市釜山攜手木都嘉義深化觀光合作 - chiayi.gov.tw",
+      "date": "Sat, 12 Sep 2026",
+      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBVWVFNa3A5eTc5MVFKOFVCcWlSVE4yZVlMZThWcVRnT2REWGpKcTJjTU9pNjF4OGY0UnQySjA0Qm1GWlF1YUcxX0VxTXhTSHJjZDV2SnVoR3FqOGgwaEFCX1UyVk12LUY4RXJFSkNUaTFlemx2NEE?oc=5",
+      "desc": "",
+      "source": "Google新聞"
+    },
+    {
+      "title": "嘉義市中央噴水圓環重新啟用 保存城市記憶延續KANO精神 - 中央社 CNA",
+      "date": "Sat, 12 Sep 2026",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1XenJPZDM4TF9qT1JkU1RXTGUteHk4Mm9KejAyeWtLajRuVkRrQXBwRzU5amZBS0RWOXlhcHlHZzdJYmZPd0VucWFLdDlGRm5sWG4xSjB3?oc=5",
+      "desc": "",
+      "source": "Google新聞"
+    },
+    {
+      "title": "延續KANO精神 嘉義中央噴水圓環重新啟用 - 新唐人亞太電視台",
+      "date": "Fri, 11 Sep 2026",
+      "link": "https://news.google.com/rss/articles/CBMirwJBVV95cUxNeDhxY1MxZTRQazBOS2NjUUxzbEtWQk9uU05FRWxaUXdLcnh4bzd3ZFowMzM1dVU1Yk8yN1RVR2U3bzJzN204QUlHbVZRTnZWV2ZjdjRGWkZTN3V1ZWVvcEpTalk0bmlDUGdyalFTakFyd0RBNXRlM0Vieklkd2pkZVM4MElRT25wcnFWSzQwbThrSlQxSG9vM0hSU2Rra19mZGhVaktqSmZld3JmV3JaVVhSRFZORVVjREhWWHNCY0tEc25CWmZYTzFxNGsySUJnbXlzanZWTzFoRWlRYkR3Q3pSeXJfNHR3NXFORnR3VGpvMDJhdDlQSGpveEZhODhrYmcwQzJWQmlDTWwya0t5YW9WLWloVXhqdDY2R3MyWndhQXF2emVGWUJBb1JHejQ?oc=5",
+      "desc": "",
+      "source": "Google新聞"
+    },
+    {
       "title": "迎戰超高齡社會嘉義市攜手中央推動長照 3.0 - chiayi.gov.tw",
       "date": "Fri, 11 Sep 2026",
       "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9iTDdhMVpleU9qbEtHX0JpSlRROUlfOUlnUU1GdkNzSjByaXhWWUhJeHZYVmJNdXlxa1ZpWU5fTWRpQ3diWUpTd0dLVWR5eW9CUHZYc21OUkFKMDdLTHhCTzhVd3I3SURkTHc?oc=5",
-      "desc": "",
-      "source": "Google新聞"
-    },
-    {
-      "title": "嘉市中央噴水圓環重啟 延續嘉義城市精神 - 大纪元",
-      "date": "Fri, 11 Sep 2026",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE4tR2dLVUVCODdlX3VRXzZuWWRMV0lPbDVHRjFDQm5EVkxTbmo2WEd3SVFHQkpxWlhPUlhuaDdtNGttNHRYWko4cFZYMlFWd0tXcTZpVzQxTkEyYzNjYXZQStIBZkFVX3lxTE9UekpVQ0t4bzk1UldNRVhvVFVOVk9BN0tIOXRMd2l6cGxVQm9uYTRSXzU4MnRSTmtrV0RrajBqekNqVTNwUWFxZ2hFOWZ5ekdRY0FVakhtNGJpOEVkVzJMVWFpNGdhQQ?oc=5",
-      "desc": "",
-      "source": "Google新聞"
-    },
-    {
-      "title": "嘉義中央噴水圓環修繕完工 3600萬升級噴泉、LED照明 - UDN",
-      "date": "Fri, 11 Sep 2026",
-      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE8tdzFnQkJEZTE2aFNpcjJuaXJackpFQkkzSjdhaFZWVU8tVjd6M3lpbTJvNGVIelpkMG41NG13UjB1UTdNZWpMUURrYmtKT0gw0gFWQVVfeXFMUGNCZkVvSllzSXRXRVhzY2x3bFgyYWJLWUdVVmtMRFRZTk1NVC0xN3pfN1hPc1doZzEtdDBsdVVKZ1VPZTFDQ3FmdENTOEJGZGNlWTRxR1E?oc=5",
-      "desc": "",
-      "source": "Google新聞"
-    },
-    {
-      "title": "8公尺「燈燈國王」現身嘉義 紙風車劇團「燈怪」今晚登場 - UDN",
-      "date": "Fri, 11 Sep 2026",
-      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5VVm4wRWRXT2k2bktYTXY0eWdoSm9TUmdpMjBiVWpHVEhOcXItMVhtQldmUjJoM3pQT19KSUptMkNCRVJXU0hFczlBOEN0c1Fi0gFWQVVfeXFMTlZ2R3BJc1RmeE5zN2Q0cV9iSFRNMEs5OHU5MUZHQXdiekJaRkk5TmZoa2Zkc1JHYmltVWFVbHQyclVFdG5MVHZFWjlqYl9kZzZLUjl0RFE?oc=5",
       "desc": "",
       "source": "Google新聞"
     },
@@ -83,9 +83,9 @@
       "source": "Google新聞"
     },
     {
-      "title": "親子劇《燈怪》今晚嘉義登場！8公尺巨型機械偶展場現身 黃敏惠市長邀親子共賞客家好戲 - chiayi.gov.tw",
-      "date": "Fri, 11 Sep 2026",
-      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE05bi05STlIb1c2Vk5kckQ0b2d5THBOT2N2X3pLbnVMUk1yR2Vla0lNRU1VUjFNcVFWRXhoOFhkWXNIbXl5X3NUYnlDakVQQjlhVUhfNmNBX1gwai1XS1o0cmtyQnByeGNZbllpMi1OU1YwVDZGQlE?oc=5",
+      "title": "115年嘉義市弱勢族群能源效率改善計畫開跑囉 - 嘉義市政府環境保護局",
+      "date": "Tue, 08 Sep 2026",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE0xZzloNE9kNldyUnJDMDNwSTJDZ1NBbzdvdC1iWDYzOHU4NFBHSnZJeTFOdWRZTkxocFBSajJKSW9IOG5ZaTZ5VWpXZ291S2IzcE9hdzYwelh4aXh0cXVLb2FRblBiUUhWZ1Zv?oc=5",
       "desc": "",
       "source": "Google新聞"
     }
@@ -151,7 +151,7 @@
   "disease": {
     "dengue": [],
     "enterovirus": [],
-    "updated": "2026-09-11"
+    "updated": "2026-09-12"
   },
   "fire": {
     "chiayi_datasets": [
@@ -253,7 +253,7 @@
       "lat": 23.481634,
       "lng": 120.453745,
       "total": 45,
-      "available": 10,
+      "available": 17,
       "addr": "中山路199號(對面)"
     },
     {
@@ -262,7 +262,7 @@
       "lat": 23.482012,
       "lng": 120.457342,
       "total": 22,
-      "available": 3,
+      "available": 5,
       "addr": "中山路98號(前)"
     },
     {
@@ -271,7 +271,7 @@
       "lat": 23.482663,
       "lng": 120.462988,
       "total": 25,
-      "available": 2,
+      "available": 1,
       "addr": "中山路2號(前)"
     },
     {
@@ -280,7 +280,7 @@
       "lat": 23.478707,
       "lng": 120.462594,
       "total": 38,
-      "available": 4,
+      "available": 3,
       "addr": "啟明路122號(前)"
     },
     {
@@ -289,7 +289,7 @@
       "lat": 23.477031,
       "lng": 120.465573,
       "total": 34,
-      "available": 7,
+      "available": 6,
       "addr": "大雅路二段738號(前)"
     },
     {
@@ -298,7 +298,7 @@
       "lat": 23.4798596,
       "lng": 120.4488291,
       "total": 20,
-      "available": 7,
+      "available": 14,
       "addr": "中山路306號"
     },
     {
@@ -316,7 +316,7 @@
       "lat": 23.47917,
       "lng": 120.44186,
       "total": 99,
-      "available": 54,
+      "available": 63,
       "addr": "中山路524號"
     },
     {
@@ -325,7 +325,7 @@
       "lat": 23.47877,
       "lng": 120.44089,
       "total": 42,
-      "available": 34,
+      "available": 19,
       "addr": "中山路528號"
     },
     {
@@ -334,7 +334,7 @@
       "lat": 23.47283,
       "lng": 120.44029,
       "total": 5,
-      "available": 2,
+      "available": 4,
       "addr": "垂楊路575號"
     },
     {
@@ -343,7 +343,7 @@
       "lat": 23.47336,
       "lng": 120.44604,
       "total": 14,
-      "available": 1,
+      "available": 5,
       "addr": "垂楊路351號"
     },
     {
@@ -352,7 +352,7 @@
       "lat": 23.4738724,
       "lng": 120.4493073,
       "total": 20,
-      "available": 5,
+      "available": 10,
       "addr": "垂楊路434號"
     },
     {
@@ -361,7 +361,7 @@
       "lat": 23.47918,
       "lng": 120.43182,
       "total": 15,
-      "available": 4,
+      "available": 3,
       "addr": "北港路278號"
     },
     {
@@ -370,7 +370,7 @@
       "lat": 23.486138,
       "lng": 120.453829,
       "total": 20,
-      "available": 3,
+      "available": 4,
       "addr": "忠孝路284號(旁)"
     },
     {
@@ -379,7 +379,7 @@
       "lat": 23.48091,
       "lng": 120.43012,
       "total": 20,
-      "available": 7,
+      "available": 8,
       "addr": "北港路312號東側"
     },
     {
@@ -388,7 +388,7 @@
       "lat": 23.48465,
       "lng": 120.43354,
       "total": 14,
-      "available": 10,
+      "available": 12,
       "addr": "友愛興達路口"
     },
     {
@@ -406,7 +406,7 @@
       "lat": 23.49265,
       "lng": 120.43191,
       "total": 15,
-      "available": 12,
+      "available": 8,
       "addr": "自由路492號"
     },
     {
@@ -415,7 +415,7 @@
       "lat": 23.478941,
       "lng": 120.437805,
       "total": 23,
-      "available": 4,
+      "available": 9,
       "addr": "博愛路二段281號"
     },
     {
@@ -429,5 +429,5 @@
     }
   ],
   "water": [],
-  "fetch_seconds": 87.2
+  "fetch_seconds": 99.9
 }
