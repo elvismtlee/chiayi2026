@@ -1,6 +1,13 @@
 {
-  "updated_at": "2026-09-12T20:11:31.912202",
+  "updated_at": "2026-09-13T02:54:07.214442",
   "news": [
+    {
+      "headline": "17歲青春策展走進嘉義舊監黃敏惠市長：讓情緒被看見，也讓青年被看見",
+      "source": "嘉義市政府/文化局/觀光新聞處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=952363",
+      "date": "2026/09/13",
+      "query": "市府新聞"
+    },
     {
       "headline": "健康從「動」開始！何立安博士「桃城好健康」開講帶市民從零開始練肌力",
       "source": "嘉義市政府/衛生局",
@@ -75,13 +82,6 @@
       "headline": "嘉義城隍夜巡重現百年會香！城隍爺見證黃敏惠市長爭取中央加速高鐵聯外軌道",
       "source": "嘉義市政府/民政處/觀光新聞處",
       "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=952253",
-      "date": "2026/09/11",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "115年度嘉義市社區規劃師培訓研習課程開始報名！",
-      "source": "嘉義市政府/嘉義市政府環境保護局/綜合計畫科",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=952241",
       "date": "2026/09/11",
       "query": "市府新聞"
     }
@@ -202,7 +202,7 @@
       "2012": 1,
       "2013": 1
     },
-    "updated_at": "2026-09-12T20:09:00.540690",
+    "updated_at": "2026-09-13T02:51:38.184479",
     "source": "data.chiayi.gov.tw"
   },
   "council": {
@@ -237,6 +237,20 @@
   "citizen_stats": {},
   "social_posts": [
     {
+      "id": "ptt-httpswwwpttccbbsChiayiM1789255572A923html",
+      "platform": "PTT",
+      "platform_color": "#00b300",
+      "board": "Chiayi",
+      "date": "09/13",
+      "author": "PTT 鄉民",
+      "title": "贈送 捷安特腳踏車（適合三歲以下）",
+      "url": "https://www.ptt.cc/bbs/Chiayi/M.1789255572.A.923.html",
+      "reactions": 0,
+      "comments": 0,
+      "category": "市政議題",
+      "source": "ptt"
+    },
+    {
       "id": "ptt-httpswwwpttccbbsChiayiM1789226273AAFEhtml",
       "platform": "PTT",
       "platform_color": "#00b300",
@@ -269,7 +283,7 @@
       "platform": "PTT",
       "platform_color": "#00b300",
       "board": "Chiayi",
-      "date": "09/12",
+      "date": "09/13",
       "author": "PTT 鄉民",
       "title": "[新聞] 嘉義中央噴水圓環修繕完工 3600萬升級",
       "url": "https://www.ptt.cc/bbs/Chiayi/M.1789177817.A.D4E.html",
@@ -385,20 +399,6 @@
       "author": "PTT 鄉民",
       "title": "[情報] 雙鋼琴琴房出租中",
       "url": "https://www.ptt.cc/bbs/Chiayi/M.1788954078.A.47B.html",
-      "reactions": 0,
-      "comments": 0,
-      "category": "市政議題",
-      "source": "ptt"
-    },
-    {
-      "id": "ptt-httpswwwpttccbbsChiayiM1788947352A50Bhtml",
-      "platform": "PTT",
-      "platform_color": "#00b300",
-      "board": "Chiayi",
-      "date": "09/13",
-      "author": "PTT 鄉民",
-      "title": "[新聞] 藍白竹縣破局、嘉義市續合作　張啓楷：黃國昌、鄭麗文任雙主",
-      "url": "https://www.ptt.cc/bbs/Chiayi/M.1788947352.A.50B.html",
       "reactions": 0,
       "comments": 0,
       "category": "市政議題",
