@@ -1,6 +1,20 @@
 {
-  "updated_at": "2026-09-14T03:08:33.661406",
+  "updated_at": "2026-09-14T11:39:32.664494",
   "news": [
+    {
+      "headline": "助傳產減壓！嘉義市納管/特登工廠「雙金免繳1年」黃敏惠市長：作伙拚未來",
+      "source": "嘉義市政府/建設處/觀光新聞處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=952430",
+      "date": "2026/09/14",
+      "query": "市府新聞"
+    },
+    {
+      "headline": "「2026光織影舞」豪華卡司星光閃耀陪伴民眾歡度中秋與雙十假期",
+      "source": "嘉義市政府/觀光新聞處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=952429",
+      "date": "2026/09/14",
+      "query": "市府新聞"
+    },
     {
       "headline": "嘉義市石綿清運補助倒數請於115年9月30日前申請",
       "source": "嘉義市政府/嘉義市政府環境保護局/環保設施管理科",
@@ -68,20 +82,6 @@
       "headline": "嘉義城隍尊神聖誕祝壽大典黃敏惠市長祈願國泰民安",
       "source": "嘉義市政府/民政處/觀光新聞處",
       "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=952315",
-      "date": "2026/09/12",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "從豬肉湯飯到火雞肉飯海港城市釜山攜手木都嘉義深化觀光合作",
-      "source": "嘉義市政府/觀光新聞處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=952314",
-      "date": "2026/09/12",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "115年國民年金所得未達一定標準總清查即將開始囉!",
-      "source": "嘉義市政府/西區公所",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=952254",
       "date": "2026/09/12",
       "query": "市府新聞"
     }
@@ -198,7 +198,7 @@
       "2012": 1,
       "2013": 1
     },
-    "updated_at": "2026-09-14T03:06:04.215409",
+    "updated_at": "2026-09-14T11:38:00.015630",
     "source": "data.chiayi.gov.tw"
   },
   "council": {
@@ -232,20 +232,6 @@
   },
   "citizen_stats": {},
   "social_posts": [
-    {
-      "id": "ptt-httpswwwpttccbbsGossipingM1789354660AACAhtml",
-      "platform": "PTT",
-      "platform_color": "#00b300",
-      "board": "Gossiping",
-      "date": "09/14",
-      "author": "PTT 鄉民",
-      "title": "[新聞] 奧客IKEA買垃圾桶用到髒污退不成　砸女",
-      "url": "https://www.ptt.cc/bbs/Gossiping/M.1789354660.A.ACA.html",
-      "reactions": 0,
-      "comments": 0,
-      "category": "環境衛生",
-      "source": "ptt"
-    },
     {
       "id": "ptt-httpswwwpttccbbsChiayiM1789343546A3C2html",
       "platform": "PTT",
@@ -307,7 +293,7 @@
       "platform": "PTT",
       "platform_color": "#00b300",
       "board": "Chiayi",
-      "date": "09/13",
+      "date": "09/14",
       "author": "PTT 鄉民",
       "title": "[問題] 現在是大挖路時期嗎？",
       "url": "https://www.ptt.cc/bbs/Chiayi/M.1789226273.A.AFE.html",
@@ -398,6 +384,20 @@
       "reactions": 0,
       "comments": 0,
       "category": "文化觀光",
+      "source": "ptt"
+    },
+    {
+      "id": "ptt-httpswwwpttccbbsChiayiM1789030324A60Chtml",
+      "platform": "PTT",
+      "platform_color": "#00b300",
+      "board": "Chiayi",
+      "date": "09/12",
+      "author": "PTT 鄉民",
+      "title": "[新聞] 黃敏惠卸任前再送敬老大禮 65歲以上健保",
+      "url": "https://www.ptt.cc/bbs/Chiayi/M.1789030324.A.60C.html",
+      "reactions": 0,
+      "comments": 0,
+      "category": "市政議題",
       "source": "ptt"
     }
   ]

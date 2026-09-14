@@ -1,19 +1,5 @@
 [
   {
-    "id": "ptt-httpswwwpttccbbsGossipingM1789354660AACAhtml",
-    "platform": "PTT",
-    "platform_color": "#00b300",
-    "board": "Gossiping",
-    "date": "09/14",
-    "author": "PTT 鄉民",
-    "title": "[新聞] 奧客IKEA買垃圾桶用到髒污退不成　砸女",
-    "url": "https://www.ptt.cc/bbs/Gossiping/M.1789354660.A.ACA.html",
-    "reactions": 0,
-    "comments": 0,
-    "category": "環境衛生",
-    "source": "ptt"
-  },
-  {
     "id": "ptt-httpswwwpttccbbsChiayiM1789343546A3C2html",
     "platform": "PTT",
     "platform_color": "#00b300",
@@ -74,7 +60,7 @@
     "platform": "PTT",
     "platform_color": "#00b300",
     "board": "Chiayi",
-    "date": "09/13",
+    "date": "09/14",
     "author": "PTT 鄉民",
     "title": "[問題] 現在是大挖路時期嗎？",
     "url": "https://www.ptt.cc/bbs/Chiayi/M.1789226273.A.AFE.html",
@@ -165,6 +151,20 @@
     "reactions": 0,
     "comments": 0,
     "category": "文化觀光",
+    "source": "ptt"
+  },
+  {
+    "id": "ptt-httpswwwpttccbbsChiayiM1789030324A60Chtml",
+    "platform": "PTT",
+    "platform_color": "#00b300",
+    "board": "Chiayi",
+    "date": "09/12",
+    "author": "PTT 鄉民",
+    "title": "[新聞] 黃敏惠卸任前再送敬老大禮 65歲以上健保",
+    "url": "https://www.ptt.cc/bbs/Chiayi/M.1789030324.A.60C.html",
+    "reactions": 0,
+    "comments": 0,
+    "category": "市政議題",
     "source": "ptt"
   }
 ]
