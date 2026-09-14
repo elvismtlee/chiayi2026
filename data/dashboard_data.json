@@ -1,6 +1,20 @@
 {
-  "updated_at": "2026-09-13T20:18:00.403838",
+  "updated_at": "2026-09-14T03:08:33.661406",
   "news": [
+    {
+      "headline": "嘉義市石綿清運補助倒數請於115年9月30日前申請",
+      "source": "嘉義市政府/嘉義市政府環境保護局/環保設施管理科",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=952396",
+      "date": "2026/09/14",
+      "query": "市府新聞"
+    },
+    {
+      "headline": "115年嘉義市環境知識圓滿成功!環保金頭腦代表嘉義市征戰全國",
+      "source": "嘉義市政府/嘉義市政府環境保護局/綜合計畫科",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=952388",
+      "date": "2026/09/14",
+      "query": "市府新聞"
+    },
     {
       "headline": "嘉市兒童生長週登場掌握成長關鍵健康與安全照護缺一不可",
       "source": "嘉義市政府/衛生局/觀光新聞處",
@@ -69,20 +83,6 @@
       "source": "嘉義市政府/西區公所",
       "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=952254",
       "date": "2026/09/12",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "迎戰超高齡社會嘉義市攜手中央推動長照3.0",
-      "source": "嘉義市政府/嘉義市長期照顧管理中心",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=952235",
-      "date": "2026/09/11",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "火舞鳳凰震撼登場！嘉義城隍夜巡盛大登場睽違105年媽祖會香重現",
-      "source": "嘉義市政府/民政處/觀光新聞處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=952261",
-      "date": "2026/09/11",
       "query": "市府新聞"
     }
   ],
@@ -198,7 +198,7 @@
       "2012": 1,
       "2013": 1
     },
-    "updated_at": "2026-09-13T20:15:25.322429",
+    "updated_at": "2026-09-14T03:06:04.215409",
     "source": "data.chiayi.gov.tw"
   },
   "council": {
@@ -232,6 +232,34 @@
   },
   "citizen_stats": {},
   "social_posts": [
+    {
+      "id": "ptt-httpswwwpttccbbsGossipingM1789354660AACAhtml",
+      "platform": "PTT",
+      "platform_color": "#00b300",
+      "board": "Gossiping",
+      "date": "09/14",
+      "author": "PTT 鄉民",
+      "title": "[新聞] 奧客IKEA買垃圾桶用到髒污退不成　砸女",
+      "url": "https://www.ptt.cc/bbs/Gossiping/M.1789354660.A.ACA.html",
+      "reactions": 0,
+      "comments": 0,
+      "category": "環境衛生",
+      "source": "ptt"
+    },
+    {
+      "id": "ptt-httpswwwpttccbbsChiayiM1789343546A3C2html",
+      "platform": "PTT",
+      "platform_color": "#00b300",
+      "board": "Chiayi",
+      "date": "09/14",
+      "author": "PTT 鄉民",
+      "title": "[揪團] youtube 家庭版會員",
+      "url": "https://www.ptt.cc/bbs/Chiayi/M.1789343546.A.3C2.html",
+      "reactions": 0,
+      "comments": 0,
+      "category": "市政議題",
+      "source": "ptt"
+    },
     {
       "id": "ptt-httpswwwpttccbbsChiayiM1789289988AEF3html",
       "platform": "PTT",
@@ -370,34 +398,6 @@
       "reactions": 0,
       "comments": 0,
       "category": "文化觀光",
-      "source": "ptt"
-    },
-    {
-      "id": "ptt-httpswwwpttccbbsChiayiM1789030324A60Chtml",
-      "platform": "PTT",
-      "platform_color": "#00b300",
-      "board": "Chiayi",
-      "date": "09/12",
-      "author": "PTT 鄉民",
-      "title": "[新聞] 黃敏惠卸任前再送敬老大禮 65歲以上健保",
-      "url": "https://www.ptt.cc/bbs/Chiayi/M.1789030324.A.60C.html",
-      "reactions": 0,
-      "comments": 0,
-      "category": "市政議題",
-      "source": "ptt"
-    },
-    {
-      "id": "ptt-httpswwwpttccbbsChiayiM1789017672A6F4html",
-      "platform": "PTT",
-      "platform_color": "#00b300",
-      "board": "Chiayi",
-      "date": "09/12",
-      "author": "PTT 鄉民",
-      "title": "Re: [新聞] 四年服務超過2000件 專職的王浩登記參選",
-      "url": "https://www.ptt.cc/bbs/Chiayi/M.1789017672.A.6F4.html",
-      "reactions": 0,
-      "comments": 0,
-      "category": "行政服務",
       "source": "ptt"
     }
   ]
