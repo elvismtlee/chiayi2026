@@ -1,6 +1,20 @@
 {
-  "updated_at": "2026-09-15T10:58:14.171792",
+  "updated_at": "2026-09-15T16:11:26.854766",
   "news": [
+    {
+      "headline": "嘉義市政府115年9月份公報",
+      "source": "嘉義市政府/行政處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=951964",
+      "date": "2026/09/16",
+      "query": "市府新聞"
+    },
+    {
+      "headline": "金馬63再現嘉市好店魅力《翻山悦嶺》米磚禮盒傳遞城市幸福味",
+      "source": "嘉義市政府/建設處/觀光新聞處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=952617",
+      "date": "2026/09/15",
+      "query": "市府新聞"
+    },
     {
       "headline": "2026《天下雜誌》施政滿意度調查黃敏惠市長連4年獲標竿首長、永續幸福城市奪非六都冠軍",
       "source": "嘉義市政府/觀光新聞處",
@@ -68,20 +82,6 @@
       "headline": "「以茶寄情以陶載道」傳統手藝與當代茶道的交會「壺裡光陰」陶藝聯展精彩登場",
       "source": "嘉義市政府/文化局/觀光新聞處",
       "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=952366",
-      "date": "2026/09/13",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "嘉義市國家防災日親子嘉年華登場邀請市民共同體驗並打造韌性城市",
-      "source": "嘉義市政府/消防局/觀光新聞處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=952364",
-      "date": "2026/09/13",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "17歲青春策展走進嘉義舊監黃敏惠市長：讓情緒被看見，也讓青年被看見",
-      "source": "嘉義市政府/文化局/觀光新聞處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=952363",
       "date": "2026/09/13",
       "query": "市府新聞"
     }
@@ -202,7 +202,7 @@
       "2012": 1,
       "2013": 1
     },
-    "updated_at": "2026-09-15T10:56:31.024882",
+    "updated_at": "2026-09-15T16:09:45.705797",
     "source": "data.chiayi.gov.tw"
   },
   "council": {
@@ -236,6 +236,20 @@
   },
   "citizen_stats": {},
   "social_posts": [
+    {
+      "id": "ptt-httpswwwpttccbbsChiayiM1789477911AFB9html",
+      "platform": "PTT",
+      "platform_color": "#00b300",
+      "board": "Chiayi",
+      "date": "09/15",
+      "author": "PTT 鄉民",
+      "title": "Re: [新聞] 逾6成人行道淨寬不足 嘉義市府：逐年改",
+      "url": "https://www.ptt.cc/bbs/Chiayi/M.1789477911.A.FB9.html",
+      "reactions": 0,
+      "comments": 0,
+      "category": "人行步道",
+      "source": "ptt"
+    },
     {
       "id": "ptt-httpswwwpttccbbsChiayiM1789434883A905html",
       "platform": "PTT",
@@ -388,20 +402,6 @@
       "reactions": 0,
       "comments": 0,
       "category": "文化觀光",
-      "source": "ptt"
-    },
-    {
-      "id": "ptt-httpswwwpttccbbsChiayiM1789030324A60Chtml",
-      "platform": "PTT",
-      "platform_color": "#00b300",
-      "board": "Chiayi",
-      "date": "09/12",
-      "author": "PTT 鄉民",
-      "title": "[新聞] 黃敏惠卸任前再送敬老大禮 65歲以上健保",
-      "url": "https://www.ptt.cc/bbs/Chiayi/M.1789030324.A.60C.html",
-      "reactions": 0,
-      "comments": 0,
-      "category": "市政議題",
       "source": "ptt"
     }
   ]

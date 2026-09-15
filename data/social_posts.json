@@ -1,5 +1,19 @@
 [
   {
+    "id": "ptt-httpswwwpttccbbsChiayiM1789477911AFB9html",
+    "platform": "PTT",
+    "platform_color": "#00b300",
+    "board": "Chiayi",
+    "date": "09/15",
+    "author": "PTT 鄉民",
+    "title": "Re: [新聞] 逾6成人行道淨寬不足 嘉義市府：逐年改",
+    "url": "https://www.ptt.cc/bbs/Chiayi/M.1789477911.A.FB9.html",
+    "reactions": 0,
+    "comments": 0,
+    "category": "人行步道",
+    "source": "ptt"
+  },
+  {
     "id": "ptt-httpswwwpttccbbsChiayiM1789434883A905html",
     "platform": "PTT",
     "platform_color": "#00b300",
@@ -151,20 +165,6 @@
     "reactions": 0,
     "comments": 0,
     "category": "文化觀光",
-    "source": "ptt"
-  },
-  {
-    "id": "ptt-httpswwwpttccbbsChiayiM1789030324A60Chtml",
-    "platform": "PTT",
-    "platform_color": "#00b300",
-    "board": "Chiayi",
-    "date": "09/12",
-    "author": "PTT 鄉民",
-    "title": "[新聞] 黃敏惠卸任前再送敬老大禮 65歲以上健保",
-    "url": "https://www.ptt.cc/bbs/Chiayi/M.1789030324.A.60C.html",
-    "reactions": 0,
-    "comments": 0,
-    "category": "市政議題",
     "source": "ptt"
   }
 ]
