@@ -1,16 +1,16 @@
 {
-  "updated_at": "2026-09-15T03:06:18.552633",
+  "updated_at": "2026-09-15T10:56:43.766433",
   "aqi_realtime": [
     {
       "station": "嘉義市（Open-Meteo 模型）",
-      "aqi": 37,
-      "pm25": 26.3,
-      "pm10": 28.2,
-      "o3": 116.0,
-      "no2": 19.1,
+      "aqi": 41,
+      "pm25": 29.6,
+      "pm10": 34.9,
+      "o3": 102.0,
+      "no2": 40.9,
       "status": "良好",
       "pollutant": "PM2.5",
-      "time": "2026-09-15T11:00",
+      "time": "2026-09-15T18:00",
       "source": "Open-Meteo"
     }
   ],
@@ -41,15 +41,15 @@
   "weather": [
     {
       "station": "嘉義市（Open-Meteo）",
-      "temp": "31.2",
-      "apparent_temp": "37.2",
-      "humidity": "62",
+      "temp": "26.4",
+      "apparent_temp": "33.3",
+      "humidity": "95",
       "rainfall": "0.0",
-      "wind_speed": "5.1",
-      "wind_dir": "266",
-      "cloud": "23",
+      "wind_speed": "1.3",
+      "wind_dir": "16",
+      "cloud": "60",
       "weather": "多雲",
-      "time": "2026-09-15 11:00",
+      "time": "2026-09-15 18:45",
       "source": "Open-Meteo"
     }
   ],
@@ -62,9 +62,9 @@
       "source": "Google新聞"
     },
     {
-      "title": "嘉義市政府第1253次市務會議紀錄 - chiayi.gov.tw",
-      "date": "Sat, 12 Sep 2026",
-      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE45aGM3ZmRzZVh0NlQtTUJWUWY4Q2VBSWU5TU1aMnE5bGo3eW11TlY4YjRDNGJQeVpNNlExSkFacVVlQkJKenNydzFBWGlwUUVJd3Jiek92UEs4cjlFMWxQQ3lFU0pGNE1kTWc?oc=5",
+      "title": "音樂影像走進城市 嘉義9月四場活動串起創作、場域與人才 - 中央社 CNA",
+      "date": "Tue, 15 Sep 2026",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE42NEE3VzB3UTJ4Z1VLREkwSUZEblUwWC1PNlFnVjdZWDAzQUVVSHRqbVNKTGt2VlZaeEFZVVVNNWgtejlnM2Y4eWtRV25xNmVNX1poem9B?oc=5",
       "desc": "",
       "source": "Google新聞"
     },
@@ -76,23 +76,23 @@
       "source": "Google新聞"
     },
     {
+      "title": "黃敏惠霸氣送大禮！嘉義市65歲以上長者10月起「這筆錢」免繳了 - 墨新聞-MORE News",
+      "date": "Tue, 15 Sep 2026",
+      "link": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE9OVS1NaGlBLUFEaTZNMzNmSW9EZFlQYnZRNGxPbDZBSXNWc3VWRk9BX2JtdjlUMGZNejEtS1RqMVM3Zw?oc=5",
+      "desc": "",
+      "source": "Google新聞"
+    },
+    {
+      "title": "「2026光織影舞」豪華卡司星光閃耀 陪伴民眾歡度中秋與雙十假期 - chiayi.gov.tw",
+      "date": "Mon, 14 Sep 2026",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1mbFhCei1QYkQ1UnpSMUI4NnJwQlZYejFBRXhTcmhmUnZFUkF2MGlDNlJBY1pYcVQtYVY2ZEszQ2NpdzIwZHEyakFsZTZaSUwyWVFnOEhjTFlIR2FjWVBxMk9oV2VCZXktQ1E?oc=5",
+      "desc": "",
+      "source": "Google新聞"
+    },
+    {
       "title": "嘉義市石綿清運補助倒數 請於115年9月30日前申請 - chiayi.gov.tw",
       "date": "Mon, 14 Sep 2026",
       "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE44ME8wZWFxVHd3bEpod2FPNy15OGk5am1YSTFkS0l6MjVfLTNQOHozMGg2dElveHFFMlhkNGxmVUlzWTNGaUQ2UFR3Wk9aNFgySlRPY183Z3dtRDNKU2VCdlUyeUFPZXYySVE?oc=5",
-      "desc": "",
-      "source": "Google新聞"
-    },
-    {
-      "title": "中秋送禮響應「一多三少」，減少包裝更添心意 - chiayi.gov.tw",
-      "date": "Mon, 14 Sep 2026",
-      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE85MXdvQ1RDcjdXQm9lQVB4UVFXbk9QNTdkYS1mN05iOHV6Vm50Y0FLRG1XbTEtUUlGc1BtQ3NvWjg2S0RXT2hLMkVvT3ROb2NjQ3gtamRJZUFTcnJkOVlDYjBYTk1vdGN1U2c?oc=5",
-      "desc": "",
-      "source": "Google新聞"
-    },
-    {
-      "title": "嘉義市推動智慧回收機佈建再增3處！明(6/24)起推廣活動起跑 揪你回收兌優惠 - 嘉義市政府環境保護局",
-      "date": "Fri, 11 Sep 2026",
-      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5QT2NIVDRNd0hqalRNLU01Um40YjRtTk0ycVNZX0Y5SGltRllMZGZDZlNRVC1aLWF5dDkxWTU2RXRpbWNkb2RMV1BNUjZuMjhTcVJUY2RSY0dfSDZaaG5qTmFPdmFUa2RHeW5RWE5vMHdMTnFBRTVBRA?oc=5",
       "desc": "",
       "source": "Google新聞"
     }
@@ -127,13 +127,6 @@
       "source": "Google新聞"
     },
     {
-      "title": "嘉義市勇奪國家卓越建設獎3金1優質獎 打造人本永續城市新典範 | 熱門亮點 | 商情 - money.udn.com",
-      "date": "Wed, 05 Aug 2026",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9QSDdiLTFqeTNIbmZPQ2luNE9MbkFRdHBGRTIxVFJoa1pRaVBRRDhZT1YzUkdSMGktZGdvcFp6bmh3VThwVndhbVYzaEZSSmN5SlExamxNazA5QQ?oc=5",
-      "org": "新聞資訊",
-      "source": "Google新聞"
-    },
-    {
       "title": "告別側溝異味嘉義市湖子內污水下水道系統工程動土中央補助逾5.48億元二期完工後接管率達42.4% - cnma.org.tw",
       "date": "Fri, 04 Sep 2026",
       "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5JZGZ1QzY1OW85VW1vcUpXbnRSX3Z5azdoQ2M2SnZISmhuSWlDUGFMR1NjeVNVenVVX2txQjc3WC15dDRoRjRBY2MtOFpZRXB2M3VVemJrOVdQb1R1QUlEMEZfaw?oc=5",
@@ -141,16 +134,23 @@
       "source": "Google新聞"
     },
     {
-      "title": "嘉義市前瞻停車場建設再獲肯定 國家卓越建設獎勇奪3金1優質獎 - 台灣民眾電子報",
-      "date": "Tue, 04 Aug 2026",
-      "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE9VaGxudGtmcm1jcXJmeW9SVU53VFozRWhNTUtuU1lPalZIN2JwTEROZ2lUemNsRzlNZW9XZ1BhbEJZLTFjX3R2TA?oc=5",
+      "title": "太猛！嘉義污水建設「5連霸」全國第一 設施營運再拿優等 - 墨新聞-MORE News",
+      "date": "Sun, 23 Aug 2026",
+      "link": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE1VVTdOZXZNbjRHUDVMMFBNdWlUUVlNRU5TOVlDWUtDa0dFalJrYkFBSWRLb1ZUbnJwZ1FGeEFfV0FBZw?oc=5",
       "org": "新聞資訊",
       "source": "Google新聞"
     },
     {
-      "title": "嘉義市前瞻停車場建設 獲2026年國家卓越建設獎肯定 - 台灣好新聞",
-      "date": "Tue, 04 Aug 2026",
-      "link": "https://news.google.com/rss/articles/CBMi-gJBVV95cUxOMGFsbzhXVEwzQUhNSmgyQXBNYkhjU1BSY1VkSkQ5X2N5OGlEa1ZpUl9jM1E1UXhXb0FiOEVKcGxlcjl2R01mVGxFbmRoZHZBdVpQam1Oa18tTi1RcTBibEdXdjhRNnMyNndlTF9PdUVQZVY3TmdfMWdIa0I5bGYwWGVtdGVnZnUyLUVPYURUaVlTekVxT0RnMFFmSGY3Umt6UnZHTVFUWlVydDFMeldjWENBVXc1UTl5UHEtb2s3eFc2UUt0b1lkVENKSTRtdXlsVk45bzV4aGluVEM4enhCZ0hFMTA0MHZISXJCRTVuY3RLOGxicjR1SWhOS2tQRnNnMS10UWhqTFMtNWlQWUFpVllxTEd0WVBFVm4zV3dKckFaOTJDeklnUUM0ZEE5UG9NMVBkWGVsekNwZ1JBNjFVY2JRNnRoUjF1ZFFHSE1xUG1fTG1UZndmM0VEMlJJUDllNlF2bHNVYm4wU2tqQnkybUVNZzQyb2dob2c?oc=5",
+      "title": "全國污水評鑑五連霸 嘉義市再奪第三組第1名 - 台灣好新聞",
+      "date": "Sun, 23 Aug 2026",
+      "link": "https://news.google.com/rss/articles/CBMitwJBVV95cUxOOHo0ZzhTdXBLa251RXY3ZnJnYk1hQTRadnpHZkFYMGR0X3FsYVYtT3lBZERibU9hYmM2d0lVSWgtbzRmUmR3UjJRblQwQVA4aUE0bXJSWTlPZnE2VlVmVXNRMW1mM09YUmlNUHJodVBFSDEzb0EyM1pOZTU5NndaV1dCdjNNN2JOZV9Ka1RLZlJTWUo5d3lZUGtsQVhjN0NPalA4MnpRNVFiSGlJUXQxeURWMm5kRkRLdERmTTBuMkpWbm1DVGoweW0yV2hOZ1lSTTBIREJld25UYndJenN4OUVZM2N5SG1RTGZKdGFKYnk2X1ZpSXg2V3EySmsxZF9Vaklnb3NVWVJXR29NUDlfaF9FLU56UkdGUW1na3A3YkFCSjZ6QnpQUzFaVTAydW8xbnJ6U0JfWQ?oc=5",
+      "org": "新聞資訊",
+      "source": "Google新聞"
+    },
+    {
+      "title": "嘉義市污水建設再奪全國第一 締造五連霸佳績 - 新頭條",
+      "date": "Sun, 23 Aug 2026",
+      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBMYkdOb1FsQWdJQlJVSHU1eUVPaXJJaUpCX2lmTUJ1UFN5cndoekV5eFQ3Zk81bFo2MGNiT0xnZEUxajVmcWNfN1VqbThRQ2R1ODFpMQ?oc=5",
       "org": "新聞資訊",
       "source": "Google新聞"
     }
@@ -260,7 +260,7 @@
       "lat": 23.481634,
       "lng": 120.453745,
       "total": 45,
-      "available": 34,
+      "available": 35,
       "addr": "中山路199號(對面)"
     },
     {
@@ -269,7 +269,7 @@
       "lat": 23.482012,
       "lng": 120.457342,
       "total": 22,
-      "available": 8,
+      "available": 6,
       "addr": "中山路98號(前)"
     },
     {
@@ -278,7 +278,7 @@
       "lat": 23.482663,
       "lng": 120.462988,
       "total": 25,
-      "available": 16,
+      "available": 15,
       "addr": "中山路2號(前)"
     },
     {
@@ -287,7 +287,7 @@
       "lat": 23.478707,
       "lng": 120.462594,
       "total": 38,
-      "available": 26,
+      "available": 24,
       "addr": "啟明路122號(前)"
     },
     {
@@ -296,7 +296,7 @@
       "lat": 23.477031,
       "lng": 120.465573,
       "total": 34,
-      "available": 16,
+      "available": 26,
       "addr": "大雅路二段738號(前)"
     },
     {
@@ -305,7 +305,7 @@
       "lat": 23.4798596,
       "lng": 120.4488291,
       "total": 20,
-      "available": 13,
+      "available": 6,
       "addr": "中山路306號"
     },
     {
@@ -314,7 +314,7 @@
       "lat": 23.47963,
       "lng": 120.44583,
       "total": 20,
-      "available": 2,
+      "available": 12,
       "addr": "中山路386號"
     },
     {
@@ -323,7 +323,7 @@
       "lat": 23.47917,
       "lng": 120.44186,
       "total": 99,
-      "available": 14,
+      "available": 3,
       "addr": "中山路524號"
     },
     {
@@ -332,7 +332,7 @@
       "lat": 23.47877,
       "lng": 120.44089,
       "total": 42,
-      "available": 19,
+      "available": 0,
       "addr": "中山路528號"
     },
     {
@@ -341,7 +341,7 @@
       "lat": 23.47283,
       "lng": 120.44029,
       "total": 5,
-      "available": 3,
+      "available": 2,
       "addr": "垂楊路575號"
     },
     {
@@ -350,7 +350,7 @@
       "lat": 23.47336,
       "lng": 120.44604,
       "total": 14,
-      "available": 1,
+      "available": 12,
       "addr": "垂楊路351號"
     },
     {
@@ -359,7 +359,7 @@
       "lat": 23.4738724,
       "lng": 120.4493073,
       "total": 20,
-      "available": 12,
+      "available": 20,
       "addr": "垂楊路434號"
     },
     {
@@ -368,7 +368,7 @@
       "lat": 23.47918,
       "lng": 120.43182,
       "total": 15,
-      "available": 7,
+      "available": 5,
       "addr": "北港路278號"
     },
     {
@@ -377,7 +377,7 @@
       "lat": 23.486138,
       "lng": 120.453829,
       "total": 20,
-      "available": 12,
+      "available": 4,
       "addr": "忠孝路284號(旁)"
     },
     {
@@ -386,7 +386,7 @@
       "lat": 23.48091,
       "lng": 120.43012,
       "total": 20,
-      "available": 16,
+      "available": 5,
       "addr": "北港路312號東側"
     },
     {
@@ -395,7 +395,7 @@
       "lat": 23.48465,
       "lng": 120.43354,
       "total": 14,
-      "available": 3,
+      "available": 7,
       "addr": "友愛興達路口"
     },
     {
@@ -404,7 +404,7 @@
       "lat": 23.48931,
       "lng": 120.4361,
       "total": 15,
-      "available": 6,
+      "available": 3,
       "addr": "自由路298號"
     },
     {
@@ -413,7 +413,7 @@
       "lat": 23.49265,
       "lng": 120.43191,
       "total": 15,
-      "available": 9,
+      "available": 6,
       "addr": "自由路492號"
     },
     {
@@ -422,7 +422,7 @@
       "lat": 23.478941,
       "lng": 120.437805,
       "total": 23,
-      "available": 15,
+      "available": 13,
       "addr": "博愛路二段281號"
     },
     {
@@ -431,10 +431,10 @@
       "lat": 23.47165,
       "lng": 120.43119,
       "total": 15,
-      "available": 11,
+      "available": 5,
       "addr": "博愛路二段461號"
     }
   ],
   "water": [],
-  "fetch_seconds": 91.7
+  "fetch_seconds": 90.4
 }

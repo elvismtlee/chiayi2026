@@ -1,6 +1,27 @@
 {
-  "updated_at": "2026-09-15T03:07:50.244965",
+  "updated_at": "2026-09-15T10:58:14.171792",
   "news": [
+    {
+      "headline": "2026《天下雜誌》施政滿意度調查黃敏惠市長連4年獲標竿首長、永續幸福城市奪非六都冠軍",
+      "source": "嘉義市政府/觀光新聞處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=952597",
+      "date": "2026/09/15",
+      "query": "市府新聞"
+    },
+    {
+      "headline": "音樂影像走進城市嘉義9月四場活動串起創作、場域與人才",
+      "source": "嘉義市政府/文化局/觀光新聞處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=952594",
+      "date": "2026/09/15",
+      "query": "市府新聞"
+    },
+    {
+      "headline": "嘉市擴大長者福利10月起65歲以上享健保費補助",
+      "source": "嘉義市政府/社會處/觀光新聞處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=952587",
+      "date": "2026/09/15",
+      "query": "市府新聞"
+    },
     {
       "headline": "中秋送禮響應「一多三少」，減少包裝更添心意",
       "source": "嘉義市政府/嘉義市政府環境保護局/資源循環管理科",
@@ -62,27 +83,6 @@
       "source": "嘉義市政府/文化局/觀光新聞處",
       "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=952363",
       "date": "2026/09/13",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "健康從「動」開始！何立安博士「桃城好健康」開講帶市民從零開始練肌力",
-      "source": "嘉義市政府/衛生局",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=951683",
-      "date": "2026/09/12",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "慈濟宮如意振裕堂八家將會108週年堂慶百年八家將圖修護完成重現嘉義「家將窟」珍貴文化記憶",
-      "source": "嘉義市政府/文化局/觀光新聞處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=952321",
-      "date": "2026/09/12",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "蘭潭國中傑出校友黃瑞仁返母校開講分享冠心病防治守護心健康",
-      "source": "嘉義市政府/教育處/觀光新聞處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=952317",
-      "date": "2026/09/12",
       "query": "市府新聞"
     }
   ],
@@ -202,7 +202,7 @@
       "2012": 1,
       "2013": 1
     },
-    "updated_at": "2026-09-15T03:06:07.604004",
+    "updated_at": "2026-09-15T10:56:31.024882",
     "source": "data.chiayi.gov.tw"
   },
   "council": {
@@ -339,24 +339,10 @@
       "platform": "PTT",
       "platform_color": "#00b300",
       "board": "Chiayi",
-      "date": "09/13",
+      "date": "09/15",
       "author": "PTT 鄉民",
       "title": "[新聞] 嘉義中央噴水圓環修繕完工 3600萬升級",
       "url": "https://www.ptt.cc/bbs/Chiayi/M.1789177817.A.D4E.html",
-      "reactions": 0,
-      "comments": 0,
-      "category": "市政議題",
-      "source": "ptt"
-    },
-    {
-      "id": "ptt-httpswwwpttccbbsChiayiM1789174240A97Ehtml",
-      "platform": "PTT",
-      "platform_color": "#00b300",
-      "board": "Chiayi",
-      "date": "09/13",
-      "author": "PTT 鄉民",
-      "title": "[贈送] 詩肯柚木餐椅、健身器材、英文書籍",
-      "url": "https://www.ptt.cc/bbs/Chiayi/M.1789174240.A.97E.html",
       "reactions": 0,
       "comments": 0,
       "category": "市政議題",
@@ -367,7 +353,7 @@
       "platform": "PTT",
       "platform_color": "#00b300",
       "board": "Chiayi",
-      "date": "09/13",
+      "date": "09/15",
       "author": "PTT 鄉民",
       "title": "[買賣] 怎麼可能我家祖先是你家的鬼/魔法少女小圓電影票",
       "url": "https://www.ptt.cc/bbs/Chiayi/M.1789102895.A.653.html",
@@ -395,13 +381,27 @@
       "platform": "PTT",
       "platform_color": "#00b300",
       "board": "Chiayi",
-      "date": "09/13",
+      "date": "09/15",
       "author": "PTT 鄉民",
       "title": "[情報] 小心文化路的噴水池",
       "url": "https://www.ptt.cc/bbs/Chiayi/M.1789050349.A.1DA.html",
       "reactions": 0,
       "comments": 0,
       "category": "文化觀光",
+      "source": "ptt"
+    },
+    {
+      "id": "ptt-httpswwwpttccbbsChiayiM1789030324A60Chtml",
+      "platform": "PTT",
+      "platform_color": "#00b300",
+      "board": "Chiayi",
+      "date": "09/12",
+      "author": "PTT 鄉民",
+      "title": "[新聞] 黃敏惠卸任前再送敬老大禮 65歲以上健保",
+      "url": "https://www.ptt.cc/bbs/Chiayi/M.1789030324.A.60C.html",
+      "reactions": 0,
+      "comments": 0,
+      "category": "市政議題",
       "source": "ptt"
     }
   ]
