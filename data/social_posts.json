@@ -1,5 +1,19 @@
 [
   {
+    "id": "ptt-httpswwwpttccbbsGossipingM1789496896A0EChtml",
+    "platform": "PTT",
+    "platform_color": "#00b300",
+    "board": "Gossiping",
+    "date": "09/16",
+    "author": "PTT 鄉民",
+    "title": "[新聞] 蘇巧慧、綠議員突「尊侯」 謝寒冰揭眉角",
+    "url": "https://www.ptt.cc/bbs/Gossiping/M.1789496896.A.0EC.html",
+    "reactions": 0,
+    "comments": 0,
+    "category": "市政議題",
+    "source": "ptt"
+  },
+  {
     "id": "ptt-httpswwwpttccbbsChiayiM1789477911AFB9html",
     "platform": "PTT",
     "platform_color": "#00b300",
@@ -14,25 +28,11 @@
     "source": "ptt"
   },
   {
-    "id": "ptt-httpswwwpttccbbsChiayiM1789434883A905html",
-    "platform": "PTT",
-    "platform_color": "#00b300",
-    "board": "Chiayi",
-    "date": "09/15",
-    "author": "PTT 鄉民",
-    "title": "[亂入] 徵求7-11統一麵包點數",
-    "url": "https://www.ptt.cc/bbs/Chiayi/M.1789434883.A.905.html",
-    "reactions": 0,
-    "comments": 0,
-    "category": "市政議題",
-    "source": "ptt"
-  },
-  {
     "id": "ptt-httpswwwpttccbbsChiayiM1789428012A0A1html",
     "platform": "PTT",
     "platform_color": "#00b300",
     "board": "Chiayi",
-    "date": "09/15",
+    "date": "09/16",
     "author": "PTT 鄉民",
     "title": "[新聞] 柯文哲自稱「最強助選員」 啟動嘉義5天",
     "url": "https://www.ptt.cc/bbs/Chiayi/M.1789428012.A.0A1.html",
