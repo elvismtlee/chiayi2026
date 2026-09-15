@@ -1,6 +1,13 @@
 {
-  "updated_at": "2026-09-14T21:27:11.690988",
+  "updated_at": "2026-09-15T03:07:50.244965",
   "news": [
+    {
+      "headline": "中秋送禮響應「一多三少」，減少包裝更添心意",
+      "source": "嘉義市政府/嘉義市政府環境保護局/資源循環管理科",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=952211",
+      "date": "2026/09/15",
+      "query": "市府新聞"
+    },
     {
       "headline": "助傳產減壓！嘉義市納管/特登工廠「雙金免繳1年」黃敏惠市長：作伙拚未來",
       "source": "嘉義市政府/建設處/觀光新聞處",
@@ -75,13 +82,6 @@
       "headline": "蘭潭國中傑出校友黃瑞仁返母校開講分享冠心病防治守護心健康",
       "source": "嘉義市政府/教育處/觀光新聞處",
       "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=952317",
-      "date": "2026/09/12",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "嘉義城隍尊神聖誕祝壽大典黃敏惠市長祈願國泰民安",
-      "source": "嘉義市政府/民政處/觀光新聞處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=952315",
       "date": "2026/09/12",
       "query": "市府新聞"
     }
@@ -202,7 +202,7 @@
       "2012": 1,
       "2013": 1
     },
-    "updated_at": "2026-09-14T21:24:44.082651",
+    "updated_at": "2026-09-15T03:06:07.604004",
     "source": "data.chiayi.gov.tw"
   },
   "council": {
@@ -237,11 +237,39 @@
   "citizen_stats": {},
   "social_posts": [
     {
+      "id": "ptt-httpswwwpttccbbsChiayiM1789434883A905html",
+      "platform": "PTT",
+      "platform_color": "#00b300",
+      "board": "Chiayi",
+      "date": "09/15",
+      "author": "PTT 鄉民",
+      "title": "[亂入] 徵求7-11統一麵包點數",
+      "url": "https://www.ptt.cc/bbs/Chiayi/M.1789434883.A.905.html",
+      "reactions": 0,
+      "comments": 0,
+      "category": "市政議題",
+      "source": "ptt"
+    },
+    {
+      "id": "ptt-httpswwwpttccbbsChiayiM1789428012A0A1html",
+      "platform": "PTT",
+      "platform_color": "#00b300",
+      "board": "Chiayi",
+      "date": "09/15",
+      "author": "PTT 鄉民",
+      "title": "[新聞] 柯文哲自稱「最強助選員」 啟動嘉義5天",
+      "url": "https://www.ptt.cc/bbs/Chiayi/M.1789428012.A.0A1.html",
+      "reactions": 0,
+      "comments": 0,
+      "category": "市政議題",
+      "source": "ptt"
+    },
+    {
       "id": "ptt-httpswwwpttccbbsChiayiM1789289988AEF3html",
       "platform": "PTT",
       "platform_color": "#00b300",
       "board": "Chiayi",
-      "date": "09/14",
+      "date": "09/15",
       "author": "PTT 鄉民",
       "title": "[新聞] 逾6成人行道淨寬不足 嘉義市府：逐年改",
       "url": "https://www.ptt.cc/bbs/Chiayi/M.1789289988.A.EF3.html",
@@ -374,34 +402,6 @@
       "reactions": 0,
       "comments": 0,
       "category": "文化觀光",
-      "source": "ptt"
-    },
-    {
-      "id": "ptt-httpswwwpttccbbsChiayiM1789030324A60Chtml",
-      "platform": "PTT",
-      "platform_color": "#00b300",
-      "board": "Chiayi",
-      "date": "09/12",
-      "author": "PTT 鄉民",
-      "title": "[新聞] 黃敏惠卸任前再送敬老大禮 65歲以上健保",
-      "url": "https://www.ptt.cc/bbs/Chiayi/M.1789030324.A.60C.html",
-      "reactions": 0,
-      "comments": 0,
-      "category": "市政議題",
-      "source": "ptt"
-    },
-    {
-      "id": "ptt-httpswwwpttccbbsChiayiM1789017672A6F4html",
-      "platform": "PTT",
-      "platform_color": "#00b300",
-      "board": "Chiayi",
-      "date": "09/12",
-      "author": "PTT 鄉民",
-      "title": "Re: [新聞] 四年服務超過2000件 專職的王浩登記參選",
-      "url": "https://www.ptt.cc/bbs/Chiayi/M.1789017672.A.6F4.html",
-      "reactions": 0,
-      "comments": 0,
-      "category": "行政服務",
       "source": "ptt"
     }
   ]
