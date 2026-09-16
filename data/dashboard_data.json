@@ -1,6 +1,27 @@
 {
-  "updated_at": "2026-09-16T03:03:16.290373",
+  "updated_at": "2026-09-16T10:50:57.295540",
   "news": [
+    {
+      "headline": "嘉屋第二屆示範案揭曉！從住宅走向多元建築勾勒「世代宜居」城市新樣貌",
+      "source": "嘉義市政府/都市發展處/觀光新聞處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=952711",
+      "date": "2026/09/16",
+      "query": "市府新聞"
+    },
+    {
+      "headline": "2026嘉義市購物節消費逼近8億！「滿千送百」2,500萬帶動2.78億消費！9/19-20特色市集綁手機條碼再送霜淇淋",
+      "source": "嘉義市政府/建設處/觀光新聞處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=952698",
+      "date": "2026/09/16",
+      "query": "市府新聞"
+    },
+    {
+      "headline": "從停車到軌道全面布局長榮公園地下停車場動土黃敏惠市長盼中央補足嘉義關鍵軌道拼圖",
+      "source": "嘉義市政府/交通處/觀光新聞處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=952692",
+      "date": "2026/09/16",
+      "query": "市府新聞"
+    },
     {
       "headline": "嘉義市政府115年9月份公報",
       "source": "嘉義市政府/行政處",
@@ -58,31 +79,10 @@
       "query": "市府新聞"
     },
     {
-      "headline": "嘉義市石綿清運補助倒數請於115年9月30日前申請",
-      "source": "嘉義市政府/嘉義市政府環境保護局/環保設施管理科",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=952396",
+      "headline": "第一消防分隊再獲獎!！連奪消防署及心肌梗塞學會兩項「績優團隊」與「臺灣最佳心肌梗塞緊急救護團隊」獎項",
+      "source": "嘉義市政府/消防局",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=952687",
       "date": "2026/09/14",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "115年嘉義市環境知識圓滿成功!環保金頭腦代表嘉義市征戰全國",
-      "source": "嘉義市政府/嘉義市政府環境保護局/綜合計畫科",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=952388",
-      "date": "2026/09/14",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "嘉市兒童生長週登場掌握成長關鍵健康與安全照護缺一不可",
-      "source": "嘉義市政府/衛生局/觀光新聞處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=952367",
-      "date": "2026/09/13",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "「以茶寄情以陶載道」傳統手藝與當代茶道的交會「壺裡光陰」陶藝聯展精彩登場",
-      "source": "嘉義市政府/文化局/觀光新聞處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=952366",
-      "date": "2026/09/13",
       "query": "市府新聞"
     }
   ],
@@ -202,7 +202,7 @@
       "2012": 1,
       "2013": 1
     },
-    "updated_at": "2026-09-16T03:01:29.465523",
+    "updated_at": "2026-09-16T10:48:35.012625",
     "source": "data.chiayi.gov.tw"
   },
   "council": {
