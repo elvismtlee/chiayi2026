@@ -1,6 +1,13 @@
 {
-  "updated_at": "2026-09-17T03:11:33.378510",
+  "updated_at": "2026-09-17T10:58:25.044662",
   "news": [
+    {
+      "headline": "2026光織影舞以迪士尼經典故事《小熊維尼》為主題歡度中秋9月25日點亮北香湖公園",
+      "source": "嘉義市政府/觀光新聞處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=952815",
+      "date": "2026/09/17",
+      "query": "市府新聞"
+    },
     {
       "headline": "從音樂舞台走進咖啡館！嘉頌副團長打造「珈頌川棠」嘉市特色店家改造計畫前進西區",
       "source": "嘉義市政府/建設處/觀光新聞處",
@@ -76,13 +83,6 @@
       "source": "嘉義市政府/嘉義市政府環境保護局/資源循環管理科",
       "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=952211",
       "date": "2026/09/15",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "助傳產減壓！嘉義市納管/特登工廠「雙金免繳1年」黃敏惠市長：作伙拚未來",
-      "source": "嘉義市政府/建設處/觀光新聞處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=952430",
-      "date": "2026/09/14",
       "query": "市府新聞"
     }
   ],
@@ -202,7 +202,7 @@
       "2012": 1,
       "2013": 1
     },
-    "updated_at": "2026-09-17T03:08:55.711474",
+    "updated_at": "2026-09-17T10:55:53.684047",
     "source": "data.chiayi.gov.tw"
   },
   "council": {
