@@ -454,5 +454,65 @@
     "count": 1,
     "source": "data.chiayi.gov.tw",
     "source_url": "https://data.chiayi.gov.tw/opendata/"
+  },
+  {
+    "date": "2026/05",
+    "year": "2026",
+    "category": "公共安全",
+    "subcategory": "水域安全",
+    "location": "嘉義市東區八掌溪忠義橋",
+    "title": "溺水事故（溪河）",
+    "description": "原因：自殺，結果：死亡",
+    "count": 1,
+    "source": "data.chiayi.gov.tw",
+    "source_url": "https://data.chiayi.gov.tw/opendata/"
+  },
+  {
+    "date": "2026/07",
+    "year": "2026",
+    "category": "公共安全",
+    "subcategory": "水域安全",
+    "location": "嘉義市東區姊妹亭[救溺]",
+    "title": "溺水事故（水庫）",
+    "description": "原因：自殺，結果：死亡",
+    "count": 1,
+    "source": "data.chiayi.gov.tw",
+    "source_url": "https://data.chiayi.gov.tw/opendata/"
+  },
+  {
+    "date": "2026/08",
+    "year": "2026",
+    "category": "公共安全",
+    "subcategory": "水域安全",
+    "location": "嘉義市東區蘭潭三信亭",
+    "title": "溺水事故（水庫）",
+    "description": "原因：浮屍，結果：死亡",
+    "count": 1,
+    "source": "data.chiayi.gov.tw",
+    "source_url": "https://data.chiayi.gov.tw/opendata/"
+  },
+  {
+    "date": "2026/09",
+    "year": "2026",
+    "category": "公共安全",
+    "subcategory": "水域安全",
+    "location": "蘭潭水庫水舞區",
+    "title": "溺水事故（水庫）",
+    "description": "原因：自殺，結果：死亡",
+    "count": 1,
+    "source": "data.chiayi.gov.tw",
+    "source_url": "https://data.chiayi.gov.tw/opendata/"
+  },
+  {
+    "date": "2026/09",
+    "year": "2026",
+    "category": "公共安全",
+    "subcategory": "水域安全",
+    "location": "嘉義市東區蘭潭淨水廠",
+    "title": "溺水事故（水庫）",
+    "description": "原因：浮屍，結果：死亡",
+    "count": 1,
+    "source": "data.chiayi.gov.tw",
+    "source_url": "https://data.chiayi.gov.tw/opendata/"
   }
 ]
