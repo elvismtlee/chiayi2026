@@ -1,6 +1,20 @@
 {
-  "updated_at": "2026-09-16T20:49:50.086872",
+  "updated_at": "2026-09-17T03:11:33.378510",
   "news": [
+    {
+      "headline": "從音樂舞台走進咖啡館！嘉頌副團長打造「珈頌川棠」嘉市特色店家改造計畫前進西區",
+      "source": "嘉義市政府/建設處/觀光新聞處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=952798",
+      "date": "2026/09/17",
+      "query": "市府新聞"
+    },
+    {
+      "headline": "倒垃圾安全「五不」要記牢，呼籲家長切勿讓孩童單獨靠近垃圾車",
+      "source": "嘉義市政府/嘉義市政府環境保護局/清潔隊",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=952797",
+      "date": "2026/09/17",
+      "query": "市府新聞"
+    },
     {
       "headline": "嘉屋第二屆示範案揭曉！從住宅走向多元建築勾勒「世代宜居」城市新樣貌",
       "source": "嘉義市政府/都市發展處/觀光新聞處",
@@ -68,20 +82,6 @@
       "headline": "助傳產減壓！嘉義市納管/特登工廠「雙金免繳1年」黃敏惠市長：作伙拚未來",
       "source": "嘉義市政府/建設處/觀光新聞處",
       "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=952430",
-      "date": "2026/09/14",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "「2026光織影舞」豪華卡司星光閃耀陪伴民眾歡度中秋與雙十假期",
-      "source": "嘉義市政府/觀光新聞處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=952429",
-      "date": "2026/09/14",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "第一消防分隊再獲獎!！連奪消防署及心肌梗塞學會兩項「績優團隊」與「臺灣最佳心肌梗塞緊急救護團隊」獎項",
-      "source": "嘉義市政府/消防局",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=952687",
       "date": "2026/09/14",
       "query": "市府新聞"
     }
@@ -202,7 +202,7 @@
       "2012": 1,
       "2013": 1
     },
-    "updated_at": "2026-09-16T20:48:05.258886",
+    "updated_at": "2026-09-17T03:08:55.711474",
     "source": "data.chiayi.gov.tw"
   },
   "council": {
