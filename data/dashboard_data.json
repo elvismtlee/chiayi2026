@@ -1,6 +1,41 @@
 {
-  "updated_at": "2026-09-18T02:55:34.396400",
+  "updated_at": "2026-09-18T10:33:16.010667",
   "news": [
+    {
+      "headline": "本府語音辨識會議記錄系統停機公告(9月22日)",
+      "source": "嘉義市政府/企劃處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=952989",
+      "date": "2026/09/18",
+      "query": "市府新聞"
+    },
+    {
+      "headline": "關廂境廟遶境、保南境福德正神肇基300周年文化祭、古佛堂濟公禪師遶境將登場！交管資訊公開",
+      "source": "嘉義市政府/警察局/觀光新聞處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=952973",
+      "date": "2026/09/18",
+      "query": "市府新聞"
+    },
+    {
+      "headline": "國慶連假來嘉搖滾！「2026諸羅搖滾音樂祭」卡司全開美秀、滅火器、鄭宜農嘉市開唱",
+      "source": "嘉義市政府/文化局/觀光新聞處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=952971",
+      "date": "2026/09/18",
+      "query": "市府新聞"
+    },
+    {
+      "headline": "港口媽睽違39年再蒞諸羅嘉義市政府首設行宮駐駕賜福",
+      "source": "嘉義市政府/民政處/觀光新聞處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=952970",
+      "date": "2026/09/18",
+      "query": "市府新聞"
+    },
+    {
+      "headline": "嘉義市路邊停車格於中秋節當日暫停收費",
+      "source": "嘉義市政府/交通處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=952966",
+      "date": "2026/09/18",
+      "query": "市府新聞"
+    },
     {
       "headline": "農地未作農業使用小心補徵地價稅",
       "source": "嘉義市政府/財政稅務局",
@@ -48,41 +83,6 @@
       "source": "嘉義市政府/交通處/觀光新聞處",
       "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=952692",
       "date": "2026/09/16",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "嘉義市政府115年9月份公報",
-      "source": "嘉義市政府/行政處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=951964",
-      "date": "2026/09/16",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "金馬63再現嘉市好店魅力《翻山悦嶺》米磚禮盒傳遞城市幸福味",
-      "source": "嘉義市政府/建設處/觀光新聞處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=952617",
-      "date": "2026/09/15",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "2026《天下雜誌》施政滿意度調查黃敏惠市長連4年獲標竿首長、永續幸福城市奪非六都冠軍",
-      "source": "嘉義市政府/觀光新聞處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=952597",
-      "date": "2026/09/15",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "音樂影像走進城市嘉義9月四場活動串起創作、場域與人才",
-      "source": "嘉義市政府/文化局/觀光新聞處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=952594",
-      "date": "2026/09/15",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "嘉市擴大長者福利10月起65歲以上享健保費補助",
-      "source": "嘉義市政府/社會處/觀光新聞處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=952587",
-      "date": "2026/09/15",
       "query": "市府新聞"
     }
   ],
@@ -202,7 +202,7 @@
       "2012": 1,
       "2013": 1
     },
-    "updated_at": "2026-09-18T02:53:55.560815",
+    "updated_at": "2026-09-18T10:30:48.194143",
     "source": "data.chiayi.gov.tw"
   },
   "council": {
