@@ -1,6 +1,13 @@
 {
-  "updated_at": "2026-09-18T20:24:50.711906",
+  "updated_at": "2026-09-19T02:56:56.312978",
   "news": [
+    {
+      "headline": "西拉雅族民族成員名冊登記，自即日起開始受理！",
+      "source": "嘉義市政府/西區公所",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=952981",
+      "date": "2026/09/19",
+      "query": "市府新聞"
+    },
     {
       "headline": "本府語音辨識會議記錄系統停機公告(9月22日)",
       "source": "嘉義市政府/企劃處",
@@ -75,13 +82,6 @@
       "headline": "2026嘉義市購物節消費逼近8億！「滿千送百」2,500萬帶動2.78億消費！9/19-20特色市集綁手機條碼再送霜淇淋",
       "source": "嘉義市政府/建設處/觀光新聞處",
       "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=952698",
-      "date": "2026/09/16",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "從停車到軌道全面布局長榮公園地下停車場動土黃敏惠市長盼中央補足嘉義關鍵軌道拼圖",
-      "source": "嘉義市政府/交通處/觀光新聞處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=952692",
       "date": "2026/09/16",
       "query": "市府新聞"
     }
@@ -202,7 +202,7 @@
       "2012": 1,
       "2013": 1
     },
-    "updated_at": "2026-09-18T20:22:24.697193",
+    "updated_at": "2026-09-19T02:54:26.562597",
     "source": "data.chiayi.gov.tw"
   },
   "council": {
