@@ -1,6 +1,34 @@
 {
-  "updated_at": "2026-09-19T02:56:56.312978",
+  "updated_at": "2026-09-19T10:18:13.183398",
   "news": [
+    {
+      "headline": "「木都薪傳」成果發表串聯競賽、文資保存、教育打造人文森林",
+      "source": "嘉義市政府/文化局/觀光新聞處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=953110",
+      "date": "2026/09/19",
+      "query": "市府新聞"
+    },
+    {
+      "headline": "嘉義市「木都薪傳」串聯競賽、文資保存、教育三大面向從人才培育到技藝傳承讓大家看見嘉義木都的精彩",
+      "source": "嘉義市政府/文化局",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=953107",
+      "date": "2026/09/19",
+      "query": "市府新聞"
+    },
+    {
+      "headline": "新興古廟200年草地尾健行串起信仰與世代情感",
+      "source": "嘉義市政府/東區區公所/觀光新聞處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=953106",
+      "date": "2026/09/19",
+      "query": "市府新聞"
+    },
+    {
+      "headline": "嘉邑保南境福德正神廟慶300年16宮廟遶境祈福護嘉義",
+      "source": "嘉義市政府/民政處/觀光新聞處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=953105",
+      "date": "2026/09/19",
+      "query": "市府新聞"
+    },
     {
       "headline": "西拉雅族民族成員名冊登記，自即日起開始受理！",
       "source": "嘉義市政府/西區公所",
@@ -55,34 +83,6 @@
       "source": "嘉義市政府/觀光新聞處",
       "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=952815",
       "date": "2026/09/17",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "從音樂舞台走進咖啡館！嘉頌副團長打造「珈頌川棠」嘉市特色店家改造計畫前進西區",
-      "source": "嘉義市政府/建設處/觀光新聞處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=952798",
-      "date": "2026/09/17",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "倒垃圾安全「五不」要記牢，呼籲家長切勿讓孩童單獨靠近垃圾車",
-      "source": "嘉義市政府/嘉義市政府環境保護局/清潔隊",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=952797",
-      "date": "2026/09/17",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "嘉屋第二屆示範案揭曉！從住宅走向多元建築勾勒「世代宜居」城市新樣貌",
-      "source": "嘉義市政府/都市發展處/觀光新聞處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=952711",
-      "date": "2026/09/16",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "2026嘉義市購物節消費逼近8億！「滿千送百」2,500萬帶動2.78億消費！9/19-20特色市集綁手機條碼再送霜淇淋",
-      "source": "嘉義市政府/建設處/觀光新聞處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=952698",
-      "date": "2026/09/16",
       "query": "市府新聞"
     }
   ],
@@ -202,7 +202,7 @@
       "2012": 1,
       "2013": 1
     },
-    "updated_at": "2026-09-19T02:54:26.562597",
+    "updated_at": "2026-09-19T10:15:42.904502",
     "source": "data.chiayi.gov.tw"
   },
   "council": {
