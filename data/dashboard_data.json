@@ -1,6 +1,34 @@
 {
-  "updated_at": "2026-09-20T10:37:39.919841",
+  "updated_at": "2026-09-20T15:25:13.007048",
   "news": [
+    {
+      "headline": "打造動物友善城市「毛起來愛你」嘉年華結合開嘉市集揪毛孩家庭出門同樂",
+      "source": "嘉義市政府/建設處/觀光新聞處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=953258",
+      "date": "2026/09/20",
+      "query": "市府新聞"
+    },
+    {
+      "headline": "「嘉義好生活．永續新日常」新永續淨零施政成果發表黃敏惠市長宣布公部門首輛電動垃圾車啟用",
+      "source": "嘉義市政府/環保局/觀光新聞處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=953257",
+      "date": "2026/09/20",
+      "query": "市府新聞"
+    },
+    {
+      "headline": "一座石廟守護兩百年嘉義市新興古廟見證草地尾地方發展",
+      "source": "嘉義市政府/民政處/觀光新聞處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=953256",
+      "date": "2026/09/20",
+      "query": "市府新聞"
+    },
+    {
+      "headline": "嘉義市67對金婚夫妻相伴一生黃敏惠市長獻唱「愛的真諦」祝福",
+      "source": "嘉義市政府/社會處/觀光新聞處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=953255",
+      "date": "2026/09/20",
+      "query": "市府新聞"
+    },
     {
       "headline": "「嘉義好生活．永續新日常」新永續淨零施政成果發表黃敏惠市長：讓淨零走進市民日常",
       "source": "嘉義市政府/嘉義市政府環境保護局/綜合計畫科",
@@ -54,34 +82,6 @@
       "headline": "關廂境廟遶境、保南境福德正神肇基300周年文化祭、古佛堂濟公禪師遶境將登場！交管資訊公開",
       "source": "嘉義市政府/警察局/觀光新聞處",
       "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=952973",
-      "date": "2026/09/18",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "國慶連假來嘉搖滾！「2026諸羅搖滾音樂祭」卡司全開美秀、滅火器、鄭宜農嘉市開唱",
-      "source": "嘉義市政府/文化局/觀光新聞處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=952971",
-      "date": "2026/09/18",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "港口媽睽違39年再蒞諸羅嘉義市政府首設行宮駐駕賜福",
-      "source": "嘉義市政府/民政處/觀光新聞處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=952970",
-      "date": "2026/09/18",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "嘉義市路邊停車格於中秋節當日暫停收費",
-      "source": "嘉義市政府/交通處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=952966",
-      "date": "2026/09/18",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "農地未作農業使用小心補徵地價稅",
-      "source": "嘉義市政府/財政稅務局",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=952951",
       "date": "2026/09/18",
       "query": "市府新聞"
     }
@@ -202,7 +202,7 @@
       "2012": 1,
       "2013": 1
     },
-    "updated_at": "2026-09-20T10:34:09.049114",
+    "updated_at": "2026-09-20T15:22:44.697470",
     "source": "data.chiayi.gov.tw"
   },
   "council": {
