@@ -1,79 +1,48 @@
 {
-  "updated_at": "2026-09-21T17:53:44.537807",
+  "updated_at": "2026-09-21T21:39:09.270616",
   "aqi_realtime": [
     {
-      "station": "",
-      "aqi": 0,
-      "pm25": 0.0,
-      "pm10": 0.0,
-      "o3": 0.0,
-      "no2": 0.0,
-      "status": "",
-      "pollutant": "",
-      "time": "2026-09-22 01:00",
-      "source": "環境部"
-    },
-    {
-      "station": "",
-      "aqi": 0,
-      "pm25": 0.0,
-      "pm10": 0.0,
-      "o3": 0.0,
-      "no2": 0.0,
-      "status": "",
-      "pollutant": "",
-      "time": "2026-09-22 01:00",
-      "source": "環境部"
-    },
-    {
-      "station": "",
-      "aqi": 0,
-      "pm25": 0.0,
-      "pm10": 0.0,
-      "o3": 0.0,
-      "no2": 0.0,
-      "status": "",
-      "pollutant": "",
-      "time": "2026-09-22 01:00",
-      "source": "環境部"
+      "station": "嘉義市（Open-Meteo 模型）",
+      "aqi": 49,
+      "pm25": 35.2,
+      "pm10": 38.3,
+      "o3": 3.0,
+      "no2": 56.6,
+      "status": "良好",
+      "pollutant": "PM2.5",
+      "time": "2026-09-22T05:00",
+      "source": "Open-Meteo"
     }
   ],
-  "aqi_history": [
-    {
-      "month": "",
-      "aqi": 0.0,
-      "pm25": 0.0,
-      "station": "嘉義"
-    }
-  ],
+  "aqi_history": [],
   "earthquake": [],
   "weather": [
     {
       "station": "嘉義市（Open-Meteo）",
-      "temp": "25.4",
-      "apparent_temp": "29.8",
-      "humidity": "87",
+      "temp": "25.9",
+      "apparent_temp": "30.1",
+      "humidity": "84",
       "rainfall": "0.0",
-      "wind_speed": "7.4",
-      "wind_dir": "174",
-      "cloud": "10",
-      "weather": "晴",
-      "time": "2026-09-22 01:45",
+      "wind_speed": "8.1",
+      "wind_dir": "168",
+      "cloud": "21",
+      "weather": "多雲",
+      "time": "2026-09-22 05:30",
       "source": "Open-Meteo"
     }
   ],
   "announcements": [
     {
-      "title": "嘉義市政府115年赴美國紐約地區參訪交流(NGO CSW70平行論壇) - chiayi.gov.tw",
-      "date": "Sun, 20 Sep 2026",
-      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPQlBndjlvc2tuNkd0c2U5TjJNam9mOWEwMDgtbTdZSDdKdXZ0T3VzaXRkSkVXZlRidWNTSWZweUtmdVhpVEk2bGhvUnVRamlWdzRiVTdCcm84Y2RESmhwN3phNWFtRGFDdVZoMmYtS0VlNmpNaUZmY1ZObm5laFQxRVhWRjNaT1V3N0tkVGFxLTBXZw?oc=5",
+      "title": "嘉義市路邊停車格於中秋節當日暫停收費 - chiayi.gov.tw",
+      "date": "Mon, 21 Sep 2026",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFA4a3RuR21wV3J2Y2ttck9vWFZmMEdYczZYUnBnemFtdVkzR3ZrcW5BVElJd1pSa1lJdk1jdEhaZ3F2d3hlVDhocG5hYW1yR0Q0YVhJS1dqZ0xYb0NxamQwZkY3T1p1ajBUOXc?oc=5",
       "desc": "",
       "source": "Google新聞"
     },
     {
-      "title": "嘉義市路邊停車格於中秋節當日暫停收費 - chiayi.gov.tw",
-      "date": "Mon, 21 Sep 2026",
-      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFA4a3RuR21wV3J2Y2ttck9vWFZmMEdYczZYUnBnemFtdVkzR3ZrcW5BVElJd1pSa1lJdk1jdEhaZ3F2d3hlVDhocG5hYW1yR0Q0YVhJS1dqZ0xYb0NxamQwZkY3T1p1ajBUOXc?oc=5",
+      "title": "嘉義市政府115年赴美國紐約地區參訪交流(NGO CSW70平行論壇) - chiayi.gov.tw",
+      "date": "Sun, 20 Sep 2026",
+      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPQlBndjlvc2tuNkd0c2U5TjJNam9mOWEwMDgtbTdZSDdKdXZ0T3VzaXRkSkVXZlRidWNTSWZweUtmdVhpVEk2bGhvUnVRamlWdzRiVTdCcm84Y2RESmhwN3phNWFtRGFDdVZoMmYtS0VlNmpNaUZmY1ZObm5laFQxRVhWRjNaT1V3N0tkVGFxLTBXZw?oc=5",
       "desc": "",
       "source": "Google新聞"
     },
@@ -85,13 +54,6 @@
       "source": "Google新聞"
     },
     {
-      "title": "嘉義市政府第1262次市務會議紀錄 - chiayi.gov.tw",
-      "date": "Sun, 20 Sep 2026",
-      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE90eVJTRkZIMzlFLXFnLWpPMkZVTloyZ0twTnBINC1DbHU2MnRCSEVHUE02Y09BOVUzTmRxTE1TZW95ZXU1SHcxRE8yR2ZfSzFKdldZaGpIRmMweURPcmdyU25jc1hfWGtXWGc?oc=5",
-      "desc": "",
-      "source": "Google新聞"
-    },
-    {
       "title": "嘉義市政府第1256次市務會議紀錄 - chiayi.gov.tw",
       "date": "Sat, 19 Sep 2026",
       "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBsVDMtVVEyVW1oMF82Z1RHaUVZTFdPeV9fLTNhOVZrN3gtaGE5b2tUQ2htZmNfUVdXTVRFc3Z1WFJCWU5jRGl1OVVsSVUteXo4aEVhUGlJSjVNUXgzSlpOV1BGNnZDZTUtcVE?oc=5",
@@ -99,9 +61,16 @@
       "source": "Google新聞"
     },
     {
-      "title": "2026全國古蹟日玩出新意 「馬嘻・搜遊」探索城市記憶、「翻閱木都＋1事」體驗木都文化 - chiayi.gov.tw",
-      "date": "Mon, 21 Sep 2026",
-      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE8yZ0NDSzRHRDRhb0V2VWhtU2Q1aWdIMk5LRFcxRWFmQURoRGYxNE40ZlAxdGoxa3VDbEc2cExhSzNmX29sMzhLanpUNGFhQUlNdGk0U2FjZS1TMFk3cUtSR2F1YjlXN0htY2c?oc=5",
+      "title": "嘉義市政府第1262次市務會議紀錄 - chiayi.gov.tw",
+      "date": "Sun, 20 Sep 2026",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE90eVJTRkZIMzlFLXFnLWpPMkZVTloyZ0twTnBINC1DbHU2MnRCSEVHUE02Y09BOVUzTmRxTE1TZW95ZXU1SHcxRE8yR2ZfSzFKdldZaGpIRmMweURPcmdyU25jc1hfWGtXWGc?oc=5",
+      "desc": "",
+      "source": "Google新聞"
+    },
+    {
+      "title": "出國報告 - chiayi.gov.tw",
+      "date": "Sat, 19 Sep 2026",
+      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNcVo0RjhxY3NtekpiRmtSaDB4WFZueXdDa0xvZWFKdjNpN0xNSkpQWFRjY0RsVGpaUEZLZkhmSUVieFhZVWhrQlNRcUVsQ21ldldheENyc05WTkdwazE5YVhvMmRIZVFiYzIwcHV5aUJRR1lhRFN4cGh1WklHMEdCVXhTWTVJUEtCOFRrTFpqRWpHQQ?oc=5",
       "desc": "",
       "source": "Google新聞"
     }
@@ -129,7 +98,7 @@
       "source": "Google新聞"
     },
     {
-      "title": "嘉義市污水二期第2標動土 預計118年3月完工 - fountmedia.io",
+      "title": "嘉義市污水二期第2標動土 預計118年3月完工 - 放言Fount Media",
       "date": "Thu, 03 Sep 2026",
       "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1IenFiTGlIeUVtSlY5OG12S19pNktzWVVGYmpaZjRaNHdjTGw0cGpFWEdTQnJXY1V4RWJ3UDhPS185cW1GUFNPaFZ4X1VNaW9CZFE?oc=5",
       "org": "新聞資訊",
@@ -169,7 +138,30 @@
     "enterovirus": [],
     "updated": "2026-09-21"
   },
-  "fire": {},
+  "fire": {
+    "chiayi_datasets": [
+      {
+        "title": "",
+        "date": ""
+      },
+      {
+        "title": "",
+        "date": ""
+      },
+      {
+        "title": "",
+        "date": ""
+      },
+      {
+        "title": "",
+        "date": ""
+      },
+      {
+        "title": "",
+        "date": ""
+      }
+    ]
+  },
   "population": [],
   "bus": [
     {
@@ -255,7 +247,7 @@
       "lat": 23.482012,
       "lng": 120.457342,
       "total": 22,
-      "available": 2,
+      "available": 5,
       "addr": "中山路98號(前)"
     },
     {
@@ -273,7 +265,7 @@
       "lat": 23.478707,
       "lng": 120.462594,
       "total": 38,
-      "available": 2,
+      "available": 4,
       "addr": "啟明路122號(前)"
     },
     {
@@ -309,7 +301,7 @@
       "lat": 23.47917,
       "lng": 120.44186,
       "total": 99,
-      "available": 72,
+      "available": 71,
       "addr": "中山路524號"
     },
     {
@@ -318,7 +310,7 @@
       "lat": 23.47877,
       "lng": 120.44089,
       "total": 42,
-      "available": 30,
+      "available": 32,
       "addr": "中山路528號"
     },
     {
@@ -336,7 +328,7 @@
       "lat": 23.47336,
       "lng": 120.44604,
       "total": 14,
-      "available": 9,
+      "available": 8,
       "addr": "垂楊路351號"
     },
     {
@@ -345,7 +337,7 @@
       "lat": 23.4738724,
       "lng": 120.4493073,
       "total": 20,
-      "available": 1,
+      "available": 5,
       "addr": "垂楊路434號"
     },
     {
@@ -363,7 +355,7 @@
       "lat": 23.486138,
       "lng": 120.453829,
       "total": 20,
-      "available": 16,
+      "available": 9,
       "addr": "忠孝路284號(旁)"
     },
     {
@@ -381,7 +373,7 @@
       "lat": 23.48465,
       "lng": 120.43354,
       "total": 14,
-      "available": 9,
+      "available": 8,
       "addr": "友愛興達路口"
     },
     {
@@ -390,7 +382,7 @@
       "lat": 23.48931,
       "lng": 120.4361,
       "total": 15,
-      "available": 4,
+      "available": 5,
       "addr": "自由路298號"
     },
     {
@@ -422,5 +414,5 @@
     }
   ],
   "water": [],
-  "fetch_seconds": 190.7
+  "fetch_seconds": 92.3
 }
