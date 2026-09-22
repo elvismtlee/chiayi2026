@@ -1,6 +1,27 @@
 {
-  "updated_at": "2026-09-21T21:40:41.580189",
+  "updated_at": "2026-09-22T03:05:31.039793",
   "news": [
+    {
+      "headline": "2026兒童歌仔戲全臺巡演10月3日嘉義文化公園熱鬧登場",
+      "source": "嘉義市政府/文化局/觀光新聞處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=953403",
+      "date": "2026/09/22",
+      "query": "市府新聞"
+    },
+    {
+      "headline": "嘉義市智慧治理展現永續成果「嘉森映像」與「微笑碳匯」雙雙獲獎",
+      "source": "嘉義市政府/建設處/環保局/觀光新聞處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=953402",
+      "date": "2026/09/22",
+      "query": "市府新聞"
+    },
+    {
+      "headline": "雙颱重創後重生！蘭潭後山步道將開放黃敏惠市長邀市民共遊城市後花園",
+      "source": "嘉義市政府/觀光新聞處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=953392",
+      "date": "2026/09/22",
+      "query": "市府新聞"
+    },
     {
       "headline": "2026全國古蹟日玩出新意「馬嘻・搜遊」探索城市記憶、「翻閱木都＋1事」體驗木都文化",
       "source": "嘉義市政府/文化局/觀光新聞處",
@@ -62,27 +83,6 @@
       "source": "嘉義市政府/社會處/觀光新聞處",
       "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=953255",
       "date": "2026/09/20",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "「嘉義好生活．永續新日常」新永續淨零施政成果發表黃敏惠市長：讓淨零走進市民日常",
-      "source": "嘉義市政府/嘉義市政府環境保護局/綜合計畫科",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=952608",
-      "date": "2026/09/20",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "「木都薪傳」成果發表串聯競賽、文資保存、教育打造人文森林",
-      "source": "嘉義市政府/文化局/觀光新聞處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=953110",
-      "date": "2026/09/19",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "嘉義市「木都薪傳」串聯競賽、文資保存、教育三大面向從人才培育到技藝傳承讓大家看見嘉義木都的精彩",
-      "source": "嘉義市政府/文化局",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=953107",
-      "date": "2026/09/19",
       "query": "市府新聞"
     }
   ],
@@ -202,7 +202,7 @@
       "2012": 1,
       "2013": 1
     },
-    "updated_at": "2026-09-21T21:38:55.850931",
+    "updated_at": "2026-09-22T03:02:51.256385",
     "source": "data.chiayi.gov.tw"
   },
   "council": {
