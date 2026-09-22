@@ -1,100 +1,33 @@
 {
-  "updated_at": "2026-09-22T16:13:41.191965",
+  "updated_at": "2026-09-22T20:52:52.953854",
   "aqi_realtime": [
     {
-      "station": "",
-      "aqi": 0,
-      "pm25": 0.0,
-      "pm10": 0.0,
+      "station": "嘉義市（Open-Meteo 模型）",
+      "aqi": 63,
+      "pm25": 40.4,
+      "pm10": 41.8,
       "o3": 0.0,
-      "no2": 0.0,
-      "status": "",
-      "pollutant": "",
-      "time": "2026-09-22 22:00",
-      "source": "環境部"
-    },
-    {
-      "station": "",
-      "aqi": 0,
-      "pm25": 0.0,
-      "pm10": 0.0,
-      "o3": 0.0,
-      "no2": 0.0,
-      "status": "",
-      "pollutant": "",
-      "time": "2026-09-22 22:00",
-      "source": "環境部"
-    },
-    {
-      "station": "",
-      "aqi": 0,
-      "pm25": 0.0,
-      "pm10": 0.0,
-      "o3": 0.0,
-      "no2": 0.0,
-      "status": "",
-      "pollutant": "",
-      "time": "2026-09-22 22:00",
-      "source": "環境部"
-    },
-    {
-      "station": "",
-      "aqi": 0,
-      "pm25": 0.0,
-      "pm10": 0.0,
-      "o3": 0.0,
-      "no2": 0.0,
-      "status": "",
-      "pollutant": "",
-      "time": "2026-09-22 21:00",
-      "source": "環境部"
-    },
-    {
-      "station": "",
-      "aqi": 0,
-      "pm25": 0.0,
-      "pm10": 0.0,
-      "o3": 0.0,
-      "no2": 0.0,
-      "status": "",
-      "pollutant": "",
-      "time": "2026-09-22 21:00",
-      "source": "環境部"
-    },
-    {
-      "station": "",
-      "aqi": 0,
-      "pm25": 0.0,
-      "pm10": 0.0,
-      "o3": 0.0,
-      "no2": 0.0,
-      "status": "",
-      "pollutant": "",
-      "time": "2026-09-22 21:00",
-      "source": "環境部"
+      "no2": 70.3,
+      "status": "普通",
+      "pollutant": "PM2.5",
+      "time": "2026-09-23T04:00",
+      "source": "Open-Meteo"
     }
   ],
-  "aqi_history": [
-    {
-      "month": "",
-      "aqi": 0.0,
-      "pm25": 0.0,
-      "station": "嘉義"
-    }
-  ],
+  "aqi_history": [],
   "earthquake": [],
   "weather": [
     {
       "station": "嘉義市（Open-Meteo）",
-      "temp": "25.6",
-      "apparent_temp": "30.6",
-      "humidity": "91",
+      "temp": "24.6",
+      "apparent_temp": "30.2",
+      "humidity": "96",
       "rainfall": "0.0",
-      "wind_speed": "7.1",
-      "wind_dir": "142",
-      "cloud": "52",
-      "weather": "多雲",
-      "time": "2026-09-23 00:00",
+      "wind_speed": "3.1",
+      "wind_dir": "350",
+      "cloud": "7",
+      "weather": "晴",
+      "time": "2026-09-23 04:45",
       "source": "Open-Meteo"
     }
   ],
@@ -151,7 +84,7 @@
       "source": "Google新聞"
     },
     {
-      "title": "城市環境是發展的根本〜 嘉義市立委王美惠邀請中央官員考察排水工程爭取後續經費打造完善宜居的韌性嘉義！ - 台灣華報",
+      "title": "城市環境是發展的根本〜 嘉義市立委王美惠邀請中央官員考察排水工程爭取後續經費打造完善宜居的韌性嘉義！ - kingtop.com.tw",
       "date": "Tue, 22 Sep 2026",
       "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBBTEFxNS12eTdPLWtxdlFlZW1BcmZfRUVQeS1Lb0JEVW9GOEVXRTQzYUk0czVQWkhzMjdBb05Cc3EtRDg2a29EazZ0ajM5TG5yd1BtWTYzSDNoSkdOVG9mOWZnTkpaa0k4WlNB?oc=5",
       "org": "新聞資訊",
@@ -165,7 +98,7 @@
       "source": "Google新聞"
     },
     {
-      "title": "嘉市污水二期第2標動土 跨越鐵路向東延伸挺進湖子內 - tristarnews.com.tw",
+      "title": "嘉市污水二期第2標動土 跨越鐵路向東延伸挺進湖子內 - 三星傳媒",
       "date": "Thu, 03 Sep 2026",
       "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE94WlUtLTZEa0ZaVXA5Uld3alV4VVQwR2ZqYjZRcWdIWnJBS2lpWi1TMnVtdTdCNHFVbWRDcXM1Y3l4dDBRS0ZJdUFhRWNfcGF2M0ZwWkRhS0VFM0ZqY1BSa2pB?oc=5",
       "org": "新聞資訊",
@@ -179,7 +112,7 @@
       "source": "Google新聞"
     },
     {
-      "title": "嘉義市污水二期第2標動土 預計118年3月完工 - fountmedia.io",
+      "title": "嘉義市污水二期第2標動土 預計118年3月完工 - 放言Fount Media",
       "date": "Thu, 03 Sep 2026",
       "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1IenFiTGlIeUVtSlY5OG12S19pNktzWVVGYmpaZjRaNHdjTGw0cGpFWEdTQnJXY1V4RWJ3UDhPS185cW1GUFNPaFZ4X1VNaW9CZFE?oc=5",
       "org": "新聞資訊",
@@ -314,7 +247,7 @@
       "lat": 23.482012,
       "lng": 120.457342,
       "total": 22,
-      "available": 4,
+      "available": 5,
       "addr": "中山路98號(前)"
     },
     {
@@ -341,7 +274,7 @@
       "lat": 23.477031,
       "lng": 120.465573,
       "total": 34,
-      "available": 18,
+      "available": 8,
       "addr": "大雅路二段738號(前)"
     },
     {
@@ -359,7 +292,7 @@
       "lat": 23.47963,
       "lng": 120.44583,
       "total": 20,
-      "available": 3,
+      "available": 8,
       "addr": "中山路386號"
     },
     {
@@ -368,7 +301,7 @@
       "lat": 23.47917,
       "lng": 120.44186,
       "total": 99,
-      "available": 72,
+      "available": 74,
       "addr": "中山路524號"
     },
     {
@@ -377,7 +310,7 @@
       "lat": 23.47877,
       "lng": 120.44089,
       "total": 42,
-      "available": 20,
+      "available": 34,
       "addr": "中山路528號"
     },
     {
@@ -395,7 +328,7 @@
       "lat": 23.47336,
       "lng": 120.44604,
       "total": 14,
-      "available": 3,
+      "available": 4,
       "addr": "垂楊路351號"
     },
     {
@@ -404,7 +337,7 @@
       "lat": 23.4738724,
       "lng": 120.4493073,
       "total": 20,
-      "available": 5,
+      "available": 11,
       "addr": "垂楊路434號"
     },
     {
@@ -440,7 +373,7 @@
       "lat": 23.48465,
       "lng": 120.43354,
       "total": 14,
-      "available": 12,
+      "available": 10,
       "addr": "友愛興達路口"
     },
     {
@@ -449,7 +382,7 @@
       "lat": 23.48931,
       "lng": 120.4361,
       "total": 15,
-      "available": 9,
+      "available": 10,
       "addr": "自由路298號"
     },
     {
@@ -481,5 +414,5 @@
     }
   ],
   "water": [],
-  "fetch_seconds": 94.3
+  "fetch_seconds": 95.5
 }
