@@ -1,6 +1,41 @@
 {
-  "updated_at": "2026-09-22T20:54:28.412186",
+  "updated_at": "2026-09-23T03:06:08.264080",
   "news": [
+    {
+      "headline": "預售屋不是想轉單就能轉違規轉售最低罰50萬元",
+      "source": "嘉義市政府/地政處/觀光新聞處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=953540",
+      "date": "2026/09/23",
+      "query": "市府新聞"
+    },
+    {
+      "headline": "區段徵收常見問答",
+      "source": "嘉義市政府/地政處/地用及重劃科",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=953534",
+      "date": "2026/09/23",
+      "query": "市府新聞"
+    },
+    {
+      "headline": "嘉義市政府衛生局公布「115年度中秋節相關業者及應景食品稽查抽驗情形」執行結果",
+      "source": "嘉義市政府/衛生局",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=953389",
+      "date": "2026/09/23",
+      "query": "市府新聞"
+    },
+    {
+      "headline": "娛樂稅新制別搞混！9類娛樂項目仍須課稅",
+      "source": "嘉義市政府/財政稅務局",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=953539",
+      "date": "2026/09/23",
+      "query": "市府新聞"
+    },
+    {
+      "headline": "營業車車主請留意！115年下期使用牌照稅10月開徵",
+      "source": "嘉義市政府/財政稅務局",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=953538",
+      "date": "2026/09/23",
+      "query": "市府新聞"
+    },
     {
       "headline": "名醫林靜芸分享照顧失智歷程嘉義市打造失智友善支持網",
       "source": "嘉義市政府/衛生局/觀光新聞處",
@@ -48,41 +83,6 @@
       "source": "嘉義市政府/文化局/觀光新聞處",
       "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=953309",
       "date": "2026/09/21",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "「有事青年節」9/26日起登場主打離線浪漫重拾人際交流溫度",
-      "source": "嘉義市政府/勞工及青年發展處/觀光新聞處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=953293",
-      "date": "2026/09/21",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "2026福安王爺祭遶境將登場！交管資訊公開",
-      "source": "嘉義市政府/警察局/觀光新聞處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=953292",
-      "date": "2026/09/21",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "「2026嘉義市光織影舞」活動假日期間免費接駁服務火車站、棒球場停車場直達北香湖公園",
-      "source": "嘉義市政府/觀光新聞處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=953272",
-      "date": "2026/09/21",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "食安有把關，中秋才心安",
-      "source": "嘉義市政府/嘉義市政府環境保護局/綜合計畫科",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=952709",
-      "date": "2026/09/21",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "打造動物友善城市「毛起來愛你」嘉年華結合開嘉市集揪毛孩家庭出門同樂",
-      "source": "嘉義市政府/建設處/觀光新聞處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=953258",
-      "date": "2026/09/20",
       "query": "市府新聞"
     }
   ],
@@ -202,7 +202,7 @@
       "2012": 1,
       "2013": 1
     },
-    "updated_at": "2026-09-22T20:51:53.521812",
+    "updated_at": "2026-09-23T03:03:35.065411",
     "source": "data.chiayi.gov.tw"
   },
   "council": {
