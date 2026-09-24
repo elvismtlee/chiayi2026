@@ -1,64 +1,33 @@
 {
-  "updated_at": "2026-09-24T16:31:44.427228",
+  "updated_at": "2026-09-24T21:14:13.848174",
   "aqi_realtime": [
     {
-      "station": "",
-      "aqi": 0,
-      "pm25": 0.0,
-      "pm10": 0.0,
-      "o3": 0.0,
-      "no2": 0.0,
-      "status": "",
-      "pollutant": "",
-      "time": "2026-09-24 22:00",
-      "source": "環境部"
-    },
-    {
-      "station": "",
-      "aqi": 0,
-      "pm25": 0.0,
-      "pm10": 0.0,
-      "o3": 0.0,
-      "no2": 0.0,
-      "status": "",
-      "pollutant": "",
-      "time": "2026-09-24 22:00",
-      "source": "環境部"
-    },
-    {
-      "station": "",
-      "aqi": 0,
-      "pm25": 0.0,
-      "pm10": 0.0,
-      "o3": 0.0,
-      "no2": 0.0,
-      "status": "",
-      "pollutant": "",
-      "time": "2026-09-24 22:00",
-      "source": "環境部"
+      "station": "嘉義市（Open-Meteo 模型）",
+      "aqi": 89,
+      "pm25": 49.5,
+      "pm10": 52.9,
+      "o3": 1.0,
+      "no2": 65.2,
+      "status": "普通",
+      "pollutant": "PM2.5",
+      "time": "2026-09-25T05:00",
+      "source": "Open-Meteo"
     }
   ],
-  "aqi_history": [
-    {
-      "month": "",
-      "aqi": 0.0,
-      "pm25": 0.0,
-      "station": "嘉義"
-    }
-  ],
+  "aqi_history": [],
   "earthquake": [],
   "weather": [
     {
       "station": "嘉義市（Open-Meteo）",
-      "temp": "24.7",
-      "apparent_temp": "29.8",
-      "humidity": "90",
+      "temp": "24.4",
+      "apparent_temp": "29.5",
+      "humidity": "92",
       "rainfall": "0.0",
-      "wind_speed": "2.7",
-      "wind_dir": "132",
-      "cloud": "49",
-      "weather": "多雲",
-      "time": "2026-09-25 00:30",
+      "wind_speed": "2.3",
+      "wind_dir": "119",
+      "cloud": "10",
+      "weather": "晴",
+      "time": "2026-09-25 05:00",
       "source": "Open-Meteo"
     }
   ],
@@ -67,6 +36,20 @@
       "title": "嘉義市政府115年赴美國紐約地區參訪交流(NGO CSW70平行論壇) - chiayi.gov.tw",
       "date": "Sun, 20 Sep 2026",
       "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPQlBndjlvc2tuNkd0c2U5TjJNam9mOWEwMDgtbTdZSDdKdXZ0T3VzaXRkSkVXZlRidWNTSWZweUtmdVhpVEk2bGhvUnVRamlWdzRiVTdCcm84Y2RESmhwN3phNWFtRGFDdVZoMmYtS0VlNmpNaUZmY1ZObm5laFQxRVhWRjNaT1V3N0tkVGFxLTBXZw?oc=5",
+      "desc": "",
+      "source": "Google新聞"
+    },
+    {
+      "title": "嘉義市政府攜手九華山地藏庵 中秋愛心送暖發放贊普品 讓社會充滿愛與溫暖！ - 台灣華報",
+      "date": "Thu, 24 Sep 2026",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE43dzhoWUM5V1ljajRhalVPdnNXbFVNc1hTODJjOTAyTWpzZzF4Z1VvVVB4NV9XNlhRZmVGRXphMU9hZ0VYOVlvY2k5UnNERjJwQUh6VXQyV3UybEliN1dyMGFxc0JzYzlMbllV?oc=5",
+      "desc": "",
+      "source": "Google新聞"
+    },
+    {
+      "title": "嘉市「樂頌師恩」敬師晚宴 校長合唱《無影無影》感謝教育夥伴 - chiayi.gov.tw",
+      "date": "Thu, 24 Sep 2026",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBCX2hRMWh5czlwVF80cVdMeU9tVHYtaVE3SUZwak9qUVFHSEl6OHFRZVRnNXBBQm5BZjlncXJSNlZtVU9VSVZWOC1Md0daSS1KRFpmYklSMlhNNk5DdEVfMks4Sm9uQl9OaFE?oc=5",
       "desc": "",
       "source": "Google新聞"
     },
@@ -85,23 +68,9 @@
       "source": "Google新聞"
     },
     {
-      "title": "嘉市「樂頌師恩」敬師晚宴 校長合唱《無影無影》感謝教育夥伴 - chiayi.gov.tw",
-      "date": "Thu, 24 Sep 2026",
-      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5UVk5McEE3ak5XdlpHeDVBLVZ5RmFLNDk2NFdLYjdzNGhYQ2Z0TjBRd2xYT1lfdU9jX3dsR0N0TnpvQ2xTN01BWmQ4SGQ2WGt1bnJFY29LLWkweHlMXzJkRkNpak1IN2ZleXhYQ2k5VGFZa0lBVlE?oc=5",
-      "desc": "",
-      "source": "Google新聞"
-    },
-    {
       "title": "嘉義市政府第1256次市務會議紀錄 - chiayi.gov.tw",
       "date": "Sat, 19 Sep 2026",
       "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBsVDMtVVEyVW1oMF82Z1RHaUVZTFdPeV9fLTNhOVZrN3gtaGE5b2tUQ2htZmNfUVdXTVRFc3Z1WFJCWU5jRGl1OVVsSVUteXo4aEVhUGlJSjVNUXgzSlpOV1BGNnZDZTUtcVE?oc=5",
-      "desc": "",
-      "source": "Google新聞"
-    },
-    {
-      "title": "月圓人團圓 桃城擁清廉 - chiayi.gov.tw",
-      "date": "Thu, 24 Sep 2026",
-      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9TRTg2S0tFZmNBaDBLYy0zS3FuVHQ3VmlZY3NvRmJGWmdYVWthdnNiZUpjbWctSnc2UHlZdkw5VTRmLWxaZUhCWW5raHQ0dm5RRTNTZ2Q0STYtZ0RtLWxKSmFJQnVITFJXM2c?oc=5",
       "desc": "",
       "source": "Google新聞"
     }
@@ -246,7 +215,7 @@
       "lat": 23.481634,
       "lng": 120.453745,
       "total": 45,
-      "available": 15,
+      "available": 12,
       "addr": "中山路199號(對面)"
     },
     {
@@ -255,7 +224,7 @@
       "lat": 23.482012,
       "lng": 120.457342,
       "total": 22,
-      "available": 3,
+      "available": 7,
       "addr": "中山路98號(前)"
     },
     {
@@ -264,7 +233,7 @@
       "lat": 23.482663,
       "lng": 120.462988,
       "total": 25,
-      "available": 7,
+      "available": 5,
       "addr": "中山路2號(前)"
     },
     {
@@ -273,7 +242,7 @@
       "lat": 23.478707,
       "lng": 120.462594,
       "total": 38,
-      "available": 1,
+      "available": 2,
       "addr": "啟明路122號(前)"
     },
     {
@@ -282,7 +251,7 @@
       "lat": 23.477031,
       "lng": 120.465573,
       "total": 34,
-      "available": 3,
+      "available": 9,
       "addr": "大雅路二段738號(前)"
     },
     {
@@ -291,7 +260,7 @@
       "lat": 23.4798596,
       "lng": 120.4488291,
       "total": 20,
-      "available": 7,
+      "available": 5,
       "addr": "中山路306號"
     },
     {
@@ -309,7 +278,7 @@
       "lat": 23.47917,
       "lng": 120.44186,
       "total": 99,
-      "available": 35,
+      "available": 69,
       "addr": "中山路524號"
     },
     {
@@ -318,7 +287,7 @@
       "lat": 23.47877,
       "lng": 120.44089,
       "total": 42,
-      "available": 0,
+      "available": 30,
       "addr": "中山路528號"
     },
     {
@@ -345,7 +314,7 @@
       "lat": 23.4738724,
       "lng": 120.4493073,
       "total": 20,
-      "available": 1,
+      "available": 11,
       "addr": "垂楊路434號"
     },
     {
@@ -372,7 +341,7 @@
       "lat": 23.48091,
       "lng": 120.43012,
       "total": 20,
-      "available": 7,
+      "available": 5,
       "addr": "北港路312號東側"
     },
     {
@@ -381,7 +350,7 @@
       "lat": 23.48465,
       "lng": 120.43354,
       "total": 14,
-      "available": 10,
+      "available": 9,
       "addr": "友愛興達路口"
     },
     {
@@ -422,5 +391,5 @@
     }
   ],
   "water": [],
-  "fetch_seconds": 192.4
+  "fetch_seconds": 212.9
 }
