@@ -1,6 +1,20 @@
 {
-  "updated_at": "2026-09-23T21:08:14.294297",
+  "updated_at": "2026-09-24T02:54:29.299728",
   "news": [
+    {
+      "headline": "嘉義市祭孔大典今登場！黃敏惠市長盼學子從古禮中探索至聖先師教育精神",
+      "source": "嘉義市政府/民政處/觀光新聞處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=953713",
+      "date": "2026/09/24",
+      "query": "市府新聞"
+    },
+    {
+      "headline": "藝術與醫療跨界開診！北市聯醫劉建良醫師親臨嘉義市交流「社會處方箋」推動經驗",
+      "source": "嘉義市政府/衛生局",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=952819",
+      "date": "2026/09/24",
+      "query": "市府新聞"
+    },
     {
       "headline": "嘉義市吳鳳北路配合污水工程刨鋪作業9月23、24日調整施工方式維持車輛通行",
       "source": "嘉義市政府/工務處/觀光新聞處",
@@ -68,20 +82,6 @@
       "headline": "文化＋1串聯城市日常石猴工藝走入生活嘉義文化持續綻放",
       "source": "嘉義市政府/文化局/觀光新聞處",
       "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=953420",
-      "date": "2026/09/22",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "雙颱重創後重生！蘭潭後山步道將開放黃敏惠市長邀市民共遊城市後花園",
-      "source": "嘉義市政府/企劃處/觀光新聞處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=953419",
-      "date": "2026/09/22",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "嘉市地政創新防詐模式入圍2026天下城市治理卓越獎「城市50」",
-      "source": "嘉義市政府",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=953414",
       "date": "2026/09/22",
       "query": "市府新聞"
     }
@@ -203,7 +203,7 @@
       "2012": 1,
       "2013": 1
     },
-    "updated_at": "2026-09-23T21:05:37.146459",
+    "updated_at": "2026-09-24T02:52:40.496977",
     "source": "data.chiayi.gov.tw"
   },
   "council": {
