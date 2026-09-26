@@ -1,6 +1,13 @@
 {
-  "updated_at": "2026-09-25T21:08:34.266223",
+  "updated_at": "2026-09-26T03:14:49.101724",
   "news": [
+    {
+      "headline": "97年次役男兵籍調查10月7日開跑，請役男依限完成申報",
+      "source": "嘉義市政府/西區公所",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=953773",
+      "date": "2026/09/26",
+      "query": "市府新聞"
+    },
     {
       "headline": "垂楊大橋配合鐵高施工9/29至10/8辦理隔音牆拆除作業機車道不定時封閉請民眾配合義交人員指揮改行快車道",
       "source": "嘉義市政府/交通處/觀光新聞處",
@@ -75,13 +82,6 @@
       "headline": "防火從身邊開始，安全從現在做起",
       "source": "嘉義市政府/消防局",
       "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=953727",
-      "date": "2026/09/24",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "嘉市府攜手九華山地藏庵中秋愛心送暖發放贊普品",
-      "source": "嘉義市政府/社會處/觀光新聞處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=953726",
       "date": "2026/09/24",
       "query": "市府新聞"
     }
@@ -201,7 +201,7 @@
       "2012": 1,
       "2013": 1
     },
-    "updated_at": "2026-09-25T21:06:10.428478",
+    "updated_at": "2026-09-26T03:12:52.595116",
     "source": "data.chiayi.gov.tw"
   },
   "council": {
