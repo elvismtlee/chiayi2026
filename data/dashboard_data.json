@@ -1,6 +1,20 @@
 {
-  "updated_at": "2026-09-26T03:14:49.101724",
+  "updated_at": "2026-09-26T10:49:06.243101",
   "news": [
+    {
+      "headline": "「交通安全知識嘉」結合短劇、闖關活動寓教於樂宣導停讓與交通安全",
+      "source": "嘉義市政府/觀光新聞處/交通處/警察局",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=953849",
+      "date": "2026/09/26",
+      "query": "市府新聞"
+    },
+    {
+      "headline": "嘉義市長盃全國羽球錦標賽開打逾1,500人齊聚展現羽球熱力",
+      "source": "嘉義市政府/教育處/觀光新聞處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=953848",
+      "date": "2026/09/26",
+      "query": "市府新聞"
+    },
     {
       "headline": "97年次役男兵籍調查10月7日開跑，請役男依限完成申報",
       "source": "嘉義市政府/西區公所",
@@ -68,20 +82,6 @@
       "headline": "教師節表揚黃敏惠市長：敬師禮金明年規劃提高至2千元持續加碼教育資源",
       "source": "嘉義市政府/教育處/觀光新聞處",
       "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=953737",
-      "date": "2026/09/24",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "中秋烤肉樂團圓！嘉市衛生局籲請民眾注意飲食衛生、落實防蚊措施",
-      "source": "嘉義市政府/衛生局/觀光新聞處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=953736",
-      "date": "2026/09/24",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "防火從身邊開始，安全從現在做起",
-      "source": "嘉義市政府/消防局",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=953727",
       "date": "2026/09/24",
       "query": "市府新聞"
     }
@@ -201,7 +201,7 @@
       "2012": 1,
       "2013": 1
     },
-    "updated_at": "2026-09-26T03:12:52.595116",
+    "updated_at": "2026-09-26T10:46:14.311083",
     "source": "data.chiayi.gov.tw"
   },
   "council": {
