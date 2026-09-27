@@ -96,5 +96,33 @@
     "source": "data.chiayi.gov.tw",
     "count": 1,
     "source_url": "https://data.chiayi.gov.tw/opendata/"
+  },
+  {
+    "date": "2026/07",
+    "year": "2026",
+    "category": "道路路平",
+    "subcategory": "電力管線",
+    "location": "西區美源村里仁愛路125號",
+    "title": "7260317(嘉維A6)線路課+仁愛路125號-杭州三街1號",
+    "end_date": "2026-08-10",
+    "status": "施工中",
+    "applicant": "台灣電力公司嘉義區營業處",
+    "source": "data.chiayi.gov.tw",
+    "count": 1,
+    "source_url": "https://data.chiayi.gov.tw/opendata/"
+  },
+  {
+    "date": "2026/07",
+    "year": "2026",
+    "category": "道路路平",
+    "subcategory": "電力管線",
+    "location": "西區光路村里南京東街63號",
+    "title": "7260364(嘉維A6)線路課+南京東街63~173號",
+    "end_date": "2026-08-10",
+    "status": "施工中",
+    "applicant": "台灣電力公司嘉義區營業處",
+    "source": "data.chiayi.gov.tw",
+    "count": 1,
+    "source_url": "https://data.chiayi.gov.tw/opendata/"
   }
 ]
