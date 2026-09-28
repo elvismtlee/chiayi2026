@@ -1,6 +1,20 @@
 {
-  "updated_at": "2026-09-28T03:18:51.449771",
+  "updated_at": "2026-09-28T12:47:24.997490",
   "news": [
+    {
+      "headline": "從認識地方到共創城市嘉義青年用私房視角解鎖城市故事《留下的樣子－時光迴廊》展覽登場",
+      "source": "嘉義市政府/勞青處/觀光新聞處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=953868",
+      "date": "2026/09/28",
+      "query": "市府新聞"
+    },
+    {
+      "headline": "木作、選物、市集一次逛！「木都日常」10月9日嘉義實驗木場即將登場",
+      "source": "嘉義市政府/文化局/觀光新聞處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=953867",
+      "date": "2026/09/28",
+      "query": "市府新聞"
+    },
     {
       "headline": "2026嘉義交趾陶工藝競賽公布得獎名單從校園到樂齡跨世代創作迎葉王200週年",
       "source": "嘉義市政府/文化局/觀光新聞處",
@@ -68,20 +82,6 @@
       "headline": "垂楊大橋配合鐵高施工，9/29至10/8辦理隔音牆拆除作業機車道不定時封閉，請民眾配合義交人員指揮改行快車道",
       "source": "嘉義市政府/交通處",
       "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=953774",
-      "date": "2026/09/24",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "許效舜嘉市開講「永遠的熱情‧不滅的鬥志」傳授掌控情緒與抗壓心靈解方",
-      "source": "嘉義市政府/衛生局/觀光新聞處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=953770",
-      "date": "2026/09/24",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "月圓人團圓桃城擁清廉",
-      "source": "嘉義市政府/政風處/觀光新聞處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=953765",
       "date": "2026/09/24",
       "query": "市府新聞"
     }
@@ -198,7 +198,7 @@
       "2012": 1,
       "2013": 1
     },
-    "updated_at": "2026-09-28T03:17:08.564390",
+    "updated_at": "2026-09-28T12:45:03.709186",
     "source": "data.chiayi.gov.tw"
   },
   "council": {
