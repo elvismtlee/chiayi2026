@@ -1,6 +1,41 @@
 {
-  "updated_at": "2026-10-01T03:49:49.780766",
+  "updated_at": "2026-10-01T12:21:08.163858",
   "news": [
+    {
+      "headline": "嘉義市立田徑場全新亮相1.61億元打造國家級賽事場地",
+      "source": "嘉義市政府/教育處/觀光新聞處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=954272",
+      "date": "2026/10/01",
+      "query": "市府新聞"
+    },
+    {
+      "headline": "手機回收月開跑！嘉義市兩大回收活動資訊一次掌握",
+      "source": "嘉義市政府/嘉義市政府環境保護局/資源循環管理科",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=954269",
+      "date": "2026/10/01",
+      "query": "市府新聞"
+    },
+    {
+      "headline": "115年嘉市中小學聯運盛大開幕市府優化運動場館奠基體育基石",
+      "source": "嘉義市政府/教育處/觀光新聞處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=954245",
+      "date": "2026/10/01",
+      "query": "市府新聞"
+    },
+    {
+      "headline": "老屋遇見新想像舊屋力提案競賽成果展西門登場",
+      "source": "嘉義市政府/文化局",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=954238",
+      "date": "2026/10/01",
+      "query": "市府新聞"
+    },
+    {
+      "headline": "「幕光織城」願景館115年度系列活動精彩落幕",
+      "source": "嘉義市政府/都市發展處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=954226",
+      "date": "2026/10/01",
+      "query": "市府新聞"
+    },
     {
       "headline": "土地徵用公告與補償費發放通知",
       "source": "嘉義市政府/地政處/地用及重劃科",
@@ -48,41 +83,6 @@
       "source": "嘉義市政府/衛生局/觀光新聞處",
       "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=954045",
       "date": "2026/09/30",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "嘉義市政府衛生局公布「115年國際觀光及五星級旅館附設餐廳HACCP稽查專案」執行結果",
-      "source": "嘉義市政府/衛生局",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=953555",
-      "date": "2026/09/30",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "嘉義市政府衛生局公布「115年度可可製品製造業稽查專案」執行結果",
-      "source": "嘉義市政府/衛生局",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=952428",
-      "date": "2026/09/29",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "「美麗嘉市E指通，公廁品質在手中」評鑑活動圓滿落幕！全民共創五星級優質如廁環境",
-      "source": "嘉義市政府/環保局/清潔隊",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=953910",
-      "date": "2026/09/29",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "嘉市週五辦公用氣體與油料管線災害演習CBS告警訊息同步發送市府籲民眾勿驚慌",
-      "source": "嘉義市政府/建設處/觀光新聞處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=953897",
-      "date": "2026/09/29",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "嘉市「有事青年節」離線唱談會廖士賢、莊蕎嫣接力開唱！黃敏惠市長邀青年「十月來嘉搞事」",
-      "source": "嘉義市政府/勞工及青年發展處/觀光新聞處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=953893",
-      "date": "2026/09/29",
       "query": "市府新聞"
     }
   ],
@@ -202,7 +202,7 @@
       "2012": 1,
       "2013": 1
     },
-    "updated_at": "2026-10-01T03:48:04.792023",
+    "updated_at": "2026-10-01T12:19:27.928835",
     "source": "data.chiayi.gov.tw"
   },
   "council": {
