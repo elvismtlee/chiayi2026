@@ -1,6 +1,27 @@
 {
-  "updated_at": "2026-10-01T22:20:32.480463",
+  "updated_at": "2026-10-02T03:49:05.162482",
   "news": [
+    {
+      "headline": "嘉義木作技藝再添傳承力量劉勝仁登錄文化資產保存技術「大木作」保存者",
+      "source": "嘉義市政府/文化局",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=954264",
+      "date": "2026/10/02",
+      "query": "市府新聞"
+    },
+    {
+      "headline": "「2026嘉義市光織影舞」免費接駁服務再升級因應熱潮加開第三條路線、增加班次便利參觀",
+      "source": "嘉義市政府/觀光新聞處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=954389",
+      "date": "2026/10/02",
+      "query": "市府新聞"
+    },
+    {
+      "headline": "認識「一般徵收」、「區段徵收」及「市地重劃」之差異",
+      "source": "嘉義市政府/地政處/地用及重劃科",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=954225",
+      "date": "2026/10/02",
+      "query": "市府新聞"
+    },
     {
       "headline": "嘉義市立田徑場全新亮相1.61億元打造國家級賽事場地",
       "source": "嘉義市政府/教育處/觀光新聞處",
@@ -61,27 +82,6 @@
       "headline": "好評再加碼持電子票證搭乘市區公車抽好獎！",
       "source": "嘉義市政府/嘉義市政府交通處",
       "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=954053",
-      "date": "2026/09/30",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "嘉市抱回《今周刊》四項大獎黃敏惠市長獲頒『永續城市治理終身成就獎』寫歷史新章",
-      "source": "嘉義市政府/觀光新聞處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=954050",
-      "date": "2026/09/30",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "白沙屯媽祖蒞嘉贊境慶大福興宮360週年邀請全國鄉親共沐神恩",
-      "source": "嘉義市政府/民政處/觀光新聞處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=954046",
-      "date": "2026/09/30",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "10月1日起公費流感、新冠疫苗開打，首度導入加強型流感及新世代新冠疫苗呼籲民眾「左流右新，護肺顧心」",
-      "source": "嘉義市政府/衛生局/觀光新聞處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=954045",
       "date": "2026/09/30",
       "query": "市府新聞"
     }
@@ -202,7 +202,7 @@
       "2012": 1,
       "2013": 1
     },
-    "updated_at": "2026-10-01T22:18:56.620757",
+    "updated_at": "2026-10-02T03:47:24.332447",
     "source": "data.chiayi.gov.tw"
   },
   "council": {
