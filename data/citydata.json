@@ -1,51 +1,20 @@
 {
-  "updated_at": "2026-10-02T17:24:10.374305",
+  "updated_at": "2026-10-02T21:45:33.948811",
   "aqi_realtime": [
     {
-      "station": "",
-      "aqi": 0,
-      "pm25": 0.0,
-      "pm10": 0.0,
-      "o3": 0.0,
-      "no2": 0.0,
-      "status": "",
-      "pollutant": "",
-      "time": "2026-10-03 01:00",
-      "source": "環境部"
-    },
-    {
-      "station": "",
-      "aqi": 0,
-      "pm25": 0.0,
-      "pm10": 0.0,
-      "o3": 0.0,
-      "no2": 0.0,
-      "status": "",
-      "pollutant": "",
-      "time": "2026-10-03 01:00",
-      "source": "環境部"
-    },
-    {
-      "station": "",
-      "aqi": 0,
-      "pm25": 0.0,
-      "pm10": 0.0,
-      "o3": 0.0,
-      "no2": 0.0,
-      "status": "",
-      "pollutant": "",
-      "time": "2026-10-03 01:00",
-      "source": "環境部"
+      "station": "嘉義市（Open-Meteo 模型）",
+      "aqi": 50,
+      "pm25": 35.6,
+      "pm10": 36.7,
+      "o3": 2.0,
+      "no2": 59.1,
+      "status": "良好",
+      "pollutant": "PM2.5",
+      "time": "2026-10-03T05:00",
+      "source": "Open-Meteo"
     }
   ],
-  "aqi_history": [
-    {
-      "month": "",
-      "aqi": 0.0,
-      "pm25": 0.0,
-      "station": "嘉義"
-    }
-  ],
+  "aqi_history": [],
   "earthquake": [
     {
       "title": "規模 4.6・83 km S of Yonakuni, Japan",
@@ -72,30 +41,23 @@
   "weather": [
     {
       "station": "嘉義市（Open-Meteo）",
-      "temp": "24.1",
-      "apparent_temp": "27.6",
-      "humidity": "83",
+      "temp": "22.6",
+      "apparent_temp": "25.1",
+      "humidity": "77",
       "rainfall": "0.0",
-      "wind_speed": "5.4",
-      "wind_dir": "130",
-      "cloud": "4",
-      "weather": "晴",
-      "time": "2026-10-03 01:15",
+      "wind_speed": "3.6",
+      "wind_dir": "120",
+      "cloud": "23",
+      "weather": "多雲",
+      "time": "2026-10-03 05:45",
       "source": "Open-Meteo"
     }
   ],
   "announcements": [
     {
-      "title": "嘉義市第二屆節能知識線上競賽即將開跑 邀全民一起學節電、拿好禮 - 嘉義市政府環境保護局",
-      "date": "Thu, 01 Oct 2026",
-      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5CQVZRNFUyWnRIR2otOEtXaFdxeFhYWGxDMmhzQV9SR0s4a2ZLNktNY0N2ak5sam12cnVmeGNfZ2FvaGYyaGRJQkxxZDQ4SUUxLXBXbmJlcFVvdzZKZ19VZmI3VFptRWYwZmhV?oc=5",
-      "desc": "",
-      "source": "Google新聞"
-    },
-    {
-      "title": "嘉義市光織影舞超夯 擴大免費接駁服務 3線直達北香湖 - more-news.tw",
+      "title": "嘉義市推動智慧回收機佈建再增3處！明(6/24)起推廣活動起跑 揪你回收兌優惠 - 嘉義市政府環境保護局",
       "date": "Fri, 02 Oct 2026",
-      "link": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE4zN3FDNWFSeXpQVkVPZnZja2F3NzhBT29WeFdQZk91ZVJ6bkxxQXlqUFJneHNjbkl3QzV4d09tUXMtUQ?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5QT2NIVDRNd0hqalRNLU01Um40YjRtTk0ycVNZX0Y5SGltRllMZGZDZlNRVC1aLWF5dDkxWTU2RXRpbWNkb2RMV1BNUjZuMjhTcVJUY2RSY0dfSDZaaG5qTmFPdmFUa2RHeW5RWE5vMHdMTnFBRTVBRA?oc=5",
       "desc": "",
       "source": "Google新聞"
     },
@@ -107,6 +69,20 @@
       "source": "Google新聞"
     },
     {
+      "title": "嘉義市第二屆節能知識線上競賽即將開跑 邀全民一起學節電、拿好禮 - 嘉義市政府環境保護局",
+      "date": "Thu, 01 Oct 2026",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5CQVZRNFUyWnRIR2otOEtXaFdxeFhYWGxDMmhzQV9SR0s4a2ZLNktNY0N2ak5sam12cnVmeGNfZ2FvaGYyaGRJQkxxZDQ4SUUxLXBXbmJlcFVvdzZKZ19VZmI3VFptRWYwZmhV?oc=5",
+      "desc": "",
+      "source": "Google新聞"
+    },
+    {
+      "title": "嘉義市光織影舞超夯 擴大免費接駁服務 3線直達北香湖 - 墨新聞-MORE News",
+      "date": "Fri, 02 Oct 2026",
+      "link": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE4zN3FDNWFSeXpQVkVPZnZja2F3NzhBT29WeFdQZk91ZVJ6bkxxQXlqUFJneHNjbkl3QzV4d09tUXMtUQ?oc=5",
+      "desc": "",
+      "source": "Google新聞"
+    },
+    {
       "title": "嘉義市教育處女將掌舵！黃媛楟升任處長 郭添財調任參議 - 中時新聞網",
       "date": "Wed, 30 Sep 2026",
       "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE41R3dWNlRDblFIVkVvYjBGbWhFMGFJRG9sQ180X0QydS1tblUxSTZtMTkxSVpNcE1kTTZ1V2ViamRMUGNoRkNnbjVOVDkxWWE0SEVjLUJvaGpXY2hucHJ2NHpPX2N6aTVhMDRnczFn?oc=5",
@@ -114,16 +90,9 @@
       "source": "Google新聞"
     },
     {
-      "title": "嘉義市的治理哲學：以文化為本的城市品牌 - CSR@天下",
-      "date": "Tue, 29 Sep 2026",
-      "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE90aERKQVNpalBGZXh3WVNuVS16UHg3NE84Y1dOQ2NBRENnTlhNY2hNSGItcGpHRFZZazRDZzNISi1NNFNlLVNRS3lfNA?oc=5",
-      "desc": "",
-      "source": "Google新聞"
-    },
-    {
-      "title": "2026嘉義市母語生活節「沓沓仔」開跑！ 4大行動路徑讓台語走入日常 - 蕃新聞",
+      "title": "中臺灣八縣市首長齊聚新竹！黃敏惠市長盼深化跨域合作 以區域治理守護人民福祉 - chiayi.gov.tw",
       "date": "Fri, 02 Oct 2026",
-      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5GeEw2bTZ1bVlPWDhsbmJrc2pzbHFpNmV4S3I3aDVXOWJjUTJKZUhVZHVjRHhEbjZwWlJKNEVyTlc1bmNZX1BuQmpfUWxKQ2gtTlE?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE42VURzUDZMamh1WlQwczZEVFp0VFlBNFUxSTM1YkZYSXBYR21HTmczQ1pSMVVscG1iWlBVaEdrNThfRjNOLU5seDB5ZG1uN0ZsOGl6bGZvcWlTTnNyZ25jTFJMdGZRVFZhVVE?oc=5",
       "desc": "",
       "source": "Google新聞"
     }
@@ -300,7 +269,7 @@
       "lat": 23.482012,
       "lng": 120.457342,
       "total": 22,
-      "available": 3,
+      "available": 4,
       "addr": "中山路98號(前)"
     },
     {
@@ -336,7 +305,7 @@
       "lat": 23.4798596,
       "lng": 120.4488291,
       "total": 20,
-      "available": 2,
+      "available": 0,
       "addr": "中山路306號"
     },
     {
@@ -345,7 +314,7 @@
       "lat": 23.47963,
       "lng": 120.44583,
       "total": 20,
-      "available": 6,
+      "available": 7,
       "addr": "中山路386號"
     },
     {
@@ -354,7 +323,7 @@
       "lat": 23.47917,
       "lng": 120.44186,
       "total": 99,
-      "available": 84,
+      "available": 93,
       "addr": "中山路524號"
     },
     {
@@ -363,7 +332,7 @@
       "lat": 23.47877,
       "lng": 120.44089,
       "total": 42,
-      "available": 1,
+      "available": 34,
       "addr": "中山路528號"
     },
     {
@@ -390,7 +359,7 @@
       "lat": 23.4738724,
       "lng": 120.4493073,
       "total": 20,
-      "available": 0,
+      "available": 5,
       "addr": "垂楊路434號"
     },
     {
@@ -417,7 +386,7 @@
       "lat": 23.48091,
       "lng": 120.43012,
       "total": 20,
-      "available": 5,
+      "available": 8,
       "addr": "北港路312號東側"
     },
     {
@@ -426,7 +395,7 @@
       "lat": 23.48465,
       "lng": 120.43354,
       "total": 14,
-      "available": 8,
+      "available": 9,
       "addr": "友愛興達路口"
     },
     {
@@ -467,5 +436,5 @@
     }
   ],
   "water": [],
-  "fetch_seconds": 92.2
+  "fetch_seconds": 86.3
 }
