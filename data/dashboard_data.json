@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-07T04:05:46.379308",
+  "updated_at": "2026-10-07T12:44:56.645356",
   "news": [
     {
       "headline": "黃敏惠獲永續城市終身成就獎 嘉市議員參選人揭社會力非六都倒數第4",
@@ -23,13 +23,6 @@
       "query": "嘉義市 消防 事故"
     },
     {
-      "headline": "嘉義救護車急送病患闖紅燈擦撞 轎車上5歲男童受傷送醫",
-      "source": "自由時報",
-      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBqUGlTVVM0RXJTc1RaZGlhOFdFNzFkUE03YmxJWjVSa0JKU1RsUmp0Tnl0N3NkQmdkdFZ3SVo0S0RxVkVEdkZERUxZNE9xVGEzWk1FczM4RzNtMTRlb2VKY056ZlNYN0VR0gFuQVVfeXFMTlNMRUxMT2EwUW9MNGdLdXFDYm5MT0prYkNMVVBiT0FoN3BOY1U3U0FRZV9qNHk1WHI2cjZCbXUya183VkQxLWNaS3pCSUVOUlFqeEt6ZEJMY2tDNkp4YWRvbV9DcnZneUJYeTJQakE?oc=5",
-      "date": "2026-10-05 12:03",
-      "query": "嘉義市 交通事故"
-    },
-    {
       "headline": "快訊／嘉義市救護車、小客車相撞！5歲童、73歲病患送醫",
       "source": "ETtoday新聞雲",
       "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1BTzJUM3hWZlZsaTE1S0tyM3kwUGtyMmdzMUl3WV9vQTBucVJzR2lIT1ZuQnhmREFqcjk1alExRUJibThIMndodzZXTzl1ZTltSXpMMWUxWmNEOGpvTHfSAUtBVV95cUxQMWdUUzZFMnUzT2c1Q0ZORmNLNDFwN2tFQ1VITndSRHpPMnVRd2xCQnJpWmJ4YXJwZ3ptSkpIMlBwR3JfWG9SSUh0SkE?oc=5",
@@ -42,6 +35,13 @@
       "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5lMkZpOC1wUHJvai0wdW1adFZ1UW0xeWpGRVJLVVhwemc5cnNQVjZvc1NPWlBfTmZaTENZYmhuYTcwMHZTSkFTRC1kVUpodndNNGE3WVRfbmZha2Vuc0NSOUdMNHAyb1NmRi1N?oc=5",
       "date": "2026-10-03 16:25",
       "query": "嘉義市 噪音 污染"
+    },
+    {
+      "headline": "嘉義恐怖車禍！機車「塞進」砂石車尾 70歲婦爆頭亡",
+      "source": "TVBS新聞網",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1rdWxKS0lyQXIwNmlDTkhlcktzSjVKM2plaFpZbWcxWkF3V1ZXWXZnWHpwODNDR0gzdmFlQ0JWYnVOdXZGLXBvREVnVlFQbUU?oc=5",
+      "date": "2026-10-03 10:37",
+      "query": "嘉義市 交通事故"
     },
     {
       "headline": "注意！嘉義市垂楊大橋9/29起施工「機車道恐封閉」 這時段建議改道",
@@ -79,11 +79,11 @@
       "query": "嘉義市 長照 高齡 社福"
     },
     {
-      "headline": "熱映國片「網紅老爸」嘉市取景拍攝 永和市場麵店東市場掀電影朝聖潮",
-      "source": "UDN",
-      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5YUGg2a2gwLThWcWxia3lkU3ExcmJRdDhDTEUtd003YlNVRmdfdS12UnlzNlRJRFZaeFNSWFFfaWhmaUJyZ0QwQlJuTndYTERN0gFWQVVfeXFMT1JWLWpTcFZGbThIclc5LTYzQlJZU21NUWhoM1M3b3lUWlMxMkFheGxHLVRhS3BxX0tQajRTSzFCOTItbERhdW0tRmpBeWZ5MUFiMFhiVlE?oc=5",
-      "date": "2026-09-17 15:00",
-      "query": "嘉義市 夜市 市場"
+      "headline": "豪雨襲來警雨中站崗 文自所守護學童通學安全",
+      "source": "蕃新聞",
+      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBGcm9lOGg1Mi1YNl9oZVpwaUdDMWR6RTQwc0pqME1vREVXODRVRFdNNmVhdUFkVUtBaHlNT3dkZ0ZpM0NWT3JMRHhoNkRJZkFMOFE?oc=5",
+      "date": "2026-09-16 09:24",
+      "query": "嘉義市 通學 學童 安全"
     }
   ],
   "complaint_stats": {
@@ -202,7 +202,7 @@
       "2012": 1,
       "2013": 1
     },
-    "updated_at": "2026-10-07T04:03:04.254642",
+    "updated_at": "2026-10-07T12:39:53.062357",
     "source": "data.chiayi.gov.tw"
   },
   "council": {
