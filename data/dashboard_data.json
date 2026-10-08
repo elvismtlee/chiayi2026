@@ -1,6 +1,34 @@
 {
-  "updated_at": "2026-10-07T22:39:55.791819",
+  "updated_at": "2026-10-08T04:13:58.180883",
   "news": [
+    {
+      "headline": "匯聚專業追求共好接軌國際創新前行：嘉義市115學年度國民教育與特殊教育輔導團及各中心團員授證典禮",
+      "source": "嘉義市政府/教育處/觀光新聞處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=955145",
+      "date": "2026/10/08",
+      "query": "市府新聞"
+    },
+    {
+      "headline": "嘉義市重陽敬老禮金總額逾2億元即日發放！5.4萬長者受惠黃敏惠市長訪百歲人瑞賀壽",
+      "source": "嘉義市政府/社會處/觀光新聞處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=955143",
+      "date": "2026/10/08",
+      "query": "市府新聞"
+    },
+    {
+      "headline": "環境部公告加油站氣油比檢測方法提醒業者注意",
+      "source": "嘉義市政府/環保局/環境品質管理科",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=955141",
+      "date": "2026/10/08",
+      "query": "市府新聞"
+    },
+    {
+      "headline": "重陽敬老暖嘉園關懷資收創雙贏",
+      "source": "嘉義市政府/環保局/資源循環管理科",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=955139",
+      "date": "2026/10/08",
+      "query": "市府新聞"
+    },
     {
       "headline": "「看起來很好，不代表真的沒事」嘉市府衛生局陪伴市民關注高功能憂鬱",
       "source": "嘉義市政府/衛生局",
@@ -54,34 +82,6 @@
       "headline": "從花磚到咖啡嘉義市廉政志工體驗文化與生活",
       "source": "嘉義市政府/政風處/觀光新聞處",
       "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=954861",
-      "date": "2026/10/06",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "雙十連假來嘉！光織影舞、諸羅搖滾、媽祖贊境精彩活動一路玩到晚",
-      "source": "嘉義市政府/觀光新聞處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=954834",
-      "date": "2026/10/06",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "白沙屯拱天宮媽祖蒞嘉贊境",
-      "source": "嘉義市政府/企劃處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=954833",
-      "date": "2026/10/06",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "嘉義市榮獲城市照顧典範獎首獎、標竿獎項肯定打造活躍老化、長照創新共老防護網",
-      "source": "嘉義市政府/衛生局/社會處/觀光新聞處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=954826",
-      "date": "2026/10/06",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "嘉義市榮獲城市照顧典範獎首獎織密長照創新共老防護網",
-      "source": "嘉義市政府/衛生局/長期照顧管理中心/觀光新聞處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=954821",
       "date": "2026/10/06",
       "query": "市府新聞"
     }
@@ -202,11 +202,11 @@
       "2012": 1,
       "2013": 1
     },
-    "updated_at": "2026-10-07T22:37:31.657778",
+    "updated_at": "2026-10-08T04:12:05.338504",
     "source": "data.chiayi.gov.tw"
   },
   "council": {
-    "meetings_count": 10,
+    "meetings_count": 15,
     "councilors": [
       "傅大偉",
       "黃露慧",

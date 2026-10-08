@@ -36,18 +36,43 @@
       "source": "council_announce"
     },
     {
-      "date": "2026/09/11",
+      "date": "2026/10/13",
       "type": "議員報到",
       "source": "council_schedule"
     },
     {
-      "date": "2026/09/14",
-      "type": "審計部嘉義市審計室",
+      "date": "2026/10/14",
+      "type": "市長施政報告",
       "source": "council_schedule"
     },
     {
-      "date": "2026/09/15",
-      "type": "討論議案",
+      "date": "2026/10/15",
+      "type": "交通處工作報告",
+      "source": "council_schedule"
+    },
+    {
+      "date": "2026/10/16",
+      "type": "教育處工作報告",
+      "source": "council_schedule"
+    },
+    {
+      "date": "2026/10/19",
+      "type": "工務處工作報告",
+      "source": "council_schedule"
+    },
+    {
+      "date": "2026/10/20",
+      "type": "都發處工作報告",
+      "source": "council_schedule"
+    },
+    {
+      "date": "2026/10/21",
+      "type": "警察局工作報告",
+      "source": "council_schedule"
+    },
+    {
+      "date": "2026/10/22",
+      "type": "文化局工作報告",
       "source": "council_schedule"
     }
   ],
@@ -230,5 +255,5 @@
     "李忠曆",
     "王浩"
   ],
-  "updated_at": "2026-10-07T22:38:23.728594"
+  "updated_at": "2026-10-08T04:12:12.058821"
 }
