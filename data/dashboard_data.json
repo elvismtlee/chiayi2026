@@ -1,6 +1,27 @@
 {
-  "updated_at": "2026-10-08T04:13:58.180883",
+  "updated_at": "2026-10-08T12:44:39.876576",
   "news": [
+    {
+      "headline": "白沙屯媽來嘉遶境！交管資訊公開",
+      "source": "嘉義市政府/警察局/觀光新聞處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=955170",
+      "date": "2026/10/08",
+      "query": "市府新聞"
+    },
+    {
+      "headline": "嘉義市政府衛生局公布「115年度美食外送平台暨雲端廚房餐飲業稽查專案」執行結果",
+      "source": "嘉義市政府/衛生局",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=954381",
+      "date": "2026/10/08",
+      "query": "市府新聞"
+    },
+    {
+      "headline": "嘉市舊城創新生展成果黃敏惠市長揭曉城市IP「木吉」串聯街區打造城市新魅力",
+      "source": "嘉義市政府/建設處/觀光新聞處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=955160",
+      "date": "2026/10/08",
+      "query": "市府新聞"
+    },
     {
       "headline": "匯聚專業追求共好接軌國際創新前行：嘉義市115學年度國民教育與特殊教育輔導團及各中心團員授證典禮",
       "source": "嘉義市政府/教育處/觀光新聞處",
@@ -62,27 +83,6 @@
       "source": "嘉義市政府/社會處/觀光新聞處",
       "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=955000",
       "date": "2026/10/07",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "2026嘉義市購物節消費登錄金額近11億！發票登錄最後倒數壓軸抽VOLVO、百萬現金",
-      "source": "嘉義市政府/建設處/觀光新聞處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=954999",
-      "date": "2026/10/07",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "「115年上半年預售屋契約」這4條款最常踩雷！",
-      "source": "嘉義市政府/地政處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=954977",
-      "date": "2026/10/07",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "從花磚到咖啡嘉義市廉政志工體驗文化與生活",
-      "source": "嘉義市政府/政風處/觀光新聞處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=954861",
-      "date": "2026/10/06",
       "query": "市府新聞"
     }
   ],
@@ -202,7 +202,7 @@
       "2012": 1,
       "2013": 1
     },
-    "updated_at": "2026-10-08T04:12:05.338504",
+    "updated_at": "2026-10-08T12:42:59.716510",
     "source": "data.chiayi.gov.tw"
   },
   "council": {
