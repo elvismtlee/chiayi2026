@@ -1,6 +1,13 @@
 {
-  "updated_at": "2026-10-09T04:21:38.244051",
+  "updated_at": "2026-10-09T12:31:29.434924",
   "news": [
+    {
+      "headline": "從認證到產業平台「木都日常」即日起至11/15開展！讓木作品牌匯聚嘉義市",
+      "source": "嘉義市政府/文化局/觀光新聞處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=955283",
+      "date": "2026/10/09",
+      "query": "市府新聞"
+    },
     {
       "headline": "「粉紅超跑」再臨嘉義市！10月9日起連兩天遶境嘉義市賜福",
       "source": "嘉義市政府/民政處/觀光新聞處",
@@ -75,13 +82,6 @@
       "headline": "嘉義市肯定民間企業響應綠色採購近3年申報逾1.6億元攜手支持新永續行動",
       "source": "嘉義市政府/環保局/綜合計畫科",
       "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=955023",
-      "date": "2026/10/07",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "嘉市115年全民運代表隊授旗林瑞彥副市長勉選手全力以赴",
-      "source": "嘉義市政府/教育處/觀光新聞處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=955020",
       "date": "2026/10/07",
       "query": "市府新聞"
     }
@@ -202,7 +202,7 @@
       "2012": 1,
       "2013": 1
     },
-    "updated_at": "2026-10-09T04:19:16.417189",
+    "updated_at": "2026-10-09T12:29:51.351134",
     "source": "data.chiayi.gov.tw"
   },
   "council": {
