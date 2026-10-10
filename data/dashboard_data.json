@@ -1,6 +1,13 @@
 {
-  "updated_at": "2026-10-09T22:15:10.231425",
+  "updated_at": "2026-10-10T04:04:11.768272",
   "news": [
+    {
+      "headline": "🎙️【抽獎囉!Podcast錄製場地升級啦~猜猜我在哪裡?】👀",
+      "source": "嘉義市政府/地政處/地用及重劃科",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=955147",
+      "date": "2026/10/10",
+      "query": "市府新聞"
+    },
     {
       "headline": "《菸害防制法》修法！未來持有電子煙最高罰10萬、販售改判刑併科重罰",
       "source": "嘉義市政府/西區公所",
@@ -76,13 +83,6 @@
       "source": "嘉義市政府/環保局/資源循環管理科",
       "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=955139",
       "date": "2026/10/08",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "「看起來很好，不代表真的沒事」嘉市府衛生局陪伴市民關注高功能憂鬱",
-      "source": "嘉義市政府/衛生局",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=951485",
-      "date": "2026/10/07",
       "query": "市府新聞"
     }
   ],
@@ -202,7 +202,7 @@
       "2012": 1,
       "2013": 1
     },
-    "updated_at": "2026-10-09T22:12:40.892214",
+    "updated_at": "2026-10-10T04:02:29.919941",
     "source": "data.chiayi.gov.tw"
   },
   "council": {
