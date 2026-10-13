@@ -1,6 +1,34 @@
 {
-  "updated_at": "2026-10-13T00:07:42.991071",
+  "updated_at": "2026-10-13T13:34:19.533984",
   "news": [
+    {
+      "headline": "「嘉義市崇文國小地下停車場」月票中籤名單公告",
+      "source": "嘉義市政府/交通處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=955622",
+      "date": "2026/10/13",
+      "query": "市府新聞"
+    },
+    {
+      "headline": "嘉義市政府員工協助方案115年10月份電子報：友善育兒措施",
+      "source": "嘉義市政府/企劃處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=955592",
+      "date": "2026/10/13",
+      "query": "市府新聞"
+    },
+    {
+      "headline": "嘉義虎爺變身原創IP「虎嚕」從文博會走進城市日常",
+      "source": "嘉義市政府/文化局/觀光新聞處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=955589",
+      "date": "2026/10/13",
+      "query": "市府新聞"
+    },
+    {
+      "headline": "黃敏惠市長表揚殯葬績優業者防制人口販運奪全國特優獎項轉呈",
+      "source": "嘉義市政府/民政處/警察局/觀光新聞處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=955582",
+      "date": "2026/10/13",
+      "query": "市府新聞"
+    },
     {
       "headline": "非法棄置暗藏爆炸風險慎防閒置土地淪為棄置場所",
       "source": "嘉義市政府/環保局/環保設施管理科",
@@ -56,41 +84,13 @@
       "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=955418",
       "date": "2026/10/11",
       "query": "市府新聞"
-    },
-    {
-      "headline": "嘉義市上半年住宿、旅遊、消費三指標齊創新高全國首發國旅自由行補助發威助旅宿業再開紅盤",
-      "source": "嘉義市政府/觀光新聞處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=955417",
-      "date": "2026/10/11",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "嘉義市府跨局處接力扶植青創！「惡工商行」正式展店見證階梯式輔導成果",
-      "source": "嘉義市政府/勞工及青年發展處/觀光新聞處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=955390",
-      "date": "2026/10/10",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "白沙屯媽祖「粉紅超跑」駐駕嘉義市府黃敏惠市長接駕祈求市運昌隆",
-      "source": "嘉義市政府/民政處/觀光新聞處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=955389",
-      "date": "2026/10/10",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "文財尊神聖誕文財殿頒助學金嘉惠近400學童！黃敏惠市長宣布明年營養午餐規劃加碼5元食材費用",
-      "source": "嘉義市政府/民政處/觀光新聞處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=955380",
-      "date": "2026/10/10",
-      "query": "市府新聞"
     }
   ],
   "complaint_stats": {
-    "total": 80184,
-    "record_count": 532,
+    "total": 80797,
+    "record_count": 533,
     "category_counts": {
-      "公共安全": 39350,
+      "公共安全": 39963,
       "交通停車": 7743,
       "道路路平": 270,
       "環境衛生": 5,
@@ -98,7 +98,7 @@
     },
     "subcategory_counts": {
       "公共安全": {
-        "交通事故": 39287,
+        "交通事故": 39900,
         "路燈照明": 20,
         "水域安全": 43
       },
@@ -166,7 +166,7 @@
     "top_categories": [
       {
         "category": "公共安全",
-        "count": 39350
+        "count": 39963
       },
       {
         "category": "交通停車",
@@ -198,11 +198,11 @@
       "2023": 3318,
       "2024": 3270,
       "2025": 8906,
-      "2026": 4255,
+      "2026": 4868,
       "2012": 1,
       "2013": 1
     },
-    "updated_at": "2026-10-13T00:05:56.708486",
+    "updated_at": "2026-10-13T13:31:02.250816",
     "source": "data.chiayi.gov.tw"
   },
   "council": {
