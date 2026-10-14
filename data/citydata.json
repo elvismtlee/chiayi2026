@@ -1,64 +1,33 @@
 {
-  "updated_at": "2026-10-14T16:32:38.552462",
+  "updated_at": "2026-10-14T21:15:31.363265",
   "aqi_realtime": [
     {
-      "station": "",
-      "aqi": 0,
-      "pm25": 0.0,
-      "pm10": 0.0,
-      "o3": 0.0,
-      "no2": 0.0,
-      "status": "",
-      "pollutant": "",
-      "time": "2026-10-14 22:00",
-      "source": "環境部"
-    },
-    {
-      "station": "",
-      "aqi": 0,
-      "pm25": 0.0,
-      "pm10": 0.0,
-      "o3": 0.0,
-      "no2": 0.0,
-      "status": "",
-      "pollutant": "",
-      "time": "2026-10-14 22:00",
-      "source": "環境部"
-    },
-    {
-      "station": "",
-      "aqi": 0,
-      "pm25": 0.0,
-      "pm10": 0.0,
-      "o3": 0.0,
-      "no2": 0.0,
-      "status": "",
-      "pollutant": "",
-      "time": "2026-10-14 22:00",
-      "source": "環境部"
+      "station": "嘉義市（Open-Meteo 模型）",
+      "aqi": 78,
+      "pm25": 45.5,
+      "pm10": 48.9,
+      "o3": 16.0,
+      "no2": 51.9,
+      "status": "普通",
+      "pollutant": "PM2.5",
+      "time": "2026-10-15T05:00",
+      "source": "Open-Meteo"
     }
   ],
-  "aqi_history": [
-    {
-      "month": "",
-      "aqi": 0.0,
-      "pm25": 0.0,
-      "station": "嘉義"
-    }
-  ],
+  "aqi_history": [],
   "earthquake": [],
   "weather": [
     {
       "station": "嘉義市（Open-Meteo）",
-      "temp": "24.8",
-      "apparent_temp": "28.5",
-      "humidity": "80",
+      "temp": "22.4",
+      "apparent_temp": "26.4",
+      "humidity": "93",
       "rainfall": "0.0",
-      "wind_speed": "4.5",
-      "wind_dir": "151",
-      "cloud": "15",
+      "wind_speed": "3.0",
+      "wind_dir": "128",
+      "cloud": "4",
       "weather": "晴",
-      "time": "2026-10-15 00:30",
+      "time": "2026-10-15 05:15",
       "source": "Open-Meteo"
     }
   ],
@@ -78,9 +47,9 @@
       "source": "Google新聞"
     },
     {
-      "title": "黃敏惠爭取嘉義高鐵聯外軌道建設 行政院曝會議三點共識 - UDN",
+      "title": "選前敏感時機！黃敏惠、王美惠一同見卓榮泰談嘉義交通 | 羅立邦 | 新聞 - 風傳媒",
       "date": "Wed, 14 Oct 2026",
-      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9xc0tIbnBmelNRU1JJdDVsa3ZEVzJJNVI2U0ZDU0VWRVJEVmJva0R6Z1hyS2U2MkRWN0dVNFhTQjBlRU11Zk5qc0REMTA3djBjcU1Wc21B0gFWQVVfeXFMT3hWUlRmZGNWQmtXRXZqT1NEV2JXS3RxWFVNczFNbVZDcnM0bTZUZ0s0YVpuUmpRSWtGSjRFSnJHMGs1QjVRQWZkRzRDV2JKYUl3MG5CS3c?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFAxMm9kQjJSWDg3VVdMQXM0R1g3czBQWlFqTDVtSlNVOV85MUNkbDQxN3RvcnpkUjhwTGtCQlMwR21fSTRjRm5EXzdlaEFYZw?oc=5",
       "desc": "",
       "source": "Google新聞"
     },
@@ -92,16 +61,16 @@
       "source": "Google新聞"
     },
     {
-      "title": "卓榮泰接見黃敏惠允助BRT接駁量能、協商輕軌經費- 政治 - 華視新聞網",
+      "title": "黃敏惠爭取嘉義高鐵聯外軌道建設 行政院曝會議三點共識 - UDN",
       "date": "Wed, 14 Oct 2026",
-      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFBXaTJfOUtlRVp3eGZFM3JENnMtTURoeF9yc2o1YW5mcHpPcXdic2tFbVc2eDZvdjN5ZVB4dGQzMmFoUWVPSlR6REdzVnFrb255TEpWZ25zU3dfUE4tNlRfV0I4WF8weWJYNnlaLXExT19tdw?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9xc0tIbnBmelNRU1JJdDVsa3ZEVzJJNVI2U0ZDU0VWRVJEVmJva0R6Z1hyS2U2MkRWN0dVNFhTQjBlRU11Zk5qc0REMTA3djBjcU1Wc21B0gFWQVVfeXFMT3hWUlRmZGNWQmtXRXZqT1NEV2JXS3RxWFVNczFNbVZDcnM0bTZUZ0s0YVpuUmpRSWtGSjRFSnJHMGs1QjVRQWZkRzRDV2JKYUl3MG5CS3c?oc=5",
       "desc": "",
       "source": "Google新聞"
     },
     {
-      "title": "嘉義人等了21年！黃敏惠北上拜會卓榮泰 輕軌建設有3大共識 - Yahoo新聞",
+      "title": "卓榮泰、黃敏惠會商嘉義輕軌建設 拍板3大結論 - 翻爆",
       "date": "Wed, 14 Oct 2026",
-      "link": "https://news.google.com/rss/articles/CBMi-gJBVV95cUxQWG92RmVvZTFSS2lkTUFpeDJxZFMzUkVSNXludUxzQUlUMi1neVI1a2xOMXpjQWM1eG9iRllPYWhYa0pyZjg3cW5HdXdHMm4tRUExeHdUaGw3YzltVXpSMS10RnJrbmdTaHlibi1oNm1TMW50aWdobEZMb3BCc2lTQXRZSE96ZHFKSVFPYklvUkdwbTZ3TlctcGw3UjdFSXhtaGx4QkEzSVpEVlB0azE4RUdLTThBdWJfbnZNMnR4ZmVKWHZHNERwMWVkbkJLZ2hqVjRRZVpDWEVvUTlJel9PRXlpakdHcXFKd1dRdUpFc2VPV3YxVjk2Znd1LVdBb1ctWjRZQUFTVGJDVG96ai1tUzFqNDdDRUpNQmYtdkc3cUVsbGNTYVRWMU9NbUxuMFVnUVVOUGlVRFpZUnhfa21mdEVhUERNMlZNYTFvckRYWFhnbFpoZFpPRWJwbklSUHl6dmtyZXVlNjlKbEt3QlBmakcweDQ1WkhVVHc?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5aWU04d2t1TzlIWm1oOU1hM0NaSTdIemQ3NndCMFl5NWJ5OGw0cGJaV1dVZllndl85S18zZmJvcmdlUGlpQ0lMSmttT1paSTF5dC1TMW1Zc3RvckpwYVZuMjVfT0hFY2RhSnFNYll6ZnVoMkU?oc=5",
       "desc": "",
       "source": "Google新聞"
     }
@@ -136,16 +105,16 @@
       "source": "Google新聞"
     },
     {
-      "title": "嘉義市勇奪國家卓越建設獎3金1優質獎 打造人本永續城市新典範 | 熱門亮點 | 商情 - 經濟日報",
-      "date": "Wed, 05 Aug 2026",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9QSDdiLTFqeTNIbmZPQ2luNE9MbkFRdHBGRTIxVFJoa1pRaVBRRDhZT1YzUkdSMGktZGdvcFp6bmh3VThwVndhbVYzaEZSSmN5SlExamxNazA5QQ?oc=5",
+      "title": "嘉義市污水二期第2標動土！黃敏惠：建設腳步不停歇、連續5年評鑑第一 - 樂聯網",
+      "date": "Thu, 03 Sep 2026",
+      "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE4tUEpZdFVQak5oUFZVTWZETUJndjhMWjJrdkl6M0lIMlcwV09sSmpJSFc5Nk93UFFWaXEyM0RoRS1HYW1hS09UYkx4RQ?oc=5",
       "org": "新聞資訊",
       "source": "Google新聞"
     },
     {
-      "title": "嘉義市污水二期第2標動土！黃敏惠：建設腳步不停歇、連續5年評鑑第一 - 樂聯網",
-      "date": "Thu, 03 Sep 2026",
-      "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE4tUEpZdFVQak5oUFZVTWZETUJndjhMWjJrdkl6M0lIMlcwV09sSmpJSFc5Nk93UFFWaXEyM0RoRS1HYW1hS09UYkx4RQ?oc=5",
+      "title": "嘉義市勇奪國家卓越建設獎3金1優質獎 打造人本永續城市新典範 | 熱門亮點 | 商情 - 經濟日報",
+      "date": "Wed, 05 Aug 2026",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9QSDdiLTFqeTNIbmZPQ2luNE9MbkFRdHBGRTIxVFJoa1pRaVBRRDhZT1YzUkdSMGktZGdvcFp6bmh3VThwVndhbVYzaEZSSmN5SlExamxNazA5QQ?oc=5",
       "org": "新聞資訊",
       "source": "Google新聞"
     },
@@ -157,9 +126,9 @@
       "source": "Google新聞"
     },
     {
-      "title": "嘉義市前瞻停車場建設 獲2026年國家卓越建設獎肯定 - 台灣好新聞",
-      "date": "Tue, 04 Aug 2026",
-      "link": "https://news.google.com/rss/articles/CBMi0wJBVV95cUxNeDl6VS1RcEdTZUtLZTlaY1dSZmJmc0xNbzRJSTZ3SjREUVZxMy1BblU3dXhUQnNhOVdJZTlWYlVNWVJUMjMxQWo0ZjlqX3VySVBicFRwWk5VektLamw0MzQtZjk1dk92RW53dWRnZE9rYlpfNE53UmVXdW9FMWpPMkFaUVpCN2F5VVRZZkMzTm9GS2J5SEVZUVVFVkI3RzRrWlFwWFZQenUyMjVlc2lsdnRLQk5wOEcyX2RLZ0JiVDk1OVZmLWNjUjVJUmUxZGdhVUlia0ppR01vc0x0UGwwcVVXbWFuZ09GWWx1cDNwRWZEOVNQTmtTNkN1UnNFY0FSbmR2S1g1bE05ZmtUNzB0NzJqekhybWdzQzZXYVMyaDNuUThza05ITkN0T1d4YnRQd2Nhbk1jaTY3ZUoyWERiTWJzR1ZPRllUOUJxWm1BTnBSRWc?oc=5",
+      "title": "黃敏惠9日率隊參訪臺中 交流公共建設經驗 - 大紀元",
+      "date": "Wed, 09 Sep 2026",
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE44ZV9DN1J4dlNudnROWVdtbnBCUGFsTV91eFF5RnZWT3VOVUZ0U3hLVmsyaE9LMFhTQzNLeE1JZV81RzFWa1dzMkJqd0hQdm5RUkw0T1ZNMXJnVjBHeFFz0gFkQVVfeXFMT2VMeWIyTkxlaGJjRnVpcnZGUnJsZ3pVT2d5bzNVUHpxRi1jQk5oY1NwUnpjMUhVeWZRby1KdWthYUx0Q3RGQldWNGdYMzlacjJ4bEdCMi1GMWFaZlZEQ1lPd1l5Rw?oc=5",
       "org": "新聞資訊",
       "source": "Google新聞"
     }
@@ -169,7 +138,30 @@
     "enterovirus": [],
     "updated": "2026-10-14"
   },
-  "fire": {},
+  "fire": {
+    "chiayi_datasets": [
+      {
+        "title": "",
+        "date": ""
+      },
+      {
+        "title": "",
+        "date": ""
+      },
+      {
+        "title": "",
+        "date": ""
+      },
+      {
+        "title": "",
+        "date": ""
+      },
+      {
+        "title": "",
+        "date": ""
+      }
+    ]
+  },
   "population": [],
   "bus": [
     {
@@ -246,7 +238,7 @@
       "lat": 23.481634,
       "lng": 120.453745,
       "total": 45,
-      "available": 3,
+      "available": 15,
       "addr": "中山路199號(對面)"
     },
     {
@@ -255,7 +247,7 @@
       "lat": 23.482012,
       "lng": 120.457342,
       "total": 22,
-      "available": 2,
+      "available": 1,
       "addr": "中山路98號(前)"
     },
     {
@@ -264,7 +256,7 @@
       "lat": 23.482663,
       "lng": 120.462988,
       "total": 25,
-      "available": 3,
+      "available": 4,
       "addr": "中山路2號(前)"
     },
     {
@@ -273,7 +265,7 @@
       "lat": 23.478707,
       "lng": 120.462594,
       "total": 38,
-      "available": 5,
+      "available": 7,
       "addr": "啟明路122號(前)"
     },
     {
@@ -282,7 +274,7 @@
       "lat": 23.477031,
       "lng": 120.465573,
       "total": 34,
-      "available": 17,
+      "available": 14,
       "addr": "大雅路二段738號(前)"
     },
     {
@@ -291,7 +283,7 @@
       "lat": 23.4798596,
       "lng": 120.4488291,
       "total": 20,
-      "available": 1,
+      "available": 5,
       "addr": "中山路306號"
     },
     {
@@ -300,7 +292,7 @@
       "lat": 23.47963,
       "lng": 120.44583,
       "total": 20,
-      "available": 1,
+      "available": 5,
       "addr": "中山路386號"
     },
     {
@@ -309,7 +301,7 @@
       "lat": 23.47917,
       "lng": 120.44186,
       "total": 99,
-      "available": 52,
+      "available": 70,
       "addr": "中山路524號"
     },
     {
@@ -318,7 +310,7 @@
       "lat": 23.47877,
       "lng": 120.44089,
       "total": 42,
-      "available": 10,
+      "available": 29,
       "addr": "中山路528號"
     },
     {
@@ -345,7 +337,7 @@
       "lat": 23.4738724,
       "lng": 120.4493073,
       "total": 20,
-      "available": 7,
+      "available": 6,
       "addr": "垂楊路434號"
     },
     {
@@ -372,7 +364,7 @@
       "lat": 23.48091,
       "lng": 120.43012,
       "total": 20,
-      "available": 6,
+      "available": 7,
       "addr": "北港路312號東側"
     },
     {
@@ -381,7 +373,7 @@
       "lat": 23.48465,
       "lng": 120.43354,
       "total": 14,
-      "available": 4,
+      "available": 2,
       "addr": "友愛興達路口"
     },
     {
@@ -390,7 +382,7 @@
       "lat": 23.48931,
       "lng": 120.4361,
       "total": 15,
-      "available": 10,
+      "available": 12,
       "addr": "自由路298號"
     },
     {
@@ -422,5 +414,5 @@
     }
   ],
   "water": [],
-  "fetch_seconds": 210.9
+  "fetch_seconds": 113.0
 }
