@@ -1,6 +1,27 @@
 {
-  "updated_at": "2026-10-14T03:21:22.578742",
+  "updated_at": "2026-10-14T11:08:36.919927",
   "news": [
+    {
+      "headline": "攜手在地企業低碳轉型！嘉義市輔導重點能源用戶完成碳盤查",
+      "source": "嘉義市政府/環保局/綜合計畫科",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=955789",
+      "date": "2026/10/14",
+      "query": "市府新聞"
+    },
+    {
+      "headline": "嘉義市原創音樂走向國際！嘉頌重奏團赴日演出深化臺日文化交流",
+      "source": "嘉義市政府/文化局/觀光新聞處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=955783",
+      "date": "2026/10/14",
+      "query": "市府新聞"
+    },
+    {
+      "headline": "黃敏惠市長施政報告穩健財政厚植城市競爭力躍升永續幸福城市實現「嘉義市，就是好生活」",
+      "source": "嘉義市政府/企劃處/觀光新聞處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=955775",
+      "date": "2026/10/14",
+      "query": "市府新聞"
+    },
     {
       "headline": "「嘉義市崇文國小地下停車場」月票中籤名單公告",
       "source": "嘉義市政府/交通處",
@@ -62,27 +83,6 @@
       "source": "嘉義市政府/觀光新聞處",
       "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=955450",
       "date": "2026/10/12",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "〈全家一起飛〉完整MV亮相！美秀集團攜手嘉義導演嘉義原創能量再「+1」",
-      "source": "嘉義市政府/文化局/觀光新聞處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=955421",
-      "date": "2026/10/11",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "2026諸羅搖滾首日湧入大批樂迷日本樂團Hakubi跨海「回嘉」掀搖滾熱潮",
-      "source": "嘉義市政府/文化局/觀光新聞處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=955419",
-      "date": "2026/10/11",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "設計走進街巷嘉義市特色店家形象再造串聯東西區展現「嘉義式生活」",
-      "source": "嘉義市政府/建設處/觀光新聞處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=955418",
-      "date": "2026/10/11",
       "query": "市府新聞"
     }
   ],
@@ -202,7 +202,7 @@
       "2012": 1,
       "2013": 1
     },
-    "updated_at": "2026-10-14T03:18:44.652044",
+    "updated_at": "2026-10-14T11:06:02.935347",
     "source": "data.chiayi.gov.tw"
   },
   "council": {
