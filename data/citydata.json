@@ -1,88 +1,33 @@
 {
-  "updated_at": "2026-10-15T16:16:10.163330",
+  "updated_at": "2026-10-15T20:58:23.325822",
   "aqi_realtime": [
     {
-      "station": "",
-      "aqi": 0,
-      "pm25": 0.0,
-      "pm10": 0.0,
-      "o3": 0.0,
-      "no2": 0.0,
-      "status": "",
-      "pollutant": "",
-      "time": "2026-10-15 22:00",
-      "source": "環境部"
-    },
-    {
-      "station": "",
-      "aqi": 0,
-      "pm25": 0.0,
-      "pm10": 0.0,
-      "o3": 0.0,
-      "no2": 0.0,
-      "status": "",
-      "pollutant": "",
-      "time": "2026-10-15 22:00",
-      "source": "環境部"
-    },
-    {
-      "station": "",
-      "aqi": 0,
-      "pm25": 0.0,
-      "pm10": 0.0,
-      "o3": 0.0,
-      "no2": 0.0,
-      "status": "",
-      "pollutant": "",
-      "time": "2026-10-15 22:00",
-      "source": "環境部"
-    },
-    {
-      "station": "",
-      "aqi": 0,
-      "pm25": 0.0,
-      "pm10": 0.0,
-      "o3": 0.0,
-      "no2": 0.0,
-      "status": "",
-      "pollutant": "",
-      "time": "2026-10-15 21:00",
-      "source": "環境部"
-    },
-    {
-      "station": "",
-      "aqi": 0,
-      "pm25": 0.0,
-      "pm10": 0.0,
-      "o3": 0.0,
-      "no2": 0.0,
-      "status": "",
-      "pollutant": "",
-      "time": "2026-10-15 21:00",
-      "source": "環境部"
+      "station": "嘉義市（Open-Meteo 模型）",
+      "aqi": 44,
+      "pm25": 31.3,
+      "pm10": 34.8,
+      "o3": 3.0,
+      "no2": 55.4,
+      "status": "良好",
+      "pollutant": "PM2.5",
+      "time": "2026-10-16T04:00",
+      "source": "Open-Meteo"
     }
   ],
-  "aqi_history": [
-    {
-      "month": "",
-      "aqi": 0.0,
-      "pm25": 0.0,
-      "station": "嘉義"
-    }
-  ],
+  "aqi_history": [],
   "earthquake": [],
   "weather": [
     {
       "station": "嘉義市（Open-Meteo）",
-      "temp": "22.4",
-      "apparent_temp": "25.8",
+      "temp": "21.0",
+      "apparent_temp": "23.9",
       "humidity": "85",
       "rainfall": "0.0",
-      "wind_speed": "1.9",
+      "wind_speed": "1.3",
       "wind_dir": "124",
-      "cloud": "83",
-      "weather": "陰天",
-      "time": "2026-10-16 00:15",
+      "cloud": "12",
+      "weather": "晴",
+      "time": "2026-10-16 04:45",
       "source": "Open-Meteo"
     }
   ],
@@ -102,16 +47,16 @@
       "source": "Google新聞"
     },
     {
-      "title": "斥資1.7億元嘉義市白鷺鷥非營利幼兒園落成| 地方 - 中央社 CNA",
-      "date": "Thu, 15 Oct 2026",
-      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFA3bWthbm1mWWJvM2pSdmNpcUNFWGMzdFUwU1lfVW15R3BydXgzLXlpTHNjRXo5UXllX2hON2Z6bWhQd2FWcVJuQ1g3dGVQSVBtLV9jbFJTRkdjNXZfMjE4?oc=5",
+      "title": "清潔隊招考30名清潔隊約用清潔隊員及清潔車輛儲備駕駛 - 嘉義市政府環境保護局",
+      "date": "Fri, 02 Oct 2026",
+      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5xVm5MWEdQbVpjYVVBZXdvZEpadTgxUW1jNGJZdmtmOEtTM2dHbEpRREFrejRyOTNSOVAzSVUwYlluaG8wQUgzc0lFcjluTVMtV2lGTVdiS0g2VFd2X2pqQjhjWUo2WklfZTNHaldVNHRzWmc2TEsxSQ?oc=5",
       "desc": "",
       "source": "Google新聞"
     },
     {
-      "title": "嘉義輕軌嘉義市、行政院會商達3結論 綠營議員：具體且有效的做法 - 自由時報",
+      "title": "斥資1.7億元嘉義市白鷺鷥非營利幼兒園落成| 地方 - 中央社 CNA",
       "date": "Thu, 15 Oct 2026",
-      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE11cjJqblZpVHBiaGszZTlFV1RDdkFkT0hMN3ZCRTdXY3VYaGhHWDFaM3lDQ3Q3MFVYQ2FadjN0QWlvaktyemluS0QwTEpNTG1LdlJaNU1QbW9nVngzcHBOaW8tUlXSAWpBVV95cUxNamtLLVF6OHBjN2ZLeEJlN1RtZk1qZkVka3ktakdNREpzS1laQ2xyWkNhcGVKdlJDQ0I4VkFTVS1HdTh3RF92Ylh0R3pxdDlsMlM5WngyS2xjcnFSLTNhN2llaWFwejBIczdn?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFA3bWthbm1mWWJvM2pSdmNpcUNFWGMzdFUwU1lfVW15R3BydXgzLXlpTHNjRXo5UXllX2hON2Z6bWhQd2FWcVJuQ1g3dGVQSVBtLV9jbFJTRkdjNXZfMjE4?oc=5",
       "desc": "",
       "source": "Google新聞"
     },
@@ -123,9 +68,9 @@
       "source": "Google新聞"
     },
     {
-      "title": "清潔隊招考30名清潔隊約用清潔隊員及清潔車輛儲備駕駛 - 嘉義市政府環境保護局",
-      "date": "Fri, 02 Oct 2026",
-      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5xVm5MWEdQbVpjYVVBZXdvZEpadTgxUW1jNGJZdmtmOEtTM2dHbEpRREFrejRyOTNSOVAzSVUwYlluaG8wQUgzc0lFcjluTVMtV2lGTVdiS0g2VFd2X2pqQjhjWUo2WklfZTNHaldVNHRzWmc2TEsxSQ?oc=5",
+      "title": "嘉義輕軌嘉義市、行政院會商達3結論 綠營議員：具體且有效的做法 - 自由時報",
+      "date": "Thu, 15 Oct 2026",
+      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE11cjJqblZpVHBiaGszZTlFV1RDdkFkT0hMN3ZCRTdXY3VYaGhHWDFaM3lDQ3Q3MFVYQ2FadjN0QWlvaktyemluS0QwTEpNTG1LdlJaNU1QbW9nVngzcHBOaW8tUlXSAWpBVV95cUxNamtLLVF6OHBjN2ZLeEJlN1RtZk1qZkVka3ktakdNREpzS1laQ2xyWkNhcGVKdlJDQ0I4VkFTVS1HdTh3RF92Ylh0R3pxdDlsMlM5WngyS2xjcnFSLTNhN2llaWFwejBIczdn?oc=5",
       "desc": "",
       "source": "Google新聞"
     }
@@ -153,9 +98,9 @@
       "source": "Google新聞"
     },
     {
-      "title": "城市環境是發展的根本〜 嘉義市立委王美惠邀請中央官員考察排水工程爭取後續經費打造完善宜居的韌性嘉義！ - 台灣華報",
-      "date": "Tue, 22 Sep 2026",
-      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBBTEFxNS12eTdPLWtxdlFlZW1BcmZfRUVQeS1Lb0JEVW9GOEVXRTQzYUk0czVQWkhzMjdBb05Cc3EtRDg2a29EazZ0ajM5TG5yd1BtWTYzSDNoSkdOVG9mOWZnTkpaa0k4WlNB?oc=5",
+      "title": "嘉義市勇奪國家卓越建設獎3金1優質獎 打造人本永續城市新典範 | 熱門亮點 | 商情 - 經濟日報",
+      "date": "Wed, 05 Aug 2026",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9QSDdiLTFqeTNIbmZPQ2luNE9MbkFRdHBGRTIxVFJoa1pRaVBRRDhZT1YzUkdSMGktZGdvcFp6bmh3VThwVndhbVYzaEZSSmN5SlExamxNazA5QQ?oc=5",
       "org": "新聞資訊",
       "source": "Google新聞"
     },
@@ -167,16 +112,16 @@
       "source": "Google新聞"
     },
     {
-      "title": "嘉義市勇奪國家卓越建設獎3金1優質獎 打造人本永續城市新典範 | 熱門亮點 | 商情 - 經濟日報",
-      "date": "Wed, 05 Aug 2026",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9QSDdiLTFqeTNIbmZPQ2luNE9MbkFRdHBGRTIxVFJoa1pRaVBRRDhZT1YzUkdSMGktZGdvcFp6bmh3VThwVndhbVYzaEZSSmN5SlExamxNazA5QQ?oc=5",
+      "title": "嘉義市前瞻停車場建設再獲肯定 國家卓越建設獎勇奪3金1優質獎 - 中央社 CNA",
+      "date": "Tue, 04 Aug 2026",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5zbUtScWlFdUltUUdmZFpVSDFGbTBvTnpWRzZjY193Wjg1dFZVaF9rdmhGemxXbUtFVmQ1ZDkyN2ViejRQaHJ0T3BLdzFlU0ozRzZSNEZR?oc=5",
       "org": "新聞資訊",
       "source": "Google新聞"
     },
     {
-      "title": "嘉義市前瞻停車場建設再獲肯定 國家卓越建設獎勇奪3金1優質獎 - 中央社 CNA",
+      "title": "嘉義市前瞻停車場建設 獲2026年國家卓越建設獎肯定 - 台灣好新聞",
       "date": "Tue, 04 Aug 2026",
-      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5zbUtScWlFdUltUUdmZFpVSDFGbTBvTnpWRzZjY193Wjg1dFZVaF9rdmhGemxXbUtFVmQ1ZDkyN2ViejRQaHJ0T3BLdzFlU0ozRzZSNEZR?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMi0wJBVV95cUxNeDl6VS1RcEdTZUtLZTlaY1dSZmJmc0xNbzRJSTZ3SjREUVZxMy1BblU3dXhUQnNhOVdJZTlWYlVNWVJUMjMxQWo0ZjlqX3VySVBicFRwWk5VektLamw0MzQtZjk1dk92RW53dWRnZE9rYlpfNE53UmVXdW9FMWpPMkFaUVpCN2F5VVRZZkMzTm9GS2J5SEVZUVVFVkI3RzRrWlFwWFZQenUyMjVlc2lsdnRLQk5wOEcyX2RLZ0JiVDk1OVZmLWNjUjVJUmUxZGdhVUlia0ppR01vc0x0UGwwcVVXbWFuZ09GWWx1cDNwRWZEOVNQTmtTNkN1UnNFY0FSbmR2S1g1bE05ZmtUNzB0NzJqekhybWdzQzZXYVMyaDNuUThza05ITkN0T1d4YnRQd2Nhbk1jaTY3ZUoyWERiTWJzR1ZPRllUOUJxWm1BTnBSRWc?oc=5",
       "org": "新聞資訊",
       "source": "Google新聞"
     },
@@ -293,7 +238,7 @@
       "lat": 23.481634,
       "lng": 120.453745,
       "total": 45,
-      "available": 5,
+      "available": 15,
       "addr": "中山路199號(對面)"
     },
     {
@@ -302,7 +247,7 @@
       "lat": 23.482012,
       "lng": 120.457342,
       "total": 22,
-      "available": 5,
+      "available": 4,
       "addr": "中山路98號(前)"
     },
     {
@@ -320,7 +265,7 @@
       "lat": 23.478707,
       "lng": 120.462594,
       "total": 38,
-      "available": 1,
+      "available": 2,
       "addr": "啟明路122號(前)"
     },
     {
@@ -329,7 +274,7 @@
       "lat": 23.477031,
       "lng": 120.465573,
       "total": 34,
-      "available": 11,
+      "available": 10,
       "addr": "大雅路二段738號(前)"
     },
     {
@@ -338,7 +283,7 @@
       "lat": 23.4798596,
       "lng": 120.4488291,
       "total": 20,
-      "available": 4,
+      "available": 3,
       "addr": "中山路306號"
     },
     {
@@ -347,7 +292,7 @@
       "lat": 23.47963,
       "lng": 120.44583,
       "total": 20,
-      "available": 9,
+      "available": 8,
       "addr": "中山路386號"
     },
     {
@@ -356,7 +301,7 @@
       "lat": 23.47917,
       "lng": 120.44186,
       "total": 99,
-      "available": 59,
+      "available": 74,
       "addr": "中山路524號"
     },
     {
@@ -365,7 +310,7 @@
       "lat": 23.47877,
       "lng": 120.44089,
       "total": 42,
-      "available": 30,
+      "available": 28,
       "addr": "中山路528號"
     },
     {
@@ -392,7 +337,7 @@
       "lat": 23.4738724,
       "lng": 120.4493073,
       "total": 20,
-      "available": 0,
+      "available": 2,
       "addr": "垂楊路434號"
     },
     {
@@ -401,7 +346,7 @@
       "lat": 23.47918,
       "lng": 120.43182,
       "total": 15,
-      "available": 9,
+      "available": 8,
       "addr": "北港路278號"
     },
     {
@@ -437,7 +382,7 @@
       "lat": 23.48931,
       "lng": 120.4361,
       "total": 15,
-      "available": 8,
+      "available": 7,
       "addr": "自由路298號"
     },
     {
@@ -469,5 +414,5 @@
     }
   ],
   "water": [],
-  "fetch_seconds": 95.5
+  "fetch_seconds": 106.8
 }
