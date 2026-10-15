@@ -1,6 +1,20 @@
 {
-  "updated_at": "2026-10-15T03:00:15.853501",
+  "updated_at": "2026-10-15T10:50:16.843727",
   "news": [
+    {
+      "headline": "平安遶境祈福活動將登場！交管資訊公開",
+      "source": "嘉義市政府/警察局/觀光新聞處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=955985",
+      "date": "2026/10/15",
+      "query": "市府新聞"
+    },
+    {
+      "headline": "斥資1.75億！嘉義市白鷺鷥非營利幼兒園今落成公共化教保再添新量能",
+      "source": "嘉義市政府/教育處/觀光新聞處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=955968",
+      "date": "2026/10/15",
+      "query": "市府新聞"
+    },
     {
       "headline": "嘉市政風處結合新住民關懷網絡會議宣導及鼓勵檢舉賄選",
       "source": "嘉義市政府/政風處/觀光新聞處",
@@ -69,20 +83,6 @@
       "source": "嘉義市政府/民政處/警察局/觀光新聞處",
       "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=955582",
       "date": "2026/10/13",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "非法棄置暗藏爆炸風險慎防閒置土地淪為棄置場所",
-      "source": "嘉義市政府/環保局/環保設施管理科",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=955148",
-      "date": "2026/10/13",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "牛稠溪環快東段明日起通車黃敏惠市長14日將北上行政院討論高鐵聯外軌道盼補足關鍵交通路網",
-      "source": "嘉義市政府/工務處/觀光新聞處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=955484",
-      "date": "2026/10/12",
       "query": "市府新聞"
     }
   ],
@@ -202,7 +202,7 @@
       "2012": 1,
       "2013": 1
     },
-    "updated_at": "2026-10-15T02:57:50.447058",
+    "updated_at": "2026-10-15T10:48:32.628227",
     "source": "data.chiayi.gov.tw"
   },
   "council": {
