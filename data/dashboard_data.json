@@ -1,6 +1,20 @@
 {
-  "updated_at": "2026-10-14T21:17:24.378481",
+  "updated_at": "2026-10-15T03:00:15.853501",
   "news": [
+    {
+      "headline": "嘉市政風處結合新住民關懷網絡會議宣導及鼓勵檢舉賄選",
+      "source": "嘉義市政府/政風處/觀光新聞處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=955957",
+      "date": "2026/10/15",
+      "query": "市府新聞"
+    },
+    {
+      "headline": "為提升清運效率，嘉義市四處定點服務異動上路!",
+      "source": "嘉義市政府/環保局/清潔隊",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=954686",
+      "date": "2026/10/15",
+      "query": "市府新聞"
+    },
     {
       "headline": "黃敏惠市長赴行政院力爭高鐵聯外軌道建設卓榮泰院長支持BRT增班、擴大軌道評估及後續財務專案協商",
       "source": "嘉義市政府/交通處/觀光新聞處",
@@ -68,20 +82,6 @@
       "headline": "牛稠溪環快東段明日起通車黃敏惠市長14日將北上行政院討論高鐵聯外軌道盼補足關鍵交通路網",
       "source": "嘉義市政府/工務處/觀光新聞處",
       "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=955484",
-      "date": "2026/10/12",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "嘉義市防制人口販運成果榮獲「全國特優」",
-      "source": "嘉義市政府/警察局",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=955472",
-      "date": "2026/10/12",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "從音樂盛會走向嘉義城市品牌諸羅搖滾兩日吸引逾20萬人次",
-      "source": "嘉義市政府/文化局/觀光新聞處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=955451",
       "date": "2026/10/12",
       "query": "市府新聞"
     }
@@ -202,7 +202,7 @@
       "2012": 1,
       "2013": 1
     },
-    "updated_at": "2026-10-14T21:15:17.727795",
+    "updated_at": "2026-10-15T02:57:50.447058",
     "source": "data.chiayi.gov.tw"
   },
   "council": {
