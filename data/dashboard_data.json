@@ -1,6 +1,13 @@
 {
-  "updated_at": "2026-10-15T21:00:10.166322",
+  "updated_at": "2026-10-16T02:58:12.268092",
   "news": [
+    {
+      "headline": "農地違規使用恐受罰，合法使用有保障",
+      "source": "嘉義市政府/地政處/地用及重劃科",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=955446",
+      "date": "2026/10/16",
+      "query": "市府新聞"
+    },
     {
       "headline": "平安遶境祈福活動將登場！交管資訊公開",
       "source": "嘉義市政府/警察局/觀光新聞處",
@@ -75,13 +82,6 @@
       "headline": "嘉義虎爺變身原創IP「虎嚕」從文博會走進城市日常",
       "source": "嘉義市政府/文化局/觀光新聞處",
       "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=955589",
-      "date": "2026/10/13",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "黃敏惠市長表揚殯葬績優業者防制人口販運奪全國特優獎項轉呈",
-      "source": "嘉義市政府/民政處/警察局/觀光新聞處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=955582",
       "date": "2026/10/13",
       "query": "市府新聞"
     }
@@ -202,7 +202,7 @@
       "2012": 1,
       "2013": 1
     },
-    "updated_at": "2026-10-15T20:58:08.349511",
+    "updated_at": "2026-10-16T02:55:31.720868",
     "source": "data.chiayi.gov.tw"
   },
   "council": {
