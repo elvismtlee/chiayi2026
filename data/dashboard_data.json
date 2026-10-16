@@ -1,10 +1,59 @@
 {
-  "updated_at": "2026-10-16T02:58:12.268092",
+  "updated_at": "2026-10-16T10:39:35.886147",
   "news": [
+    {
+      "headline": "嘉義東市場深化行動支付LINEPay推出優惠券及點數回饋展現智慧城市數位治理成果",
+      "source": "嘉義市政府/建設處/觀光新聞處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=956116",
+      "date": "2026/10/16",
+      "query": "市府新聞"
+    },
+    {
+      "headline": "嘉市園長主任會議登場黃敏惠市長深化幼教支持敬師獎勵金明年調升至2,000元",
+      "source": "嘉義市政府/教育處/觀光新聞處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=956115",
+      "date": "2026/10/16",
+      "query": "市府新聞"
+    },
+    {
+      "headline": "公私協力守護幸福城市嘉市表揚115年度低碳認證寺廟",
+      "source": "嘉義市政府/環保局/環境品質管理科",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=956112",
+      "date": "2026/10/16",
+      "query": "市府新聞"
+    },
+    {
+      "headline": "黃敏惠市長出席寺廟負責人座談會肯定宗教界貢獻落實打造永續、低碳諸羅城",
+      "source": "嘉義市政府/民政處/觀光新聞處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=956105",
+      "date": "2026/10/16",
+      "query": "市府新聞"
+    },
+    {
+      "headline": "黃敏惠市長開箱「不只樂齡，我們很勇壯」新書出版！揭開全國首座「樂齡勇壯城」幸福密碼",
+      "source": "嘉義市政府/衛生局/觀光新聞處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=956102",
+      "date": "2026/10/16",
+      "query": "市府新聞"
+    },
+    {
+      "headline": "歡樂嘉氛嘉義市木育生活PA跟木頭玩在一起",
+      "source": "嘉義市政府/文化局",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=956100",
+      "date": "2026/10/16",
+      "query": "市府新聞"
+    },
     {
       "headline": "農地違規使用恐受罰，合法使用有保障",
       "source": "嘉義市政府/地政處/地用及重劃科",
       "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=955446",
+      "date": "2026/10/16",
+      "query": "市府新聞"
+    },
+    {
+      "headline": "嘉義市政府115年10月份公報",
+      "source": "嘉義市政府/行政處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=956094",
       "date": "2026/10/16",
       "query": "市府新聞"
     },
@@ -34,55 +83,6 @@
       "source": "嘉義市政府/環保局/清潔隊",
       "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=954686",
       "date": "2026/10/15",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "黃敏惠市長赴行政院力爭高鐵聯外軌道建設卓榮泰院長支持BRT增班、擴大軌道評估及後續財務專案協商",
-      "source": "嘉義市政府/交通處/觀光新聞處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=955801",
-      "date": "2026/10/14",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "攜手在地企業低碳轉型！嘉義市輔導重點能源用戶完成碳盤查",
-      "source": "嘉義市政府/環保局/綜合計畫科",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=955789",
-      "date": "2026/10/14",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "嘉義市原創音樂走向國際！嘉頌重奏團赴日演出深化臺日文化交流",
-      "source": "嘉義市政府/文化局/觀光新聞處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=955783",
-      "date": "2026/10/14",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "黃敏惠市長施政報告穩健財政厚植城市競爭力躍升永續幸福城市實現「嘉義市，就是好生活」",
-      "source": "嘉義市政府/企劃處/觀光新聞處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=955775",
-      "date": "2026/10/14",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "「嘉義市崇文國小地下停車場」月票中籤名單公告",
-      "source": "嘉義市政府/交通處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=955622",
-      "date": "2026/10/13",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "嘉義市政府員工協助方案115年10月份電子報：友善育兒措施",
-      "source": "嘉義市政府/企劃處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=955592",
-      "date": "2026/10/13",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "嘉義虎爺變身原創IP「虎嚕」從文博會走進城市日常",
-      "source": "嘉義市政府/文化局/觀光新聞處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=955589",
-      "date": "2026/10/13",
       "query": "市府新聞"
     }
   ],
@@ -202,7 +202,7 @@
       "2012": 1,
       "2013": 1
     },
-    "updated_at": "2026-10-16T02:55:31.720868",
+    "updated_at": "2026-10-16T10:36:55.865994",
     "source": "data.chiayi.gov.tw"
   },
   "council": {
