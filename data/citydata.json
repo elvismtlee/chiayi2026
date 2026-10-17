@@ -1,16 +1,16 @@
 {
-  "updated_at": "2026-10-17T14:53:23.313648",
+  "updated_at": "2026-10-17T20:02:11.939918",
   "aqi_realtime": [
     {
       "station": "嘉義市（Open-Meteo 模型）",
-      "aqi": 47,
-      "pm25": 33.5,
-      "pm10": 35.4,
-      "o3": 32.0,
-      "no2": 66.6,
-      "status": "良好",
+      "aqi": 55,
+      "pm25": 37.3,
+      "pm10": 38.0,
+      "o3": 12.0,
+      "no2": 50.2,
+      "status": "普通",
       "pollutant": "PM2.5",
-      "time": "2026-10-17T22:00",
+      "time": "2026-10-18T04:00",
       "source": "Open-Meteo"
     }
   ],
@@ -19,15 +19,15 @@
   "weather": [
     {
       "station": "嘉義市（Open-Meteo）",
-      "temp": "24.7",
-      "apparent_temp": "29.8",
-      "humidity": "91",
+      "temp": "22.1",
+      "apparent_temp": "24.7",
+      "humidity": "79",
       "rainfall": "0.0",
-      "wind_speed": "2.8",
-      "wind_dir": "162",
-      "cloud": "1",
-      "weather": "晴",
-      "time": "2026-10-17 22:45",
+      "wind_speed": "2.7",
+      "wind_dir": "122",
+      "cloud": "23",
+      "weather": "霧",
+      "time": "2026-10-18 04:00",
       "source": "Open-Meteo"
     }
   ],
@@ -47,6 +47,13 @@
       "source": "Google新聞"
     },
     {
+      "title": "「不只樂齡，我們很勇壯」 嘉義市「樂齡勇壯城」新書發表展現第三人生 - 新頭條",
+      "date": "Fri, 16 Oct 2026",
+      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5XSUVzQXBRN3ZqM0luaVNGSWNWcFlRckppMlZoY0VsQUU2RE5UTnlabzdoSDFsNXpHT0FPUGFuaXJvaHFkU0ozRzBuVWZ5WHNQRGRVXw?oc=5",
+      "desc": "",
+      "source": "Google新聞"
+    },
+    {
       "title": "嘉義市職業總工會勞工健行登場 市府攜手工會守護勞工健康與權益 - 中央社 CNA",
       "date": "Sat, 17 Oct 2026",
       "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1MSTdWOWtNR0FzcGZEX1hsQTlUT0pMSkNyUWo4TC1pRmxabjBnamJYU3pUelBFSnZVS0tCOGZXQjFNQ0NYWV9RcFN4RTM1aUdpeXFWUGJB?oc=5",
@@ -54,23 +61,16 @@
       "source": "Google新聞"
     },
     {
+      "title": "嘉義青溪婦女協會理事長交接張啓楷原訂成立後援會臨時喊卡| 2026九合一選舉 - UDN",
+      "date": "Sat, 17 Oct 2026",
+      "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9Vdkl3TXZnMVBHLVdsNVE0MnVOTzBmNE1DXzRpNFFCUWhXZ3RIWDg0LWx1TXBrV0ZDTmM3RU43TWhyQi1YRG5MZ0Y3ZE1BZkd1TXNlbXk1anY?oc=5",
+      "desc": "",
+      "source": "Google新聞"
+    },
+    {
       "title": "惡男火燒活蛇引公憤！中央地方聯手追查　嘉義市政府：依法究辦 - ETtoday新聞雲",
       "date": "Sat, 17 Oct 2026",
       "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1QUnJuMXpvM2dnd1hjclJlcEdVcG53alhCWXN1czQ3WnpkX0UyRi13RngwN08tQmVqUzNGQ0ZveGgyOE1EY0VJMmROSmdUc18wbmNuYjlCVVlkel9kMkHSAUtBVV95cUxQSHAzY2xFOUlGbDBfbV9hTnJrbGYwLWFWeG50NzRzMXYtd2R2c21JRGVFVWZEWFk2Qng0cWJ2RDNBVW1qSVF3SmFwODQ?oc=5",
-      "desc": "",
-      "source": "Google新聞"
-    },
-    {
-      "title": "巷弄裡的「嘉義式生活」享受特色店家形象再造的漫遊日常 - 《旅奇傳媒》TR Omnimedia",
-      "date": "Thu, 15 Oct 2026",
-      "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9UMlp5WUR3em5tQkwyYk5aS1ZUVUFCTVpGOWNtWmxVUEdVSVBjUlpLT0o3TnpxRk1fTjRodV9sUzAzOXVkNkZGUGNuQmFUZVRDdVlydmxzNGg?oc=5",
-      "desc": "",
-      "source": "Google新聞"
-    },
-    {
-      "title": "嘉義市逾5萬名長者 黃敏惠推勇壯城市 - 中國評論新聞",
-      "date": "Fri, 16 Oct 2026",
-      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE54NXZEb3UtTW10UkVEVlpJcV9seExkdXFITlQwS0hXcXpRQzBIbkZkcWZFOVF3Wnh1Z20weENIeDl2SFVtZUZWZ3c3Z2NEZXZIOFFEeVU1UnVqc2NfNW1rdkNmWDBmRlU?oc=5",
       "desc": "",
       "source": "Google新聞"
     }
@@ -138,30 +138,7 @@
     "enterovirus": [],
     "updated": "2026-10-17"
   },
-  "fire": {
-    "chiayi_datasets": [
-      {
-        "title": "",
-        "date": ""
-      },
-      {
-        "title": "",
-        "date": ""
-      },
-      {
-        "title": "",
-        "date": ""
-      },
-      {
-        "title": "",
-        "date": ""
-      },
-      {
-        "title": "",
-        "date": ""
-      }
-    ]
-  },
+  "fire": {},
   "population": [],
   "bus": [
     {
@@ -238,7 +215,7 @@
       "lat": 23.481634,
       "lng": 120.453745,
       "total": 45,
-      "available": 14,
+      "available": 10,
       "addr": "中山路199號(對面)"
     },
     {
@@ -247,7 +224,7 @@
       "lat": 23.482012,
       "lng": 120.457342,
       "total": 22,
-      "available": 5,
+      "available": 6,
       "addr": "中山路98號(前)"
     },
     {
@@ -256,7 +233,7 @@
       "lat": 23.482663,
       "lng": 120.462988,
       "total": 25,
-      "available": 6,
+      "available": 8,
       "addr": "中山路2號(前)"
     },
     {
@@ -274,7 +251,7 @@
       "lat": 23.477031,
       "lng": 120.465573,
       "total": 34,
-      "available": 3,
+      "available": 5,
       "addr": "大雅路二段738號(前)"
     },
     {
@@ -283,7 +260,7 @@
       "lat": 23.4798596,
       "lng": 120.4488291,
       "total": 20,
-      "available": 2,
+      "available": 5,
       "addr": "中山路306號"
     },
     {
@@ -292,7 +269,7 @@
       "lat": 23.47963,
       "lng": 120.44583,
       "total": 20,
-      "available": 5,
+      "available": 4,
       "addr": "中山路386號"
     },
     {
@@ -301,7 +278,7 @@
       "lat": 23.47917,
       "lng": 120.44186,
       "total": 99,
-      "available": 77,
+      "available": 68,
       "addr": "中山路524號"
     },
     {
@@ -310,7 +287,7 @@
       "lat": 23.47877,
       "lng": 120.44089,
       "total": 42,
-      "available": 9,
+      "available": 29,
       "addr": "中山路528號"
     },
     {
@@ -319,7 +296,7 @@
       "lat": 23.47283,
       "lng": 120.44029,
       "total": 5,
-      "available": 2,
+      "available": 4,
       "addr": "垂楊路575號"
     },
     {
@@ -328,7 +305,7 @@
       "lat": 23.47336,
       "lng": 120.44604,
       "total": 14,
-      "available": 1,
+      "available": 6,
       "addr": "垂楊路351號"
     },
     {
@@ -337,7 +314,7 @@
       "lat": 23.4738724,
       "lng": 120.4493073,
       "total": 20,
-      "available": 1,
+      "available": 11,
       "addr": "垂楊路434號"
     },
     {
@@ -355,7 +332,7 @@
       "lat": 23.486138,
       "lng": 120.453829,
       "total": 20,
-      "available": 12,
+      "available": 11,
       "addr": "忠孝路284號(旁)"
     },
     {
@@ -382,7 +359,7 @@
       "lat": 23.48931,
       "lng": 120.4361,
       "total": 15,
-      "available": 9,
+      "available": 6,
       "addr": "自由路298號"
     },
     {
@@ -391,7 +368,7 @@
       "lat": 23.49265,
       "lng": 120.43191,
       "total": 15,
-      "available": 14,
+      "available": 8,
       "addr": "自由路492號"
     },
     {
@@ -400,7 +377,7 @@
       "lat": 23.478941,
       "lng": 120.437805,
       "total": 23,
-      "available": 2,
+      "available": 5,
       "addr": "博愛路二段281號"
     },
     {
@@ -414,5 +391,5 @@
     }
   ],
   "water": [],
-  "fetch_seconds": 90.8
+  "fetch_seconds": 144.3
 }
