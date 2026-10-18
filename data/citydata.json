@@ -1,48 +1,56 @@
 {
-  "updated_at": "2026-10-17T20:02:11.939918",
+  "updated_at": "2026-10-18T02:46:27.298843",
   "aqi_realtime": [
     {
       "station": "嘉義市（Open-Meteo 模型）",
-      "aqi": 55,
-      "pm25": 37.3,
-      "pm10": 38.0,
-      "o3": 12.0,
-      "no2": 50.2,
-      "status": "普通",
+      "aqi": 34,
+      "pm25": 24.4,
+      "pm10": 26.4,
+      "o3": 103.0,
+      "no2": 21.6,
+      "status": "良好",
       "pollutant": "PM2.5",
-      "time": "2026-10-18T04:00",
+      "time": "2026-10-18T10:00",
       "source": "Open-Meteo"
     }
   ],
   "aqi_history": [],
-  "earthquake": [],
+  "earthquake": [
+    {
+      "title": "規模 4.3・30 km S of Yilan, Taiwan",
+      "desc": "深度 70 km",
+      "date": "2026-10-17 03:13",
+      "link": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u2xx",
+      "mag": 4.3
+    }
+  ],
   "weather": [
     {
       "station": "嘉義市（Open-Meteo）",
-      "temp": "22.1",
-      "apparent_temp": "24.7",
-      "humidity": "79",
+      "temp": "30.3",
+      "apparent_temp": "35.3",
+      "humidity": "57",
       "rainfall": "0.0",
-      "wind_speed": "2.7",
-      "wind_dir": "122",
-      "cloud": "23",
-      "weather": "霧",
-      "time": "2026-10-18 04:00",
+      "wind_speed": "5.1",
+      "wind_dir": "280",
+      "cloud": "0",
+      "weather": "晴",
+      "time": "2026-10-18 10:45",
       "source": "Open-Meteo"
     }
   ],
   "announcements": [
     {
-      "title": "嘉義市表揚218位績優志工 黃敏惠：因為有志工城市更溫暖 - 墨新聞-MORE News",
-      "date": "Sat, 17 Oct 2026",
-      "link": "https://news.google.com/rss/articles/CBMiQkFVX3lxTFBYTEhSejhjN0tEa0NfU0NOYkhEMktGTmhySTlDUDdzTzJ1cHlmRm5RMGp4S1Q5SncxVmZsY0Q4UkFYZw?oc=5",
+      "title": "嘉義市「肌力全開運動會」六大關卡「肌」戰體能 活力滿載 - 嘉義市政府衛生局",
+      "date": "Sun, 04 Oct 2026",
+      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBZSkxGcE1acUQ4b2FCVzNvcy1iOTk0NGJMaF9QbjU1S2lWdzFocTVYdVJLNm5QQUlEeG8yV3FBeExFSTNWQXBURFBUZHRfdXZXQmpja3RPWnVEWDJkQlo2cnItS0pRTUlLcWJtbDBFbS05Xy1tc2lTei1MbWg?oc=5",
       "desc": "",
       "source": "Google新聞"
     },
     {
-      "title": "嘉義市「肌力全開運動會」六大關卡「肌」戰體能 活力滿載 - 嘉義市政府衛生局",
-      "date": "Sun, 04 Oct 2026",
-      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBZSkxGcE1acUQ4b2FCVzNvcy1iOTk0NGJMaF9QbjU1S2lWdzFocTVYdVJLNm5QQUlEeG8yV3FBeExFSTNWQXBURFBUZHRfdXZXQmpja3RPWnVEWDJkQlo2cnItS0pRTUlLcWJtbDBFbS05Xy1tc2lTei1MbWg?oc=5",
+      "title": "嘉義市表揚218位績優志工 黃敏惠：因為有志工城市更溫暖 - 墨新聞-MORE News",
+      "date": "Sat, 17 Oct 2026",
+      "link": "https://news.google.com/rss/articles/CBMiQkFVX3lxTFBYTEhSejhjN0tEa0NfU0NOYkhEMktGTmhySTlDUDdzTzJ1cHlmRm5RMGp4S1Q5SncxVmZsY0Q4UkFYZw?oc=5",
       "desc": "",
       "source": "Google新聞"
     },
@@ -54,23 +62,23 @@
       "source": "Google新聞"
     },
     {
+      "title": "官員答非所問惹議 嘉義市議員顏翎熹批勞青處敷衍質詢、迴避災後檢討阿宏師廚房火災引發職安輔導爭議 議員質疑市府只談進場次數、不見具體改善成果 - 台灣新聞雲",
+      "date": "Sun, 18 Oct 2026",
+      "link": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE42YWZhSkEyZGhSUWR0Z1BkTkNlUFFhOFNQeTFjRTkyTWdYUXFkYW8wZ0dMNjdERE0yb1h6d0FYZThBN2NHVHBR?oc=5",
+      "desc": "",
+      "source": "Google新聞"
+    },
+    {
+      "title": "黃敏惠施政報告 實現「嘉義市，就是好生活」 - 大紀元",
+      "date": "Wed, 14 Oct 2026",
+      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE82X01sX25HaVcyT1BHMFJzaGxIQzg3S2x5UzdmUmJjUDNzZFZhb1UtQ0tWQ3FoandQeVVHd1QzZ2l1Uk1RSEg4NV8yR1BQT2hwcGFDZDJSVDFsZ25ZbmdGNTdB0gFnQVVfeXFMTzVxOTVtY0xVd2pUb3RkR3AwVnNKNDlhcFJONTRhLWFYMC1QemlHMFpSZVNXam1PZ0tFTWRKSEtnZWFySW41UElLbllsLUNGMmphQ2pULUdBdTFSOFp4ajRJY0g0OE5yTQ?oc=5",
+      "desc": "",
+      "source": "Google新聞"
+    },
+    {
       "title": "嘉義市職業總工會勞工健行登場 市府攜手工會守護勞工健康與權益 - 中央社 CNA",
       "date": "Sat, 17 Oct 2026",
       "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1MSTdWOWtNR0FzcGZEX1hsQTlUT0pMSkNyUWo4TC1pRmxabjBnamJYU3pUelBFSnZVS0tCOGZXQjFNQ0NYWV9RcFN4RTM1aUdpeXFWUGJB?oc=5",
-      "desc": "",
-      "source": "Google新聞"
-    },
-    {
-      "title": "嘉義青溪婦女協會理事長交接張啓楷原訂成立後援會臨時喊卡| 2026九合一選舉 - UDN",
-      "date": "Sat, 17 Oct 2026",
-      "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9Vdkl3TXZnMVBHLVdsNVE0MnVOTzBmNE1DXzRpNFFCUWhXZ3RIWDg0LWx1TXBrV0ZDTmM3RU43TWhyQi1YRG5MZ0Y3ZE1BZkd1TXNlbXk1anY?oc=5",
-      "desc": "",
-      "source": "Google新聞"
-    },
-    {
-      "title": "惡男火燒活蛇引公憤！中央地方聯手追查　嘉義市政府：依法究辦 - ETtoday新聞雲",
-      "date": "Sat, 17 Oct 2026",
-      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1QUnJuMXpvM2dnd1hjclJlcEdVcG53alhCWXN1czQ3WnpkX0UyRi13RngwN08tQmVqUzNGQ0ZveGgyOE1EY0VJMmROSmdUc18wbmNuYjlCVVlkel9kMkHSAUtBVV95cUxQSHAzY2xFOUlGbDBfbV9hTnJrbGYwLWFWeG50NzRzMXYtd2R2c21JRGVFVWZEWFk2Qng0cWJ2RDNBVW1qSVF3SmFwODQ?oc=5",
       "desc": "",
       "source": "Google新聞"
     }
@@ -112,16 +120,16 @@
       "source": "Google新聞"
     },
     {
-      "title": "嘉義市污水二期第2標動土！黃敏惠：建設腳步不停歇、連續5年評鑑第一 - 樂聯網",
-      "date": "Thu, 03 Sep 2026",
-      "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE4tUEpZdFVQak5oUFZVTWZETUJndjhMWjJrdkl6M0lIMlcwV09sSmpJSFc5Nk93UFFWaXEyM0RoRS1HYW1hS09UYkx4RQ?oc=5",
+      "title": "嘉義市前瞻停車場建設 獲2026年國家卓越建設獎肯定 - 台灣好新聞",
+      "date": "Tue, 04 Aug 2026",
+      "link": "https://news.google.com/rss/articles/CBMi0wJBVV95cUxNeDl6VS1RcEdTZUtLZTlaY1dSZmJmc0xNbzRJSTZ3SjREUVZxMy1BblU3dXhUQnNhOVdJZTlWYlVNWVJUMjMxQWo0ZjlqX3VySVBicFRwWk5VektLamw0MzQtZjk1dk92RW53dWRnZE9rYlpfNE53UmVXdW9FMWpPMkFaUVpCN2F5VVRZZkMzTm9GS2J5SEVZUVVFVkI3RzRrWlFwWFZQenUyMjVlc2lsdnRLQk5wOEcyX2RLZ0JiVDk1OVZmLWNjUjVJUmUxZGdhVUlia0ppR01vc0x0UGwwcVVXbWFuZ09GWWx1cDNwRWZEOVNQTmtTNkN1UnNFY0FSbmR2S1g1bE05ZmtUNzB0NzJqekhybWdzQzZXYVMyaDNuUThza05ITkN0T1d4YnRQd2Nhbk1jaTY3ZUoyWERiTWJzR1ZPRllUOUJxWm1BTnBSRWc?oc=5",
       "org": "新聞資訊",
       "source": "Google新聞"
     },
     {
-      "title": "嘉義市前瞻停車場建設 獲2026年國家卓越建設獎肯定 - 台灣好新聞",
+      "title": "嘉義市前瞻停車場建設再獲肯定 國家卓越建設獎勇奪3金1優質獎 - 中央社 CNA",
       "date": "Tue, 04 Aug 2026",
-      "link": "https://news.google.com/rss/articles/CBMi0wJBVV95cUxNeDl6VS1RcEdTZUtLZTlaY1dSZmJmc0xNbzRJSTZ3SjREUVZxMy1BblU3dXhUQnNhOVdJZTlWYlVNWVJUMjMxQWo0ZjlqX3VySVBicFRwWk5VektLamw0MzQtZjk1dk92RW53dWRnZE9rYlpfNE53UmVXdW9FMWpPMkFaUVpCN2F5VVRZZkMzTm9GS2J5SEVZUVVFVkI3RzRrWlFwWFZQenUyMjVlc2lsdnRLQk5wOEcyX2RLZ0JiVDk1OVZmLWNjUjVJUmUxZGdhVUlia0ppR01vc0x0UGwwcVVXbWFuZ09GWWx1cDNwRWZEOVNQTmtTNkN1UnNFY0FSbmR2S1g1bE05ZmtUNzB0NzJqekhybWdzQzZXYVMyaDNuUThza05ITkN0T1d4YnRQd2Nhbk1jaTY3ZUoyWERiTWJzR1ZPRllUOUJxWm1BTnBSRWc?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5zbUtScWlFdUltUUdmZFpVSDFGbTBvTnpWRzZjY193Wjg1dFZVaF9rdmhGemxXbUtFVmQ1ZDkyN2ViejRQaHJ0T3BLdzFlU0ozRzZSNEZR?oc=5",
       "org": "新聞資訊",
       "source": "Google新聞"
     },
@@ -136,9 +144,32 @@
   "disease": {
     "dengue": [],
     "enterovirus": [],
-    "updated": "2026-10-17"
+    "updated": "2026-10-18"
   },
-  "fire": {},
+  "fire": {
+    "chiayi_datasets": [
+      {
+        "title": "",
+        "date": ""
+      },
+      {
+        "title": "",
+        "date": ""
+      },
+      {
+        "title": "",
+        "date": ""
+      },
+      {
+        "title": "",
+        "date": ""
+      },
+      {
+        "title": "",
+        "date": ""
+      }
+    ]
+  },
   "population": [],
   "bus": [
     {
@@ -215,7 +246,7 @@
       "lat": 23.481634,
       "lng": 120.453745,
       "total": 45,
-      "available": 10,
+      "available": 15,
       "addr": "中山路199號(對面)"
     },
     {
@@ -224,7 +255,7 @@
       "lat": 23.482012,
       "lng": 120.457342,
       "total": 22,
-      "available": 6,
+      "available": 4,
       "addr": "中山路98號(前)"
     },
     {
@@ -233,7 +264,7 @@
       "lat": 23.482663,
       "lng": 120.462988,
       "total": 25,
-      "available": 8,
+      "available": 10,
       "addr": "中山路2號(前)"
     },
     {
@@ -242,7 +273,7 @@
       "lat": 23.478707,
       "lng": 120.462594,
       "total": 38,
-      "available": 4,
+      "available": 5,
       "addr": "啟明路122號(前)"
     },
     {
@@ -251,7 +282,7 @@
       "lat": 23.477031,
       "lng": 120.465573,
       "total": 34,
-      "available": 5,
+      "available": 18,
       "addr": "大雅路二段738號(前)"
     },
     {
@@ -260,7 +291,7 @@
       "lat": 23.4798596,
       "lng": 120.4488291,
       "total": 20,
-      "available": 5,
+      "available": 8,
       "addr": "中山路306號"
     },
     {
@@ -278,7 +309,7 @@
       "lat": 23.47917,
       "lng": 120.44186,
       "total": 99,
-      "available": 68,
+      "available": 75,
       "addr": "中山路524號"
     },
     {
@@ -287,7 +318,7 @@
       "lat": 23.47877,
       "lng": 120.44089,
       "total": 42,
-      "available": 29,
+      "available": 19,
       "addr": "中山路528號"
     },
     {
@@ -296,7 +327,7 @@
       "lat": 23.47283,
       "lng": 120.44029,
       "total": 5,
-      "available": 4,
+      "available": 3,
       "addr": "垂楊路575號"
     },
     {
@@ -314,7 +345,7 @@
       "lat": 23.4738724,
       "lng": 120.4493073,
       "total": 20,
-      "available": 11,
+      "available": 4,
       "addr": "垂楊路434號"
     },
     {
@@ -332,7 +363,7 @@
       "lat": 23.486138,
       "lng": 120.453829,
       "total": 20,
-      "available": 11,
+      "available": 6,
       "addr": "忠孝路284號(旁)"
     },
     {
@@ -341,7 +372,7 @@
       "lat": 23.48091,
       "lng": 120.43012,
       "total": 20,
-      "available": 3,
+      "available": 1,
       "addr": "北港路312號東側"
     },
     {
@@ -350,7 +381,7 @@
       "lat": 23.48465,
       "lng": 120.43354,
       "total": 14,
-      "available": 12,
+      "available": 7,
       "addr": "友愛興達路口"
     },
     {
@@ -359,7 +390,7 @@
       "lat": 23.48931,
       "lng": 120.4361,
       "total": 15,
-      "available": 6,
+      "available": 4,
       "addr": "自由路298號"
     },
     {
@@ -368,7 +399,7 @@
       "lat": 23.49265,
       "lng": 120.43191,
       "total": 15,
-      "available": 8,
+      "available": 4,
       "addr": "自由路492號"
     },
     {
@@ -377,7 +408,7 @@
       "lat": 23.478941,
       "lng": 120.437805,
       "total": 23,
-      "available": 5,
+      "available": 12,
       "addr": "博愛路二段281號"
     },
     {
@@ -386,10 +417,10 @@
       "lat": 23.47165,
       "lng": 120.43119,
       "total": 15,
-      "available": 1,
+      "available": 3,
       "addr": "博愛路二段461號"
     }
   ],
   "water": [],
-  "fetch_seconds": 144.3
+  "fetch_seconds": 90.0
 }
