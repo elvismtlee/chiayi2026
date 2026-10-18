@@ -1,6 +1,13 @@
 {
-  "updated_at": "2026-10-18T02:47:57.260584",
+  "updated_at": "2026-10-18T10:18:27.079586",
   "news": [
+    {
+      "headline": "黃敏惠市長視察將軍圳水綠廊道工程串起校園、公園與城市綠意打造安全步行空間",
+      "source": "嘉義市政府/工務處/觀光新聞處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=956230",
+      "date": "2026/10/18",
+      "query": "市府新聞"
+    },
     {
       "headline": "湖子內新添2處路外平面停車場提供便民停車環境",
       "source": "嘉義市政府/交通處/觀光新聞處",
@@ -75,13 +82,6 @@
       "headline": "公私協力守護幸福城市嘉市表揚115年度低碳認證寺廟",
       "source": "嘉義市政府/環保局/環境品質管理科",
       "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=956112",
-      "date": "2026/10/16",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "黃敏惠市長出席寺廟負責人座談會肯定宗教界貢獻落實打造永續、低碳諸羅城",
-      "source": "嘉義市政府/民政處/觀光新聞處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=956105",
       "date": "2026/10/16",
       "query": "市府新聞"
     }
@@ -202,7 +202,7 @@
       "2012": 1,
       "2013": 1
     },
-    "updated_at": "2026-10-18T02:46:14.156666",
+    "updated_at": "2026-10-18T10:16:47.117165",
     "source": "data.chiayi.gov.tw"
   },
   "council": {
