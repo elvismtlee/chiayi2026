@@ -1,16 +1,16 @@
 {
-  "updated_at": "2026-10-19T11:59:45.109455",
+  "updated_at": "2026-10-19T18:24:30.053212",
   "aqi_realtime": [
     {
       "station": "嘉義市（Open-Meteo 模型）",
-      "aqi": 93,
-      "pm25": 51.0,
-      "pm10": 52.2,
-      "o3": 114.0,
-      "no2": 40.6,
-      "status": "普通",
+      "aqi": 131,
+      "pm25": 64.0,
+      "pm10": 65.7,
+      "o3": 11.0,
+      "no2": 70.4,
+      "status": "對敏感族群不健康",
       "pollutant": "PM2.5",
-      "time": "2026-10-19T19:00",
+      "time": "2026-10-20T02:00",
       "source": "Open-Meteo"
     }
   ],
@@ -27,37 +27,37 @@
   "weather": [
     {
       "station": "嘉義市（Open-Meteo）",
-      "temp": "26.4",
-      "apparent_temp": "31.3",
-      "humidity": "81",
+      "temp": "23.2",
+      "apparent_temp": "26.8",
+      "humidity": "83",
       "rainfall": "0.0",
-      "wind_speed": "3.4",
-      "wind_dir": "335",
-      "cloud": "1",
-      "weather": "晴",
-      "time": "2026-10-19 19:45",
+      "wind_speed": "2.3",
+      "wind_dir": "119",
+      "cloud": "31",
+      "weather": "多雲",
+      "time": "2026-10-20 02:15",
       "source": "Open-Meteo"
     }
   ],
   "announcements": [
     {
-      "title": "嘉義文財殿捐20輛電動機車 公私協力護獨老 - 大紀元",
+      "title": "延續嘉義市博共創精神 素人登臺演繹生命故事 - 大紀元",
       "date": "Mon, 19 Oct 2026",
-      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1FUm9LYnRZclkwZUI5ajhqakRPOVBXSzhiQl9nN2FIdzFTQWVjR0U0YTRKYTA1bUtOTHh5dWpNT0dWMnVmUFlyZHl2NThxTFRIVUtqN2ZWTnZ6c0xzVkFnRGln0gFnQVVfeXFMT1JDSmY5VnBLT0Vwc0ttU1VDbHFEcFg4emlZMFotRno4VEo5ekhxNE5Wb05mWlNZaFVhU3d4NVVWMnVhb1FFc092T0RKeFE3Q05qWEF6NTZHdlFCaGw1WGR2LXpsLUcxOA?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBBOFRMOWp4eTdhN2hPVkpTWU1fMGsyQjlobmtPNk5zMnRFUzVFNWtickNXNzlOWnlteWZzTU9iTU9ES3V6RmsxMm1iX0YwZ1VyM0dJNjZZaC1PakotM2NybkpB0gFnQVVfeXFMT1VxQkFaWTZkUDU0a08xcXV1bHR0bjh3djhXajBHRFhCXzlWejg5ZUc0bHpMSlFrcmZnQ0xaM0ZlRW5rVzBBek9DX0lmVElqS3pIQkZSaUlWOUh4QmV0LTBucnRQQzZSUQ?oc=5",
       "desc": "",
       "source": "Google新聞"
     },
     {
-      "title": "2026嘉義市童軍大露營正式啟用| 雲嘉南| 地方 - UDN",
+      "title": "嘉義市表揚218位績優志工跨世代傳遞愛與溫暖- 政府消息新聞 - PChome Online 新聞",
       "date": "Mon, 19 Oct 2026",
-      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBGTHo2NEt6RlU2LUNmZzFvVmhiRjdrU29uUmdqbm92cVZZQXlFRmJobFJHSEwyMm5LWWpQTExaWGhvem1IWEJ2ZHBONzRKWi1T?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNQmczdzJyV0xHcmVVaFpBUnpOUTQzdEV1M25NRG1UdEE1S0IyWmhnal9ja0NIaHZ1LTFfUXNmUURLMTNKLUpHcHlKaktya25wUnBhay1vUC1lTWs3d1lxXzdGaDFlOEtQZjFKR2ExS3lQeWxvSm5oYlQ5TXNwN3VFU0EzSXM?oc=5",
       "desc": "",
       "source": "Google新聞"
     },
     {
-      "title": "延續嘉義市博共創精神 百工百業素人登臺演繹生命故事 - 墨新聞-MORE News",
+      "title": "嘉義市好店攻進國道商機 攜手南投縣跨域展售聯合市集 - UDN",
       "date": "Mon, 19 Oct 2026",
-      "link": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE1DMEZyc21VMFpubTl1bGtRb1pyU1djUXQ5TS1sdjFGNVNQU3ljZ2owbmIxMmtaNGNMVFRTcXFMQkFQQQ?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1aNndSWVVpRG96ZGo3bmE1clJfeXNqQWg4b0dVc0ttSkVJQkV2dmpxdEstTUQwY2xEWW5DWlBVX0c2ZThpdXFsZjZRbWt3VENG0gFWQVVfeXFMTkRSRzRPZFJqckc3empJRzA2SnExM1dnMEFvekhBNjBJS3NIeWt1U0w3OERINjJtRmNSNVJXbFFnUUswdEVPVUc3dEpUZl9SNDdyN0NXQUE?oc=5",
       "desc": "",
       "source": "Google新聞"
     },
@@ -69,16 +69,16 @@
       "source": "Google新聞"
     },
     {
-      "title": "文財殿捐贈20輛電動機車 嘉義市守護獨老更即時 - 焦點時報",
-      "date": "Mon, 19 Oct 2026",
-      "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1PQXd3cHdaWGh5UHJWdkRhel9tQ0FaOFFQc3c2LThEbU9yVjd3eVdNWXJXTHZNLW5VYXd2OWtySXoza1ljS3ZOdlZEeFF1ZE1hTFRjWkJfSQ?oc=5",
+      "title": "嘉義市「肌力全開運動會」六大關卡「肌」戰體能 活力滿載 - 嘉義市政府衛生局",
+      "date": "Sun, 04 Oct 2026",
+      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBZSkxGcE1acUQ4b2FCVzNvcy1iOTk0NGJMaF9QbjU1S2lWdzFocTVYdVJLNm5QQUlEeG8yV3FBeExFSTNWQXBURFBUZHRfdXZXQmpja3RPWnVEWDJkQlo2cnItS0pRTUlLcWJtbDBFbS05Xy1tc2lTei1MbWg?oc=5",
       "desc": "",
       "source": "Google新聞"
     },
     {
-      "title": "「嘉義南投・好市成雙」國道市集盛大開賣！搶攻國道黃金商機 - 蕃新聞",
+      "title": "嘉義文財殿捐贈20輛電動機車 公私協力守護獨老 市長黃敏惠感謝文財殿長期力挺公益善行！ - 台灣華報",
       "date": "Mon, 19 Oct 2026",
-      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE51T3lJM0oxTUxZMjNMTzdLRl9ISGJVeVEyNDJ6UV9MdDFNRGFKbXU5a1l0d2dTaWdSeWppX0xldTlUNWVLNmV5bVpTd0szMFE4aVE?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE40NWxEdC1TOVlyaXZ2OTV3RVF3b0xKZkFHZTRLTU5PQUNOS3RvR0RUM0t1MnFKNjJqX2xQQ1BvZTlUbnR1bTI3aGhuYUtVZ0VuV1FCV2RmekdlRlVoZmE2LTRHZk5KNk1DUk93YURnanI5UXBrUy1hcWNGYw?oc=5",
       "desc": "",
       "source": "Google新聞"
     }
@@ -146,30 +146,7 @@
     "enterovirus": [],
     "updated": "2026-10-19"
   },
-  "fire": {
-    "chiayi_datasets": [
-      {
-        "title": "",
-        "date": ""
-      },
-      {
-        "title": "",
-        "date": ""
-      },
-      {
-        "title": "",
-        "date": ""
-      },
-      {
-        "title": "",
-        "date": ""
-      },
-      {
-        "title": "",
-        "date": ""
-      }
-    ]
-  },
+  "fire": {},
   "population": [],
   "bus": [
     {
@@ -246,7 +223,7 @@
       "lat": 23.481634,
       "lng": 120.453745,
       "total": 45,
-      "available": 9,
+      "available": 7,
       "addr": "中山路199號(對面)"
     },
     {
@@ -255,7 +232,7 @@
       "lat": 23.482012,
       "lng": 120.457342,
       "total": 22,
-      "available": 2,
+      "available": 3,
       "addr": "中山路98號(前)"
     },
     {
@@ -264,7 +241,7 @@
       "lat": 23.482663,
       "lng": 120.462988,
       "total": 25,
-      "available": 1,
+      "available": 4,
       "addr": "中山路2號(前)"
     },
     {
@@ -273,7 +250,7 @@
       "lat": 23.478707,
       "lng": 120.462594,
       "total": 38,
-      "available": 8,
+      "available": 7,
       "addr": "啟明路122號(前)"
     },
     {
@@ -282,7 +259,7 @@
       "lat": 23.477031,
       "lng": 120.465573,
       "total": 34,
-      "available": 6,
+      "available": 4,
       "addr": "大雅路二段738號(前)"
     },
     {
@@ -291,7 +268,7 @@
       "lat": 23.4798596,
       "lng": 120.4488291,
       "total": 20,
-      "available": 1,
+      "available": 3,
       "addr": "中山路306號"
     },
     {
@@ -300,7 +277,7 @@
       "lat": 23.47963,
       "lng": 120.44583,
       "total": 20,
-      "available": 17,
+      "available": 1,
       "addr": "中山路386號"
     },
     {
@@ -309,7 +286,7 @@
       "lat": 23.47917,
       "lng": 120.44186,
       "total": 99,
-      "available": 33,
+      "available": 66,
       "addr": "中山路524號"
     },
     {
@@ -318,7 +295,7 @@
       "lat": 23.47877,
       "lng": 120.44089,
       "total": 42,
-      "available": 20,
+      "available": 29,
       "addr": "中山路528號"
     },
     {
@@ -327,7 +304,7 @@
       "lat": 23.47283,
       "lng": 120.44029,
       "total": 5,
-      "available": 1,
+      "available": 2,
       "addr": "垂楊路575號"
     },
     {
@@ -345,7 +322,7 @@
       "lat": 23.4738724,
       "lng": 120.4493073,
       "total": 20,
-      "available": 4,
+      "available": 6,
       "addr": "垂楊路434號"
     },
     {
@@ -354,7 +331,7 @@
       "lat": 23.47918,
       "lng": 120.43182,
       "total": 15,
-      "available": 1,
+      "available": 5,
       "addr": "北港路278號"
     },
     {
@@ -363,7 +340,7 @@
       "lat": 23.486138,
       "lng": 120.453829,
       "total": 20,
-      "available": 1,
+      "available": 4,
       "addr": "忠孝路284號(旁)"
     },
     {
@@ -372,7 +349,7 @@
       "lat": 23.48091,
       "lng": 120.43012,
       "total": 20,
-      "available": 5,
+      "available": 7,
       "addr": "北港路312號東側"
     },
     {
@@ -381,7 +358,7 @@
       "lat": 23.48465,
       "lng": 120.43354,
       "total": 14,
-      "available": 11,
+      "available": 8,
       "addr": "友愛興達路口"
     },
     {
@@ -408,7 +385,7 @@
       "lat": 23.478941,
       "lng": 120.437805,
       "total": 23,
-      "available": 15,
+      "available": 12,
       "addr": "博愛路二段281號"
     },
     {
@@ -417,10 +394,10 @@
       "lat": 23.47165,
       "lng": 120.43119,
       "total": 15,
-      "available": 4,
+      "available": 6,
       "addr": "博愛路二段461號"
     }
   ],
   "water": [],
-  "fetch_seconds": 95.4
+  "fetch_seconds": 190.8
 }
