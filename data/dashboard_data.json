@@ -1,6 +1,27 @@
 {
-  "updated_at": "2026-10-20T03:10:58.765822",
+  "updated_at": "2026-10-20T10:53:59.074868",
   "news": [
+    {
+      "headline": "嘉義市教育團隊赴日本熊本市交流拓展國際教育合作",
+      "source": "嘉義市政府/教育處/觀光新聞處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=956423",
+      "date": "2026/10/20",
+      "query": "市府新聞"
+    },
+    {
+      "headline": "吃火雞肉飯只是基本款！來嘉義市，帶你從城市玩到農村",
+      "source": "嘉義市政府/建設處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=956418",
+      "date": "2026/10/20",
+      "query": "市府新聞"
+    },
+    {
+      "headline": "聖保羅烘焙花園國際總部嘉市動土！預計新增百個職缺、同步規劃觀光工廠再添旅遊新亮點",
+      "source": "嘉義市政府/建設處/觀光新聞處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=956417",
+      "date": "2026/10/20",
+      "query": "市府新聞"
+    },
     {
       "headline": "太極宮將軍會、大溪厝紫微宮、頂安宮平安遶境祈福活動將登場！交管資訊公開",
       "source": "嘉義市政府/警察局/觀光新聞處",
@@ -62,27 +83,6 @@
       "source": "嘉義市政府/交通處/觀光新聞處",
       "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=956208",
       "date": "2026/10/18",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "嘉義市閱讀品牌「桃城文學什光紀」正式開跑！2026「嘉藏私心」邀請大家不藏私把心裡珍藏交給文學",
-      "source": "嘉義市政府/文化局/觀光新聞處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=956207",
-      "date": "2026/10/17",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "2026嘉城新浪音樂節×移民節熱鬧登場跨國音樂齊聚嘉義新住民原創〈抵嘉〉首唱",
-      "source": "嘉義市政府/民政處/社會處/觀光新聞處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=956206",
-      "date": "2026/10/17",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "2026嘉義市童軍大露營搶先開箱！嘉市5.8億探索園區啟用暖身迎接全國大露營",
-      "source": "嘉義市政府/教育處/觀光新聞處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=956205",
-      "date": "2026/10/17",
       "query": "市府新聞"
     }
   ],
@@ -203,7 +203,7 @@
       "2012": 1,
       "2013": 1
     },
-    "updated_at": "2026-10-20T03:09:17.516699",
+    "updated_at": "2026-10-20T10:52:09.525361",
     "source": "data.chiayi.gov.tw"
   },
   "council": {
