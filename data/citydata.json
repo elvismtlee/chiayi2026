@@ -1,20 +1,63 @@
 {
-  "updated_at": "2026-10-21T11:07:43.776203",
+  "updated_at": "2026-10-21T16:34:29.032773",
   "aqi_realtime": [
     {
-      "station": "嘉義市（Open-Meteo 模型）",
-      "aqi": 19,
-      "pm25": 14.1,
-      "pm10": 16.4,
-      "o3": 54.0,
-      "no2": 42.7,
-      "status": "良好",
-      "pollutant": "PM2.5",
-      "time": "2026-10-21T19:00",
-      "source": "Open-Meteo"
+      "station": "",
+      "aqi": 0,
+      "pm25": 0.0,
+      "pm10": 0.0,
+      "o3": 0.0,
+      "no2": 0.0,
+      "status": "",
+      "pollutant": "",
+      "time": "2026-10-21 22:00",
+      "source": "環境部"
+    },
+    {
+      "station": "",
+      "aqi": 0,
+      "pm25": 0.0,
+      "pm10": 0.0,
+      "o3": 0.0,
+      "no2": 0.0,
+      "status": "",
+      "pollutant": "",
+      "time": "2026-10-21 22:00",
+      "source": "環境部"
+    },
+    {
+      "station": "",
+      "aqi": 0,
+      "pm25": 0.0,
+      "pm10": 0.0,
+      "o3": 0.0,
+      "no2": 0.0,
+      "status": "",
+      "pollutant": "",
+      "time": "2026-10-21 22:00",
+      "source": "環境部"
+    },
+    {
+      "station": "",
+      "aqi": 0,
+      "pm25": 0.0,
+      "pm10": 0.0,
+      "o3": 0.0,
+      "no2": 0.0,
+      "status": "",
+      "pollutant": "",
+      "time": "2026-10-21 21:00",
+      "source": "環境部"
     }
   ],
-  "aqi_history": [],
+  "aqi_history": [
+    {
+      "month": "",
+      "aqi": 0.0,
+      "pm25": 0.0,
+      "station": "嘉義"
+    }
+  ],
   "earthquake": [
     {
       "title": "規模 4.3・30 km S of Yilan, Taiwan",
@@ -27,15 +70,15 @@
   "weather": [
     {
       "station": "嘉義市（Open-Meteo）",
-      "temp": "27.2",
-      "apparent_temp": "31.5",
-      "humidity": "78",
+      "temp": "24.3",
+      "apparent_temp": "27.2",
+      "humidity": "77",
       "rainfall": "0.0",
-      "wind_speed": "7.8",
-      "wind_dir": "353",
-      "cloud": "32",
-      "weather": "多雲",
-      "time": "2026-10-21 19:00",
+      "wind_speed": "6.9",
+      "wind_dir": "33",
+      "cloud": "17",
+      "weather": "晴",
+      "time": "2026-10-22 00:30",
       "source": "Open-Meteo"
     }
   ],
@@ -48,6 +91,20 @@
       "source": "Google新聞"
     },
     {
+      "title": "南投嘉義聯合品牌推廣 行銷特色優質好物 - 台灣生活新聞",
+      "date": "Wed, 21 Oct 2026",
+      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBrak1DY0xnUUlWXzJVckhsMmhBck56WVRQdFZXNDlzLWNfTWs2dGFVakptT0ZGM1RoWU43U1JQYVp5RkJUc2xscEpMa2w3elM1?oc=5",
+      "desc": "",
+      "source": "Google新聞"
+    },
+    {
+      "title": "從「人車爭道」到「安心上學路」 嘉義市育人國小千萬人行道工程啟用 為孩子打造幸福通學路！ - 台灣華報",
+      "date": "Wed, 21 Oct 2026",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1sallCWUVfRHhRLWJsM1RMWUxqeE9zNU5Qb202UnVFa3ItSjM4QVkxMTFqZE5DU3dHams1d1I3Wm12YzlxRlQyOVRXUXdZNkhoTU9FODNmeUV0d2UxbmZUdl9rd20yOGNVcVE4?oc=5",
+      "desc": "",
+      "source": "Google新聞"
+    },
+    {
       "title": "嘉義市公辦都更再下一城！國城拿下二期、再投50億 近3000坪基地啟動開發 - 好房網News",
       "date": "Wed, 21 Oct 2026",
       "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE03WHQ3LXVyeXdwQ0FEVU1PVXdhOHMzeHhxZU1sMHhnbFR6WFVqaGFyTDNvV2EwbGlHTUdTMGNpYUIwczdwd0RSQjF5aUw3UTZxTzR3eENjNXVHOWhmU19wQ0JWSVdINDZ0TWlJ?oc=5",
@@ -55,30 +112,16 @@
       "source": "Google新聞"
     },
     {
-      "title": "國城再度攜手嘉市府打造嘉屋宜居示範區，民族國小二期都更簽約 - 3kingtw.com",
-      "date": "Wed, 21 Oct 2026",
-      "link": "https://news.google.com/rss/articles/CBMiPkFVX3lxTFA2bFZ0cFZDRWw5Vi1sOElOczhySDRiLXR2YVVlMmRDR3BvRE1lOXZrdmN4V1U5dkJJeHh4M1dn?oc=5",
-      "desc": "",
-      "source": "Google新聞"
-    },
-    {
-      "title": "11月初搶先通車！國華街排水工程全力趕工　嘉市府祭減稅助店家 - ETtoday新聞雲",
-      "date": "Wed, 21 Oct 2026",
-      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1Pdy1YUU5ZbmxsRElpQUY3RW1VLVMyX3JCNEJ5OWpDR1JucDB3VG1MTkQyeEZzRVhtbUVRS1kyMUYwbWlQWlkzS1EyUi1VUjE4N0pnQnpINmZMNGc4T3fSAUtBVV95cUxPLTNTNjQ1MGVvWmJFVWZLY1BOMjZMRVM2cnVRWm5MdnJvbHVhYjB0RWl2ZjhmWDFpeGQ5QnozcnMzWDlfaGkxSHlpZ0E?oc=5",
-      "desc": "",
-      "source": "Google新聞"
-    },
-    {
-      "title": "投資逾50億！嘉義民族國小西側二期公辦都更簽約 87戶社宅、銀級綠建築 - 墨新聞-MORE News",
-      "date": "Wed, 21 Oct 2026",
-      "link": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE5TaGxKdGt5QVZlMlVfejRoaVNLYkVyV1lQM0tEZjBKLU5LN1JMU1FvRjd0U1oyUzZ1dHB4a1Rwa3p6QQ?oc=5",
-      "desc": "",
-      "source": "Google新聞"
-    },
-    {
       "title": "嘉義市「肌力全開運動會」六大關卡「肌」戰體能 活力滿載 - 嘉義市政府衛生局",
       "date": "Sun, 04 Oct 2026",
       "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBZSkxGcE1acUQ4b2FCVzNvcy1iOTk0NGJMaF9QbjU1S2lWdzFocTVYdVJLNm5QQUlEeG8yV3FBeExFSTNWQXBURFBUZHRfdXZXQmpja3RPWnVEWDJkQlo2cnItS0pRTUlLcWJtbDBFbS05Xy1tc2lTei1MbWg?oc=5",
+      "desc": "",
+      "source": "Google新聞"
+    },
+    {
+      "title": "嘉市民族國小西側二期都更簽約 投資逾50億 - 台灣好新聞",
+      "date": "Wed, 21 Oct 2026",
+      "link": "https://news.google.com/rss/articles/CBMirAJBVV95cUxOZndJN1FiSFhlUnZWb1plN3JkM0wzXy1rQXFjLUEtRlNpTkpkTFlzQm9rdjlLclBEN1hkWVY3ZzRvWGVORUl5QzRxMzB2YnBSTVV5Z1o3Zk1GWEhQaUxjc3FaR1dGLVRKcnM2RGNmMkRIZzBHdzg0YTR6RE91a0ZNT1h2dEdoek5HbHg4UVJnQXdMbV9RM2R3N3JSelFNVnBkTWhIdHIzNU5SZWZzSUwxcFktUTRmcTBpb0dIWjN0aUlTaFZsLW1CLVRUemtOazIxZm5Bcmxwd0NjR2RXRUZOT0doQWFTN3ZqWW04MUQ1anRIbUpfSzVqaGZPYlozbmxYdm83RGE2bnVtTVVHdERCaDVrUkhHbHFnMzhHdGppUkFHNURNdlBpamxUdk0?oc=5",
       "desc": "",
       "source": "Google新聞"
     }
@@ -246,7 +289,7 @@
       "lat": 23.481634,
       "lng": 120.453745,
       "total": 45,
-      "available": 21,
+      "available": 5,
       "addr": "中山路199號(對面)"
     },
     {
@@ -255,7 +298,7 @@
       "lat": 23.482012,
       "lng": 120.457342,
       "total": 22,
-      "available": 2,
+      "available": 5,
       "addr": "中山路98號(前)"
     },
     {
@@ -273,7 +316,7 @@
       "lat": 23.478707,
       "lng": 120.462594,
       "total": 38,
-      "available": 0,
+      "available": 4,
       "addr": "啟明路122號(前)"
     },
     {
@@ -282,7 +325,7 @@
       "lat": 23.477031,
       "lng": 120.465573,
       "total": 34,
-      "available": 9,
+      "available": 7,
       "addr": "大雅路二段738號(前)"
     },
     {
@@ -291,7 +334,7 @@
       "lat": 23.4798596,
       "lng": 120.4488291,
       "total": 20,
-      "available": 5,
+      "available": 3,
       "addr": "中山路306號"
     },
     {
@@ -300,7 +343,7 @@
       "lat": 23.47963,
       "lng": 120.44583,
       "total": 20,
-      "available": 16,
+      "available": 3,
       "addr": "中山路386號"
     },
     {
@@ -309,7 +352,7 @@
       "lat": 23.47917,
       "lng": 120.44186,
       "total": 99,
-      "available": 58,
+      "available": 60,
       "addr": "中山路524號"
     },
     {
@@ -318,7 +361,7 @@
       "lat": 23.47877,
       "lng": 120.44089,
       "total": 42,
-      "available": 22,
+      "available": 8,
       "addr": "中山路528號"
     },
     {
@@ -327,7 +370,7 @@
       "lat": 23.47283,
       "lng": 120.44029,
       "total": 5,
-      "available": 0,
+      "available": 3,
       "addr": "垂楊路575號"
     },
     {
@@ -336,7 +379,7 @@
       "lat": 23.47336,
       "lng": 120.44604,
       "total": 14,
-      "available": 7,
+      "available": 2,
       "addr": "垂楊路351號"
     },
     {
@@ -345,7 +388,7 @@
       "lat": 23.4738724,
       "lng": 120.4493073,
       "total": 20,
-      "available": 7,
+      "available": 14,
       "addr": "垂楊路434號"
     },
     {
@@ -354,7 +397,7 @@
       "lat": 23.47918,
       "lng": 120.43182,
       "total": 15,
-      "available": 5,
+      "available": 4,
       "addr": "北港路278號"
     },
     {
@@ -372,7 +415,7 @@
       "lat": 23.48091,
       "lng": 120.43012,
       "total": 20,
-      "available": 1,
+      "available": 2,
       "addr": "北港路312號東側"
     },
     {
@@ -381,7 +424,7 @@
       "lat": 23.48465,
       "lng": 120.43354,
       "total": 14,
-      "available": 13,
+      "available": 7,
       "addr": "友愛興達路口"
     },
     {
@@ -399,7 +442,7 @@
       "lat": 23.49265,
       "lng": 120.43191,
       "total": 15,
-      "available": 4,
+      "available": 7,
       "addr": "自由路492號"
     },
     {
@@ -408,7 +451,7 @@
       "lat": 23.478941,
       "lng": 120.437805,
       "total": 23,
-      "available": 5,
+      "available": 4,
       "addr": "博愛路二段281號"
     },
     {
@@ -417,10 +460,10 @@
       "lat": 23.47165,
       "lng": 120.43119,
       "total": 15,
-      "available": 13,
+      "available": 8,
       "addr": "博愛路二段461號"
     }
   ],
   "water": [],
-  "fetch_seconds": 91.5
+  "fetch_seconds": 90.5
 }
