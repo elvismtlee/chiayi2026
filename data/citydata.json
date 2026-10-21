@@ -1,16 +1,16 @@
 {
-  "updated_at": "2026-10-20T21:12:09.125426",
+  "updated_at": "2026-10-21T03:03:51.400664",
   "aqi_realtime": [
     {
       "station": "嘉義市（Open-Meteo 模型）",
-      "aqi": 55,
-      "pm25": 37.4,
-      "pm10": 37.8,
-      "o3": 3.0,
-      "no2": 49.6,
-      "status": "普通",
+      "aqi": 25,
+      "pm25": 17.9,
+      "pm10": 20.8,
+      "o3": 68.0,
+      "no2": 27.0,
+      "status": "良好",
       "pollutant": "PM2.5",
-      "time": "2026-10-21T05:00",
+      "time": "2026-10-21T11:00",
       "source": "Open-Meteo"
     }
   ],
@@ -27,23 +27,30 @@
   "weather": [
     {
       "station": "嘉義市（Open-Meteo）",
-      "temp": "21.9",
-      "apparent_temp": "23.4",
-      "humidity": "69",
+      "temp": "30.5",
+      "apparent_temp": "34.6",
+      "humidity": "57",
       "rainfall": "0.0",
-      "wind_speed": "3.6",
-      "wind_dir": "96",
+      "wind_speed": "10.1",
+      "wind_dir": "350",
       "cloud": "2",
       "weather": "晴",
-      "time": "2026-10-21 05:00",
+      "time": "2026-10-21 11:00",
       "source": "Open-Meteo"
     }
   ],
   "announcements": [
     {
-      "title": "嘉義市教育團隊赴日本熊本交流 拓展國際教育合作 - 墨新聞-MORE News",
+      "title": "嘉義鐵路高架化拚2029通車 「三鐵共構」串聯城市縫合新契機 - 地產天下",
+      "date": "Wed, 21 Oct 2026",
+      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE4welFlNmNJZDdPc2pTQl9STnRHSVJPSERHeFh5OWc0SWIwZG5Yc3Z2Vjl1WFNyV3JjM2Y5SDI0Zi1oTzBObjhVYVR5a25LZkxN?oc=5",
+      "desc": "",
+      "source": "Google新聞"
+    },
+    {
+      "title": "嘉義市微風小旅行串聯城鄉農村深度體驗開創觀光新亮點- 社會新聞 - PChome Online 新聞",
       "date": "Tue, 20 Oct 2026",
-      "link": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE5MYk11NnFBc3MyYUtzVDE4TTJLbWlzMzFzQUJva3ZLeGtTbzIzNGhJWUtYY1BQRUVCVy1vZzdTaEFvdw?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOa28tMU5nZkhpVVo4cENRa0hWVXQ2emcyQ0dvNC1WMWRiVFRla0k2LWZsVnd4YWwtX2FLN3U5U0VxQmlUYXRFTDRoWFJMS0ptZkJZUjhQbUJGdXdhMHVoUEg1MDRfUmJ0OFd2MEFHWHVrQ3M5bXBkMThDbC15amZUYjdrUENncmQ5YmFMYzRNMA?oc=5",
       "desc": "",
       "source": "Google新聞"
     },
@@ -55,9 +62,9 @@
       "source": "Google新聞"
     },
     {
-      "title": "嘉義市微風小旅行串聯城鄉 農村深度體驗開創觀光新亮點 - Yahoo新聞",
+      "title": "嘉義市教育團隊赴日本熊本交流 拓展國際教育合作 - 墨新聞-MORE News",
       "date": "Tue, 20 Oct 2026",
-      "link": "https://news.google.com/rss/articles/CBMigANBVV95cUxOTFBqX0V1R004bjZSRU53MVZkbHRuWHpnRkJ2eE0ybmV5clN0dEdzZGxLVlpscVY3d1JCSlJBNEN2ckJBSUFJcm1BcGw4OG9aWkd1WjZUbzFMb2JucWpsLUNyU2UzN2hmUWJlaUw1UWk5ZnB5cW5GVkstdjJtbTE0bGo4NlBtVHY2UHpmbm8xRU1sVG1aUGYxRFV1czlnRWctbHJQZUs2bm9tX0NRekJEUWJPd29acnc0WkFGN19HX014VXNIQkd4enBLMDZkUTdSeTk5R3RZSkZ6LXhTbENxVi1vWUJvbEg5cUNIZDF6aFVZN2s0Z0NZTml0bTdwWWtyRFhxVWh5dmFWdzNWOWo0OTJza3JwU205STctRnhIUzAyNnV6SG9QUG9DWlo3bEk4aHZYOUV6c0V3azc1Z2lBY2s3aEhHakVncTMtVHFaajBkUVFnQm5EMW54NU9LLUlYQlctcWVkV25odGlEWUNYTngzX0NlLVAyaWZGMUxvdkk?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE5MYk11NnFBc3MyYUtzVDE4TTJLbWlzMzFzQUJva3ZLeGtTbzIzNGhJWUtYY1BQRUVCVy1vZzdTaEFvdw?oc=5",
       "desc": "",
       "source": "Google新聞"
     },
@@ -72,13 +79,6 @@
       "title": "嘉義市風雲1／王美惠遭批沒政見只割稻尾　張啓楷曝黃敏惠力挺關鍵 | 政治 | CTWANT - CTWANT",
       "date": "Mon, 19 Oct 2026",
       "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5qd0ZxYnNuRE1SNXVSckVVQXViLWZQRkpmS29fM1M5LTFFMnc1eVlyaTRQSFI2c0hEU2pBQmlNYXE0WERXZGZDNEtUR3piTFHSAVRBVV95cUxQeHYwdy1GM0dUMTlHYTA4eDhFTkVkdjhVYkpQd2lQS0RCbUNkcEZReFFZbTJpYVlXckhPN0w1aC1BQUpIN0FMeUZrYVNETk9hVzRQaWk?oc=5",
-      "desc": "",
-      "source": "Google新聞"
-    },
-    {
-      "title": "嘉義文財殿捐20輛電動機車 公私協力護獨老 - 大紀元",
-      "date": "Mon, 19 Oct 2026",
-      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1FUm9LYnRZclkwZUI5ajhqakRPOVBXSzhiQl9nN2FIdzFTQWVjR0U0YTRKYTA1bUtOTHh5dWpNT0dWMnVmUFlyZHl2NThxTFRIVUtqN2ZWTnZ6c0xzVkFnRGln0gFnQVVfeXFMT1JDSmY5VnBLT0Vwc0ttU1VDbHFEcFg4emlZMFotRno4VEo5ekhxNE5Wb05mWlNZaFVhU3d4NVVWMnVhb1FFc092T0RKeFE3Q05qWEF6NTZHdlFCaGw1WGR2LXpsLUcxOA?oc=5",
       "desc": "",
       "source": "Google新聞"
     }
@@ -144,7 +144,7 @@
   "disease": {
     "dengue": [],
     "enterovirus": [],
-    "updated": "2026-10-20"
+    "updated": "2026-10-21"
   },
   "fire": {
     "chiayi_datasets": [
@@ -246,7 +246,7 @@
       "lat": 23.481634,
       "lng": 120.453745,
       "total": 45,
-      "available": 13,
+      "available": 31,
       "addr": "中山路199號(對面)"
     },
     {
@@ -255,7 +255,7 @@
       "lat": 23.482012,
       "lng": 120.457342,
       "total": 22,
-      "available": 5,
+      "available": 8,
       "addr": "中山路98號(前)"
     },
     {
@@ -264,7 +264,7 @@
       "lat": 23.482663,
       "lng": 120.462988,
       "total": 25,
-      "available": 4,
+      "available": 19,
       "addr": "中山路2號(前)"
     },
     {
@@ -273,7 +273,7 @@
       "lat": 23.478707,
       "lng": 120.462594,
       "total": 38,
-      "available": 4,
+      "available": 24,
       "addr": "啟明路122號(前)"
     },
     {
@@ -282,7 +282,7 @@
       "lat": 23.477031,
       "lng": 120.465573,
       "total": 34,
-      "available": 9,
+      "available": 0,
       "addr": "大雅路二段738號(前)"
     },
     {
@@ -291,7 +291,7 @@
       "lat": 23.4798596,
       "lng": 120.4488291,
       "total": 20,
-      "available": 2,
+      "available": 7,
       "addr": "中山路306號"
     },
     {
@@ -309,7 +309,7 @@
       "lat": 23.47917,
       "lng": 120.44186,
       "total": 99,
-      "available": 72,
+      "available": 23,
       "addr": "中山路524號"
     },
     {
@@ -318,7 +318,7 @@
       "lat": 23.47877,
       "lng": 120.44089,
       "total": 42,
-      "available": 13,
+      "available": 14,
       "addr": "中山路528號"
     },
     {
@@ -327,7 +327,7 @@
       "lat": 23.47283,
       "lng": 120.44029,
       "total": 5,
-      "available": 2,
+      "available": 1,
       "addr": "垂楊路575號"
     },
     {
@@ -336,7 +336,7 @@
       "lat": 23.47336,
       "lng": 120.44604,
       "total": 14,
-      "available": 8,
+      "available": 9,
       "addr": "垂楊路351號"
     },
     {
@@ -345,7 +345,7 @@
       "lat": 23.4738724,
       "lng": 120.4493073,
       "total": 20,
-      "available": 9,
+      "available": 15,
       "addr": "垂楊路434號"
     },
     {
@@ -363,7 +363,7 @@
       "lat": 23.486138,
       "lng": 120.453829,
       "total": 20,
-      "available": 4,
+      "available": 8,
       "addr": "忠孝路284號(旁)"
     },
     {
@@ -372,7 +372,7 @@
       "lat": 23.48091,
       "lng": 120.43012,
       "total": 20,
-      "available": 6,
+      "available": 17,
       "addr": "北港路312號東側"
     },
     {
@@ -381,7 +381,7 @@
       "lat": 23.48465,
       "lng": 120.43354,
       "total": 14,
-      "available": 6,
+      "available": 4,
       "addr": "友愛興達路口"
     },
     {
@@ -399,7 +399,7 @@
       "lat": 23.49265,
       "lng": 120.43191,
       "total": 15,
-      "available": 8,
+      "available": 5,
       "addr": "自由路492號"
     },
     {
@@ -408,7 +408,7 @@
       "lat": 23.478941,
       "lng": 120.437805,
       "total": 23,
-      "available": 1,
+      "available": 8,
       "addr": "博愛路二段281號"
     },
     {
@@ -417,10 +417,10 @@
       "lat": 23.47165,
       "lng": 120.43119,
       "total": 15,
-      "available": 8,
+      "available": 6,
       "addr": "博愛路二段461號"
     }
   ],
   "water": [],
-  "fetch_seconds": 86.5
+  "fetch_seconds": 84.9
 }
