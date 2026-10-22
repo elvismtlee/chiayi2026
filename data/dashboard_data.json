@@ -1,6 +1,27 @@
 {
-  "updated_at": "2026-10-22T11:04:17.856463",
+  "updated_at": "2026-10-22T16:36:55.474535",
   "news": [
+    {
+      "headline": "防範薔琵颱風嘉市災防中心一級開設黃敏惠市長：記取丹娜絲經驗全力守護市民安全",
+      "source": "嘉義市政府/消防局/觀光新聞處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=956697",
+      "date": "2026/10/22",
+      "query": "市府新聞"
+    },
+    {
+      "headline": "嘉義市10/23（星期五）停止上班、停止上課",
+      "source": "嘉義市政府/人事處/衛生局/觀光新聞處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=956696",
+      "date": "2026/10/22",
+      "query": "市府新聞"
+    },
+    {
+      "headline": "【因應颱風來襲嘉義市區公共運輸最新消息】",
+      "source": "嘉義市政府/交通處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=956694",
+      "date": "2026/10/22",
+      "query": "市府新聞"
+    },
     {
       "headline": "因應薔琵颱風來襲，本市三處水防道路（周圍）之停車格位禁止車輛進入暨暫停路邊停車收費事宜。",
       "source": "嘉義市政府/交通處",
@@ -62,27 +83,6 @@
       "source": "嘉義市政府/教育處/觀光新聞處",
       "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=956573",
       "date": "2026/10/21",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "同性婚姻親屬也享身障免牌照稅！符合資格記得申請",
-      "source": "嘉義市政府/財政稅務局",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=956577",
-      "date": "2026/10/21",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "嘉義市教育團隊赴日本熊本市交流拓展國際教育合作",
-      "source": "嘉義市政府/教育處/觀光新聞處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=956423",
-      "date": "2026/10/20",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "吃火雞肉飯只是基本款！來嘉義市，帶你從城市玩到農村",
-      "source": "嘉義市政府/建設處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=956418",
-      "date": "2026/10/20",
       "query": "市府新聞"
     }
   ],
@@ -202,7 +202,7 @@
       "2012": 1,
       "2013": 1
     },
-    "updated_at": "2026-10-22T11:02:38.280852",
+    "updated_at": "2026-10-22T16:35:08.364013",
     "source": "data.chiayi.gov.tw"
   },
   "council": {
@@ -232,7 +232,7 @@
       "李忠曆",
       "王浩"
     ],
-    "question_count": 7
+    "question_count": 0
   },
   "citizen_stats": {},
   "social_posts": [
