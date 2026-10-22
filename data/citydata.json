@@ -1,16 +1,16 @@
 {
-  "updated_at": "2026-10-21T21:14:22.989907",
+  "updated_at": "2026-10-22T03:07:45.288317",
   "aqi_realtime": [
     {
       "station": "嘉義市（Open-Meteo 模型）",
-      "aqi": 8,
-      "pm25": 6.3,
-      "pm10": 7.5,
-      "o3": 68.0,
-      "no2": 13.3,
+      "aqi": 21,
+      "pm25": 15.2,
+      "pm10": 20.0,
+      "o3": 94.0,
+      "no2": 14.9,
       "status": "良好",
       "pollutant": "PM2.5",
-      "time": "2026-10-22T05:00",
+      "time": "2026-10-22T11:00",
       "source": "Open-Meteo"
     }
   ],
@@ -27,15 +27,15 @@
   "weather": [
     {
       "station": "嘉義市（Open-Meteo）",
-      "temp": "22.4",
-      "apparent_temp": "25.2",
-      "humidity": "85",
+      "temp": "28.8",
+      "apparent_temp": "31.3",
+      "humidity": "56",
       "rainfall": "0.0",
-      "wind_speed": "6.4",
-      "wind_dir": "25",
-      "cloud": "98",
+      "wind_speed": "13.6",
+      "wind_dir": "352",
+      "cloud": "97",
       "weather": "陰天",
-      "time": "2026-10-22 05:00",
+      "time": "2026-10-22 11:00",
       "source": "Open-Meteo"
     }
   ],
@@ -48,9 +48,9 @@
       "source": "Google新聞"
     },
     {
-      "title": "南投嘉義聯合品牌推廣 行銷特色優質好物 - 台灣生活新聞",
-      "date": "Wed, 21 Oct 2026",
-      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBrak1DY0xnUUlWXzJVckhsMmhBck56WVRQdFZXNDlzLWNfTWs2dGFVakptT0ZGM1RoWU43U1JQYVp5RkJUc2xscEpMa2w3elM1?oc=5",
+      "title": "民族國小二期都更簽約　國城攜手嘉市府打造宜居示範區 - NOWnews今日新聞",
+      "date": "Thu, 22 Oct 2026",
+      "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE5EeUVDTVFqdXEwSHBSX3k2dkRwR2dvaHNEQV9mZkVpckNmXzExNkxPVHV1ZGlFa0FFU2M3aG1jWkl2VW50Q3NNS1hTSWPSAVJBVV95cUxNUE5HQnY0VzZfa3YxVnNGYWJ3ZWk1cURlblNoNGcxbnFhYTZ0d0VabGJmaTA4dEZJaHB2bWdWMjJnRFZaemlMeEJyVEhEU2VxU0NR?oc=5",
       "desc": "",
       "source": "Google新聞"
     },
@@ -62,23 +62,23 @@
       "source": "Google新聞"
     },
     {
-      "title": "嘉義市公辦都更再下一城！國城拿下二期、再投50億 近3000坪基地啟動開發 - 好房網News",
+      "title": "南投嘉義聯合品牌推廣 行銷特色優質好物 - 台灣生活新聞",
       "date": "Wed, 21 Oct 2026",
-      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE03WHQ3LXVyeXdwQ0FEVU1PVXdhOHMzeHhxZU1sMHhnbFR6WFVqaGFyTDNvV2EwbGlHTUdTMGNpYUIwczdwd0RSQjF5aUw3UTZxTzR3eENjNXVHOWhmU19wQ0JWSVdINDZ0TWlJ?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBrak1DY0xnUUlWXzJVckhsMmhBck56WVRQdFZXNDlzLWNfTWs2dGFVakptT0ZGM1RoWU43U1JQYVp5RkJUc2xscEpMa2w3elM1?oc=5",
       "desc": "",
       "source": "Google新聞"
     },
     {
-      "title": "從「人車爭道」到「安心上學路」 嘉義市育人國小千萬人行道工程啟用 為孩子打造幸福通學路！ - 台灣華報",
+      "title": "嘉義市公辦都更再下一城！國城拿下二期、再投50億　近3000坪基地啟動開發 - 好房網News",
       "date": "Wed, 21 Oct 2026",
-      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1sallCWUVfRHhRLWJsM1RMWUxqeE9zNU5Qb202UnVFa3ItSjM4QVkxMTFqZE5DU3dHams1d1I3Wm12YzlxRlQyOVRXUXdZNkhoTU9FODNmeUV0d2UxbmZUdl9rd20yOGNVcVE4?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE03WHQ3LXVyeXdwQ0FEVU1PVXdhOHMzeHhxZU1sMHhnbFR6WFVqaGFyTDNvV2EwbGlHTUdTMGNpYUIwczdwd0RSQjF5aUw3UTZxTzR3eENjNXVHOWhmU19wQ0JWSVdINDZ0TWlJ0gFwQVVfeXFMTnF2cmFxZHFUaEtZblhqX3JSeHNSZmU1SDhTaVl2NWYwRno0NlJ5VzVFWVRNMXM5RnV3bUpyal9DeVA0eVdFNTc5VV9XamFtVEtqejV6SjMzREhzelBURlZLWjcycjFOYy1FYjBra0tVbQ?oc=5",
       "desc": "",
       "source": "Google新聞"
     },
     {
-      "title": "吃火雞肉飯只是基本款 來嘉義市帶你從城市玩到農村 - 臺灣導報",
+      "title": "投資逾50億！嘉義民族國小西側二期公辦都更簽約 87戶社宅、銀級綠建築 - 墨新聞-MORE News",
       "date": "Wed, 21 Oct 2026",
-      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBXcllldHhQQmZtdFFiNjJpdXE0b2hfMGYxX3FEQkE2a3FPQWFyWUdwcDloeVpfb0VqakUwZTBpS2htY3ZlUHBsTXBpN0NMQWJWZi1qRw?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE5TaGxKdGt5QVZlMlVfejRoaVNLYkVyV1lQM0tEZjBKLU5LN1JMU1FvRjd0U1oyUzZ1dHB4a1Rwa3p6QQ?oc=5",
       "desc": "",
       "source": "Google新聞"
     }
@@ -87,7 +87,7 @@
     {
       "title": "嘉義西區生活環境升級！中央挹注915萬元改善國小周邊通學道　公共建設添購屋誘因 - 好房網News",
       "date": "Wed, 21 Oct 2026",
-      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1UYXJuemtzWDg0Q2Uxc19BTmoySVFiLWJEM1lSQkdzLXpnSk9yV1doenBkR3N0Qmk1WjRaeG1wQ3hmNVhkWnBjWVoyRmVjNXBsZEFRX284SmFjREcxNW9Kc0d5MHlvNkVDM1k40gFwQVVfeXFMTWY0TlIzaDFxNDVKbWViV0NZVGNldm5Qb2hQNVF6dnFrMnlLOGZDN2pHZEg3aHJKdDlLX01tSDlNbDVETEM1bVFOSnpqNC0tX01qdEhaR1V6VGwyMWIwaWRFY1VOSDN4TTh0XzYyRmE4NA?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1mNE5SM2gxcTQ1Sm1lYldDWVRjZXZuUG9oUDVRenZxazJ5SzhmQzdqR2RIN2hySnQ5S19NbUg5TWw1RExDNW1RTkp6ajQtLV9NanRIWkdVelRsMjFiMGlkRWNVTkgzeE04dF82MkZhODTSAXBBVV95cUxNZjROUjNoMXE0NUptZWJXQ1lUY2V2blBvaFA1UXp2cWsyeUs4ZkM3akdkSDdockp0OUtfTW1IOU1sNURMQzVtUU5Kemo0LS1fTWp0SFpHVXpUbDIxYjBpZEVjVU5IM3hNOHRfNjJGYTg0?oc=5",
       "org": "新聞資訊",
       "source": "Google新聞"
     },
@@ -106,37 +106,37 @@
       "source": "Google新聞"
     },
     {
-      "title": "嘉義市全國污水評鑑再奪第三組第1名！締造五連霸佳績 - 中央社 CNA",
-      "date": "Sat, 22 Aug 2026",
-      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE0zNkx6dDR5VzdXQzd6S0pNdEhySnFMbE1WbW8welJGdTdFT2VzbnA3a2Y1TXBtOC11cy1HMWcyM2g1czRCM1A3d0MwY2h5dnZraWZVTThB?oc=5",
+      "title": "嘉義市污水二期第2標動土！黃敏惠：建設腳步不停歇、連續5年評鑑第一 - 樂聯網",
+      "date": "Thu, 03 Sep 2026",
+      "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE4tUEpZdFVQak5oUFZVTWZETUJndjhMWjJrdkl6M0lIMlcwV09sSmpJSFc5Nk93UFFWaXEyM0RoRS1HYW1hS09UYkx4RQ?oc=5",
       "org": "新聞資訊",
       "source": "Google新聞"
     },
     {
-      "title": "邀中央考察水利建設王美惠：打造韌性嘉義- 政治新聞 - PChome Online 新聞",
+      "title": "嘉義市前瞻停車場建設 獲2026年國家卓越建設獎肯定 - 台灣好新聞",
+      "date": "Tue, 04 Aug 2026",
+      "link": "https://news.google.com/rss/articles/CBMi0wJBVV95cUxNeDl6VS1RcEdTZUtLZTlaY1dSZmJmc0xNbzRJSTZ3SjREUVZxMy1BblU3dXhUQnNhOVdJZTlWYlVNWVJUMjMxQWo0ZjlqX3VySVBicFRwWk5VektLamw0MzQtZjk1dk92RW53dWRnZE9rYlpfNE53UmVXdW9FMWpPMkFaUVpCN2F5VVRZZkMzTm9GS2J5SEVZUVVFVkI3RzRrWlFwWFZQenUyMjVlc2lsdnRLQk5wOEcyX2RLZ0JiVDk1OVZmLWNjUjVJUmUxZGdhVUlia0ppR01vc0x0UGwwcVVXbWFuZ09GWWx1cDNwRWZEOVNQTmtTNkN1UnNFY0FSbmR2S1g1bE05ZmtUNzB0NzJqekhybWdzQzZXYVMyaDNuUThza05ITkN0T1d4YnRQd2Nhbk1jaTY3ZUoyWERiTWJzR1ZPRllUOUJxWm1BTnBSRWc?oc=5",
+      "org": "新聞資訊",
+      "source": "Google新聞"
+    },
+    {
+      "title": "黃敏惠9日率隊參訪臺中 交流公共建設經驗 - 大紀元",
+      "date": "Wed, 09 Sep 2026",
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE44ZV9DN1J4dlNudnROWVdtbnBCUGFsTV91eFF5RnZWT3VOVUZ0U3hLVmsyaE9LMFhTQzNLeE1JZV81RzFWa1dzMkJqd0hQdm5RUkw0T1ZNMXJnVjBHeFFz0gFkQVVfeXFMT2VMeWIyTkxlaGJjRnVpcnZGUnJsZ3pVT2d5bzNVUHpxRi1jQk5oY1NwUnpjMUhVeWZRby1KdWthYUx0Q3RGQldWNGdYMzlacjJ4bEdCMi1GMWFaZlZEQ1lPd1l5Rw?oc=5",
+      "org": "新聞資訊",
+      "source": "Google新聞"
+    },
+    {
+      "title": "5.48億中央補助到位！王美惠力爭嘉義污水建設 3,241戶接管工程正式動土 - 台灣新聞雲",
+      "date": "Thu, 03 Sep 2026",
+      "link": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE1raEtaZXg5X093c3NnUTlrMkJ6ZmVtWXFsUXlyUnhXUjJuUzZscjhEczNZUy1WZm9xZm15cmVCQm10V2V5Ri04?oc=5",
+      "org": "新聞資訊",
+      "source": "Google新聞"
+    },
+    {
+      "title": "邀水利署、國土署考察嘉義市 王美惠：持續完善排水、 防災及基礎建設 - 匯流新聞網",
       "date": "Tue, 22 Sep 2026",
-      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOcFRqZlp4MFhlUUFOLU5YUDRCZW1tZzFzSF9ldXpmdzc1SWxwZ0JaMllfTVY2U2JmbFJRV3lNTk9UUVVTNlBBNWhWQnJGdDJqQ1cydEpnV2RxelJPYnFRcnd5ajBaeVFVQzZqN0I0dTFYZEVJdHZNNzBHSzJobm5SWGNhRS1iQmlPd1k2Nw?oc=5",
-      "org": "新聞資訊",
-      "source": "Google新聞"
-    },
-    {
-      "title": "嘉義市污水系統第一期-第8、9標工程」竣工典禮 - 三星傳媒",
-      "date": "Wed, 21 Jan 2026",
-      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9FRFh1YXhuaHVuczVubDFOY2htZWFrRElUemtWYmxlaTVLWHF2YjhoM0Z0UEtQQ1BMdDdXeHpsdkVVa1d6QTlrOFBGbXhUN1huck1EQUsyYlVlV2pzTXpvWW5B?oc=5",
-      "org": "新聞資訊",
-      "source": "Google新聞"
-    },
-    {
-      "title": "嘉義市污水下水道系統第一期建設完工中央挹注污水下水道經費達39億元讓接管普及率躍升南台灣第三|內政 - 僑新聞",
-      "date": "Fri, 23 Jan 2026",
-      "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE1yOWZHS2FHS01jSUZoUzZvOFQzd19qaDhHR24xQ0VyZmdpdC1JTE5nbmczb2NNRlpyMHFRY1EtTXBfeDM3RUY1R19vQQ?oc=5",
-      "org": "新聞資訊",
-      "source": "Google新聞"
-    },
-    {
-      "title": "城市隱形建設 嘉義市污水系統第一期工程完工 - 台灣好新聞",
-      "date": "Thu, 22 Jan 2026",
-      "link": "https://news.google.com/rss/articles/CBMiwgJBVV95cUxPZkdJd1U3WDVqZHlwZDBITW5wb1I3M3hscWJxZDgydW5QNy10clNzdnNsS3FKRWFfd214aUxFNzJWdWJXbnd5V2doQm56UENaQ3g3dHRWSzJBVGVtd0kxTGZuazhHUzBhend1bEJabXlvZ0NYTXBGWG8wS1VBc08yRnNxVS1oU2c5dm1ETTloVG1fNjdVQjBtT1FjaUFnb3BiN0RtdU5IMnpOVnd1YXFBV0lYV0dQc2Q3R3YtTldPekpQSFozMmsxci0tMmxpd3JydnFaVEpadDJFbXd4b2I1ZDFJOHRXekRYVkpZSmN5enp4Rl96Zi1xSTdJWjRWVW5kRlR1M3BoS1o5d1RnbHpkajJudGpwVGxVOF8zUS1xeHZOclVqbHRCSUI1TDVhNl8wNXRvQVB4Y2NDRXhNaVplQm1R?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE9haER3el9hQjl2b0JPVndEN19QbmhWNlloT0VHTFhJQWRveWZZWHlhTDhYT1hpczluM3pOWkVKajdFT1l4WjlwOHBn?oc=5",
       "org": "新聞資訊",
       "source": "Google新聞"
     }
@@ -144,7 +144,7 @@
   "disease": {
     "dengue": [],
     "enterovirus": [],
-    "updated": "2026-10-21"
+    "updated": "2026-10-22"
   },
   "fire": {
     "chiayi_datasets": [
@@ -246,7 +246,7 @@
       "lat": 23.481634,
       "lng": 120.453745,
       "total": 45,
-      "available": 14,
+      "available": 33,
       "addr": "中山路199號(對面)"
     },
     {
@@ -255,7 +255,7 @@
       "lat": 23.482012,
       "lng": 120.457342,
       "total": 22,
-      "available": 5,
+      "available": 14,
       "addr": "中山路98號(前)"
     },
     {
@@ -264,7 +264,7 @@
       "lat": 23.482663,
       "lng": 120.462988,
       "total": 25,
-      "available": 3,
+      "available": 16,
       "addr": "中山路2號(前)"
     },
     {
@@ -273,7 +273,7 @@
       "lat": 23.478707,
       "lng": 120.462594,
       "total": 38,
-      "available": 4,
+      "available": 27,
       "addr": "啟明路122號(前)"
     },
     {
@@ -291,7 +291,7 @@
       "lat": 23.4798596,
       "lng": 120.4488291,
       "total": 20,
-      "available": 2,
+      "available": 9,
       "addr": "中山路306號"
     },
     {
@@ -309,7 +309,7 @@
       "lat": 23.47917,
       "lng": 120.44186,
       "total": 99,
-      "available": 71,
+      "available": 50,
       "addr": "中山路524號"
     },
     {
@@ -318,7 +318,7 @@
       "lat": 23.47877,
       "lng": 120.44089,
       "total": 42,
-      "available": 29,
+      "available": 22,
       "addr": "中山路528號"
     },
     {
@@ -327,7 +327,7 @@
       "lat": 23.47283,
       "lng": 120.44029,
       "total": 5,
-      "available": 2,
+      "available": 3,
       "addr": "垂楊路575號"
     },
     {
@@ -336,7 +336,7 @@
       "lat": 23.47336,
       "lng": 120.44604,
       "total": 14,
-      "available": 2,
+      "available": 5,
       "addr": "垂楊路351號"
     },
     {
@@ -363,7 +363,7 @@
       "lat": 23.486138,
       "lng": 120.453829,
       "total": 20,
-      "available": 4,
+      "available": 9,
       "addr": "忠孝路284號(旁)"
     },
     {
@@ -372,7 +372,7 @@
       "lat": 23.48091,
       "lng": 120.43012,
       "total": 20,
-      "available": 1,
+      "available": 13,
       "addr": "北港路312號東側"
     },
     {
@@ -390,7 +390,7 @@
       "lat": 23.48931,
       "lng": 120.4361,
       "total": 15,
-      "available": 9,
+      "available": 4,
       "addr": "自由路298號"
     },
     {
@@ -399,7 +399,7 @@
       "lat": 23.49265,
       "lng": 120.43191,
       "total": 15,
-      "available": 7,
+      "available": 2,
       "addr": "自由路492號"
     },
     {
@@ -408,7 +408,7 @@
       "lat": 23.478941,
       "lng": 120.437805,
       "total": 23,
-      "available": 4,
+      "available": 10,
       "addr": "博愛路二段281號"
     },
     {
@@ -417,10 +417,10 @@
       "lat": 23.47165,
       "lng": 120.43119,
       "total": 15,
-      "available": 8,
+      "available": 11,
       "addr": "博愛路二段461號"
     }
   ],
   "water": [],
-  "fetch_seconds": 91.4
+  "fetch_seconds": 109.4
 }
