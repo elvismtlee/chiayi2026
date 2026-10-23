@@ -1,16 +1,16 @@
 {
-  "updated_at": "2026-10-23T03:06:49.358155",
+  "updated_at": "2026-10-23T11:00:02.790616",
   "aqi_realtime": [
     {
       "station": "嘉義市（Open-Meteo 模型）",
-      "aqi": 8,
-      "pm25": 6.0,
-      "pm10": 8.2,
+      "aqi": 6,
+      "pm25": 4.9,
+      "pm10": 6.5,
       "o3": 65.0,
-      "no2": 10.8,
+      "no2": 11.7,
       "status": "良好",
       "pollutant": "PM2.5",
-      "time": "2026-10-23T11:00",
+      "time": "2026-10-23T19:00",
       "source": "Open-Meteo"
     }
   ],
@@ -27,19 +27,26 @@
   "weather": [
     {
       "station": "嘉義市（Open-Meteo）",
-      "temp": "25.3",
-      "apparent_temp": "27.1",
-      "humidity": "93",
-      "rainfall": "0.5",
-      "wind_speed": "29.0",
-      "wind_dir": "0",
+      "temp": "24.8",
+      "apparent_temp": "24.7",
+      "humidity": "90",
+      "rainfall": "0.1",
+      "wind_speed": "37.7",
+      "wind_dir": "336",
       "cloud": "100",
-      "weather": "陣雨",
-      "time": "2026-10-23 11:00",
+      "weather": "毛雨",
+      "time": "2026-10-23 19:00",
       "source": "Open-Meteo"
     }
   ],
   "announcements": [
+    {
+      "title": "嘉義縣推長照專業服務 助失能者找回生活自主 - 墨新聞-MORE News",
+      "date": "Fri, 23 Oct 2026",
+      "link": "https://news.google.com/rss/articles/CBMiQkFVX3lxTFBEMzJHdllrbHFDZk4xYmdOU1hYRzdwNXdFdzZqMmJtLXQxQ2c1Z2NtazJ0cEhYLTB3TC0xekZpbXVQZw?oc=5",
+      "desc": "",
+      "source": "Google新聞"
+    },
     {
       "title": "推動新永續淨零 嘉義市跨域串聯打造全齡共享宜居城 - 焦點時報",
       "date": "Thu, 22 Oct 2026",
@@ -48,9 +55,9 @@
       "source": "Google新聞"
     },
     {
-      "title": "薔琵颱風來襲 嘉義市明天停止上班、上課 - UDN",
+      "title": "內政部國土署補助 改善嘉義市育人國小通學廊道 - AN不動產新聞網",
       "date": "Thu, 22 Oct 2026",
-      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9jcHUzLTNXcGNPbVl2VTZGZXJpMi12QTByT1F1WnZRSXpmSEVENXhNUEVHMUVqWU9lalR6SW9wR0xvN1BMUEZveEJlOEM0RlhaYWY00gFYQVVfeXFMTlpKajVKS0NDVTBzc25DRUJINnJTS3lFMmtXNnV0OWgzZzRHcDNzb1RvMG5LaV9DeHhWcFNqRE8wTTZfYTYwTXN3VVVZM0N6bTI4WXR5VjVrcg?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1HdHlxVWJXQkRPMV9oT1NrUWtDRklfd2NSZEVGMmNkeGppVTA5M3RWLW5Sd0VlRDVDQTJLcU5yR2V3ZlM0azc3UHBSNDd0ZTB5V2NLUWI5dndyTFFoMmdLaDEySlZVMjA?oc=5",
       "desc": "",
       "source": "Google新聞"
     },
@@ -62,23 +69,16 @@
       "source": "Google新聞"
     },
     {
-      "title": "嘉義市「肌力全開運動會」六大關卡「肌」戰體能 活力滿載 - 嘉義市政府衛生局",
-      "date": "Sun, 04 Oct 2026",
-      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBZSkxGcE1acUQ4b2FCVzNvcy1iOTk0NGJMaF9QbjU1S2lWdzFocTVYdVJLNm5QQUlEeG8yV3FBeExFSTNWQXBURFBUZHRfdXZXQmpja3RPWnVEWDJkQlo2cnItS0pRTUlLcWJtbDBFbS05Xy1tc2lTei1MbWg?oc=5",
+      "title": "停班停課最新名單（滾動更新）｜22縣市颱風假查詢、放假標準與宣布時間一次看 - 數位時代",
+      "date": "Thu, 22 Oct 2026",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxObEJTVGg3MVNMcmpXT1NLMDBkNE9jQVQzZmZKcjBvVVpNNDJjUEx6MVB0WnR4b0VZOHRsOWNGSnlzcGVUTzVnTlVsZjZ0UUNYNm9obVAzS2lRVXVJN1RHWUxTWXZ4OGhJSVk4emJLVTJ0cF9lbnZYZjNSbi1jTTdZbG14RWw?oc=5",
       "desc": "",
       "source": "Google新聞"
     },
     {
-      "title": "薔琵來勢洶洶！嘉義市明停班停課 候選人抽籤延至27日 - 墨新聞-MORE News",
+      "title": "薔琵颱風來襲 嘉義市明天停止上班、上課 - UDN",
       "date": "Thu, 22 Oct 2026",
-      "link": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE1BVmQ4bU10VTFXX1BxUFlrMTB0WEpMVC14MEs0dzZMQmpibGFtX0VzSTh0c2Rfb2JMOVptN1MyNURkdw?oc=5",
-      "desc": "",
-      "source": "Google新聞"
-    },
-    {
-      "title": "嚴防薔琵10級強陣風！嘉義縣10／23停止上班、上課嘉義市也跟進- 生活 - 工商時報",
-      "date": "Thu, 22 Oct 2026",
-      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE0xZW81OG8zSjZ5cVd2VWJhOW5wWlBrbjNKQ1owOGhUU0o5UF9tUEp5Yi1NNTZ4NDlNcHlOOGN6T1BDT29oaC1Jajl5cGM0Nlp4Rk5hcHNKMGRHMFYzdzZZ?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9jcHUzLTNXcGNPbVl2VTZGZXJpMi12QTByT1F1WnZRSXpmSEVENXhNUEVHMUVqWU9lalR6SW9wR0xvN1BMUEZveEJlOEM0RlhaYWY00gFYQVVfeXFMTlpKajVKS0NDVTBzc25DRUJINnJTS3lFMmtXNnV0OWgzZzRHcDNzb1RvMG5LaV9DeHhWcFNqRE8wTTZfYTYwTXN3VVVZM0N6bTI4WXR5VjVrcg?oc=5",
       "desc": "",
       "source": "Google新聞"
     }
@@ -422,5 +422,5 @@
     }
   ],
   "water": [],
-  "fetch_seconds": 87.6
+  "fetch_seconds": 92.1
 }
