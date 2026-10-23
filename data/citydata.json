@@ -1,16 +1,16 @@
 {
-  "updated_at": "2026-10-22T21:09:50.633210",
+  "updated_at": "2026-10-23T03:06:49.358155",
   "aqi_realtime": [
     {
       "station": "嘉義市（Open-Meteo 模型）",
-      "aqi": 5,
-      "pm25": 4.0,
-      "pm10": 5.6,
-      "o3": 74.0,
-      "no2": 7.7,
+      "aqi": 8,
+      "pm25": 6.0,
+      "pm10": 8.2,
+      "o3": 65.0,
+      "no2": 10.8,
       "status": "良好",
       "pollutant": "PM2.5",
-      "time": "2026-10-23T05:00",
+      "time": "2026-10-23T11:00",
       "source": "Open-Meteo"
     }
   ],
@@ -27,23 +27,23 @@
   "weather": [
     {
       "station": "嘉義市（Open-Meteo）",
-      "temp": "23.6",
-      "apparent_temp": "24.0",
-      "humidity": "81",
-      "rainfall": "0.0",
-      "wind_speed": "23.7",
-      "wind_dir": "6",
+      "temp": "25.3",
+      "apparent_temp": "27.1",
+      "humidity": "93",
+      "rainfall": "0.5",
+      "wind_speed": "29.0",
+      "wind_dir": "0",
       "cloud": "100",
-      "weather": "陰天",
-      "time": "2026-10-23 05:00",
+      "weather": "陣雨",
+      "time": "2026-10-23 11:00",
       "source": "Open-Meteo"
     }
   ],
   "announcements": [
     {
-      "title": "內政部國土署補助 改善嘉義市育人國小通學廊道 - AN不動產新聞網",
+      "title": "推動新永續淨零 嘉義市跨域串聯打造全齡共享宜居城 - 焦點時報",
       "date": "Thu, 22 Oct 2026",
-      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1HdHlxVWJXQkRPMV9oT1NrUWtDRklfd2NSZEVGMmNkeGppVTA5M3RWLW5Sd0VlRDVDQTJLcU5yR2V3ZlM0azc3UHBSNDd0ZTB5V2NLUWI5dndyTFFoMmdLaDEySlZVMjA?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE85N3ptZE1MRDQxallOazBldWpvUnZvZzQ2YzhDMGl1UmtGVU41VXpZR09lWVpmbkFFbHpGQjloUUlNcjlKNDk2djRaOGRRYk1OLXdqbl93RQ?oc=5",
       "desc": "",
       "source": "Google新聞"
     },
@@ -55,13 +55,6 @@
       "source": "Google新聞"
     },
     {
-      "title": "薔琵來勢洶洶！嘉義市明停班停課 候選人抽籤延至27日 - 墨新聞-MORE News",
-      "date": "Thu, 22 Oct 2026",
-      "link": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE1BVmQ4bU10VTFXX1BxUFlrMTB0WEpMVC14MEs0dzZMQmpibGFtX0VzSTh0c2Rfb2JMOVptN1MyNURkdw?oc=5",
-      "desc": "",
-      "source": "Google新聞"
-    },
-    {
       "title": "薔琵攪局！嘉市候選人號次抽籤改10/27舉行 - 自由時報",
       "date": "Thu, 22 Oct 2026",
       "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1hcmpmQXQ3dlN1NXd6cmFEdnhFX2RiSnVGS2NiRXdDNTFxSklZNEZ5Z2FJQWMyWHp2WnczQW40MDFMZ1ZvYlNRMi04am9kMWdBSjZvd2lkWkRRQUR5NnlSUnJqREp5V1FwSnfSAW9BVV95cUxOZXRzbXBUWWlnYzNRUnF0S0FRdVhmUmt1aXdOT00tQ0NJeXVGY2xjU21JZmVaaU1CQVhMTGZlRWtQd25wZ3dMTjdjM0Rnck1CS3J3dmg3ZFd2c0lvc0c0NkpzT0lvc2lnV2xnZ1IySDQ?oc=5",
@@ -69,16 +62,23 @@
       "source": "Google新聞"
     },
     {
-      "title": "嚴防薔琵10級強陣風！嘉義縣10／23停止上班、上課嘉義市也跟進- 生活 - 工商時報",
-      "date": "Thu, 22 Oct 2026",
-      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE0xZW81OG8zSjZ5cVd2VWJhOW5wWlBrbjNKQ1owOGhUU0o5UF9tUEp5Yi1NNTZ4NDlNcHlOOGN6T1BDT29oaC1Jajl5cGM0Nlp4Rk5hcHNKMGRHMFYzdzZZ?oc=5",
+      "title": "嘉義市「肌力全開運動會」六大關卡「肌」戰體能 活力滿載 - 嘉義市政府衛生局",
+      "date": "Sun, 04 Oct 2026",
+      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBZSkxGcE1acUQ4b2FCVzNvcy1iOTk0NGJMaF9QbjU1S2lWdzFocTVYdVJLNm5QQUlEeG8yV3FBeExFSTNWQXBURFBUZHRfdXZXQmpja3RPWnVEWDJkQlo2cnItS0pRTUlLcWJtbDBFbS05Xy1tc2lTei1MbWg?oc=5",
       "desc": "",
       "source": "Google新聞"
     },
     {
-      "title": "永續思維融入城市治理 嘉義市新永續淨零施政豐碩成果 - 觀傳媒",
+      "title": "薔琵來勢洶洶！嘉義市明停班停課 候選人抽籤延至27日 - 墨新聞-MORE News",
       "date": "Thu, 22 Oct 2026",
-      "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5fYzI5QnJfS2VlUW9jUENYR3haLXZFaEg4MXpKalJwUnpwenR2dkxid2lwQks3OU90X25zTVF0a09tbXd3OUZGVndLc2RsNURsUTItaTFSRQ?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE1BVmQ4bU10VTFXX1BxUFlrMTB0WEpMVC14MEs0dzZMQmpibGFtX0VzSTh0c2Rfb2JMOVptN1MyNURkdw?oc=5",
+      "desc": "",
+      "source": "Google新聞"
+    },
+    {
+      "title": "嚴防薔琵10級強陣風！嘉義縣10／23停止上班、上課嘉義市也跟進- 生活 - 工商時報",
+      "date": "Thu, 22 Oct 2026",
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE0xZW81OG8zSjZ5cVd2VWJhOW5wWlBrbjNKQ1owOGhUU0o5UF9tUEp5Yi1NNTZ4NDlNcHlOOGN6T1BDT29oaC1Jajl5cGM0Nlp4Rk5hcHNKMGRHMFYzdzZZ?oc=5",
       "desc": "",
       "source": "Google新聞"
     }
@@ -127,16 +127,16 @@
       "source": "Google新聞"
     },
     {
-      "title": "【營建】幸福大道．安心同行 從一條人行道，看見嘉義市的人本交通與盧厝里的幸福改變 - 正聲廣播電台",
-      "date": "Tue, 07 Jul 2026",
-      "link": "https://news.google.com/rss/articles/CBMiREFVX3lxTE5CNWl5N3NxQ0w3R2piV3hxMEJjTDFGTndKZWJ5QkVTRjE3cWdHU3dzUWdkeGw4eUFaeUZocFpKOU0wMk5M?oc=5",
+      "title": "5.48億中央補助到位！王美惠力爭嘉義污水建設 3,241戶接管工程正式動土 - 台灣新聞雲",
+      "date": "Thu, 03 Sep 2026",
+      "link": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE1raEtaZXg5X093c3NnUTlrMkJ6ZmVtWXFsUXlyUnhXUjJuUzZscjhEczNZUy1WZm9xZm15cmVCQm10V2V5Ri04?oc=5",
       "org": "新聞資訊",
       "source": "Google新聞"
     },
     {
-      "title": "邀水利署、國土署考察嘉義市 王美惠：持續完善排水、 防災及基礎建設 - 匯流新聞網",
-      "date": "Tue, 22 Sep 2026",
-      "link": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE9haER3el9hQjl2b0JPVndEN19QbmhWNlloT0VHTFhJQWRveWZZWHlhTDhYT1hpczluM3pOWkVKajdFT1l4WjlwOHBn?oc=5",
+      "title": "【營建】幸福大道．安心同行 從一條人行道，看見嘉義市的人本交通與盧厝里的幸福改變 - 正聲廣播電台",
+      "date": "Tue, 07 Jul 2026",
+      "link": "https://news.google.com/rss/articles/CBMiREFVX3lxTE5CNWl5N3NxQ0w3R2piV3hxMEJjTDFGTndKZWJ5QkVTRjE3cWdHU3dzUWdkeGw4eUFaeUZocFpKOU0wMk5M?oc=5",
       "org": "新聞資訊",
       "source": "Google新聞"
     }
@@ -144,7 +144,7 @@
   "disease": {
     "dengue": [],
     "enterovirus": [],
-    "updated": "2026-10-22"
+    "updated": "2026-10-23"
   },
   "fire": {
     "chiayi_datasets": [
@@ -422,5 +422,5 @@
     }
   ],
   "water": [],
-  "fetch_seconds": 87.8
+  "fetch_seconds": 87.6
 }

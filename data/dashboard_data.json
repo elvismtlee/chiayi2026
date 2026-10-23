@@ -1,6 +1,27 @@
 {
-  "updated_at": "2026-10-22T21:11:18.465560",
+  "updated_at": "2026-10-23T03:08:16.980277",
   "news": [
+    {
+      "headline": "115年第三季嘉義市不動產買賣交易熱區",
+      "source": "嘉義市政府",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=956681",
+      "date": "2026/10/23",
+      "query": "市府新聞"
+    },
+    {
+      "headline": "區段徵收是什麼?有哪些效益?",
+      "source": "嘉義市政府/地政處/地用及重劃科",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=956318",
+      "date": "2026/10/23",
+      "query": "市府新聞"
+    },
+    {
+      "headline": "餐館業廢棄物及廚餘妥善分類合法清運維護環境品質",
+      "source": "嘉義市政府/環保局/環保設施管理科",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=956565",
+      "date": "2026/10/23",
+      "query": "市府新聞"
+    },
     {
       "headline": "防範薔琵颱風嘉市災防中心一級開設黃敏惠市長：記取丹娜絲經驗全力守護市民安全",
       "source": "嘉義市政府/消防局/觀光新聞處",
@@ -62,27 +83,6 @@
       "source": "嘉義市政府/工務處/觀光新聞處",
       "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=956667",
       "date": "2026/10/22",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "科技設備輔助守護嘉義市環境",
-      "source": "嘉義市政府/環保局/資源循環管理科",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=956409",
-      "date": "2026/10/22",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "嘉義市公辦都更再邁進！民族國小西側二期簽約投資逾50億打造城市新地標",
-      "source": "嘉義市政府/都市發展處/消防局/觀光新聞處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=956596",
-      "date": "2026/10/21",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "從「人車爭道」到「安心上學路」育人國小千萬人行道工程啟用為孩子打造幸福通學路",
-      "source": "嘉義市政府/教育處/觀光新聞處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=956573",
-      "date": "2026/10/21",
       "query": "市府新聞"
     }
   ],
@@ -202,7 +202,7 @@
       "2012": 1,
       "2013": 1
     },
-    "updated_at": "2026-10-22T21:09:37.610543",
+    "updated_at": "2026-10-23T03:06:35.406801",
     "source": "data.chiayi.gov.tw"
   },
   "council": {
