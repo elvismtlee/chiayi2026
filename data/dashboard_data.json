@@ -1,6 +1,13 @@
 {
-  "updated_at": "2026-10-23T11:01:34.847406",
+  "updated_at": "2026-10-23T16:23:23.602582",
   "news": [
+    {
+      "headline": "嘉義市10/24（星期六）照常上班、照常上課",
+      "source": "嘉義市政府/人事處/觀光新聞處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=956794",
+      "date": "2026/10/23",
+      "query": "市府新聞"
+    },
     {
       "headline": "115年第三季嘉義市不動產買賣交易熱區",
       "source": "嘉義市政府",
@@ -75,13 +82,6 @@
       "headline": "儲藏室變身美學展演空間嘉市蘭潭國中「藝流・之間」打造校園學美之路",
       "source": "嘉義市政府/教育處/觀光新聞處",
       "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=956669",
-      "date": "2026/10/22",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "強颱薔琵持續逼近！嘉市府全面啟動防颱整備強化抽水設備與防汛措施守護市民安全",
-      "source": "嘉義市政府/工務處/觀光新聞處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=956667",
       "date": "2026/10/22",
       "query": "市府新聞"
     }
@@ -202,7 +202,7 @@
       "2012": 1,
       "2013": 1
     },
-    "updated_at": "2026-10-23T10:59:47.602373",
+    "updated_at": "2026-10-23T16:21:40.447259",
     "source": "data.chiayi.gov.tw"
   },
   "council": {
