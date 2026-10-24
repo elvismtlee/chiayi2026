@@ -1,6 +1,20 @@
 {
-  "updated_at": "2026-10-24T03:04:15.953847",
+  "updated_at": "2026-10-24T10:20:14.032142",
   "news": [
+    {
+      "headline": "石猴工藝走入生活競賽、展覽、創作接力登場歷屆首獎齊聚展風華",
+      "source": "嘉義市政府/文化局/觀光新聞處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=956849",
+      "date": "2026/10/24",
+      "query": "市府新聞"
+    },
+    {
+      "headline": "吳府千歲聖誕千秋黃敏惠市長赴福安舘與鵬思宮參香祝壽",
+      "source": "嘉義市政府/民政處/觀光新聞處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=956844",
+      "date": "2026/10/24",
+      "query": "市府新聞"
+    },
     {
       "headline": "116年300億元中央擴大租金補貼受理申請公告",
       "source": "嘉義市政府/西區公所",
@@ -68,20 +82,6 @@
       "headline": "虹韻助聽器攜手丁丁藥局捐贈60台助聽器助嘉義市弱勢聽損市民提升生活品質",
       "source": "嘉義市政府/社會處/救助及身障福利科",
       "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=956687",
-      "date": "2026/10/22",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "嘉義市逆齡課程助長者健康升級身體年齡平均逆齡11.1歲",
-      "source": "嘉義市政府/衛生局/觀光新聞處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=956684",
-      "date": "2026/10/22",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "藝術不只在美術館！「嘉義藝術日常ArtWeekChiayi2026」11月登場",
-      "source": "嘉義市政府/文化局/觀光新聞處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=956670",
       "date": "2026/10/22",
       "query": "市府新聞"
     }
@@ -202,7 +202,7 @@
       "2012": 1,
       "2013": 1
     },
-    "updated_at": "2026-10-24T03:01:56.076781",
+    "updated_at": "2026-10-24T10:16:46.582136",
     "source": "data.chiayi.gov.tw"
   },
   "council": {
