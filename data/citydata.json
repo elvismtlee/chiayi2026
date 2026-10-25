@@ -1,16 +1,16 @@
 {
-  "updated_at": "2026-10-25T02:59:10.764511",
+  "updated_at": "2026-10-25T10:39:55.193080",
   "aqi_realtime": [
     {
       "station": "嘉義市（Open-Meteo 模型）",
-      "aqi": 18,
-      "pm25": 12.8,
-      "pm10": 13.7,
-      "o3": 56.0,
-      "no2": 20.3,
+      "aqi": 21,
+      "pm25": 15.1,
+      "pm10": 17.3,
+      "o3": 66.0,
+      "no2": 29.2,
       "status": "良好",
       "pollutant": "PM2.5",
-      "time": "2026-10-25T10:00",
+      "time": "2026-10-25T18:00",
       "source": "Open-Meteo"
     }
   ],
@@ -34,23 +34,23 @@
   "weather": [
     {
       "station": "嘉義市（Open-Meteo）",
-      "temp": "27.6",
-      "apparent_temp": "30.7",
-      "humidity": "66",
+      "temp": "24.8",
+      "apparent_temp": "28.7",
+      "humidity": "82",
       "rainfall": "0.0",
-      "wind_speed": "11.1",
-      "wind_dir": "352",
-      "cloud": "40",
+      "wind_speed": "5.7",
+      "wind_dir": "342",
+      "cloud": "52",
       "weather": "多雲",
-      "time": "2026-10-25 10:45",
+      "time": "2026-10-25 18:30",
       "source": "Open-Meteo"
     }
   ],
   "announcements": [
     {
-      "title": "藝術不只在美術館！「嘉義藝術日常2026」11月登場- 品文化 - 觸mii",
+      "title": "藝術不只在美術館！「嘉義藝術日常Art Week Chiayi 2026」11月登場 - 《旅奇傳媒》TR Omnimedia",
       "date": "Sun, 25 Oct 2026",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE41dE1jX0VCVWNfZm9rdHlTMlVNNWs2aHZPRTV1TnRqSXBfUmxDTGpmeUJJQ0w4b3hpVWQ1NzdjcEx1VTYzUUhmdmYtQlRSOVB2WWMwaE50enNfZ0RqWU1jR01fY1dORk90a2RGZA?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE56cHRZdEpTZm5nUmttSHVQV2p6a1BpYTE5QWIzVzJBRmVkM25jYXBaTExTeFVvMWFoT040TkdSNGVmRGtaa0JwNzR6ZGg2eVRxd2JFWjRPQUo?oc=5",
       "desc": "",
       "source": "Google新聞"
     },
@@ -76,16 +76,16 @@
       "source": "Google新聞"
     },
     {
-      "title": "嘉義市明天正常上班上課 - 自由時報",
-      "date": "Fri, 23 Oct 2026",
-      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE45ZmdvbWNUUDIzLXBoRVkxc2JBTmVDckhFSGUyLUNVOGxwUVpmNFRBaU9IeDl3d181X3NGd2w5d0FPRU9TWHR3Q1pBS083SlZXLTliZkZqVjJWX2VFUkg5dWFsVnjSAWpBVV95cUxOWUVOc2JmcW5nY2pFa3FadmNGcktLQ3dhTmJsTlNKbkNvSDZLdnlFc2F6emlIOGlvTC1lZlp6M0NjNUZkWjhrUVFxZTNaV1Y0Y0RTTTNZenZyck53US1MVUF2YUhQY3EzTElB?oc=5",
+      "title": "嘉義市10/23停班停課 - 自由時報",
+      "date": "Thu, 22 Oct 2026",
+      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE8tbmkxR2wwUDdwRDJvX3FGZG90QkdhY05wdVRBY0daYmtLMlNMN0VTUTRVWDR5eWFYcThSbktaNzVGZE5Ia1B0b1ZKV05hQTJuSk9wVDZFcXhwUjBxSlZ1X3liWUzSAWpBVV95cUxNblZsbW43OHJtR1hWNFVldXF4c1ZEdjg2eHlIMU5RWVViTHFOYWw3SUJiLTZPWnB6YnlVTENCUlZ0SVUtMTRQUmdMMnItRjhhc1VNamNwbVhkZjlFSVhycUZqb2Rxb3B4UlpB?oc=5",
       "desc": "",
       "source": "Google新聞"
     },
     {
-      "title": "黃敏惠表揚石猴藝師 歷屆首獎嘉市府中庭同場展風華 - 墨新聞-MORE News",
-      "date": "Sat, 24 Oct 2026",
-      "link": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE45R2pMTVNTbzVGUDBIaHhDaFlhNHRDbnhuMy01aVpoTGZIRURSaGg4ejlFSGhTS1V1aGtBWm9QMF8yQQ?oc=5",
+      "title": "418件破紀錄！嘉義交趾陶競賽頒獎 樂齡長輩作品驚豔評審 - 墨新聞-MORE News",
+      "date": "Sun, 25 Oct 2026",
+      "link": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE85RHdRN25mbjJsMmVCY3VDM093em1yeG16SzJZTVYtNk1wTXRVLWtmbFRMQUxIeVFxU0U5R0x2RWsxZw?oc=5",
       "desc": "",
       "source": "Google新聞"
     }
@@ -134,16 +134,16 @@
       "source": "Google新聞"
     },
     {
-      "title": "【營建】幸福大道．安心同行 從一條人行道，看見嘉義市的人本交通與盧厝里的幸福改變 - 正聲廣播電台",
-      "date": "Tue, 07 Jul 2026",
-      "link": "https://news.google.com/rss/articles/CBMiREFVX3lxTE5CNWl5N3NxQ0w3R2piV3hxMEJjTDFGTndKZWJ5QkVTRjE3cWdHU3dzUWdkeGw4eUFaeUZocFpKOU0wMk5M?oc=5",
+      "title": "5.48億中央補助到位！王美惠力爭嘉義污水建設 3,241戶接管工程正式動土 - 台灣新聞雲",
+      "date": "Thu, 03 Sep 2026",
+      "link": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE1raEtaZXg5X093c3NnUTlrMkJ6ZmVtWXFsUXlyUnhXUjJuUzZscjhEczNZUy1WZm9xZm15cmVCQm10V2V5Ri04?oc=5",
       "org": "新聞資訊",
       "source": "Google新聞"
     },
     {
-      "title": "5.48億中央補助到位！王美惠力爭嘉義污水建設 3,241戶接管工程正式動土 - 台灣新聞雲",
-      "date": "Thu, 03 Sep 2026",
-      "link": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE1raEtaZXg5X093c3NnUTlrMkJ6ZmVtWXFsUXlyUnhXUjJuUzZscjhEczNZUy1WZm9xZm15cmVCQm10V2V5Ri04?oc=5",
+      "title": "【營建】幸福大道．安心同行 從一條人行道，看見嘉義市的人本交通與盧厝里的幸福改變 - 正聲廣播電台",
+      "date": "Tue, 07 Jul 2026",
+      "link": "https://news.google.com/rss/articles/CBMiREFVX3lxTE5CNWl5N3NxQ0w3R2piV3hxMEJjTDFGTndKZWJ5QkVTRjE3cWdHU3dzUWdkeGw4eUFaeUZocFpKOU0wMk5M?oc=5",
       "org": "新聞資訊",
       "source": "Google新聞"
     }
@@ -253,7 +253,7 @@
       "lat": 23.481634,
       "lng": 120.453745,
       "total": 45,
-      "available": 12,
+      "available": 35,
       "addr": "中山路199號(對面)"
     },
     {
@@ -262,7 +262,7 @@
       "lat": 23.482012,
       "lng": 120.457342,
       "total": 22,
-      "available": 9,
+      "available": 8,
       "addr": "中山路98號(前)"
     },
     {
@@ -280,7 +280,7 @@
       "lat": 23.478707,
       "lng": 120.462594,
       "total": 38,
-      "available": 5,
+      "available": 7,
       "addr": "啟明路122號(前)"
     },
     {
@@ -289,7 +289,7 @@
       "lat": 23.477031,
       "lng": 120.465573,
       "total": 34,
-      "available": 27,
+      "available": 4,
       "addr": "大雅路二段738號(前)"
     },
     {
@@ -298,7 +298,7 @@
       "lat": 23.4798596,
       "lng": 120.4488291,
       "total": 20,
-      "available": 11,
+      "available": 19,
       "addr": "中山路306號"
     },
     {
@@ -316,7 +316,7 @@
       "lat": 23.47917,
       "lng": 120.44186,
       "total": 99,
-      "available": 39,
+      "available": 89,
       "addr": "中山路524號"
     },
     {
@@ -325,7 +325,7 @@
       "lat": 23.47877,
       "lng": 120.44089,
       "total": 42,
-      "available": 28,
+      "available": 14,
       "addr": "中山路528號"
     },
     {
@@ -334,7 +334,7 @@
       "lat": 23.47283,
       "lng": 120.44029,
       "total": 5,
-      "available": 3,
+      "available": 2,
       "addr": "垂楊路575號"
     },
     {
@@ -343,7 +343,7 @@
       "lat": 23.47336,
       "lng": 120.44604,
       "total": 14,
-      "available": 4,
+      "available": 10,
       "addr": "垂楊路351號"
     },
     {
@@ -361,7 +361,7 @@
       "lat": 23.47918,
       "lng": 120.43182,
       "total": 15,
-      "available": 2,
+      "available": 3,
       "addr": "北港路278號"
     },
     {
@@ -370,7 +370,7 @@
       "lat": 23.486138,
       "lng": 120.453829,
       "total": 20,
-      "available": 11,
+      "available": 3,
       "addr": "忠孝路284號(旁)"
     },
     {
@@ -379,7 +379,7 @@
       "lat": 23.48091,
       "lng": 120.43012,
       "total": 20,
-      "available": 11,
+      "available": 2,
       "addr": "北港路312號東側"
     },
     {
@@ -388,7 +388,7 @@
       "lat": 23.48465,
       "lng": 120.43354,
       "total": 14,
-      "available": 3,
+      "available": 4,
       "addr": "友愛興達路口"
     },
     {
@@ -397,7 +397,7 @@
       "lat": 23.48931,
       "lng": 120.4361,
       "total": 15,
-      "available": 6,
+      "available": 4,
       "addr": "自由路298號"
     },
     {
@@ -406,7 +406,7 @@
       "lat": 23.49265,
       "lng": 120.43191,
       "total": 15,
-      "available": 4,
+      "available": 2,
       "addr": "自由路492號"
     },
     {
@@ -415,7 +415,7 @@
       "lat": 23.478941,
       "lng": 120.437805,
       "total": 23,
-      "available": 15,
+      "available": 8,
       "addr": "博愛路二段281號"
     },
     {
@@ -424,10 +424,10 @@
       "lat": 23.47165,
       "lng": 120.43119,
       "total": 15,
-      "available": 5,
+      "available": 15,
       "addr": "博愛路二段461號"
     }
   ],
   "water": [],
-  "fetch_seconds": 90.8
+  "fetch_seconds": 90.3
 }
