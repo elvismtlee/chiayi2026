@@ -1,16 +1,16 @@
 {
-  "updated_at": "2026-10-26T02:54:59.219433",
+  "updated_at": "2026-10-26T12:16:09.863188",
   "aqi_realtime": [
     {
       "station": "嘉義市（Open-Meteo 模型）",
-      "aqi": 31,
-      "pm25": 22.4,
-      "pm10": 23.3,
-      "o3": 86.0,
-      "no2": 20.9,
+      "aqi": 36,
+      "pm25": 25.8,
+      "pm10": 29.3,
+      "o3": 49.0,
+      "no2": 52.9,
       "status": "良好",
       "pollutant": "PM2.5",
-      "time": "2026-10-26T10:00",
+      "time": "2026-10-26T20:00",
       "source": "Open-Meteo"
     }
   ],
@@ -34,23 +34,37 @@
   "weather": [
     {
       "station": "嘉義市（Open-Meteo）",
-      "temp": "28.7",
-      "apparent_temp": "34.3",
-      "humidity": "71",
+      "temp": "23.7",
+      "apparent_temp": "28.5",
+      "humidity": "94",
       "rainfall": "0.0",
-      "wind_speed": "6.9",
-      "wind_dir": "332",
-      "cloud": "3",
+      "wind_speed": "3.1",
+      "wind_dir": "357",
+      "cloud": "2",
       "weather": "晴",
-      "time": "2026-10-26 10:45",
+      "time": "2026-10-26 20:15",
       "source": "Open-Meteo"
     }
   ],
   "announcements": [
     {
+      "title": "千人扮裝萬聖夜行！嘉義市全市英語日10/30日盛大登場 - 墨新聞-MORE News",
+      "date": "Mon, 26 Oct 2026",
+      "link": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE9pdkI2cHlJTzZhLVRqWUJyeXRzczdhcUNZRnUtVUlIUUFhNmYxbDlOSkhJUmk4eVUyS0FwQjBBckQtZw?oc=5",
+      "desc": "",
+      "source": "Google新聞"
+    },
+    {
       "title": "嘉義旅遊不只火雞肉飯 串聯舊城與農村體驗兩天一夜慢旅行 - 新住民全球新聞網",
       "date": "Mon, 26 Oct 2026",
       "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNbUNQaXZMZW9NWFVzcDFtd295Z0FhTVlfdFZVQ2dLYmRVYS1faDlqQ0szVFJJbXBlVzc0ODZLR0preDFSbVpCQmdfQ0NTdWVkUlRsRG1ELXBWcm9tODNBZW1xeGg1Y2lTdUJnU3Q0S0xjYWtsb3YwOHFJSGtCT1VmOVZzWERqTkswVTBfY0MwNU9vNHR6eXlBYmtzazJoampqMEpGclJ6VnUxZ3dVa1ZN?oc=5",
+      "desc": "",
+      "source": "Google新聞"
+    },
+    {
+      "title": "嘉義市樂齡勇壯城成果展11/1登場 施文彬開唱邀市民野餐同樂 - 蕃新聞",
+      "date": "Mon, 26 Oct 2026",
+      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE94MjhXM3B3bk4wWTlqbTgySHpVYl9kY2tnUWxyMEpYZXRTRGpidnNmRVRhTEZBMUsxNmk2eHo0RGFjNXV0c0dPSDR4UFMzTnNsVlE?oc=5",
       "desc": "",
       "source": "Google新聞"
     },
@@ -62,30 +76,16 @@
       "source": "Google新聞"
     },
     {
+      "title": "嘉義市立博物館重磅展出「葉王交趾陶文官立像」 | 青年日報 - LINE TODAY",
+      "date": "Mon, 26 Oct 2026",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBUNU1ibExGZmZZbDZfQ2RjVWRyanhoSDc1REhEVkxKdWpONUlDT19xYmlnRHowSWs3N1lxY3RLOUxaTUNOdUMtNDhlMUo4YjJpM283WnFR?oc=5",
+      "desc": "",
+      "source": "Google新聞"
+    },
+    {
       "title": "嘉義市「肌力全開運動會」六大關卡「肌」戰體能 活力滿載 - 嘉義市政府衛生局",
       "date": "Sun, 04 Oct 2026",
       "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBZSkxGcE1acUQ4b2FCVzNvcy1iOTk0NGJMaF9QbjU1S2lWdzFocTVYdVJLNm5QQUlEeG8yV3FBeExFSTNWQXBURFBUZHRfdXZXQmpja3RPWnVEWDJkQlo2cnItS0pRTUlLcWJtbDBFbS05Xy1tc2lTei1MbWg?oc=5",
-      "desc": "",
-      "source": "Google新聞"
-    },
-    {
-      "title": "葉王誕辰200週年！嘉義交趾陶競賽徵件數創新高 阿公阿嬤出手連藝師都驚豔 - 中央社 CNA",
-      "date": "Mon, 26 Oct 2026",
-      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBET0ZkT0k0akoxel9IajNfUlNucUxLd2NpRUo5VW9JUGcwN3dBRzNiM3U1c1JNSFRlWmlud0ZKWEhsQVRLcTNpdHM5bUNQZmhmOEQwelRR?oc=5",
-      "desc": "",
-      "source": "Google新聞"
-    },
-    {
-      "title": "藝術不只在美術館！「嘉義藝術日常Art Week Chiayi 2026」11月登場 - 《旅奇傳媒》TR Omnimedia",
-      "date": "Sun, 25 Oct 2026",
-      "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE56cHRZdEpTZm5nUmttSHVQV2p6a1BpYTE5QWIzVzJBRmVkM25jYXBaTExTeFVvMWFoT040TkdSNGVmRGtaa0JwNzR6ZGg2eVRxd2JFWjRPQUo?oc=5",
-      "desc": "",
-      "source": "Google新聞"
-    },
-    {
-      "title": "嘉義市明天正常上班上課 - 自由時報",
-      "date": "Fri, 23 Oct 2026",
-      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE45ZmdvbWNUUDIzLXBoRVkxc2JBTmVDckhFSGUyLUNVOGxwUVpmNFRBaU9IeDl3d181X3NGd2w5d0FPRU9TWHR3Q1pBS083SlZXLTliZkZqVjJWX2VFUkg5dWFsVnjSAWpBVV95cUxOWUVOc2JmcW5nY2pFa3FadmNGcktLQ3dhTmJsTlNKbkNvSDZLdnlFc2F6emlIOGlvTC1lZlp6M0NjNUZkWjhrUVFxZTNaV1Y0Y0RTTTNZenZyck53US1MVUF2YUhQY3EzTElB?oc=5",
       "desc": "",
       "source": "Google新聞"
     }
@@ -253,7 +253,7 @@
       "lat": 23.481634,
       "lng": 120.453745,
       "total": 45,
-      "available": 34,
+      "available": 15,
       "addr": "中山路199號(對面)"
     },
     {
@@ -262,7 +262,7 @@
       "lat": 23.482012,
       "lng": 120.457342,
       "total": 22,
-      "available": 6,
+      "available": 13,
       "addr": "中山路98號(前)"
     },
     {
@@ -271,7 +271,7 @@
       "lat": 23.482663,
       "lng": 120.462988,
       "total": 25,
-      "available": 9,
+      "available": 5,
       "addr": "中山路2號(前)"
     },
     {
@@ -289,7 +289,7 @@
       "lat": 23.477031,
       "lng": 120.465573,
       "total": 34,
-      "available": 5,
+      "available": 22,
       "addr": "大雅路二段738號(前)"
     },
     {
@@ -298,7 +298,7 @@
       "lat": 23.4798596,
       "lng": 120.4488291,
       "total": 20,
-      "available": 11,
+      "available": 8,
       "addr": "中山路306號"
     },
     {
@@ -307,7 +307,7 @@
       "lat": 23.47963,
       "lng": 120.44583,
       "total": 20,
-      "available": 4,
+      "available": 3,
       "addr": "中山路386號"
     },
     {
@@ -316,7 +316,7 @@
       "lat": 23.47917,
       "lng": 120.44186,
       "total": 99,
-      "available": 66,
+      "available": 72,
       "addr": "中山路524號"
     },
     {
@@ -325,7 +325,7 @@
       "lat": 23.47877,
       "lng": 120.44089,
       "total": 42,
-      "available": 19,
+      "available": 15,
       "addr": "中山路528號"
     },
     {
@@ -343,7 +343,7 @@
       "lat": 23.47336,
       "lng": 120.44604,
       "total": 14,
-      "available": 7,
+      "available": 5,
       "addr": "垂楊路351號"
     },
     {
@@ -352,7 +352,7 @@
       "lat": 23.4738724,
       "lng": 120.4493073,
       "total": 20,
-      "available": 14,
+      "available": 11,
       "addr": "垂楊路434號"
     },
     {
@@ -361,7 +361,7 @@
       "lat": 23.47918,
       "lng": 120.43182,
       "total": 15,
-      "available": 4,
+      "available": 7,
       "addr": "北港路278號"
     },
     {
@@ -370,7 +370,7 @@
       "lat": 23.486138,
       "lng": 120.453829,
       "total": 20,
-      "available": 15,
+      "available": 4,
       "addr": "忠孝路284號(旁)"
     },
     {
@@ -379,7 +379,7 @@
       "lat": 23.48091,
       "lng": 120.43012,
       "total": 20,
-      "available": 11,
+      "available": 8,
       "addr": "北港路312號東側"
     },
     {
@@ -388,7 +388,7 @@
       "lat": 23.48465,
       "lng": 120.43354,
       "total": 14,
-      "available": 6,
+      "available": 3,
       "addr": "友愛興達路口"
     },
     {
@@ -397,7 +397,7 @@
       "lat": 23.48931,
       "lng": 120.4361,
       "total": 15,
-      "available": 5,
+      "available": 0,
       "addr": "自由路298號"
     },
     {
@@ -406,7 +406,7 @@
       "lat": 23.49265,
       "lng": 120.43191,
       "total": 15,
-      "available": 0,
+      "available": 12,
       "addr": "自由路492號"
     },
     {
@@ -415,7 +415,7 @@
       "lat": 23.478941,
       "lng": 120.437805,
       "total": 23,
-      "available": 7,
+      "available": 1,
       "addr": "博愛路二段281號"
     },
     {
@@ -424,10 +424,10 @@
       "lat": 23.47165,
       "lng": 120.43119,
       "total": 15,
-      "available": 3,
+      "available": 0,
       "addr": "博愛路二段461號"
     }
   ],
   "water": [],
-  "fetch_seconds": 86.4
+  "fetch_seconds": 90.0
 }
