@@ -1,6 +1,27 @@
 {
-  "updated_at": "2026-10-27T03:29:40.488385",
+  "updated_at": "2026-10-27T11:36:04.764029",
   "news": [
+    {
+      "headline": "2026嘉義市購物節登錄金額衝破15億！連7年刷新紀錄百萬VOLVO純電車、百萬現金幸運得主出爐",
+      "source": "嘉義市政府/建設處/觀光新聞處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=957020",
+      "date": "2026/10/27",
+      "query": "市府新聞"
+    },
+    {
+      "headline": "嘉義市第12屆市長、市議會第12屆議員選舉候選人姓名號次抽籤結果",
+      "source": "嘉義市政府/嘉義市選舉委員會",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=957017",
+      "date": "2026/10/27",
+      "query": "市府新聞"
+    },
+    {
+      "headline": "全球首演在嘉義！明華園《皇昭令》連兩日滿座孫翠鳳領全團熱喊「我愛嘉義市」",
+      "source": "嘉義市政府/文化局/觀光新聞處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=957006",
+      "date": "2026/10/27",
+      "query": "市府新聞"
+    },
     {
       "headline": "亂丟垃圾、菸蒂別僥倖嘉義市科技執法每月平均成案42件",
       "source": "嘉義市政府/環保局/觀光新聞處",
@@ -61,27 +82,6 @@
       "headline": "嘉義市10/24（星期六）照常上班、照常上課",
       "source": "嘉義市政府/人事處/觀光新聞處",
       "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=956794",
-      "date": "2026/10/23",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "因颱風造成災害損失記得拍照存證申請稅捐減免",
-      "source": "嘉義市政府/財政稅務局",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=956980",
-      "date": "2026/10/23",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "115年第三季嘉義市不動產買賣交易熱區",
-      "source": "嘉義市政府",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=956681",
-      "date": "2026/10/23",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "區段徵收是什麼?有哪些效益?",
-      "source": "嘉義市政府/地政處/地用及重劃科",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=956318",
       "date": "2026/10/23",
       "query": "市府新聞"
     }
@@ -198,7 +198,7 @@
       "2012": 1,
       "2013": 1
     },
-    "updated_at": "2026-10-27T03:27:46.613599",
+    "updated_at": "2026-10-27T11:33:34.983710",
     "source": "data.chiayi.gov.tw"
   },
   "council": {
