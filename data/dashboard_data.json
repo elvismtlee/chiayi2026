@@ -1,6 +1,27 @@
 {
-  "updated_at": "2026-10-27T21:51:18.569715",
+  "updated_at": "2026-10-28T03:46:08.315870",
   "news": [
+    {
+      "headline": "守護市民幸福！嘉義市跨域深耕長照與社福奪下城市照顧典範雙獎",
+      "source": "嘉義市政府/社會處/衛生局/長期照顧管理中心/觀光新聞處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=957107",
+      "date": "2026/10/28",
+      "query": "市府新聞"
+    },
+    {
+      "headline": "提醒車主！115年營業用車輛下期牌照稅繳納期限至11/2",
+      "source": "嘉義市政府/財政稅務局",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=957110",
+      "date": "2026/10/28",
+      "query": "市府新聞"
+    },
+    {
+      "headline": "東北季風來臨嘉市環保局籲營建工地加強揚塵防制",
+      "source": "嘉義市政府/環保局/環境品質管理科",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=956991",
+      "date": "2026/10/28",
+      "query": "市府新聞"
+    },
     {
       "headline": "2026嘉義市購物節登錄金額衝破15億！連7年刷新紀錄百萬VOLVO純電車、百萬現金幸運得主出爐",
       "source": "嘉義市政府/建設處/觀光新聞處",
@@ -62,27 +83,6 @@
       "source": "嘉義市政府/文化局/觀光新聞處",
       "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=956849",
       "date": "2026/10/24",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "吳府千歲聖誕千秋黃敏惠市長赴福安舘與鵬思宮參香祝壽",
-      "source": "嘉義市政府/民政處/觀光新聞處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=956844",
-      "date": "2026/10/24",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "116年300億元中央擴大租金補貼受理申請公告",
-      "source": "嘉義市政府/西區公所",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=956793",
-      "date": "2026/10/24",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "嘉義市10/24（星期六）照常上班、照常上課",
-      "source": "嘉義市政府/人事處/觀光新聞處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=956794",
-      "date": "2026/10/23",
       "query": "市府新聞"
     }
   ],
@@ -202,7 +202,7 @@
       "2012": 1,
       "2013": 1
     },
-    "updated_at": "2026-10-27T21:49:29.335968",
+    "updated_at": "2026-10-28T03:44:20.083527",
     "source": "data.chiayi.gov.tw"
   },
   "council": {
