@@ -1,6 +1,13 @@
 {
-  "updated_at": "2026-10-28T03:46:08.315870",
+  "updated_at": "2026-10-28T12:03:39.123812",
   "news": [
+    {
+      "headline": "嘉市語文競賽表揚181位特優選手81位好手將進軍全國賽",
+      "source": "嘉義市政府/教育處/觀光新聞處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=957149",
+      "date": "2026/10/28",
+      "query": "市府新聞"
+    },
     {
       "headline": "守護市民幸福！嘉義市跨域深耕長照與社福奪下城市照顧典範雙獎",
       "source": "嘉義市政府/社會處/衛生局/長期照顧管理中心/觀光新聞處",
@@ -76,13 +83,6 @@
       "source": "嘉義市政府/環保局/清潔隊",
       "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=956668",
       "date": "2026/10/25",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "石猴工藝走入生活競賽、展覽、創作接力登場歷屆首獎齊聚展風華",
-      "source": "嘉義市政府/文化局/觀光新聞處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=956849",
-      "date": "2026/10/24",
       "query": "市府新聞"
     }
   ],
@@ -202,7 +202,7 @@
       "2012": 1,
       "2013": 1
     },
-    "updated_at": "2026-10-28T03:44:20.083527",
+    "updated_at": "2026-10-28T12:01:20.379856",
     "source": "data.chiayi.gov.tw"
   },
   "council": {
