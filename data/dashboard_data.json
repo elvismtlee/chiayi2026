@@ -1,6 +1,27 @@
 {
-  "updated_at": "2026-10-28T18:21:23.844563",
+  "updated_at": "2026-10-29T04:06:53.883129",
   "news": [
+    {
+      "headline": "嘉義市「自備食器easy購」攜手店家及市民減少逾12萬件免洗容器，帶動「嘉eat永續新生活」消費風潮",
+      "source": "嘉義市政府/環保局/資源循環管理科",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=957145",
+      "date": "2026/10/29",
+      "query": "市府新聞"
+    },
+    {
+      "headline": "振瀛堂、嘉義鳳梨會社何家、王靈宮五顯帝廟平安遶境祈福活動將登場！交管資訊公開",
+      "source": "嘉義市政府/警察局/觀光新聞處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=957277",
+      "date": "2026/10/29",
+      "query": "市府新聞"
+    },
+    {
+      "headline": "嘉義市迎接2027亞太管樂節黃敏惠市長接受承辦議定書",
+      "source": "嘉義市政府/文化局/觀光新聞處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=957276",
+      "date": "2026/10/29",
+      "query": "市府新聞"
+    },
     {
       "headline": "70年歷史建築「舊嘉義市政府（原嘉義市公所）」修復完工今日點燈重現城市記憶",
       "source": "嘉義市政府/財政稅務局/觀光新聞處",
@@ -62,27 +83,6 @@
       "source": "嘉義市政府/環保局/觀光新聞處",
       "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=956972",
       "date": "2026/10/26",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "千人扮裝萬聖夜行！嘉市全市英語日10月30日熱鬧登場",
-      "source": "嘉義市政府/教育處/觀光新聞處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=956971",
-      "date": "2026/10/26",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "葉王誕辰200週年！嘉義交趾陶競賽徵件數創新高阿公阿嬤出手連藝師都驚豔",
-      "source": "嘉義市政府/文化局/觀光新聞處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=956913",
-      "date": "2026/10/25",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "百年國寶齊聚嘉義！葉王誕辰200週年特展盛大開幕嘉博館鎮館之寶展出",
-      "source": "嘉義市政府/文化局/觀光新聞處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=956914",
-      "date": "2026/10/25",
       "query": "市府新聞"
     }
   ],
@@ -202,7 +202,7 @@
       "2012": 1,
       "2013": 1
     },
-    "updated_at": "2026-10-28T18:19:33.276147",
+    "updated_at": "2026-10-29T04:05:10.018624",
     "source": "data.chiayi.gov.tw"
   },
   "council": {
