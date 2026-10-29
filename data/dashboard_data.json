@@ -1,6 +1,20 @@
 {
-  "updated_at": "2026-10-29T04:06:53.883129",
+  "updated_at": "2026-10-29T12:12:26.271892",
   "news": [
+    {
+      "headline": "嘉義之光蕭翔文勇奪2026名古屋亞帕運金牌締造二連霸黃敏惠市長送上溫暖鼓勵",
+      "source": "嘉義市政府/教育處/觀光新聞處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=957292",
+      "date": "2026/10/29",
+      "query": "市府新聞"
+    },
+    {
+      "headline": "因應極端氣候與國際變局！嘉義市召開三合一會報聚焦疏散撤離、表揚績優單位",
+      "source": "嘉義市政府/民政處/觀光新聞處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=957288",
+      "date": "2026/10/29",
+      "query": "市府新聞"
+    },
     {
       "headline": "嘉義市「自備食器easy購」攜手店家及市民減少逾12萬件免洗容器，帶動「嘉eat永續新生活」消費風潮",
       "source": "嘉義市政府/環保局/資源循環管理科",
@@ -69,20 +83,6 @@
       "source": "嘉義市政府/嘉義市選舉委員會",
       "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=957017",
       "date": "2026/10/27",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "全球首演在嘉義！明華園《皇昭令》連兩日滿座孫翠鳳領全團熱喊「我愛嘉義市」",
-      "source": "嘉義市政府/文化局/觀光新聞處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=957006",
-      "date": "2026/10/27",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "亂丟垃圾、菸蒂別僥倖嘉義市科技執法每月平均成案42件",
-      "source": "嘉義市政府/環保局/觀光新聞處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=956972",
-      "date": "2026/10/26",
       "query": "市府新聞"
     }
   ],
@@ -202,7 +202,7 @@
       "2012": 1,
       "2013": 1
     },
-    "updated_at": "2026-10-29T04:05:10.018624",
+    "updated_at": "2026-10-29T12:10:45.011187",
     "source": "data.chiayi.gov.tw"
   },
   "council": {
