@@ -1,6 +1,20 @@
 {
-  "updated_at": "2026-10-30T21:59:53.103442",
+  "updated_at": "2026-10-31T03:52:14.590973",
   "news": [
+    {
+      "headline": "《小王子》第100場演出獻給嘉義市！經典故事感動登場邀民眾走進劇場",
+      "source": "嘉義市政府/文化局/觀光新聞處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=957459",
+      "date": "2026/10/31",
+      "query": "市府新聞"
+    },
+    {
+      "headline": "左流右新！第二階段公費流感、新冠疫苗11/2開打",
+      "source": "嘉義市政府/西區公所",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=957371",
+      "date": "2026/10/31",
+      "query": "市府新聞"
+    },
     {
       "headline": "萬聖踩街結合英語學習嘉義全市英語日首度走入城市",
       "source": "嘉義市政府/教育處/觀光新聞處",
@@ -68,20 +82,6 @@
       "headline": "因應極端氣候與國際變局！嘉義市召開三合一會報聚焦疏散撤離、表揚績優單位",
       "source": "嘉義市政府/民政處/觀光新聞處",
       "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=957288",
-      "date": "2026/10/29",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "嘉義市「自備食器easy購」攜手店家及市民減少逾12萬件免洗容器，帶動「嘉eat永續新生活」消費風潮",
-      "source": "嘉義市政府/環保局/資源循環管理科",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=957145",
-      "date": "2026/10/29",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "振瀛堂、嘉義鳳梨會社何家、王靈宮五顯帝廟平安遶境祈福活動將登場！交管資訊公開",
-      "source": "嘉義市政府/警察局/觀光新聞處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=957277",
       "date": "2026/10/29",
       "query": "市府新聞"
     }
@@ -202,7 +202,7 @@
       "2012": 1,
       "2013": 1
     },
-    "updated_at": "2026-10-30T21:57:22.881371",
+    "updated_at": "2026-10-31T03:50:28.788785",
     "source": "data.chiayi.gov.tw"
   },
   "council": {
