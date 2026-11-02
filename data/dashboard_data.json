@@ -1,6 +1,20 @@
 {
-  "updated_at": "2026-11-01T21:43:59.408867",
+  "updated_at": "2026-11-02T04:04:13.946177",
   "news": [
+    {
+      "headline": "嘉義市代表隊閃耀全國環保群英會展現永續行動力",
+      "source": "嘉義市政府/環保局/綜合計畫科",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=957604",
+      "date": "2026/11/02",
+      "query": "市府新聞"
+    },
+    {
+      "headline": "嘉義市政府衛生局公布「115年度烘焙販賣業稽查專案」執行結果",
+      "source": "嘉義市政府/衛生局",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=956561",
+      "date": "2026/11/02",
+      "query": "市府新聞"
+    },
     {
       "headline": "嘉市府首度推出「嘉義藝術日常ArtWeekChiayi2026」！讓藝術成為城市風景",
       "source": "嘉義市政府/文化局/觀光新聞處",
@@ -68,20 +82,6 @@
       "headline": "從二地居到一起成家！嘉義「二地居」三年吸引逾200組團隊提案見證幸福",
       "source": "嘉義市政府/勞工及青年發展處/觀光新聞處勞工及",
       "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=957463",
-      "date": "2026/10/31",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "11月2日起流感及新冠疫苗開放第2階段對象接種，滿50歲以上民眾可以「左流右新，護肺顧心」，接種2劑，可獲得1350健康幣",
-      "source": "嘉義市政府/衛生局/觀光新聞處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=957462",
-      "date": "2026/10/31",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "嘉義市祈禱早餐會登場！黃敏惠市長感謝上帝恩典陪伴城市走過風雨、迎來幸福佳績",
-      "source": "嘉義市政府/民政處/觀光新聞處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=957460",
       "date": "2026/10/31",
       "query": "市府新聞"
     }
@@ -199,7 +199,7 @@
       "2012": 1,
       "2013": 1
     },
-    "updated_at": "2026-11-01T21:41:23.340983",
+    "updated_at": "2026-11-02T04:02:31.282156",
     "source": "data.chiayi.gov.tw"
   },
   "council": {
