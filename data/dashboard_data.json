@@ -1,6 +1,13 @@
 {
-  "updated_at": "2026-11-03T00:29:54.054672",
+  "updated_at": "2026-11-03T13:33:40.501507",
   "news": [
+    {
+      "headline": "《小王子》音樂劇第100場獻給嘉義市！親子、學子齊聚音樂廳共賞經典",
+      "source": "嘉義市政府/文化局/觀光新聞處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=957765",
+      "date": "2026/11/03",
+      "query": "市府新聞"
+    },
     {
       "headline": "廢食用油妥善分類清運認明工作證回收更安心",
       "source": "嘉義市政府/環保局/環保設施管理科",
@@ -75,13 +82,6 @@
       "headline": "2026食農嘉年華熱鬧登場！四大主題、12場食農手作邀市民玩轉食農教育",
       "source": "嘉義市政府/建設處/觀光新聞處",
       "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=957466",
-      "date": "2026/10/31",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "用生命影響生命！嘉義市身障日表揚傑出身障人士、績優單位黃敏惠市長盼以理解與支持讓夢想無礙",
-      "source": "嘉義市政府/社會處/觀光新聞處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=957465",
       "date": "2026/10/31",
       "query": "市府新聞"
     }
@@ -202,7 +202,7 @@
       "2012": 1,
       "2013": 1
     },
-    "updated_at": "2026-11-03T00:27:37.223515",
+    "updated_at": "2026-11-03T13:31:56.521459",
     "source": "data.chiayi.gov.tw"
   },
   "council": {
