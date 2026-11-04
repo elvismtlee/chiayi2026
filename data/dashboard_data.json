@@ -1,6 +1,13 @@
 {
-  "updated_at": "2026-11-03T22:52:20.715300",
+  "updated_at": "2026-11-04T04:38:17.587732",
   "news": [
+    {
+      "headline": "歷史建築「舊嘉義市公所」採ROT委外經營，俟營運廠商完成裝修後再對外開放",
+      "source": "嘉義市政府/財政稅務局",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=957881",
+      "date": "2026/11/04",
+      "query": "市府新聞"
+    },
     {
       "headline": "居家裝修廢棄物妥善清理共同維護環境整潔",
       "source": "嘉義市政府/嘉義市政府環境保護局/環保設施管理科",
@@ -76,13 +83,6 @@
       "source": "嘉義市政府/教育處/觀光新聞處",
       "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=957512",
       "date": "2026/11/01",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "萬聖不搗蛋！嘉市邀親子闖關學安全兒童發展篩檢守護成長",
-      "source": "嘉義市政府/衛生局/觀光新聞處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=957397",
-      "date": "2026/10/31",
       "query": "市府新聞"
     }
   ],
@@ -202,7 +202,7 @@
       "2012": 1,
       "2013": 1
     },
-    "updated_at": "2026-11-03T22:50:39.403183",
+    "updated_at": "2026-11-04T04:35:51.555571",
     "source": "data.chiayi.gov.tw"
   },
   "council": {
