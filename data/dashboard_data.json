@@ -1,6 +1,34 @@
 {
-  "updated_at": "2026-11-04T04:38:17.587732",
+  "updated_at": "2026-11-04T13:47:20.833874",
   "news": [
+    {
+      "headline": "搶救生命再添利器！嘉邑玉皇宮捐520萬元救護設備助嘉市消防救護黃敏惠市長致贈感謝狀",
+      "source": "嘉義市政府/消防局/觀光新聞處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=957924",
+      "date": "2026/11/04",
+      "query": "市府新聞"
+    },
+    {
+      "headline": "嘉義市115年10月份人口統計資料",
+      "source": "嘉義市政府/民政處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=957906",
+      "date": "2026/11/04",
+      "query": "市府新聞"
+    },
+    {
+      "headline": "嘉義市邀民眾把握最後機會近距離欣賞石猴藝師精湛技藝走訪葉王交趾陶紀念展",
+      "source": "嘉義市政府/文化局/觀光新聞處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=957900",
+      "date": "2026/11/04",
+      "query": "市府新聞"
+    },
+    {
+      "headline": "明華園總團旗艦大戲《貓神》11月14日登場邀您共賞歌仔戲經典盛宴",
+      "source": "嘉義市政府/文化局/觀光新聞處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=957899",
+      "date": "2026/11/04",
+      "query": "市府新聞"
+    },
     {
       "headline": "歷史建築「舊嘉義市公所」採ROT委外經營，俟營運廠商完成裝修後再對外開放",
       "source": "嘉義市政府/財政稅務局",
@@ -54,34 +82,6 @@
       "headline": "嘉市府首度推出「嘉義藝術日常ArtWeekChiayi2026」！讓藝術成為城市風景",
       "source": "嘉義市政府/文化局/觀光新聞處",
       "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=957518",
-      "date": "2026/11/01",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "樂齡勇壯城成果展表揚黃敏惠市長盼翻轉高齡想像、活出精彩第三人生",
-      "source": "嘉義市政府/衛生局/觀光新聞處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=957517",
-      "date": "2026/11/01",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "嘉市兒童人權日300人同樂！看兒童劇、賞四格漫畫認識兒童權利",
-      "source": "嘉義市政府/社會處/觀光新聞處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=957515",
-      "date": "2026/11/01",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "國際佛光會感恩茶會嘉市登場！黃敏惠市長感謝佛光人深耕公益、傳遞大愛",
-      "source": "嘉義市政府/民政處/觀光新聞處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=957514",
-      "date": "2026/11/01",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "嘉義市立田徑場整修完工迎盛事！2026嘉義雙潭馬拉松菁英賽起跑16國好手競逐百萬獎金",
-      "source": "嘉義市政府/教育處/觀光新聞處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=957512",
       "date": "2026/11/01",
       "query": "市府新聞"
     }
@@ -202,7 +202,7 @@
       "2012": 1,
       "2013": 1
     },
-    "updated_at": "2026-11-04T04:35:51.555571",
+    "updated_at": "2026-11-04T13:44:53.457592",
     "source": "data.chiayi.gov.tw"
   },
   "council": {
