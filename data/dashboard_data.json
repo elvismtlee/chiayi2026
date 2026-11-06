@@ -1,6 +1,20 @@
 {
-  "updated_at": "2026-11-06T04:53:19.808240",
+  "updated_at": "2026-11-06T13:44:46.285833",
   "news": [
+    {
+      "headline": "2026嘉市購物節創逾15億消費佳績雞肉飯也要排隊見證城市觀光熱度",
+      "source": "嘉義市政府/建設處/觀光新聞處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=958178",
+      "date": "2026/11/06",
+      "query": "市府新聞"
+    },
+    {
+      "headline": "嘉義市2026「教育新世代亮點成果展」暨專書發表11/7盛大登場！人氣知識型創作者文森說書現身三大教育主軸解鎖AI互動新體驗",
+      "source": "嘉義市政府/教育處/觀光新聞處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=958152",
+      "date": "2026/11/06",
+      "query": "市府新聞"
+    },
     {
       "headline": "守護嬰幼兒呼吸健康！嘉義市公立幼兒園及托育機構全數取得室內空氣品質自主管理標章",
       "source": "嘉義市政府",
@@ -69,20 +83,6 @@
       "source": "嘉義市政府/財政稅務局",
       "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=957881",
       "date": "2026/11/04",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "居家裝修廢棄物妥善清理共同維護環境整潔",
-      "source": "嘉義市政府/嘉義市政府環境保護局/環保設施管理科",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=957772",
-      "date": "2026/11/04",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "《小王子》音樂劇第100場獻給嘉義市！親子、學子齊聚音樂廳共賞經典",
-      "source": "嘉義市政府/文化局/觀光新聞處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=957765",
-      "date": "2026/11/03",
       "query": "市府新聞"
     }
   ],
@@ -202,7 +202,7 @@
       "2012": 1,
       "2013": 1
     },
-    "updated_at": "2026-11-06T04:51:27.580443",
+    "updated_at": "2026-11-06T13:42:58.962883",
     "source": "data.chiayi.gov.tw"
   },
   "council": {
