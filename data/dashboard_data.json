@@ -1,6 +1,27 @@
 {
-  "updated_at": "2026-11-07T04:22:18.515735",
+  "updated_at": "2026-11-07T12:22:45.279219",
   "news": [
+    {
+      "headline": "文化就是生活！「嘉義新日常」9組社造團隊展現在地生命力",
+      "source": "嘉義市政府/文化局/觀光新聞處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=958276",
+      "date": "2026/11/07",
+      "query": "市府新聞"
+    },
+    {
+      "headline": "嘉市教育新世代成果展登場12大展區、新書《每一天，陪你長大》展現八年深耕成果",
+      "source": "嘉義市政府/教育處/觀光新聞處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=958275",
+      "date": "2026/11/07",
+      "query": "市府新聞"
+    },
+    {
+      "headline": "逆風騎出生命力！第14屆不倒騎士環島抵嘉黃敏惠市長讚：用生命影響生命",
+      "source": "嘉義市政府/教育處/觀光新聞處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=958274",
+      "date": "2026/11/07",
+      "query": "市府新聞"
+    },
     {
       "headline": "退役不迷惘，就業有方向！義務役役男就業資源報你知",
       "source": "嘉義市政府/西區公所",
@@ -61,27 +82,6 @@
       "headline": "搶救生命再添利器！嘉邑玉皇宮捐520萬元救護設備助嘉市消防救護黃敏惠市長致贈感謝狀",
       "source": "嘉義市政府/消防局/觀光新聞處",
       "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=957924",
-      "date": "2026/11/04",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "嘉義市115年10月份人口統計資料",
-      "source": "嘉義市政府/民政處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=957906",
-      "date": "2026/11/04",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "嘉義市邀民眾把握最後機會近距離欣賞石猴藝師精湛技藝走訪葉王交趾陶紀念展",
-      "source": "嘉義市政府/文化局/觀光新聞處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=957900",
-      "date": "2026/11/04",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "明華園總團旗艦大戲《貓神》11月14日登場邀您共賞歌仔戲經典盛宴",
-      "source": "嘉義市政府/文化局/觀光新聞處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=957899",
       "date": "2026/11/04",
       "query": "市府新聞"
     }
@@ -203,7 +203,7 @@
       "2012": 1,
       "2013": 1
     },
-    "updated_at": "2026-11-07T04:20:26.917415",
+    "updated_at": "2026-11-07T12:21:00.175955",
     "source": "data.chiayi.gov.tw"
   },
   "council": {
