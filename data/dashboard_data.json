@@ -1,6 +1,20 @@
 {
-  "updated_at": "2026-11-10T01:09:56.648653",
+  "updated_at": "2026-11-10T14:15:30.660765",
   "news": [
+    {
+      "headline": "【轉】國健署委託臺北醫學大學於本市西區保福里執行「國民營養健康調查(115-118年)」計畫",
+      "source": "嘉義市政府/衛生局/長照中心/東區衛生所/西區衛生所",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=958387",
+      "date": "2026/11/10",
+      "query": "市府新聞"
+    },
+    {
+      "headline": "守護孩子每一口呼吸！嘉市16家公幼、11家托嬰中心全數取得室內空品標章",
+      "source": "嘉義市政府/環境保護局/觀光新聞處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=958421",
+      "date": "2026/11/10",
+      "query": "市府新聞"
+    },
     {
       "headline": "文學也能這樣玩！森林之歌化身文學遊樂場「桃城文學什光紀」兩日吸引近8,000人次",
       "source": "嘉義市政府/文化局/觀光新聞處",
@@ -69,20 +83,6 @@
       "source": "嘉義市政府/教育處/觀光新聞處",
       "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=958312",
       "date": "2026/11/08",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "健康嘉義一起GO！近1,700人齊聚八掌溪響應全民運動",
-      "source": "嘉義市政府/衛生局/觀光新聞處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=958311",
-      "date": "2026/11/08",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "文化就是生活！「嘉義新日常」9組社造團隊展現在地生命力",
-      "source": "嘉義市政府/文化局/觀光新聞處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=958276",
-      "date": "2026/11/07",
       "query": "市府新聞"
     }
   ],
@@ -200,7 +200,7 @@
       "2012": 1,
       "2013": 1
     },
-    "updated_at": "2026-11-10T01:08:05.007069",
+    "updated_at": "2026-11-10T14:13:46.548910",
     "source": "data.chiayi.gov.tw"
   },
   "council": {
