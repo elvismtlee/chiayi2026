@@ -1,6 +1,27 @@
 {
-  "updated_at": "2026-11-11T04:26:18.678609",
+  "updated_at": "2026-11-11T13:33:29.377235",
   "news": [
+    {
+      "headline": "逾50年老館舍大變身！嘉市家教中心整建落成12月正式開放",
+      "source": "嘉義市政府/教育處/觀光新聞處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=958623",
+      "date": "2026/11/11",
+      "query": "市府新聞"
+    },
+    {
+      "headline": "嘉義市政府衛生局公布「115年特色美食餐飲業稽查專案」執行結果",
+      "source": "嘉義市政府/衛生局",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=958440",
+      "date": "2026/11/11",
+      "query": "市府新聞"
+    },
+    {
+      "headline": "嘉義市公有路邊停車格於115年11月28日(星期六)115年地方公職人員選舉及全國性公民投票案第22案投票日暫停收費",
+      "source": "嘉義市政府/交通處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=958594",
+      "date": "2026/11/11",
+      "query": "市府新聞"
+    },
     {
       "headline": "嘉義囡仔閃耀泰國亞洲盃！「TeamChiayi」競技疊杯亞洲錦標賽勇奪3銀4銅",
       "source": "嘉義市政府/教育處/觀光新聞處",
@@ -62,27 +83,6 @@
       "source": "嘉義市政府/教育處/觀光新聞處",
       "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=958342",
       "date": "2026/11/09",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "讓創生力量持續發酵！集結6年地方創生點滴《我們。在嘉義－邁向共好的未來》新書出版",
-      "source": "嘉義市政府/企劃處/觀光新聞處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=958315",
-      "date": "2026/11/08",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "「嘉市好旅行」亮相2026ITF台灣國際旅展嘉義市集結11家在地業者展現城市觀光魅力",
-      "source": "嘉義市政府/觀光新聞處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=958314",
-      "date": "2026/11/08",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "第十四屆誌鈞盃全國青少年網球錦標賽登場以球傳愛延續助人精神",
-      "source": "嘉義市政府/教育處/觀光新聞處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=958313",
-      "date": "2026/11/08",
       "query": "市府新聞"
     }
   ],
@@ -203,7 +203,7 @@
       "2012": 1,
       "2013": 1
     },
-    "updated_at": "2026-11-11T04:23:54.782961",
+    "updated_at": "2026-11-11T13:30:58.067188",
     "source": "data.chiayi.gov.tw"
   },
   "council": {
