@@ -34,46 +34,6 @@
       "date": "2024/04/17",
       "type": "嘉義市議會第11屆第1次定期會暨112年第1、2、3次臨時會",
       "source": "council_announce"
-    },
-    {
-      "date": "2026/10/13",
-      "type": "議員報到",
-      "source": "council_schedule"
-    },
-    {
-      "date": "2026/10/14",
-      "type": "市長施政報告",
-      "source": "council_schedule"
-    },
-    {
-      "date": "2026/10/15",
-      "type": "交通處工作報告",
-      "source": "council_schedule"
-    },
-    {
-      "date": "2026/10/16",
-      "type": "教育處工作報告",
-      "source": "council_schedule"
-    },
-    {
-      "date": "2026/10/19",
-      "type": "工務處工作報告",
-      "source": "council_schedule"
-    },
-    {
-      "date": "2026/10/20",
-      "type": "都發處工作報告",
-      "source": "council_schedule"
-    },
-    {
-      "date": "2026/10/21",
-      "type": "警察局工作報告",
-      "source": "council_schedule"
-    },
-    {
-      "date": "2026/10/22",
-      "type": "文化局工作報告",
-      "source": "council_schedule"
     }
   ],
   "councilors": [
@@ -208,5 +168,5 @@
     "李忠曆",
     "王浩"
   ],
-  "updated_at": "2026-11-12T00:02:10.230195"
+  "updated_at": "2026-11-12T06:26:03.297108"
 }

@@ -1,6 +1,20 @@
 {
-  "updated_at": "2026-11-12T00:04:00.035868",
+  "updated_at": "2026-11-12T06:29:08.625955",
   "news": [
+    {
+      "headline": "《我們。在嘉義─邁向共好的未來》上架線上通路！邀請讀者從書中看見六年嘉義市地方創生的精采故事",
+      "source": "嘉義市政府/企劃處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=958624",
+      "date": "2026/11/12",
+      "query": "市府新聞"
+    },
+    {
+      "headline": "嘉義市2026家將藝術節踩街將登場！交管資訊公開",
+      "source": "嘉義市政府/警察局/觀光新聞處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=958744",
+      "date": "2026/11/12",
+      "query": "市府新聞"
+    },
     {
       "headline": "逾50年老館舍大變身！嘉市家教中心整建落成12月正式開放",
       "source": "嘉義市政府/教育處/觀光新聞處",
@@ -68,20 +82,6 @@
       "headline": "國際獅子會2026~2027年度｢兒少保護拒毒反詐抗霸凌｣彩繪嘉年華活動獅子會捐贈導護志工反光背心為孩子打造更安全的通學環境",
       "source": "嘉義市政府/教育處/觀光新聞處",
       "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=958371",
-      "date": "2026/11/09",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "「青領派」《社團放大祭》2026嘉義校際聯合社團成果展校際社團成果放大嘉義社團青年舞臺展演、跨校交流",
-      "source": "嘉義市政府/勞工及青年發展處/觀光新聞處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=958363",
-      "date": "2026/11/09",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "嘉義市民族國小勇奪「節約能源創意七十二變－小劇場創作決賽」全國第三名",
-      "source": "嘉義市政府/教育處/觀光新聞處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=958342",
       "date": "2026/11/09",
       "query": "市府新聞"
     }
@@ -203,11 +203,11 @@
       "2012": 1,
       "2013": 1
     },
-    "updated_at": "2026-11-12T00:01:17.537603",
+    "updated_at": "2026-11-12T06:24:05.847347",
     "source": "data.chiayi.gov.tw"
   },
   "council": {
-    "meetings_count": 15,
+    "meetings_count": 7,
     "councilors": [
       "傅大偉",
       "黃露慧",
