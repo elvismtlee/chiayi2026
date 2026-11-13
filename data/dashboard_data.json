@@ -1,6 +1,34 @@
 {
-  "updated_at": "2026-11-13T04:49:31.499769",
+  "updated_at": "2026-11-13T13:53:13.129755",
   "news": [
+    {
+      "headline": "嘉市興安國小二校區學生棒球練習場竣工完善棒球訓練環境厚植三級棒球實力",
+      "source": "嘉義市政府/教育處/觀光新聞處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=958871",
+      "date": "2026/11/13",
+      "query": "市府新聞"
+    },
+    {
+      "headline": "3座巨型燈箱照亮木都記憶！嘉義市「木光計畫」共創展登場市府邀民眾免費欣賞光影藝術",
+      "source": "嘉義市政府/勞工及青年發展處/觀光新聞處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=958859",
+      "date": "2026/11/13",
+      "query": "市府新聞"
+    },
+    {
+      "headline": "病房裡的畢業典禮感動全場！嘉市醫療到府10年以專業與愛守護市民",
+      "source": "嘉義市政府/衛生局/觀光新聞處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=958857",
+      "date": "2026/11/13",
+      "query": "市府新聞"
+    },
+    {
+      "headline": "徵收補償費尚未領取？請留意15年申領期限",
+      "source": "嘉義市政府/地政處/地用及重劃科",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=958837",
+      "date": "2026/11/13",
+      "query": "市府新聞"
+    },
     {
       "headline": "嘉義市西區大發展再推進！西區區政大樓明年3月完工整合行政、托育打造複合式行政中心",
       "source": "嘉義市政府/西區公所/觀光新聞處/企劃處",
@@ -55,34 +83,6 @@
       "source": "嘉義市政府/教育處/觀光新聞處",
       "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=958623",
       "date": "2026/11/11",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "嘉義市政府衛生局公布「115年特色美食餐飲業稽查專案」執行結果",
-      "source": "嘉義市政府/衛生局",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=958440",
-      "date": "2026/11/11",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "嘉義市公有路邊停車格於115年11月28日(星期六)115年地方公職人員選舉及全國性公民投票案第22案投票日暫停收費",
-      "source": "嘉義市政府/交通處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=958594",
-      "date": "2026/11/11",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "嘉義囡仔閃耀泰國亞洲盃！「TeamChiayi」競技疊杯亞洲錦標賽勇奪3銀4銅",
-      "source": "嘉義市政府/教育處/觀光新聞處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=958580",
-      "date": "2026/11/11",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "【轉】國健署委託臺北醫學大學於本市西區保福里執行「國民營養健康調查(115-118年)」計畫",
-      "source": "嘉義市政府/衛生局/長照中心/東區衛生所/西區衛生所",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=958387",
-      "date": "2026/11/10",
       "query": "市府新聞"
     }
   ],
@@ -202,7 +202,7 @@
       "2012": 1,
       "2013": 1
     },
-    "updated_at": "2026-11-13T04:47:30.639618",
+    "updated_at": "2026-11-13T13:51:08.000409",
     "source": "data.chiayi.gov.tw"
   },
   "council": {
