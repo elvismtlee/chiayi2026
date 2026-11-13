@@ -1,6 +1,13 @@
 {
-  "updated_at": "2026-11-13T13:53:13.129755",
+  "updated_at": "2026-11-13T23:12:30.507629",
   "news": [
+    {
+      "headline": "打造高齡友善城市！嘉義市65歲以上長者健保費自付額補助826元",
+      "source": "嘉義市政府/西區公所",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=958862",
+      "date": "2026/11/14",
+      "query": "市府新聞"
+    },
     {
       "headline": "嘉市興安國小二校區學生棒球練習場竣工完善棒球訓練環境厚植三級棒球實力",
       "source": "嘉義市政府/教育處/觀光新聞處",
@@ -76,13 +83,6 @@
       "source": "嘉義市政府/警察局/觀光新聞處",
       "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=958744",
       "date": "2026/11/12",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "逾50年老館舍大變身！嘉市家教中心整建落成12月正式開放",
-      "source": "嘉義市政府/教育處/觀光新聞處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=958623",
-      "date": "2026/11/11",
       "query": "市府新聞"
     }
   ],
@@ -202,7 +202,7 @@
       "2012": 1,
       "2013": 1
     },
-    "updated_at": "2026-11-13T13:51:08.000409",
+    "updated_at": "2026-11-13T23:10:26.927604",
     "source": "data.chiayi.gov.tw"
   },
   "council": {
