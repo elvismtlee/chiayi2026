@@ -1,6 +1,27 @@
 {
-  "updated_at": "2026-11-14T04:44:25.113814",
+  "updated_at": "2026-11-14T12:54:56.501861",
   "news": [
+    {
+      "headline": "「藝在嘉香」圓滿落幕！精彩大戲《貓神》接續登場",
+      "source": "嘉義市政府/文化局/觀光新聞處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=958921",
+      "date": "2026/11/14",
+      "query": "市府新聞"
+    },
+    {
+      "headline": "嘉義市深耕文學人才培育從新秀走向跨域創作第17屆桃城文學獎1,505件投稿創新高",
+      "source": "嘉義市政府/文化局/觀光新聞處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=958918",
+      "date": "2026/11/14",
+      "query": "市府新聞"
+    },
+    {
+      "headline": "跨越太平洋的教育情誼！美國加州洪堡郡教育廳副廳長第7度訪嘉特贈教育交流紀念書致謝感動黃敏惠市長",
+      "source": "嘉義市政府/教育處/觀光新聞處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=958917",
+      "date": "2026/11/14",
+      "query": "市府新聞"
+    },
     {
       "headline": "內政部攜手嘉義市「火災現場勘驗車」正式交車啟用，提升火災調查量能",
       "source": "嘉義市政府/消防局",
@@ -62,27 +83,6 @@
       "source": "嘉義市政府",
       "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=958785",
       "date": "2026/11/13",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "改善老舊大型柴油車排煙嘉市柴油車調修補助累計逾500輛",
-      "source": "嘉義市政府/環境保護局/環境品質管理科",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=958776",
-      "date": "2026/11/13",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "《我們。在嘉義─邁向共好的未來》上架線上通路！邀請讀者從書中看見六年嘉義市地方創生的精采故事",
-      "source": "嘉義市政府/企劃處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=958624",
-      "date": "2026/11/12",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "崇文國小地下停車場竣工啟用黃敏惠市長再次呼籲中央兌現高鐵聯外軌道承諾",
-      "source": "嘉義市政府/交通處/觀光新聞處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=958786",
-      "date": "2026/11/12",
       "query": "市府新聞"
     }
   ],
@@ -202,7 +202,7 @@
       "2012": 1,
       "2013": 1
     },
-    "updated_at": "2026-11-14T04:42:29.289476",
+    "updated_at": "2026-11-14T12:52:58.590322",
     "source": "data.chiayi.gov.tw"
   },
   "council": {
