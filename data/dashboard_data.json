@@ -1,6 +1,20 @@
 {
-  "updated_at": "2026-11-13T23:12:30.507629",
+  "updated_at": "2026-11-14T04:44:25.113814",
   "news": [
+    {
+      "headline": "內政部攜手嘉義市「火災現場勘驗車」正式交車啟用，提升火災調查量能",
+      "source": "嘉義市政府/消防局",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=958916",
+      "date": "2026/11/14",
+      "query": "市府新聞"
+    },
+    {
+      "headline": "嘉義市西區全民運動館試營運人氣旺！日湧2千人次免費體驗倒數2天",
+      "source": "嘉義市政府/教育處/觀光新聞處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=958915",
+      "date": "2026/11/14",
+      "query": "市府新聞"
+    },
     {
       "headline": "打造高齡友善城市！嘉義市65歲以上長者健保費自付額補助826元",
       "source": "嘉義市政府/西區公所",
@@ -68,20 +82,6 @@
       "headline": "崇文國小地下停車場竣工啟用黃敏惠市長再次呼籲中央兌現高鐵聯外軌道承諾",
       "source": "嘉義市政府/交通處/觀光新聞處",
       "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=958786",
-      "date": "2026/11/12",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "「八掌溪斷面82～斷面86河道整理工程(嘉義市)」土地徵收公告與補償費發放通知",
-      "source": "嘉義市政府/地政處/地用及重劃科",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=958777",
-      "date": "2026/11/12",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "嘉義市2026家將藝術節踩街將登場！交管資訊公開",
-      "source": "嘉義市政府/警察局/觀光新聞處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=958744",
       "date": "2026/11/12",
       "query": "市府新聞"
     }
@@ -202,7 +202,7 @@
       "2012": 1,
       "2013": 1
     },
-    "updated_at": "2026-11-13T23:10:26.927604",
+    "updated_at": "2026-11-14T04:42:29.289476",
     "source": "data.chiayi.gov.tw"
   },
   "council": {
