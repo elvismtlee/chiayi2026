@@ -1,6 +1,13 @@
 {
-  "updated_at": "2026-11-14T21:56:56.105755",
+  "updated_at": "2026-11-15T04:34:26.050556",
   "news": [
+    {
+      "headline": "擦亮嘉義市畫都招牌！鎮南聖神宮孔子盃書畫賽93學子獲肯定",
+      "source": "嘉義市政府/民政處/觀光新聞處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=958966",
+      "date": "2026/11/15",
+      "query": "市府新聞"
+    },
     {
       "headline": "「藝在嘉香」圓滿落幕！精彩大戲《貓神》接續登場",
       "source": "嘉義市政府/文化局/觀光新聞處",
@@ -75,13 +82,6 @@
       "headline": "嘉義市西區大發展再推進！西區區政大樓明年3月完工整合行政、托育打造複合式行政中心",
       "source": "嘉義市政府/西區公所/觀光新聞處/企劃處",
       "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=958834",
-      "date": "2026/11/13",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "115年第三季嘉義市不動產預售屋交易熱區!",
-      "source": "嘉義市政府",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=958785",
       "date": "2026/11/13",
       "query": "市府新聞"
     }
@@ -203,7 +203,7 @@
       "2012": 1,
       "2013": 1
     },
-    "updated_at": "2026-11-14T21:54:57.336563",
+    "updated_at": "2026-11-15T04:32:32.082294",
     "source": "data.chiayi.gov.tw"
   },
   "council": {
