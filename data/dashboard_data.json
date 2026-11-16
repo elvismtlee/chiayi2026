@@ -1,6 +1,41 @@
 {
-  "updated_at": "2026-11-16T04:30:45.654441",
+  "updated_at": "2026-11-16T14:37:26.600987",
   "news": [
+    {
+      "headline": "嘉義市首處視覺化減速平台亮相結合照明與AI科技守護圓環第一商場行人安全",
+      "source": "嘉義市政府/交通處/觀光新聞處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=959025",
+      "date": "2026/11/16",
+      "query": "市府新聞"
+    },
+    {
+      "headline": "黃敏惠市長視察火化場聯外道路第三期工程克服經費、工程難度全力推進",
+      "source": "嘉義市政府/工務處/觀光新聞處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=959020",
+      "date": "2026/11/16",
+      "query": "市府新聞"
+    },
+    {
+      "headline": "十年熱忱不間斷嘉義市長黃敏惠表揚資深廉政志工",
+      "source": "嘉義市政府/政風處/觀光新聞處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=959018",
+      "date": "2026/11/16",
+      "query": "市府新聞"
+    },
+    {
+      "headline": "「面譜背後的嘉義人」屬於嘉義市的家將藝術節展現在地傳承力量",
+      "source": "嘉義市政府/文化局/觀光新聞處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=959014",
+      "date": "2026/11/16",
+      "query": "市府新聞"
+    },
+    {
+      "headline": "嘉義市代表隊傲視群雄，115年全國環境知識競賽勇奪佳績",
+      "source": "嘉義市政府/環境保護局/綜合計畫科",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=959011",
+      "date": "2026/11/16",
+      "query": "市府新聞"
+    },
     {
       "headline": "嘉義市攜手醫療院所推廣正確用藥落實「四不一要」共同防堵抗藥性",
       "source": "嘉義市政府/衛生局/觀光新聞處",
@@ -48,41 +83,6 @@
       "source": "嘉義市政府/教育處/觀光新聞處",
       "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=958970",
       "date": "2026/11/15",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "2026家將藝術節今神氣登場！七大將堂齊聚市府廣場為民祈福",
-      "source": "嘉義市政府/文化局/觀光新聞處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=958969",
-      "date": "2026/11/15",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "擦亮嘉義市畫都招牌！鎮南聖神宮孔子盃書畫賽93學子獲肯定",
-      "source": "嘉義市政府/民政處/觀光新聞處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=958966",
-      "date": "2026/11/15",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "「藝在嘉香」圓滿落幕！精彩大戲《貓神》接續登場",
-      "source": "嘉義市政府/文化局/觀光新聞處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=958921",
-      "date": "2026/11/14",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "嘉義市深耕文學人才培育從新秀走向跨域創作第17屆桃城文學獎1,505件投稿創新高",
-      "source": "嘉義市政府/文化局/觀光新聞處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=958918",
-      "date": "2026/11/14",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "跨越太平洋的教育情誼！美國加州洪堡郡教育廳副廳長第7度訪嘉特贈教育交流紀念書致謝感動黃敏惠市長",
-      "source": "嘉義市政府/教育處/觀光新聞處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=958917",
-      "date": "2026/11/14",
       "query": "市府新聞"
     }
   ],
@@ -199,7 +199,7 @@
       "2012": 1,
       "2013": 1
     },
-    "updated_at": "2026-11-16T04:28:54.146377",
+    "updated_at": "2026-11-16T14:35:32.150978",
     "source": "data.chiayi.gov.tw"
   },
   "council": {
