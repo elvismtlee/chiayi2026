@@ -1,17 +1,38 @@
 {
-  "updated_at": "2026-11-17T01:32:24.258766",
+  "updated_at": "2026-11-17T15:28:37.960002",
   "news": [
     {
-      "headline": "嘉義市首處視覺化減速平台亮相結合照明與AI科技守護圓環第一商場行人安全",
-      "source": "嘉義市政府/交通處/觀光新聞處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=959025",
-      "date": "2026/11/16",
+      "headline": "跨海牽起台日友誼！嘉市蘭潭國小赴大阪兩所小學交流台日學童共譜國際情誼",
+      "source": "嘉義市政府/教育處/觀光新聞處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=959097",
+      "date": "2026/11/17",
       "query": "市府新聞"
     },
     {
       "headline": "黃敏惠市長視察火化場聯外道路第三期工程克服經費、工程難度全力推進",
-      "source": "嘉義市政府/工務處/觀光新聞處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=959020",
+      "source": "嘉義市政府/工務處/觀光新聞處/企劃處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=959094",
+      "date": "2026/11/17",
+      "query": "市府新聞"
+    },
+    {
+      "headline": "嘉義市11件優良教案獲教育部肯定！民生、嘉義國中及博愛、嘉北國小共4件特優",
+      "source": "嘉義市政府/教育處/觀光新聞處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=959093",
+      "date": "2026/11/17",
+      "query": "市府新聞"
+    },
+    {
+      "headline": "建廟42年首度舉辦！嘉義奉天宮五朝清醮祈安大典登場",
+      "source": "嘉義市政府/民政處/觀光新聞處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=959088",
+      "date": "2026/11/17",
+      "query": "市府新聞"
+    },
+    {
+      "headline": "嘉義市首處視覺化減速平台亮相結合照明與AI科技守護圓環第一商場行人安全",
+      "source": "嘉義市政府/交通處/觀光新聞處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=959025",
       "date": "2026/11/16",
       "query": "市府新聞"
     },
@@ -62,27 +83,6 @@
       "source": "嘉義市政府/行政處",
       "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=958764",
       "date": "2026/11/16",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "從職場出發打造健康城市！嘉義市「揪你運動5.0」48隊齊心減重破千公斤",
-      "source": "嘉義市政府/衛生局/觀光新聞處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=958850",
-      "date": "2026/11/15",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "終於等到《貓神》！孫翠鳳領明華園嘉義市開演",
-      "source": "嘉義市政府/文化局/觀光新聞處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=958971",
-      "date": "2026/11/15",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "勇敢做自己就是最美的模樣！嘉市女童軍培訓種子教師將自我認同教育帶進校園",
-      "source": "嘉義市政府/教育處/觀光新聞處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=958970",
-      "date": "2026/11/15",
       "query": "市府新聞"
     }
   ],
@@ -202,7 +202,7 @@
       "2012": 1,
       "2013": 1
     },
-    "updated_at": "2026-11-17T01:30:00.822911",
+    "updated_at": "2026-11-17T15:26:44.135283",
     "source": "data.chiayi.gov.tw"
   },
   "council": {
