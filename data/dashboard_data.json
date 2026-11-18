@@ -1,6 +1,34 @@
 {
-  "updated_at": "2026-11-18T00:29:34.897575",
+  "updated_at": "2026-11-18T15:00:48.102417",
   "news": [
+    {
+      "headline": "種下一座森林！嘉市木都治理成果《在嘉種一座森林》記錄老屋到城市文化蛻變",
+      "source": "嘉義市政府/都市發展處/觀光新聞處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=959207",
+      "date": "2026/11/18",
+      "query": "市府新聞"
+    },
+    {
+      "headline": "斥資1.27億全面升級「城市後花園」！蘭潭後山景觀橋落成黃敏惠市長邀民眾健行賞美景",
+      "source": "嘉義市政府/觀光新聞處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=959193",
+      "date": "2026/11/18",
+      "query": "市府新聞"
+    },
+    {
+      "headline": "繼承車輛未辦理過戶，使用公共道路小心補稅受罰！",
+      "source": "嘉義市政府/財政稅務局",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=959188",
+      "date": "2026/11/18",
+      "query": "市府新聞"
+    },
+    {
+      "headline": "落實住家周圍2公尺自主清掃全民打造潔淨家園",
+      "source": "嘉義市政府/環境保護局/資源循環管理科",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=959181",
+      "date": "2026/11/18",
+      "query": "市府新聞"
+    },
     {
       "headline": "嘉義帝爺會平安遶境祈福活動將登場！交管資訊公開",
       "source": "嘉義市政府/警察局/觀光新聞處",
@@ -54,34 +82,6 @@
       "headline": "「面譜背後的嘉義人」屬於嘉義市的家將藝術節展現在地傳承力量",
       "source": "嘉義市政府/文化局/觀光新聞處",
       "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=959014",
-      "date": "2026/11/16",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "嘉義市代表隊傲視群雄，115年全國環境知識競賽勇奪佳績",
-      "source": "嘉義市政府/環境保護局/綜合計畫科",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=959011",
-      "date": "2026/11/16",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "嘉義市攜手醫療院所推廣正確用藥落實「四不一要」共同防堵抗藥性",
-      "source": "嘉義市政府/衛生局/觀光新聞處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=959005",
-      "date": "2026/11/16",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "不動產經紀營業員訓練新制看這裡！",
-      "source": "嘉義市政府/地政處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=958873",
-      "date": "2026/11/16",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "嘉義市115年11月19日於嘉義大學蘭潭校區辦理M痘疫苗接種服務籲請「近1年內有風險性行為者」盡快預約接種",
-      "source": "嘉義市政府/衛生局/觀光新聞處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=958993",
       "date": "2026/11/16",
       "query": "市府新聞"
     }
@@ -202,7 +202,7 @@
       "2012": 1,
       "2013": 1
     },
-    "updated_at": "2026-11-18T00:27:37.569065",
+    "updated_at": "2026-11-18T14:59:08.792043",
     "source": "data.chiayi.gov.tw"
   },
   "council": {
