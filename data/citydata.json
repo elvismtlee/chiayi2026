@@ -1,16 +1,16 @@
 {
-  "updated_at": "2026-11-17T15:27:05.874249",
+  "updated_at": "2026-11-18T00:28:01.108211",
   "aqi_realtime": [
     {
       "station": "嘉義市（Open-Meteo 模型）",
-      "aqi": 72,
-      "pm25": 43.4,
-      "pm10": 43.7,
-      "o3": 0.0,
-      "no2": 69.4,
-      "status": "普通",
+      "aqi": 38,
+      "pm25": 27.5,
+      "pm10": 30.0,
+      "o3": 20.0,
+      "no2": 49.9,
+      "status": "良好",
       "pollutant": "PM2.5",
-      "time": "2026-11-17T23:00",
+      "time": "2026-11-18T08:00",
       "source": "Open-Meteo"
     }
   ],
@@ -19,23 +19,37 @@
   "weather": [
     {
       "station": "嘉義市（Open-Meteo）",
-      "temp": "20.8",
-      "apparent_temp": "24.1",
-      "humidity": "91",
+      "temp": "23.4",
+      "apparent_temp": "25.0",
+      "humidity": "66",
       "rainfall": "0.0",
-      "wind_speed": "1.0",
-      "wind_dir": "121",
-      "cloud": "24",
-      "weather": "多雲",
-      "time": "2026-11-17 23:15",
+      "wind_speed": "4.9",
+      "wind_dir": "2",
+      "cloud": "0",
+      "weather": "晴",
+      "time": "2026-11-18 08:15",
       "source": "Open-Meteo"
     }
   ],
   "announcements": [
     {
-      "title": "嘉義市政府衛生局《代謝亮燈．快問醫生》代謝五燈獎-海選篇 - 嘉義市政府衛生局",
+      "title": "建廟42年首度舉辦！嘉義奉天宮五朝清醮祈安大典登場 - 嘉義市政府全球資訊網",
+      "date": "Tue, 17 Nov 2026",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9GX3lsMFlYeGhEeldaOERPaFFFODdoVmNuZkRYdXdBcUdGRWg2Y3FlaXhHVE1XcmdKZmQ5THlyampPRUZuZUp6bDlzX2d1dFFXR0lrVFFnWE5CdVZJN1B0aE5PeDhNUWJOTGc?oc=5",
+      "desc": "",
+      "source": "Google新聞"
+    },
+    {
+      "title": "跨海牽起台日情！嘉市蘭潭國小赴大阪交流 台日學童共譜國際友誼 - 中央社 CNA",
+      "date": "Tue, 17 Nov 2026",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE80bWlqUWpFZmVrZkw1YmJOWURNUUp0dFNlLTQ4Tkc5eXRZM293U0RGdmhzVHRmbE1TNi01Nzhtc0hNNGl0YWwydzNBbGxWVFhqTkFEdTlR?oc=5",
+      "desc": "",
+      "source": "Google新聞"
+    },
+    {
+      "title": "嘉義市家將藝術節登場 在地7大將堂聯合出巡 - 自由藝文網",
       "date": "Sun, 15 Nov 2026",
-      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOT2R1bFR6a0hjZ0dZcy1ZNF9LbmxycjYtY1RUNGJSa1k1Y2gzR2QyZzdUTTNUalNNX29mM0VSY0F0T08zVjU2MS1najdER1czM0xpT3lNZkhEMTdYdl9pZmRzVFJUVklDYjdoMkZQLThCUlNDZmZ1X09neUNFUjNEejlfM3k?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9ob0ozTWJZcXlyYm41OFJRQnVmY2ZCQ1owVkpZcTVobXJSZjdwa1h3TjNCckdDNGVJclhicVhjV0wyVFBBUThvMVgzRHlfOTZQcmRkT2NGSXNLQk1neEtPONIBZkFVX3lxTFB3ZXdSVHlmcjdNVjBWdVVCNEhJazZ2Y2ZFMEdxVTEtOEFnOUNPVC1jRUJaUkQxdWFMbnVqQ1hBNTJwWl9zSmM5Ui1TYmZoRzZEQkVQS1Y3TnFUYkRSd1Y2YXU0amJ5dw?oc=5",
       "desc": "",
       "source": "Google新聞"
     },
@@ -47,30 +61,16 @@
       "source": "Google新聞"
     },
     {
-      "title": "建廟42年首度舉辦！嘉義奉天宮五朝清醮祈安大典登場 - 中央社 CNA",
-      "date": "Tue, 17 Nov 2026",
-      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE82Sm1jZXlzelp3eExVN3JneHNoY045cWp6bk9LVlZ5SDYtbmhhYjdLQ2h3ZFZreWdIM1VKbGF0bHl3b0YyX3o3M0xCY1Z3YTdZRXRFZm5B?oc=5",
+      "title": "嘉市殯葬園區聯外道路第3期工程 黃敏惠親視察 - 台視新聞網",
+      "date": "Mon, 16 Nov 2026",
+      "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9RWXBLRjVNdWtPbkpuNy1pMnUtbUNmLTNoR1NjMWlFNWJ5TUNOZXlqeWpmaW5jVXBoRUlTSkVmelllc2NzWGRJUXdXTUJDclZndFVxcHJMSQ?oc=5",
       "desc": "",
       "source": "Google新聞"
     },
     {
-      "title": "嘉義市11件優良教案獲教育部肯定！ 民生、嘉義國中及博愛、嘉北國小共4件特優 - 勢傳媒",
+      "title": "嘉義市11件優良教案獲教育部肯定！ 民生、嘉義國中及博愛、嘉北國小共4件特優 - 蕃新聞",
       "date": "Tue, 17 Nov 2026",
-      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1OX3pCWmJVaDJpNmJBd3RUb2JVTkZiSHlZOXRmRkZaMnJEMHlwTnBmWUVVcU9oM3JVTHhyNUlXWXdGeG1mOUpOanZoZWFSdWhz?oc=5",
-      "desc": "",
-      "source": "Google新聞"
-    },
-    {
-      "title": "86歲嘉義市副議長張榮藏將卸任 嘉市府會送祝福齊喊「嘉義隊讚！」 | 自由電子報 - LINE TODAY",
-      "date": "Tue, 17 Nov 2026",
-      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9mNmJvZnN1S2Vuc294djdzenhOQlQxbkhYMGZfQ3FUMF9ock5fT2w4ZGo5Z0d4a3ZWQ3JpZEExMDVMdXp1bHRkV0MxVWlKZXd1Sm45WnZB?oc=5",
-      "desc": "",
-      "source": "Google新聞"
-    },
-    {
-      "title": "跨海牽起台日友誼！嘉市蘭潭國小赴大阪兩所小學交流 台日學童共譜國際情誼 - 嘉義市政府全球資訊網",
-      "date": "Tue, 17 Nov 2026",
-      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE8xZUFIYUdVeUZYaDR2dkc2eG1Mc3pxc2lPa3hONkdoeWl3WFlFTzJHQjlTLUMydHliTnNBY3NTOHgxT2ZFaFhUTWt3MUM4RWVfZHV0aFF5UHFfV3IxUGFkOFVVUGdFOHkwaElZd2hhdWdXLWQ4VXc?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFA4QWpTQ1JEUDNDLVU4RHBlaWdZVzJKUGhXUGVCbnMwbTgzU1dVZV9ySXg0ZlhCZlF3NnVFQ01XbEV3YWxlOUNhc0dzZmxkcTFVLVE?oc=5",
       "desc": "",
       "source": "Google新聞"
     }
@@ -136,7 +136,7 @@
   "disease": {
     "dengue": [],
     "enterovirus": [],
-    "updated": "2026-11-17"
+    "updated": "2026-11-18"
   },
   "fire": {
     "chiayi_datasets": [
@@ -238,7 +238,7 @@
       "lat": 23.481634,
       "lng": 120.453745,
       "total": 45,
-      "available": 12,
+      "available": 24,
       "addr": "中山路199號(對面)"
     },
     {
@@ -247,7 +247,7 @@
       "lat": 23.482012,
       "lng": 120.457342,
       "total": 22,
-      "available": 6,
+      "available": 10,
       "addr": "中山路98號(前)"
     },
     {
@@ -256,7 +256,7 @@
       "lat": 23.482663,
       "lng": 120.462988,
       "total": 25,
-      "available": 2,
+      "available": 23,
       "addr": "中山路2號(前)"
     },
     {
@@ -265,7 +265,7 @@
       "lat": 23.478707,
       "lng": 120.462594,
       "total": 38,
-      "available": 5,
+      "available": 34,
       "addr": "啟明路122號(前)"
     },
     {
@@ -274,7 +274,7 @@
       "lat": 23.477031,
       "lng": 120.465573,
       "total": 34,
-      "available": 12,
+      "available": 18,
       "addr": "大雅路二段738號(前)"
     },
     {
@@ -283,7 +283,7 @@
       "lat": 23.4798596,
       "lng": 120.4488291,
       "total": 20,
-      "available": 1,
+      "available": 7,
       "addr": "中山路306號"
     },
     {
@@ -292,7 +292,7 @@
       "lat": 23.47963,
       "lng": 120.44583,
       "total": 20,
-      "available": 5,
+      "available": 4,
       "addr": "中山路386號"
     },
     {
@@ -301,7 +301,7 @@
       "lat": 23.47917,
       "lng": 120.44186,
       "total": 99,
-      "available": 81,
+      "available": 15,
       "addr": "中山路524號"
     },
     {
@@ -310,7 +310,7 @@
       "lat": 23.47877,
       "lng": 120.44089,
       "total": 42,
-      "available": 29,
+      "available": 27,
       "addr": "中山路528號"
     },
     {
@@ -319,7 +319,7 @@
       "lat": 23.47283,
       "lng": 120.44029,
       "total": 5,
-      "available": 4,
+      "available": 2,
       "addr": "垂楊路575號"
     },
     {
@@ -328,7 +328,7 @@
       "lat": 23.47336,
       "lng": 120.44604,
       "total": 14,
-      "available": 9,
+      "available": 7,
       "addr": "垂楊路351號"
     },
     {
@@ -337,7 +337,7 @@
       "lat": 23.4738724,
       "lng": 120.4493073,
       "total": 20,
-      "available": 5,
+      "available": 15,
       "addr": "垂楊路434號"
     },
     {
@@ -346,7 +346,7 @@
       "lat": 23.47918,
       "lng": 120.43182,
       "total": 15,
-      "available": 5,
+      "available": 6,
       "addr": "北港路278號"
     },
     {
@@ -355,7 +355,7 @@
       "lat": 23.486138,
       "lng": 120.453829,
       "total": 20,
-      "available": 2,
+      "available": 10,
       "addr": "忠孝路284號(旁)"
     },
     {
@@ -364,7 +364,7 @@
       "lat": 23.48091,
       "lng": 120.43012,
       "total": 20,
-      "available": 11,
+      "available": 12,
       "addr": "北港路312號東側"
     },
     {
@@ -373,7 +373,7 @@
       "lat": 23.48465,
       "lng": 120.43354,
       "total": 14,
-      "available": 8,
+      "available": 5,
       "addr": "友愛興達路口"
     },
     {
@@ -382,7 +382,7 @@
       "lat": 23.48931,
       "lng": 120.4361,
       "total": 15,
-      "available": 1,
+      "available": 2,
       "addr": "自由路298號"
     },
     {
@@ -391,7 +391,7 @@
       "lat": 23.49265,
       "lng": 120.43191,
       "total": 15,
-      "available": 15,
+      "available": 6,
       "addr": "自由路492號"
     },
     {
@@ -400,7 +400,7 @@
       "lat": 23.478941,
       "lng": 120.437805,
       "total": 23,
-      "available": 2,
+      "available": 8,
       "addr": "博愛路二段281號"
     },
     {
@@ -409,10 +409,10 @@
       "lat": 23.47165,
       "lng": 120.43119,
       "total": 15,
-      "available": 8,
+      "available": 12,
       "addr": "博愛路二段461號"
     }
   ],
   "water": [],
-  "fetch_seconds": 92.1
+  "fetch_seconds": 93.8
 }
