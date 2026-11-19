@@ -1,6 +1,27 @@
 {
-  "updated_at": "2026-11-19T05:43:17.719437",
+  "updated_at": "2026-11-19T15:09:32.516026",
   "news": [
+    {
+      "headline": "嘉義市第12屆市長暨議員選舉公辦政見發表會11月21、22日登場",
+      "source": "嘉義市政府/嘉義市選舉委員會",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=959337",
+      "date": "2026/11/19",
+      "query": "市府新聞"
+    },
+    {
+      "headline": "預防勝於搶救！黃敏惠市長感謝順億關係企業捐贈300組瓦斯爐自動關閉器",
+      "source": "嘉義市政府/消防局/觀光新聞處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=959333",
+      "date": "2026/11/19",
+      "query": "市府新聞"
+    },
+    {
+      "headline": "嘉市首座社會住宅「友忠好室」11/30起開放招租！市府攜手中央打造幸福城市",
+      "source": "嘉義市政府/都市發展處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=959317",
+      "date": "2026/11/19",
+      "query": "市府新聞"
+    },
     {
       "headline": "嘉義文學館年末特展登場！4條時光路線，帶你穿越百年木都風景",
       "source": "嘉義市政府/文化局/觀光新聞處",
@@ -62,27 +83,6 @@
       "source": "嘉義市政府/教育處/觀光新聞處",
       "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=959093",
       "date": "2026/11/17",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "建廟42年首度舉辦！嘉義奉天宮五朝清醮祈安大典登場",
-      "source": "嘉義市政府/民政處/觀光新聞處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=959088",
-      "date": "2026/11/17",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "嘉義市首處視覺化減速平台亮相結合照明與AI科技守護圓環第一商場行人安全",
-      "source": "嘉義市政府/交通處/觀光新聞處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=959025",
-      "date": "2026/11/16",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "十年熱忱不間斷嘉義市長黃敏惠表揚資深廉政志工",
-      "source": "嘉義市政府/政風處/觀光新聞處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=959018",
-      "date": "2026/11/16",
       "query": "市府新聞"
     }
   ],
@@ -202,7 +202,7 @@
       "2012": 1,
       "2013": 1
     },
-    "updated_at": "2026-11-19T05:40:42.851770",
+    "updated_at": "2026-11-19T15:07:43.824060",
     "source": "data.chiayi.gov.tw"
   },
   "council": {
