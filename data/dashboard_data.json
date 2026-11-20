@@ -1,6 +1,41 @@
 {
-  "updated_at": "2026-11-20T00:16:16.429752",
+  "updated_at": "2026-11-20T14:52:48.804098",
   "news": [
+    {
+      "headline": "百位家長會長、志工團長交接嘉義市持續加碼教育投資",
+      "source": "嘉義市政府/教育處/觀光新聞處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=959489",
+      "date": "2026/11/20",
+      "query": "市府新聞"
+    },
+    {
+      "headline": "環境教育在地生根、世代永續！115年環境教育繪本徵選頒獎典禮復國幼兒園溫馨登場!",
+      "source": "嘉義市政府/環境保護局/綜合計畫科",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=959487",
+      "date": "2026/11/20",
+      "query": "市府新聞"
+    },
+    {
+      "headline": "法曹詩人賴雨若先生塑像移置嘉義公園相隔近90年再逢農曆同日延續歷史記憶與尊師精神",
+      "source": "嘉義市政府/文化局/觀光新聞處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=959486",
+      "date": "2026/11/20",
+      "query": "市府新聞"
+    },
+    {
+      "headline": "嘉義公園、樹木園雙園縫合竣工串聯綠地水岸打造城市綠色新風貌",
+      "source": "嘉義市政府/工務處/觀光新聞處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=959471",
+      "date": "2026/11/20",
+      "query": "市府新聞"
+    },
+    {
+      "headline": "【『揪團出遊喬不攏？』市地重劃也有一門溝通學】",
+      "source": "嘉義市政府/地政處/地用及重劃科",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=959099",
+      "date": "2026/11/20",
+      "query": "市府新聞"
+    },
     {
       "headline": "紙容器回收不混淆！落實「清、分、疊」三步驟",
       "source": "嘉義市政府/環境保護局/資源循環管理科",
@@ -48,41 +83,6 @@
       "source": "嘉義市政府/觀光新聞處",
       "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=959193",
       "date": "2026/11/18",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "繼承車輛未辦理過戶，使用公共道路小心補稅受罰！",
-      "source": "嘉義市政府/財政稅務局",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=959188",
-      "date": "2026/11/18",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "落實住家周圍2公尺自主清掃全民打造潔淨家園",
-      "source": "嘉義市政府/環境保護局/資源循環管理科",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=959181",
-      "date": "2026/11/18",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "嘉義帝爺會平安遶境祈福活動將登場！交管資訊公開",
-      "source": "嘉義市政府/警察局/觀光新聞處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=959177",
-      "date": "2026/11/18",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "跨海牽起台日友誼！嘉市蘭潭國小赴大阪兩所小學交流台日學童共譜國際情誼",
-      "source": "嘉義市政府/教育處/觀光新聞處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=959097",
-      "date": "2026/11/17",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "黃敏惠市長視察火化場聯外道路第三期工程克服經費、工程難度全力推進",
-      "source": "嘉義市政府/工務處/觀光新聞處/企劃處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=959094",
-      "date": "2026/11/17",
       "query": "市府新聞"
     }
   ],
@@ -203,7 +203,7 @@
       "2012": 1,
       "2013": 1
     },
-    "updated_at": "2026-11-20T00:14:05.804247",
+    "updated_at": "2026-11-20T14:50:43.906283",
     "source": "data.chiayi.gov.tw"
   },
   "council": {
