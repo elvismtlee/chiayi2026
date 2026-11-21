@@ -1,6 +1,48 @@
 {
-  "updated_at": "2026-11-21T05:26:12.037887",
+  "updated_at": "2026-11-21T14:06:46.647032",
   "news": [
+    {
+      "headline": "嘉義市第12屆議員選舉第1選舉區（東區）電視公辦政見發表會",
+      "source": "嘉義市政府/嘉義市選委會/觀光新聞處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=959580",
+      "date": "2026/11/21",
+      "query": "市府新聞"
+    },
+    {
+      "headline": "嘉義市第12屆市長選舉電視公辦政見發表會",
+      "source": "嘉義市政府/嘉義市選委會/觀光新聞處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=959579",
+      "date": "2026/11/21",
+      "query": "市府新聞"
+    },
+    {
+      "headline": "從物產看見嘉義風景！嘉美館《觀物視野》探索諸羅派藝術與地方風土",
+      "source": "嘉義市政府/文化局/觀光新聞處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=959578",
+      "date": "2026/11/21",
+      "query": "市府新聞"
+    },
+    {
+      "headline": "耐斯聖誕心願卡傳愛20年！累計送出近9,500份禮物為孩子圓夢公私協力守護孩童幸福成長",
+      "source": "嘉義市政府/社會處/觀光新聞處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=959576",
+      "date": "2026/11/21",
+      "query": "市府新聞"
+    },
+    {
+      "headline": "宣信國小歡慶創校70週年！黃敏惠市長揭幕校友設計大白熊裝置藝術為校園增添新亮點",
+      "source": "嘉義市政府/教育處/觀光新聞處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=959575",
+      "date": "2026/11/21",
+      "query": "市府新聞"
+    },
+    {
+      "headline": "揮拍追夢一起飛！嘉義市世澤盃網球錦標賽登場黃敏惠市長祝福選手締造佳績",
+      "source": "嘉義市政府/教育處/觀光新聞處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=959573",
+      "date": "2026/11/21",
+      "query": "市府新聞"
+    },
     {
       "headline": "嘉義大學107週年校慶黃敏惠市長榮獲傑出校友特殊貢獻獎攜手母校傳承KANO精神、共創嘉義新局",
       "source": "嘉義市政府/教育處/觀光新聞處",
@@ -41,48 +83,6 @@
       "source": "嘉義市政府/文化局/觀光新聞處",
       "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=959486",
       "date": "2026/11/20",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "嘉義公園、樹木園雙園縫合竣工串聯綠地水岸打造城市綠色新風貌",
-      "source": "嘉義市政府/工務處/觀光新聞處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=959471",
-      "date": "2026/11/20",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "【『揪團出遊喬不攏？』市地重劃也有一門溝通學】",
-      "source": "嘉義市政府/地政處/地用及重劃科",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=959099",
-      "date": "2026/11/20",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "紙容器回收不混淆！落實「清、分、疊」三步驟",
-      "source": "嘉義市政府/環境保護局/資源循環管理科",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=959106",
-      "date": "2026/11/20",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "嘉義市第12屆市長暨議員選舉公辦政見發表會11月21、22日登場",
-      "source": "嘉義市政府/嘉義市選舉委員會",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=959337",
-      "date": "2026/11/19",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "預防勝於搶救！黃敏惠市長感謝順億關係企業捐贈300組瓦斯爐自動關閉器",
-      "source": "嘉義市政府/消防局/觀光新聞處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=959333",
-      "date": "2026/11/19",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "嘉市首座社會住宅「友忠好室」11/30起開放招租！市府攜手中央打造幸福城市",
-      "source": "嘉義市政府/都市發展處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=959317",
-      "date": "2026/11/19",
       "query": "市府新聞"
     }
   ],
@@ -203,7 +203,7 @@
       "2012": 1,
       "2013": 1
     },
-    "updated_at": "2026-11-21T05:23:10.910605",
+    "updated_at": "2026-11-21T14:04:57.116948",
     "source": "data.chiayi.gov.tw"
   },
   "council": {
