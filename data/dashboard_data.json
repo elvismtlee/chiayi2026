@@ -1,16 +1,37 @@
 {
-  "updated_at": "2026-11-22T04:47:53.997754",
+  "updated_at": "2026-11-22T14:00:35.540352",
   "news": [
     {
+      "headline": "嘉義市第12屆議員選舉第2選舉區（西區）電視公辦政見發表會",
+      "source": "嘉義市政府/嘉義市選舉委員會",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=959648",
+      "date": "2026/11/22",
+      "query": "市府新聞"
+    },
+    {
+      "headline": "嘉市幼教再傳捷報！蘭潭國小附幼勇奪教育部教學卓越獎金質獎",
+      "source": "嘉義市政府/教育處/觀光新聞處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=959647",
+      "date": "2026/11/22",
+      "query": "市府新聞"
+    },
+    {
+      "headline": "第20屆聯合盃作文大賽嘉義區初賽頒獎嘉義市深耕閱讀寫作教育",
+      "source": "嘉義市政府/教育處/觀光新聞處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=959644",
+      "date": "2026/11/22",
+      "query": "市府新聞"
+    },
+    {
       "headline": "嘉義市第12屆議員選舉第1選舉區（東區）電視公辦政見發表會",
-      "source": "嘉義市政府/嘉義市選委會/觀光新聞處",
+      "source": "嘉義市政府/嘉義市選舉委員會",
       "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=959580",
       "date": "2026/11/21",
       "query": "市府新聞"
     },
     {
       "headline": "嘉義市第12屆市長選舉電視公辦政見發表會",
-      "source": "嘉義市政府/嘉義市選委會/觀光新聞處",
+      "source": "嘉義市政府/嘉義市選舉委員會",
       "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=959579",
       "date": "2026/11/21",
       "query": "市府新聞"
@@ -62,27 +83,6 @@
       "source": "嘉義市政府/西區公所",
       "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=959457",
       "date": "2026/11/21",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "百位家長會長、志工團長交接嘉義市持續加碼教育投資",
-      "source": "嘉義市政府/教育處/觀光新聞處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=959489",
-      "date": "2026/11/20",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "環境教育在地生根、世代永續！115年環境教育繪本徵選頒獎典禮復國幼兒園溫馨登場!",
-      "source": "嘉義市政府/環境保護局/綜合計畫科",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=959487",
-      "date": "2026/11/20",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "法曹詩人賴雨若先生塑像移置嘉義公園相隔近90年再逢農曆同日延續歷史記憶與尊師精神",
-      "source": "嘉義市政府/文化局/觀光新聞處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=959486",
-      "date": "2026/11/20",
       "query": "市府新聞"
     }
   ],
@@ -203,7 +203,7 @@
       "2012": 1,
       "2013": 1
     },
-    "updated_at": "2026-11-22T04:46:00.279665",
+    "updated_at": "2026-11-22T13:58:50.294342",
     "source": "data.chiayi.gov.tw"
   },
   "council": {
