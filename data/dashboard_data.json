@@ -1,6 +1,27 @@
 {
-  "updated_at": "2026-11-23T05:30:26.218056",
+  "updated_at": "2026-11-23T17:17:41.162934",
   "news": [
+    {
+      "headline": "完善「三橫三縱三環」路網嘉義市四大優先路廊規劃成果出爐",
+      "source": "嘉義市政府/交通處/觀光新聞處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=959687",
+      "date": "2026/11/23",
+      "query": "市府新聞"
+    },
+    {
+      "headline": "提醒您115年地價稅繳納期限至11月30日",
+      "source": "嘉義市政府/財政稅務局",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=959680",
+      "date": "2026/11/23",
+      "query": "市府新聞"
+    },
+    {
+      "headline": "從工業聚落到城市綠地嘉義市番仔溝公園景觀改善啟用",
+      "source": "嘉義市政府/建設處/觀光新聞處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=959678",
+      "date": "2026/11/23",
+      "query": "市府新聞"
+    },
     {
       "headline": "嘉義市選委會印製第12屆市長、市議員、里長選舉票及全國性公投第22案公投票嚴格把關確保選務安全",
       "source": "嘉義市政府/嘉義市選舉委員會",
@@ -61,27 +82,6 @@
       "headline": "宣信國小歡慶創校70週年！黃敏惠市長揭幕校友設計大白熊裝置藝術為校園增添新亮點",
       "source": "嘉義市政府/教育處/觀光新聞處",
       "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=959575",
-      "date": "2026/11/21",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "揮拍追夢一起飛！嘉義市世澤盃網球錦標賽登場黃敏惠市長祝福選手締造佳績",
-      "source": "嘉義市政府/教育處/觀光新聞處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=959573",
-      "date": "2026/11/21",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "嘉義大學107週年校慶黃敏惠市長榮獲傑出校友特殊貢獻獎攜手母校傳承KANO精神、共創嘉義新局",
-      "source": "嘉義市政府/教育處/觀光新聞處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=959572",
-      "date": "2026/11/21",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "「沓沓仔來，顛倒較緊！」嘉義市母語生活節成果特展今登場邀市民感受母語生活的多元魅力",
-      "source": "嘉義市政府/文化局/觀光新聞處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=959488",
       "date": "2026/11/21",
       "query": "市府新聞"
     }
@@ -198,7 +198,7 @@
       "2012": 1,
       "2013": 1
     },
-    "updated_at": "2026-11-23T05:27:51.792874",
+    "updated_at": "2026-11-23T17:15:46.472525",
     "source": "data.chiayi.gov.tw"
   },
   "council": {
