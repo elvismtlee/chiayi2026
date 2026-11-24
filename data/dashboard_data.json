@@ -1,6 +1,20 @@
 {
-  "updated_at": "2026-11-24T03:46:18.953888",
+  "updated_at": "2026-11-24T16:55:40.629579",
   "news": [
+    {
+      "headline": "煙波城行阿里山北門館盛大開幕串聯林鐵文化打造嘉市觀光新亮點",
+      "source": "嘉義市政府/觀光新聞處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=959746",
+      "date": "2026/11/24",
+      "query": "市府新聞"
+    },
+    {
+      "headline": "1128投票日將至！嘉義市政府警察局公告選前之夜中山路交管資訊",
+      "source": "嘉義市政府/警察局/觀光新聞處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=959736",
+      "date": "2026/11/24",
+      "query": "市府新聞"
+    },
     {
       "headline": "從中輟邊緣到第一志願門檻！嘉市府跨局處接住孩子中輟預防獲全國第二名",
       "source": "嘉義市政府/教育處/觀光新聞處",
@@ -69,20 +83,6 @@
       "source": "嘉義市政府/教育處/觀光新聞處",
       "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=959644",
       "date": "2026/11/22",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "嘉義市第12屆議員選舉第1選舉區（東區）電視公辦政見發表會",
-      "source": "嘉義市政府/嘉義市選舉委員會",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=959580",
-      "date": "2026/11/21",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "嘉義市第12屆市長選舉電視公辦政見發表會",
-      "source": "嘉義市政府/嘉義市選舉委員會",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=959579",
-      "date": "2026/11/21",
       "query": "市府新聞"
     }
   ],
@@ -202,7 +202,7 @@
       "2012": 1,
       "2013": 1
     },
-    "updated_at": "2026-11-24T03:44:21.820488",
+    "updated_at": "2026-11-24T16:53:54.937969",
     "source": "data.chiayi.gov.tw"
   },
   "council": {
