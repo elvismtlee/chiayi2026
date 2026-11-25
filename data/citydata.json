@@ -1,44 +1,83 @@
 {
-  "updated_at": "2026-11-25T01:52:27.678030",
+  "updated_at": "2026-11-25T16:43:54.902142",
   "aqi_realtime": [
     {
-      "station": "嘉義市（Open-Meteo 模型）",
-      "aqi": 20,
-      "pm25": 14.3,
-      "pm10": 18.5,
-      "o3": 47.0,
-      "no2": 28.4,
-      "status": "良好",
-      "pollutant": "PM2.5",
-      "time": "2026-11-25T09:00",
-      "source": "Open-Meteo"
+      "station": "",
+      "aqi": 0,
+      "pm25": 0.0,
+      "pm10": 0.0,
+      "o3": 0.0,
+      "no2": 0.0,
+      "status": "",
+      "pollutant": "",
+      "time": "2026-11-25 22:00",
+      "source": "環境部"
+    },
+    {
+      "station": "",
+      "aqi": 0,
+      "pm25": 0.0,
+      "pm10": 0.0,
+      "o3": 0.0,
+      "no2": 0.0,
+      "status": "",
+      "pollutant": "",
+      "time": "2026-11-25 22:00",
+      "source": "環境部"
+    },
+    {
+      "station": "",
+      "aqi": 0,
+      "pm25": 0.0,
+      "pm10": 0.0,
+      "o3": 0.0,
+      "no2": 0.0,
+      "status": "",
+      "pollutant": "",
+      "time": "2026-11-25 22:00",
+      "source": "環境部"
     }
   ],
-  "aqi_history": [],
-  "earthquake": [],
+  "aqi_history": [
+    {
+      "month": "",
+      "aqi": 0.0,
+      "pm25": 0.0,
+      "station": "嘉義"
+    }
+  ],
+  "earthquake": [
+    {
+      "title": "規模 4.3・18 km SSW of Yonakuni, Japan",
+      "desc": "深度 47 km",
+      "date": "2026-11-25 10:18",
+      "link": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000udew",
+      "mag": 4.3
+    },
+    {
+      "title": "規模 5.3・83 km ESE of Hengchun, Taiwan",
+      "desc": "深度 10 km",
+      "date": "2026-11-25 08:47",
+      "link": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000udef",
+      "mag": 5.3
+    }
+  ],
   "weather": [
     {
       "station": "嘉義市（Open-Meteo）",
-      "temp": "20.1",
-      "apparent_temp": "22.5",
-      "humidity": "86",
+      "temp": "19.0",
+      "apparent_temp": "21.2",
+      "humidity": "89",
       "rainfall": "0.0",
       "wind_speed": "2.2",
-      "wind_dir": "180",
-      "cloud": "100",
+      "wind_dir": "55",
+      "cloud": "88",
       "weather": "陰天",
-      "time": "2026-11-25 09:45",
+      "time": "2026-11-26 00:30",
       "source": "Open-Meteo"
     }
   ],
   "announcements": [
-    {
-      "title": "嘉義市政府衛生局《代謝亮燈．快問醫生》代謝五燈獎-海選篇 - 嘉義市政府衛生局",
-      "date": "Tue, 24 Nov 2026",
-      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOT2R1bFR6a0hjZ0dZcy1ZNF9LbmxycjYtY1RUNGJSa1k1Y2gzR2QyZzdUTTNUalNNX29mM0VSY0F0T08zVjU2MS1najdER1czM0xpT3lNZkhEMTdYdl9pZmRzVFJUVklDYjdoMkZQLThCUlNDZmZ1X09neUNFUjNEejlfM3k?oc=5",
-      "desc": "",
-      "source": "Google新聞"
-    },
     {
       "title": "兒童發展篩檢及聯合評估服務 - 嘉義市政府衛生局",
       "date": "Fri, 20 Nov 2026",
@@ -47,30 +86,37 @@
       "source": "Google新聞"
     },
     {
-      "title": "嘉義市政府警察局公告選前之夜交管措施 11月27日中山路交通管制 - 蕃新聞",
-      "date": "Tue, 24 Nov 2026",
-      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE8yR0I2YTRaeU9SZXcwRkdOc1h4czc0Qkp2cFpFVmpzWnBZX1ZtZ3hUOWVTRXFMWXQ1TDJBeUFzUUVlY3hDcFFxb0hVV08zQk5PcWc?oc=5",
+      "title": "嘉義市政府揭牌阿里山公路永久地標 保存歷史意義 - 蕃新聞",
+      "date": "Wed, 25 Nov 2026",
+      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE12Nms0Yzl4SzdQUzFwVl9PdG5ORWdvMWcwSVAtY3hoZ2dvVm5fMURwM1VNendkUzVfYVYxOHd5eUxTSGxBdV9kcm1uaEFLY1Q5Y1E?oc=5",
       "desc": "",
       "source": "Google新聞"
     },
     {
-      "title": "煙波城行阿里山北門館盛大開幕 串聯林鐵文化打造嘉市觀光新亮點 - 中央社 CNA",
-      "date": "Tue, 24 Nov 2026",
-      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9PZWZ5Wk9fMzBqNW1xNWpYcVRiaW51eGRURWRWSzNQUHhWXzNZUWg5LWgyalR1Q3BKYkYwdVR1Y0U0ZUdkUWhwSklCQVVIX2JCRGxHeFl3?oc=5",
+      "title": "國際音樂團隊12月齊聚嘉義 黃敏惠市長邀欣賞世界級音樂 - 觀傳媒",
+      "date": "Wed, 25 Nov 2026",
+      "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE8xNHZxWGRBbkxuRTdVU1VISWMxRnUyX3BrZnZQR2stMmkteWJsNkQyWnBvcEthdDZJUmFWOHNwdzNBNDBmRXczNjJJNTNWRGtMS0JGaHhUQQ?oc=5",
       "desc": "",
       "source": "Google新聞"
     },
     {
-      "title": "嘉義市發表三橫三縱三環路網規劃 四大優先路廊成果出爐 - 墨新聞-MORE News",
-      "date": "Mon, 23 Nov 2026",
-      "link": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE9DdjN1bU9fUXpjdVVibkFoYm9iY0NBTEVkRF9pYmpQRGU2d19GM1g1SDlVc1k1WTdlRkZfWjladFBaUQ?oc=5",
+      "title": "台18線阿里山公路永久地標今揭牌- 政府消息新聞 - PChome Online 新聞",
+      "date": "Wed, 25 Nov 2026",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQUExXaEtfc2hfd1Y2cmd2c1BjX0VHbDZpWlU2WlB6Z1lhLVVOeldPaWlfOGxjdkU2OFM5VGlKWUY0LW9ibEFRMFBnbWwza29FbG5Hblo4ckpCSGJrWEZ4UHAzZmZCemx4akt0bDlrWGZfd29lZkR5dFdpNU1vQ0VhaDdHVFI?oc=5",
       "desc": "",
       "source": "Google新聞"
     },
     {
-      "title": "嘉市辦理菸害防制法規講習 聚焦電子煙、菸品廣告與無菸環境 - 嘉義市政府衛生局",
-      "date": "Fri, 20 Nov 2026",
-      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5NNkZrZy1wcFRsUDJNc0Zkd2tIeDhvcElPNTVUcllwVWpTOC1tRlFhUy1QTjNTWnNabTh4SS01WG9EQW0zSnI2T3F0X2lhb2hyRDJJZFMxRm5uU3NxN2JvZUszNm1TaXl3SDBkRlpuOWRnVzdrLVFKcGdfdG4?oc=5",
+      "title": "台18阿里山公路永久地標揭牌 - 中華新聞雲／中華日報",
+      "date": "Wed, 25 Nov 2026",
+      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9ueW5vUmZyUVNsZTVzT3pKU2EwRGlfTlQ0dE1zN3AtcENueVB4OXduRFgwejhGWVlRYzlyd3JpeGhZRkJtek1HclRlcGhsNWRzclE?oc=5",
+      "desc": "",
+      "source": "Google新聞"
+    },
+    {
+      "title": "嘉義市選前之夜噴水池登場！150具護欄區隔陣營　管制範圍一次看 - ETtoday新聞雲",
+      "date": "Wed, 25 Nov 2026",
+      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBLNGdjT2plMWJ0Nm5odEgzd212VUFhbjBaYW5hNmxjdk5BRkdRWkZQc3QzbmowUHF6aXVyZzFzMmpsTl9ZVU9oYWZ5ck5zWlY2Z3g1aElrODd0RWlSSUHSAUtBVV95cUxQLWpjdWo0R2lmbEZDOXpMLWNYR2JfLUVCSF9CQlpSbXM1RlBkYnhGbmd6TTJGLUtObUVoYzdJdzlWdDR3THl3dXZOTWM?oc=5",
       "desc": "",
       "source": "Google新聞"
     }
@@ -231,7 +277,188 @@
       "to": "忠孝北街"
     }
   ],
-  "youbike": [],
+  "youbike": [
+    {
+      "id": "CYI501001001",
+      "name": "嘉義市政府",
+      "lat": 23.481634,
+      "lng": 120.453745,
+      "total": 45,
+      "available": 10,
+      "addr": "中山路199號(對面)"
+    },
+    {
+      "id": "CYI501001002",
+      "name": "行政執行署",
+      "lat": 23.482012,
+      "lng": 120.457342,
+      "total": 22,
+      "available": 7,
+      "addr": "中山路98號(前)"
+    },
+    {
+      "id": "CYI501001003",
+      "name": "嘉義高商(公園派出所)",
+      "lat": 23.482663,
+      "lng": 120.462988,
+      "total": 25,
+      "available": 4,
+      "addr": "中山路2號(前)"
+    },
+    {
+      "id": "CYI501001004",
+      "name": "嘉義高中(志航街)",
+      "lat": 23.478707,
+      "lng": 120.462594,
+      "total": 38,
+      "available": 6,
+      "addr": "啟明路122號(前)"
+    },
+    {
+      "id": "CYI501001005",
+      "name": "嘉義高中(大雅路)",
+      "lat": 23.477031,
+      "lng": 120.465573,
+      "total": 34,
+      "available": 7,
+      "addr": "大雅路二段738號(前)"
+    },
+    {
+      "id": "CYI501001006",
+      "name": "臺灣銀行嘉義分行",
+      "lat": 23.4798596,
+      "lng": 120.4488291,
+      "total": 20,
+      "available": 4,
+      "addr": "中山路306號"
+    },
+    {
+      "id": "CYI501001007",
+      "name": "彰化銀行嘉義分行",
+      "lat": 23.47963,
+      "lng": 120.44583,
+      "total": 20,
+      "available": 5,
+      "addr": "中山路386號"
+    },
+    {
+      "id": "CYI501001008",
+      "name": "嘉義火車站(願景館)",
+      "lat": 23.47917,
+      "lng": 120.44186,
+      "total": 99,
+      "available": 40,
+      "addr": "中山路524號"
+    },
+    {
+      "id": "CYI501001009",
+      "name": "嘉義火車站(出口)",
+      "lat": 23.47877,
+      "lng": 120.44089,
+      "total": 42,
+      "available": 10,
+      "addr": "中山路528號"
+    },
+    {
+      "id": "CYI501001010",
+      "name": "新光三越遠東站(永和街口)",
+      "lat": 23.47283,
+      "lng": 120.44029,
+      "total": 5,
+      "available": 2,
+      "addr": "垂楊路575號"
+    },
+    {
+      "id": "CYI501001012",
+      "name": "嘉義舊市府(西榮街口)",
+      "lat": 23.47336,
+      "lng": 120.44604,
+      "total": 14,
+      "available": 3,
+      "addr": "垂楊路351號"
+    },
+    {
+      "id": "CYI501001013",
+      "name": "文化公園停車場",
+      "lat": 23.4738724,
+      "lng": 120.4493073,
+      "total": 20,
+      "available": 7,
+      "addr": "垂楊路434號"
+    },
+    {
+      "id": "CYI501001014",
+      "name": "嘉義市議會",
+      "lat": 23.47918,
+      "lng": 120.43182,
+      "total": 15,
+      "available": 9,
+      "addr": "北港路278號"
+    },
+    {
+      "id": "CYI501001015",
+      "name": "檜意森活村",
+      "lat": 23.486138,
+      "lng": 120.453829,
+      "total": 20,
+      "available": 3,
+      "addr": "忠孝路284號(旁)"
+    },
+    {
+      "id": "CYI501001016",
+      "name": "嘉義醫院(中興路)",
+      "lat": 23.48091,
+      "lng": 120.43012,
+      "total": 20,
+      "available": 6,
+      "addr": "北港路312號東側"
+    },
+    {
+      "id": "CYI501001017",
+      "name": "友愛興達路口(德安停車場)",
+      "lat": 23.48465,
+      "lng": 120.43354,
+      "total": 14,
+      "available": 6,
+      "addr": "友愛興達路口"
+    },
+    {
+      "id": "CYI501001018",
+      "name": "自由友愛站",
+      "lat": 23.48931,
+      "lng": 120.4361,
+      "total": 15,
+      "available": 3,
+      "addr": "自由路298號"
+    },
+    {
+      "id": "CYI501001019",
+      "name": "世賢八德站(自由路)",
+      "lat": 23.49265,
+      "lng": 120.43191,
+      "total": 15,
+      "available": 11,
+      "addr": "自由路492號"
+    },
+    {
+      "id": "CYI501001020",
+      "name": "博愛後驛街口",
+      "lat": 23.478941,
+      "lng": 120.437805,
+      "total": 23,
+      "available": 1,
+      "addr": "博愛路二段281號"
+    },
+    {
+      "id": "CYI501001021",
+      "name": "嘉樂福觀光夜市",
+      "lat": 23.47165,
+      "lng": 120.43119,
+      "total": 15,
+      "available": 5,
+      "addr": "博愛路二段461號"
+    }
+  ],
   "water": [],
-  "fetch_seconds": 91.0
+  "fetch_seconds": 86.8
 }

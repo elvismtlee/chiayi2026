@@ -1,6 +1,41 @@
 {
-  "updated_at": "2026-11-25T01:53:58.724557",
+  "updated_at": "2026-11-25T16:45:21.658569",
   "news": [
+    {
+      "headline": "嘉市衛生局提醒火鍋菜單標示應與實際供應食材相符",
+      "source": "嘉義市政府/衛生局",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=959854",
+      "date": "2026/11/25",
+      "query": "市府新聞"
+    },
+    {
+      "headline": "「創意亮點照亮特教學習路」嘉義市辦特殊教育教材教具設計比賽頒獎暨分享會",
+      "source": "嘉義市政府/教育處/觀光新聞處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=959883",
+      "date": "2026/11/25",
+      "query": "市府新聞"
+    },
+    {
+      "headline": "嘉義市國際教育再拓新頁！美國麻薩諸塞州教育廳長訪嘉",
+      "source": "嘉義市政府/教育處/觀光新聞處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=959867",
+      "date": "2026/11/25",
+      "query": "市府新聞"
+    },
+    {
+      "headline": "2026嘉義市國際管樂節12月4日開賣！國際音樂團隊齊聚嘉義邀樂迷共度歲末音樂盛宴",
+      "source": "嘉義市政府/文化局/觀光新聞處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=959866",
+      "date": "2026/11/25",
+      "query": "市府新聞"
+    },
+    {
+      "headline": "20年堅持守護歷史！台18線阿里山公路永久地標今揭牌擦亮嘉市「阿里山入口門戶」城市招牌",
+      "source": "嘉義市政府/交通處/觀光新聞處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=959865",
+      "date": "2026/11/25",
+      "query": "市府新聞"
+    },
     {
       "headline": "煙波城行阿里山北門館盛大開幕串聯林鐵文化打造嘉市觀光新亮點",
       "source": "嘉義市政府/觀光新聞處",
@@ -48,41 +83,6 @@
       "source": "嘉義市政府/財政稅務局",
       "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=959680",
       "date": "2026/11/23",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "從工業聚落到城市綠地嘉義市番仔溝公園景觀改善啟用",
-      "source": "嘉義市政府/建設處/觀光新聞處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=959678",
-      "date": "2026/11/23",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "嘉義市選委會印製第12屆市長、市議員、里長選舉票及全國性公投第22案公投票嚴格把關確保選務安全",
-      "source": "嘉義市政府/嘉義市選舉委員會",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=959674",
-      "date": "2026/11/23",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "嘉義市第12屆議員選舉第2選舉區（西區）電視公辦政見發表會",
-      "source": "嘉義市政府/嘉義市選舉委員會",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=959648",
-      "date": "2026/11/22",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "嘉市幼教再傳捷報！蘭潭國小附幼勇奪教育部教學卓越獎金質獎",
-      "source": "嘉義市政府/教育處/觀光新聞處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=959647",
-      "date": "2026/11/22",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "第20屆聯合盃作文大賽嘉義區初賽頒獎嘉義市深耕閱讀寫作教育",
-      "source": "嘉義市政府/教育處/觀光新聞處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=959644",
-      "date": "2026/11/22",
       "query": "市府新聞"
     }
   ],
@@ -202,7 +202,7 @@
       "2012": 1,
       "2013": 1
     },
-    "updated_at": "2026-11-25T01:51:36.619923",
+    "updated_at": "2026-11-25T16:43:38.729777",
     "source": "data.chiayi.gov.tw"
   },
   "council": {
