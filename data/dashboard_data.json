@@ -1,6 +1,41 @@
 {
-  "updated_at": "2026-11-27T01:28:48.294392",
+  "updated_at": "2026-11-27T16:07:51.602272",
   "news": [
+    {
+      "headline": "嘉義市第12屆市長暨議員選舉選前之夜順利落幕",
+      "source": "嘉義市政府/嘉義市選舉委員會",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=960098",
+      "date": "2026/11/27",
+      "query": "市府新聞"
+    },
+    {
+      "headline": "嘉義市政府第27次廉政會報登場深化企業誠信食安與校園廉潔教育打造透明信賴的幸福嘉義市",
+      "source": "嘉義市政府/政風處/觀光新聞處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=960095",
+      "date": "2026/11/27",
+      "query": "市府新聞"
+    },
+    {
+      "headline": "內政部戶政司全球資訊網115年12月4日19時30分至23時進行系統版本更新作業，該時段各項服務均暫停!",
+      "source": "嘉義市政府/民政處/嘉義市東區戶政事務所/嘉義市西區戶政事務所",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=960081",
+      "date": "2026/11/27",
+      "query": "市府新聞"
+    },
+    {
+      "headline": "千錘百鍊終迎榮耀！嘉市特搜通過NAP國家認證瓜地馬拉、波蘭教官跨國交流見證實力",
+      "source": "嘉義市政府/消防局",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=960079",
+      "date": "2026/11/27",
+      "query": "市府新聞"
+    },
+    {
+      "headline": "從取景地升級內容開發夥伴！嘉義市政府雙軌並進「2026TCCF」與「金馬創投會議」",
+      "source": "嘉義市政府/文化局/觀光新聞處",
+      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=960076",
+      "date": "2026/11/27",
+      "query": "市府新聞"
+    },
     {
       "headline": "區段徵收抵價地怎麼分配?原則一次看懂!",
       "source": "嘉義市政府/地政處/地用及重劃科",
@@ -48,41 +83,6 @@
       "source": "嘉義市政府/嘉義市選舉委員會",
       "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=959995",
       "date": "2026/11/26",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "嘉義市政府警察局表揚員警好人好事績優人員",
-      "source": "嘉義市政府/警察局",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=959986",
-      "date": "2026/11/26",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "表揚嘉義市115年績優守望相助隊",
-      "source": "嘉義市政府/警察局",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=959985",
-      "date": "2026/11/26",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "嘉市警局動員600名警力維安選前之夜",
-      "source": "嘉義市政府/警察局",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=959984",
-      "date": "2026/11/26",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "嘉市衛生局提醒火鍋菜單標示應與實際供應食材相符",
-      "source": "嘉義市政府/衛生局",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=959854",
-      "date": "2026/11/25",
-      "query": "市府新聞"
-    },
-    {
-      "headline": "「創意亮點照亮特教學習路」嘉義市辦特殊教育教材教具設計比賽頒獎暨分享會",
-      "source": "嘉義市政府/教育處/觀光新聞處",
-      "link": "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=959883",
-      "date": "2026/11/25",
       "query": "市府新聞"
     }
   ],
@@ -201,7 +201,7 @@
       "2012": 1,
       "2013": 1
     },
-    "updated_at": "2026-11-27T01:27:05.384495",
+    "updated_at": "2026-11-27T16:03:40.105751",
     "source": "data.chiayi.gov.tw"
   },
   "council": {
